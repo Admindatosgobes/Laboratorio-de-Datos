@@ -1,0 +1,258 @@
+---
+title: "ACTION Report 1 2020"
+author: "Alejandro Alija, PhD"
+date: "11/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Pre-requisitos
+
+En esta sección instalamos las dependencias en R necesarias.
+
+```{r, echo=TRUE, message=FALSE}
+#Installing dependencies
+## First specify the packages of interest
+packages = c("tidyverse", "dplyr",
+             "ggplot2", "plotly", "readr", 
+             "lubridate", "tibbletime", 
+             "timetk", "modeltime",
+             "tidymodels", "data.table")
+
+## Now load or install&load all
+package.check <- lapply(
+  packages,
+  FUN = function(x) {
+    if (!require(x, character.only = TRUE)) {
+      install.packages(x, dependencies = TRUE)
+      library(x, character.only = TRUE)
+    }
+  }
+)
+```
+
+Por favor, no olvides indicar el directorio de trabajo en el que quieres trabajar en el siguiente fragmento de código.
+
+```{r, echo=TRUE, message=FALSE}
+#Setting the working directory
+
+## Important! Set here your own working directory ##
+
+setwd("<your_working_dir_here")
+
+
+```
+
+
+
+
+## Descarga e Importación del conjunto de datos
+
+
+
+
+```{r data, echo=TRUE, message=FALSE}
+
+#Following the pattern you can add more files for this analysis.
+
+if (dir.exists(".files") == FALSE)
+  dir.create("./files")
+
+setwd("./files")
+
+datasets <- c("https://datos.madrid.es/egob/catalogo/300228-12-accidentes-trafico-detalle.csv",
+              "https://datos.madrid.es/egob/catalogo/300228-13-accidentes-trafico-detalle.csv", 
+              "https://datos.madrid.es/egob/catalogo/300228-14-accidentes-trafico-detalle.csv",
+              "https://datos.madrid.es/egob/catalogo/300228-15-accidentes-trafico-detalle.csv",
+              "https://datos.madrid.es/egob/catalogo/300228-16-accidentes-trafico-detalle.csv", 
+              "https://datos.madrid.es/egob/catalogo/300228-17-accidentes-trafico-detalle.csv",
+              "https://datos.madrid.es/egob/catalogo/300228-18-accidentes-trafico-detalle.csv",
+              "https://datos.madrid.es/egob/catalogo/300228-19-accidentes-trafico-detalle.csv",
+              "https://datos.madrid.es/egob/catalogo/300228-21-accidentes-trafico-detalle.csv"
+)
+
+dt <- list()
+for (i in 1:length(datasets)){
+  files <- c("traffic2012",
+             "traffic2013",
+             "traffic2014",
+             "traffic2015",
+             "traffic2016",
+             "traffic2017", 
+             "traffic2018", 
+             "traffic2019", 
+             "traffic2020")
+  #Uncomment the following line if you want donwload the files (e.g if this is the first time you execute the notebook)
+  
+  #download.file(datasets[i], files[i])
+  filelist <- list.files(".")
+  print(i)
+  dt[i] <- lapply(filelist[i], read_delim, ";", escape_double = FALSE, 
+                   locale = locale(encoding = "WINDOWS-1252"),
+                   trim_ws = TRUE)
+}
+
+traffic<-rbindlist(dt, use.names=TRUE, fill=TRUE)
+traffic <- setDT(traffic)
+
+
+```
+
+## Converting formats
+
+```{r, echo=TRUE, message=FALSE}
+#Formating the Date and some other data types
+
+traffic$FECHA <- dmy(traffic$FECHA)
+traffic$`TIPO ACCIDENTE` <- as.factor(traffic$`TIPO ACCIDENTE`)
+traffic$`TIPO VEHÍCULO` <- as.factor(traffic$`TIPO VEHÍCULO`)
+traffic$`TIPO PERSONA` <- as.factor(traffic$`TIPO VEHÍCULO`)
+traffic$`ESTADO METEREOLÓGICO` <- as.factor(traffic$`ESTADO METEREOLÓGICO`)
+traffic$`RANGO EDAD` <- as.factor(traffic$`RANGO EDAD`)
+traffic$SEXO <- as.factor(traffic$SEXO)
+traffic$SEXO <- toupper(traffic$SEXO )
+```
+
+
+## Algunas figuras básicas
+
+```{r}
+print(summary(traffic))
+str(traffic)
+```
+
+```{r, echo=TRUE, message=FALSE}
+traffic$YEAR <- factor(year(traffic$FECHA))
+trafficcount <- traffic[, .(count = .N), by= year(FECHA)]
+trafficcount <- trafficcount[order(-count)]
+ggplot(trafficcount[order(count)], aes(x=reorder(year, -count))) + 
+  geom_bar(aes(y=count, fill=as.factor(year)), stat = "identity") + 
+  xlab("Año") + 
+  ylab("Accidentes") -> baseplot
+
+ggplotly(baseplot)
+```
+
+Ranking de accidentes por años. Varias consideraciones al respecto:
+
+* 2020 solo contiene datos hasta el mes de Octubre. Independientemente de disponer de un menor histórico, la reducción drástica del número de accidentes es debido al confinamiento domiciliario derivados del la crisis del covid-19.
+
+* En 2019 los datos son significativamente mayores que le resto de años debido al cambio de cuantificación desde 2019 en adelante. De 2010 a 2018 solo registran los accidentes con heridos o con daños al patrimonio municipal.
+
+
+```{r, echo=FALSE, message=FALSE}
+baseplot <- ggplot(na.omit(traffic, cols=c("SEXO", "DISTRITO")), aes(x=year(FECHA), fill=SEXO)) + 
+  geom_bar(stat = "count") + 
+  xlab("Año") + 
+  ylab("Accidentes") + 
+  facet_wrap(~DISTRITO, ncol = 5, as.table = FALSE)
+
+ggplotly(baseplot)
+```
+
+
+Observamos en esta figura el número de accidentes a lo largo de los años, clasificados por el distrito correspondiente y analizando el efecto del sexo del involucrado en el accidente. Como bien es sabido de todas las estadísticas facilitadas por las autoridades, los hombres cuentan con más siniestralidad de tráfico que las mujeres. 
+
+
+## Algunas agregaciones básicas
+
+```{r, echo=FALSE, message=FALSE}
+# Aggregation
+
+traffic_agg <- traffic[year(FECHA)==2019, .(count = .N), 
+                       by= c("`Nº  EXPEDIENTE`", "FECHA", "DISTRITO")]
+traffic_agg2 <- traffic[year(FECHA)==2019, .(count = .N), 
+                        by= c("`Nº  EXPEDIENTE`", "FECHA")]
+traffic_agg3 <- traffic[, .(count = .N), 
+                        by= c("FECHA")]
+
+
+
+```
+
+
+## Algunos plots básicos de series temporales
+
+En esta figura se observa la serie temporal y el efecto del confinamiento total a partir de Marzo de 2020. 
+
+```{r, echo=FALSE, message=FALSE}
+names(traffic_agg3) <- c("date", "value")
+plot_time_series(traffic_agg3, date, value)
+```
+
+## Analítica predictiva
+
+```{r, echo=TRUE, message=FALSE}
+names(traffic_agg3) <- c("date", "value")
+
+plot_time_series(traffic_agg3, date, value)
+
+splits <- traffic_agg3 %>%
+  time_series_split(assess = "3 months", cumulative = TRUE)
+
+splits %>%
+  tk_time_series_cv_plan() %>%
+  plot_time_series_cv_plan(date, value)
+
+
+# Add time series signature
+recipe_spec_timeseries <- recipe(value ~ ., data = training(splits)) %>%
+  step_timeseries_signature(date) 
+
+bake(prep(recipe_spec_timeseries), new_data = training(splits))
+
+recipe_spec_final <- recipe_spec_timeseries %>%
+  step_fourier(date, period = 365, K = 5) %>%
+  step_rm(date) %>%
+  step_rm(contains("iso"), contains("minute"), contains("hour"),
+          contains("am.pm"), contains("xts")) %>%
+  step_normalize(contains("index.num"), date_year) %>%
+  step_dummy(contains("lbl"), one_hot = TRUE) 
+
+juice(prep(recipe_spec_final))
+
+model_spec_lm <- linear_reg(mode = "regression") %>%
+  set_engine("lm")
+
+workflow_lm <- workflow() %>%
+  add_recipe(recipe_spec_final) %>%
+  add_model(model_spec_lm)
+
+workflow_lm
+
+
+workflow_fit_lm <- workflow_lm %>% fit(data = training(splits))
+
+model_table <- modeltime_table(workflow_fit_lm)
+
+model_table
+
+calibration_table <- model_table %>%
+  modeltime_calibrate(testing(splits))
+
+calibration_table
+
+
+calibration_table %>%
+  modeltime_forecast(actual_data = traffic_agg3) %>%
+  plot_modeltime_forecast()
+
+
+calibration_table %>%
+  modeltime_accuracy() %>%
+  table_modeltime_accuracy()
+
+
+calibration_table %>%
+  modeltime_refit(traffic_agg3) %>%
+  modeltime_forecast(h = "3 months", actual_data = traffic_agg3) %>%
+  plot_modeltime_forecast()
+```
+
+
+
+
