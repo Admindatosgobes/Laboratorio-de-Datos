@@ -1,6 +1,6 @@
-##Laboratorio de Datos
+# Laboratorio de Datos #
 
-#Tecnologías emergentes y datos abiertos
+## Tecnologías emergentes y datos abiertos ##
 
 2. [Procesamiento del lenguaje natural](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-procesamiento-del-lenguaje-natural)
 
