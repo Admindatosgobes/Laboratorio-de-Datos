@@ -29,6 +29,6 @@ Tras una breve introducción que contextualiza la materia a tratar y explica la 
 
 El informe finaliza con la sección **Última parada**, donde se recopilan cursos, libros y artículos de interés para aquellos usuarios que quieran seguir avanzando en la materia.
 
-En **Documentación** puedes descargarte el informe completo y el resto de materiales adicionales, así como acceder al **Código** utilizado en el ejemplo de **Action**.
+En [el informe](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-analitica-predictiva) puedes descargarte los materiales adicionales, así como acceder al **Código** utilizado en el ejemplo de **Action**.
 
 *Nota: El código publicado pretende ser una guía para el lector, pero puede requerir de dependencias externas o configuraciones específicas para cada usuario que desee ejecutarlo.​*
