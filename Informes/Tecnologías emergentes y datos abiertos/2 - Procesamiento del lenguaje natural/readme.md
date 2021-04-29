@@ -18,6 +18,6 @@ Finalmente, para aquellos lectores más entusiastas, en la sección **Action**, 
 
 El informe finaliza con un listado de recursos y lecturas para que aquellos usuarios que deseen continuar ampliando sus conocimientos sobre Inteligencia Artificial.
 
-En [el informe](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-procesamiento-del-lenguaje-natural) puedes descargarte los materiales adicionales, así como acceder al **Código** utilizado en el ejemplo de **Action**.
+En el [informe](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-procesamiento-del-lenguaje-natural) puedes descargarte los materiales adicionales, así como acceder al **Código** utilizado en el ejemplo de **Action**.
 
 *Nota: El código publicado pretende ser una guía para el lector, pero puede requerir de dependencias externas o configuraciones específicas para cada usuario que desee ejecutarlo.​*
