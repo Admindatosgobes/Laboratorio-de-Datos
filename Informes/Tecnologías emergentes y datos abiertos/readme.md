@@ -3,7 +3,7 @@
 #Tecnologías emergentes y datos abiertos
 
 
-**Serie de informes** en datos.gob.es, bajo la metodología “**Awareness, Inspire, Action**” trata de explicar cómo funcionan distintas tecnologías emergentes y su relación con los datos abiertos. El objetivo es introducir en la materia al lector mediante el empleo de casos de uso prácticos, sencillos y reconocibles:
+**Serie de informes** en (datos.gob.es)[https://datos.gob.es/], bajo la metodología “**Awareness, Inspire, Action**” trata de explicar cómo funcionan distintas tecnologías emergentes y su relación con los datos abiertos. El objetivo es introducir en la materia al lector mediante el empleo de casos de uso prácticos, sencillos y reconocibles:
 
 1. [Inteligencia Artificial](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-inteligencia-artificial)
 
