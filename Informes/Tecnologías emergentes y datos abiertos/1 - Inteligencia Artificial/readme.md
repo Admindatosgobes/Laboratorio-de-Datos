@@ -6,7 +6,7 @@
 
 *Informe elaborado por **Alejandro Alija**, experto en **Transformación Digital e Innovación**.*
 
-Estrenamos una [nueva serie de informes en datos.gob.es](https://datos.gob.es/es/noticia/datosgobes-lanza-una-serie-de-informes-sobre-tecnologias-disruptivas-y-datos-abiertos), que bajo la metodología “**Awareness, Inspire, Action**” trata de explicar **cómo funcionan distintas tecnologías emergentes y su relación con los datos abiertos**. El objetivo es introducir en la materia al lector mediante el empleo de casos de uso prácticos, sencillos y reconocibles.
+Estrenamos una [nueva serie de informes en datos.gob.es](https://datos.gob.es/es/noticia/datosgobes-lanza-una-serie-de-informes-sobre-tecnologias-disruptivas-y-datos-abiertos), que bajo la metodología “[**Awareness, Inspire, Action**](https://datos.gob.es/es/noticia/datosgobes-lanza-una-serie-de-informes-sobre-tecnologias-disruptivas-y-datos-abiertos)” trata de explicar **cómo funcionan distintas tecnologías emergentes y su relación con los datos abiertos**. El objetivo es introducir en la materia al lector mediante el empleo de casos de uso prácticos, sencillos y reconocibles.
 
 El primer informe de la serie está dedicado a la **Inteligencia Artificial**. Podemos definir la Inteligencia Artificial (IA) como la **capacidad de una máquina para imitar la inteligencia humana**. Esta tecnología tendrá un gran impacto en nuestras vidas, mediante dos vías: la automatización de tareas cotidianas, rutinarias y peligrosas y el **aumento de las capacidades humanas^^, ayudando a potenciar la fuerza del trabajo del futuro.
 
@@ -20,6 +20,6 @@ El informe ha sido elaborado por *Alejandro Alija*, experto en Transformación D
 
 El informe finaliza con un listado de recursos y lecturas para que aquellos usuarios que deseen continuar ampliando sus conocimientos sobre Inteligencia Artificial.
 
-En **Documentación** puedes descargarte el informe completo y el resto de materiales adicionales, así como acceder al **Código** utilizado en el ejemplo de **Action**.
+En [Inteligencia Artificial](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-inteligencia-artificial) puedes descargarte el informe completo y el resto de materiales adicionales, así como acceder al **Código** utilizado en el ejemplo de **Action**.
 
 *Nota: El código publicado pretende ser una guía para el lector, pero puede requerir de dependencias externas o configuraciones específicas para cada usuario que desee ejecutarlo.​*
