@@ -2,7 +2,7 @@
 
 #Tecnologías emergentes y datos abiertos
 
-1. Inteligencia Artificial
+1. [Inteligencia Artificial](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-inteligencia-artificial)
 
 *Informe elaborado por **Alejandro Alija**, experto en **Transformación Digital e Innovación**.*
 
