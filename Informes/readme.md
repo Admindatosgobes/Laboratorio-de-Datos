@@ -1,6 +1,6 @@
-## Laboratorio de Datos ##
+# Laboratorio de Datos
 
-# Informes
+## Informes
 
 - Tecnologías emergentes y datos abiertos
 	1. [Tecnologías emergentes y datos abiertos: Inteligencia Artificial](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-inteligencia-artificial)
