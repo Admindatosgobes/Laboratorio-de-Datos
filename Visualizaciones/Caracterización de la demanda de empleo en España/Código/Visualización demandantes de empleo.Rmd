@@ -1,0 +1,504 @@
+---
+title: "Caracterización de la demanda de empleo en España"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Fijar el directorio de trabajo 
+
+```{r Fijar directorio de trabajo, include=FALSE}
+## ¡IMPORTANTE! Aquí establezca su propio directorio de trabajo
+setwd("C:/Users/esansegu/Proyecto_GitHub/Visualizacion_brecha_genero/documentos GitHub")
+```
+
+
+## Tratamiento de datos
+
+### Instalación y carga de librerías 
+
+Para el desarrollo de esta visualización necesitamos instalar una serie de librerías adicionales de R. 
+
+```{r carga de librerías, warning = FALSE, message = FALSE}
+
+#Instalación de librerías 
+
+  #El paquete readxl facilita la extracción de datos de Excel 
+if (!requireNamespace("readxl", quietly = TRUE)) {install.packages("readxl")}
+
+  #El paquete dplyr presenta una colección de funciones para realizar de manera sencilla operaciones de manipulación de datos 
+if (!requireNamespace("dplyr", quietly = TRUE))
+{install.packages("dplyr")}
+
+  #El paquete libridate para el manejo de variables tipo fecha
+if (!requireNamespace("lubridate", quietly = TRUE)) {install.packages("lubridate")}
+
+  #ggplot2 es un paquete para visualizar datos 
+if (!requireNamespace("ggplot2", quietly = TRUE)) {install.packages("ggplot2")}
+
+  #El paquete dlookr presenta un conjunto de herramientas para el diagnóstico, la exploración y transformación de datos
+if (!requireNamespace("dlookr", quietly = TRUE)) {install.packages("dlookr")}
+
+
+#Carga de librerías en el entorno de desarrollo 
+library(readxl)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+library(dlookr)
+```
+
+### Carga y limpieza de datos 
+
+#### Carga de datasets 
+
+Cargamos todos los conjuntos de datos que nos interesen en nuestro entorno de desarrollo. 
+
+```{r carga de datos, warning = FALSE}
+
+#Carga de datasets de demandantes de empleo por municipio desde 2006 hasta 2020.
+
+demandantes_empleo_2006 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2006_csv.csv", 
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2007 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2007_csv.csv", 
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2008 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2008_csv.csv", 
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2009 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2009_csv.csv", 
+          sep=";", skip =1, header= T)
+
+demandantes_empleo_2010 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2010_csv.csv", 
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2011 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2011_csv.csv", 
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2012 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2012_csv.csv", 
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2014 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2014_csv.csv", 
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2015 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2015_csv.csv",
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2016 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2016_csv.csv",
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2017 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2017_csv.csv", 
+           sep=";", skip = 1, header = T)
+
+demandantes_empleo_2018 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2018_csv.csv", 
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2019 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2019_csv.csv",
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2020 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2020_csv.csv",
+          sep=";", skip = 1, header = T)
+
+demandantes_empleo_2021 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2021_csv.csv",
+          sep=";", skip = 1, header = T)
+
+
+#Carga de datasets de gasto en prestaciones por desempleo por provincia desde 2010 hasta 2020 
+
+gasto_2010 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2010_csv.csv", 
+           sep=";", skip = 1, header = T)
+
+gasto_2011 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2011_csv.csv",
+           sep=";", skip = 1, header = T)
+
+gasto_2012 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2012_csv.csv", 
+           sep=";", skip = 1, header = T)
+
+gasto_2014 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2014_csv.csv", 
+           sep=";", skip = 1, header = T)
+
+gasto_2015 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2015_csv.csv", 
+           sep=";", skip = 1, header = T)
+
+gasto_2016 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2016_csv.csv", 
+           sep=";", skip = 1, header = T)
+
+gasto_2017 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2017_csv.csv", 
+           sep=";", skip = 1, header = T)
+
+gasto_2018 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2018_csv.csv",
+           sep=";", skip = 1, header = T)
+
+gasto_2019 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2019_csv.csv", 
+           sep=";", skip = 1, header = T)
+
+gasto_2020 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2020_csv.csv",
+           sep=";", skip = 1, header = T)
+
+gasto_2021 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2021_csv.csv",
+           sep=";", skip = 1, header = T)
+
+
+#Carga de datasets de nuevos contratos a demandantes de empleo desde 2006 hasta 2020
+
+contratos_2006 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2006_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2007 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2007_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2008 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2008_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2009 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2009_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2010 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2010_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2011 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2011_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2012 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2012_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2014 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2014_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2015 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2015_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2016 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2016_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2017 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2017_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2018 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2018_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2019 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2019_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2020 <- 
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2020_csv.csv", sep=";", skip = 1, header = T)
+
+contratos_2021 <-
+  read.csv("https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2021_csv.csv", sep=";", skip = 1, header = T)
+
+#Cargamos los datasets del año 2013 que se encuentran en formato xls 
+
+    #Cargamos los datasets de demandantes de empleo por municipio para el primer y segundo semestre de 2013
+
+demandantes_empleo_2013_1S <-
+  read_excel("Dtes_empleo_por_municipios_primer_semestre_2013_xls.xls", 
+                                         skip = 1, col_names = TRUE)
+
+demandantes_empleo_2013_2S <- read_excel("Dtes_empleo_por_municipios_segundo_semestre_2013_xls.xls", 
+                                         skip = 1, col_names = TRUE)
+
+    #Unimos ambos datasets 
+
+demandantes_empleo_2013 <- rbind(demandantes_empleo_2013_1S, 
+                                 demandantes_empleo_2013_2S)
+
+
+    #Cargamos el dataset de gasto en prestaciones por desempleo por provincia en 2013
+
+gasto_2013<- read_excel("Gastos_Prestaciones_2013_xls.xls", 
+                        skip = 1, col_names = TRUE)
+
+
+    #Cargamos los datasets de nuevos contratos a demandantes de empleo por municipio para el primer y segundo semestre de 2013
+
+contratos_2013_1s<- read_excel("Contratos_por_municipios_primer_semestre_2013_xls.xls",
+                               skip = 1, col_names = TRUE)
+
+contratos_2013_2s<- read_excel("Contratos_por_municipios_segundo_semestre_2013_xls.xls",
+                               skip = 1, col_names = TRUE)
+
+    #unimos ambos dataset de 2013
+contratos_2013 <- rbind(contratos_2013_1s, contratos_2013_2s)
+
+```
+
+Cuando cargamos los datos en formato xls, se cargan en tipo "tibble". Para poder trabajar con ellos al igual que con los otros datos (que se cargan en tipo "data.frame"), los transformamos a un objeto "data.frame".
+
+```{r class 1, warning = FALSE, echo = FALSE}
+#Dataset de demandantes de empleo en 2013
+class(demandantes_empleo_2013)
+demandantes_empleo_2013 <- as.data.frame(demandantes_empleo_2013)
+
+#Dataset de gasto en prestaciones por desempleo en 2013
+class (gasto_2013)
+gasto_2013_1s <- as.data.frame(gasto_2013)
+
+#Dataset de nuevos contratos a demandates de empleo en 2013
+class (contratos_2013)
+contatos_2013 <- as.data.frame(contratos_2013)
+```
+
+Al cargar los datos en dos formatos diferentes (.csv y .xls), aunque las variables sean las mismas, RStudio interpreta los nombres de manera diferente. Para unir todos los conjuntos de datos, sus variables deben presentar el mismo nombre. Como sabemos que los datasets presentan las mismas variables, haremos coincidir los nombres de estas en todos los datasets.
+
+
+```{r variables dataset 2013, warning = FALSE, results='hide'}
+#Cambio de nombre a las variables del dataset de demandantes de empleo de 2013
+identical(names(demandantes_empleo_2006), names(demandantes_empleo_2013))
+names(demandantes_empleo_2013) <- names(demandantes_empleo_2006)
+
+#Cambio de nombre a las variables del dataset de gasto en prestaciones por desempleo de 2013
+identical(names(gasto_2010), names(gasto_2013))
+names(gasto_2013) <- names(gasto_2010)
+
+#Cambio de nombre a las variables del dataset de contratos nuevos a demandantes de empleo en 2013
+identical(names(contratos_2006), names(contratos_2013))
+names(contratos_2013) <- names (contratos_2006)
+```
+
+Una vez que tenemos todos los conjuntos de datos cargados en el entorno de desarrollo, debemos unificarlos para así tener un único dataset que integre todos los años de la serie temporal, por cada una de las características relacionadas con el perfil de demandantes de empleo que estamos analizando (número de demandantes de empleo, gasto por desempleo y nuevos contratos a demandantes de empleo)
+
+```{r Unir datasets, warning = FALSE, results='hide'}
+#Unión de los datasets del número de demandantes de empleo 
+datos_desempleo <- rbind(demandantes_empleo_2006, demandantes_empleo_2007,
+                         demandantes_empleo_2008, demandantes_empleo_2009,
+                         demandantes_empleo_2010, demandantes_empleo_2011,
+                         demandantes_empleo_2012, demandantes_empleo_2013,
+                         demandantes_empleo_2014,
+                         demandantes_empleo_2015, demandantes_empleo_2016,
+                         demandantes_empleo_2017, demandantes_empleo_2018,
+                         demandantes_empleo_2019, demandantes_empleo_2020,
+                         demandantes_empleo_2021) 
+
+#Unión de los datasets de gasto en prestaciones por desempleo
+gasto_desempleo <- rbind(gasto_2010, gasto_2011, gasto_2012, gasto_2014, 
+                         gasto_2013, gasto_2015,gasto_2016, gasto_2017, 
+                         gasto_2018,gasto_2019, gasto_2020, gasto_2021)
+
+#Unión de los datasets de  contratos nuevos a demandantes de empleo 
+contratos <- rbind(contratos_2006, contratos_2007, contratos_2008,
+                   contratos_2009,contratos_2010, contratos_2011, 
+                   contratos_2012, contratos_2013, 
+                   contratos_2014, contratos_2015, contratos_2016,
+                   contratos_2017,contratos_2018, contratos_2019, 
+                   contratos_2020, contratos_2021)
+```
+
+Previsualización de los conjuntos de datos: 
+
+```{r Previsualizaciónn datos, warning = FALSE, echo=FALSE, results='hide'}
+#Previsualización de la tabla de demandantes de empleo 
+knitr::kable(head(datos_desempleo [,c(-2,-3,-5,-7)]))
+
+#Previsualización de la tabla de gasto en prestaciones por desempleo 
+knitr::kable(head(gasto_desempleo [, c(-2,-3,-5)]))
+
+#Previsualización de la tabla de contratos nuevos a demandantes de empleo
+knitr::kable(head(contratos [, c(-2,-3,-5, -7)]))
+```
+
+### Creación de un nuevo dataset 
+Crearemos una nueva tabla, en el cual seleccionaremos las variables que nos interesan de cada uno de las tablas generados hasta el momento: demandantes de empleo ("datos_desempleo"), prestación por desempleo ("gasto_desempleo")) y contratos nuevos a demandantes de empleo ("contratos"). 
+
+```{r creación de nuevo dataset, warning = FALSE, message = FALSE}
+#Realizamos un group by a la tabla de "datos_desempleo", agruparemos las variables numéricas que nos interesen, en función de varias variables categóricas
+dtes_empleo_provincia <- datos_desempleo %>% 
+  group_by(Código.mes, Comunidad.Autónoma, Provincia) %>%
+  summarise(total.Dtes.Empleo = (sum(total.Dtes.Empleo)), 
+            Dtes.hombre.25 = (sum(Dtes.Empleo.hombre.edad...25)),
+            Dtes.hombre.25.45 = (sum(Dtes.Empleo.hombre.edad.25..45)), 
+            Dtes.hombre.45 = (sum(Dtes.Empleo.hombre.edad...45)),
+            Dtes.mujer.25 = (sum(Dtes.Empleo.mujer.edad...25)),
+            Dtes.mujer.25.45 = (sum(Dtes.Empleo.mujer.edad.25..45)),
+            Dtes.mujer.45 = (sum(Dtes.Empleo.mujer.edad...45)))
+
+#Realizamos un group by a la tabla de "contratos", agruparemos las variables numéricas que nos interesen en función de las variables categóricas.
+contratos_provincia <- contratos %>% 
+  group_by(Código.mes, Comunidad.Autónoma, Provincia) %>%
+  summarise(Total.Contratos = (sum(Total.Contratos)),
+            Contratos.iniciales.indefinidos.hombres =
+              (sum(Contratos.iniciales.indefinidos.hombres)),
+            Contratos.iniciales.temporales.hombres =
+              (sum(Contratos.iniciales.temporales.hombres)), 
+            Contratos.iniciales.indefinidos.mujeres = 
+              (sum(Contratos.iniciales.indefinidos.mujeres)),
+            Contratos.iniciales.temporales.mujeres = 
+              (sum(Contratos.iniciales.temporales.mujeres)))
+
+#Seleccionamos las variables que nos interesen de la tabla de "gasto_desempleo"
+gasto_desempleo_nuevo <- gasto_desempleo %>% select(Código.mes, Comunidad.Autónoma, Provincia, Gasto.Total.Prestación, Gasto.Prestación.Contributiva)
+View(gasto_desempleo_nuevo)
+```
+
+Procedemos a unir todas las variables en una única tabla:
+
+```{r unión de los 3 datasets, warning = FALSE}
+Caract_Dtes_empleo <- Reduce(merge, list(dtes_empleo_provincia, 
+                               gasto_desempleo_nuevo, contratos_provincia))
+```
+
+### Transformación de variables 
+
+Una vez tengamos la tabla con las variables de interés para el análisis y la visualización, debemos transformar algunas de ellas a otros formatos más adecuados para futuras agregaciones.
+
+```{r Transformar variables tabla Carct_Dtes_empleo, warning = FALSE, results='hide'}
+#Transformación de una variable fecha en la tabla Carct_Dtes_empleo
+Caract_Dtes_empleo$Código.mes <- as.factor(Caract_Dtes_empleo$Código.mes)
+
+Caract_Dtes_empleo$Código.mes <- parse_date_time(Caract_Dtes_empleo$Código.mes,
+                                              (c("200601", "ym")), 
+                                              truncated = 3)
+
+Caract_Dtes_empleo$Código.mes <- as.factor(Caract_Dtes_empleo$Código.mes)
+
+#Transformamos a variable numérica en la tabla Carct_Dtes_empleo
+Caract_Dtes_empleo$Gasto.Total.Prestación <- 
+  as.numeric(Caract_Dtes_empleo$Gasto.Total.Prestación)
+
+Caract_Dtes_empleo$Gasto.Prestación.Contributiva <-
+  as.numeric(Caract_Dtes_empleo$Gasto.Prestación.Contributiva)
+
+#Transformación a variable factor en la tabla Carct_Dtes_empleo
+Caract_Dtes_empleo$Provincia <- 
+  as.factor(Caract_Dtes_empleo$Provincia)
+
+Caract_Dtes_empleo$Comunidad.Autónoma <-
+  as.factor(Caract_Dtes_empleo$Comunidad.Autónoma)
+```
+
+```{r Transformar variables de tabla de Datos_desempleo, warning = FALSE, echo=FALSE, results='hide'}
+#Transformación de variables en la tabla Datos_desempleo
+  #Transformación de una variable fecha
+datos_desempleo$Código.mes <- as.factor(datos_desempleo$Código.mes)
+
+datos_desempleo$Código.mes <- parse_date_time(datos_desempleo$Código.mes,
+                                              (c("200601", "ym")), 
+                                              truncated = 3)
+
+datos_desempleo$Código.mes <- as.factor(datos_desempleo$Código.mes)
+str(Caract_Dtes_empleo)
+```
+
+```{r Transformar variables de tabla gasto_desempleo, warning = FALSE, echo=FALSE, results='hide'}
+# Transformación de variables en la tabla de gasto en prestaciones por desempleo 
+  #Transformación de una variable fecha.
+gasto_desempleo$Código.mes <- as.factor(gasto_desempleo$Código.mes)
+
+gasto_desempleo$Código.mes <- parse_date_time(gasto_desempleo$Código.mes, 
+                                              (c("200601", "ym")),
+                                              truncated = 3)
+
+gasto_desempleo$Código.mes <- as.factor(gasto_desempleo$Código.mes)
+
+  #Transformamos de otros tipos de datos
+gasto_desempleo$Gasto.Total.Prestación <- 
+  as.numeric(gasto_desempleo$Gasto.Total.Prestación)
+```
+
+```{r Transformar variables de tabla contratos, warning = FALSE, echo=FALSE, results='hide'}
+#Transformación de variables en la tabla contratos
+  #Transformación de una variable fecha.
+contratos$Código.mes <- as.factor(contratos$Código.mes)
+
+contratos$Código.mes <- parse_date_time(contratos$Código.mes, 
+                                        (c("200601", "ym")),
+                                        truncated = 3)
+
+contratos$Código.mes <- as.factor(contratos$Código.mes)
+```
+
+
+### Resumen de la tabla
+
+Veamos que variables y estructura presenta nuestra tabla. 
+
+```{r resumen de las variables que presenta la tabla, warning = FALSE,results='hide'}
+
+str(Caract_Dtes_empleo)
+summary(Caract_Dtes_empleo)
+
+```
+
+### Detección y tratamiento de datos perdidos 
+
+Seguidamente analizaremos si la tabla presenta valores perdidos (NAs). 
+
+La función que aplicaremos posteriormente nos muestra un resultado booleano (TRUE o FALSE). Si resultado es "TRUE", nos indica que existen NAs dentro de la tabla, pero no nos indica cuantos, ni su posición. Si el resultado es "FALSE", la tabla no presenta valores perdidos.
+
+```{r detección de NAs, warning = FALSE, results='hide'}
+#Tabla de demandantes de empleo
+any(is.na(datos_desempleo))
+
+#Tabla de gasto en prestaciones por desempleo
+any(is.na(gasto_desempleo))
+
+#Eliminamos los datos perdidos de la tabla de gasto en prestaciones por desempleo, ya que no sabemos cuál es su origen
+gasto_desempleo <- na.omit(gasto_desempleo)
+any(is.na(gasto_desempleo))
+
+#Tabla de contratos nuevos a demandantes de empleo 
+any(is.na(contratos))
+```
+
+### Creación de nuevas variables 
+Creamos una nueva variable a partir de dos variables que se encuentra en el conjunto de datos: "Gasto.Total.Prestación" y "total.Dtes.Empleo". 
+
+```{r creación de nueva variable, warning = FALSE, results='hide'}
+Caract_Dtes_empleo$gasto_desempleado <-
+  (1000 * (Caract_Dtes_empleo$Gasto.Total.Prestación/
+     Caract_Dtes_empleo$total.Dtes.Empleo))
+```
+
+### Guardar la tabla 
+
+```{r guardar el dataset, warning = FALSE, results='hide'}
+write.csv(Caract_Dtes_empleo,
+          file="Caract_Dtes_empleo_UTF8.csv",
+          fileEncoding= "UTF-8")
+```
+
+```{r guardar el resto de tablas, warning = FALSE, echo = FALSE, results='hide'}
+#Tabla de demandantes de empleo por Provincia desde 2006 hasta 2020. 
+write.csv(dtes_empleo_provincia,
+          file="Dtes_empleo_provincia_UTF8.csv",
+          fileEncoding= "UTF-8")
+
+#Tabla de gasto en prestaciones por  desempleo por Provincia desde 2010 hasta 2020.
+write.csv(gasto_desempleo, 
+          file="Gasto_desempleo_UTF8.csv", 
+          fileEncoding="UTF-8")
+
+#Tabla de contratos nuevos a demandantes de empleo por Provincia desde 2006 hasta 2020. 
+write.csv(contratos_provincia,
+          file="Contratos_provincia_UTF8.csv",
+          fileEncoding= "UTF-8")
+```
+
+
