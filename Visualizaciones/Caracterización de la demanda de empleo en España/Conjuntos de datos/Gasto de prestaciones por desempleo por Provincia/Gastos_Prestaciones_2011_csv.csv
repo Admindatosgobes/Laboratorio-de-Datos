@@ -1,0 +1,626 @@
+;;;;GASTOS DE PRESTACIONES POR DESEMPLEO ( miles de euros) POR PROVINCIA Y TIPO DE PRESTACIÓN;;;;;;
+Código mes ;mes;Código de CA;Comunidad Autónoma;Codigo Provincia;Provincia;Gasto Total Prestación;Gasto Prestación Contributiva;Gasto Subsidio Desempleo;Gasto Renta Activa Inserción;Gasto Subsidio Eventuales Agrarios
+201101;Enero de 2011;1;Andalucía;4;Almería;40304;23204;13453;1633;2014
+201101;Enero de 2011;1;Andalucía;11;Cádiz;83016;46192;25996;5766;5062
+201101;Enero de 2011;1;Andalucía;14;Córdoba;47960;23200;13366;1799;9595
+201101;Enero de 2011;1;Andalucía;18;Granada;56058;30454;16717;1935;6952
+201101;Enero de 2011;1;Andalucía;21;Huelva;41859;24034;12029;1145;4651
+201101;Enero de 2011;1;Andalucía;23;Jaén;34424;15908;8579;1345;8592
+201101;Enero de 2011;1;Andalucía;29;Málaga;105659;66330;30249;4158;4922
+201101;Enero de 2011;1;Andalucía;41;Sevilla;125828;69190;36803;4791;15044
+201101;Enero de 2011;2;Aragón;22;Huesca;10114;8228;1778;108;0
+201101;Enero de 2011;2;Aragón;44;Teruel;6467;4888;1515;64;0
+201101;Enero de 2011;2;Aragón;50;Zaragoza;50532;39922;9834;776;0
+201101;Enero de 2011;3;Asturias, Principado de;33;Asturias;54165;39757;13330;1078;0
+201101;Enero de 2011;4;Balears, Illes;7;Balears, Illes;98187;74424;22897;866;0
+201101;Enero de 2011;5;Canarias;35;Palmas, Las;69769;42602;22852;4315;0
+201101;Enero de 2011;5;Canarias;38;Santa Cruz de Tenerife;62662;39381;20600;2681;0
+201101;Enero de 2011;6;Cantabria;39;Cantabria;29010;22450;5981;579;0
+201101;Enero de 2011;7;Castilla y León;5;Ávila;8390;5911;2265;214;0
+201101;Enero de 2011;7;Castilla y León;9;Burgos;18785;14869;3613;303;0
+201101;Enero de 2011;7;Castilla y León;24;León;26874;20796;5592;486;0
+201101;Enero de 2011;7;Castilla y León;34;Palencia;7516;5666;1652;198;0
+201101;Enero de 2011;7;Castilla y León;37;Salamanca;16118;11586;3979;553;0
+201101;Enero de 2011;7;Castilla y León;40;Segovia;6590;5308;1210;72;0
+201101;Enero de 2011;7;Castilla y León;42;Soria;3963;3150;760;53;0
+201101;Enero de 2011;7;Castilla y León;47;Valladolid;25363;20028;4684;651;0
+201101;Enero de 2011;7;Castilla y León;49;Zamora;8335;6106;2002;227;0
+201101;Enero de 2011;8;Castilla - La Mancha;2;Albacete;22320;14888;6626;806;0
+201101;Enero de 2011;8;Castilla - La Mancha;13;Ciudad Real;27547;18272;8531;744;0
+201101;Enero de 2011;8;Castilla - La Mancha;16;Cuenca;9412;6291;2905;216;0
+201101;Enero de 2011;8;Castilla - La Mancha;19;Guadalajara;14829;11546;3144;139;0
+201101;Enero de 2011;8;Castilla - La Mancha;45;Toledo;40751;29011;10976;764;0
+201101;Enero de 2011;9;Cataluña;8;Barcelona;348999;276512;69116;3371;0
+201101;Enero de 2011;9;Cataluña;17;Girona;49204;37229;11622;353;0
+201101;Enero de 2011;9;Cataluña;25;Lleida;21109;16283;4572;254;0
+201101;Enero de 2011;9;Cataluña;43;Tarragona;54220;40848;12662;710;0
+201101;Enero de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;105200;68688;31517;4995;0
+201101;Enero de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;40649;31086;9138;425;0
+201101;Enero de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;146439;109131;33781;3527;0
+201101;Enero de 2011;11;Extremadura;6;Badajoz;45566;23826;14129;2261;5350
+201101;Enero de 2011;11;Extremadura;10;Cáceres;25835;14602;7057;723;3453
+201101;Enero de 2011;12;Galicia;15;Coruña, A;56877;42425;13018;1434;0
+201101;Enero de 2011;12;Galicia;27;Lugo;13772;10095;3356;321;0
+201101;Enero de 2011;12;Galicia;32;Ourense;14659;9798;4362;499;0
+201101;Enero de 2011;12;Galicia;36;Pontevedra;56495;41411;13654;1430;0
+201101;Enero de 2011;13;Madrid, Comunidad de;28;Madrid;320475;260915;56040;3520;0
+201101;Enero de 2011;14;Murcia, Región de;30;Murcia;81162;57708;20919;2535;0
+201101;Enero de 2011;15;Navarra, Comunidad Foral de;31;Navarra;34212;27724;6184;304;0
+201101;Enero de 2011;16;País Vasco;1;Araba/Álava;16204;13577;2551;76;0
+201101;Enero de 2011;16;País Vasco;20;Gipuzkoa;33649;28150;5218;281;0
+201101;Enero de 2011;16;País Vasco;48;Bizkaia;52744;43897;8423;424;0
+201101;Enero de 2011;17;Rioja, La;26;Rioja, La;15679;12418;3031;230;0
+201101;Enero de 2011;18;Ceuta;51;Ceuta;3141;1431;1575;135;0
+201101;Enero de 2011;19;Melilla;52;Melilla;2841;1418;1209;214;0
+201102;Febrero de 2011;1;Andalucía;4;Almería;39172;22487;13096;1678;1911
+201102;Febrero de 2011;1;Andalucía;11;Cádiz;80067;44304;25277;5908;4578
+201102;Febrero de 2011;1;Andalucía;14;Córdoba;47990;23806;13567;1839;8778
+201102;Febrero de 2011;1;Andalucía;18;Granada;54586;29377;16626;2006;6577
+201102;Febrero de 2011;1;Andalucía;21;Huelva;37692;21109;11051;1208;4324
+201102;Febrero de 2011;1;Andalucía;23;Jaén;34248;18217;8923;1403;5705
+201102;Febrero de 2011;1;Andalucía;29;Málaga;101984;63042;29756;4341;4845
+201102;Febrero de 2011;1;Andalucía;41;Sevilla;123295;66876;36526;5036;14857
+201102;Febrero de 2011;2;Aragón;22;Huesca;9912;8010;1793;109;0
+201102;Febrero de 2011;2;Aragón;44;Teruel;6604;5026;1509;69;0
+201102;Febrero de 2011;2;Aragón;50;Zaragoza;49232;38824;9592;816;0
+201102;Febrero de 2011;3;Asturias, Principado de;33;Asturias;53531;39121;13279;1131;0
+201102;Febrero de 2011;4;Balears, Illes;7;Balears, Illes;87680;65117;21649;914;0
+201102;Febrero de 2011;5;Canarias;35;Palmas, Las;69267;42317;22487;4463;0
+201102;Febrero de 2011;5;Canarias;38;Santa Cruz de Tenerife;62344;39038;20490;2816;0
+201102;Febrero de 2011;6;Cantabria;39;Cantabria;28615;22125;5873;617;0
+201102;Febrero de 2011;7;Castilla y León;5;Ávila;8058;5604;2228;226;0
+201102;Febrero de 2011;7;Castilla y León;9;Burgos;18513;14601;3586;326;0
+201102;Febrero de 2011;7;Castilla y León;24;León;26683;20629;5538;516;0
+201102;Febrero de 2011;7;Castilla y León;34;Palencia;7399;5583;1619;197;0
+201102;Febrero de 2011;7;Castilla y León;37;Salamanca;15562;11046;3949;567;0
+201102;Febrero de 2011;7;Castilla y León;40;Segovia;6580;5260;1240;80;0
+201102;Febrero de 2011;7;Castilla y León;42;Soria;3757;2961;738;58;0
+201102;Febrero de 2011;7;Castilla y León;47;Valladolid;24827;19567;4590;670;0
+201102;Febrero de 2011;7;Castilla y León;49;Zamora;7919;5750;1928;241;0
+201102;Febrero de 2011;8;Castilla - La Mancha;2;Albacete;21909;14520;6541;848;0
+201102;Febrero de 2011;8;Castilla - La Mancha;13;Ciudad Real;26969;17671;8501;797;0
+201102;Febrero de 2011;8;Castilla - La Mancha;16;Cuenca;9377;6266;2881;230;0
+201102;Febrero de 2011;8;Castilla - La Mancha;19;Guadalajara;14556;11234;3178;144;0
+201102;Febrero de 2011;8;Castilla - La Mancha;45;Toledo;40281;28540;10912;829;0
+201102;Febrero de 2011;9;Cataluña;8;Barcelona;342355;269617;69154;3584;0
+201102;Febrero de 2011;9;Cataluña;17;Girona;46876;35078;11428;370;0
+201102;Febrero de 2011;9;Cataluña;25;Lleida;20866;15996;4608;262;0
+201102;Febrero de 2011;9;Cataluña;43;Tarragona;52547;39117;12678;752;0
+201102;Febrero de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;103299;67022;31083;5194;0
+201102;Febrero de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;39925;29880;9560;485;0
+201102;Febrero de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;148553;110478;34360;3715;0
+201102;Febrero de 2011;11;Extremadura;6;Badajoz;43668;22142;13936;2351;5239
+201102;Febrero de 2011;11;Extremadura;10;Cáceres;24735;13596;7021;742;3376
+201102;Febrero de 2011;12;Galicia;15;Coruña, A;55000;40713;12815;1472;0
+201102;Febrero de 2011;12;Galicia;27;Lugo;13670;10003;3334;333;0
+201102;Febrero de 2011;12;Galicia;32;Ourense;14413;9583;4315;515;0
+201102;Febrero de 2011;12;Galicia;36;Pontevedra;55557;40600;13465;1492;0
+201102;Febrero de 2011;13;Madrid, Comunidad de;28;Madrid;316152;257450;55022;3680;0
+201102;Febrero de 2011;14;Murcia, Región de;30;Murcia;79942;56874;20462;2606;0
+201102;Febrero de 2011;15;Navarra, Comunidad Foral de;31;Navarra;33418;27012;6082;324;0
+201102;Febrero de 2011;16;País Vasco;1;Araba/Álava;15745;13145;2521;79;0
+201102;Febrero de 2011;16;País Vasco;20;Gipuzkoa;32743;27298;5152;293;0
+201102;Febrero de 2011;16;País Vasco;48;Bizkaia;51698;42959;8306;433;0
+201102;Febrero de 2011;17;Rioja, La;26;Rioja, La;15524;12318;2976;230;0
+201102;Febrero de 2011;18;Ceuta;51;Ceuta;3300;1487;1672;141;0
+201102;Febrero de 2011;19;Melilla;52;Melilla;2955;1520;1198;237;0
+201103;Marzo de 2011;1;Andalucía;4;Almería;38512;22013;12921;1740;1838
+201103;Marzo de 2011;1;Andalucía;11;Cádiz;77130;41679;24827;6061;4563
+201103;Marzo de 2011;1;Andalucía;14;Córdoba;49923;24470;14339;1888;9226
+201103;Marzo de 2011;1;Andalucía;18;Granada;54084;28610;16789;2094;6591
+201103;Marzo de 2011;1;Andalucía;21;Huelva;34546;18848;10319;1262;4117
+201103;Marzo de 2011;1;Andalucía;23;Jaén;39599;20863;10710;1474;6552
+201103;Marzo de 2011;1;Andalucía;29;Málaga;97931;59083;29486;4521;4841
+201103;Marzo de 2011;1;Andalucía;41;Sevilla;122439;65957;36489;5241;14752
+201103;Marzo de 2011;2;Aragón;22;Huesca;9882;7955;1815;112;0
+201103;Marzo de 2011;2;Aragón;44;Teruel;6338;4785;1476;77;0
+201103;Marzo de 2011;2;Aragón;50;Zaragoza;48769;38310;9595;864;0
+201103;Marzo de 2011;3;Asturias, Principado de;33;Asturias;52872;38555;13128;1189;0
+201103;Marzo de 2011;4;Balears, Illes;7;Balears, Illes;72315;50649;20705;961;0
+201103;Marzo de 2011;5;Canarias;35;Palmas, Las;67353;40878;21919;4556;0
+201103;Marzo de 2011;5;Canarias;38;Santa Cruz de Tenerife;60724;37626;20155;2943;0
+201103;Marzo de 2011;6;Cantabria;39;Cantabria;27661;21199;5812;650;0
+201103;Marzo de 2011;7;Castilla y León;5;Ávila;7750;5314;2198;238;0
+201103;Marzo de 2011;7;Castilla y León;9;Burgos;17996;14159;3504;333;0
+201103;Marzo de 2011;7;Castilla y León;24;León;25339;19344;5445;550;0
+201103;Marzo de 2011;7;Castilla y León;34;Palencia;7177;5404;1575;198;0
+201103;Marzo de 2011;7;Castilla y León;37;Salamanca;14739;10358;3797;584;0
+201103;Marzo de 2011;7;Castilla y León;40;Segovia;6159;4881;1197;81;0
+201103;Marzo de 2011;7;Castilla y León;42;Soria;3565;2783;718;64;0
+201103;Marzo de 2011;7;Castilla y León;47;Valladolid;24123;18909;4526;688;0
+201103;Marzo de 2011;7;Castilla y León;49;Zamora;7674;5555;1872;247;0
+201103;Marzo de 2011;8;Castilla - La Mancha;2;Albacete;21948;14546;6506;896;0
+201103;Marzo de 2011;8;Castilla - La Mancha;13;Ciudad Real;26011;16935;8213;863;0
+201103;Marzo de 2011;8;Castilla - La Mancha;16;Cuenca;9215;6134;2839;242;0
+201103;Marzo de 2011;8;Castilla - La Mancha;19;Guadalajara;14344;11037;3150;157;0
+201103;Marzo de 2011;8;Castilla - La Mancha;45;Toledo;39796;28041;10844;911;0
+201103;Marzo de 2011;9;Cataluña;8;Barcelona;333429;261838;67765;3826;0
+201103;Marzo de 2011;9;Cataluña;17;Girona;43395;31914;11068;413;0
+201103;Marzo de 2011;9;Cataluña;25;Lleida;20254;15415;4562;277;0
+201103;Marzo de 2011;9;Cataluña;43;Tarragona;49478;36444;12237;797;0
+201103;Marzo de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;100893;64731;30795;5367;0
+201103;Marzo de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;39293;28727;10054;512;0
+201103;Marzo de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;148312;109505;34864;3943;0
+201103;Marzo de 2011;11;Extremadura;6;Badajoz;42234;20756;13986;2401;5091
+201103;Marzo de 2011;11;Extremadura;10;Cáceres;23913;12663;7110;775;3365
+201103;Marzo de 2011;12;Galicia;15;Coruña, A;53678;39455;12700;1523;0
+201103;Marzo de 2011;12;Galicia;27;Lugo;12945;9377;3220;348;0
+201103;Marzo de 2011;12;Galicia;32;Ourense;14288;9445;4313;530;0
+201103;Marzo de 2011;12;Galicia;36;Pontevedra;53884;39143;13212;1529;0
+201103;Marzo de 2011;13;Madrid, Comunidad de;28;Madrid;313909;255277;54722;3910;0
+201103;Marzo de 2011;14;Murcia, Región de;30;Murcia;76498;53930;19863;2705;0
+201103;Marzo de 2011;15;Navarra, Comunidad Foral de;31;Navarra;32825;26415;6061;349;0
+201103;Marzo de 2011;16;País Vasco;1;Araba/Álava;15357;12747;2522;88;0
+201103;Marzo de 2011;16;País Vasco;20;Gipuzkoa;32048;26635;5110;303;0
+201103;Marzo de 2011;16;País Vasco;48;Bizkaia;50796;42029;8314;453;0
+201103;Marzo de 2011;17;Rioja, La;26;Rioja, La;15299;12068;2979;252;0
+201103;Marzo de 2011;18;Ceuta;51;Ceuta;3175;1402;1639;134;0
+201103;Marzo de 2011;19;Melilla;52;Melilla;2884;1453;1186;245;0
+201104;Abril de 2011;1;Andalucía;4;Almería;37614;21731;12296;1820;1767
+201104;Abril de 2011;1;Andalucía;11;Cádiz;72612;38630;23431;6144;4407
+201104;Abril de 2011;1;Andalucía;14;Córdoba;49855;24060;14302;1945;9548
+201104;Abril de 2011;1;Andalucía;18;Granada;52398;27313;16240;2148;6697
+201104;Abril de 2011;1;Andalucía;21;Huelva;31670;17348;9363;1265;3694
+201104;Abril de 2011;1;Andalucía;23;Jaén;40711;20637;11129;1522;7423
+201104;Abril de 2011;1;Andalucía;29;Málaga;91263;53926;27796;4668;4873
+201104;Abril de 2011;1;Andalucía;41;Sevilla;117358;62559;34801;5363;14635
+201104;Abril de 2011;2;Aragón;22;Huesca;9534;7658;1754;122;0
+201104;Abril de 2011;2;Aragón;44;Teruel;6083;4568;1432;83;0
+201104;Abril de 2011;2;Aragón;50;Zaragoza;47510;37318;9277;915;0
+201104;Abril de 2011;3;Asturias, Principado de;33;Asturias;50813;36928;12639;1246;0
+201104;Abril de 2011;4;Balears, Illes;7;Balears, Illes;58850;40521;17336;993;0
+201104;Abril de 2011;5;Canarias;35;Palmas, Las;65397;39930;20866;4601;0
+201104;Abril de 2011;5;Canarias;38;Santa Cruz de Tenerife;58424;36128;19242;3054;0
+201104;Abril de 2011;6;Cantabria;39;Cantabria;26248;20007;5563;678;0
+201104;Abril de 2011;7;Castilla y León;5;Ávila;7422;5057;2104;261;0
+201104;Abril de 2011;7;Castilla y León;9;Burgos;17554;13826;3384;344;0
+201104;Abril de 2011;7;Castilla y León;24;León;23492;17688;5247;557;0
+201104;Abril de 2011;7;Castilla y León;34;Palencia;6681;5000;1479;202;0
+201104;Abril de 2011;7;Castilla y León;37;Salamanca;14343;10115;3631;597;0
+201104;Abril de 2011;7;Castilla y León;40;Segovia;6008;4774;1153;81;0
+201104;Abril de 2011;7;Castilla y León;42;Soria;3367;2615;686;66;0
+201104;Abril de 2011;7;Castilla y León;47;Valladolid;23270;18228;4342;700;0
+201104;Abril de 2011;7;Castilla y León;49;Zamora;7447;5397;1798;252;0
+201104;Abril de 2011;8;Castilla - La Mancha;2;Albacete;21041;13902;6214;925;0
+201104;Abril de 2011;8;Castilla - La Mancha;13;Ciudad Real;25570;16860;7828;882;0
+201104;Abril de 2011;8;Castilla - La Mancha;16;Cuenca;8908;5975;2675;258;0
+201104;Abril de 2011;8;Castilla - La Mancha;19;Guadalajara;13498;10339;2989;170;0
+201104;Abril de 2011;8;Castilla - La Mancha;45;Toledo;38844;27452;10446;946;0
+201104;Abril de 2011;9;Cataluña;8;Barcelona;325757;255851;65825;4081;0
+201104;Abril de 2011;9;Cataluña;17;Girona;39042;28916;9686;440;0
+201104;Abril de 2011;9;Cataluña;25;Lleida;19733;15052;4390;291;0
+201104;Abril de 2011;9;Cataluña;43;Tarragona;45070;33187;11021;862;0
+201104;Abril de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;94933;60389;29074;5470;0
+201104;Abril de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;38021;27692;9776;553;0
+201104;Abril de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;145626;107677;33864;4085;0
+201104;Abril de 2011;11;Extremadura;6;Badajoz;40558;19675;13516;2445;4922
+201104;Abril de 2011;11;Extremadura;10;Cáceres;23142;12019;6989;789;3345
+201104;Abril de 2011;12;Galicia;15;Coruña, A;53207;39328;12328;1551;0
+201104;Abril de 2011;12;Galicia;27;Lugo;12436;9023;3059;354;0
+201104;Abril de 2011;12;Galicia;32;Ourense;13613;8943;4125;545;0
+201104;Abril de 2011;12;Galicia;36;Pontevedra;52343;37932;12821;1590;0
+201104;Abril de 2011;13;Madrid, Comunidad de;28;Madrid;304503;248087;52304;4112;0
+201104;Abril de 2011;14;Murcia, Región de;30;Murcia;72457;51089;18554;2814;0
+201104;Abril de 2011;15;Navarra, Comunidad Foral de;31;Navarra;30779;24609;5795;375;0
+201104;Abril de 2011;16;País Vasco;1;Araba/Álava;14259;11753;2417;89;0
+201104;Abril de 2011;16;País Vasco;20;Gipuzkoa;30576;25261;5007;308;0
+201104;Abril de 2011;16;País Vasco;48;Bizkaia;48710;40061;8169;480;0
+201104;Abril de 2011;17;Rioja, La;26;Rioja, La;15110;11961;2888;261;0
+201104;Abril de 2011;18;Ceuta;51;Ceuta;3193;1492;1532;169;0
+201104;Abril de 2011;19;Melilla;52;Melilla;2711;1370;1074;267;0
+201105;Mayo de 2011;1;Andalucía;4;Almería;38077;22407;12047;1889;1734
+201105;Mayo de 2011;1;Andalucía;11;Cádiz;70488;37449;22515;6283;4241
+201105;Mayo de 2011;1;Andalucía;14;Córdoba;48603;22885;14045;2011;9662
+201105;Mayo de 2011;1;Andalucía;18;Granada;51712;26837;15856;2277;6742
+201105;Mayo de 2011;1;Andalucía;21;Huelva;29847;16462;8631;1327;3427
+201105;Mayo de 2011;1;Andalucía;23;Jaén;40524;19830;11359;1559;7776
+201105;Mayo de 2011;1;Andalucía;29;Málaga;88445;51833;26933;4803;4876
+201105;Mayo de 2011;1;Andalucía;41;Sevilla;113734;60437;33356;5470;14471
+201105;Mayo de 2011;2;Aragón;22;Huesca;9409;7601;1684;124;0
+201105;Mayo de 2011;2;Aragón;44;Teruel;5880;4431;1366;83;0
+201105;Mayo de 2011;2;Aragón;50;Zaragoza;45927;36025;8920;982;0
+201105;Mayo de 2011;3;Asturias, Principado de;33;Asturias;49285;35693;12311;1281;0
+201105;Mayo de 2011;4;Balears, Illes;7;Balears, Illes;48347;35249;12078;1020;0
+201105;Mayo de 2011;5;Canarias;35;Palmas, Las;64981;39945;20357;4679;0
+201105;Mayo de 2011;5;Canarias;38;Santa Cruz de Tenerife;57341;35639;18585;3117;0
+201105;Mayo de 2011;6;Cantabria;39;Cantabria;25655;19566;5399;690;0
+201105;Mayo de 2011;7;Castilla y León;5;Ávila;7097;4807;2022;268;0
+201105;Mayo de 2011;7;Castilla y León;9;Burgos;17188;13560;3281;347;0
+201105;Mayo de 2011;7;Castilla y León;24;León;22464;16723;5186;555;0
+201105;Mayo de 2011;7;Castilla y León;34;Palencia;6434;4775;1450;209;0
+201105;Mayo de 2011;7;Castilla y León;37;Salamanca;13818;9672;3541;605;0
+201105;Mayo de 2011;7;Castilla y León;40;Segovia;5725;4509;1126;90;0
+201105;Mayo de 2011;7;Castilla y León;42;Soria;3315;2566;675;74;0
+201105;Mayo de 2011;7;Castilla y León;47;Valladolid;22489;17571;4200;718;0
+201105;Mayo de 2011;7;Castilla y León;49;Zamora;6961;4979;1724;258;0
+201105;Mayo de 2011;8;Castilla - La Mancha;2;Albacete;20280;13391;5930;959;0
+201105;Mayo de 2011;8;Castilla - La Mancha;13;Ciudad Real;24184;15769;7478;937;0
+201105;Mayo de 2011;8;Castilla - La Mancha;16;Cuenca;8537;5721;2542;274;0
+201105;Mayo de 2011;8;Castilla - La Mancha;19;Guadalajara;13149;10020;2941;188;0
+201105;Mayo de 2011;8;Castilla - La Mancha;45;Toledo;37271;26214;10058;999;0
+201105;Mayo de 2011;9;Cataluña;8;Barcelona;320135;250740;65002;4393;0
+201105;Mayo de 2011;9;Cataluña;17;Girona;37263;27627;9154;482;0
+201105;Mayo de 2011;9;Cataluña;25;Lleida;19194;14707;4176;311;0
+201105;Mayo de 2011;9;Cataluña;43;Tarragona;43478;32167;10380;931;0
+201105;Mayo de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;92505;58301;28565;5639;0
+201105;Mayo de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;37631;27111;9920;600;0
+201105;Mayo de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;143270;105004;33969;4297;0
+201105;Mayo de 2011;11;Extremadura;6;Badajoz;38845;18399;13020;2475;4951
+201105;Mayo de 2011;11;Extremadura;10;Cáceres;22070;11462;6738;791;3079
+201105;Mayo de 2011;12;Galicia;15;Coruña, A;52056;38357;12086;1613;0
+201105;Mayo de 2011;12;Galicia;27;Lugo;12194;8838;2991;365;0
+201105;Mayo de 2011;12;Galicia;32;Ourense;13133;8533;4051;549;0
+201105;Mayo de 2011;12;Galicia;36;Pontevedra;51494;37273;12547;1674;0
+201105;Mayo de 2011;13;Madrid, Comunidad de;28;Madrid;301935;245664;51914;4357;0
+201105;Mayo de 2011;14;Murcia, Región de;30;Murcia;71747;50814;17956;2977;0
+201105;Mayo de 2011;15;Navarra, Comunidad Foral de;31;Navarra;29434;23449;5588;397;0
+201105;Mayo de 2011;16;País Vasco;1;Araba/Álava;13753;11205;2451;97;0
+201105;Mayo de 2011;16;País Vasco;20;Gipuzkoa;30838;25481;5024;333;0
+201105;Mayo de 2011;16;País Vasco;48;Bizkaia;49024;40238;8296;490;0
+201105;Mayo de 2011;17;Rioja, La;26;Rioja, La;14407;11357;2799;251;0
+201105;Mayo de 2011;18;Ceuta;51;Ceuta;3272;1491;1591;190;0
+201105;Mayo de 2011;19;Melilla;52;Melilla;2629;1379;943;307;0
+201106;Junio de 2011;1;Andalucía;4;Almería;42488;26573;12119;1982;1814
+201106;Junio de 2011;1;Andalucía;11;Cádiz;68730;36597;21606;6384;4143
+201106;Junio de 2011;1;Andalucía;14;Córdoba;48966;22599;14034;2058;10275
+201106;Junio de 2011;1;Andalucía;18;Granada;51465;26649;15667;2339;6810
+201106;Junio de 2011;1;Andalucía;21;Huelva;34131;20021;9312;1369;3429
+201106;Junio de 2011;1;Andalucía;23;Jaén;40295;19059;11456;1605;8175
+201106;Junio de 2011;1;Andalucía;29;Málaga;85802;49970;25841;4974;5017
+201106;Junio de 2011;1;Andalucía;41;Sevilla;112885;59987;32749;5673;14476
+201106;Junio de 2011;2;Aragón;22;Huesca;8941;7216;1580;145;0
+201106;Junio de 2011;2;Aragón;44;Teruel;5562;4153;1315;94;0
+201106;Junio de 2011;2;Aragón;50;Zaragoza;43877;34368;8485;1024;0
+201106;Junio de 2011;3;Asturias, Principado de;33;Asturias;47640;34400;11942;1298;0
+201106;Junio de 2011;4;Balears, Illes;7;Balears, Illes;44749;33153;10583;1013;0
+201106;Junio de 2011;5;Canarias;35;Palmas, Las;66770;41373;20581;4816;0
+201106;Junio de 2011;5;Canarias;38;Santa Cruz de Tenerife;58696;36575;18861;3260;0
+201106;Junio de 2011;6;Cantabria;39;Cantabria;24876;19002;5172;702;0
+201106;Junio de 2011;7;Castilla y León;5;Ávila;6731;4554;1897;280;0
+201106;Junio de 2011;7;Castilla y León;9;Burgos;16441;12944;3149;348;0
+201106;Junio de 2011;7;Castilla y León;24;León;21155;15572;5026;557;0
+201106;Junio de 2011;7;Castilla y León;34;Palencia;5943;4372;1364;207;0
+201106;Junio de 2011;7;Castilla y León;37;Salamanca;13314;9345;3343;626;0
+201106;Junio de 2011;7;Castilla y León;40;Segovia;5376;4229;1054;93;0
+201106;Junio de 2011;7;Castilla y León;42;Soria;2985;2274;634;77;0
+201106;Junio de 2011;7;Castilla y León;47;Valladolid;21495;16742;4022;731;0
+201106;Junio de 2011;7;Castilla y León;49;Zamora;6537;4621;1655;261;0
+201106;Junio de 2011;8;Castilla - La Mancha;2;Albacete;19435;12884;5574;977;0
+201106;Junio de 2011;8;Castilla - La Mancha;13;Ciudad Real;23658;15469;7216;973;0
+201106;Junio de 2011;8;Castilla - La Mancha;16;Cuenca;8144;5445;2417;282;0
+201106;Junio de 2011;8;Castilla - La Mancha;19;Guadalajara;12792;9750;2834;208;0
+201106;Junio de 2011;8;Castilla - La Mancha;45;Toledo;36139;25437;9673;1029;0
+201106;Junio de 2011;9;Cataluña;8;Barcelona;313906;245478;63815;4613;0
+201106;Junio de 2011;9;Cataluña;17;Girona;35584;26588;8493;503;0
+201106;Junio de 2011;9;Cataluña;25;Lleida;18581;14234;4018;329;0
+201106;Junio de 2011;9;Cataluña;43;Tarragona;42574;31723;9876;975;0
+201106;Junio de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;90458;57291;27368;5799;0
+201106;Junio de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;36983;26521;9805;657;0
+201106;Junio de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;144367;105909;33991;4467;0
+201106;Junio de 2011;11;Extremadura;6;Badajoz;38171;17836;13033;2469;4833
+201106;Junio de 2011;11;Extremadura;10;Cáceres;21921;11128;6821;811;3161
+201106;Junio de 2011;12;Galicia;15;Coruña, A;51412;37953;11799;1660;0
+201106;Junio de 2011;12;Galicia;27;Lugo;11802;8531;2894;377;0
+201106;Junio de 2011;12;Galicia;32;Ourense;13021;8488;3978;555;0
+201106;Junio de 2011;12;Galicia;36;Pontevedra;50352;36568;12062;1722;0
+201106;Junio de 2011;13;Madrid, Comunidad de;28;Madrid;295589;240478;50547;4564;0
+201106;Junio de 2011;14;Murcia, Región de;30;Murcia;72093;51536;17471;3086;0
+201106;Junio de 2011;15;Navarra, Comunidad Foral de;31;Navarra;28936;22937;5585;414;0
+201106;Junio de 2011;16;País Vasco;1;Araba/Álava;13307;10805;2391;111;0
+201106;Junio de 2011;16;País Vasco;20;Gipuzkoa;29832;24508;4983;341;0
+201106;Junio de 2011;16;País Vasco;48;Bizkaia;47673;39050;8129;494;0
+201106;Junio de 2011;17;Rioja, La;26;Rioja, La;14254;11270;2720;264;0
+201106;Junio de 2011;18;Ceuta;51;Ceuta;3656;1551;1890;215;0
+201106;Junio de 2011;19;Melilla;52;Melilla;2921;1490;1094;337;0
+201107;Julio de 2011;1;Andalucía;4;Almería;49890;33810;12072;2031;1977
+201107;Julio de 2011;1;Andalucía;11;Cádiz;68571;37123;20636;6382;4430
+201107;Julio de 2011;1;Andalucía;14;Córdoba;50823;23362;14330;2082;11049
+201107;Julio de 2011;1;Andalucía;18;Granada;52297;27166;15522;2373;7236
+201107;Julio de 2011;1;Andalucía;21;Huelva;39567;24158;9812;1419;4178
+201107;Julio de 2011;1;Andalucía;23;Jaén;41395;19004;11762;1631;8998
+201107;Julio de 2011;1;Andalucía;29;Málaga;86135;51039;24959;5078;5059
+201107;Julio de 2011;1;Andalucía;41;Sevilla;117548;63864;32657;5738;15289
+201107;Julio de 2011;2;Aragón;22;Huesca;8729;7121;1468;140;0
+201107;Julio de 2011;2;Aragón;44;Teruel;5439;4081;1262;96;0
+201107;Julio de 2011;2;Aragón;50;Zaragoza;44646;35364;8219;1063;0
+201107;Julio de 2011;3;Asturias, Principado de;33;Asturias;46517;33856;11345;1316;0
+201107;Julio de 2011;4;Balears, Illes;7;Balears, Illes;45814;34770;10005;1039;0
+201107;Julio de 2011;5;Canarias;35;Palmas, Las;69152;43947;20345;4860;0
+201107;Julio de 2011;5;Canarias;38;Santa Cruz de Tenerife;61086;39028;18708;3350;0
+201107;Julio de 2011;6;Cantabria;39;Cantabria;23546;18025;4819;702;0
+201107;Julio de 2011;7;Castilla y León;5;Ávila;6498;4445;1758;295;0
+201107;Julio de 2011;7;Castilla y León;9;Burgos;16342;12980;3012;350;0
+201107;Julio de 2011;7;Castilla y León;24;León;20666;15254;4851;561;0
+201107;Julio de 2011;7;Castilla y León;34;Palencia;5915;4421;1285;209;0
+201107;Julio de 2011;7;Castilla y León;37;Salamanca;13272;9499;3140;633;0
+201107;Julio de 2011;7;Castilla y León;40;Segovia;5180;4125;957;98;0
+201107;Julio de 2011;7;Castilla y León;42;Soria;3006;2345;582;79;0
+201107;Julio de 2011;7;Castilla y León;47;Valladolid;21201;16620;3837;744;0
+201107;Julio de 2011;7;Castilla y León;49;Zamora;6492;4687;1543;262;0
+201107;Julio de 2011;8;Castilla - La Mancha;2;Albacete;19758;13419;5344;995;0
+201107;Julio de 2011;8;Castilla - La Mancha;13;Ciudad Real;23758;15802;6950;1006;0
+201107;Julio de 2011;8;Castilla - La Mancha;16;Cuenca;8010;5474;2249;287;0
+201107;Julio de 2011;8;Castilla - La Mancha;19;Guadalajara;12779;9878;2685;216;0
+201107;Julio de 2011;8;Castilla - La Mancha;45;Toledo;36086;25686;9348;1052;0
+201107;Julio de 2011;9;Cataluña;8;Barcelona;315870;249599;61484;4787;0
+201107;Julio de 2011;9;Cataluña;17;Girona;35012;26566;7937;509;0
+201107;Julio de 2011;9;Cataluña;25;Lleida;18651;14539;3784;328;0
+201107;Julio de 2011;9;Cataluña;43;Tarragona;42656;32221;9407;1028;0
+201107;Julio de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;90269;57828;26562;5879;0
+201107;Julio de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;36708;26812;9184;712;0
+201107;Julio de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;147070;109542;33004;4524;0
+201107;Julio de 2011;11;Extremadura;6;Badajoz;38164;17877;12878;2463;4946
+201107;Julio de 2011;11;Extremadura;10;Cáceres;21875;11251;6657;814;3153
+201107;Julio de 2011;12;Galicia;15;Coruña, A;50374;37368;11335;1671;0
+201107;Julio de 2011;12;Galicia;27;Lugo;11687;8562;2738;387;0
+201107;Julio de 2011;12;Galicia;32;Ourense;12755;8374;3821;560;0
+201107;Julio de 2011;12;Galicia;36;Pontevedra;49120;35951;11419;1750;0
+201107;Julio de 2011;13;Madrid, Comunidad de;28;Madrid;302997;249369;48957;4671;0
+201107;Julio de 2011;14;Murcia, Región de;30;Murcia;74225;53996;17065;3164;0
+201107;Julio de 2011;15;Navarra, Comunidad Foral de;31;Navarra;29212;23448;5350;414;0
+201107;Julio de 2011;16;País Vasco;1;Araba/Álava;13530;11115;2308;107;0
+201107;Julio de 2011;16;País Vasco;20;Gipuzkoa;30777;25548;4887;342;0
+201107;Julio de 2011;16;País Vasco;48;Bizkaia;47781;39433;7847;501;0
+201107;Julio de 2011;17;Rioja, La;26;Rioja, La;14621;11715;2636;270;0
+201107;Julio de 2011;18;Ceuta;51;Ceuta;3590;1698;1649;243;0
+201107;Julio de 2011;19;Melilla;52;Melilla;3253;1650;1249;354;0
+201108;Agosto de 2011;1;Andalucía;4;Almería;50280;34276;11859;2062;2083
+201108;Agosto de 2011;1;Andalucía;11;Cádiz;69248;37756;20344;6448;4700
+201108;Agosto de 2011;1;Andalucía;14;Córdoba;52397;24842;14093;2141;11321
+201108;Agosto de 2011;1;Andalucía;18;Granada;53534;28505;15232;2425;7372
+201108;Agosto de 2011;1;Andalucía;21;Huelva;40835;24703;9961;1453;4718
+201108;Agosto de 2011;1;Andalucía;23;Jaén;42109;19461;11666;1662;9320
+201108;Agosto de 2011;1;Andalucía;29;Málaga;86599;51818;24431;5151;5199
+201108;Agosto de 2011;1;Andalucía;41;Sevilla;119350;65457;32375;5794;15724
+201108;Agosto de 2011;2;Aragón;22;Huesca;8857;7284;1431;142;0
+201108;Agosto de 2011;2;Aragón;44;Teruel;5664;4303;1262;99;0
+201108;Agosto de 2011;2;Aragón;50;Zaragoza;45753;36646;8036;1071;0
+201108;Agosto de 2011;3;Asturias, Principado de;33;Asturias;47076;34577;11158;1341;0
+201108;Agosto de 2011;4;Balears, Illes;7;Balears, Illes;46753;35803;9905;1045;0
+201108;Agosto de 2011;5;Canarias;35;Palmas, Las;67448;42987;19540;4921;0
+201108;Agosto de 2011;5;Canarias;38;Santa Cruz de Tenerife;60514;38966;18134;3414;0
+201108;Agosto de 2011;6;Cantabria;39;Cantabria;23947;18520;4688;739;0
+201108;Agosto de 2011;7;Castilla y León;5;Ávila;6723;4676;1750;297;0
+201108;Agosto de 2011;7;Castilla y León;9;Burgos;16424;13103;2969;352;0
+201108;Agosto de 2011;7;Castilla y León;24;León;20617;15212;4837;568;0
+201108;Agosto de 2011;7;Castilla y León;34;Palencia;5997;4492;1294;211;0
+201108;Agosto de 2011;7;Castilla y León;37;Salamanca;13865;10099;3134;632;0
+201108;Agosto de 2011;7;Castilla y León;40;Segovia;5320;4261;959;100;0
+201108;Agosto de 2011;7;Castilla y León;42;Soria;3014;2361;573;80;0
+201108;Agosto de 2011;7;Castilla y León;47;Valladolid;21626;17030;3834;762;0
+201108;Agosto de 2011;7;Castilla y León;49;Zamora;6655;4861;1530;264;0
+201108;Agosto de 2011;8;Castilla - La Mancha;2;Albacete;20492;14148;5309;1035;0
+201108;Agosto de 2011;8;Castilla - La Mancha;13;Ciudad Real;24539;16736;6758;1045;0
+201108;Agosto de 2011;8;Castilla - La Mancha;16;Cuenca;8485;5983;2198;304;0
+201108;Agosto de 2011;8;Castilla - La Mancha;19;Guadalajara;12983;10073;2682;228;0
+201108;Agosto de 2011;8;Castilla - La Mancha;45;Toledo;36925;26644;9151;1130;0
+201108;Agosto de 2011;9;Cataluña;8;Barcelona;327996;262285;60691;5020;0
+201108;Agosto de 2011;9;Cataluña;17;Girona;36626;28334;7766;526;0
+201108;Agosto de 2011;9;Cataluña;25;Lleida;19037;15161;3564;312;0
+201108;Agosto de 2011;9;Cataluña;43;Tarragona;43768;33563;9137;1068;0
+201108;Agosto de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;93154;61142;26061;5951;0
+201108;Agosto de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;36689;27112;8856;721;0
+201108;Agosto de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;151844;114470;32760;4614;0
+201108;Agosto de 2011;11;Extremadura;6;Badajoz;38491;18464;12636;2502;4889
+201108;Agosto de 2011;11;Extremadura;10;Cáceres;22097;11606;6527;823;3141
+201108;Agosto de 2011;12;Galicia;15;Coruña, A;50676;37897;11097;1682;0
+201108;Agosto de 2011;12;Galicia;27;Lugo;11798;8716;2682;400;0
+201108;Agosto de 2011;12;Galicia;32;Ourense;13003;8671;3767;565;0
+201108;Agosto de 2011;12;Galicia;36;Pontevedra;49355;36364;11193;1798;0
+201108;Agosto de 2011;13;Madrid, Comunidad de;28;Madrid;311892;259088;48032;4772;0
+201108;Agosto de 2011;14;Murcia, Región de;30;Murcia;76980;56983;16763;3234;0
+201108;Agosto de 2011;15;Navarra, Comunidad Foral de;31;Navarra;30454;24683;5343;428;0
+201108;Agosto de 2011;16;País Vasco;1;Araba/Álava;14415;11980;2330;105;0
+201108;Agosto de 2011;16;País Vasco;20;Gipuzkoa;31725;26452;4935;338;0
+201108;Agosto de 2011;16;País Vasco;48;Bizkaia;50934;42549;7884;501;0
+201108;Agosto de 2011;17;Rioja, La;26;Rioja, La;14608;11795;2531;282;0
+201108;Agosto de 2011;18;Ceuta;51;Ceuta;3559;1717;1583;259;0
+201108;Agosto de 2011;19;Melilla;52;Melilla;3342;1748;1231;363;0
+201109;Septiembre de 2011;1;Andalucía;4;Almería;45913;29926;11825;2100;2062
+201109;Septiembre de 2011;1;Andalucía;11;Cádiz;70463;38202;20985;6550;4726
+201109;Septiembre de 2011;1;Andalucía;14;Córdoba;50752;23414;14013;2177;11148
+201109;Septiembre de 2011;1;Andalucía;18;Granada;53308;28248;15323;2499;7238
+201109;Septiembre de 2011;1;Andalucía;21;Huelva;39122;22840;10168;1505;4609
+201109;Septiembre de 2011;1;Andalucía;23;Jaén;41387;18882;11655;1665;9185
+201109;Septiembre de 2011;1;Andalucía;29;Málaga;85640;50473;24758;5288;5121
+201109;Septiembre de 2011;1;Andalucía;41;Sevilla;116242;64015;31973;5928;14326
+201109;Septiembre de 2011;2;Aragón;22;Huesca;9228;7550;1524;154;0
+201109;Septiembre de 2011;2;Aragón;44;Teruel;5691;4321;1264;106;0
+201109;Septiembre de 2011;2;Aragón;50;Zaragoza;43941;34737;8069;1135;0
+201109;Septiembre de 2011;3;Asturias, Principado de;33;Asturias;47690;34856;11451;1383;0
+201109;Septiembre de 2011;4;Balears, Illes;7;Balears, Illes;47829;36529;10203;1097;0
+201109;Septiembre de 2011;5;Canarias;35;Palmas, Las;63107;39085;19036;4986;0
+201109;Septiembre de 2011;5;Canarias;38;Santa Cruz de Tenerife;57129;35748;17862;3519;0
+201109;Septiembre de 2011;6;Cantabria;39;Cantabria;24524;18914;4852;758;0
+201109;Septiembre de 2011;7;Castilla y León;5;Ávila;7035;4847;1885;303;0
+201109;Septiembre de 2011;7;Castilla y León;9;Burgos;16372;12933;3083;356;0
+201109;Septiembre de 2011;7;Castilla y León;24;León;20726;15239;4905;582;0
+201109;Septiembre de 2011;7;Castilla y León;34;Palencia;6161;4600;1344;217;0
+201109;Septiembre de 2011;7;Castilla y León;37;Salamanca;13844;9890;3307;647;0
+201109;Septiembre de 2011;7;Castilla y León;40;Segovia;5467;4396;965;106;0
+201109;Septiembre de 2011;7;Castilla y León;42;Soria;3080;2401;602;77;0
+201109;Septiembre de 2011;7;Castilla y León;47;Valladolid;21692;16956;3971;765;0
+201109;Septiembre de 2011;7;Castilla y León;49;Zamora;6724;4841;1614;269;0
+201109;Septiembre de 2011;8;Castilla - La Mancha;2;Albacete;19955;13745;5145;1065;0
+201109;Septiembre de 2011;8;Castilla - La Mancha;13;Ciudad Real;23497;16061;6399;1037;0
+201109;Septiembre de 2011;8;Castilla - La Mancha;16;Cuenca;8127;5687;2121;319;0
+201109;Septiembre de 2011;8;Castilla - La Mancha;19;Guadalajara;13033;10149;2647;237;0
+201109;Septiembre de 2011;8;Castilla - La Mancha;45;Toledo;35944;25848;8926;1170;0
+201109;Septiembre de 2011;9;Cataluña;8;Barcelona;316660;250249;61151;5260;0
+201109;Septiembre de 2011;9;Cataluña;17;Girona;37525;28671;8282;572;0
+201109;Septiembre de 2011;9;Cataluña;25;Lleida;19111;15147;3627;337;0
+201109;Septiembre de 2011;9;Cataluña;43;Tarragona;43341;32781;9404;1156;0
+201109;Septiembre de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;91482;58810;26564;6108;0
+201109;Septiembre de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;35381;25837;8778;766;0
+201109;Septiembre de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;152029;113972;33133;4924;0
+201109;Septiembre de 2011;11;Extremadura;6;Badajoz;40058;19371;13137;2524;5026
+201109;Septiembre de 2011;11;Extremadura;10;Cáceres;22798;12030;6752;863;3153
+201109;Septiembre de 2011;12;Galicia;15;Coruña, A;51667;38606;11352;1709;0
+201109;Septiembre de 2011;12;Galicia;27;Lugo;12498;9286;2800;412;0
+201109;Septiembre de 2011;12;Galicia;32;Ourense;12998;8567;3847;584;0
+201109;Septiembre de 2011;12;Galicia;36;Pontevedra;50497;36891;11761;1845;0
+201109;Septiembre de 2011;13;Madrid, Comunidad de;28;Madrid;304670;250593;49075;5002;0
+201109;Septiembre de 2011;14;Murcia, Región de;30;Murcia;77620;57206;17064;3350;0
+201109;Septiembre de 2011;15;Navarra, Comunidad Foral de;31;Navarra;29490;23761;5264;465;0
+201109;Septiembre de 2011;16;País Vasco;1;Araba/Álava;13927;11461;2358;108;0
+201109;Septiembre de 2011;16;País Vasco;20;Gipuzkoa;30502;25207;4951;344;0
+201109;Septiembre de 2011;16;País Vasco;48;Bizkaia;49911;41305;8071;535;0
+201109;Septiembre de 2011;17;Rioja, La;26;Rioja, La;14596;11770;2544;282;0
+201109;Septiembre de 2011;18;Ceuta;51;Ceuta;3448;1606;1576;266;0
+201109;Septiembre de 2011;19;Melilla;52;Melilla;3243;1654;1219;370;0
+201110;Octubre de 2011;1;Andalucía;4;Almería;40114;24482;11393;2162;2077
+201110;Octubre de 2011;1;Andalucía;11;Cádiz;73055;40059;21611;6630;4755
+201110;Octubre de 2011;1;Andalucía;14;Córdoba;50307;23762;13373;2239;10933
+201110;Octubre de 2011;1;Andalucía;18;Granada;54150;28900;15436;2544;7270
+201110;Octubre de 2011;1;Andalucía;21;Huelva;36813;20727;9987;1542;4557
+201110;Octubre de 2011;1;Andalucía;23;Jaén;42685;20079;11419;1716;9471
+201110;Octubre de 2011;1;Andalucía;29;Málaga;88559;52981;25268;5446;4864
+201110;Octubre de 2011;1;Andalucía;41;Sevilla;116531;64338;31107;6069;15017
+201110;Octubre de 2011;2;Aragón;22;Huesca;10213;8365;1685;163;0
+201110;Octubre de 2011;2;Aragón;44;Teruel;5771;4345;1318;108;0
+201110;Octubre de 2011;2;Aragón;50;Zaragoza;46345;36860;8305;1180;0
+201110;Octubre de 2011;3;Asturias, Principado de;33;Asturias;49966;36654;11882;1430;0
+201110;Octubre de 2011;4;Balears, Illes;7;Balears, Illes;55487;41961;12422;1104;0
+201110;Octubre de 2011;5;Canarias;35;Palmas, Las;62757;38192;19508;5057;0
+201110;Octubre de 2011;5;Canarias;38;Santa Cruz de Tenerife;56640;34819;18229;3592;0
+201110;Octubre de 2011;6;Cantabria;39;Cantabria;25527;19654;5117;756;0
+201110;Octubre de 2011;7;Castilla y León;5;Ávila;7605;5331;1964;310;0
+201110;Octubre de 2011;7;Castilla y León;9;Burgos;16899;13335;3200;364;0
+201110;Octubre de 2011;7;Castilla y León;24;León;21501;15934;4975;592;0
+201110;Octubre de 2011;7;Castilla y León;34;Palencia;6383;4771;1404;208;0
+201110;Octubre de 2011;7;Castilla y León;37;Salamanca;14269;10200;3418;651;0
+201110;Octubre de 2011;7;Castilla y León;40;Segovia;5643;4533;1004;106;0
+201110;Octubre de 2011;7;Castilla y León;42;Soria;3502;2797;631;74;0
+201110;Octubre de 2011;7;Castilla y León;47;Valladolid;22228;17328;4126;774;0
+201110;Octubre de 2011;7;Castilla y León;49;Zamora;7118;5144;1708;266;0
+201110;Octubre de 2011;8;Castilla - La Mancha;2;Albacete;21622;14837;5674;1111;0
+201110;Octubre de 2011;8;Castilla - La Mancha;13;Ciudad Real;25893;17677;7112;1104;0
+201110;Octubre de 2011;8;Castilla - La Mancha;16;Cuenca;8958;6271;2355;332;0
+201110;Octubre de 2011;8;Castilla - La Mancha;19;Guadalajara;13177;10169;2747;261;0
+201110;Octubre de 2011;8;Castilla - La Mancha;45;Toledo;38296;27780;9304;1212;0
+201110;Octubre de 2011;9;Cataluña;8;Barcelona;323837;255690;62551;5596;0
+201110;Octubre de 2011;9;Cataluña;17;Girona;42122;31830;9679;613;0
+201110;Octubre de 2011;9;Cataluña;25;Lleida;21205;16750;4103;352;0
+201110;Octubre de 2011;9;Cataluña;43;Tarragona;46424;35078;10174;1172;0
+201110;Octubre de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;93104;60151;26807;6146;0
+201110;Octubre de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;34998;25488;8683;827;0
+201110;Octubre de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;143415;106370;31997;5048;0
+201110;Octubre de 2011;11;Extremadura;6;Badajoz;42225;21018;13307;2582;5318
+201110;Octubre de 2011;11;Extremadura;10;Cáceres;23269;12522;6800;900;3047
+201110;Octubre de 2011;12;Galicia;15;Coruña, A;52701;39382;11582;1737;0
+201110;Octubre de 2011;12;Galicia;27;Lugo;12864;9492;2958;414;0
+201110;Octubre de 2011;12;Galicia;32;Ourense;13198;8629;3983;586;0
+201110;Octubre de 2011;12;Galicia;36;Pontevedra;53022;38920;12216;1886;0
+201110;Octubre de 2011;13;Madrid, Comunidad de;28;Madrid;305473;250907;49337;5229;0
+201110;Octubre de 2011;14;Murcia, Región de;30;Murcia;78576;57843;17304;3429;0
+201110;Octubre de 2011;15;Navarra, Comunidad Foral de;31;Navarra;30768;24951;5325;492;0
+201110;Octubre de 2011;16;País Vasco;1;Araba/Álava;14255;11759;2380;116;0
+201110;Octubre de 2011;16;País Vasco;20;Gipuzkoa;30762;25376;5024;362;0
+201110;Octubre de 2011;16;País Vasco;48;Bizkaia;50074;41422;8112;540;0
+201110;Octubre de 2011;17;Rioja, La;26;Rioja, La;14471;11677;2501;293;0
+201110;Octubre de 2011;18;Ceuta;51;Ceuta;3494;1635;1590;269;0
+201110;Octubre de 2011;19;Melilla;52;Melilla;3119;1546;1193;380;0
+201111;Noviembre de 2011;1;Andalucía;4;Almería;38029;22573;11112;2274;2070
+201111;Noviembre de 2011;1;Andalucía;11;Cádiz;77002;42954;22435;6849;4764
+201111;Noviembre de 2011;1;Andalucía;14;Córdoba;49866;24246;13103;2319;10198
+201111;Noviembre de 2011;1;Andalucía;18;Granada;55567;30126;15686;2637;7118
+201111;Noviembre de 2011;1;Andalucía;21;Huelva;38230;21494;10287;1620;4829
+201111;Noviembre de 2011;1;Andalucía;23;Jaén;41284;19971;10919;1776;8618
+201111;Noviembre de 2011;1;Andalucía;29;Málaga;95968;58723;26684;5641;4920
+201111;Noviembre de 2011;1;Andalucía;41;Sevilla;120124;67013;32079;6274;14758
+201111;Noviembre de 2011;2;Aragón;22;Huesca;10573;8664;1736;173;0
+201111;Noviembre de 2011;2;Aragón;44;Teruel;6299;4811;1375;113;0
+201111;Noviembre de 2011;2;Aragón;50;Zaragoza;49924;40137;8549;1238;0
+201111;Noviembre de 2011;3;Asturias, Principado de;33;Asturias;52648;38855;12314;1479;0
+201111;Noviembre de 2011;4;Balears, Illes;7;Balears, Illes;84382;62897;20341;1144;0
+201111;Noviembre de 2011;5;Canarias;35;Palmas, Las;64716;39278;20260;5178;0
+201111;Noviembre de 2011;5;Canarias;38;Santa Cruz de Tenerife;58682;35801;19187;3694;0
+201111;Noviembre de 2011;6;Cantabria;39;Cantabria;27600;21346;5482;772;0
+201111;Noviembre de 2011;7;Castilla y León;5;Ávila;7997;5638;2032;327;0
+201111;Noviembre de 2011;7;Castilla y León;9;Burgos;18013;14266;3377;370;0
+201111;Noviembre de 2011;7;Castilla y León;24;León;22567;16832;5126;609;0
+201111;Noviembre de 2011;7;Castilla y León;34;Palencia;6766;5047;1501;218;0
+201111;Noviembre de 2011;7;Castilla y León;37;Salamanca;14725;10516;3548;661;0
+201111;Noviembre de 2011;7;Castilla y León;40;Segovia;6192;4982;1098;112;0
+201111;Noviembre de 2011;7;Castilla y León;42;Soria;3720;2984;657;79;0
+201111;Noviembre de 2011;7;Castilla y León;47;Valladolid;23376;18235;4339;802;0
+201111;Noviembre de 2011;7;Castilla y León;49;Zamora;7741;5669;1805;267;0
+201111;Noviembre de 2011;8;Castilla - La Mancha;2;Albacete;22481;15534;5808;1139;0
+201111;Noviembre de 2011;8;Castilla - La Mancha;13;Ciudad Real;27311;18871;7273;1167;0
+201111;Noviembre de 2011;8;Castilla - La Mancha;16;Cuenca;9389;6610;2427;352;0
+201111;Noviembre de 2011;8;Castilla - La Mancha;19;Guadalajara;13313;10271;2775;267;0
+201111;Noviembre de 2011;8;Castilla - La Mancha;45;Toledo;40112;28980;9834;1298;0
+201111;Noviembre de 2011;9;Cataluña;8;Barcelona;330804;260834;64069;5901;0
+201111;Noviembre de 2011;9;Cataluña;17;Girona;46909;35442;10813;654;0
+201111;Noviembre de 2011;9;Cataluña;25;Lleida;21587;17023;4195;369;0
+201111;Noviembre de 2011;9;Cataluña;43;Tarragona;51438;38886;11314;1238;0
+201111;Noviembre de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;96187;61958;27888;6341;0
+201111;Noviembre de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;35210;25636;8682;892;0
+201111;Noviembre de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;144808;107336;32152;5320;0
+201111;Noviembre de 2011;11;Extremadura;6;Badajoz;45121;23000;14135;2633;5353
+201111;Noviembre de 2011;11;Extremadura;10;Cáceres;24637;13564;7092;909;3072
+201111;Noviembre de 2011;12;Galicia;15;Coruña, A;55221;41575;11859;1787;0
+201111;Noviembre de 2011;12;Galicia;27;Lugo;13704;10204;3079;421;0
+201111;Noviembre de 2011;12;Galicia;32;Ourense;14079;9348;4119;612;0
+201111;Noviembre de 2011;12;Galicia;36;Pontevedra;54724;40175;12616;1933;0
+201111;Noviembre de 2011;13;Madrid, Comunidad de;28;Madrid;309761;253507;50750;5504;0
+201111;Noviembre de 2011;14;Murcia, Región de;30;Murcia;77789;56761;17437;3591;0
+201111;Noviembre de 2011;15;Navarra, Comunidad Foral de;31;Navarra;32838;26799;5512;527;0
+201111;Noviembre de 2011;16;País Vasco;1;Araba/Álava;14458;11928;2416;114;0
+201111;Noviembre de 2011;16;País Vasco;20;Gipuzkoa;31343;25931;5064;348;0
+201111;Noviembre de 2011;16;País Vasco;48;Bizkaia;50999;42152;8285;562;0
+201111;Noviembre de 2011;17;Rioja, La;26;Rioja, La;15570;12526;2727;317;0
+201111;Noviembre de 2011;18;Ceuta;51;Ceuta;3318;1556;1489;273;0
+201111;Noviembre de 2011;19;Melilla;52;Melilla;2873;1400;1130;343;0
+201112;Diciembre de 2011;1;Andalucía;4;Almería;36449;21603;10533;2334;1979
+201112;Diciembre de 2011;1;Andalucía;11;Cádiz;77815;43954;22387;6873;4601
+201112;Diciembre de 2011;1;Andalucía;14;Córdoba;46487;23134;12063;2334;8956
+201112;Diciembre de 2011;1;Andalucía;18;Granada;52982;28909;14930;2688;6455
+201112;Diciembre de 2011;1;Andalucía;21;Huelva;39631;22895;10399;1681;4656
+201112;Diciembre de 2011;1;Andalucía;23;Jaén;30714;15774;7572;1690;5678
+201112;Diciembre de 2011;1;Andalucía;29;Málaga;97390;60520;26526;5732;4612
+201112;Diciembre de 2011;1;Andalucía;41;Sevilla;119183;66177;32305;6436;14265
+201112;Diciembre de 2011;2;Aragón;22;Huesca;10504;8604;1717;183;0
+201112;Diciembre de 2011;2;Aragón;44;Teruel;6487;4985;1392;110;0
+201112;Diciembre de 2011;2;Aragón;50;Zaragoza;51540;41774;8509;1257;0
+201112;Diciembre de 2011;3;Asturias, Principado de;33;Asturias;53483;39591;12398;1494;0
+201112;Diciembre de 2011;4;Balears, Illes;7;Balears, Illes;103526;78963;23389;1174;0
+201112;Diciembre de 2011;5;Canarias;35;Palmas, Las;65258;39869;20199;5190;0
+201112;Diciembre de 2011;5;Canarias;38;Santa Cruz de Tenerife;58914;35908;19265;3741;0
+201112;Diciembre de 2011;6;Cantabria;39;Cantabria;29086;22761;5537;788;0
+201112;Diciembre de 2011;7;Castilla y León;5;Ávila;8088;5737;2012;339;0
+201112;Diciembre de 2011;7;Castilla y León;9;Burgos;18708;14864;3458;386;0
+201112;Diciembre de 2011;7;Castilla y León;24;León;23444;17649;5187;608;0
+201112;Diciembre de 2011;7;Castilla y León;34;Palencia;7306;5551;1531;224;0
+201112;Diciembre de 2011;7;Castilla y León;37;Salamanca;15179;10904;3603;672;0
+201112;Diciembre de 2011;7;Castilla y León;40;Segovia;6333;5077;1135;121;0
+201112;Diciembre de 2011;7;Castilla y León;42;Soria;3906;3149;673;84;0
+201112;Diciembre de 2011;7;Castilla y León;47;Valladolid;23817;18650;4360;807;0
+201112;Diciembre de 2011;7;Castilla y León;49;Zamora;8000;5868;1856;276;0
+201112;Diciembre de 2011;8;Castilla - La Mancha;2;Albacete;22574;15595;5818;1161;0
+201112;Diciembre de 2011;8;Castilla - La Mancha;13;Ciudad Real;27568;19230;7148;1190;0
+201112;Diciembre de 2011;8;Castilla - La Mancha;16;Cuenca;9539;6723;2454;362;0
+201112;Diciembre de 2011;8;Castilla - La Mancha;19;Guadalajara;13762;10668;2826;268;0
+201112;Diciembre de 2011;8;Castilla - La Mancha;45;Toledo;40516;29376;9786;1354;0
+201112;Diciembre de 2011;9;Cataluña;8;Barcelona;329863;259751;63974;6138;0
+201112;Diciembre de 2011;9;Cataluña;17;Girona;48196;36607;10907;682;0
+201112;Diciembre de 2011;9;Cataluña;25;Lleida;21448;16898;4175;375;0
+201112;Diciembre de 2011;9;Cataluña;43;Tarragona;53020;40211;11524;1285;0
+201112;Diciembre de 2011;10;Comunitat Valenciana;3;Alicante/Alacant;96882;62653;27790;6439;0
+201112;Diciembre de 2011;10;Comunitat Valenciana;12;Castellón/Castelló;34387;25306;8185;896;0
+201112;Diciembre de 2011;10;Comunitat Valenciana;46;Valencia/Valéncia;143164;106246;31490;5428;0
+201112;Diciembre de 2011;11;Extremadura;6;Badajoz;44704;22950;13990;2631;5133
+201112;Diciembre de 2011;11;Extremadura;10;Cáceres;25690;14276;7276;945;3193
+201112;Diciembre de 2011;12;Galicia;15;Coruña, A;57011;43175;12025;1811;0
+201112;Diciembre de 2011;12;Galicia;27;Lugo;14215;10643;3146;426;0
+201112;Diciembre de 2011;12;Galicia;32;Ourense;14444;9702;4130;612;0
+201112;Diciembre de 2011;12;Galicia;36;Pontevedra;55932;41173;12765;1994;0
+201112;Diciembre de 2011;13;Madrid, Comunidad de;28;Madrid;308304;252222;50357;5725;0
+201112;Diciembre de 2011;14;Murcia, Región de;30;Murcia;76182;55139;17342;3701;0
+201112;Diciembre de 2011;15;Navarra, Comunidad Foral de;31;Navarra;33528;27373;5625;530;0
+201112;Diciembre de 2011;16;País Vasco;1;Araba/Álava;14243;11739;2384;120;0
+201112;Diciembre de 2011;16;País Vasco;20;Gipuzkoa;31455;26035;5064;356;0
+201112;Diciembre de 2011;16;País Vasco;48;Bizkaia;51323;42516;8230;577;0
+201112;Diciembre de 2011;17;Rioja, La;26;Rioja, La;15835;12756;2738;341;0
+201112;Diciembre de 2011;18;Ceuta;51;Ceuta;3325;1588;1467;270;0
+201112;Diciembre de 2011;19;Melilla;52;Melilla;2608;1311;997;300;0
