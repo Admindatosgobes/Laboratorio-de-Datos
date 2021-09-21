@@ -1,3 +1,5 @@
+# Laboratorio de Datos #
+
 ## [Guía practica de introducción al Análisis Exploratorio de Datos](https://datos.gob.es/es/documentacion/guia-practica-de-introduccion-al-analisis-exploratorio-de-datos)
 
 Antes de realizar un análisis de  datos, con fines estadísticos o predictivos por ejemplo a través de técnicas de machine learning,  es necesario comprender la materia prima con la que vamos a trabajar. Hay que entender y evaluar la  calidad de los datos para así, entre otros aspectos, detectar y tratar los datos atípicos o incorrectos, evitando posibles errores que pudieran repercutir en los resultados del análisis. 
