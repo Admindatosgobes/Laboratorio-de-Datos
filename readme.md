@@ -9,3 +9,6 @@ Este repositorio contiene varios **proyectos de reutilización de datos abiertos
 
 - Visualizaciones 
 	1. [Caracterización de la demanda de empleo en España](https://datos.gob.es/es/blog/caracterizacion-de-la-demanda-de-empleo-en-espana)
+	
+- Post
+	1. [El valor de los datos en tiempo real](https://datos.gob.es/es/blog/el-valor-de-los-datos-en-tiempo-real)
