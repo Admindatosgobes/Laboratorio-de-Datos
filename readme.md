@@ -8,4 +8,4 @@ Este repositorio contiene varios **proyectos de reutilización de datos abiertos
 	3. [Tecnologías emergentes y datos abiertos: Analítica Predictiva](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-analitica-predictiva)
 
 - Visualizaciones 
-	2. [Caracterización de la demanda de empleo en España](https://datos.gob.es/es/blog/caracterizacion-de-la-demanda-de-empleo-en-espana
+	1. [Caracterización de la demanda de empleo en España](https://datos.gob.es/es/blog/caracterizacion-de-la-demanda-de-empleo-en-espana
