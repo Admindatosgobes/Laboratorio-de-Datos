@@ -6,7 +6,7 @@
 
 El objetivo principal de este post es realizar una visualización interactiva partiendo de datos abiertos. Para ello se han utilizado conjuntos de datos que contienen información 
 relevante sobre los docentes y alumnos matriculados en los centros públicos de Castilla y León durante el año académico 2019-2020. A partir de estos datos se realiza un análisis 
-de variaos indicadores que relacionan docentes, especialidades, alumnados matriculado en los centros de cada provincia o localidad de la Comunidad Autónoma.
+de varios indicadores que relacionan docentes, especialidades, alumnados matriculado en los centros de cada provincia o localidad de la Comunidad Autónoma.
 
 El post está dividido en tres apartados principales:
 
