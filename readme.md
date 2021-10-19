@@ -10,6 +10,7 @@ Este repositorio contiene varios **proyectos de reutilización de datos abiertos
 - Visualizaciones 
 	1. [Caracterización de la demanda de empleo en España](https://datos.gob.es/es/blog/caracterizacion-de-la-demanda-de-empleo-en-espana)
 	2. [Docentes de los centros educativos públicos de Castilla y León](https://datos.gob.es/es/documentacion/docentes-de-los-centros-educativos-publicos-de-castilla-y-leon)
+	3. [¿Cuantos accidentes de tráfico ocurren en la ciudad de Madrid?](https://datos.gob.es/es/documentacion/cuantos-accidentes-ocurren-en-la-ciudad-de-madrid)
 	
 - Post
 	1. [El valor de los datos en tiempo real](https://datos.gob.es/es/blog/el-valor-de-los-datos-en-tiempo-real)
