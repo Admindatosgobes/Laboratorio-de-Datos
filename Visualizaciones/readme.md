@@ -7,3 +7,4 @@ Este repositorio contiene **ejercicios prácticos de visualización de datos abi
  1. [Caracterización de la demanda de empleo en España](https://datos.gob.es/es/documentacion/caracterizacion-de-la-demanda-de-empleo-en-espana)
  2. [Docentes de los centros educativos públicos de Castilla y León](https://datos.gob.es/es/documentacion/docentes-de-los-centros-educativos-publicos-de-castilla-y-leon)
  3. [¿Cuantos accidentes de tráfico ocurren en la ciudad de Madrid?](https://datos.gob.es/es/documentacion/cuantos-accidentes-ocurren-en-la-ciudad-de-madrid)
+ 4. [Cómo crear nubes de palabras a partir de un texto utilizando técnicas de PLN](https://datos.gob.es/es/documentacion/como-crear-nubes-de-palabras-partir-de-un-texto-utilizando-tecnicas-de-pln)
