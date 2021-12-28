@@ -1,6 +1,6 @@
 ## Laboratorio de Datos
 
-Este repositorio contiene **proyectos de reutilización de datos abiertos** disponibles en el catálogo datos.gob.es:
+Este repositorio contiene **proyectos de reutilización de datos abiertos** disponibles en el Catálogo Nacional de Datos Abiertos datos.gob.es:
 
 - Tecnologías emergentes y datos abiertos
 	1. [Tecnologías emergentes y datos abiertos: Inteligencia Artificial](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-inteligencia-artificial)
