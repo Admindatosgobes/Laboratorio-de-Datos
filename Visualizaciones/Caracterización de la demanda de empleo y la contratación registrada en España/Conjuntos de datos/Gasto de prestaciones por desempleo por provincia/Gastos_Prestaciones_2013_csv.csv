@@ -1,0 +1,158 @@
+;;;;GASTOS DE PRESTACIONES POR DESEMPLEO ( miles de euros) POR PROVINCIA Y TIPO DE PRESTACIÓN;;;;;;;
+Código mes ;mes;Código de CA;Comunidad Autónoma;Codigo Provincia;Provincia;Gasto Total Prestación;Gasto Prestación Contributiva;Gasto Subsidio Desempleo;Gasto Renta Activa Inserción;Gasto Subsidio Eventuales Agrarios;
+201301;Enero de 2013;1;Andalucía;4;Almería;35767,67;21622,26;10194,37;2297,9;1752,13;
+201301;Enero de 2013;1;Andalucía;11;Cádiz;71937,93;47171,79;23254,2;6005,71;4506,23;
+201301;Enero de 2013;1;Andalucía;14;Córdoba;52561,55;27103,92;13429,77;2176;7741,76;
+201301;Enero de 2013;1;Andalucía;17;Granada;56250,11;31699,79;15469,76;2714,74;6265,62;
+201301;Enero de 2013;1;Andalucía;21;Huelva;37462,66;21332,63;1038,15;1679,97;4079,91;
+201301;Enero de 2013;1;Andalucía;23;Jaén;41407,02;20962,61;10734,34;1713,4;7796,67;
+201301;Enero de 2013;1;Andalucía;29;Málaga;100552,77;64207,47;26430,13;5719,24;4195,03;
+201301;Enero de 2013;1;Andalucía;41;Sevilla;127110,27;74296,97;34033,43;6116,72;13663,06;
+201301;Enero de 2013;2;Aragón;22;Huesca;1048,22;7529,09;1741,7;209,33;0;
+201301;Enero de 2013;2;Aragón;44;Teruel;7253,07;5735,13;1375,77;142,17;0;
+201301;Enero de 2013;2;Aragón;50;Zaragoza;55524,99;45716,93;7534,55;1273,51;0;
+201301;Enero de 2013;3;Asturias, Principado de;33;Asturias;62040,16;47737,4;12593,47;189,29;0;
+201301;Enero de 2013;4;Balears, Illes;7;Balears, Illes;101657,43;79260,07;21020,95;1376,41;0;
+201301;Enero de 2013;5;Canarias;35;Palmas, Las;64207,35;40230,05;17777,33;5079,97;0;
+201301;Enero de 2013;5;Canarias;37;Santa Cruz de Tenerife;57634,71;36500,75;17142,01;3992,05;0;
+201301;Enero de 2013;6;Cantabria;39;Cantabria;34727,21;2844,56;587,62;775,03;0;
+201301;Enero de 2013;7;Castilla y León;5;Ávila;7373,76;6005;2053,33;315,53;0;
+201301;Enero de 2013;7;Castilla y León;9;Burgos;20755,02;16760,53;3643,77;450,61;0;
+201301;Enero de 2013;7;Castilla y León;24;León;27656,31;21736,59;5260,26;659,46;0;
+201301;Enero de 2013;7;Castilla y León;34;Palencia;7669,26;683,64;1607;257,62;0;
+201301;Enero de 2013;7;Castilla y León;37;Salamanca;16754,23;12411,51;385,05;737,67;0;
+201301;Enero de 2013;7;Castilla y León;40;Segovia;7452,63;6077,93;1201,14;162,56;0;
+201301;Enero de 2013;7;Castilla y León;42;Soria;5177,77;4350,69;741,11;96,97;0;
+201301;Enero de 2013;7;Castilla y León;47;Valladolid;27507,37;23031,47;4631,47;744,44;0;
+201301;Enero de 2013;7;Castilla y León;49;Zamora;7711,31;6424,93;2067,67;317,71;0;
+201301;Enero de 2013;8;Castilla - La Mancha;2;Albacete;25603,77;17746,72;5505,25;1351,71;0;
+201301;Enero de 2013;8;Castilla - La Mancha;13;Ciudad Real;33520,43;24644,09;7399,47;1476,77;0;
+201301;Enero de 2013;8;Castilla - La Mancha;16;Cuenca;11719,17;7777,77;2361,12;469,27;0;
+201301;Enero de 2013;8;Castilla - La Mancha;19;Guadalajara;15754,66;12597,99;2775,01;371,66;0;
+201301;Enero de 2013;8;Castilla - La Mancha;45;Toledo;47117,92;3587,97;9635,14;1775,71;0;
+201301;Enero de 2013;9;Cataluña;7;Barcelona;335504,77;264765,97;63160,65;7577,15;0;
+201301;Enero de 2013;9;Cataluña;17;Girona;47743,75;3680,95;10149,47;793,43;0;
+201301;Enero de 2013;9;Cataluña;25;Lleida;22519,75;17773,01;4146,11;490,73;0;
+201301;Enero de 2013;9;Cataluña;43;Tarragona;53691,05;40519,2;11662,72;1509,13;0;
+201301;Enero de 2013;10;Comunitat Valenciana;3;Alicante/Alacant;97774,76;65419,57;26971,27;6473,91;0;
+201301;Enero de 2013;10;Comunitat Valenciana;12;Castellón/Castelló;35647,1;26266,51;7152,57;1229,01;0;
+201301;Enero de 2013;10;Comunitat Valenciana;46;Valencia/Valéncia;152395,94;113520,93;32439,72;6435,19;0;
+201301;Enero de 2013;11;Extremadura;6;Badajoz;47601,11;26045,74;14127,47;2425,79;5002,01;
+201301;Enero de 2013;11;Extremadura;10;Cáceres;27554,03;16592,5;7777,95;1067,39;3116,19;
+201301;Enero de 2013;12;Galicia;15;Coruña, A;64063;49950,01;12255,29;1757,7;0;
+201301;Enero de 2013;12;Galicia;27;Lugo;15710,55;11977;3321,75;500,7;0;
+201301;Enero de 2013;12;Galicia;32;Ourense;15571,16;10726,19;4120,57;634,39;0;
+201301;Enero de 2013;12;Galicia;36;Pontevedra;59737,04;44205,72;13445,91;2075,31;0;
+201301;Enero de 2013;13;Madrid, Comunidad de;27;Madrid;346321;279141,79;50677,34;6490,77;0;
+201301;Enero de 2013;14;Murcia, Región de;30;Murcia;77517,7;56973,12;17443,52;4102,06;0;
+201301;Enero de 2013;15;Navarra, Comunidad Foral de;31;Navarra;39301,4;32749,52;5747,19;83,69;0;
+201301;Enero de 2013;16;País Vasco;1;Araba/Álava;17590,97;15909,73;2532,32;147,72;0;
+201301;Enero de 2013;16;País Vasco;20;Gipuzkoa;36772,17;31327,77;5099,67;343,62;0;
+201301;Enero de 2013;16;País Vasco;47;Bizkaia;60721,3;51507,96;7474,57;737,77;0;
+201301;Enero de 2013;17;Ceuta;51;Ceuta;3073,64;1541,92;1277,22;254,5;0;
+201301;Enero de 2013;18;Rioja, La;26;Rioja, La;17443,07;15206,17;2727,73;407,06;0;
+201301;Enero de 2013;19;Melilla;52;Melilla;2945,21;1563,15;1134,67;247,37;0;
+201302;Febrero de 2013;1;Andalucía;4;Almería;35161,61;21122,7;10097,79;2260,79;168,13;
+201302;Febrero de 2013;1;Andalucía;11;Cádiz;77396,77;45301,17;23007,72;5791,3;4295,67;
+201302;Febrero de 2013;1;Andalucía;14;Córdoba;53276,99;2856,64;14201,74;2149,56;7777,95;
+201302;Febrero de 2013;1;Andalucía;17;Granada;55545,61;30674,33;15724,46;2727,14;6217,67;
+201302;Febrero de 2013;1;Andalucía;21;Huelva;33465,29;1894,24;9792,96;1665,42;3912,67;
+201302;Febrero de 2013;1;Andalucía;23;Jaén;42417,13;21966,76;11502,37;1720,35;7127,54;
+201302;Febrero de 2013;1;Andalucía;29;Málaga;97797,51;61451,3;26477,79;5575,27;4292,14;
+201302;Febrero de 2013;1;Andalucía;41;Sevilla;127350,21;73106,67;35074,06;6107,79;14051,59;
+201302;Febrero de 2013;2;Aragón;22;Huesca;10137,34;7166,25;1763,24;207,75;0;
+201302;Febrero de 2013;2;Aragón;44;Teruel;7216,5;5667,69;1406,39;141,42;0;
+201302;Febrero de 2013;2;Aragón;50;Zaragoza;55243,71;45230,73;7719,7;1293,17;0;
+201302;Febrero de 2013;3;Asturias, Principado de;33;Asturias;61592,22;47157,14;12655,62;1779,46;0;
+201302;Febrero de 2013;4;Balears, Illes;7;Balears, Illes;77279,26;66945,77;19916,97;1426,52;0;
+201302;Febrero de 2013;5;Canarias;35;Palmas, Las;63774,91;39769,97;17913,42;5091,51;0;
+201302;Febrero de 2013;5;Canarias;37;Santa Cruz de Tenerife;57377,97;3628,46;1867,22;4030,29;0;
+201302;Febrero de 2013;6;Cantabria;39;Cantabria;34246,91;27404,62;5942,07;900,21;0;
+201302;Febrero de 2013;7;Castilla y León;5;Ávila;7346,59;5929,79;2079,33;337,37;0;
+201302;Febrero de 2013;7;Castilla y León;9;Burgos;21736,42;17573,72;3677,77;474,72;0;
+201302;Febrero de 2013;7;Castilla y León;24;León;27252,49;21202,1;5369,53;68,76;0;
+201302;Febrero de 2013;7;Castilla y León;34;Palencia;7573,14;680,17;1616,61;266,35;0;
+201302;Febrero de 2013;7;Castilla y León;37;Salamanca;16696,32;12164,07;3774,15;757,1;0;
+201302;Febrero de 2013;7;Castilla y León;40;Segovia;7753,37;6447,79;1239,47;166;0;
+201302;Febrero de 2013;7;Castilla y León;42;Soria;4920,69;4074,44;747,41;97,74;0;
+201302;Febrero de 2013;7;Castilla y León;47;Valladolid;27773,77;23227,71;4697,05;747,12;0;
+201302;Febrero de 2013;7;Castilla y León;49;Zamora;7496,79;6075,03;2074,92;336,74;0;
+201302;Febrero de 2013;8;Castilla - La Mancha;2;Albacete;24967,27;1873,31;5500,3;1394,67;0;
+201302;Febrero de 2013;8;Castilla - La Mancha;13;Ciudad Real;32262,94;23272,71;7464,39;1515,74;0;
+201302;Febrero de 2013;8;Castilla - La Mancha;16;Cuenca;11441,39;7569,73;2377,5;474,16;0;
+201302;Febrero de 2013;8;Castilla - La Mancha;19;Guadalajara;15764,76;12653,31;2716,94;394,51;0;
+201302;Febrero de 2013;8;Castilla - La Mancha;45;Toledo;45759,44;34365,32;9690,14;183,97;0;
+201302;Febrero de 2013;9;Cataluña;7;Barcelona;326447,61;255679,66;63025,07;7742,77;0;
+201302;Febrero de 2013;9;Cataluña;17;Girona;45679,64;34764,33;9976,25;939,06;0;
+201302;Febrero de 2013;9;Cataluña;25;Lleida;21715,91;17100,1;4122,29;493,52;0;
+201302;Febrero de 2013;9;Cataluña;43;Tarragona;51267,92;37115,17;11634,79;1517,96;0;
+201302;Febrero de 2013;10;Comunitat Valenciana;3;Alicante/Alacant;96677,17;63413,4;2684,75;6467,93;0;
+201302;Febrero de 2013;10;Comunitat Valenciana;12;Castellón/Castelló;35601,76;25694,53;7646,15;1261,07;0;
+201302;Febrero de 2013;10;Comunitat Valenciana;46;Valencia/Valéncia;150104,93;110301,02;3318,04;6623,77;0;
+201302;Febrero de 2013;11;Extremadura;6;Badajoz;46694,22;2518,23;14179,27;2415,34;4919,37;
+201302;Febrero de 2013;11;Extremadura;10;Cáceres;27727,94;15742,97;7755,06;1094,49;3135,42;
+201302;Febrero de 2013;12;Galicia;15;Coruña, A;62074,17;47726,14;12457,73;1779,21;0;
+201302;Febrero de 2013;12;Galicia;27;Lugo;15720,97;11934,97;3377,7;497,31;0;
+201302;Febrero de 2013;12;Galicia;32;Ourense;15410,74;10603,42;4166,53;640,79;0;
+201302;Febrero de 2013;12;Galicia;36;Pontevedra;57557,11;42963,72;13477,7;2105,59;0;
+201302;Febrero de 2013;13;Madrid, Comunidad de;27;Madrid;344730,72;276544,72;51637,19;6647,71;0;
+201302;Febrero de 2013;14;Murcia, Región de;30;Murcia;77591,73;56177,69;17369,63;4044,41;0;
+201302;Febrero de 2013;15;Navarra, Comunidad Foral de;31;Navarra;39521,2;32771,01;5933,01;87,17;0;
+201302;Febrero de 2013;16;País Vasco;1;Araba/Álava;188,79;15333,22;2577,34;159,33;0;
+201302;Febrero de 2013;16;País Vasco;20;Gipuzkoa;36145,7;3083,69;5077,67;353,34;0;
+201302;Febrero de 2013;16;País Vasco;47;Bizkaia;59972,24;50572,14;7605,04;85,06;0;
+201302;Febrero de 2013;17;Ceuta;51;Ceuta;3117,55;1574,45;1315,62;227,47;0;
+201302;Febrero de 2013;18;Rioja, La;26;Rioja, La;17732,91;14577,37;2727,32;417,22;0;
+201302;Febrero de 2013;19;Melilla;52;Melilla;2767,39;1556,91;1077,2;222,27;0;
+201303;Marzo de 2013;1;Andalucía;;4;Almería;34662,71;20589,19;10159,12;2249,85;1664,55
+201303;Marzo de 2013;1;Andalucía;;11;Cádiz;75514,2;42781,96;22850,3;5644,91;4237,03
+201303;Marzo de 2013;1;Andalucía;;14;Córdoba;54229,87;28226,98;14974,81;2138,7;8889,38
+201303;Marzo de 2013;1;Andalucía;;18;Granada;54124,17;29023;16066,27;2846,36;6188,54
+201303;Marzo de 2013;1;Andalucía;;21;Huelva;30913,63;16071,37;9504,88;1624,8;3712,58
+201303;Marzo de 2013;1;Andalucía;;23;Jaén;42103,15;21466,7;12025,5;1820,05;6790,9
+201303;Marzo de 2013;1;Andalucía;;29;Málaga;92837,06;56187,74;26661,89;5551,78;4435,65
+201303;Marzo de 2013;1;Andalucía;;41;Sevilla;125527,75;70414,08;35010,95;6075,89;14026,83
+201303;Marzo de 2013;2;Aragón;;22;Huesca;9674,29;7717,41;1741,86;215,02;0
+201303;Marzo de 2013;2;Aragón;;44;Teruel;6929,27;5389,76;1394,82;144,69;0
+201303;Marzo de 2013;2;Aragón;;50;Zaragoza;53288,42;43256,39;8715,39;1316,64;0
+201303;Marzo de 2013;3;Asturias,;Principado de;33;Asturias;59727,55;45285,7;12623,55;1818,3;0
+201303;Marzo de 2013;4;Balears, I;lles;7;Balears, Illes;69338,71;49089,23;18811,77;1437,71;0
+201303;Marzo de 2013;5;Canarias;;35;Palmas, Las;62225,63;38481,03;18636,44;5108,16;0
+201303;Marzo de 2013;5;Canarias;;38;Santa Cruz de Tenerife;56840,16;34878,7;17891,49;4069,97;0
+201303;Marzo de 2013;6;Cantabria;;39;Cantabria;32895,66;26083,53;5875,24;936,89;0
+201303;Marzo de 2013;7;Castilla y;León;5;Ávila;8239,52;5713,02;2170,74;355,76;0
+201303;Marzo de 2013;7;Castilla y;León;9;Burgos;21211,16;17074,11;3645,53;491,52;0
+201303;Marzo de 2013;7;Castilla y;León;24;León;27790,66;21752,27;5340,37;698,02;0
+201303;Marzo de 2013;7;Castilla y;León;34;Palencia;8160,67;6270,54;1631,65;258,48;0
+201303;Marzo de 2013;7;Castilla y;León;37;Salamanca;16247,09;11709,72;3768,89;768,48;0
+201303;Marzo de 2013;7;Castilla y;León;40;Segovia;7295,38;5876,65;1248,92;169,81;0
+201303;Marzo de 2013;7;Castilla y;León;42;Soria;4800,98;3970,81;732,29;97,88;0
+201303;Marzo de 2013;7;Castilla y;León;47;Valladolid;27898,07;22395,57;4627,65;874,85;0
+201303;Marzo de 2013;7;Castilla y;León;49;Zamora;8240,28;5850,73;2051,29;338,26;0
+201303;Marzo de 2013;8;Castilla -;La Mancha;2;Albacete;23722,32;16845,25;5452,03;1425,04;0
+201303;Marzo de 2013;8;Castilla -;La Mancha;13;Ciudad Real;31645,69;22535,73;7540,87;1569,09;0
+201303;Marzo de 2013;8;Castilla -;La Mancha;16;Cuenca;10914,38;8005,34;2406,55;502,49;0
+201303;Marzo de 2013;8;Castilla -;La Mancha;19;Guadalajara;15013;11785,32;2819,17;408,51;0
+201303;Marzo de 2013;8;Castilla -;La Mancha;45;Toledo;44591,66;33081,1;9673,44;1837,12;0
+201303;Marzo de 2013;9;Cataluña;;8;Barcelona;320250,94;249612,27;62673,84;7964,83;0
+201303;Marzo de 2013;9;Cataluña;;17;Girona;41132,28;30650,2;9518,16;963,92;0
+201303;Marzo de 2013;9;Cataluña;;25;Lleida;21155,18;16590,7;4036,07;528,41;0
+201303;Marzo de 2013;9;Cataluña;;43;Tarragona;47144,49;34448,48;11153,15;1542,86;0
+201303;Marzo de 2013;10;Comunitat;Valenciana;3;Alicante/Alacant;93049,04;60225,32;26361,66;6462,06;0
+201303;Marzo de 2013;10;Comunitat;Valenciana;12;Castellón/Castelló;35238,91;25097,05;8829,24;1312,62;0
+201303;Marzo de 2013;10;Comunitat;Valenciana;46;Valencia/Valéncia;147678,58;107855,16;33116,85;6706,57;0
+201303;Marzo de 2013;11;Extremadur;a;6;Badajoz;45611,31;24258,52;14021,16;2431,59;4900,04
+201303;Marzo de 2013;11;Extremadur;a;10;Cáceres;26899,41;14970,23;7725;1107,28;3096,9
+201303;Marzo de 2013;12;Galicia;;15;Coruña, A;60572,56;46193,45;12452,42;1926,69;0
+201303;Marzo de 2013;12;Galicia;;27;Lugo;15302,53;11416,18;3377,41;508,94;0
+201303;Marzo de 2013;12;Galicia;;32;Ourense;14968,1;10172,56;4148,24;647,3;0
+201303;Marzo de 2013;12;Galicia;;36;Pontevedra;57003,28;41421,25;13472,8;2109,23;0
+201303;Marzo de 2013;13;Madrid, Co;munidad de;28;Madrid;336129,13;278023,67;51132,85;6972,61;0
+201303;Marzo de 2013;14;Murcia, Re;gión de;30;Murcia;73499,2;52389,03;17047,65;4062,52;0
+201303;Marzo de 2013;15;Navarra, C;omunidad Foral de;31;Navarra;38116,16;31521,62;5880,27;714,27;0
+201303;Marzo de 2013;16;País Vasco;;1;Araba/Álava;17823,29;15078,79;2572,55;171,95;0
+201303;Marzo de 2013;16;País Vasco;;20;Gipuzkoa;34659,11;29199,38;5096,38;363,35;0
+201303;Marzo de 2013;16;País Vasco;;48;Bizkaia;58569,49;49082,01;8642,58;844,9;0
+201303;Marzo de 2013;17;Rioja, La;;26;Rioja, La;17639,76;14416,14;2802,36;421,26;0
+201303;Marzo de 2013;18;Ceuta;;51;Ceuta;3009,38;1566,29;1143,52;299,57;0
+201303;Marzo de 2013;19;Melilla;;52;Melilla;2664,39;1459;981,42;223,97;0
