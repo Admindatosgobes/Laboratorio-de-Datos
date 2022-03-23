@@ -1,0 +1,131 @@
+prefixes: {xsd: http://www.w3.org/2001/XMLSchema#, rr: http://www.w3.org/ns/r2rml#,
+  rml: http://semweb.mmlab.be/ns/rml#, rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#,
+  ql: http://semweb.mmlab.be/ns/ql#, rdfs: http://www.w3.org/2000/01/rdf-schema#,
+  subvenciones: http://vocab.ciudadesabiertas.es/def/sector-publico/subvencion#,
+  territorio: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#,
+  org: https://www.w3.org/ns/org#, skos: http://www.w3.org/2008/05/skos#, ontology: http://www.geonames.org/ontology#,
+  terms: http://purl.org/dc/terms/, presupuesto: http://vocab.ciudadesabiertas.es/def/hacienda/presupuesto#,
+  0.1: http://xmlns.com/foaf/0.1/, subvencion: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#}
+mappings:
+  triplesMapConcesion:
+    sources:
+    - []
+    s: http://example.org/resource/concesion/$()
+    po:
+    - [a, subvenciones:Concesion]
+    - [subvenciones:fechaConcesion, $(), xsd:date]
+    - [subvenciones:fechaSolicitud, $(), xsd:date]
+    - [subvenciones:importeConcedido, $(), xsd:float]
+    - [subvenciones:importeSolicitado, $(), xsd:float]
+    - p: subvenciones:convocatoria
+      o:
+      - mapping: triplesMapConvocatoria
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: subvencion:beneficiario
+      o:
+      - mapping: triplesMapOrganization
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapConvocatoria:
+    sources:
+    - []
+    s: http://example.org/resource/convocatoria/$()
+    po:
+    - [a, subvenciones:Convocatoria]
+    - [presupuesto:anioFiscal, $()]
+    - [subvenciones:basesReguladoras, $()]
+    - [subvenciones:fechaAcuerdo, $(), xsd:date]
+    - [subvenciones:importePresupuestado, $(), xsd:float]
+    - [subvenciones:importeTotalConcedido, $(), xsd:float]
+    - [subvenciones:nominativa, $(), xsd:boolean]
+    - [subvenciones:objeto, $()]
+    - p: subvenciones:instrumenta
+      o:
+      - mapping: triplesMapConvenio
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: subvencion:area
+      o:
+      - mapping: triplesMapOrganization
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: subvencion:entidadFinanciadora
+      o:
+      - mapping: triplesMapOrganization
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: subvencion:servicio
+      o:
+      - mapping: triplesMapOrganization
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapDistrito:
+    sources:
+    - []
+    s: http://example.org/resource/distrito/$()
+    po:
+    - [a, territorio:Distrito]
+  triplesMapOrganization:
+    sources:
+    - []
+    s: http://example.org/resource/organization/$()
+    po:
+    - [a, org:Organization]
+    - [org:identifier, $()]
+  triplesMapConvenio:
+    sources:
+    - []
+    s: http://example.org/resource/convenio/$()
+    po:
+    - [a, subvenciones:Convenio]
+    - p: subvenciones:instrumentadoPor
+      o:
+      - mapping: triplesMapConvocatoria
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapConcept:
+    sources:
+    - []
+    s: http://example.org/resource/concept/$()
+    po:
+    - [a, skos:Concept]
+  triplesMapConceptscheme:
+    sources:
+    - []
+    s: http://example.org/resource/conceptscheme/$()
+    po:
+    - [a, skos:ConceptScheme]
+  triplesMapDistrict:
+    sources:
+    - []
+    s: http://example.org/resource/district/$()
+    po:
+    - [a, ontology:District]
+  triplesMapFeature:
+    sources:
+    - []
+    s: http://example.org/resource/feature/$()
+    po:
+    - [a, ontology:Feature]
