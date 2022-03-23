@@ -1,0 +1,181 @@
+prefixes: {xsd: http://www.w3.org/2001/XMLSchema#, rr: http://www.w3.org/ns/r2rml#,
+  rml: http://semweb.mmlab.be/ns/rml#, rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#,
+  ql: http://semweb.mmlab.be/ns/ql#, rdfs: http://www.w3.org/2000/01/rdf-schema#,
+  bicicleta-publica: http://www.w3.org/ns/sosa/, core: http://www.w3.org/2004/02/skos/core#,
+  equipamiento-municipal: http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#,
+  1.0: http://www.opengis.net/spec/geosparql/1.0#, terms: http://purl.org/dc/terms/,
+  schema.org: https://schema.org/, dimension: http://purl.org/linked-data/sdmx/2009/dimension#}
+mappings:
+  triplesMapUsuario:
+    sources:
+    - []
+    s: http://example.org/resource/usuario/$()
+    po:
+    - [a, bicicleta-publica:Usuario]
+    - [bicicleta-publica:anioNacimiento, $(), xsd:integer]
+    - p: bicicleta-publica:realizaTrayecto
+      o:
+      - mapping: triplesMapTrayecto
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapConcept:
+    sources:
+    - []
+    s: http://example.org/resource/concept/$()
+    po:
+    - [a, core:Concept]
+  triplesMapAnclaje:
+    sources:
+    - []
+    s: http://example.org/resource/anclaje/$()
+    po:
+    - [a, bicicleta-publica:Anclaje]
+  triplesMapBicicleta:
+    sources:
+    - []
+    s: http://example.org/resource/bicicleta/$()
+    po:
+    - [a, bicicleta-publica:Bicicleta]
+    - [bicicleta-publica:matricula, $()]
+  triplesMapEstacionbicicleta:
+    sources:
+    - []
+    s: http://example.org/resource/estacionbicicleta/$()
+    po:
+    - [a, bicicleta-publica:EstacionBicicleta]
+    - [schema.org:address, $()]
+    - p: bicicleta-publica:tieneAsociadoAnclaje
+      o:
+      - mapping: triplesMapAnclaje
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapTrayecto:
+    sources:
+    - []
+    s: http://example.org/resource/trayecto/$()
+    po:
+    - [a, bicicleta-publica:Trayecto]
+    - [schema.org:endDate, $(), xsd:dateTime]
+    - [schema.org:startDate, $(), xsd:dateTime]
+    - p: bicicleta-publica:tieneAnclajeDestino
+      o:
+      - mapping: triplesMapAnclaje
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: bicicleta-publica:tieneAnclajeOrigen
+      o:
+      - mapping: triplesMapAnclaje
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: bicicleta-publica:tieneAsociadoBicicleta
+      o:
+      - mapping: triplesMapBicicleta
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: bicicleta-publica:tieneAsociadoPuntoDePaso
+      o:
+      - mapping: triplesMapPuntopaso
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: bicicleta-publica:tieneEstacionDestino
+      o:
+      - mapping: triplesMapEstacionbicicleta
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: bicicleta-publica:tieneEstacionOrigen
+      o:
+      - mapping: triplesMapEstacionbicicleta
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapPuntopaso:
+    sources:
+    - []
+    s: http://example.org/resource/puntopaso/$()
+    po:
+    - [a, bicicleta-publica:PuntoPaso]
+    - [bicicleta-publica:fechaPaso, $(), xsd:dateTime]
+    - [bicicleta-publica:orden, $(), xsd:integer]
+  triplesMapEquipamiento:
+    sources:
+    - []
+    s: http://example.org/resource/equipamiento/$()
+    po:
+    - [a, equipamiento-municipal:Equipamiento]
+  triplesMapConceptscheme:
+    sources:
+    - []
+    s: http://example.org/resource/conceptscheme/$()
+    po:
+    - [a, core:ConceptScheme]
+  triplesMapFeature:
+    sources:
+    - []
+    s: http://example.org/resource/feature/$()
+    po:
+    - [a, 1.0:Feature]
+  triplesMapSensor:
+    sources:
+    - []
+    s: http://example.org/resource/sensor/$()
+    po:
+    - [a, bicicleta-publica:Sensor]
+  triplesMapPropiedadestacion:
+    sources:
+    - []
+    s: http://example.org/resource/propiedadestacion/$()
+    po:
+    - [a, bicicleta-publica:PropiedadEstacion]
+  triplesMapObservacionestacion:
+    sources:
+    - []
+    s: http://example.org/resource/observacionestacion/$()
+    po:
+    - [a, bicicleta-publica:ObservacionEstacion]
+  triplesMapObservation:
+    sources:
+    - []
+    s: http://example.org/resource/observation/$()
+    po:
+    - [a, bicicleta-publica:Observation]
+  triplesMapOcupacion:
+    sources:
+    - []
+    s: http://example.org/resource/ocupacion/$()
+    po:
+    - [a, bicicleta-publica:Ocupacion]
+  triplesMapFeatureofinterest:
+    sources:
+    - []
+    s: http://example.org/resource/featureofinterest/$()
+    po:
+    - [a, bicicleta-publica:FeatureOfInterest]
+  triplesMapObservableproperty:
+    sources:
+    - []
+    s: http://example.org/resource/observableproperty/$()
+    po:
+    - [a, bicicleta-publica:ObservableProperty]
