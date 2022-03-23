@@ -1,0 +1,68 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://example.org#
+  
+mappings:
+  map1:
+    sources:
+      - [/data/NombreArchivo1.csv~csv]
+    s: http://estoesunejemplo.com/recurso/$(nombre_columna_unica)
+    po:
+      - [a, vocab:ClaseDelVocabulario]
+      - [vocab:PropiedadDeDato1,$(nombre_columna1)]
+      - [vocab:PropiedadDeDato2,$(nombre_columna2)~iri]
+      - [vocab:PropiedadDeDato3,$(nombre_columna3),xsd:integer]
+      - p: vocab:PropiedadDeObjecto1
+        o:
+          - mapping: map3
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(nombre_columna_unica)]
+                - [str2, $(nombre_columna_unica)]
+
+      - p: vocab:PropiedadDeObjecto2
+        o:
+          - mapping: map3
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(nombre_columna_unica)]
+                - [str2, $(nombre_columna_unica_arhivo2)]
+
+  map2:
+    sources:
+      - [/data/NombreArchivo1.csv~csv]
+    s: http://estoesunejemplo.com/recurso/(nombre_columna_unica)
+    po:
+      - [a, vocab:OtraClaseDelVocabulario]
+      - [vocab:PropiedadDeDato1,$(nombre_columna)]
+
+  map3:
+    sources:
+      - [/data/NombreArchivo2.csv~csv]
+    s: http://estoesunejemplo.com/recurso/(nombre_columna_unica_arhivo2)
+    po:
+      - [a, vocab:OtraClaseDelVocabulario]
+      - [vocab:PropiedadDeDato1,$(nombre_columna)]
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
