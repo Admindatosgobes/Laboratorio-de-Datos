@@ -1,0 +1,84 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  esadm: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#
+  escom: http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial/
+  escom-skos: http://vocab.linkeddata.es/datosabiertos/kos/comercio/
+  owl: http://www.w3.org/2002/07/owl
+  skos: http://www.w3.org/2004/02/skos/core#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  dc: http://purl.org/dc/elements/1.1/
+  esdir: http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#
+  geo_core: https://datos.ign.es/def/geo_core#
+  geosparql: http://www.opengis.net/ont/geosparql#
+  sf: http://www.opengis.net/ont/sf#
+
+
+mappings:
+  terraza:
+    sources:
+      - [/Users/dchaves/Downloads/test/Terrazas.csv~csv]
+    s: http://datos.madrid.es/recurso/terraza/$(id_terraza)
+    po:
+      - [a, escom:Terraza]
+      - [escom:superficie,$(Superficie_ES) ,xsd:float]
+      - [escom:numeroMesasAutorizadas,$(mesas_es),xsd:integer]
+      - [escom:numeroSillasAutorizadas,$(sillas_es),xsd:integer]
+      - [schema:openingHours, Estacional Lun-Juev $(hora_ini_LJ_es) - $(hora_fin_LJ_es)]
+      - [schema:openingHours, Estacional Vier-Dom $(hora_ini_VS_es) - $(hora_fin_VS_es)]
+      - [schema:openingHours, Anual Lun-Juev $(hora_ini_LJ_ra) - $(hora_fin_LJ_ra)]
+      - [schema:openingHours, Anual Vier-Dom $(hora_ini_VS_ra) - $(hora_fin_VS_ra)] 
+      - [escom:periodoFuncionamiento,escom-skos:periodo-funcionamiento/$(id_periodo_terraza)~iri]
+      - p: escom:perteneceA
+        o:
+          - mapping: localcomercial
+      - p: schema:address
+        o:
+          - mapping: direccionpostal
+
+  localcomercial:
+    sources:
+      - [/Users/dchaves/Downloads/test/Terrazas.csv~csv]
+    s: http://datos.madrid.es/recurso/localcomercial/$(id_local)
+    po:
+      - [a, escom:LocalComercial] # NO COMPELTO! faltaria sus propiedades de datos y objeto por definir
+      - p: geosparql:hasGeometry
+        o:
+         - mapping: point
+
+  point:
+    localcomercial:
+    sources:
+      - [/Users/dchaves/Downloads/test/Terrazas.csv~csv]
+    s: http://datos.madrid.es/recurso/localcomercial/$(id_local)/geometry
+    po:
+      - [a, sf:Point] # NO COMPELTO! faltaria sus propiedades de datos y objeto por definir
+      - [geo_core:xETRS89, $(coordenada_x_local), xsd:float]
+      - [geo_core:yETRS89, $(coordenada_y_local), xsd:float]
+
+  direccionpostal:
+    sources:
+      - [/Users/dchaves/Downloads/test/Terrazas.csv~csv]
+    s: http://datos.madrid.es/recurso/direccionpostal/$(id_vial_edificio)-$(num_edificio)-$(Cod_Postal)
+    po:
+      - [a, esdir:DireccionPostal] # NO COMPELTO! faltaria sus propiedades de datos y objeto por definir
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
