@@ -1,1 +1,218 @@
+prefixes: {xsd: http://www.w3.org/2001/XMLSchema#, rr: http://www.w3.org/ns/r2rml#,
+  rml: http://semweb.mmlab.be/ns/rml#, rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#,
+  ql: http://semweb.mmlab.be/ns/ql#, rdfs: http://www.w3.org/2000/01/rdf-schema#,
+  ns: http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#}
+mappings:
+  triplesMapPostaladdress:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://schema.org/PostalAddress]
+  triplesMapOpeninghoursspecification:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://schema.org/OpeningHoursSpecification]
+    - [http://schema.org/closes, $(), xsd:dateTime]
+    - [http://schema.org/opens, $(), xsd:dateTime]
+    - [http://schema.org/validFrom, $(), xsd:dateTime]
+    - [http://schema.org/validThrough, $(), xsd:dateTime]
+    - p: http://schema.org/dayOfWeek
+      o:
+      - mapping: triplesMapDayofweek
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapDayofweek:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://schema.org/DayOfWeek]
+  triplesMapPlace:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://schema.org/Place]
+    - [http://schema.org/telephone, $()]
+    - p: http://schema.org/specialOpeningHoursSpecification
+      o:
+      - mapping: triplesMapOpeninghoursspecification
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapAgrupacioncomercial:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, ns:AgrupacionComercial]
+  triplesMapLicenciaapertura:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, ns:LicenciaApertura]
+    - [ns:fechaAlta, $(), xsd:dateTime]
+    - [ns:fechaCese, $(), xsd:dateTime]
+    - [ns:fechaSolicitud, $(), xsd:dateTime]
+    - p: ns:autorizaActividadEconomica
+      o:
+      - mapping: triplesMapConcept
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: ns:seOtorgaA
+      o:
+      - mapping: triplesMapAgent
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapLocalcomercial:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, ns:LocalComercial]
+    - [ns:aforo, $(), xsd:integer]
+    - [ns:nombreComercial, $()]
+    - [ns:referenciaCatastral, $()]
+    - [ns:rotulo, $()]
+    - p: ns:tieneTerraza
+      o:
+      - mapping: triplesMapTerraza
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: ns:tipoActividadEconomica
+      o:
+      - mapping: triplesMapConcept
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapTerraza:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, ns:Terraza]
+    - [ns:numeroMesasAutorizadas, $(), xsd:integer]
+    - [ns:numeroSillasAutorizadas, $(), xsd:integer]
+    - [ns:superficie, $(), xsd:float]
+    - p: ns:perteneceALocal
+      o:
+      - mapping: triplesMapLocalcomercial
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapConcept:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://www.w3.org/2004/02/skos/core#Concept]
+  triplesMapAgent:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://xmlns.com/foaf/0.1/Agent]
+  triplesMapBarrio:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio]
+  triplesMapDistrito:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito]
+  triplesMapSeccioncensal:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#SeccionCensal]
+  triplesMapFeature:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://www.opengis.net/ont/geosparql#Feature]
+    - p: http://www.opengis.net/ont/geosparql#hasGeometry
+      o:
+      - mapping: triplesMapGeometry
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapGeometry:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://www.opengis.net/ont/geosparql#Geometry]
+  triplesMapLocalbusiness:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://schema.org/LocalBusiness]
+    - [http://schema.org/openingHours, $()]
+  triplesMapDireccionpostal:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#DireccionPostal]
+  triplesMapAddress:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://www.w3.org/ns/locn#Address]
+  triplesMapSpatialobject:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://www.opengis.net/ont/geosparql#SpatialObject]
+  triplesMapConceptscheme:
+    sources:
+    - []
+    s: http://$()
+    po:
+    - [a, http://www.w3.org/2004/02/skos/core#ConceptScheme]
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
 
