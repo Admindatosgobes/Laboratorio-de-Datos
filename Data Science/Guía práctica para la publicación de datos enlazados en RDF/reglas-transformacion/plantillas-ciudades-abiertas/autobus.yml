@@ -1,0 +1,487 @@
+prefixes: {xsd: http://www.w3.org/2001/XMLSchema#, rr: http://www.w3.org/ns/r2rml#,
+  rml: http://semweb.mmlab.be/ns/rml#, rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#,
+  ql: http://semweb.mmlab.be/ns/ql#, rdfs: http://www.w3.org/2000/01/rdf-schema#,
+  direccion-postal: http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#,
+  schema.org: http://schema.org/, trafico: http://vocab.ciudadesabiertas.es/def/transporte/trafico#,
+  autobus: http://vocab.ciudadesabiertas.es/def/transporte/autobus#, journeys: http://w3id.org/transmodel/journeys#,
+  commons: http://w3id.org/transmodel/commons#, core: http://www.w3.org/2004/02/skos/core#,
+  organisations: http://w3id.org/transmodel/organisations#, geosparql: http://www.opengis.net/ont/geosparql#,
+  sosa: http://www.w3.org/ns/sosa/, sf: http://www.opengis.net/ont/sf#, org: http://www.w3.org/ns/org#,
+  terms: http://purl.org/dc/terms/, wgs84_pos: http://www.w3.org/2003/01/geo/wgs84_pos#,
+  geo_core: https://datos.ign.es/def/geo_core#}
+mappings:
+  triplesMapDireccionpostal:
+    sources:
+    - []
+    s: http://example.org/resource/direccionpostal/$()
+    po:
+    - [a, direccion-postal:DireccionPostal]
+  triplesMapContactpoint:
+    sources:
+    - []
+    s: http://example.org/resource/contactpoint/$()
+    po:
+    - [a, schema.org:ContactPoint]
+    - [schema.org:alternateName, $()]
+    - [schema.org:email, $()]
+    - [schema.org:legalName, $()]
+    - [schema.org:telephone, $()]
+  triplesMapIncidencia:
+    sources:
+    - []
+    s: http://example.org/resource/incidencia/$()
+    po:
+    - [a, trafico:Incidencia]
+    - [trafico:incidenciaAdjunto, $()]
+    - [trafico:numCarriles, $(), xsd:integer]
+    - [trafico:numSentidos, $(), xsd:integer]
+  triplesMapLinea:
+    sources:
+    - []
+    s: http://example.org/resource/linea/$()
+    po:
+    - [a, autobus:Linea]
+    - p: autobus:cabeceraLinea
+      o:
+      - mapping: triplesMapParada
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: autobus:finalLinea
+      o:
+      - mapping: triplesMapParada
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapParada:
+    sources:
+    - []
+    s: http://example.org/resource/parada/$()
+    po:
+    - [a, autobus:Parada]
+    - [autobus:panelElectronico, $(), xsd:boolean]
+    - [autobus:wifi, $(), xsd:boolean]
+  triplesMapJourneypattern:
+    sources:
+    - []
+    s: http://example.org/resource/journeypattern/$()
+    po:
+    - [a, journeys:JourneyPattern]
+    - [journeys:distance, $(), xsd:float]
+    - p: autobus:generadoPorIncidencia
+      o:
+      - mapping: triplesMapIncidencia
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: journeys:on
+      o:
+      - mapping: triplesMapRoute
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: journeys:prescribing
+      o:
+      - mapping: triplesMapDestinationdisplay
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapPoint:
+    sources:
+    - []
+    s: http://example.org/resource/point/$()
+    po:
+    - [a, sf:Point]
+    - [wgs84_pos:lat, $(), xsd:float]
+    - [wgs84_pos:long, $(), xsd:float]
+    - [geo_core:xETRS89, $(), xsd:float]
+    - [geo_core:yETRS89, $(), xsd:float]
+  triplesMapZone:
+    sources:
+    - []
+    s: http://example.org/resource/zone/$()
+    po:
+    - [a, commons:Zone]
+  triplesMapVehiclejourney:
+    sources:
+    - []
+    s: http://example.org/resource/vehiclejourney/$()
+    po:
+    - [a, journeys:VehicleJourney]
+    - [journeys:departureTime, $(), xsd:dateTime]
+    - [journeys:journeyDuration, $(), xsd:dateTime]
+    - p: journeys:composedOf
+      o:
+      - mapping: triplesMapHeadwayjourneygroup
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: journeys:timedFrom
+      o:
+      - mapping: triplesMapTimingpointinjourneypattern
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: journeys:workedOn
+      o:
+      - mapping: triplesMapDaytype
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapHeadwayjourneygroup:
+    sources:
+    - []
+    s: http://example.org/resource/headwayjourneygroup/$()
+    po:
+    - [a, journeys:HeadwayJourneyGroup]
+    - [journeys:firstDepartureTime, $(), xsd:dateTime]
+    - [journeys:lastDayOffset, $(), xsd:dateTime]
+    - [journeys:lastDepartureTime, $(), xsd:dateTime]
+    - p: journeys:determinedBy
+      o:
+      - mapping: triplesMapHeadwayinterval
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapServicecalendar:
+    sources:
+    - []
+    s: http://example.org/resource/servicecalendar/$()
+    po:
+    - [a, journeys:ServiceCalendar]
+    - [journeys:from, $(), xsd:date]
+    - [journeys:to, $(), xsd:date]
+    - p: journeys:definedBy
+      o:
+      - mapping: triplesMapDaytypeassignment
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapDaytypeassignment:
+    sources:
+    - []
+    s: http://example.org/resource/daytypeassignment/$()
+    po:
+    - [a, journeys:DayTypeAssignment]
+    - [journeys:date, $(), xsd:dateTime]
+    - [journeys:isAvailable, $(), xsd:boolean]
+    - p: journeys:specifying
+      o:
+      - mapping: triplesMapDaytype
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapHeadwayinterval:
+    sources:
+    - []
+    s: http://example.org/resource/headwayinterval/$()
+    po:
+    - [a, journeys:HeadwayInterval]
+    - [journeys:maximumHeadwayInterval, $(), xsd:dateTime]
+    - [journeys:minimumHeadwayInterval, $(), xsd:dateTime]
+    - [journeys:scheduledHeadwayInterval, $(), xsd:dateTime]
+  triplesMapRoute:
+    sources:
+    - []
+    s: http://example.org/resource/route/$()
+    po:
+    - [a, journeys:Route]
+    - [journeys:distance, $(), xsd:float]
+  triplesMapConcept:
+    sources:
+    - []
+    s: http://example.org/resource/concept/$()
+    po:
+    - [a, core:Concept]
+  triplesMapScheduledstoppoint:
+    sources:
+    - []
+    s: http://example.org/resource/scheduledstoppoint/$()
+    po:
+    - [a, journeys:ScheduledStopPoint]
+    - [journeys:forAlighting, $(), xsd:boolean]
+    - [journeys:forBoarding, $(), xsd:boolean]
+    - p: journeys:includedIn
+      o:
+      - mapping: triplesMapStoparea
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapStoparea:
+    sources:
+    - []
+    s: http://example.org/resource/stoparea/$()
+    po:
+    - [a, journeys:StopArea]
+  triplesMapLinksequence:
+    sources:
+    - []
+    s: http://example.org/resource/linksequence/$()
+    po:
+    - [a, journeys:LinkSequence]
+    - [journeys:distance, $(), xsd:float]
+    - p: journeys:madeUsing
+      o:
+      - mapping: triplesMapPointinlinksequence
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapPointinlinksequence:
+    sources:
+    - []
+    s: http://example.org/resource/pointinlinksequence/$()
+    po:
+    - [a, journeys:PointInLinkSequence]
+    - [journeys:distanceFromStart, $(), xsd:float]
+    - [journeys:order, $(), xsd:integer]
+    - p: journeys:viewedAs
+      o:
+      - mapping: 
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapDestinationdisplay:
+    sources:
+    - []
+    s: http://example.org/resource/destinationdisplay/$()
+    po:
+    - [a, journeys:DestinationDisplay]
+    - [journeys:frontText, $()]
+  triplesMapLine:
+    sources:
+    - []
+    s: http://example.org/resource/line/$()
+    po:
+    - [a, journeys:Line]
+    - p: journeys:presentedBy
+      o:
+      - mapping: triplesMapPresentation
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapPresentation:
+    sources:
+    - []
+    s: http://example.org/resource/presentation/$()
+    po:
+    - [a, commons:Presentation]
+    - [commons:colour, $()]
+    - [commons:textColour, $()]
+  triplesMapDaytype:
+    sources:
+    - []
+    s: http://example.org/resource/daytype/$()
+    po:
+    - [a, journeys:DayType]
+    - [journeys:earliestTime, $(), xsd:dateTime]
+  triplesMapStoppointinjourneypattern:
+    sources:
+    - []
+    s: http://example.org/resource/stoppointinjourneypattern/$()
+    po:
+    - [a, journeys:StopPointInJourneyPattern]
+    - [journeys:distanceFromStart, $(), xsd:float]
+    - [journeys:order, $(), xsd:integer]
+  triplesMapTimingpointinjourneypattern:
+    sources:
+    - []
+    s: http://example.org/resource/timingpointinjourneypattern/$()
+    po:
+    - [a, journeys:TimingPointInJourneyPattern]
+    - [journeys:distanceFromStart, $(), xsd:float]
+    - [journeys:order, $(), xsd:integer]
+  triplesMapOrganisation:
+    sources:
+    - []
+    s: http://example.org/resource/organisation/$()
+    po:
+    - [a, organisations:Organisation]
+    - p: organisations:characterisedBy
+      o:
+      - mapping: triplesMapContactdetails
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapContactdetails:
+    sources:
+    - []
+    s: http://example.org/resource/contactdetails/$()
+    po:
+    - [a, organisations:ContactDetails]
+    - [schema.org:alternateName, $()]
+    - [schema.org:email, $()]
+    - [schema.org:legalName, $()]
+    - [schema.org:telephone, $()]
+  triplesMapOperator:
+    sources:
+    - []
+    s: http://example.org/resource/operator/$()
+    po:
+    - [a, organisations:Operator]
+    - p: organisations:operating
+      o:
+      - mapping: triplesMapLine
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: organisations:servingPTFor
+      o:
+      - mapping: triplesMapAuthority
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapAuthority:
+    sources:
+    - []
+    s: http://example.org/resource/authority/$()
+    po:
+    - [a, organisations:Authority]
+  triplesMapGeometry:
+    sources:
+    - []
+    s: http://example.org/resource/geometry/$()
+    po:
+    - [a, geosparql:Geometry]
+  triplesMapConceptscheme:
+    sources:
+    - []
+    s: http://example.org/resource/conceptscheme/$()
+    po:
+    - [a, core:ConceptScheme]
+  triplesMapObservation:
+    sources:
+    - []
+    s: http://example.org/resource/observation/$()
+    po:
+    - [a, sosa:Observation]
+    - [sosa:resultTime, $(), xsd:dateTime]
+    - p: sosa:hasFeatureOfInterest
+      o:
+      - mapping: triplesMapFeatureofinterest
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: sosa:madeBySensor
+      o:
+      - mapping: triplesMapSensor
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapFeatureofinterest:
+    sources:
+    - []
+    s: http://example.org/resource/featureofinterest/$()
+    po:
+    - [a, sosa:FeatureOfInterest]
+  triplesMapSensor:
+    sources:
+    - []
+    s: http://example.org/resource/sensor/$()
+    po:
+    - [a, sosa:Sensor]
+  triplesMapRealtimepassingtime:
+    sources:
+    - []
+    s: http://example.org/resource/realtimepassingtime/$()
+    po:
+    - [a, autobus:RealTimePassingTime]
+    - [autobus:expectedArrivalTime, $()]
+    - [sosa:resultTime, $(), xsd:dateTime]
+  triplesMapIncidenciaplanificada:
+    sources:
+    - []
+    s: http://example.org/resource/incidenciaplanificada/$()
+    po:
+    - [a, trafico:IncidenciaPlanificada]
+    - [trafico:esRecurrente, $(), xsd:boolean]
+    - [trafico:fechaFinPrevista, $(), xsd:dateTime]
+    - [trafico:incidenciaAdjunto, $()]
+    - [trafico:numCarriles, $(), xsd:integer]
+    - [trafico:numSentidos, $(), xsd:integer]
+    - [trafico:recurrencia, $()]
+  triplesMapPlace:
+    sources:
+    - []
+    s: http://example.org/resource/place/$()
+    po:
+    - [a, commons:Place]
+  triplesMapFeature:
+    sources:
+    - []
+    s: http://example.org/resource/feature/$()
+    po:
+    - [a, geosparql:Feature]
+  triplesMapPointinjourneypattern:
+    sources:
+    - []
+    s: http://example.org/resource/pointinjourneypattern/$()
+    po:
+    - [a, journeys:PointInJourneyPattern]
+    - [journeys:distanceFromStart, $(), xsd:float]
+    - [journeys:order, $(), xsd:integer]
+  triplesMapPointonroute:
+    sources:
+    - []
+    s: http://example.org/resource/pointonroute/$()
+    po:
+    - [a, journeys:PointOnRoute]
+    - [journeys:distanceFromStart, $(), xsd:float]
+    - [journeys:order, $(), xsd:integer]
+  triplesMapRoutepoint:
+    sources:
+    - []
+    s: http://example.org/resource/routepoint/$()
+    po:
+    - [a, journeys:RoutePoint]
+  triplesMapOrganization:
+    sources:
+    - []
+    s: http://example.org/resource/organization/$()
+    po:
+    - [a, org:Organization]
+  triplesMapSpatialobject:
+    sources:
+    - []
+    s: http://example.org/resource/spatialobject/$()
+    po:
+    - [a, geosparql:SpatialObject]
