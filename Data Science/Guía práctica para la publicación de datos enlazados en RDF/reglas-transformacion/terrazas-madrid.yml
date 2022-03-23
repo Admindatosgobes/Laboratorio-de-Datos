@@ -70,15 +70,3 @@ mappings:
     s: http://datos.madrid.es/recurso/direccionpostal/$(id_vial_edificio)-$(num_edificio)-$(Cod_Postal)
     po:
       - [a, esdir:DireccionPostal] # NO COMPELTO! faltaria sus propiedades de datos y objeto por definir
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
