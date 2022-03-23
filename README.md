@@ -1,17 +1,6 @@
 ## Laboratorio de Datos
 
-Este repositorio contiene **proyectos de reutilización de datos abiertos** disponibles en el Catálogo Nacional de Datos Abiertos datos.gob.es:
+Este repositorio incluye una **serie de recursos y ejercicios prácticos orientados a divulgar diferentes formas de reutilización de datos abiertos**. A partir de sus características, hemos diferenciado dos tipos de recursos: 
 
-- Tecnologías emergentes y datos abiertos
-	1. [Tecnologías emergentes y datos abiertos: Inteligencia Artificial](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-inteligencia-artificial)
-	2. [Tecnologías emergentes y datos abiertos: procesamiento del lenguaje natural](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-procesamiento-del-lenguaje-natural)
-	3. [Tecnologías emergentes y datos abiertos: Analítica Predictiva](https://datos.gob.es/es/documentacion/tecnologias-emergentes-y-datos-abiertos-analitica-predictiva)
-
-- Visualizaciones 
-	1. [Caracterización de la demanda de empleo y la contratación registrada en España](https://datos.gob.es/es/documentacion/caracterizacion-de-la-demanda-de-empleo-y-contratacion-registrada-en-espana)
-	2. [Docentes de los centros educativos públicos de Castilla y León](https://datos.gob.es/es/documentacion/docentes-de-los-centros-educativos-publicos-de-castilla-y-leon)
-	3. [¿Cuantos accidentes de tráfico ocurren en la ciudad de Madrid?](https://datos.gob.es/es/documentacion/cuantos-accidentes-ocurren-en-la-ciudad-de-madrid)
-	4. [Cómo crear nubes de palabras a partir de un texto utilizando técnicas de PLN](https://datos.gob.es/es/documentacion/como-crear-nubes-de-palabras-partir-de-un-texto-utilizando-tecnicas-de-pln)
-	
-- Post
-	1. [El Valor de los datos en tiempo real a través de un ejemplo práctico](https://datos.gob.es/es/blog/el-valor-de-los-datos-en-tiempo-real-traves-de-un-ejemplo-practico)
+- **[Visualizaciones](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones)** donde encontrarás recursos que describen los pasos necesarios para implementar visualizaciones de datos abiertos desarrolladas con diferentes herramientas. 
+- **[Data Science](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Data%20Sciente)**, que dispone de ejercicios rácticos orientados a describir tareas relacionadas con la ciencia de datos, como el aprendizaje automático o el procesamiento del lenguaje natural, entre otros. 
