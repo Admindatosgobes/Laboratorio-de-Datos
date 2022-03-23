@@ -1,0 +1,253 @@
+prefixes: {xsd: http://www.w3.org/2001/XMLSchema#, rr: http://www.w3.org/ns/r2rml#,
+  rml: http://semweb.mmlab.be/ns/rml#, rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#,
+  ql: http://semweb.mmlab.be/ns/ql#, rdfs: rdfs:, schema.org: http://schema.org/,
+  convenio: http://vocab.ciudadesabiertas.es/def/sector-publico/convenio#, org: http://www.w3.org/ns/org#,
+  territorio: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#,
+  subvencion: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#,
+  core: http://www.w3.org/2004/02/skos/core#, ontology: http://dbpedia.org/ontology/,
+  0.1: http://xmlns.com/foaf/0.1/, organizacion: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#}
+mappings:
+  triplesMapDate:
+    sources:
+    - []
+    s: http://example.org/resource/date/$()
+    po:
+    - [a, schema.org:Date]
+  triplesMapDatetime:
+    sources:
+    - []
+    s: http://example.org/resource/datetime/$()
+    po:
+    - [a, schema.org:DateTime]
+  triplesMapThing:
+    sources:
+    - []
+    s: http://example.org/resource/thing/$()
+    po:
+    - [a, schema.org:Thing]
+  triplesMapSuscripciondeconvenioporentidad:
+    sources:
+    - []
+    s: http://example.org/resource/suscripciondeconvenioporentidad/$()
+    po:
+    - [a, convenio:SuscripcionDeConvenioPorEntidad]
+    - [convenio:obligacionEconomicaEntidad, $(), xsd:float]
+    - p: convenio:convenioSuscrito
+      o:
+      - mapping: triplesMapConvenio
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:entidadSuscriptora
+      o:
+      - mapping: triplesMapOrganization
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:firmanteEntidad
+      o:
+      - mapping: triplesMapMembership
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:obligadoPrestacionesEntidad
+      o:
+      - mapping: triplesMapOrganization
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapConvenio:
+    sources:
+    - []
+    s: http://example.org/resource/convenio/$()
+    po:
+    - [a, convenio:Convenio]
+    - [convenio:fechaFinalizacion, $(), xsd:date]
+    - [convenio:fechaInicio, $(), xsd:date]
+    - [convenio:fechaRegistro, $(), xsd:date]
+    - [convenio:fechaResolucionFinalizacion, $(), xsd:date]
+    - [convenio:fechaSuscripcion, $(), xsd:date]
+    - [convenio:objeto, $()]
+    - [convenio:obligacionEconomicaAyuntamiento, $(), xsd:float]
+    - p: convenio:suscritoPor
+      o:
+      - mapping: triplesMapSuscripciondeconvenioporentidad
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:documento
+      o:
+      - mapping: triplesMapDigitaldocument
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:esVariacionDe
+      o:
+      - mapping: triplesMapConvenio
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:variacion
+      o:
+      - mapping: triplesMapConvenio
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:firmanteAyuntamiento
+      o:
+      - mapping: triplesMapMembership
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:instrumenta
+      o:
+      - mapping: triplesMapSubvencion
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: convenio:obligadoPrestacionesAyuntamiento
+      o:
+      - mapping: triplesMapOrganization
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapDigitaldocument:
+    sources:
+    - []
+    s: http://example.org/resource/digitaldocument/$()
+    po:
+    - [a, schema.org:DigitalDocument]
+  triplesMapOrganization:
+    sources:
+    - []
+    s: http://example.org/resource/organization/$()
+    po:
+    - [a, org:Organization]
+    - p: organizacion:ambitoCompetencias
+      o:
+      - mapping: triplesMapGovernmentaladministrativeregion
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: org:classification
+      o:
+      - mapping: triplesMapConcept
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapMembership:
+    sources:
+    - []
+    s: http://example.org/resource/membership/$()
+    po:
+    - [a, org:Membership]
+    - p: org:organization
+      o:
+      - mapping: triplesMapOrganization
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: org:role
+      o:
+      - mapping: triplesMapRole
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapDistrito:
+    sources:
+    - []
+    s: http://example.org/resource/distrito/$()
+    po:
+    - [a, territorio:Distrito]
+  triplesMapSubvencion:
+    sources:
+    - []
+    s: http://example.org/resource/subvencion/$()
+    po:
+    - [a, subvencion:Subvencion]
+    - [subvencion:fechaAdjudicacion, $(), xsd:date]
+    - [subvencion:importe, $(), xsd:float]
+  triplesMapConcept:
+    sources:
+    - []
+    s: http://example.org/resource/concept/$()
+    po:
+    - [a, core:Concept]
+  triplesMapGovernmentaladministrativeregion:
+    sources:
+    - []
+    s: http://example.org/resource/governmentaladministrativeregion/$()
+    po:
+    - [a, ontology:GovernmentalAdministrativeRegion]
+  triplesMapConceptscheme:
+    sources:
+    - []
+    s: http://example.org/resource/conceptscheme/$()
+    po:
+    - [a, core:ConceptScheme]
+  triplesMapRole:
+    sources:
+    - []
+    s: http://example.org/resource/role/$()
+    po:
+    - [a, org:Role]
+  triplesMapDistrict:
+    sources:
+    - []
+    s: http://example.org/resource/district/$()
+    po:
+    - [a, ontology:District]
+  triplesMapMunicipality:
+    sources:
+    - []
+    s: http://example.org/resource/municipality/$()
+    po:
+    - [a, ontology:Municipality]
+  triplesMapCreativework:
+    sources:
+    - []
+    s: http://example.org/resource/creativework/$()
+    po:
+    - [a, schema.org:CreativeWork]
+  triplesMapMunicipio:
+    sources:
+    - []
+    s: http://example.org/resource/municipio/$()
+    po:
+    - [a, territorio:Municipio]
+  triplesMapAgent:
+    sources:
+    - []
+    s: http://example.org/resource/agent/$()
+    po:
+    - [a, 0.1:Agent]
