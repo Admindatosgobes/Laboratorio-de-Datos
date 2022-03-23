@@ -1,0 +1,156 @@
+prefixes: {xsd: http://www.w3.org/2001/XMLSchema#, rr: http://www.w3.org/ns/r2rml#,
+  rml: http://semweb.mmlab.be/ns/rml#, rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#,
+  ql: http://semweb.mmlab.be/ns/ql#, rdfs: http://www.w3.org/2000/01/rdf-schema#,
+  deudaPublicaFinanciera: http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#,
+  org: http://www.w3.org/ns/org#, core: http://www.w3.org/2004/02/skos/core#,
+  0.1: http://xmlns.com/foaf/0.1/, terms: http://purl.org/dc/terms/}
+mappings:
+  triplesMapInstrumentofinanciacion:
+    sources:
+    - []
+    s: http://example.org/resource/instrumentofinanciacion/$()
+    po:
+    - [a, deudaPublicaFinanciera:InstrumentoFinanciacion]
+    - [deudaPublicaFinanciera:margen, $(), xsd:float]
+    - [deudaPublicaFinanciera:referencia, $()]
+    - [deudaPublicaFinanciera:tipoFijo, $(), xsd:float]
+    - [deudaPublicaFinanciera:tipoInstrumento, $()]
+    - p: deudaPublicaFinanciera:capitalVivo
+      o:
+      - mapping: triplesMapCapitalvivo
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: deudaPublicaFinanciera:cargaFinanciera
+      o:
+      - mapping: triplesMapCargafinanciera
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: deudaPublicaFinanciera:esEmision
+      o:
+      - mapping: triplesMapEmision
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: deudaPublicaFinanciera:esPrestamo
+      o:
+      - mapping: triplesMapPrestamo
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: deudaPublicaFinanciera:planAmortizacion
+      o:
+      - mapping: triplesMapPlanamortizacion
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapCapitalvivo:
+    sources:
+    - []
+    s: http://example.org/resource/capitalvivo/$()
+    po:
+    - [a, deudaPublicaFinanciera:CapitalVivo]
+  triplesMapCargafinanciera:
+    sources:
+    - []
+    s: http://example.org/resource/cargafinanciera/$()
+    po:
+    - [a, deudaPublicaFinanciera:CargaFinanciera]
+  triplesMapPrestamo:
+    sources:
+    - []
+    s: http://example.org/resource/prestamo/$()
+    po:
+    - [a, deudaPublicaFinanciera:Prestamo]
+    - [deudaPublicaFinanciera:diferidasOParcialesCapital, $(), xsd:boolean]
+    - [deudaPublicaFinanciera:fechaFormalizacion, $(), xsd:date]
+    - [deudaPublicaFinanciera:fechaInicio, $(), xsd:date]
+    - [deudaPublicaFinanciera:fechaVencimiento, $(), xsd:date]
+    - [deudaPublicaFinanciera:margen, $(), xsd:float]
+    - [deudaPublicaFinanciera:moneda, $()]
+    - [deudaPublicaFinanciera:plazo, $()]
+    - [deudaPublicaFinanciera:referencia, $()]
+    - [deudaPublicaFinanciera:tipoFijo, $(), xsd:float]
+    - [deudaPublicaFinanciera:tipoInstrumento, $()]
+    - p: deudaPublicaFinanciera:entidadPrestamista
+      o:
+      - mapping: 
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapOrganization:
+    sources:
+    - []
+    s: http://example.org/resource/organization/$()
+    po:
+    - [a, 0.1:Organization]
+  triplesMapEmision:
+    sources:
+    - []
+    s: http://example.org/resource/emision/$()
+    po:
+    - [a, deudaPublicaFinanciera:Emision]
+    - [deudaPublicaFinanciera:codISIN, $()]
+    - [deudaPublicaFinanciera:cuantiaPorTitulo, $(), xsd:float]
+    - ["deudaPublicaFinanciera:duraci\xF3n", $()]
+    - [deudaPublicaFinanciera:importeAnual, $(), xsd:float]
+    - [deudaPublicaFinanciera:margen, $(), xsd:float]
+    - [deudaPublicaFinanciera:mesDiaPago, $()]
+    - [deudaPublicaFinanciera:numeroTitulos, $(), xsd:integer]
+    - [deudaPublicaFinanciera:precioEmision, $(), xsd:float]
+    - [deudaPublicaFinanciera:precioReembolso, $(), xsd:float]
+    - [deudaPublicaFinanciera:referencia, $()]
+    - [deudaPublicaFinanciera:tipoFijo, $(), xsd:float]
+    - [deudaPublicaFinanciera:tipoInstrumento, $()]
+  triplesMapDeudaanual:
+    sources:
+    - []
+    s: http://example.org/resource/deudaanual/$()
+    po:
+    - [a, deudaPublicaFinanciera:DeudaAnual]
+    - [deudaPublicaFinanciera:endeudamiento, $(), xsd:float]
+    - p: deudaPublicaFinanciera:instrumentoFinanciacion
+      o:
+      - mapping: triplesMapInstrumentofinanciacion
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapPlanamortizacion:
+    sources:
+    - []
+    s: http://example.org/resource/planamortizacion/$()
+    po:
+    - [a, deudaPublicaFinanciera:PlanAmortizacion]
+  triplesMapConcept:
+    sources:
+    - []
+    s: http://example.org/resource/concept/$()
+    po:
+    - [a, core:Concept]
+  triplesMapConceptscheme:
+    sources:
+    - []
+    s: http://example.org/resource/conceptscheme/$()
+    po:
+    - [a, core:ConceptScheme]
+  triplesMapAgent:
+    sources:
+    - []
+    s: http://example.org/resource/agent/$()
+    po:
+    - [a, 0.1:Agent]
