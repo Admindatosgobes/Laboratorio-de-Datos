@@ -1,0 +1,88 @@
+prefixes: {xsd: http://www.w3.org/2001/XMLSchema#, rr: http://www.w3.org/ns/r2rml#,
+  rml: http://semweb.mmlab.be/ns/rml#, rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#,
+  ql: http://semweb.mmlab.be/ns/ql#, rdfs: http://www.w3.org/2000/01/rdf-schema#,
+  org: http://www.w3.org/ns/org#, time: http://www.w3.org/2006/time#, deudaPublicaComercial: http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#,
+  core: http://www.w3.org/2004/02/skos/core#}
+mappings:
+  triplesMapOrganization:
+    sources:
+    - []
+    s: http://example.org/resource/organization/$()
+    po:
+    - [a, org:Organization]
+  triplesMapProperinterval:
+    sources:
+    - []
+    s: http://example.org/resource/properinterval/$()
+    po:
+    - [a, time:ProperInterval]
+  triplesMapTemporalentity:
+    sources:
+    - []
+    s: http://example.org/resource/temporalentity/$()
+    po:
+    - [a, time:TemporalEntity]
+    - p: time:hasBeginning
+      o:
+      - mapping: triplesMapInstant
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+    - p: time:hasEnd
+      o:
+      - mapping: triplesMapInstant
+        function:
+          condition: equal
+          parameters:
+          - [str1, $()]
+          - [str2, $()]
+  triplesMapInstant:
+    sources:
+    - []
+    s: http://example.org/resource/instant/$()
+    po:
+    - [a, time:Instant]
+    - [time:inXSDDate, $(), xsd:date]
+  triplesMapInformemorosidadtrimestral:
+    sources:
+    - []
+    s: http://example.org/resource/informemorosidadtrimestral/$()
+    po:
+    - [a, deudaPublicaComercial:InformeMorosidadTrimestral]
+    - [deudaPublicaComercial:importeFacturasPendientesDentroPeriodo, $(), xsd:float]
+    - [deudaPublicaComercial:importeFacturasPendientesFueraPeriodo, $(), xsd:float]
+    - [deudaPublicaComercial:importeInteresesDemora, $(), xsd:float]
+    - [deudaPublicaComercial:importePagosDentroPeriodo, $(), xsd:float]
+    - ["deudaPublicaComercial:importePagosFueraPer\xEDodo", $(), xsd:float]
+    - [deudaPublicaComercial:numFacturasPendientesDentroPeriodo, $(), xsd:integer]
+    - [deudaPublicaComercial:numFacturasPendientesFueraPeriodo, $(), xsd:integer]
+    - [deudaPublicaComercial:numPagosDentroPeriodo, $(), xsd:integer]
+    - [deudaPublicaComercial:numPagosFueraPeriodo, $(), xsd:integer]
+    - [deudaPublicaComercial:numPagosInteresesDemora, $(), xsd:integer]
+    - [deudaPublicaComercial:periodoMedioPagoPendiente, $(), xsd:float]
+    - [deudaPublicaComercial:periodoMedioPagoTrimestral, $(), xsd:float]
+    - [deudaPublicaComercial:tipoContabilidad, $()]
+  triplesMapInformepmpmensual:
+    sources:
+    - []
+    s: http://example.org/resource/informepmpmensual/$()
+    po:
+    - [a, deudaPublicaComercial:InformePMPMensual]
+    - [deudaPublicaComercial:periodoMedioPagoMensual, $(), xsd:float]
+    - [deudaPublicaComercial:ratioOperacionesPagadas, $(), xsd:float]
+    - [deudaPublicaComercial:ratioOperacionesPendientes, $(), xsd:float]
+  triplesMapInformepmpmensualglobal:
+    sources:
+    - []
+    s: http://example.org/resource/informepmpmensualglobal/$()
+    po:
+    - [a, deudaPublicaComercial:InformePMPMensualGlobal]
+    - [deudaPublicaComercial:periodoMedioPagoMensualGlobal, $(), xsd:float]
+  triplesMapInterval:
+    sources:
+    - []
+    s: http://example.org/resource/interval/$()
+    po:
+    - [a, time:Interval]
