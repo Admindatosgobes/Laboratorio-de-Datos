@@ -28,6 +28,23 @@ Si quieres conocer más sobre herramientas que puedan ayudarte en el tratamiento
 
 ## Preprocesamiento de datos
 
+Como primer paso del proceso es necesario realizar un análisis exploratorio de los datos (EDA) con el fin de interpretar adecuadamente los datos de partida, detectar anomalías, datos ausentes o errores que pudieran afectar a la calidad de los procesos posteriores y resultados, además de tralizar las tareas de transformación y preparación de las variables necesarias. Un tratamiento previo de los datos es esencial para garantizar que los análisis o visualizaciones creados posteriormente a partir de ellos son confiables y consistentes. Si quieres conocer más sobre este proceso puedes recurrir a la [Guía Práctica de Introducción al Análisis Exploratorio de Datos](https://datos.gob.es/es/documentacion/guia-practica-de-introduccion-al-analisis-exploratorio-de-datos). 
+
+Los pasos que se siguen en esta fase de preprocesamiento son los siguientes:
+
+1.   Instalación y carga de librerías
+2.   Carga de datos
+3.   Cambio de nombre a las variables
+4.   Creación de tablas de trabajo
+5.   Conversión de varias variables en na única con diferentes factores 
+6.   Transformación de variables 
+7.   Detección y tratamiento de datos perdidos 
+8.   Creación de nuevas variables 
+9.   Resumen de la tabla
+10.  Guardar las tablas de trabajo 
+
+Podrás reproducir este análisis, ya que el código fuente está disponible en nuestra cuenta de GitHub. La forma de proporcionar el código es a través de un documento realizado sobre un Jupyter Notebook que una vez cargado en el entorno de desarrollo podrás ejecutar o modificar de manera sencilla. Debido al carácter divulgativo de este post y con el fin de favorecer el aprendizaje de lectores no especializados, el código no pretende ser el más eficiente, sino facilitar su comprensión por lo que posiblemente se te ocurrirán muchas formas de optimizar el código propuesto para lograr fines similares. ¡Te animamos a que lo hagas!
+
 Puedes seguir los pasos y ejecutar el código fuente sobre este [notebook en Google Colab](https://colab.research.google.com/github/datosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/C%C3%B3digo/C%C3%B3difo_fuente.IPY)
 
 
