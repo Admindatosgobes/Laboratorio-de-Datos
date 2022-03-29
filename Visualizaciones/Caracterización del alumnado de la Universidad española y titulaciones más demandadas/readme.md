@@ -8,6 +8,6 @@ Puedes seguir los pasos y ejecutar el código fuente sobre este [notebook en Goo
 
 ## Visualizaciones de datos
 
-[Matriculaciones en cada una de las universidades españolas](https://datawrapper.dwcdn.net/zsX4s/1/)
+!Matriculaciones en cada Universida española(https://github.com/datosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones_universidades_mapa.png)(https://datawrapper.dwcdn.net/zsX4s/1/)
 
 
