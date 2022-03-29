@@ -92,9 +92,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "1ae774b6-c55a-4abc-d4c8-94fc93456d89"
+        "outputId": "e8306428-7980-4d84-daa7-414adcb78554"
       },
-      "execution_count": null,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
@@ -157,32 +157,69 @@
         "# Conjuntos de datos de las matriculaciones que se realizan en las Universidades \n",
         "# en Grado, Master y Doctorado\n",
         "\n",
+        "library(httr)\n",
+        "\n",
+        "path_datos_origen <- \"https://raw.githubusercontent.com/datosgobes/Laboratorio-de-Datos/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Datos%20de%20origen/\"\n",
+        "temp_file <- tempfile(fileext = \".xlsx\")\n",
+        "\n",
         "#Matriculaciones de grado\n",
-        "Matriculaciones_grado_edad <- read_excel(\"/content/sample_data/Universidad/Matriculaciones_grado_edad_CCAA.xlsx\")\n",
-        "Matriculaciones_grado_nacionalidad <- read_excel(\"/content/sample_data/Universidad/Matriculaciones_grado_nacionalidad_CCAA.xlsx\")\n",
+        "\n",
+        "github_link <- paste(path_datos_origen, \"Matricula_grado_edad_CCAA.xlsx\", sep = \"\")\n",
+        "file_request <- GET(github_link, write_disk(path = temp_file))\n",
+        "\n",
+        "Matriculaciones_grado_edad <- readxl::read_excel(temp_file)\n",
+        "\n",
+        "github_link <- paste(path_datos_origen, \"Matricula_grado_nacionalidad_CCAA.xlsx\", sep = \"\")\n",
+        "temp_file <- tempfile(fileext = \".xlsx\")\n",
+        "file_request <- GET(github_link, write_disk(path = temp_file))\n",
+        "\n",
+        "Matriculaciones_grado_nacionalidad <- readxl::read_excel(temp_file)\n",
         "\n",
         "#Matriculaciones de master\n",
-        "Matriculaciones_master_edad <- read_excel(\"/content/sample_data/Universidad/Matriculaciones_master_edad_CCAA.xlsx\")\n",
-        "Matriculaciones_master_nacionalidad <- read_excel(\"/content/sample_data/Universidad/Matriculaciones_master_nacionalidad_CCAA.xlsx\")\n",
         "\n",
-        "#Matriculaciones de master\n",
-        "Matriculaciones_doctorado_edad <- read_excel(\"/content/sample_data/Universidad/Matriculaciones_doctorado_edad_CCAA.xlsx\")\n",
-        "Matriculaciones_doctorado_nacionalidad <- read_excel(\"/content/sample_data/Universidad/Matriculaciones_doctorado_nacionalidad_CCAA.xlsx\")\n",
+        "github_link <- paste(path_datos_origen, \"Matricula_master_edad_CCAA.xlsx\", sep = \"\")\n",
+        "temp_file <- tempfile(fileext = \".xlsx\")\n",
+        "file_request <- GET(github_link, write_disk(path = temp_file))\n",
+        "\n",
+        "Matriculaciones_master_edad <- readxl::read_excel(temp_file)\n",
+        "\n",
+        "github_link <- paste(path_datos_origen, \"Matricula_master_nacionalidad_CCAA.xlsx\", sep = \"\")\n",
+        "temp_file <- tempfile(fileext = \".xlsx\")\n",
+        "file_request <- GET(github_link, write_disk(path = temp_file))\n",
+        "\n",
+        "Matriculaciones_master_nacionalidad <- readxl::read_excel(temp_file)\n",
+        "\n",
+        "#Matriculaciones de doctorado\n",
+        "\n",
+        "github_link <- paste(path_datos_origen, \"Matricula_doctorado_edad_CCAA.xlsx\", sep = \"\")\n",
+        "temp_file <- tempfile(fileext = \".xlsx\")\n",
+        "file_request <- GET(github_link, write_disk(path = temp_file))\n",
+        "\n",
+        "Matriculaciones_doctorado_edad <- readxl::read_excel(temp_file)\n",
+        "\n",
+        "github_link <- paste(path_datos_origen, \"Matricula_doctorado_nacionalidad_CCAA.xlsx\", sep = \"\")\n",
+        "temp_file <- tempfile(fileext = \".xlsx\")\n",
+        "file_request <- GET(github_link, write_disk(path = temp_file))\n",
+        "\n",
+        "Matriculaciones_doctorado_nacionalidad <- readxl::read_excel(temp_file)\n",
         "\n",
         "# Conjunto de datos de las titulaciones que se cursa en cada una de las \n",
         "# Universidades españolas\n",
         "\n",
-        "Titulaciones <- read_excel(\"/content/sample_data/Universidad/Titulaciones_Matriculaciones_grado.xlsx\",\n",
-        "                            skip = 3)\n"
+        "github_link <- paste(path_datos_origen, \"Titulaciones_Matriculaciones_grado.xlsx\", sep = \"\")\n",
+        "temp_file <- tempfile(fileext = \".xlsx\")\n",
+        "file_request <- GET(github_link, write_disk(path = temp_file))\n",
+        "\n",
+        "Titulaciones <- readxl::read_excel(temp_file, skip = 3)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "44d7a71c-46e4-452c-f26e-61f45c3c62b3"
+        "outputId": "86bda523-4cda-47d6-d6a1-4dde9dcc7f97"
       },
-      "execution_count": null,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "stream",
@@ -225,9 +262,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "46bcc5f2-80f2-42d0-d150-417db7939350"
+        "outputId": "e64538a3-e85b-43b7-f886-233272aa1a6f"
       },
-      "execution_count": null,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "stream",
@@ -421,7 +458,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": null,
+      "execution_count": 8,
       "outputs": []
     },
     {
@@ -453,9 +490,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "b2349a13-3c11-43dd-d918-b988f55efaf5"
+        "outputId": "cfbaeb6a-1eee-48e7-96c8-496bf2f5c379"
       },
-      "execution_count": null,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -506,7 +543,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": null,
+      "execution_count": 10,
       "outputs": []
     },
     {
@@ -531,7 +568,7 @@
       "metadata": {
         "id": "mzy2B-LHXVuB"
       },
-      "execution_count": null,
+      "execution_count": 11,
       "outputs": []
     },
     {
@@ -561,7 +598,7 @@
       "metadata": {
         "id": "uiZLzwGz89Ea"
       },
-      "execution_count": null,
+      "execution_count": 12,
       "outputs": []
     },
     {
@@ -587,7 +624,7 @@
       "metadata": {
         "id": "QuJTz4tnS4nS"
       },
-      "execution_count": null,
+      "execution_count": 13,
       "outputs": []
     },
     {
@@ -616,7 +653,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": null,
+      "execution_count": 14,
       "outputs": []
     },
     {
@@ -631,9 +668,9 @@
           "height": 286
         },
         "id": "WDUQuy13bpZY",
-        "outputId": "0cd22bf1-d128-4152-ca5d-980d70f7544e"
+        "outputId": "c3eaea78-b3f5-4df7-af27-a6b8e61de418"
       },
-      "execution_count": null,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "display_data",
@@ -722,12 +759,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 312
+          "height": 295
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "3a0eaa15-9513-401b-afe7-6ccec04f8686"
+        "outputId": "f0ddbb0e-c57a-49d7-dfb8-9d01f4f77b89"
       },
-      "execution_count": null,
+      "execution_count": 53,
       "outputs": [
         {
           "output_type": "stream",
@@ -926,7 +963,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": null,
+      "execution_count": 54,
       "outputs": []
     },
     {
@@ -947,7 +984,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": null,
+      "execution_count": 55,
       "outputs": []
     },
     {
@@ -977,12 +1014,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 51
+          "height": 52
         },
         "id": "qYIGWkYlfcE9",
-        "outputId": "d3374870-6c0a-4cec-cadc-c0fda7fbe200"
+        "outputId": "ed319639-d014-4b89-a401-f5c5b75e13f6"
       },
-      "execution_count": null,
+      "execution_count": 56,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1026,12 +1063,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 51
+          "height": 52
         },
         "id": "jvoFhUMghtwE",
-        "outputId": "f314990c-0d84-4aef-9956-b03cf17b1a73"
+        "outputId": "3b52eae7-0d6a-4a19-c317-962e982f79e6"
       },
-      "execution_count": null,
+      "execution_count": 57,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1098,7 +1135,7 @@
       "metadata": {
         "id": "-Cl6KPQzk--3"
       },
-      "execution_count": null,
+      "execution_count": 58,
       "outputs": []
     },
     {
@@ -1124,9 +1161,9 @@
           "height": 902
         },
         "id": "uK79txHud-GS",
-        "outputId": "c9a57a72-7ad2-4297-db8b-bfc7940a41a9"
+        "outputId": "7100b955-e25d-4b0f-bee7-eb8752972613"
       },
-      "execution_count": null,
+      "execution_count": 59,
       "outputs": [
         {
           "output_type": "stream",
@@ -1208,9 +1245,9 @@
           "height": 763
         },
         "id": "N_q_9zbXmf2U",
-        "outputId": "981781f0-dddc-460d-b5e9-a5a857283f85"
+        "outputId": "8b060f45-d4ca-4773-b9d1-514c2ab7bab0"
       },
-      "execution_count": null,
+      "execution_count": 60,
       "outputs": [
         {
           "output_type": "stream",
@@ -1284,9 +1321,9 @@
           "height": 763
         },
         "id": "QzAdf07KmiUj",
-        "outputId": "b633041b-f4fe-485b-bb59-b1a72dc0f1b3"
+        "outputId": "d1f36e62-7674-4f01-984f-af8af74b1c94"
       },
-      "execution_count": null,
+      "execution_count": 61,
       "outputs": [
         {
           "output_type": "stream",
@@ -1435,9 +1472,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "STRV8v_6fDD4",
-        "outputId": "81a5866b-251c-4a35-ff7a-3f5f98798525"
+        "outputId": "3c5df094-fbf4-4a6c-da4e-43dd4eea245f"
       },
-      "execution_count": null,
+      "execution_count": 62,
       "outputs": [
         {
           "output_type": "stream",
@@ -1485,7 +1522,7 @@
       "metadata": {
         "id": "rXsk9yxnp8SY"
       },
-      "execution_count": null,
+      "execution_count": 63,
       "outputs": []
     },
     {
@@ -1526,7 +1563,7 @@
       "metadata": {
         "id": "BCwkfzknth2I"
       },
-      "execution_count": null,
+      "execution_count": 64,
       "outputs": []
     },
     {
