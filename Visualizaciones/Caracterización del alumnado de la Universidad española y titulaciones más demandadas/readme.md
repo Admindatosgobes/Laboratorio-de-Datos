@@ -50,6 +50,12 @@ Puedes seguir los pasos y ejecutar el código fuente sobre este [notebook en Goo
 
 ## Visualizaciones de datos
 
+* Serie temporal de las matriculaciones en las universidades españolas desde el curso 2015-2016 hasta 2020-2021, desagregado por sexo. Este gráfico lo hemos realizado para las matriculaciones de Grado, Master y Doctorado. 
+
+[![Serie matriculaciones Doctorado](https://github.com/datosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Serie_doctorado.png)](https://datawrapper.dwcdn.net/PEdj6/1/) [![Serie matriculaciones Máster](https://github.com/datosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Serie%20Master.png)](https://datawrapper.dwcdn.net/XDNcL/1/) [![Serie matriculaciones Grado](https://github.com/datosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Serie_grado.png)](https://datawrapper.dwcdn.net/tBkIx/1/)
+
+* Mapa de las universidades españolas georreferenciadas, donde se muestra el número de matriculados que presentan cada una de ellas. 
+* 
 [![Matriculaciones en cada Universidad española](https://github.com/datosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones_universidades_mapa.png)](https://datawrapper.dwcdn.net/zsX4s/1/)
 
 
