@@ -17,11 +17,11 @@ Para este caso práctico se han seleccionado conjuntos de datos publicados por e
 ### Herramientas
 Para la realización de este análisis (entorno de trabajo, programación) se ha utilizado el lenguaje de programación R desde el servicio cloud de [Google Colab](https://colab.research.google.com/?hl=es), que está basado en Notebooks de Jupyter. 
 
-   * Google Colab o también llamado Google Colaboratory, es un servicio en la nube de Google Research que permite programar, ejecutar y compartir código escrito en Python o R desde tu navegador, por lo que no requiere configuración. Este servicio es gratuito y está alojado en Jupyter Notebook. 
+> Google Colab o también llamado Google Colaboratory, es un servicio en la nube de Google Research que permite programar, ejecutar y compartir código escrito en Python o R desde tu navegador, por lo que no requiere configuración. Este servicio es gratuito y está alojado en Jupyter Notebook. 
 
 Para la creación de la visualización interactiva se ha usado la herramienta [Datawrapper](https://www.datawrapper.de/). 
 
-   * Datawrapper es una herramienta online que permite realizar gráficos, mapas o tablas que pueden incrustarse en línea o exportarse como PNG, PDF o SVG. Esta herramienta es muy sencilla de usar y permite múltiples opciones de personalización. 
+> Datawrapper es una herramienta online que permite realizar gráficos, mapas o tablas que pueden incrustarse en línea o exportarse como PNG, PDF o SVG. Esta herramienta es muy sencilla de usar y permite múltiples opciones de personalización. 
 
 Si quieres conocer más sobre herramientas que puedan ayudarte en el tratamiento y la visualización de datos, puedes recurrir al informe [“Herramientas de procesado y visualización de datos”](https://datos.gob.es/es/documentacion/herramientas-de-procesado-y-visualizacion-de-datos). 
 
