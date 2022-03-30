@@ -61,10 +61,11 @@
       "cell_type": "markdown",
       "source": [
         "## 1. Instalación y carga de librerías\n",
-        "Lo primero que debemos hacer es instalar y cargar las librerías para el pre-procesamiento de los datos. Hay muchas librerías disponibles en R pero unas de las más populares y adecuadas para trabajar con estos conjuntos de datos son [Tidyverse](https://www.tidyverse.org/) y [readxl](https://cran.r-project.org/web/packages/readxl/index.html):\n",
+        "Lo primero que debemos hacer es instalar y cargar las librerías para el pre-procesamiento de los datos. Hay muchas librerías disponibles en R pero unas de las más populares y adecuadas para trabajar con estos conjuntos de datos son [Tidyverse](https://www.tidyverse.org/), [readxl](https://cran.r-project.org/web/packages/readxl/index.html), [writexl](https://cran.r-project.org/web/packages/writexl/index.html) y [httr](https://cran.r-project.org/web/packages/httr/index.html).\n",
         "\n",
         "*    [Tidyverse](https://www.tidyverse.org/) es un conjunto de librerías (ggplot2, tibble, tidyr, readr, purrr, dplyr, stringr y forcats) diseñadas para la Ciencia de datos que comparten la misma gramática y las mismas estructuras de trabajo.\n",
-        "*   La librería [readxl](https://cran.r-project.org/web/packages/readxl/index.html) permite la importación de archivos Excel. "
+        "*   Las librerías [readxl](https://cran.r-project.org/web/packages/readxl/index.html) y [writexl](https://cran.r-project.org/web/packages/writexl/index.html)permiten la importación y exportación de archivos Excel. \n",
+        "*   El paquete [httr](https://cran.r-project.org/web/packages/httr/index.html) es útil para gestionar archivos binarios disponibles en una URL como es el caso de los archivos Excel almacenados en GitHub."
       ],
       "metadata": {
         "id": "cYJrJMBR9tf2"
@@ -94,7 +95,7 @@
         },
         "outputId": "e8306428-7980-4d84-daa7-414adcb78554"
       },
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -226,7 +227,7 @@
         "id": "m7XiImgA-rsW",
         "outputId": "86bda523-4cda-47d6-d6a1-4dde9dcc7f97"
       },
-      "execution_count": 6,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -271,7 +272,7 @@
         "id": "tMRcMK6LOha3",
         "outputId": "e64538a3-e85b-43b7-f886-233272aa1a6f"
       },
-      "execution_count": 7,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -465,7 +466,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 8,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -499,7 +500,7 @@
         "id": "9RlGF4FdEORr",
         "outputId": "cfbaeb6a-1eee-48e7-96c8-496bf2f5c379"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -550,7 +551,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": 10,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -575,7 +576,7 @@
       "metadata": {
         "id": "mzy2B-LHXVuB"
       },
-      "execution_count": 11,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -605,7 +606,7 @@
       "metadata": {
         "id": "uiZLzwGz89Ea"
       },
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -631,7 +632,7 @@
       "metadata": {
         "id": "QuJTz4tnS4nS"
       },
-      "execution_count": 13,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -660,7 +661,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": 14,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -677,7 +678,7 @@
         "id": "WDUQuy13bpZY",
         "outputId": "c3eaea78-b3f5-4df7-af27-a6b8e61de418"
       },
-      "execution_count": 15,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -771,7 +772,7 @@
         "id": "DU7xDyNt8z8O",
         "outputId": "f0ddbb0e-c57a-49d7-dfb8-9d01f4f77b89"
       },
-      "execution_count": 53,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -970,7 +971,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": 54,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -991,7 +992,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": 55,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1026,7 +1027,7 @@
         "id": "qYIGWkYlfcE9",
         "outputId": "ed319639-d014-4b89-a401-f5c5b75e13f6"
       },
-      "execution_count": 56,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1075,7 +1076,7 @@
         "id": "jvoFhUMghtwE",
         "outputId": "3b52eae7-0d6a-4a19-c317-962e982f79e6"
       },
-      "execution_count": 57,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1142,7 +1143,7 @@
       "metadata": {
         "id": "-Cl6KPQzk--3"
       },
-      "execution_count": 58,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1170,7 +1171,7 @@
         "id": "uK79txHud-GS",
         "outputId": "7100b955-e25d-4b0f-bee7-eb8752972613"
       },
-      "execution_count": 59,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1254,7 +1255,7 @@
         "id": "N_q_9zbXmf2U",
         "outputId": "8b060f45-d4ca-4773-b9d1-514c2ab7bab0"
       },
-      "execution_count": 60,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1330,7 +1331,7 @@
         "id": "QzAdf07KmiUj",
         "outputId": "d1f36e62-7674-4f01-984f-af8af74b1c94"
       },
-      "execution_count": 61,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1481,7 +1482,7 @@
         "id": "STRV8v_6fDD4",
         "outputId": "3c5df094-fbf4-4a6c-da4e-43dd4eea245f"
       },
-      "execution_count": 62,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1529,7 +1530,7 @@
       "metadata": {
         "id": "rXsk9yxnp8SY"
       },
-      "execution_count": 63,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1570,7 +1571,7 @@
       "metadata": {
         "id": "BCwkfzknth2I"
       },
-      "execution_count": 64,
+      "execution_count": null,
       "outputs": []
     },
     {
