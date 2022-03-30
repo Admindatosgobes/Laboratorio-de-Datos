@@ -15,9 +15,9 @@ Para este caso práctico se han seleccionado conjuntos de datos publicados por e
 -	Matriculaciones por cada una de las titulaciones impartidas por las universidades españolas que se encuentra publicado en la sección de Estadísticas de la página oficial del Ministerio de Universidades.   
 
 ### Herramientas
-Para la realización de este análisis (entorno de trabajo, programación) se ha utilizado el lenguaje de programación R desde el servicio cloud de [Google Colab](https://colab.research.google.com/?hl=es), que está basado en Notebooks de Jupyter. 
+Para la realización del preprocesamiento de los datos se ha utilizado el lenguaje de programación R desde el servicio cloud de [Google Colab](https://colab.research.google.com/?hl=es), que permite la ejecución de [Notebooks de Jupyter](https://jupyter.org/). 
 
-> Google Colab o también llamado Google Colaboratory, es un servicio en la nube de Google Research que permite programar, ejecutar y compartir código escrito en Python o R desde tu navegador, por lo que no requiere configuración. Este servicio es gratuito y está alojado en Jupyter Notebook. 
+> Google Colab o también llamado Google Colaboratory, es un servicio gratuito en la nube de Google Research que permite programar, ejecutar y compartir código escrito en Python o R desde tu navegador, por lo que no requiere la instalación de ninguna herramienta o configuración. 
 
 Para la creación de la visualización interactiva se ha usado la herramienta [Datawrapper](https://www.datawrapper.de/). 
 
