@@ -82,7 +82,7 @@
         "  librerias,\n",
         "  FUN = function(x) {\n",
         "    if (!require(x, character.only = TRUE)) {\n",
-        "      install.packages(x, dependencies = TRUE)\n",
+        "      install.packages(x, dependencies = TRUE, quiet = TRUE)\n",
         "      library(x, character.only = TRUE)\n",
         "    }\n",
         "  }\n",
@@ -93,9 +93,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "e8306428-7980-4d84-daa7-414adcb78554"
+        "outputId": "dd21355b-c509-4e55-e919-28ea59977526"
       },
-      "execution_count": null,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
@@ -127,6 +127,8 @@
             "\n",
             "also installing the dependencies ‘hunspell’, ‘spelling’, ‘nycflights13’\n",
             "\n",
+            "\n",
+            "Loading required package: httr\n",
             "\n"
           ]
         }
