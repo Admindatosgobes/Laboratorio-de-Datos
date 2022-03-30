@@ -531,7 +531,7 @@
     {
       "cell_type": "code",
       "source": [
-        "# Generacion de la columna \"Nivel_académico\" en las tablas de Matriculaciones\n",
+        "# Generacion de la columna \"Formacion\" en la que recogemos el nivel académico en las tablas de Matriculaciones\n",
         "  # Matriculaciones de doctorado \n",
         "Matriculaciones_doctorado_edad$Formacion <- \"Doctorado\"\n",
         "Matriculaciones_doctorado_nacionalidad$Formacion <- \"Doctorado\"\n",
