@@ -51,7 +51,7 @@ Puedes seguir los pasos y ejecutar el código fuente sobre este [notebook en Goo
 
 * Serie temporal de las matriculaciones en las universidades españolas desde el curso 2015-2016 hasta 2020-2021, desagregado por sexo y nivel académico. 
 
-[![Serie matriculaciones sexo y nivel académico](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Serie-matriculaciones-desagregadas-por-sexo-y-curso-en-las-universidades.png)](https://datawrapper.dwcdn.net/tBkIx/3/)
+[![Serie matriculaciones sexo y nivel académico](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Serie-matriculaciones-desagregadas-por-sexo-y-curso-en-las-universidades.png)](https://datawrapper.dwcdn.net/tBkIx/4/)
 
 * Mapa de las universidades españolas georreferenciadas, donde se muestra el número de matriculados que presentan cada una de ellas. 
 * 
