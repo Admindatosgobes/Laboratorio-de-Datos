@@ -95,7 +95,7 @@
       "metadata": {
         "id": "GXYIZ5Je-r5H"
       },
-      "execution_count": 13,
+      "execution_count": 28,
       "outputs": []
     },
     {
@@ -187,9 +187,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "6c648046-1e03-4785-b94b-eb4eef7248c3"
+        "outputId": "a3d24335-7c6e-44af-8bf7-d57adea8a3fb"
       },
-      "execution_count": 14,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "stream",
@@ -232,9 +232,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "7224af91-19df-4b70-b365-f16128577721"
+        "outputId": "c3564155-068c-41ff-b185-2a8f07a0fb52"
       },
-      "execution_count": 15,
+      "execution_count": 30,
       "outputs": [
         {
           "output_type": "stream",
@@ -428,7 +428,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 16,
+      "execution_count": 31,
       "outputs": []
     },
     {
@@ -460,9 +460,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "59c8e8cf-ff9c-4ce3-ae18-d405cf41f555"
+        "outputId": "8fd01f4c-5ce2-4583-db43-d1e5a5e39093"
       },
-      "execution_count": 17,
+      "execution_count": 32,
       "outputs": [
         {
           "output_type": "stream",
@@ -513,7 +513,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": null,
+      "execution_count": 33,
       "outputs": []
     },
     {
@@ -538,7 +538,7 @@
       "metadata": {
         "id": "mzy2B-LHXVuB"
       },
-      "execution_count": null,
+      "execution_count": 34,
       "outputs": []
     },
     {
@@ -568,7 +568,7 @@
       "metadata": {
         "id": "uiZLzwGz89Ea"
       },
-      "execution_count": null,
+      "execution_count": 35,
       "outputs": []
     },
     {
@@ -594,7 +594,7 @@
       "metadata": {
         "id": "QuJTz4tnS4nS"
       },
-      "execution_count": null,
+      "execution_count": 36,
       "outputs": []
     },
     {
@@ -623,7 +623,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": null,
+      "execution_count": 37,
       "outputs": []
     },
     {
@@ -638,9 +638,9 @@
           "height": 286
         },
         "id": "WDUQuy13bpZY",
-        "outputId": "c3eaea78-b3f5-4df7-af27-a6b8e61de418"
+        "outputId": "caaf7f9c-de41-488e-957d-4e5da4ac3539"
       },
-      "execution_count": null,
+      "execution_count": 38,
       "outputs": [
         {
           "output_type": "display_data",
@@ -732,9 +732,9 @@
           "height": 295
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "f0ddbb0e-c57a-49d7-dfb8-9d01f4f77b89"
+        "outputId": "f5ca23f8-267f-4cbf-e5a0-fa3ca19e735f"
       },
-      "execution_count": null,
+      "execution_count": 39,
       "outputs": [
         {
           "output_type": "stream",
@@ -933,7 +933,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": null,
+      "execution_count": 40,
       "outputs": []
     },
     {
@@ -954,7 +954,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": null,
+      "execution_count": 41,
       "outputs": []
     },
     {
@@ -987,9 +987,9 @@
           "height": 52
         },
         "id": "qYIGWkYlfcE9",
-        "outputId": "ed319639-d014-4b89-a401-f5c5b75e13f6"
+        "outputId": "8424490e-ddea-447a-894d-6231337fec33"
       },
-      "execution_count": null,
+      "execution_count": 42,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1036,9 +1036,9 @@
           "height": 52
         },
         "id": "jvoFhUMghtwE",
-        "outputId": "3b52eae7-0d6a-4a19-c317-962e982f79e6"
+        "outputId": "05ed8641-d0ef-4131-ce68-7ec8d1100d81"
       },
-      "execution_count": null,
+      "execution_count": 43,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1105,7 +1105,7 @@
       "metadata": {
         "id": "-Cl6KPQzk--3"
       },
-      "execution_count": null,
+      "execution_count": 44,
       "outputs": []
     },
     {
@@ -1131,9 +1131,9 @@
           "height": 902
         },
         "id": "uK79txHud-GS",
-        "outputId": "7100b955-e25d-4b0f-bee7-eb8752972613"
+        "outputId": "703ffb17-e7ee-462e-c47b-275f853a1575"
       },
-      "execution_count": null,
+      "execution_count": 45,
       "outputs": [
         {
           "output_type": "stream",
@@ -1215,9 +1215,9 @@
           "height": 763
         },
         "id": "N_q_9zbXmf2U",
-        "outputId": "8b060f45-d4ca-4773-b9d1-514c2ab7bab0"
+        "outputId": "5dcf3c70-c671-40e0-aef7-e58b4edf075d"
       },
-      "execution_count": null,
+      "execution_count": 46,
       "outputs": [
         {
           "output_type": "stream",
@@ -1291,9 +1291,9 @@
           "height": 763
         },
         "id": "QzAdf07KmiUj",
-        "outputId": "d1f36e62-7674-4f01-984f-af8af74b1c94"
+        "outputId": "2b3ddb21-2da9-48a3-cfc8-318ce6e2fff6"
       },
-      "execution_count": null,
+      "execution_count": 47,
       "outputs": [
         {
           "output_type": "stream",
@@ -1442,9 +1442,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "STRV8v_6fDD4",
-        "outputId": "3c5df094-fbf4-4a6c-da4e-43dd4eea245f"
+        "outputId": "b8eb0d0e-0306-4fff-b975-ced85de20af8"
       },
-      "execution_count": null,
+      "execution_count": 48,
       "outputs": [
         {
           "output_type": "stream",
@@ -1479,21 +1479,36 @@
       "source": [
         "# Guardamos la tabla de Matriculaciones_nacionalidad.\n",
         "write_xlsx(Matriculaciones_nacionalidad,\n",
-        "           \"/content/sample_data/Universidad/Matriculaciones_nacionalidad.xlsx\")\n",
+        "           \"/content/sample_data/Matriculaciones_nacionalidad.xlsx\")\n",
         "\n",
         "# Guardamos la tabla de Matriculaciones_edad\n",
         "write_xlsx(Matriculaciones_edad, \n",
-        "           \"/content/sample_data/Universidad/Matriculaciones_edad.xlsx\")\n",
+        "           \"/content/sample_data/Matriculaciones_edad.xlsx\")\n",
         "\n",
         "# Guardamos la tabla de Matriculaciones_edad\n",
         "write_xlsx(Titulaciones, \n",
-        "           \"/content/sample_data/Universidad/Titulaciones.xlsx\")"
+        "           \"/content/sample_data/Titulaciones.xlsx\")"
       ],
       "metadata": {
-        "id": "rXsk9yxnp8SY"
+        "id": "rXsk9yxnp8SY",
+        "outputId": "b106ebf2-4c1f-4b0e-9ee2-2d61c37a4002",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 130
+        }
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "ERROR",
+          "evalue": "ignored",
+          "traceback": [
+            "Error: Error in libxlsxwriter: 'Error creating output xlsx file. Usually a permissions error.'\nTraceback:\n",
+            "1. write_xlsx(Matriculaciones_nacionalidad, \"/content/sample_data/Universidad/Matriculaciones_nacionalidad.xlsx\")"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -1501,34 +1516,34 @@
         "# Guardamos las diferentes agregaciones antes realizadas\n",
         "    # Tablas de Matriculaciones por curso y sexo de Doctorado, Master y Grado\n",
         "write_xlsx(Matriculaciones_CS_Doc, \n",
-        "          \"/content/sample_data/Universidad/Matriculaciones_CS_Doc.xlsx\")\n",
+        "          \"/content/sample_data/Matriculaciones_CS_Doc.xlsx\")\n",
         "write_xlsx(Matriculaciones_CS_Master, \n",
-        "          \"/content/sample_data/Universidad/Matriculaciones_CS_Master.xlsx\")\n",
+        "          \"/content/sample_data/Matriculaciones_CS_Master.xlsx\")\n",
         "write_xlsx(Matriculaciones_CS_Grado, \n",
-        "          \"/content/sample_data/Universidad/Matriculaciones_CS_Grado.xlsx\")\n",
+        "          \"/content/sample_data/Matriculaciones_CS_Grado.xlsx\")\n",
         "\n",
         "    # Tabla de Matriculaciones de Grado por rama de enseñanza para el curso 2020-2021\n",
         "      # Hombres \n",
         "write_xlsx(Matriculaciones_RH_Grado, \n",
-        "          \"/content/sample_data/Universidad/Matriculaciones_RH_Grado.xlsx\")\n",
+        "          \"/content/sample_data/Matriculaciones_RH_Grado.xlsx\")\n",
         "      # Mujeres\n",
         "write_xlsx(Matriculaciones_RM_Grado, \n",
-        "          \"/content/sample_data/Universidad/Matriculaciones_RM_Grado.xlsx\")\n",
+        "          \"/content/sample_data/Matriculaciones_RM_Grado.xlsx\")\n",
         "\n",
         "    # Tabla de Matriculaciones de Grado por nacionalidad y sexo para el curso 2020-2021\n",
         "write_xlsx(Matriculaciones_NS_Grado, \n",
-        "          \"/content/sample_data/Universidad/Matriculaciones_NS_Grado.xlsx\")\n",
+        "          \"/content/sample_data/Matriculaciones_NS_Grado.xlsx\")\n",
         "\n",
         "    # Tabla de Matriculaciones de Grado por edad y sexo para el curso 2020-2021    \n",
         "write_xlsx(Matriculaciones_ES_Grado,\n",
-        "          \"/content/sample_data/Universidad/Matriculaciones_ES_Grado.xlsx\" )\n",
+        "          \"/content/sample_data/Matriculaciones_ES_Grado.xlsx\" )\n",
         "\n",
         "    # Tablas de universidades y titulaciones obtenidas la tabla de Titulaciones\n",
         "write_xlsx(Titulaciones_Universidades, \n",
-        "          \"/content/sample_data/Universidad/Titulaciones_Universidades.xlsx\")\n",
+        "          \"/content/sample_data/Titulaciones_Universidades.xlsx\")\n",
         "\n",
         "write_xlsx(Titulaciones_totales, \n",
-        "          \"/content/sample_data/Universidad/Titulaciones_totales.xlsx\")"
+        "          \"/content/sample_data/Titulaciones_totales.xlsx\")"
       ],
       "metadata": {
         "id": "BCwkfzknth2I"
