@@ -53,7 +53,7 @@
         "9.   Resumen de la tabla\n",
         "10.  Guardar las tablas de trabajo \n",
         "\n",
-        "Para ejecutar cada script o celda de código, tan sólo debes hacer click en el símbolo que se indica en la imagen siguiente. El resultado de la ejecución aparecerá justo debajo de cada script.\n",
+        "Una vez que has iniciado sesión con tu cuenta de Gmail, podrás ejecutar cada script o celda de código. Tan sólo debes hacer click en el símbolo que se indica en la imagen siguiente. El resultado de la ejecución aparecerá justo debajo de cada script.\n",
         "\n",
         "![Imagen ejecución de código](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Ejecucion_codigo.PNG)\n",
         "\n",
@@ -70,7 +70,7 @@
         "Lo primero que debemos hacer es instalar y cargar las librerías para el pre-procesamiento de los datos. Hay muchas librerías disponibles en R pero unas de las más populares y adecuadas para trabajar con estos conjuntos de datos son [Tidyverse](https://www.tidyverse.org/), [readxl](https://cran.r-project.org/web/packages/readxl/index.html), [writexl](https://cran.r-project.org/web/packages/writexl/index.html) y [httr](https://cran.r-project.org/web/packages/httr/index.html).\n",
         "\n",
         "*    [Tidyverse](https://www.tidyverse.org/) es un conjunto de librerías (ggplot2, tibble, tidyr, readr, purrr, dplyr, stringr y forcats) diseñadas para la Ciencia de datos que comparten la misma gramática y las mismas estructuras de trabajo.\n",
-        "*   Las librerías [readxl](https://cran.r-project.org/web/packages/readxl/index.html) y [writexl](https://cran.r-project.org/web/packages/writexl/index.html)permiten la importación y exportación de archivos Excel. \n",
+        "*   Las librerías [readxl](https://cran.r-project.org/web/packages/readxl/index.html) y [writexl](https://cran.r-project.org/web/packages/writexl/index.html) permiten la importación y exportación de archivos Excel. \n",
         "*   El paquete [httr](https://cran.r-project.org/web/packages/httr/index.html) es útil para gestionar archivos binarios disponibles en una URL como es el caso de los archivos Excel almacenados en GitHub."
       ],
       "metadata": {
@@ -99,7 +99,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "98d25e69-b13c-46ae-846b-fd48354be5c7"
+        "outputId": "2a31848e-563e-4f1e-f0a7-a002f7c32540"
       },
       "execution_count": 1,
       "outputs": [
@@ -226,7 +226,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "d3375ff3-41ee-4932-b388-13d72104f433"
+        "outputId": "20920d3c-5069-44c8-d4ff-cd2c618ccd90"
       },
       "execution_count": 2,
       "outputs": [
@@ -271,7 +271,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "dfe0c847-0982-4187-ae8f-91abddd31a0c"
+        "outputId": "fe519445-37ad-475e-8457-3399a8aa0266"
       },
       "execution_count": 3,
       "outputs": [
@@ -499,7 +499,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "8d0c70c4-e521-4eac-9d60-4c53bd5bdc51"
+        "outputId": "1a8acd55-4ada-44ad-96e7-52dc75285c18"
       },
       "execution_count": 5,
       "outputs": [
@@ -677,7 +677,7 @@
           "height": 286
         },
         "id": "WDUQuy13bpZY",
-        "outputId": "4a83b5ea-cd94-4767-d487-b0d8c845d235"
+        "outputId": "10eae61d-c8b2-4c0b-e828-4e3352c1b552"
       },
       "execution_count": 11,
       "outputs": [
@@ -771,7 +771,7 @@
           "height": 295
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "060daa3a-5237-4b50-bb5f-7e876d3db2de"
+        "outputId": "444f2013-2fa8-4b46-c9e0-d50e6ca11d24"
       },
       "execution_count": 12,
       "outputs": [
@@ -1026,7 +1026,7 @@
           "height": 52
         },
         "id": "qYIGWkYlfcE9",
-        "outputId": "49defb57-cd0a-4072-e8cd-e2d6b2a98433"
+        "outputId": "8239b172-563c-4a66-9866-5154fd7e31a8"
       },
       "execution_count": 15,
       "outputs": [
@@ -1075,7 +1075,7 @@
           "height": 52
         },
         "id": "jvoFhUMghtwE",
-        "outputId": "907c49a6-c778-4ae1-f02a-531c7648317b"
+        "outputId": "bbc1865c-6604-4839-e739-bbcd0dd6b146"
       },
       "execution_count": 16,
       "outputs": [
@@ -1170,7 +1170,7 @@
           "height": 902
         },
         "id": "uK79txHud-GS",
-        "outputId": "19c48112-6680-44f9-d2ec-b9607a12bc05"
+        "outputId": "66737bd4-9d25-41bf-dabe-0662067d118f"
       },
       "execution_count": 18,
       "outputs": [
@@ -1254,7 +1254,7 @@
           "height": 763
         },
         "id": "N_q_9zbXmf2U",
-        "outputId": "78c4af8a-8034-4bb6-f0d2-d8b560b807e3"
+        "outputId": "15fb918f-ff49-4f69-aeb5-f9ebd5537c7c"
       },
       "execution_count": 19,
       "outputs": [
@@ -1330,7 +1330,7 @@
           "height": 763
         },
         "id": "QzAdf07KmiUj",
-        "outputId": "3d9f1c2f-d105-4a89-e992-f4bc1b97109e"
+        "outputId": "56c61c92-33a1-4a9e-e895-8d59ab017124"
       },
       "execution_count": 20,
       "outputs": [
@@ -1453,9 +1453,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "_gevbYDEciKX",
-        "outputId": "02ba7871-f7e6-421c-9540-eb9e2d9a9338"
+        "outputId": "a3c9d0cf-d856-4a73-c80f-1e5cceea5f59"
       },
-      "execution_count": 27,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
@@ -1521,7 +1521,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "STRV8v_6fDD4",
-        "outputId": "e2b27c4f-5e65-44f8-8718-66f663c130bd"
+        "outputId": "19e20972-a574-48eb-ec50-d7d40b768e0c"
       },
       "execution_count": 22,
       "outputs": [
@@ -1565,7 +1565,7 @@
       "metadata": {
         "id": "rXsk9yxnp8SY"
       },
-      "execution_count": 28,
+      "execution_count": 23,
       "outputs": []
     },
     {
