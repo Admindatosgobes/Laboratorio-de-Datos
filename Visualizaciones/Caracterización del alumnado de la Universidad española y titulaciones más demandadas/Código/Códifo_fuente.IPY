@@ -53,9 +53,11 @@
         "9.   Resumen de la tabla\n",
         "10.  Guardar las tablas de trabajo \n",
         "\n",
-        "Para ejecutar cada script de código, tan sólo debes hacer click en el símbolo que se indica en la imagen siguiente. El resultado de la ejecución aparecerá justo debajo de cada script.\n",
+        "Para ejecutar cada script o celda de código, tan sólo debes hacer click en el símbolo que se indica en la imagen siguiente. El resultado de la ejecución aparecerá justo debajo de cada script.\n",
         "\n",
-        "![Imagen ejecución de código](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Ejecucion_codigo.PNG)\n"
+        "![Imagen ejecución de código](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Ejecucion_codigo.PNG)\n",
+        "\n",
+        "También puedes ejecutar todos los scripts pulsando Ctrl+F9 o eligiendo en el menú superior la opción \"Entorno de ejecución\" y seleccionando \"Ejecutar todas\"."
       ],
       "metadata": {
         "id": "uoL79g4H26SS"
@@ -95,7 +97,7 @@
       "metadata": {
         "id": "GXYIZ5Je-r5H"
       },
-      "execution_count": 28,
+      "execution_count": 74,
       "outputs": []
     },
     {
@@ -187,9 +189,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "a3d24335-7c6e-44af-8bf7-d57adea8a3fb"
+        "outputId": "4ce43d8f-1d81-466e-b046-c5bf1c705e5a"
       },
-      "execution_count": 29,
+      "execution_count": 75,
       "outputs": [
         {
           "output_type": "stream",
@@ -232,9 +234,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "c3564155-068c-41ff-b185-2a8f07a0fb52"
+        "outputId": "29d0afce-22c4-4490-820b-b07e1145f12c"
       },
-      "execution_count": 30,
+      "execution_count": 76,
       "outputs": [
         {
           "output_type": "stream",
@@ -428,7 +430,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 31,
+      "execution_count": 77,
       "outputs": []
     },
     {
@@ -460,9 +462,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "8fd01f4c-5ce2-4583-db43-d1e5a5e39093"
+        "outputId": "7583fac8-443d-4697-d6cd-facd7aceb81d"
       },
-      "execution_count": 32,
+      "execution_count": 78,
       "outputs": [
         {
           "output_type": "stream",
@@ -513,7 +515,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": 33,
+      "execution_count": 79,
       "outputs": []
     },
     {
@@ -538,7 +540,7 @@
       "metadata": {
         "id": "mzy2B-LHXVuB"
       },
-      "execution_count": 34,
+      "execution_count": 80,
       "outputs": []
     },
     {
@@ -568,7 +570,7 @@
       "metadata": {
         "id": "uiZLzwGz89Ea"
       },
-      "execution_count": 35,
+      "execution_count": 81,
       "outputs": []
     },
     {
@@ -594,7 +596,7 @@
       "metadata": {
         "id": "QuJTz4tnS4nS"
       },
-      "execution_count": 36,
+      "execution_count": 82,
       "outputs": []
     },
     {
@@ -623,7 +625,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": 37,
+      "execution_count": 83,
       "outputs": []
     },
     {
@@ -638,9 +640,9 @@
           "height": 286
         },
         "id": "WDUQuy13bpZY",
-        "outputId": "caaf7f9c-de41-488e-957d-4e5da4ac3539"
+        "outputId": "642f86af-171a-4271-c2bb-92d7d06a7bcb"
       },
-      "execution_count": 38,
+      "execution_count": 84,
       "outputs": [
         {
           "output_type": "display_data",
@@ -732,9 +734,9 @@
           "height": 295
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "f5ca23f8-267f-4cbf-e5a0-fa3ca19e735f"
+        "outputId": "6e8cd454-09b3-4d2c-aaeb-47e949eeccdc"
       },
-      "execution_count": 39,
+      "execution_count": 85,
       "outputs": [
         {
           "output_type": "stream",
@@ -933,7 +935,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": 40,
+      "execution_count": 86,
       "outputs": []
     },
     {
@@ -954,7 +956,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": 41,
+      "execution_count": 87,
       "outputs": []
     },
     {
@@ -987,9 +989,9 @@
           "height": 52
         },
         "id": "qYIGWkYlfcE9",
-        "outputId": "8424490e-ddea-447a-894d-6231337fec33"
+        "outputId": "a1e9eeef-7798-4cd2-d786-827f0540bcdf"
       },
-      "execution_count": 42,
+      "execution_count": 88,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1036,9 +1038,9 @@
           "height": 52
         },
         "id": "jvoFhUMghtwE",
-        "outputId": "05ed8641-d0ef-4131-ce68-7ec8d1100d81"
+        "outputId": "204170a3-32d1-4a9e-bffc-98c13a6adf1d"
       },
-      "execution_count": 43,
+      "execution_count": 89,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1105,7 +1107,7 @@
       "metadata": {
         "id": "-Cl6KPQzk--3"
       },
-      "execution_count": 44,
+      "execution_count": 90,
       "outputs": []
     },
     {
@@ -1131,9 +1133,9 @@
           "height": 902
         },
         "id": "uK79txHud-GS",
-        "outputId": "703ffb17-e7ee-462e-c47b-275f853a1575"
+        "outputId": "3c9ce6a0-eab5-42c6-c76a-6aeb92dfdea2"
       },
-      "execution_count": 45,
+      "execution_count": 91,
       "outputs": [
         {
           "output_type": "stream",
@@ -1215,9 +1217,9 @@
           "height": 763
         },
         "id": "N_q_9zbXmf2U",
-        "outputId": "5dcf3c70-c671-40e0-aef7-e58b4edf075d"
+        "outputId": "2f26f0bf-b652-44cb-fe64-d4941b4010a7"
       },
-      "execution_count": 46,
+      "execution_count": 92,
       "outputs": [
         {
           "output_type": "stream",
@@ -1291,9 +1293,9 @@
           "height": 763
         },
         "id": "QzAdf07KmiUj",
-        "outputId": "2b3ddb21-2da9-48a3-cfc8-318ce6e2fff6"
+        "outputId": "4f79d02c-7d6e-48f5-88ca-180f60b26390"
       },
-      "execution_count": 47,
+      "execution_count": 93,
       "outputs": [
         {
           "output_type": "stream",
@@ -1442,9 +1444,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "STRV8v_6fDD4",
-        "outputId": "b8eb0d0e-0306-4fff-b975-ced85de20af8"
+        "outputId": "d064d86e-9c69-4482-d53d-bf50e13252cb"
       },
-      "execution_count": 48,
+      "execution_count": 94,
       "outputs": [
         {
           "output_type": "stream",
@@ -1490,25 +1492,10 @@
         "           \"/content/sample_data/Titulaciones.xlsx\")"
       ],
       "metadata": {
-        "id": "rXsk9yxnp8SY",
-        "outputId": "b106ebf2-4c1f-4b0e-9ee2-2d61c37a4002",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 130
-        }
+        "id": "rXsk9yxnp8SY"
       },
-      "execution_count": 50,
-      "outputs": [
-        {
-          "output_type": "error",
-          "ename": "ERROR",
-          "evalue": "ignored",
-          "traceback": [
-            "Error: Error in libxlsxwriter: 'Error creating output xlsx file. Usually a permissions error.'\nTraceback:\n",
-            "1. write_xlsx(Matriculaciones_nacionalidad, \"/content/sample_data/Universidad/Matriculaciones_nacionalidad.xlsx\")"
-          ]
-        }
-      ]
+      "execution_count": 95,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -1548,7 +1535,7 @@
       "metadata": {
         "id": "BCwkfzknth2I"
       },
-      "execution_count": null,
+      "execution_count": 96,
       "outputs": []
     },
     {
