@@ -174,54 +174,46 @@
         "path_datos_origen <- \"https://raw.githubusercontent.com/datosgobes/Laboratorio-de-Datos/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Datos%20de%20origen/\"\n",
         "temp_file <- tempfile(fileext = \".xlsx\")\n",
         "\n",
-        "#Matriculaciones de grado\n",
+        "# Matriculaciones de grado por edad y nacionalidad\n",
         "\n",
         "github_link <- paste(path_datos_origen, \"Matricula_grado_edad_CCAA.xlsx\", sep = \"\")\n",
         "file_request <- GET(github_link, write_disk(path = temp_file))\n",
-        "\n",
         "Matriculaciones_grado_edad <- readxl::read_excel(temp_file)\n",
         "\n",
         "github_link <- paste(path_datos_origen, \"Matricula_grado_nacionalidad_CCAA.xlsx\", sep = \"\")\n",
         "temp_file <- tempfile(fileext = \".xlsx\")\n",
         "file_request <- GET(github_link, write_disk(path = temp_file))\n",
-        "\n",
         "Matriculaciones_grado_nacionalidad <- readxl::read_excel(temp_file)\n",
         "\n",
-        "#Matriculaciones de master\n",
+        "# Matriculaciones de master por edad y nacionalidad\n",
         "\n",
         "github_link <- paste(path_datos_origen, \"Matricula_master_edad_CCAA.xlsx\", sep = \"\")\n",
         "temp_file <- tempfile(fileext = \".xlsx\")\n",
         "file_request <- GET(github_link, write_disk(path = temp_file))\n",
-        "\n",
         "Matriculaciones_master_edad <- readxl::read_excel(temp_file)\n",
         "\n",
         "github_link <- paste(path_datos_origen, \"Matricula_master_nacionalidad_CCAA.xlsx\", sep = \"\")\n",
         "temp_file <- tempfile(fileext = \".xlsx\")\n",
         "file_request <- GET(github_link, write_disk(path = temp_file))\n",
-        "\n",
         "Matriculaciones_master_nacionalidad <- readxl::read_excel(temp_file)\n",
         "\n",
-        "#Matriculaciones de doctorado\n",
+        "# Matriculaciones de doctorado por edad y nacionalidad\n",
         "\n",
         "github_link <- paste(path_datos_origen, \"Matricula_doctorado_edad_CCAA.xlsx\", sep = \"\")\n",
         "temp_file <- tempfile(fileext = \".xlsx\")\n",
         "file_request <- GET(github_link, write_disk(path = temp_file))\n",
-        "\n",
         "Matriculaciones_doctorado_edad <- readxl::read_excel(temp_file)\n",
         "\n",
         "github_link <- paste(path_datos_origen, \"Matricula_doctorado_nacionalidad_CCAA.xlsx\", sep = \"\")\n",
         "temp_file <- tempfile(fileext = \".xlsx\")\n",
         "file_request <- GET(github_link, write_disk(path = temp_file))\n",
-        "\n",
         "Matriculaciones_doctorado_nacionalidad <- readxl::read_excel(temp_file)\n",
         "\n",
-        "# Conjunto de datos de las titulaciones que se cursa en cada una de las \n",
-        "# Universidades españolas\n",
+        "# Titulaciones que se cursa en cada una de las Universidades españolas\n",
         "\n",
         "github_link <- paste(path_datos_origen, \"Titulaciones_Matriculaciones_grado.xlsx\", sep = \"\")\n",
         "temp_file <- tempfile(fileext = \".xlsx\")\n",
         "file_request <- GET(github_link, write_disk(path = temp_file))\n",
-        "\n",
         "Titulaciones <- readxl::read_excel(temp_file, skip = 3)\n"
       ],
       "metadata": {
@@ -248,7 +240,7 @@
       "cell_type": "markdown",
       "source": [
         "## 3. Cambio de nombre a las variables \n",
-        "Una vez que han sido cargados las tablas de trabajo, debemos solucionar uno de los problemas más comunes en todo preprocesamiento de datos: la inconsistencia en el nombre de las variables en los diferentes ficheros. Esta anomalía produce variables con nombres diferentes, pero sabemos que representan la misma información. Para detectar esta anomalía, en las tablas de datos de Matriculaciones, hemos recurrido a la observación y exploración descriptiva de los archivos. "
+        "Una vez que han sido cargados las tablas en el entorno de trabajo, debemos solucionar uno de los problemas más comunes en todo preprocesamiento de datos: la inconsistencia en el nombre de las variables en los diferentes ficheros. Esta anomalía produce variables con nombres diferentes, pero sabemos que representan la misma información. Para detectar esta anomalía, en las tablas de datos de Matriculaciones, hemos recurrido a la **observación y exploración descriptiva de los archivos**. "
       ],
       "metadata": {
         "id": "BSfMXgfzKPgy"
@@ -447,10 +439,11 @@
     {
       "cell_type": "markdown",
       "source": [
-        "En el caso de las tablas de matriculaciones, la única diferencia en el nombre de las variables entre las diferentes tablas, es la variable \"Tipo Universidad\" que en el caso de las tablas de \"Matriculaciones_doctorado_edad\" y \"Matriculaciones_grado_edad\" se denomina \"Tipo de Universidad\".\n",
-        "Además, R diferencia entre minúsculas y mayúsculas, por lo debemos comprobar, que todas las letras, estén igual. En este caso vemos esta problemática en la misma variable anterior. \n",
-        "Para solucionar esta problemática, unificaremos el nombre de las variables en todas las tablas.  \n",
-        "\n"
+        "En el caso de las tablas de matriculaciones, la única diferencia en el nombre de las variables se observa en la variable \"Tipo Universidad\" que en el caso de las tablas de \"Matriculaciones_doctorado_edad\" y \"Matriculaciones_grado_edad\" se denomina \"Tipo de universidad\".\n",
+        "\n",
+        "Además, R diferencia entre minúsculas y mayúsculas, por lo debemos comprobar y corregir, que **todas las variables se denominan de forma idéntica**. \n",
+        "\n",
+        "Para solucionar esta problemática, unificamos el nombre de las variables en todas las tablas.  "
       ],
       "metadata": {
         "id": "RSmSSKXQcYUM"
@@ -460,11 +453,10 @@
       "cell_type": "code",
       "source": [
         "# Cambio de nombre a las variables. El valor indicado entre [] indica la posición \n",
-        "# de la columna a la cual queremos cambiar el nombre. \n",
+        "# de la columna sobre la que se aplica el cambio. \n",
+        "\n",
         "names(Matriculaciones_doctorado_edad)[3] = \"Tipo universidad\"\n",
-        "\n",
         "names(Matriculaciones_grado_edad)[3] = \"Tipo universidad\"\n",
-        "\n",
         "names(Matriculaciones_grado_nacionalidad)[4] = \"Tipo universidad\""
       ],
       "metadata": {
@@ -476,7 +468,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "En el caso de la tabla que contiene las titulaciones que ofrecen las universidades españolas (\"Titulaciones\"), existe otros problema relacionados con los nombres de las columnas. En primer lugar, una de las columnas no tiene nombre, R ha añadido el nombre que ha considerado, que en este caso es \"...5\", por lo que debemos identificar que datos presenta la variable y ponerle un nombre representativo. En este caso, la columna representa el curso académico, por lo que la llamaremos \"Curso. Otro de los problemas es la presencia de un símbolo en una de las variables, \"% Mujeres\". El uso de símbolos no está recomendado porque puede ocasionar problemas a la hora de realizar acciones con la columna. "
+        "La tabla que contiene las titulaciones que ofrecen las universidades españolas (\"Titulaciones\") tiene otros problemas relacionados con los nombres de las columnas. En primer lugar, una de las **columnas no tiene nombre** y R ha añadido el nombre que ha considerado, que en este caso es \"...5\" (por tratarse de la columna 5), por lo que debemos identificar que datos presenta la variable y ponerle un nombre representativo. En este caso, la columna representa el curso académico, por lo que la llamaremos \"Curso\". Otro de los problemas es la presencia de **símbolos en el nombre de variables**. El uso de símbolos no está recomendado porque puede ocasionar problemas a la hora de realizar acciones que involucren dicha varible. En este caso, se cambia el nombre \"% Mujeres\" por \"Porcentaje_mujeres\"."
       ],
       "metadata": {
         "id": "Wy0xsplr-NDm"
@@ -526,7 +518,7 @@
       "cell_type": "markdown",
       "source": [
         "## 4. Creación de las tablas de trabajo \n",
-        "Una vez que tenemos todos los conjuntos de datos cargados como tablas en el entorno de desarrollo y los las columnas están nombradas correctamente, debemos unificarlos por cada una de las características relacionadas con el alumnado universitario: matriculaciones en función de la edad, matriculaciones en función de la nacionalidad y titulaciones.\n",
+        "Una vez cargados todos los conjuntos de datos de origen sobre tablas en el entorno de desarrollo y las columnas están nombradas correctamente, debemos unificarlas por cada una de las características relacionadas con el alumnado universitario: matriculaciones en función de la edad, matriculaciones en función de la nacionalidad y titulaciones.\n",
         "\n",
         "En este caso, tenemos que generar dos tablas, una de las matriculaciones por edad y otra de las matriculaciones por nacionalidad. \n",
         "\n",
