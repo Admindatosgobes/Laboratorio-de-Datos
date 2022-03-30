@@ -95,10 +95,47 @@
         ")"
       ],
       "metadata": {
-        "id": "GXYIZ5Je-r5H"
+        "id": "GXYIZ5Je-r5H",
+        "outputId": "101d19a6-f252-4092-9328-13dddaf83833",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
-      "execution_count": 74,
-      "outputs": []
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "Loading required package: tidyverse\n",
+            "\n",
+            "Warning message in system(\"timedatectl\", intern = TRUE):\n",
+            "“running command 'timedatectl' had status 1”\n",
+            "── \u001b[1mAttaching packages\u001b[22m ─────────────────────────────────────── tidyverse 1.3.1 ──\n",
+            "\n",
+            "\u001b[32m✔\u001b[39m \u001b[34mggplot2\u001b[39m 3.3.5     \u001b[32m✔\u001b[39m \u001b[34mpurrr  \u001b[39m 0.3.4\n",
+            "\u001b[32m✔\u001b[39m \u001b[34mtibble \u001b[39m 3.1.6     \u001b[32m✔\u001b[39m \u001b[34mdplyr  \u001b[39m 1.0.8\n",
+            "\u001b[32m✔\u001b[39m \u001b[34mtidyr  \u001b[39m 1.2.0     \u001b[32m✔\u001b[39m \u001b[34mstringr\u001b[39m 1.4.0\n",
+            "\u001b[32m✔\u001b[39m \u001b[34mreadr  \u001b[39m 2.1.2     \u001b[32m✔\u001b[39m \u001b[34mforcats\u001b[39m 0.5.1\n",
+            "\n",
+            "── \u001b[1mConflicts\u001b[22m ────────────────────────────────────────── tidyverse_conflicts() ──\n",
+            "\u001b[31m✖\u001b[39m \u001b[34mdplyr\u001b[39m::\u001b[32mfilter()\u001b[39m masks \u001b[34mstats\u001b[39m::filter()\n",
+            "\u001b[31m✖\u001b[39m \u001b[34mdplyr\u001b[39m::\u001b[32mlag()\u001b[39m    masks \u001b[34mstats\u001b[39m::lag()\n",
+            "\n",
+            "Loading required package: readxl\n",
+            "\n",
+            "Loading required package: writexl\n",
+            "\n",
+            "Warning message in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE, :\n",
+            "“there is no package called ‘writexl’”\n",
+            "also installing the dependencies ‘hunspell’, ‘spelling’, ‘nycflights13’\n",
+            "\n",
+            "\n",
+            "Loading required package: httr\n",
+            "\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -189,9 +226,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "4ce43d8f-1d81-466e-b046-c5bf1c705e5a"
+        "outputId": "4d120ceb-682d-451a-86c8-eb927a95575d"
       },
-      "execution_count": 75,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
@@ -234,9 +271,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "29d0afce-22c4-4490-820b-b07e1145f12c"
+        "outputId": "71b112c6-a483-4846-837d-11458097d4fb"
       },
-      "execution_count": 76,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
@@ -430,7 +467,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 77,
+      "execution_count": 4,
       "outputs": []
     },
     {
@@ -462,9 +499,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "7583fac8-443d-4697-d6cd-facd7aceb81d"
+        "outputId": "c3ca639d-f9c6-4f51-bd15-eecad46e4cb5"
       },
-      "execution_count": 78,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "stream",
@@ -515,7 +552,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": 79,
+      "execution_count": 6,
       "outputs": []
     },
     {
@@ -540,7 +577,7 @@
       "metadata": {
         "id": "mzy2B-LHXVuB"
       },
-      "execution_count": 80,
+      "execution_count": 7,
       "outputs": []
     },
     {
@@ -570,7 +607,7 @@
       "metadata": {
         "id": "uiZLzwGz89Ea"
       },
-      "execution_count": 81,
+      "execution_count": 8,
       "outputs": []
     },
     {
@@ -596,7 +633,7 @@
       "metadata": {
         "id": "QuJTz4tnS4nS"
       },
-      "execution_count": 82,
+      "execution_count": 9,
       "outputs": []
     },
     {
@@ -625,7 +662,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": 83,
+      "execution_count": 10,
       "outputs": []
     },
     {
@@ -640,9 +677,9 @@
           "height": 286
         },
         "id": "WDUQuy13bpZY",
-        "outputId": "642f86af-171a-4271-c2bb-92d7d06a7bcb"
+        "outputId": "0ea3e11f-dae8-48f9-97b6-9fbf2bc9afda"
       },
-      "execution_count": 84,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "display_data",
@@ -734,9 +771,9 @@
           "height": 295
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "6e8cd454-09b3-4d2c-aaeb-47e949eeccdc"
+        "outputId": "a19f2f4b-e567-4e3d-e61e-42c6d6285df8"
       },
-      "execution_count": 85,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
@@ -935,7 +972,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": 86,
+      "execution_count": 13,
       "outputs": []
     },
     {
@@ -956,7 +993,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": 87,
+      "execution_count": 14,
       "outputs": []
     },
     {
@@ -989,9 +1026,9 @@
           "height": 52
         },
         "id": "qYIGWkYlfcE9",
-        "outputId": "a1e9eeef-7798-4cd2-d786-827f0540bcdf"
+        "outputId": "68da3e42-c920-4ab8-dcea-47570d4a1d45"
       },
-      "execution_count": 88,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1038,9 +1075,9 @@
           "height": 52
         },
         "id": "jvoFhUMghtwE",
-        "outputId": "204170a3-32d1-4a9e-bffc-98c13a6adf1d"
+        "outputId": "2d3c3330-ca31-4311-fbbb-0c387e7c9b21"
       },
-      "execution_count": 89,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1107,7 +1144,7 @@
       "metadata": {
         "id": "-Cl6KPQzk--3"
       },
-      "execution_count": 90,
+      "execution_count": 17,
       "outputs": []
     },
     {
@@ -1133,9 +1170,9 @@
           "height": 902
         },
         "id": "uK79txHud-GS",
-        "outputId": "3c9ce6a0-eab5-42c6-c76a-6aeb92dfdea2"
+        "outputId": "6c2d7a7a-ab21-46c7-8983-0206536520fe"
       },
-      "execution_count": 91,
+      "execution_count": 18,
       "outputs": [
         {
           "output_type": "stream",
@@ -1217,9 +1254,9 @@
           "height": 763
         },
         "id": "N_q_9zbXmf2U",
-        "outputId": "2f26f0bf-b652-44cb-fe64-d4941b4010a7"
+        "outputId": "c5e6bb14-bb28-48d2-9925-f0cf818eb15c"
       },
-      "execution_count": 92,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "stream",
@@ -1293,9 +1330,9 @@
           "height": 763
         },
         "id": "QzAdf07KmiUj",
-        "outputId": "4f79d02c-7d6e-48f5-88ca-180f60b26390"
+        "outputId": "8e9383d7-363d-4644-88b3-448348bd4b20"
       },
-      "execution_count": 93,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
@@ -1386,6 +1423,10 @@
     {
       "cell_type": "code",
       "source": [
+        "# En primer lugar realizamos la agregación por curso y sexo en cada tabla de\n",
+        "# Matriculaciones_nacionalidad filtrando el tipo de Formación. A continuación,\n",
+        "# generamos una nueva tabla con las agrupaciones creadas.\n",
+        "\n",
         "# Agregacion por curso y sexo en la tabla de Matriculaciones_nacionalidad \n",
         "Matriculaciones_CS_Doc <- Matriculaciones_nacionalidad %>%\n",
         "    group_by(Curso, Sexo)%>%\n",
@@ -1403,6 +1444,19 @@
         "    group_by(Curso, Sexo)%>%\n",
         "      filter(Formacion == \"Grado\") %>%\n",
         "      summarise(sum(Matriculaciones))\n",
+        "\n",
+        "Matriculaciones_CS <- cbind(Matriculaciones_CS_Grado, Matriculaciones_CS_Master[3], Matriculaciones_CS_Doc[3])\n"
+      ],
+      "metadata": {
+        "id": "_gevbYDEciKX"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# A continuación, abordamos el resto de agregaciones:\n",
         "\n",
         "# Agregacion por rama de enseñanza fitrando por curso, formación y sexo en la tabla Matriculaciones_edad\n",
         "Matriculaciones_RH_Grado <- Matriculaciones_edad %>%\n",
@@ -1440,31 +1494,10 @@
         "      summarise(sum(Matriculados))"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "STRV8v_6fDD4",
-        "outputId": "d064d86e-9c69-4482-d53d-bf50e13252cb"
+        "id": "STRV8v_6fDD4"
       },
-      "execution_count": 94,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Curso'. You can override using the\n",
-            "`.groups` argument.\n",
-            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Curso'. You can override using the\n",
-            "`.groups` argument.\n",
-            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Curso'. You can override using the\n",
-            "`.groups` argument.\n",
-            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Nacionalidad'. You can override using the\n",
-            "`.groups` argument.\n",
-            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Edad'. You can override using the\n",
-            "`.groups` argument.\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
@@ -1487,14 +1520,14 @@
         "write_xlsx(Matriculaciones_edad, \n",
         "           \"/content/sample_data/Matriculaciones_edad.xlsx\")\n",
         "\n",
-        "# Guardamos la tabla de Matriculaciones_edad\n",
+        "# Guardamos la tabla de Titulaciones\n",
         "write_xlsx(Titulaciones, \n",
         "           \"/content/sample_data/Titulaciones.xlsx\")"
       ],
       "metadata": {
         "id": "rXsk9yxnp8SY"
       },
-      "execution_count": 95,
+      "execution_count": 22,
       "outputs": []
     },
     {
@@ -1502,12 +1535,8 @@
       "source": [
         "# Guardamos las diferentes agregaciones antes realizadas\n",
         "    # Tablas de Matriculaciones por curso y sexo de Doctorado, Master y Grado\n",
-        "write_xlsx(Matriculaciones_CS_Doc, \n",
-        "          \"/content/sample_data/Matriculaciones_CS_Doc.xlsx\")\n",
-        "write_xlsx(Matriculaciones_CS_Master, \n",
-        "          \"/content/sample_data/Matriculaciones_CS_Master.xlsx\")\n",
-        "write_xlsx(Matriculaciones_CS_Grado, \n",
-        "          \"/content/sample_data/Matriculaciones_CS_Grado.xlsx\")\n",
+        "write_xlsx(Matriculaciones_CS, \n",
+        "          \"/content/sample_data/Matriculaciones_CS.xlsx\")\n",
         "\n",
         "    # Tabla de Matriculaciones de Grado por rama de enseñanza para el curso 2020-2021\n",
         "      # Hombres \n",
@@ -1535,7 +1564,7 @@
       "metadata": {
         "id": "BCwkfzknth2I"
       },
-      "execution_count": 96,
+      "execution_count": 23,
       "outputs": []
     },
     {
