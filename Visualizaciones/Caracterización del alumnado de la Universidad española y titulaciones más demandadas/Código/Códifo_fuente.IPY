@@ -89,10 +89,50 @@
         ")"
       ],
       "metadata": {
-        "id": "GXYIZ5Je-r5H"
+        "id": "GXYIZ5Je-r5H",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "17261790-fc85-4c38-c22f-595b36f77691"
       },
-      "execution_count": 4,
-      "outputs": []
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "Loading required package: tidyverse\n",
+            "\n",
+            "Warning message in system(\"timedatectl\", intern = TRUE):\n",
+            "“running command 'timedatectl' had status 1”\n",
+            "── \u001b[1mAttaching packages\u001b[22m ─────────────────────────────────────── tidyverse 1.3.1 ──\n",
+            "\n",
+            "\u001b[32m✔\u001b[39m \u001b[34mggplot2\u001b[39m 3.3.5     \u001b[32m✔\u001b[39m \u001b[34mpurrr  \u001b[39m 0.3.4\n",
+            "\u001b[32m✔\u001b[39m \u001b[34mtibble \u001b[39m 3.1.6     \u001b[32m✔\u001b[39m \u001b[34mdplyr  \u001b[39m 1.0.8\n",
+            "\u001b[32m✔\u001b[39m \u001b[34mtidyr  \u001b[39m 1.2.0     \u001b[32m✔\u001b[39m \u001b[34mstringr\u001b[39m 1.4.0\n",
+            "\u001b[32m✔\u001b[39m \u001b[34mreadr  \u001b[39m 2.1.2     \u001b[32m✔\u001b[39m \u001b[34mforcats\u001b[39m 0.5.1\n",
+            "\n",
+            "── \u001b[1mConflicts\u001b[22m ────────────────────────────────────────── tidyverse_conflicts() ──\n",
+            "\u001b[31m✖\u001b[39m \u001b[34mdplyr\u001b[39m::\u001b[32mfilter()\u001b[39m masks \u001b[34mstats\u001b[39m::filter()\n",
+            "\u001b[31m✖\u001b[39m \u001b[34mdplyr\u001b[39m::\u001b[32mlag()\u001b[39m    masks \u001b[34mstats\u001b[39m::lag()\n",
+            "\n",
+            "Loading required package: readxl\n",
+            "\n",
+            "Loading required package: writexl\n",
+            "\n",
+            "Warning message in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE, :\n",
+            "“there is no package called ‘writexl’”\n",
+            "Installing package into ‘/usr/local/lib/R/site-library’\n",
+            "(as ‘lib’ is unspecified)\n",
+            "\n",
+            "also installing the dependencies ‘hunspell’, ‘spelling’, ‘nycflights13’\n",
+            "\n",
+            "\n",
+            "Loading required package: httr\n",
+            "\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -133,7 +173,7 @@
         "# Carga de conjuntos de datos de las matriculaciones que se realizan en las Universidades \n",
         "# en Grado, Master y Doctorado y asignación a sus respectivas variables\n",
         "\n",
-        "path_datos_origen <- \"https://raw.githubusercontent.com/datosgobes/Laboratorio-de-Datos/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Datos%20de%20origen/\"\n",
+        "path_datos_origen <- \"https://raw.githubusercontent.com/Admindatosgobes/Laboratorio-de-Datos/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Datos%20de%20origen/\"\n",
         "temp_file <- tempfile(fileext = \".xlsx\")\n",
         "\n",
         "# Matriculaciones de grado por edad y nacionalidad\n",
@@ -180,25 +220,20 @@
       ],
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 339
+          "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "3f99b645-a83a-4081-d1f4-e3fbb86facc7"
+        "outputId": "e73e42cd-309d-4853-bf7c-cbbb1315c517"
       },
       "execution_count": 3,
       "outputs": [
         {
-          "output_type": "error",
-          "ename": "ERROR",
-          "evalue": "ignored",
-          "traceback": [
-            "Error: Evaluation error: zip file '/tmp/RtmpuXYRpA/file3d503b7935.xlsx' cannot be opened.\nTraceback:\n",
-            "1. readxl::read_excel(temp_file)",
-            "2. read_excel_(path = path, sheet = sheet, range = range, col_names = col_names, \n .     col_types = col_types, na = na, trim_ws = trim_ws, skip = skip, \n .     n_max = n_max, guess_max = guess_max, progress = progress, \n .     .name_repair = .name_repair, format = format)",
-            "3. set_readxl_names(read_fun(path = enc2native(normalizePath(path)), \n .     sheet_i = sheet, limits = limits, shim = shim, col_names = col_names, \n .     col_types = col_types, na = na, trim_ws = trim_ws, guess_max = guess_max, \n .     progress = progress), .name_repair = .name_repair)",
-            "4. tibble::as_tibble(l, .name_repair = .name_repair)",
-            "5. read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet, \n .     limits = limits, shim = shim, col_names = col_names, col_types = col_types, \n .     na = na, trim_ws = trim_ws, guess_max = guess_max, progress = progress)"
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "New names:\n",
+            "* `` -> ...5\n",
+            "\n"
           ]
         }
       ]
