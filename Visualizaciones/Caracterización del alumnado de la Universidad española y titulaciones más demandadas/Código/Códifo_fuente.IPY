@@ -96,10 +96,10 @@
       ],
       "metadata": {
         "id": "GXYIZ5Je-r5H",
-        "outputId": "101d19a6-f252-4092-9328-13dddaf83833",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "98d25e69-b13c-46ae-846b-fd48354be5c7"
       },
       "execution_count": 1,
       "outputs": [
@@ -226,7 +226,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "4d120ceb-682d-451a-86c8-eb927a95575d"
+        "outputId": "d3375ff3-41ee-4932-b388-13d72104f433"
       },
       "execution_count": 2,
       "outputs": [
@@ -271,7 +271,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "71b112c6-a483-4846-837d-11458097d4fb"
+        "outputId": "dfe0c847-0982-4187-ae8f-91abddd31a0c"
       },
       "execution_count": 3,
       "outputs": [
@@ -499,7 +499,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "c3ca639d-f9c6-4f51-bd15-eecad46e4cb5"
+        "outputId": "8d0c70c4-e521-4eac-9d60-4c53bd5bdc51"
       },
       "execution_count": 5,
       "outputs": [
@@ -677,7 +677,7 @@
           "height": 286
         },
         "id": "WDUQuy13bpZY",
-        "outputId": "0ea3e11f-dae8-48f9-97b6-9fbf2bc9afda"
+        "outputId": "4a83b5ea-cd94-4767-d487-b0d8c845d235"
       },
       "execution_count": 11,
       "outputs": [
@@ -771,7 +771,7 @@
           "height": 295
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "a19f2f4b-e567-4e3d-e61e-42c6d6285df8"
+        "outputId": "060daa3a-5237-4b50-bb5f-7e876d3db2de"
       },
       "execution_count": 12,
       "outputs": [
@@ -1026,7 +1026,7 @@
           "height": 52
         },
         "id": "qYIGWkYlfcE9",
-        "outputId": "68da3e42-c920-4ab8-dcea-47570d4a1d45"
+        "outputId": "49defb57-cd0a-4072-e8cd-e2d6b2a98433"
       },
       "execution_count": 15,
       "outputs": [
@@ -1075,7 +1075,7 @@
           "height": 52
         },
         "id": "jvoFhUMghtwE",
-        "outputId": "2d3c3330-ca31-4311-fbbb-0c387e7c9b21"
+        "outputId": "907c49a6-c778-4ae1-f02a-531c7648317b"
       },
       "execution_count": 16,
       "outputs": [
@@ -1170,7 +1170,7 @@
           "height": 902
         },
         "id": "uK79txHud-GS",
-        "outputId": "6c2d7a7a-ab21-46c7-8983-0206536520fe"
+        "outputId": "19c48112-6680-44f9-d2ec-b9607a12bc05"
       },
       "execution_count": 18,
       "outputs": [
@@ -1254,7 +1254,7 @@
           "height": 763
         },
         "id": "N_q_9zbXmf2U",
-        "outputId": "c5e6bb14-bb28-48d2-9925-f0cf818eb15c"
+        "outputId": "78c4af8a-8034-4bb6-f0d2-d8b560b807e3"
       },
       "execution_count": 19,
       "outputs": [
@@ -1330,7 +1330,7 @@
           "height": 763
         },
         "id": "QzAdf07KmiUj",
-        "outputId": "8e9383d7-363d-4644-88b3-448348bd4b20"
+        "outputId": "3d9f1c2f-d105-4a89-e992-f4bc1b97109e"
       },
       "execution_count": 20,
       "outputs": [
@@ -1445,13 +1445,36 @@
         "      filter(Formacion == \"Grado\") %>%\n",
         "      summarise(sum(Matriculaciones))\n",
         "\n",
-        "Matriculaciones_CS <- cbind(Matriculaciones_CS_Grado, Matriculaciones_CS_Master[3], Matriculaciones_CS_Doc[3])\n"
+        "Matriculaciones_CS <- cbind(Matriculaciones_CS_Grado, Matriculaciones_CS_Master[3], Matriculaciones_CS_Doc[3])\n",
+        "names(Matriculaciones_CS) <- c(\"Curso\", \"Sexo\", \"Grado\", \"Master\", \"Doctorado\")\n"
       ],
       "metadata": {
-        "id": "_gevbYDEciKX"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_gevbYDEciKX",
+        "outputId": "02ba7871-f7e6-421c-9540-eb9e2d9a9338"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Curso'. You can override using the\n",
+            "`.groups` argument.\n",
+            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Curso'. You can override using the\n",
+            "`.groups` argument.\n",
+            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Curso'. You can override using the\n",
+            "`.groups` argument.\n",
+            "New names:\n",
+            "* `sum(Matriculaciones)` -> `sum(Matriculaciones)...3`\n",
+            "* `sum(Matriculaciones)` -> `sum(Matriculaciones)...4`\n",
+            "* `sum(Matriculaciones)` -> `sum(Matriculaciones)...5`\n",
+            "\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -1494,10 +1517,25 @@
         "      summarise(sum(Matriculados))"
       ],
       "metadata": {
-        "id": "STRV8v_6fDD4"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "STRV8v_6fDD4",
+        "outputId": "e2b27c4f-5e65-44f8-8718-66f663c130bd"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Nacionalidad'. You can override using the\n",
+            "`.groups` argument.\n",
+            "\u001b[1m\u001b[22m`summarise()` has grouped output by 'Edad'. You can override using the\n",
+            "`.groups` argument.\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -1527,7 +1565,7 @@
       "metadata": {
         "id": "rXsk9yxnp8SY"
       },
-      "execution_count": 22,
+      "execution_count": 28,
       "outputs": []
     },
     {
@@ -1564,7 +1602,7 @@
       "metadata": {
         "id": "BCwkfzknth2I"
       },
-      "execution_count": 23,
+      "execution_count": 24,
       "outputs": []
     },
     {
