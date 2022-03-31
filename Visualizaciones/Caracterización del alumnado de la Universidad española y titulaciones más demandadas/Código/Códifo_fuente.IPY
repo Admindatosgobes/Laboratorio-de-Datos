@@ -1554,7 +1554,7 @@
       "cell_type": "markdown",
       "source": [
         "## 11. Guardar las tablas de trabajo \n",
-        "Una vez que tenemos las tablas de trabajo con las variables de interés para los análisis posteriores y las visualizaciones, procederemos a guardarlos como un archivo de datos en formato CSV para posteriormente poder realizar otros análisis estadísticos o utilizarlos en otras herramientas de procesado y visualización de datos. Es importante utilizar un codificación UTF-8 para que los caracteres especiales sean identificados de manera correcta por cualquier herramienta."
+        "Una vez que tenemos las tablas de trabajo con las variables de interés preparadas para realizar las visualizaciones previstas, procedemos a guardarlas como archivos de datos en formato XLSX de Excel para su posterior uso con otras herramientas. Podríamos haber guardado los datos en cualquier otro formato, como CSV o JSON, pero eso lo veremos en otros ejemplos. En cualquier caso, en el momento de guardar datos siempre es importante **utilizar codificación UTF-8** para evitar que los caracteres especiales, como las tildes o la letra 'ñ', sean identificados de manera incorrecta por otras herramientas."
       ],
       "metadata": {
         "id": "zK_D9eggo9vI"
@@ -1585,17 +1585,13 @@
       "cell_type": "code",
       "source": [
         "# Guardamos las diferentes agregaciones antes realizadas\n",
-        "    # Tablas de Matriculaciones por curso y sexo de Doctorado, Master y Grado\n",
+        "    # Tabla de Matriculaciones por curso y sexo de Doctorado, Master y Grado\n",
         "write_xlsx(Matriculaciones_CS, \n",
         "          \"/content/sample_data/Matriculaciones_CS.xlsx\")\n",
         "\n",
-        "    # Tabla de Matriculaciones de Grado por rama de enseñanza para el curso 2020-2021\n",
-        "      # Hombres \n",
-        "write_xlsx(Matriculaciones_RH_Grado, \n",
-        "          \"/content/sample_data/Matriculaciones_RH_Grado.xlsx\")\n",
-        "      # Mujeres\n",
-        "write_xlsx(Matriculaciones_RM_Grado, \n",
-        "          \"/content/sample_data/Matriculaciones_RM_Grado.xlsx\")\n",
+        "    # Tabla de Matriculaciones de Grado por rama de enseñanza y sexo para el curso 2020-2021\n",
+        "write_xlsx(Matriculaciones_Rama_Grado, \n",
+        "          \"/content/sample_data/Matriculaciones_Rama_Grado.xlsx\")\n",
         "\n",
         "    # Tabla de Matriculaciones de Grado por nacionalidad y sexo para el curso 2020-2021\n",
         "write_xlsx(Matriculaciones_NS_Grado, \n",
@@ -1621,9 +1617,9 @@
     {
       "cell_type": "markdown",
       "source": [
-        "Una vez generados los archivos, en el menú desplegable de la izquierda, en la sección \"Archivos\", en el mismo lugar en el cual hemos subido nuestros archivos, encontraremos los archivos que acabamos de guardar. Desde este mismo menú, los ficheros pueden ser descargados. \n",
+        "Una vez generados los archivos, en el menú desplegable de la izquierda de esta pantalla, en la sección \"Archivos\" (el icono de la carpeta), encontraremos los archivos que acabamos de guardar dentro de la carpeta \"sample_data\". Usando el menú contextual, los ficheros pueden ser descargados. \n",
         "\n",
-        "Aun así, estos conjuntos de datos también se pueden descargar desde la [página de GitHub de datos.gob.es](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones).\n"
+        "No obstante, dispones de estos conjuntos de datos preprocesados en la [página de esta visualización que tienes en el GitHub de datos.gob.es](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones).\n"
       ],
       "metadata": {
         "id": "r4cSoKSdEOas"
