@@ -32,7 +32,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "Este notebook explica el trabajo de preprocesamiento y preparación de los datos para implementar una visualización que explique la **caracterización del alumnado de la Universidad española y las titulaciones más demandadas**. Para llevar a cabo esta tarea de manera práctica hemos escogido conjuntos de datos que contienen información relevante sobre el alumnado de la universidad española a lo largo de los últimos años. A partir de estos datos observaremos las características que presenta el alumnado de la universidad española y cuáles son los estudios más demandados. Pero entes tenemos que realizar una serie de tareas para preparar los datos que posteriormente utilizaremos. A conintuación, te explicamos cómo lo hacemos."
+        "Este notebook explica el trabajo de preprocesamiento y preparación de los datos para implementar una visualización que explique la **caracterización del alumnado de la Universidad española y las titulaciones más demandadas**. Para llevar a cabo esta tarea de manera práctica hemos escogido conjuntos de datos que contienen información relevante sobre el alumnado de la universidad española a lo largo de los últimos años. A partir de estos datos observaremos las características que presenta el alumnado de la universidad española y cuáles son los estudios más demandados. Pero antes tenemos que realizar una serie de tareas para preparar los datos que posteriormente utilizaremos. A conintuación, te explicamos cómo lo hacemos."
       ],
       "metadata": {
         "id": "eKau823Ypz0-"
@@ -45,21 +45,22 @@
         "\n",
         "\n",
         "1.   Instalación y carga de librerías\n",
-        "2.   Carga de datos\n",
-        "3.   Cambio de nombre a las variables\n",
-        "4.   Creación de tablas de trabajo\n",
-        "5.   Conversión de varias variables en na única con diferentes factores \n",
+        "2.   Carga de archivos de datos de origen\n",
+        "3.   Creación de tablas de trabajo\n",
+        "4.   Ajuste del nombre de algunas variables\n",
+        "5.   Agrupación de varias variables en una única con diferentes factores \n",
         "6.   Transformación de variables \n",
-        "7.   Detección y tratamiento de datos perdidos \n",
-        "8.   Creación de nuevas variables \n",
-        "9.   Resumen de la tabla\n",
-        "10.  Guardar las tablas de trabajo \n",
+        "7.   Detección y tratamiento de datos ausentes (NAs) \n",
+        "8.   Creación de nuevas variables calculadas\n",
+        "9.   Resumen de las tablas transformadas\n",
+        "10.  Preparación de datos para su representación visual\n",
+        "11.  Almacenamiento de archivos con las tablas de datos preprocesados \n",
         "\n",
-        "Una vez que has iniciado sesión con tu cuenta de Gmail, podrás ejecutar cada script o celda de código. Tan sólo debes hacer click en el símbolo que se indica en la imagen siguiente. El resultado de la ejecución aparecerá justo debajo de cada script.\n",
+        "Una vez que has iniciado sesión con tu cuenta de Gmail, podrás **ejecutar cada script o celda de código**. Tan sólo debes hacer click en el símbolo que se indica en la imagen siguiente. El resultado de la ejecución aparecerá justo debajo de cada script.\n",
         "\n",
         "![Imagen ejecución de código](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Ejecucion_codigo.PNG)\n",
         "\n",
-        "También puedes ejecutar todos los scripts pulsando Ctrl+F9 o eligiendo en el menú superior la opción \"Entorno de ejecución\" y seleccionando \"Ejecutar todas\"."
+        "También puedes **ejecutar todos los scripts pulsando Ctrl+F9** o eligiendo en el menú superior la opción \"Entorno de ejecución\" y seleccionando \"Ejecutar todas\"."
       ],
       "metadata": {
         "id": "uoL79g4H26SS"
@@ -69,9 +70,9 @@
       "cell_type": "markdown",
       "source": [
         "## 1. Instalación y carga de librerías\n",
-        "Lo primero que debemos hacer es instalar y cargar las librerías para el pre-procesamiento de los datos. Hay muchas librerías disponibles en R pero unas de las más populares y adecuadas para trabajar con estos conjuntos de datos son [Tidyverse](https://www.tidyverse.org/), [readxl](https://cran.r-project.org/web/packages/readxl/index.html), [writexl](https://cran.r-project.org/web/packages/writexl/index.html) y [httr](https://cran.r-project.org/web/packages/httr/index.html).\n",
+        "Lo primero que debemos hacer es **instalar y cargar las librerías** para el preprocesamiento de los datos. Hay muchas librerías disponibles en R pero unas de las más populares y adecuadas para trabajar con estos conjuntos de datos son [Tidyverse](https://www.tidyverse.org/), [readxl](https://cran.r-project.org/web/packages/readxl/index.html), [writexl](https://cran.r-project.org/web/packages/writexl/index.html) y [httr](https://cran.r-project.org/web/packages/httr/index.html).\n",
         "\n",
-        "*    [Tidyverse](https://www.tidyverse.org/) es un conjunto de librerías (ggplot2, tibble, tidyr, readr, purrr, dplyr, stringr y forcats) diseñadas para la Ciencia de datos que comparten la misma gramática y las mismas estructuras de trabajo.\n",
+        "*    [Tidyverse](https://www.tidyverse.org/) es un paquete R que contiene un conjunto de librerías (ggplot2, tibble, tidyr, readr, purrr, dplyr, stringr y forcats) diseñadas para la Ciencia de datos que comparten la misma gramática y las mismas estructuras de trabajo.\n",
         "*   Las librerías [readxl](https://cran.r-project.org/web/packages/readxl/index.html) y [writexl](https://cran.r-project.org/web/packages/writexl/index.html) permiten la importación y exportación de archivos Excel. \n",
         "*   El paquete [httr](https://cran.r-project.org/web/packages/httr/index.html) es útil para gestionar archivos binarios disponibles en una URL como es el caso de los archivos Excel almacenados en GitHub."
       ],
@@ -101,9 +102,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "5c49d965-f57c-4d2b-85d0-b0c127ca2bc0"
+        "outputId": "c4c541d1-9c52-4c3f-d34f-600c3721c426"
       },
-      "execution_count": 3,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
@@ -143,7 +144,7 @@
       "cell_type": "markdown",
       "source": [
         "## 2. Carga de datos\n",
-        "Ahora procederemos a cargar los conjuntos de datos en nuestro entorno de desarrollo como tablas para explorarlos y realizar algunas tareas básicas de limpieza y procesado de datos. \n",
+        "Ahora procederemos a **cargar los conjuntos de datos** en nuestro entorno de desarrollo como tablas para explorarlos y realizar algunas tareas básicas de limpieza y procesado de datos. \n",
         "\n",
         "Es importante tener en cuenta que aunque los archivos de datos en Excel contienen diferentes hojas, en este ejercicio práctico tan solo trabajaremos con los datos de la primera hoja. En caso de necesitar datos de otras hojas, se debería usar el parámetro que habilita su carga en la llamada a la función read_excel() que se ejecuta en el siguiente script de código.\n",
         "\n",
@@ -156,7 +157,7 @@
         "\n",
         "Veamos ambas opciones:\n",
         "\n",
-        "**Opción 1**: para cargar los archivos en el repositorio temporal de archivos de Google Colab, en primer lugar, generaremos una carpeta llamada **\"Universidad\"** en la cual incluiremos los conjuntos de datos descargados desde GitHub. Una vez generada la carpeta procederemos a subir los conjuntos de datos con los cuales vamos a trabajar tal como se indica en la imagen que se muestra a continuación.\n",
+        "**Opción 1**: para cargar los archivos en el repositorio temporal de archivos de Google Colab, en primer lugar, generaremos una carpeta llamada \"Universidad\" en la cual incluiremos los conjuntos de datos descargados desde GitHub. Si lo prefieres, también podrás subirlos directamente a la capeta \"sample_data\". Una vez generada la carpeta procederemos a subir los conjuntos de datos con los cuales vamos a trabajar tal como se indica en la imagen que se muestra a continuación.\n",
         "&nbsp; \n",
         "\n",
         "&nbsp; \n",
@@ -168,7 +169,7 @@
         "Una vez que tenemos los archivos subidos en Google Colab, debemos integrarlos en nuestro entorno de desarrollo con la función **[read_excel()](https://www.rdocumentation.org/packages/readxl/versions/0.1.1/topics/read_excel)**, donde indicaremos la url donde se encuentra el dataset y en algunos casos el número de fila donde empiezan los datos con el argumento **skip**. \n",
         "\n",
         "\n",
-        "**Opción 2**: como se trata de archivos de datos de un tamaño moderado, podemos  trabajar con el contenido de los mismos directamente en el espacio de trabajo que nos proporciona Google Colab. Al tratarse de archivos binarios (XLSX) almacenados en GitHub, debemos cargarlos utilizando el método GET que proporciona el paquete 'httr'. A continuación tienes el código:"
+        "**Opción 2**: como se trata de archivos de datos de un tamaño moderado, podemos  trabajar con el contenido de los mismos directamente en el **espacio de trabajo que nos proporciona Google Colab**. Al tratarse de archivos binarios (XLSX) almacenados en GitHub, debemos cargarlos utilizando el método GET que proporciona el paquete 'httr'. A continuación tienes el código:"
       ],
       "metadata": {
         "id": "BHki7uOVEeuy"
@@ -230,9 +231,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "5f52e252-75ce-4567-fd7e-d8ff4dce48db"
+        "outputId": "2fd48546-729d-4081-f43e-cfb434ec08c5"
       },
-      "execution_count": 107,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
@@ -275,9 +276,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "ba2b266c-c027-4d2b-99b9-4f19090e7f86"
+        "outputId": "19a14889-3b41-4e09-9adb-31167b1d3383"
       },
-      "execution_count": 108,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
@@ -471,7 +472,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 109,
+      "execution_count": 4,
       "outputs": []
     },
     {
@@ -504,9 +505,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "46e71ff1-c7f4-4d3f-d2f5-1e803ec0f16d"
+        "outputId": "ca113e24-c28d-418d-dde7-8b56684eeb43"
       },
-      "execution_count": 110,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "stream",
@@ -565,7 +566,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": 111,
+      "execution_count": 6,
       "outputs": []
     },
     {
@@ -596,9 +597,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "9cbf42b2-3aca-4888-f220-8be133444ade"
+        "outputId": "229502ff-1011-4c3f-b705-453c6521409e"
       },
-      "execution_count": 112,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "stream",
@@ -721,9 +722,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "24a8e217-a326-44b1-f495-d7d7650d6ef2"
+        "outputId": "2becc3cb-623f-442b-f7eb-530dea9aaf43"
       },
-      "execution_count": 113,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "stream",
@@ -816,9 +817,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 555
         },
-        "outputId": "359b9d49-f952-4952-e24b-666913cf8139"
+        "outputId": "bc0e150a-3ed3-49bb-d389-bd3e62a93a89"
       },
-      "execution_count": 114,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "display_data",
@@ -939,7 +940,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": 115,
+      "execution_count": 10,
       "outputs": []
     },
     {
@@ -955,9 +956,9 @@
           "height": 555
         },
         "id": "WDUQuy13bpZY",
-        "outputId": "71e2bbc1-8180-4697-ebab-a6ed263603b5"
+        "outputId": "e6d81cec-931c-4b4e-bc1e-375535c8a015"
       },
-      "execution_count": 99,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1094,12 +1095,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 277
+          "height": 295
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "9185a151-620d-430c-9284-633a7a2dede9"
+        "outputId": "703d80ff-6a97-43be-ba7a-17bad8f87a72"
       },
-      "execution_count": 116,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
@@ -1298,7 +1299,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": 117,
+      "execution_count": 13,
       "outputs": []
     },
     {
@@ -1319,7 +1320,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": 118,
+      "execution_count": 14,
       "outputs": []
     },
     {
@@ -1353,9 +1354,9 @@
           "height": 52
         },
         "id": "qYIGWkYlfcE9",
-        "outputId": "9214ddb4-f318-4ab8-c58c-0556fce42826"
+        "outputId": "f946301c-5552-44d1-a8d9-16bef729f17c"
       },
-      "execution_count": 119,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1402,9 +1403,9 @@
           "height": 52
         },
         "id": "jvoFhUMghtwE",
-        "outputId": "e59d1f08-2519-4f5e-f1d8-78cb5b55311f"
+        "outputId": "7e77ab84-a3d6-477c-ab49-0a97268961b7"
       },
-      "execution_count": 120,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1471,7 +1472,7 @@
       "metadata": {
         "id": "-Cl6KPQzk--3"
       },
-      "execution_count": null,
+      "execution_count": 17,
       "outputs": []
     },
     {
@@ -1497,9 +1498,9 @@
           "height": 902
         },
         "id": "uK79txHud-GS",
-        "outputId": "8f99b8eb-e9c2-4dc7-fbe4-a68dfeacbd39"
+        "outputId": "61b2b7dc-1a62-4f39-daca-a9b447d7767c"
       },
-      "execution_count": null,
+      "execution_count": 18,
       "outputs": [
         {
           "output_type": "stream",
@@ -1581,9 +1582,9 @@
           "height": 763
         },
         "id": "N_q_9zbXmf2U",
-        "outputId": "a5366921-9670-4522-f731-aaa63e92c7ba"
+        "outputId": "a3b8d9f1-4c38-4ec9-d373-561a38f3ce9e"
       },
-      "execution_count": null,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "stream",
@@ -1593,13 +1594,13 @@
             " $ Curso            : Factor w/ 8 levels \"2015-2016\",\"2016-2017\",..: 6 6 6 6 6 6 6 6 6 6 ...\n",
             " $ Rama de enseñanza: Factor w/ 11 levels \"2015-2016\",\"2016-2017\",..: 10 10 10 10 10 10 10 10 10 10 ...\n",
             " $ Tipo universidad : Factor w/ 7 levels \"Artes y Humanidades\",..: 7 7 7 7 7 7 7 7 7 7 ...\n",
-            " $ Modalidad        : Factor w/ 3 levels \"Especial\",\"No Presencial\",..: 3 3 3 3 2 2 2 2 1 1 ...\n",
+            " $ Modalidad        : Factor w/ 3 levels \"Especial\",\"No Presencial\",..: 3 3 3 3 3 3 3 3 3 3 ...\n",
             " $ Tipo centro      : Factor w/ 1 level \"Total\": 1 1 1 1 1 1 1 1 1 1 ...\n",
             " $ Sexo             : Factor w/ 2 levels \"Hombres\",\"Mujeres\": 1 1 1 1 1 1 1 1 1 1 ...\n",
-            " $ Edad             : Factor w/ 8 levels \"De 18 a 21 años\",..: 8 3 5 7 8 3 5 7 8 3 ...\n",
+            " $ Edad             : Factor w/ 8 levels \"De 18 a 21 años\",..: 8 8 8 8 8 8 8 8 8 8 ...\n",
             " $ Formacion        : Factor w/ 3 levels \"Doctorado\",\"Grado\",..: 1 1 1 1 1 1 1 1 1 1 ...\n",
-            " $ CCAA             : Factor w/ 18 levels \"Andalucía\",\"Aragón\",..: 1 1 1 1 1 1 1 1 1 1 ...\n",
-            " $ Matriculaciones  : num [1:69120] 40 440 681 939 0 0 0 0 1 6 ...\n"
+            " $ CCAA             : Factor w/ 18 levels \"Andalucía\",\"Aragón\",..: 1 2 3 4 5 6 7 8 9 10 ...\n",
+            " $ Matriculaciones  : num [1:69120] 40 10 2 3 6 1 9 16 23 30 ...\n"
           ]
         },
         {
@@ -1657,9 +1658,9 @@
           "height": 763
         },
         "id": "QzAdf07KmiUj",
-        "outputId": "54352f68-0a0a-403d-8b6e-0561829e0522"
+        "outputId": "5e2e2a6c-f3ea-4872-823f-6e73c23707e0"
       },
-      "execution_count": null,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
@@ -1667,15 +1668,15 @@
           "text": [
             "tibble [138,240 × 10] (S3: tbl_df/tbl/data.frame)\n",
             " $ Curso            : Factor w/ 6 levels \"2015-2016\",\"2016-2017\",..: 6 6 6 6 6 6 6 6 6 6 ...\n",
-            " $ Rama de enseñanza: Factor w/ 5 levels \"Artes y Humanidades\",..: 4 4 4 4 4 4 4 4 5 5 ...\n",
+            " $ Rama de enseñanza: Factor w/ 5 levels \"Artes y Humanidades\",..: 4 4 4 4 4 4 4 4 4 4 ...\n",
             " $ Tipo universidad : Factor w/ 2 levels \"Privada\",\"Pública\": 2 2 2 2 2 2 2 2 2 2 ...\n",
             " $ Modalidad        : Factor w/ 3 levels \"Especial\",\"No Presencial\",..: 3 3 3 3 3 3 3 3 3 3 ...\n",
             " $ Tipo centro      : Factor w/ 1 level \"Total\": 1 1 1 1 1 1 1 1 1 1 ...\n",
             " $ Sexo             : Factor w/ 2 levels \"Hombres\",\"Mujeres\": 2 2 2 2 2 2 2 2 2 2 ...\n",
-            " $ Nacionalidad     : Factor w/ 8 levels \"América Latina y Caribe\",..: 4 8 7 3 1 5 6 2 4 8 ...\n",
+            " $ Nacionalidad     : Factor w/ 8 levels \"América Latina y Caribe\",..: 4 4 4 4 4 4 4 4 4 4 ...\n",
             " $ Formacion        : Factor w/ 3 levels \"Doctorado\",\"Grado\",..: 1 1 1 1 1 1 1 1 1 1 ...\n",
-            " $ CCAA             : Factor w/ 18 levels \"Andalucía\",\"Aragón\",..: 1 1 1 1 1 1 1 1 1 1 ...\n",
-            " $ Matriculaciones  : num [1:138240] 1357 223 20 12 622 ...\n"
+            " $ CCAA             : Factor w/ 18 levels \"Andalucía\",\"Aragón\",..: 1 2 3 4 5 6 7 8 9 10 ...\n",
+            " $ Matriculaciones  : num [1:138240] 1357 212 154 82 164 ...\n"
           ]
         },
         {
@@ -1728,10 +1729,10 @@
         "\n",
         "- La tabla de “Titulaciones” con 24528 celdas:\n",
         "\t- está compuesta por 10 variables: 5 categóricas y 5 numéricas,\n",
-        "\t- o\tlos datos que se recogen son desde el curso 2015-2016 hasta 2020-2021.\n",
+        "\t- los datos que se recogen son desde el curso 2015-2016 hasta 2020-2021.\n",
         "- Las tablas de “Matriculaciones_edad” con 69.120 celdas y “Matriculaciones_nacionalidad\" con 51.820 celdas:\n",
-        "\t- o\testán compuestas por 10 variables cada una: 9 categóricas y 1 numérica,\n",
-        "\t- o\tlos datos que se recogen son desde el curso 2015-2016 hasta 2020-2021.\n"
+        "\t- están compuestas por 10 variables cada una: 9 categóricas y 1 numérica,\n",
+        "\t- los datos que se recogen son desde el curso 2015-2016 hasta 2020-2021.\n"
       ],
       "metadata": {
         "id": "aZ7V05l6fPQk"
@@ -1740,8 +1741,8 @@
     {
       "cell_type": "markdown",
       "source": [
-        "## 10. Agregaciones de datos\n",
-        "Como la herramienta que vamos a utilizar, Datawrapper, es muy sencilla, debemos realizar unas pequeñas agregaciones para poder representar los datos en diferentes gráficos. Para ello utilizaremos la función [group_by()](https://dplyr.tidyverse.org/reference/group_by.html) que agrupa los datos en función de una o varias variables categóricas. "
+        "## 10. Preparación de datos para su representación visual\n",
+        "Como último paso, vamos a dejar las tablas de datos preparadas para alimentar la herramienta que vamos a utilizar, Datawrapper. Para ello, debemos realizar varias **agregaciones para poder representar adecuadamente los datos en los diferentes tipos de gráficos previstos**. Para ello utilizaremos la función [group_by()](https://dplyr.tidyverse.org/reference/group_by.html) que agrupa los datos en función de una o varias variables categóricas. "
       ],
       "metadata": {
         "id": "qV-BN0eveQFU"
@@ -1780,9 +1781,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "_gevbYDEciKX",
-        "outputId": "7236ddd1-2414-4d9f-f64b-23c93f6ce4e1"
+        "outputId": "da8d0473-64c5-4e10-99bd-fae50e4dc6e3"
       },
-      "execution_count": null,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
@@ -1824,7 +1825,7 @@
       "metadata": {
         "id": "GTs4mcRK303k"
       },
-      "execution_count": null,
+      "execution_count": 22,
       "outputs": []
     },
     {
@@ -1861,9 +1862,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "STRV8v_6fDD4",
-        "outputId": "ba62eb5f-ae2a-4608-f388-1945ec910931"
+        "outputId": "8feece0c-7836-486c-dcdc-746a101b4644"
       },
-      "execution_count": null,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
@@ -1881,7 +1882,7 @@
       "cell_type": "markdown",
       "source": [
         "## 11. Guardar las tablas de trabajo \n",
-        "Una vez que tenemos las tablas de trabajo con las variables de interés preparadas para realizar las visualizaciones previstas, procedemos a guardarlas como archivos de datos en formato XLSX de Excel para su posterior uso con otras herramientas. Podríamos haber guardado los datos en cualquier otro formato, como CSV o JSON, pero eso lo veremos en otros ejemplos. En cualquier caso, en el momento de guardar datos siempre es importante **utilizar codificación UTF-8** para evitar que los caracteres especiales, como las tildes o la letra 'ñ', sean identificados de manera incorrecta por otras herramientas."
+        "Una vez que tenemos las tablas de trabajo con las variables de interés preparadas para realizar las visualizaciones previstas, procedemos a **guardarlas como archivos de datos en formato XLSX** de Excel para su posterior uso con otras herramientas. Podríamos haber guardado los datos en cualquier otro formato, como CSV o JSON, pero eso lo veremos en otros ejemplos. En cualquier caso, en el momento de guardar datos siempre es importante **utilizar codificación UTF-8** para evitar que los caracteres especiales, como las tildes o la letra 'ñ', sean identificados de manera incorrecta por otras herramientas."
       ],
       "metadata": {
         "id": "zK_D9eggo9vI"
@@ -1905,7 +1906,7 @@
       "metadata": {
         "id": "rXsk9yxnp8SY"
       },
-      "execution_count": null,
+      "execution_count": 24,
       "outputs": []
     },
     {
@@ -1938,7 +1939,7 @@
       "metadata": {
         "id": "BCwkfzknth2I"
       },
-      "execution_count": null,
+      "execution_count": 25,
       "outputs": []
     },
     {
