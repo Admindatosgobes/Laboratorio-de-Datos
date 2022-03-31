@@ -230,9 +230,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "8bfb78d7-4367-4ad7-a72c-889a6e395b6e"
+        "outputId": "5f52e252-75ce-4567-fd7e-d8ff4dce48db"
       },
-      "execution_count": 90,
+      "execution_count": 107,
       "outputs": [
         {
           "output_type": "stream",
@@ -275,9 +275,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "5f56073e-28f3-4aae-fc48-6461d20420b0"
+        "outputId": "ba2b266c-c027-4d2b-99b9-4f19090e7f86"
       },
-      "execution_count": 91,
+      "execution_count": 108,
       "outputs": [
         {
           "output_type": "stream",
@@ -471,7 +471,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 92,
+      "execution_count": 109,
       "outputs": []
     },
     {
@@ -504,9 +504,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "09263151-5d82-4290-b759-91cb5af8dea8"
+        "outputId": "46e71ff1-c7f4-4d3f-d2f5-1e803ec0f16d"
       },
-      "execution_count": 93,
+      "execution_count": 110,
       "outputs": [
         {
           "output_type": "stream",
@@ -536,11 +536,11 @@
       "cell_type": "markdown",
       "source": [
         "## 4. Creación de las tablas de trabajo \n",
-        "Una vez cargados todos los conjuntos de datos de origen sobre tablas en el entorno de desarrollo y las columnas están nombradas correctamente, debemos unificarlas por cada una de las características relacionadas con el alumnado universitario: matriculaciones en función de la edad, matriculaciones en función de la nacionalidad y titulaciones.\n",
+        "Una vez cargados todos los conjuntos de datos de origen sobre tablas en el entorno de desarrollo y las columnas están nombradas correctamente, debemos unificarlas por cada una de las características relacionadas con el alumnado universitario: **matriculaciones en función de la edad, matriculaciones en función de la nacionalidad y titulaciones**. Estas tres tablas serán la base para realizar las distintas visualizaciones que tenemos previstas.\n",
         "\n",
-        "En este caso, tenemos que generar dos tablas, una de las matriculaciones por edad y otra de las matriculaciones por nacionalidad. \n",
+        "Para ello, además de la tabla titulaciones tenemos que generar dos nuevas tablas: una que aglutinará las matriculaciones por edad y otra las matriculaciones por nacionalidad. \n",
         "\n",
-        "En primer lugar, para poder identificar a que nivel académico pertenece cada una de las celdas, grado, master o doctorado, debemos generar una columna que nos indique ese valor en cada una de las tablas."
+        "En primer lugar, para poder identificar a que nivel académico pertenece cada una de las celdas: grado, master o doctorado, debemos generar una columna que nos indique ese valor en cada una de las tablas."
       ],
       "metadata": {
         "id": "aX9Ss61w87p7"
@@ -565,7 +565,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": 94,
+      "execution_count": 111,
       "outputs": []
     },
     {
@@ -596,9 +596,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "234b0eae-b26c-48d8-ff63-be887baa97d9"
+        "outputId": "9cbf42b2-3aca-4888-f220-8be133444ade"
       },
-      "execution_count": 95,
+      "execution_count": 112,
       "outputs": [
         {
           "output_type": "stream",
@@ -721,9 +721,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "c50840fa-c6c0-418d-fdb5-a06039637bb6"
+        "outputId": "24a8e217-a326-44b1-f495-d7d7650d6ef2"
       },
-      "execution_count": 96,
+      "execution_count": 113,
       "outputs": [
         {
           "output_type": "stream",
@@ -816,9 +816,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 555
         },
-        "outputId": "46c6a91c-5ea8-45c7-bdc7-135a40961c9e"
+        "outputId": "359b9d49-f952-4952-e24b-666913cf8139"
       },
-      "execution_count": 97,
+      "execution_count": 114,
       "outputs": [
         {
           "output_type": "display_data",
@@ -915,7 +915,7 @@
       "cell_type": "markdown",
       "source": [
         "## 5. Conversión de varias variables en una única con diferentes factores \n",
-        "En el caso de las dos tablas de matriculaciones que acabamos de crear (Matriculaciones_edad y Matriculaciones_nacionalidad), tenemos el dato de matriculaciones individualizado para cada comunidad autónoma (CCAA) y además cada CCAA es una columna. Para poder realizar una comparativa, en este caso, entre comunidades, vamos a **generar dos nuevas variables**: una denominada \"CCAA\" que abarque todas las columnas de las comunidades y otra \"Matriculaciones\" cuyos valores serán el número de matriculaciones por cada una de las CCAA. Para ello recurriremos a la función [pivot_longer()](https://tidyr.tidyverse.org/reference/pivot_longer.html) que permite \"resumir\" la tabla aumentando el número de filas y disminuyendo el número de columnas. "
+        "En el caso de las dos tablas de matriculaciones que acabamos de crear (Matriculaciones_edad y Matriculaciones_nacionalidad), tenemos el dato de matriculaciones individualizado para cada comunidad autónoma (CCAA) y además cada CCAA es una columna. Para poder realizar una comparativa, en este caso, entre comunidades, vamos a **generar dos nuevas variables**: una denominada \"CCAA\" de tipo categórico que abarque todas las columnas de las comunidades cuyos valores serán los factores o categorías y otra \"Matriculaciones\" de tipo numérico cuyos valores serán el número de matriculaciones por cada uno de los factores. Para ello recurriremos a la función [pivot_longer()](https://tidyr.tidyverse.org/reference/pivot_longer.html) que permite \"resumir\" la tabla aumentando el número de filas y disminuyendo el número de columnas. "
       ],
       "metadata": {
         "id": "oyzelp6rTkmN"
@@ -939,7 +939,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": 98,
+      "execution_count": 115,
       "outputs": []
     },
     {
@@ -1097,9 +1097,9 @@
           "height": 277
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "6014724b-1237-4174-fc93-9f4de929dcd9"
+        "outputId": "9185a151-620d-430c-9284-633a7a2dede9"
       },
-      "execution_count": 100,
+      "execution_count": 116,
       "outputs": [
         {
           "output_type": "stream",
@@ -1281,15 +1281,6 @@
       ]
     },
     {
-      "cell_type": "markdown",
-      "source": [
-        "Una de las salidas obtenidas nos indica que tenemos valores \"NA\" que de trataremos en la siguiente tarea."
-      ],
-      "metadata": {
-        "id": "UuzRukPUso0G"
-      }
-    },
-    {
       "cell_type": "code",
       "source": [
         "# Transformacion de variables en la tabla \"Matriculaciones_edad\". \n",
@@ -1307,7 +1298,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": 103,
+      "execution_count": 117,
       "outputs": []
     },
     {
@@ -1328,15 +1319,16 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": 104,
+      "execution_count": 118,
       "outputs": []
     },
     {
       "cell_type": "markdown",
       "source": [
         "## 7. Detección y tratamiento de datos perdidos\n",
-        "La detección y tratamiento de datos perdidos (NAs) es esencial para poder procesar de manera adecuada las variables que contiene la tabla, ya que la ausencia de datos puede ocasionar problemas a la hora de realizar agregaciones, gráficos o análisis estadísticos. \n",
-        "A continuación analizaremos la ausencia de datos (detección de NAs) en las tablas de trabajo. "
+        "La **detección y tratamiento de datos ausentes (NAs)** es esencial para poder procesar de manera adecuada las variables que contiene la tabla, ya que la ausencia de datos puede ocasionar problemas a la hora de realizar agregaciones, gráficos o análisis estadísticos. \n",
+        "\n",
+        "A continuación, se realiza en un primer paso la detección de NAs y en un segundo paso, su tratamiento. Afortunadamente, el organismo publicador de los datos establece que los NAs que aparecen en la taba corresponden al valor 0, por lo que sustituimos cada uno de los NAs por 0."
       ],
       "metadata": {
         "id": "uUr5t191eyHf"
@@ -1361,9 +1353,9 @@
           "height": 52
         },
         "id": "qYIGWkYlfcE9",
-        "outputId": "882c01fe-a226-4af4-dda7-56e65bb199df"
+        "outputId": "9214ddb4-f318-4ab8-c58c-0556fce42826"
       },
-      "execution_count": null,
+      "execution_count": 119,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1410,9 +1402,9 @@
           "height": 52
         },
         "id": "jvoFhUMghtwE",
-        "outputId": "8683dc3f-3934-496b-84c9-784c85b71f9b"
+        "outputId": "e59d1f08-2519-4f5e-f1d8-78cb5b55311f"
       },
-      "execution_count": null,
+      "execution_count": 120,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1448,7 +1440,7 @@
       "cell_type": "markdown",
       "source": [
         "## 8. Creación de nuevas variables\n",
-        "Una acción muy común en el análisis de datos, es la creación de nuevas variables a partir de las variables que se encuentran en la tabla, ya que en ocasiones interesa trabajar con datos calculados (por ejemplo, la suma o el porcentaje de diferentes variables), en lugar de los datos de origen. En este caso vamos a calcular el porcentaje y el número de hombres matriculados por titulación y el número de mujeres matriculadas por titulación. Para ello utilizaremos el total de matriculaciones y el porcentaje de mujeres.\n",
+        "Una acción muy común en el análisis de datos, es la **creación de nuevas variables** a partir de las variables existentes en la tabla, ya que en ocasiones interesa trabajar con datos calculados (por ejemplo, la suma o el porcentaje de diferentes variables), en lugar de los datos de origen. En este caso vamos a calcular el porcentaje y el número de hombres matriculados por titulación y el número de mujeres matriculadas por titulación. Para ello utilizaremos el total de matriculaciones y el porcentaje de mujeres.\n",
         "\n",
         "Antes de proceder a crear las nuevas variables, debemos corregir un error muy común en la introducción de datos en tablas de Excel, el uso del formato de porcentaje que R lo traduce en una proporción (valores de 0 a 1). Para usar los datos como porcentajes, procederemos a multiplicar los valores de la variable por 100."
       ],
@@ -1474,7 +1466,7 @@
         "\n",
         "    # Numero de hombres por titulacion \n",
         "Titulaciones <- Titulaciones %>% \n",
-        "    mutate(Hombres = Matriculados - Mujeres)"
+        "    mutate(Hombres = Matriculados - Mujeres)\n"
       ],
       "metadata": {
         "id": "-Cl6KPQzk--3"
@@ -1486,7 +1478,7 @@
       "cell_type": "markdown",
       "source": [
         "## 9. Resumen de la tabla\n",
-        "Veamos que variables y estructura presentan nuestras tablas de trabajo: \n"
+        "Veamos que variables y estructura presentan nuestras tablas de trabajo tras las transformaciones realizadas: \n"
       ],
       "metadata": {
         "id": "_ben6PsAdIfB"
