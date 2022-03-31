@@ -1724,7 +1724,7 @@
       "cell_type": "markdown",
       "source": [
         "\n",
-        "Las principales características que presentan estos conjuntos de datos son:\n",
+        "Las **principales características** que presentan estas tablas son:\n",
         "\n",
         "- La tabla de “Titulaciones” con 24528 celdas:\n",
         "\t- está compuesta por 10 variables: 5 categóricas y 5 numéricas,\n",
