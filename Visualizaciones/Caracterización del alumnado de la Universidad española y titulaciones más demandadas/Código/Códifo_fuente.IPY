@@ -101,7 +101,7 @@
         },
         "outputId": "2a31848e-563e-4f1e-f0a7-a002f7c32540"
       },
-      "execution_count": 1,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -228,7 +228,7 @@
         "id": "m7XiImgA-rsW",
         "outputId": "20920d3c-5069-44c8-d4ff-cd2c618ccd90"
       },
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -273,7 +273,7 @@
         "id": "tMRcMK6LOha3",
         "outputId": "fe519445-37ad-475e-8457-3399a8aa0266"
       },
-      "execution_count": 3,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -467,7 +467,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 4,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -501,7 +501,7 @@
         "id": "9RlGF4FdEORr",
         "outputId": "1a8acd55-4ada-44ad-96e7-52dc75285c18"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -552,7 +552,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": 6,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -577,7 +577,7 @@
       "metadata": {
         "id": "mzy2B-LHXVuB"
       },
-      "execution_count": 7,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -607,7 +607,7 @@
       "metadata": {
         "id": "uiZLzwGz89Ea"
       },
-      "execution_count": 8,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -633,7 +633,7 @@
       "metadata": {
         "id": "QuJTz4tnS4nS"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -662,7 +662,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": 10,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -679,7 +679,7 @@
         "id": "WDUQuy13bpZY",
         "outputId": "10eae61d-c8b2-4c0b-e828-4e3352c1b552"
       },
-      "execution_count": 11,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -773,7 +773,7 @@
         "id": "DU7xDyNt8z8O",
         "outputId": "444f2013-2fa8-4b46-c9e0-d50e6ca11d24"
       },
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -972,7 +972,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": 13,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -993,7 +993,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": 14,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1028,7 +1028,7 @@
         "id": "qYIGWkYlfcE9",
         "outputId": "8239b172-563c-4a66-9866-5154fd7e31a8"
       },
-      "execution_count": 15,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1077,7 +1077,7 @@
         "id": "jvoFhUMghtwE",
         "outputId": "bbc1865c-6604-4839-e739-bbcd0dd6b146"
       },
-      "execution_count": 16,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1144,7 +1144,7 @@
       "metadata": {
         "id": "-Cl6KPQzk--3"
       },
-      "execution_count": 17,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1172,7 +1172,7 @@
         "id": "uK79txHud-GS",
         "outputId": "66737bd4-9d25-41bf-dabe-0662067d118f"
       },
-      "execution_count": 18,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1256,7 +1256,7 @@
         "id": "N_q_9zbXmf2U",
         "outputId": "15fb918f-ff49-4f69-aeb5-f9ebd5537c7c"
       },
-      "execution_count": 19,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1332,7 +1332,7 @@
         "id": "QzAdf07KmiUj",
         "outputId": "56c61c92-33a1-4a9e-e895-8d59ab017124"
       },
-      "execution_count": 20,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1455,7 +1455,7 @@
         "id": "_gevbYDEciKX",
         "outputId": "a3c9d0cf-d856-4a73-c80f-1e5cceea5f59"
       },
-      "execution_count": 21,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1479,9 +1479,8 @@
     {
       "cell_type": "code",
       "source": [
-        "# A continuación, abordamos el resto de agregaciones:\n",
+        "# Ahora realizamos la agregación por rama de enseñanza fitrando por curso, formación y sexo en la tabla Matriculaciones_edad\n",
         "\n",
-        "# Agregacion por rama de enseñanza fitrando por curso, formación y sexo en la tabla Matriculaciones_edad\n",
         "Matriculaciones_RH_Grado <- Matriculaciones_edad %>%\n",
         "    group_by(`Rama de enseñanza`)%>%\n",
         "      filter(Curso == \"2020-2021\", Formacion==\"Grado\", Sexo==\"Hombres\") %>%\n",
@@ -1491,6 +1490,20 @@
         "    group_by(`Rama de enseñanza`)%>%\n",
         "      filter(Curso == \"2020-2021\", Formacion==\"Grado\", Sexo==\"Mujeres\") %>%\n",
         "        summarise(sum(Matriculaciones))\n",
+        "\n",
+        "Matriculaciones_Rama_Grado <- cbind(Matriculaciones_RH_Grado, Matriculaciones_RH_Grado[2])\n",
+        "names(Matriculaciones_Rama_Grado) <- c(\"Rama de eneseñanza\", \"Hombres\", \"Mujeres\")\n"
+      ],
+      "metadata": {
+        "id": "GTs4mcRK303k"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# A continuación, abordamos el resto de agregaciones:\n",
         "\n",
         "# Agregación por nacionalidad y sexo en la tabla de Matriculaciones_nacionalidad\n",
         "Matriculaciones_NS_Grado <- Matriculaciones_nacionalidad %>%\n",
@@ -1523,7 +1536,7 @@
         "id": "STRV8v_6fDD4",
         "outputId": "19e20972-a574-48eb-ec50-d7d40b768e0c"
       },
-      "execution_count": 22,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1565,7 +1578,7 @@
       "metadata": {
         "id": "rXsk9yxnp8SY"
       },
-      "execution_count": 23,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1602,7 +1615,7 @@
       "metadata": {
         "id": "BCwkfzknth2I"
       },
-      "execution_count": 24,
+      "execution_count": null,
       "outputs": []
     },
     {
