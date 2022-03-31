@@ -21,6 +21,8 @@
       "source": [
         "# <span style=\"color:purple\"> Caracterización del alumnado de la Universidad española y titulaciones más demandadas </span>\n",
         "\n",
+        "## Preprocesamiento de datos\n",
+        "\n",
         "\n"
       ],
       "metadata": {
@@ -30,7 +32,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "El objetivo principal de este post es aprender a realizar una visualización interactiva partiendo de datos abiertos. Para este ejercicio práctico hemos escogido conjuntos de datos que contienen información relevante sobre el alumnado de la universidad española a lo largo de los últimos años. A partir de estos datos observaremos las características que presenta el alumnado de la universidad española y cuáles son los estudios más demandados. "
+        "Este notebook explica el trabajo de preprocesamiento y preparación de los datos para implementar una visualización que explique la **caracterización del alumnado de la Universidad española y las titulaciones más demandadas**. Para llevar a cabo esta tarea de manera práctica hemos escogido conjuntos de datos que contienen información relevante sobre el alumnado de la universidad española a lo largo de los últimos años. A partir de estos datos observaremos las características que presenta el alumnado de la universidad española y cuáles son los estudios más demandados. Pero entes tenemos que realizar una serie de tareas para preparar los datos que posteriormente utilizaremos. A conintuación, te explicamos cómo lo hacemos."
       ],
       "metadata": {
         "id": "eKau823Ypz0-"
@@ -39,7 +41,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "## Pasos que se seguirán en este código\n",
+        "## Pasos que se seguirán para preparar los datos\n",
         "\n",
         "\n",
         "1.   Instalación y carga de librerías\n",
@@ -101,7 +103,7 @@
         },
         "outputId": "152441c9-be53-495c-e533-7cbd1ec0f41d"
       },
-      "execution_count": 1,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -228,7 +230,7 @@
         "id": "m7XiImgA-rsW",
         "outputId": "20dd2a09-0ee6-40ee-87f3-d2006a3c003b"
       },
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -273,7 +275,7 @@
         "id": "tMRcMK6LOha3",
         "outputId": "6c23dfd2-a8b0-4fc6-c3f2-61b7bb08fb30"
       },
-      "execution_count": 3,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -467,7 +469,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 4,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -501,7 +503,7 @@
         "id": "9RlGF4FdEORr",
         "outputId": "b2efd396-b14f-4428-e2e9-b58056d2ab83"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -552,7 +554,7 @@
       "metadata": {
         "id": "JxwdujVp90uZ"
       },
-      "execution_count": 6,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -577,7 +579,7 @@
       "metadata": {
         "id": "mzy2B-LHXVuB"
       },
-      "execution_count": 7,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -607,7 +609,7 @@
       "metadata": {
         "id": "uiZLzwGz89Ea"
       },
-      "execution_count": 8,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -633,7 +635,7 @@
       "metadata": {
         "id": "QuJTz4tnS4nS"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -662,7 +664,7 @@
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": 10,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -679,7 +681,7 @@
         "id": "WDUQuy13bpZY",
         "outputId": "9e4d5e4e-f536-4073-e0e5-157c0b1c3358"
       },
-      "execution_count": 11,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -773,7 +775,7 @@
         "id": "DU7xDyNt8z8O",
         "outputId": "a00952b2-14f2-4e8d-8b7c-eaa429b4259d"
       },
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -972,7 +974,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": 13,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -993,7 +995,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": 14,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1028,7 +1030,7 @@
         "id": "qYIGWkYlfcE9",
         "outputId": "882c01fe-a226-4af4-dda7-56e65bb199df"
       },
-      "execution_count": 15,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1077,7 +1079,7 @@
         "id": "jvoFhUMghtwE",
         "outputId": "8683dc3f-3934-496b-84c9-784c85b71f9b"
       },
-      "execution_count": 16,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1144,7 +1146,7 @@
       "metadata": {
         "id": "-Cl6KPQzk--3"
       },
-      "execution_count": 17,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1172,7 +1174,7 @@
         "id": "uK79txHud-GS",
         "outputId": "8f99b8eb-e9c2-4dc7-fbe4-a68dfeacbd39"
       },
-      "execution_count": 18,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1256,7 +1258,7 @@
         "id": "N_q_9zbXmf2U",
         "outputId": "a5366921-9670-4522-f731-aaa63e92c7ba"
       },
-      "execution_count": 19,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1332,7 +1334,7 @@
         "id": "QzAdf07KmiUj",
         "outputId": "54352f68-0a0a-403d-8b6e-0561829e0522"
       },
-      "execution_count": 20,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1455,7 +1457,7 @@
         "id": "_gevbYDEciKX",
         "outputId": "7236ddd1-2414-4d9f-f64b-23c93f6ce4e1"
       },
-      "execution_count": 21,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1497,7 +1499,7 @@
       "metadata": {
         "id": "GTs4mcRK303k"
       },
-      "execution_count": 26,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1536,7 +1538,7 @@
         "id": "STRV8v_6fDD4",
         "outputId": "ba62eb5f-ae2a-4608-f388-1945ec910931"
       },
-      "execution_count": 23,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1578,7 +1580,7 @@
       "metadata": {
         "id": "rXsk9yxnp8SY"
       },
-      "execution_count": 24,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1611,7 +1613,7 @@
       "metadata": {
         "id": "BCwkfzknth2I"
       },
-      "execution_count": 27,
+      "execution_count": null,
       "outputs": []
     },
     {
