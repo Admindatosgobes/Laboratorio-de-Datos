@@ -101,9 +101,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "963b3983-2f63-4897-e070-67993aeeefc2"
+        "outputId": "5c49d965-f57c-4d2b-85d0-b0c127ca2bc0"
       },
-      "execution_count": 1,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
@@ -230,9 +230,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "m7XiImgA-rsW",
-        "outputId": "4d0a6f8e-fe11-4c9c-866f-08d4df2965ce"
+        "outputId": "8bfb78d7-4367-4ad7-a72c-889a6e395b6e"
       },
-      "execution_count": 19,
+      "execution_count": 90,
       "outputs": [
         {
           "output_type": "stream",
@@ -275,9 +275,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tMRcMK6LOha3",
-        "outputId": "0c1657fb-7609-4a5e-f5fc-259bdd68b133"
+        "outputId": "5f56073e-28f3-4aae-fc48-6461d20420b0"
       },
-      "execution_count": 20,
+      "execution_count": 91,
       "outputs": [
         {
           "output_type": "stream",
@@ -471,7 +471,7 @@
       "metadata": {
         "id": "A1m5M0lleELB"
       },
-      "execution_count": 21,
+      "execution_count": 92,
       "outputs": []
     },
     {
@@ -504,9 +504,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9RlGF4FdEORr",
-        "outputId": "08220f77-6dc2-4524-8dad-e4b0d22c5e35"
+        "outputId": "09263151-5d82-4290-b759-91cb5af8dea8"
       },
-      "execution_count": 22,
+      "execution_count": 93,
       "outputs": [
         {
           "output_type": "stream",
@@ -549,55 +549,6 @@
     {
       "cell_type": "code",
       "source": [
-        "str(Matriculaciones_grado_edad)"
-      ],
-      "metadata": {
-        "id": "XmAunAPQqaJF",
-        "outputId": "5c6434b0-4c01-4129-b182-2eea7c2d4d1b",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        }
-      },
-      "execution_count": 15,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "tibble [960 × 26] (S3: tbl_df/tbl/data.frame)\n",
-            " $ Nivel académico             : chr [1:960] \"Total\" \"Total\" \"Total\" \"Total\" ...\n",
-            " $ Rama de enseñanza           : chr [1:960] \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" ...\n",
-            " $ Tipo universidad            : chr [1:960] \"Pública\" \"Pública\" \"Pública\" \"Pública\" ...\n",
-            " $ Curso                       : chr [1:960] \"2020-2021\" \"2020-2021\" \"2020-2021\" \"2020-2021\" ...\n",
-            " $ Modalidad                   : chr [1:960] \"Presencial\" \"Presencial\" \"Presencial\" \"Presencial\" ...\n",
-            " $ Tipo centro                 : chr [1:960] \"Total\" \"Total\" \"Total\" \"Total\" ...\n",
-            " $ Sexo                        : chr [1:960] \"Hombres\" \"Hombres\" \"Hombres\" \"Hombres\" ...\n",
-            " $ Edad                        : chr [1:960] \"De 18 a 21 años\" \"De 22 a 25 años\" \"De 26 a 30 años\" \"Más de 30 años\" ...\n",
-            " $ Andalucía                   : num [1:960] 19846 11763 3416 1837 35694 ...\n",
-            " $ Aragón                      : num [1:960] 2948 1243 254 209 4804 ...\n",
-            " $ Asturias (Principado de)    : num [1:960] 1704 783 197 135 2866 ...\n",
-            " $ Balears (Illes)             : num [1:960] 1210 644 253 204 2380 ...\n",
-            " $ Canarias                    : num [1:960] 3360 1637 595 671 6097 ...\n",
-            " $ Cantabria                   : num [1:960] 898 441 135 46 1510 588 210 90 819 502 ...\n",
-            " $ Castilla - La Mancha        : num [1:960] 2458 1352 343 210 4203 ...\n",
-            " $ Castilla y León             : num [1:960] 5186 2699 659 598 9926 ...\n",
-            " $ Cataluña                    : num [1:960] 13936 6395 1362 827 25323 ...\n",
-            " $ Comunitat Valenciana        : num [1:960] 10031 4896 1317 1210 18454 ...\n",
-            " $ Estado                      : num [1:960] 0 0 0 0 0 0 0 0 0 0 ...\n",
-            " $ Extremadura                 : num [1:960] 1838 985 351 143 3132 ...\n",
-            " $ Galicia                     : num [1:960] 4862 2611 817 444 8401 ...\n",
-            " $ Madrid (Comunidad de)       : num [1:960] 20049 10534 2355 1266 33256 ...\n",
-            " $ Murcia (Región de)          : num [1:960] 3131 1576 492 392 5884 ...\n",
-            " $ Navarra (Comunidad Foral de): num [1:960] 916 380 69 28 1779 ...\n",
-            " $ País Vasco                  : num [1:960] 3953 1857 417 244 6405 ...\n",
-            " $ Rioja (La)                  : num [1:960] 380 206 33 14 820 344 70 35 377 214 ...\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
         "# Generacion de la columna \"Formacion\" en la que recogemos el nivel académico en las tablas de Matriculaciones\n",
         "  # Matriculaciones de doctorado \n",
         "Matriculaciones_doctorado_edad$Formacion <- \"Doctorado\"\n",
@@ -609,54 +560,13 @@
         "\n",
         "  # Matriculaciones de grado \n",
         "Matriculaciones_grado_edad$Formacion <- \"Grado\"\n",
-        "Matriculaciones_grado_nacionalidad$Formacion <- \"Grado\"\n",
-        "\n",
-        "str(Matriculaciones_grado_edad)"
+        "Matriculaciones_grado_nacionalidad$Formacion <- \"Grado\"\n"
       ],
       "metadata": {
-        "id": "JxwdujVp90uZ",
-        "outputId": "02e0e374-f55a-4663-ecad-f7563cc545cd",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        }
+        "id": "JxwdujVp90uZ"
       },
-      "execution_count": 16,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "tibble [960 × 27] (S3: tbl_df/tbl/data.frame)\n",
-            " $ Nivel académico             : chr [1:960] \"Total\" \"Total\" \"Total\" \"Total\" ...\n",
-            " $ Rama de enseñanza           : chr [1:960] \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" ...\n",
-            " $ Tipo universidad            : chr [1:960] \"Pública\" \"Pública\" \"Pública\" \"Pública\" ...\n",
-            " $ Curso                       : chr [1:960] \"2020-2021\" \"2020-2021\" \"2020-2021\" \"2020-2021\" ...\n",
-            " $ Modalidad                   : chr [1:960] \"Presencial\" \"Presencial\" \"Presencial\" \"Presencial\" ...\n",
-            " $ Tipo centro                 : chr [1:960] \"Total\" \"Total\" \"Total\" \"Total\" ...\n",
-            " $ Sexo                        : chr [1:960] \"Hombres\" \"Hombres\" \"Hombres\" \"Hombres\" ...\n",
-            " $ Edad                        : chr [1:960] \"De 18 a 21 años\" \"De 22 a 25 años\" \"De 26 a 30 años\" \"Más de 30 años\" ...\n",
-            " $ Andalucía                   : num [1:960] 19846 11763 3416 1837 35694 ...\n",
-            " $ Aragón                      : num [1:960] 2948 1243 254 209 4804 ...\n",
-            " $ Asturias (Principado de)    : num [1:960] 1704 783 197 135 2866 ...\n",
-            " $ Balears (Illes)             : num [1:960] 1210 644 253 204 2380 ...\n",
-            " $ Canarias                    : num [1:960] 3360 1637 595 671 6097 ...\n",
-            " $ Cantabria                   : num [1:960] 898 441 135 46 1510 588 210 90 819 502 ...\n",
-            " $ Castilla - La Mancha        : num [1:960] 2458 1352 343 210 4203 ...\n",
-            " $ Castilla y León             : num [1:960] 5186 2699 659 598 9926 ...\n",
-            " $ Cataluña                    : num [1:960] 13936 6395 1362 827 25323 ...\n",
-            " $ Comunitat Valenciana        : num [1:960] 10031 4896 1317 1210 18454 ...\n",
-            " $ Estado                      : num [1:960] 0 0 0 0 0 0 0 0 0 0 ...\n",
-            " $ Extremadura                 : num [1:960] 1838 985 351 143 3132 ...\n",
-            " $ Galicia                     : num [1:960] 4862 2611 817 444 8401 ...\n",
-            " $ Madrid (Comunidad de)       : num [1:960] 20049 10534 2355 1266 33256 ...\n",
-            " $ Murcia (Región de)          : num [1:960] 3131 1576 492 392 5884 ...\n",
-            " $ Navarra (Comunidad Foral de): num [1:960] 916 380 69 28 1779 ...\n",
-            " $ País Vasco                  : num [1:960] 3953 1857 417 244 6405 ...\n",
-            " $ Rioja (La)                  : num [1:960] 380 206 33 14 820 344 70 35 377 214 ...\n",
-            " $ Formacion                   : chr [1:960] \"Grado\" \"Grado\" \"Grado\" \"Grado\" ...\n"
-          ]
-        }
-      ]
+      "execution_count": 94,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
@@ -678,16 +588,17 @@
         "  select(-'Nivel académico')\n",
         "\n",
         "  str(Matriculaciones_grado_edad)\n",
-        "  str(Matriculaciones_doctor_edad)"
+        "  str(Matriculaciones_doctorado_edad)\n",
+        "  str(Matriculaciones_master_edad)"
       ],
       "metadata": {
         "id": "mzy2B-LHXVuB",
-        "outputId": "da81bb91-fdbc-48b1-be92-650ec7080679",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "234b0eae-b26c-48d8-ff63-be887baa97d9"
       },
-      "execution_count": 17,
+      "execution_count": 95,
       "outputs": [
         {
           "output_type": "stream",
@@ -719,7 +630,61 @@
             " $ Navarra (Comunidad Foral de): num [1:960] 916 380 69 28 1779 ...\n",
             " $ País Vasco                  : num [1:960] 3953 1857 417 244 6405 ...\n",
             " $ Rioja (La)                  : num [1:960] 380 206 33 14 820 344 70 35 377 214 ...\n",
-            " $ Formacion                   : chr [1:960] \"Grado\" \"Grado\" \"Grado\" \"Grado\" ...\n"
+            " $ Formacion                   : chr [1:960] \"Grado\" \"Grado\" \"Grado\" \"Grado\" ...\n",
+            "tibble [1,440 × 26] (S3: tbl_df/tbl/data.frame)\n",
+            " $ Curso                       : chr [1:1440] \"2020-2021\" \"2020-2021\" \"2020-2021\" \"2020-2021\" ...\n",
+            " $ Rama de enseñanza           : chr [1:1440] \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" ...\n",
+            " $ Tipo universidad            : chr [1:1440] \"Pública\" \"Pública\" \"Pública\" \"Pública\" ...\n",
+            " $ Modalidad                   : chr [1:1440] \"Presencial\" \"Presencial\" \"Presencial\" \"Presencial\" ...\n",
+            " $ Tipo centro                 : chr [1:1440] \"Total\" \"Total\" \"Total\" \"Total\" ...\n",
+            " $ Sexo                        : chr [1:1440] \"Hombres\" \"Hombres\" \"Hombres\" \"Hombres\" ...\n",
+            " $ Edad                        : chr [1:1440] \"Menos de 25 años\" \"De 25 a 30 años\" \"De 31 a 40 años\" \"Más de 40 años\" ...\n",
+            " $ Andalucía                   : num [1:1440] 40 440 681 939 0 0 0 0 1 6 ...\n",
+            " $ Aragón                      : num [1:1440] 10 59 74 114 0 0 0 0 0 0 ...\n",
+            " $ Asturias (Principado de)    : num [1:1440] 2 24 45 55 0 0 0 0 0 0 ...\n",
+            " $ Balears (Illes)             : num [1:1440] 3 19 45 67 0 0 0 0 0 0 ...\n",
+            " $ Canarias                    : num [1:1440] 6 42 64 87 0 0 0 0 0 0 ...\n",
+            " $ Cantabria                   : num [1:1440] 1 8 11 12 0 0 0 0 0 0 ...\n",
+            " $ Castilla - La Mancha        : num [1:1440] 9 23 37 104 0 0 0 0 0 0 ...\n",
+            " $ Castilla y León             : num [1:1440] 16 154 279 405 0 0 0 0 0 0 ...\n",
+            " $ Cataluña                    : num [1:1440] 23 403 531 473 0 0 0 0 0 0 ...\n",
+            " $ Comunitat Valenciana        : num [1:1440] 30 234 419 629 0 0 0 0 0 0 ...\n",
+            " $ Estado                      : num [1:1440] 0 0 0 0 2 42 157 472 2 20 ...\n",
+            " $ Extremadura                 : num [1:1440] 6 30 51 80 0 0 0 0 0 0 ...\n",
+            " $ Galicia                     : num [1:1440] 26 131 229 341 0 0 0 0 0 0 ...\n",
+            " $ Madrid (Comunidad de)       : num [1:1440] 33 446 712 835 0 0 0 0 0 0 ...\n",
+            " $ Murcia (Región de)          : num [1:1440] 15 69 104 172 0 0 0 0 0 0 ...\n",
+            " $ Navarra (Comunidad Foral de): num [1:1440] 0 9 10 9 0 0 0 0 0 0 ...\n",
+            " $ País Vasco                  : num [1:1440] 22 153 133 202 0 0 0 0 0 0 ...\n",
+            " $ Rioja (La)                  : num [1:1440] 0 4 10 10 0 0 0 0 0 0 ...\n",
+            " $ Formacion                   : chr [1:1440] \"Doctorado\" \"Doctorado\" \"Doctorado\" \"Doctorado\" ...\n",
+            "tibble [1,440 × 26] (S3: tbl_df/tbl/data.frame)\n",
+            " $ Rama de enseñanza           : chr [1:1440] \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" ...\n",
+            " $ Tipo universidad            : chr [1:1440] \"Pública\" \"Pública\" \"Pública\" \"Pública\" ...\n",
+            " $ Curso                       : chr [1:1440] \"2020-2021\" \"2020-2021\" \"2020-2021\" \"2020-2021\" ...\n",
+            " $ Modalidad                   : chr [1:1440] \"Presencial\" \"Presencial\" \"Presencial\" \"Presencial\" ...\n",
+            " $ Tipo centro                 : chr [1:1440] \"Total\" \"Total\" \"Total\" \"Total\" ...\n",
+            " $ Sexo                        : chr [1:1440] \"Hombres\" \"Hombres\" \"Hombres\" \"Hombres\" ...\n",
+            " $ Edad                        : chr [1:1440] \"Menos de 25 años\" \"De 25 a 30 años\" \"De 31 a 40 años\" \"Más de 40 años\" ...\n",
+            " $ Andalucía                   : num [1:1440] 1529 1756 735 354 0 ...\n",
+            " $ Aragón                      : num [1:1440] 205 201 78 91 0 0 0 0 0 0 ...\n",
+            " $ Asturias (Principado de)    : num [1:1440] 114 91 30 14 0 0 0 0 0 0 ...\n",
+            " $ Balears (Illes)             : num [1:1440] 63 112 70 29 0 0 0 0 0 0 ...\n",
+            " $ Canarias                    : num [1:1440] 163 202 108 42 0 0 0 0 0 0 ...\n",
+            " $ Cantabria                   : num [1:1440] 69 61 31 11 0 0 0 0 0 0 ...\n",
+            " $ Castilla - La Mancha        : num [1:1440] 169 258 130 69 0 0 0 0 0 0 ...\n",
+            " $ Castilla y León             : num [1:1440] 380 327 159 85 0 0 0 0 0 0 ...\n",
+            " $ Cataluña                    : num [1:1440] 1451 1345 733 394 0 ...\n",
+            " $ Comunitat Valenciana        : num [1:1440] 947 1013 548 238 0 ...\n",
+            " $ Estado                      : num [1:1440] 0 0 0 0 177 659 672 915 150 283 ...\n",
+            " $ Extremadura                 : num [1:1440] 162 180 98 40 0 0 0 0 0 0 ...\n",
+            " $ Galicia                     : num [1:1440] 384 430 212 111 0 0 0 0 0 0 ...\n",
+            " $ Madrid (Comunidad de)       : num [1:1440] 2206 2046 759 446 0 ...\n",
+            " $ Murcia (Región de)          : num [1:1440] 226 238 118 50 0 0 0 0 0 0 ...\n",
+            " $ Navarra (Comunidad Foral de): num [1:1440] 57 56 20 9 0 0 0 0 0 0 ...\n",
+            " $ País Vasco                  : num [1:1440] 278 167 61 39 0 0 0 0 0 0 ...\n",
+            " $ Rioja (La)                  : num [1:1440] 45 37 23 12 0 0 0 0 0 0 ...\n",
+            " $ Formacion                   : chr [1:1440] \"Master\" \"Master\" \"Master\" \"Master\" ...\n"
           ]
         }
       ]
@@ -727,7 +692,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "Procederemos a la unión de las tablas por filas usando la función [rbind()](https://www.rdocumentation.org/packages/SparkR/versions/3.1.2/topics/rbind), cuya única condición es que las tablas tengan el mismo número de columnas y tengan los mismos nombres."
+        "Procederemos a la unión de las tablas por filas usando la función [rbind()](https://search.r-project.org/R/refmans/base/html/cbind.html), cuya única condición es que las tablas tengan el mismo número de columnas y tengan los mismos nombres."
       ],
       "metadata": {
         "id": "vdoxMV-CJGAP"
@@ -748,16 +713,17 @@
         "                        Matriculaciones_grado_nacionalidad)\n",
         " \n",
         "\n",
-        " str(Matriculaciones_edad)"
+        " str(Matriculaciones_edad)\n",
+        " str(Matriculaciones_nacionalidad)"
       ],
       "metadata": {
         "id": "uiZLzwGz89Ea",
-        "outputId": "7a42558e-aff1-4478-efd4-99eae8cd9538",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "outputId": "c50840fa-c6c0-418d-fdb5-a06039637bb6"
       },
-      "execution_count": 18,
+      "execution_count": 96,
       "outputs": [
         {
           "output_type": "stream",
@@ -789,7 +755,34 @@
             " $ Navarra (Comunidad Foral de): num [1:3840] 0 9 10 9 0 0 0 0 0 0 ...\n",
             " $ País Vasco                  : num [1:3840] 22 153 133 202 0 0 0 0 0 0 ...\n",
             " $ Rioja (La)                  : num [1:3840] 0 4 10 10 0 0 0 0 0 0 ...\n",
-            " $ Formacion                   : chr [1:3840] \"Doctorado\" \"Doctorado\" \"Doctorado\" \"Doctorado\" ...\n"
+            " $ Formacion                   : chr [1:3840] \"Doctorado\" \"Doctorado\" \"Doctorado\" \"Doctorado\" ...\n",
+            "tibble [7,680 × 26] (S3: tbl_df/tbl/data.frame)\n",
+            " $ Curso                       : chr [1:7680] \"2020-2021\" \"2020-2021\" \"2020-2021\" \"2020-2021\" ...\n",
+            " $ Rama de enseñanza           : chr [1:7680] \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" \"Ciencias Sociales y Jurídicas\" ...\n",
+            " $ Tipo universidad            : chr [1:7680] \"Pública\" \"Pública\" \"Pública\" \"Pública\" ...\n",
+            " $ Modalidad                   : chr [1:7680] \"Presencial\" \"Presencial\" \"Presencial\" \"Presencial\" ...\n",
+            " $ Tipo centro                 : chr [1:7680] \"Total\" \"Total\" \"Total\" \"Total\" ...\n",
+            " $ Sexo                        : chr [1:7680] \"Mujeres\" \"Mujeres\" \"Mujeres\" \"Mujeres\" ...\n",
+            " $ Nacionalidad                : chr [1:7680] \"España\" \"Unión Europea(28)\" \"Resto de Europa\" \"EEUU y Canadá\" ...\n",
+            " $ Andalucía                   : num [1:7680] 1357 223 20 12 622 ...\n",
+            " $ Aragón                      : num [1:7680] 212 9 1 1 66 2 2 10 121 12 ...\n",
+            " $ Asturias (Principado de)    : num [1:7680] 154 3 1 0 13 3 0 0 98 2 ...\n",
+            " $ Balears (Illes)             : num [1:7680] 82 8 2 0 57 0 0 8 6 0 ...\n",
+            " $ Canarias                    : num [1:7680] 164 14 6 1 10 2 1 6 73 3 ...\n",
+            " $ Cantabria                   : num [1:7680] 29 5 1 0 12 0 0 0 50 4 ...\n",
+            " $ Castilla - La Mancha        : num [1:7680] 66 10 1 0 45 0 1 2 103 4 ...\n",
+            " $ Castilla y León             : num [1:7680] 380 49 4 4 333 3 2 23 129 16 ...\n",
+            " $ Cataluña                    : num [1:7680] 641 141 65 27 481 8 6 105 307 81 ...\n",
+            " $ Comunitat Valenciana        : num [1:7680] 813 132 16 3 416 15 4 32 388 40 ...\n",
+            " $ Estado                      : num [1:7680] 0 0 0 0 0 0 0 0 0 0 ...\n",
+            " $ Extremadura                 : num [1:7680] 118 31 0 0 28 0 2 1 5 0 ...\n",
+            " $ Galicia                     : num [1:7680] 506 124 4 0 119 1 4 17 173 18 ...\n",
+            " $ Madrid (Comunidad de)       : num [1:7680] 1217 85 25 9 484 ...\n",
+            " $ Murcia (Región de)          : num [1:7680] 275 51 4 0 48 4 0 10 58 5 ...\n",
+            " $ Navarra (Comunidad Foral de): num [1:7680] 24 0 0 0 2 0 0 3 43 3 ...\n",
+            " $ País Vasco                  : num [1:7680] 405 26 5 5 126 0 0 7 166 5 ...\n",
+            " $ Rioja (La)                  : num [1:7680] 35 2 0 0 3 0 0 0 0 0 ...\n",
+            " $ Formacion                   : chr [1:7680] \"Doctorado\" \"Doctorado\" \"Doctorado\" \"Doctorado\" ...\n"
           ]
         }
       ]
@@ -797,7 +790,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "En el caso de la tabla de Titulaciones, en la variable de Titulación, realizaremos una separación de una variable, para quedarnos únicamente con el nombre de la titulación, ya que en algunos casos se añade el nombre de la universidad. Para ello utilizaremos la función [str_split()](https://www.rdocumentation.org/packages/stringr/versions/1.4.0/topics/str_split). "
+        "En el caso de la tabla de Titulaciones, dado que la variable \"Titulación\" incluye el nombre de la Universidad y a su vez, la tabla contiene otra variable \"Universidad\" con la misma información, vamos a **eliminar esta información redundante**. Para ello, realizamos una separación en los valores de \"Titulación\", para quedarnos únicamente con el nombre de la titulación, y eliminar el nombre de la universidad. Para ello utilizaremos la función [str_split()](https://www.rdocumentation.org/packages/stringr/versions/1.4.0/topics/str_split). "
       ],
       "metadata": {
         "id": "cThZd3LrRrAv"
@@ -806,25 +799,123 @@
     {
       "cell_type": "code",
       "source": [
+        "head(Titulaciones)\n",
         "#Separación de la variable \"Titulación\" en dos varaibles \n",
         "Titulaciones[c(\"Titulacion\", \"uni\")] <- str_split_fixed(Titulaciones$`Titulación`, \"por\", 2)\n",
         "\n",
         "#Seleccionamos las variables de interes \n",
         "Titulaciones <- Titulaciones %>% \n",
         "  select(\"CCAA\", \"Universidad\", \"Rama\", \"Curso\", \"Matriculados\", \n",
-        "         \"Porcentaje_Mujeres\", \"Titulacion\")\n"
+        "         \"Porcentaje_Mujeres\", \"Titulacion\")\n",
+        "         \n",
+        "head(Titulaciones)"
       ],
       "metadata": {
-        "id": "QuJTz4tnS4nS"
+        "id": "QuJTz4tnS4nS",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 555
+        },
+        "outputId": "46c6a91c-5ea8-45c7-bdc7-135a40961c9e"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 97,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/html": [
+              "<table class=\"dataframe\">\n",
+              "<caption>A tibble: 6 × 7</caption>\n",
+              "<thead>\n",
+              "\t<tr><th scope=col>CCAA</th><th scope=col>Universidad</th><th scope=col>Rama</th><th scope=col>Titulación</th><th scope=col>Curso</th><th scope=col>Matriculados</th><th scope=col>Porcentaje_Mujeres</th></tr>\n",
+              "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>\n",
+              "</thead>\n",
+              "<tbody>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>Graduado o Graduada en Ciencias Políticas por la Universitat Abat Oliba CEU      </td><td>2020-2021</td><td>38 </td><td>0.47368421052631599</td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>Graduado o Graduada en Criminología y Seguridad por la Universitat Abat Oliba CEU</td><td>2020-2021</td><td>132</td><td>0.69696969696969702</td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>Graduado o Graduada en Derecho por la Universitat Abat Oliba CEU                 </td><td>2020-2021</td><td>284</td><td>0.52464788732394396</td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>Graduado o Graduada en Dirección de Empresas por la Universitat Abat Oliba CEU   </td><td>2020-2021</td><td>204</td><td>0.37745098039215702</td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>Graduado o Graduada en Economía y Gestión por la Universitat Abat Oliba CEU      </td><td>2020-2021</td><td>78 </td><td>0.39743589743589702</td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>Graduado o Graduada en Educación Infantil por la Universitat Abat Oliba CEU      </td><td>2020-2021</td><td>61 </td><td>0.98360655737704905</td></tr>\n",
+              "</tbody>\n",
+              "</table>\n"
+            ],
+            "text/markdown": "\nA tibble: 6 × 7\n\n| CCAA &lt;chr&gt; | Universidad &lt;chr&gt; | Rama &lt;chr&gt; | Titulación &lt;chr&gt; | Curso &lt;chr&gt; | Matriculados &lt;chr&gt; | Porcentaje_Mujeres &lt;chr&gt; |\n|---|---|---|---|---|---|---|\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | Graduado o Graduada en Ciencias Políticas por la Universitat Abat Oliba CEU       | 2020-2021 | 38  | 0.47368421052631599 |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | Graduado o Graduada en Criminología y Seguridad por la Universitat Abat Oliba CEU | 2020-2021 | 132 | 0.69696969696969702 |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | Graduado o Graduada en Derecho por la Universitat Abat Oliba CEU                  | 2020-2021 | 284 | 0.52464788732394396 |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | Graduado o Graduada en Dirección de Empresas por la Universitat Abat Oliba CEU    | 2020-2021 | 204 | 0.37745098039215702 |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | Graduado o Graduada en Economía y Gestión por la Universitat Abat Oliba CEU       | 2020-2021 | 78  | 0.39743589743589702 |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | Graduado o Graduada en Educación Infantil por la Universitat Abat Oliba CEU       | 2020-2021 | 61  | 0.98360655737704905 |\n\n",
+            "text/latex": "A tibble: 6 × 7\n\\begin{tabular}{lllllll}\n CCAA & Universidad & Rama & Titulación & Curso & Matriculados & Porcentaje\\_Mujeres\\\\\n <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr>\\\\\n\\hline\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & Graduado o Graduada en Ciencias Políticas por la Universitat Abat Oliba CEU       & 2020-2021 & 38  & 0.47368421052631599\\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & Graduado o Graduada en Criminología y Seguridad por la Universitat Abat Oliba CEU & 2020-2021 & 132 & 0.69696969696969702\\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & Graduado o Graduada en Derecho por la Universitat Abat Oliba CEU                  & 2020-2021 & 284 & 0.52464788732394396\\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & Graduado o Graduada en Dirección de Empresas por la Universitat Abat Oliba CEU    & 2020-2021 & 204 & 0.37745098039215702\\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & Graduado o Graduada en Economía y Gestión por la Universitat Abat Oliba CEU       & 2020-2021 & 78  & 0.39743589743589702\\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & Graduado o Graduada en Educación Infantil por la Universitat Abat Oliba CEU       & 2020-2021 & 61  & 0.98360655737704905\\\\\n\\end{tabular}\n",
+            "text/plain": [
+              "  CCAA     Universidad    Rama                         \n",
+              "1 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas\n",
+              "2 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas\n",
+              "3 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas\n",
+              "4 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas\n",
+              "5 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas\n",
+              "6 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas\n",
+              "  Titulación                                                                       \n",
+              "1 Graduado o Graduada en Ciencias Políticas por la Universitat Abat Oliba CEU      \n",
+              "2 Graduado o Graduada en Criminología y Seguridad por la Universitat Abat Oliba CEU\n",
+              "3 Graduado o Graduada en Derecho por la Universitat Abat Oliba CEU                 \n",
+              "4 Graduado o Graduada en Dirección de Empresas por la Universitat Abat Oliba CEU   \n",
+              "5 Graduado o Graduada en Economía y Gestión por la Universitat Abat Oliba CEU      \n",
+              "6 Graduado o Graduada en Educación Infantil por la Universitat Abat Oliba CEU      \n",
+              "  Curso     Matriculados Porcentaje_Mujeres \n",
+              "1 2020-2021 38           0.47368421052631599\n",
+              "2 2020-2021 132          0.69696969696969702\n",
+              "3 2020-2021 284          0.52464788732394396\n",
+              "4 2020-2021 204          0.37745098039215702\n",
+              "5 2020-2021 78           0.39743589743589702\n",
+              "6 2020-2021 61           0.98360655737704905"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/html": [
+              "<table class=\"dataframe\">\n",
+              "<caption>A tibble: 6 × 7</caption>\n",
+              "<thead>\n",
+              "\t<tr><th scope=col>CCAA</th><th scope=col>Universidad</th><th scope=col>Rama</th><th scope=col>Curso</th><th scope=col>Matriculados</th><th scope=col>Porcentaje_Mujeres</th><th scope=col>Titulacion</th></tr>\n",
+              "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>\n",
+              "</thead>\n",
+              "<tbody>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>2020-2021</td><td>38 </td><td>0.47368421052631599</td><td>Graduado o Graduada en Ciencias Políticas       </td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>2020-2021</td><td>132</td><td>0.69696969696969702</td><td>Graduado o Graduada en Criminología y Seguridad </td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>2020-2021</td><td>284</td><td>0.52464788732394396</td><td>Graduado o Graduada en Derecho                  </td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>2020-2021</td><td>204</td><td>0.37745098039215702</td><td>Graduado o Graduada en Dirección de Empresas    </td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>2020-2021</td><td>78 </td><td>0.39743589743589702</td><td>Graduado o Graduada en Economía y Gestión       </td></tr>\n",
+              "\t<tr><td>Cataluña</td><td>Abat Oliba CEU</td><td>Ciencias Sociales y Jurídicas</td><td>2020-2021</td><td>61 </td><td>0.98360655737704905</td><td>Graduado o Graduada en Educación Infantil       </td></tr>\n",
+              "</tbody>\n",
+              "</table>\n"
+            ],
+            "text/markdown": "\nA tibble: 6 × 7\n\n| CCAA &lt;chr&gt; | Universidad &lt;chr&gt; | Rama &lt;chr&gt; | Curso &lt;chr&gt; | Matriculados &lt;chr&gt; | Porcentaje_Mujeres &lt;chr&gt; | Titulacion &lt;chr&gt; |\n|---|---|---|---|---|---|---|\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | 2020-2021 | 38  | 0.47368421052631599 | Graduado o Graduada en Ciencias Políticas        |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | 2020-2021 | 132 | 0.69696969696969702 | Graduado o Graduada en Criminología y Seguridad  |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | 2020-2021 | 284 | 0.52464788732394396 | Graduado o Graduada en Derecho                   |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | 2020-2021 | 204 | 0.37745098039215702 | Graduado o Graduada en Dirección de Empresas     |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | 2020-2021 | 78  | 0.39743589743589702 | Graduado o Graduada en Economía y Gestión        |\n| Cataluña | Abat Oliba CEU | Ciencias Sociales y Jurídicas | 2020-2021 | 61  | 0.98360655737704905 | Graduado o Graduada en Educación Infantil        |\n\n",
+            "text/latex": "A tibble: 6 × 7\n\\begin{tabular}{lllllll}\n CCAA & Universidad & Rama & Curso & Matriculados & Porcentaje\\_Mujeres & Titulacion\\\\\n <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr>\\\\\n\\hline\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & 2020-2021 & 38  & 0.47368421052631599 & Graduado o Graduada en Ciencias Políticas       \\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & 2020-2021 & 132 & 0.69696969696969702 & Graduado o Graduada en Criminología y Seguridad \\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & 2020-2021 & 284 & 0.52464788732394396 & Graduado o Graduada en Derecho                  \\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & 2020-2021 & 204 & 0.37745098039215702 & Graduado o Graduada en Dirección de Empresas    \\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & 2020-2021 & 78  & 0.39743589743589702 & Graduado o Graduada en Economía y Gestión       \\\\\n\t Cataluña & Abat Oliba CEU & Ciencias Sociales y Jurídicas & 2020-2021 & 61  & 0.98360655737704905 & Graduado o Graduada en Educación Infantil       \\\\\n\\end{tabular}\n",
+            "text/plain": [
+              "  CCAA     Universidad    Rama                          Curso     Matriculados\n",
+              "1 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas 2020-2021 38          \n",
+              "2 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas 2020-2021 132         \n",
+              "3 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas 2020-2021 284         \n",
+              "4 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas 2020-2021 204         \n",
+              "5 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas 2020-2021 78          \n",
+              "6 Cataluña Abat Oliba CEU Ciencias Sociales y Jurídicas 2020-2021 61          \n",
+              "  Porcentaje_Mujeres  Titulacion                                      \n",
+              "1 0.47368421052631599 Graduado o Graduada en Ciencias Políticas       \n",
+              "2 0.69696969696969702 Graduado o Graduada en Criminología y Seguridad \n",
+              "3 0.52464788732394396 Graduado o Graduada en Derecho                  \n",
+              "4 0.37745098039215702 Graduado o Graduada en Dirección de Empresas    \n",
+              "5 0.39743589743589702 Graduado o Graduada en Economía y Gestión       \n",
+              "6 0.98360655737704905 Graduado o Graduada en Educación Infantil       "
+            ]
+          },
+          "metadata": {}
+        }
+      ]
     },
     {
       "cell_type": "markdown",
       "source": [
         "## 5. Conversión de varias variables en una única con diferentes factores \n",
-        "En el caso de las 2 tablas de matriculaciones que acabamos de crear, hemos detectado que las comunidades autónomas se dividen en diferentes columnas. Para poder realizar una comparativa, en este caso, entre comunidades, debemos generar una única variable, que abarque todas esas columnas, de tal manera que tendremos dos variables una denominada \"CCAA\", en la cual cada una de Comunidades Autónomas representara un factor y la variable \"Matriculaciones\", que representara el número de matriculaciones por cada uno de los factores. Para ello recurriremos a la función [gather()](https://tidyr.tidyverse.org/reference/gather.html). "
+        "En el caso de las dos tablas de matriculaciones que acabamos de crear (Matriculaciones_edad y Matriculaciones_nacionalidad), tenemos el dato de matriculaciones individualizado para cada comunidad autónoma (CCAA) y además cada CCAA es una columna. Para poder realizar una comparativa, en este caso, entre comunidades, vamos a **generar dos nuevas variables**: una denominada \"CCAA\" que abarque todas las columnas de las comunidades y otra \"Matriculaciones\" cuyos valores serán el número de matriculaciones por cada una de las CCAA. Para ello recurriremos a la función [pivot_longer()](https://tidyr.tidyverse.org/reference/pivot_longer.html) que permite \"resumir\" la tabla aumentando el número de filas y disminuyendo el número de columnas. "
       ],
       "metadata": {
         "id": "oyzelp6rTkmN"
@@ -834,37 +925,88 @@
       "cell_type": "code",
       "source": [
         "# Tabla de \"Matriculaciones_edad\"\n",
-        "Matriculaciones_edad <- gather(Matriculaciones_edad, \n",
-        "                                        key = \"CCAA\", value = \"Matriculaciones\", \n",
-        "                                        Andalucía:`Rioja (La)`)\n",
+        "Matriculaciones_edad <- pivot_longer(Matriculaciones_edad, \n",
+        "                                      c(Andalucía:`Rioja (La)`), \n",
+        "                                      names_to = \"CCAA\", \n",
+        "                                      values_to = \"Matriculaciones\")\n",
         "\n",
         "# Tabla de \"Matriculaciones_nacionalidad\"\n",
-        "Matriculaciones_nacionalidad <- gather(Matriculaciones_nacionalidad, \n",
-        "                                                 key = \"CCAA\", value = \"Matriculaciones\",\n",
-        "                                                 Andalucía:`Rioja (La)`)"
+        "Matriculaciones_nacionalidad <- pivot_longer(Matriculaciones_nacionalidad, \n",
+        "                                      c(Andalucía:`Rioja (La)`), \n",
+        "                                      names_to = \"CCAA\", \n",
+        "                                      values_to = \"Matriculaciones\")                                                "
       ],
       "metadata": {
         "id": "6gVQRUtUVCo1"
       },
-      "execution_count": null,
+      "execution_count": 98,
       "outputs": []
     },
     {
       "cell_type": "code",
       "source": [
-        "# Ejemplo de una vista de una de las tablas de datos. \n",
+        "# Ejemplo de una vista cada tabla de datos resumida agrupando matriculaciones por CCAA\n",
+        "head(Matriculaciones_edad)\n",
         "head(Matriculaciones_nacionalidad)"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 286
+          "height": 555
         },
         "id": "WDUQuy13bpZY",
-        "outputId": "9e4d5e4e-f536-4073-e0e5-157c0b1c3358"
+        "outputId": "71e2bbc1-8180-4697-ebab-a6ed263603b5"
       },
-      "execution_count": null,
+      "execution_count": 99,
       "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/html": [
+              "<table class=\"dataframe\">\n",
+              "<caption>A tibble: 6 × 10</caption>\n",
+              "<thead>\n",
+              "\t<tr><th scope=col>Curso</th><th scope=col>Rama de enseñanza</th><th scope=col>Tipo universidad</th><th scope=col>Modalidad</th><th scope=col>Tipo centro</th><th scope=col>Sexo</th><th scope=col>Edad</th><th scope=col>Formacion</th><th scope=col>CCAA</th><th scope=col>Matriculaciones</th></tr>\n",
+              "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+              "</thead>\n",
+              "<tbody>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Hombres</td><td>Menos de 25 años</td><td>Doctorado</td><td>Andalucía               </td><td>40</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Hombres</td><td>Menos de 25 años</td><td>Doctorado</td><td>Aragón                  </td><td>10</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Hombres</td><td>Menos de 25 años</td><td>Doctorado</td><td>Asturias (Principado de)</td><td> 2</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Hombres</td><td>Menos de 25 años</td><td>Doctorado</td><td>Balears (Illes)         </td><td> 3</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Hombres</td><td>Menos de 25 años</td><td>Doctorado</td><td>Canarias                </td><td> 6</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Hombres</td><td>Menos de 25 años</td><td>Doctorado</td><td>Cantabria               </td><td> 1</td></tr>\n",
+              "</tbody>\n",
+              "</table>\n"
+            ],
+            "text/markdown": "\nA tibble: 6 × 10\n\n| Curso &lt;chr&gt; | Rama de enseñanza &lt;chr&gt; | Tipo universidad &lt;chr&gt; | Modalidad &lt;chr&gt; | Tipo centro &lt;chr&gt; | Sexo &lt;chr&gt; | Edad &lt;chr&gt; | Formacion &lt;chr&gt; | CCAA &lt;chr&gt; | Matriculaciones &lt;dbl&gt; |\n|---|---|---|---|---|---|---|---|---|---|\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Hombres | Menos de 25 años | Doctorado | Andalucía                | 40 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Hombres | Menos de 25 años | Doctorado | Aragón                   | 10 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Hombres | Menos de 25 años | Doctorado | Asturias (Principado de) |  2 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Hombres | Menos de 25 años | Doctorado | Balears (Illes)          |  3 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Hombres | Menos de 25 años | Doctorado | Canarias                 |  6 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Hombres | Menos de 25 años | Doctorado | Cantabria                |  1 |\n\n",
+            "text/latex": "A tibble: 6 × 10\n\\begin{tabular}{llllllllll}\n Curso & Rama de enseñanza & Tipo universidad & Modalidad & Tipo centro & Sexo & Edad & Formacion & CCAA & Matriculaciones\\\\\n <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <dbl>\\\\\n\\hline\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Hombres & Menos de 25 años & Doctorado & Andalucía                & 40\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Hombres & Menos de 25 años & Doctorado & Aragón                   & 10\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Hombres & Menos de 25 años & Doctorado & Asturias (Principado de) &  2\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Hombres & Menos de 25 años & Doctorado & Balears (Illes)          &  3\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Hombres & Menos de 25 años & Doctorado & Canarias                 &  6\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Hombres & Menos de 25 años & Doctorado & Cantabria                &  1\\\\\n\\end{tabular}\n",
+            "text/plain": [
+              "  Curso     Rama de enseñanza             Tipo universidad Modalidad \n",
+              "1 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
+              "2 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
+              "3 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
+              "4 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
+              "5 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
+              "6 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
+              "  Tipo centro Sexo    Edad             Formacion CCAA                    \n",
+              "1 Total       Hombres Menos de 25 años Doctorado Andalucía               \n",
+              "2 Total       Hombres Menos de 25 años Doctorado Aragón                  \n",
+              "3 Total       Hombres Menos de 25 años Doctorado Asturias (Principado de)\n",
+              "4 Total       Hombres Menos de 25 años Doctorado Balears (Illes)         \n",
+              "5 Total       Hombres Menos de 25 años Doctorado Canarias                \n",
+              "6 Total       Hombres Menos de 25 años Doctorado Cantabria               \n",
+              "  Matriculaciones\n",
+              "1 40             \n",
+              "2 10             \n",
+              "3  2             \n",
+              "4  3             \n",
+              "5  6             \n",
+              "6  1             "
+            ]
+          },
+          "metadata": {}
+        },
         {
           "output_type": "display_data",
           "data": {
@@ -876,17 +1018,17 @@
               "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
               "</thead>\n",
               "<tbody>\n",
-              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>España                 </td><td>Doctorado</td><td>Andalucía</td><td>1357</td></tr>\n",
-              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>Unión Europea(28)      </td><td>Doctorado</td><td>Andalucía</td><td> 223</td></tr>\n",
-              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>Resto de Europa        </td><td>Doctorado</td><td>Andalucía</td><td>  20</td></tr>\n",
-              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>EEUU y Canadá          </td><td>Doctorado</td><td>Andalucía</td><td>  12</td></tr>\n",
-              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>América Latina y Caribe</td><td>Doctorado</td><td>Andalucía</td><td> 622</td></tr>\n",
-              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>Norte de África        </td><td>Doctorado</td><td>Andalucía</td><td>  21</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>España</td><td>Doctorado</td><td>Andalucía               </td><td>1357</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>España</td><td>Doctorado</td><td>Aragón                  </td><td> 212</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>España</td><td>Doctorado</td><td>Asturias (Principado de)</td><td> 154</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>España</td><td>Doctorado</td><td>Balears (Illes)         </td><td>  82</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>España</td><td>Doctorado</td><td>Canarias                </td><td> 164</td></tr>\n",
+              "\t<tr><td>2020-2021</td><td>Ciencias Sociales y Jurídicas</td><td>Pública</td><td>Presencial</td><td>Total</td><td>Mujeres</td><td>España</td><td>Doctorado</td><td>Cantabria               </td><td>  29</td></tr>\n",
               "</tbody>\n",
               "</table>\n"
             ],
-            "text/markdown": "\nA tibble: 6 × 10\n\n| Curso &lt;chr&gt; | Rama de enseñanza &lt;chr&gt; | Tipo universidad &lt;chr&gt; | Modalidad &lt;chr&gt; | Tipo centro &lt;chr&gt; | Sexo &lt;chr&gt; | Nacionalidad &lt;chr&gt; | Formacion &lt;chr&gt; | CCAA &lt;chr&gt; | Matriculaciones &lt;dbl&gt; |\n|---|---|---|---|---|---|---|---|---|---|\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | España                  | Doctorado | Andalucía | 1357 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | Unión Europea(28)       | Doctorado | Andalucía |  223 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | Resto de Europa         | Doctorado | Andalucía |   20 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | EEUU y Canadá           | Doctorado | Andalucía |   12 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | América Latina y Caribe | Doctorado | Andalucía |  622 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | Norte de África         | Doctorado | Andalucía |   21 |\n\n",
-            "text/latex": "A tibble: 6 × 10\n\\begin{tabular}{llllllllll}\n Curso & Rama de enseñanza & Tipo universidad & Modalidad & Tipo centro & Sexo & Nacionalidad & Formacion & CCAA & Matriculaciones\\\\\n <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <dbl>\\\\\n\\hline\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & España                  & Doctorado & Andalucía & 1357\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & Unión Europea(28)       & Doctorado & Andalucía &  223\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & Resto de Europa         & Doctorado & Andalucía &   20\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & EEUU y Canadá           & Doctorado & Andalucía &   12\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & América Latina y Caribe & Doctorado & Andalucía &  622\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & Norte de África         & Doctorado & Andalucía &   21\\\\\n\\end{tabular}\n",
+            "text/markdown": "\nA tibble: 6 × 10\n\n| Curso &lt;chr&gt; | Rama de enseñanza &lt;chr&gt; | Tipo universidad &lt;chr&gt; | Modalidad &lt;chr&gt; | Tipo centro &lt;chr&gt; | Sexo &lt;chr&gt; | Nacionalidad &lt;chr&gt; | Formacion &lt;chr&gt; | CCAA &lt;chr&gt; | Matriculaciones &lt;dbl&gt; |\n|---|---|---|---|---|---|---|---|---|---|\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | España | Doctorado | Andalucía                | 1357 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | España | Doctorado | Aragón                   |  212 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | España | Doctorado | Asturias (Principado de) |  154 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | España | Doctorado | Balears (Illes)          |   82 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | España | Doctorado | Canarias                 |  164 |\n| 2020-2021 | Ciencias Sociales y Jurídicas | Pública | Presencial | Total | Mujeres | España | Doctorado | Cantabria                |   29 |\n\n",
+            "text/latex": "A tibble: 6 × 10\n\\begin{tabular}{llllllllll}\n Curso & Rama de enseñanza & Tipo universidad & Modalidad & Tipo centro & Sexo & Nacionalidad & Formacion & CCAA & Matriculaciones\\\\\n <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <chr> & <dbl>\\\\\n\\hline\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & España & Doctorado & Andalucía                & 1357\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & España & Doctorado & Aragón                   &  212\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & España & Doctorado & Asturias (Principado de) &  154\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & España & Doctorado & Balears (Illes)          &   82\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & España & Doctorado & Canarias                 &  164\\\\\n\t 2020-2021 & Ciencias Sociales y Jurídicas & Pública & Presencial & Total & Mujeres & España & Doctorado & Cantabria                &   29\\\\\n\\end{tabular}\n",
             "text/plain": [
               "  Curso     Rama de enseñanza             Tipo universidad Modalidad \n",
               "1 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
@@ -895,20 +1037,20 @@
               "4 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
               "5 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
               "6 2020-2021 Ciencias Sociales y Jurídicas Pública          Presencial\n",
-              "  Tipo centro Sexo    Nacionalidad            Formacion CCAA     \n",
-              "1 Total       Mujeres España                  Doctorado Andalucía\n",
-              "2 Total       Mujeres Unión Europea(28)       Doctorado Andalucía\n",
-              "3 Total       Mujeres Resto de Europa         Doctorado Andalucía\n",
-              "4 Total       Mujeres EEUU y Canadá           Doctorado Andalucía\n",
-              "5 Total       Mujeres América Latina y Caribe Doctorado Andalucía\n",
-              "6 Total       Mujeres Norte de África         Doctorado Andalucía\n",
+              "  Tipo centro Sexo    Nacionalidad Formacion CCAA                    \n",
+              "1 Total       Mujeres España       Doctorado Andalucía               \n",
+              "2 Total       Mujeres España       Doctorado Aragón                  \n",
+              "3 Total       Mujeres España       Doctorado Asturias (Principado de)\n",
+              "4 Total       Mujeres España       Doctorado Balears (Illes)         \n",
+              "5 Total       Mujeres España       Doctorado Canarias                \n",
+              "6 Total       Mujeres España       Doctorado Cantabria               \n",
               "  Matriculaciones\n",
               "1 1357           \n",
-              "2  223           \n",
-              "3   20           \n",
-              "4   12           \n",
-              "5  622           \n",
-              "6   21           "
+              "2  212           \n",
+              "3  154           \n",
+              "4   82           \n",
+              "5  164           \n",
+              "6   29           "
             ]
           },
           "metadata": {}
@@ -919,7 +1061,7 @@
       "cell_type": "markdown",
       "source": [
         "## 6. Transformación de variables \n",
-        "Una vez que tenemos generadas las tablas de trabajo, debemos transformar algunas de las variales a otros tipos más adecuados para futuras agregaciones o generación de nuevas variables. Para realizar esta acción recurriremos a las funciones [as.numeric()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/numeric) que permite transformar una cadena de caracteres a una variable de tipo numérico y [as.factor()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/factor), que permite transformar una cadena de caracteres a una variable de tipo categórico. En este último caso, para conocer la lista de valores que toma la variable y comprobar si finalemnte esta variable toma un número finito de valores usaremos la función  [unique()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/factor), que devuelve un vector con los valores que presenta la variable sin duplicados. "
+        "Una vez generadas las tablas anteriores, debemos **transformar algunas de las variables** a otros tipos más adecuados para futuras agregaciones o generación de nuevas variables. Para realizar esta acción recurriremos a las funciones [as.numeric()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/numeric) que permite transformar una cadena de caracteres a una variable de tipo numérico y [as.factor()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/factor), que permite transformar una cadena de caracteres a una variable de tipo categórico. En este último caso, para conocer la lista de valores que toma la variable y comprobar si finalemnte esta variable toma un número finito de valores usaremos la función  [unique()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/factor), que devuelve un vector con los valores que presenta la variable sin duplicados. "
       ],
       "metadata": {
         "id": "h1beM4N97uhV"
@@ -952,12 +1094,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 295
+          "height": 277
         },
         "id": "DU7xDyNt8z8O",
-        "outputId": "a00952b2-14f2-4e8d-8b7c-eaa429b4259d"
+        "outputId": "6014724b-1237-4174-fc93-9f4de929dcd9"
       },
-      "execution_count": null,
+      "execution_count": 100,
       "outputs": [
         {
           "output_type": "stream",
@@ -1139,6 +1281,15 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "Una de las salidas obtenidas nos indica que tenemos valores \"NA\" que de trataremos en la siguiente tarea."
+      ],
+      "metadata": {
+        "id": "UuzRukPUso0G"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
         "# Transformacion de variables en la tabla \"Matriculaciones_edad\". \n",
@@ -1156,7 +1307,7 @@
       "metadata": {
         "id": "X5vM_x86gbw-"
       },
-      "execution_count": null,
+      "execution_count": 103,
       "outputs": []
     },
     {
@@ -1177,7 +1328,7 @@
       "metadata": {
         "id": "1v6D8Iktcq8L"
       },
-      "execution_count": null,
+      "execution_count": 104,
       "outputs": []
     },
     {
