@@ -65,7 +65,7 @@ Si nos centramos en el último curso 2020-2021:
 
 ¡Vamos a buscar las respuestas viendo los datos!
 
-## Distribución de las matriculaciones en las universidades españolas desde el curso 2015-2016 hasta 2020-2021, desagregado por sexo y nivel académico. 
+### Distribución de las matriculaciones en las universidades españolas desde el curso 2015-2016 hasta 2020-2021, desagregado por sexo y nivel académico. 
 
 Esta representación visual la hemos realizado teniendo en cuenta las matriculaciones de Grado, Master y Doctorado. Una vez que hemos subido la tabla de datos a Datawrapper, hemos seleccionado el tipo de gráfico a realizar, en este caso un diagrama de barras apiladas (stacked bars) para poder reflejar por cada curso y sexo, las personas matriculadas en cada nivel académico. De esta forma podemos ver, además, el global de estudiantes matriculados por curso. A continuación, hemos seleccionado el tipo de variable a representar (Matriculaciones) y las variables de desagregación (Sexo y Curso). Una vez obtenido el gráfico, podemos modificar de forma muy sencilla la apariencia, modificando los colores, la descripción y la información que muestra cada eje, entre otras características. 
 
@@ -73,7 +73,7 @@ Esta representación visual la hemos realizado teniendo en cuenta las matriculac
 
 Para responder a las siguientes preguntas, nos centraremos en el alumnado de grado y en el curso 2020-2021, no obstante, las siguientes representaciones visuales pueden ser replicadas para el alumnado de Máster y Doctorado y para los diferentes cursos. 
 
-## Mapa de las universidades españolas georreferenciadas, donde se muestra el número de matriculados que presentan cada una de ellas. 
+### Mapa de las universidades españolas georreferenciadas, donde se muestra el número de matriculados que presentan cada una de ellas. 
 
 Para la realización del mapa hemos utilizado un listado de las [universidades españolas georreferenciadas](https://opendata.esri.es/datasets/ComunidadSIG::universidades-de-espa%C3%B1a/about) publicado por el [Portal de Datos Abiertos de Esri España](https://opendata.esri.es/). Una vez descargados los datos de las distintas áreas geográficas en formato GeoJSON, los transformamos en Excel, para poder realizar una unión entre el datasets de las universidades georreferenciadas y el dataset que presenta el número de matriculados por cada universidad que previamente hemos preprocesado. Para ello hemos utilizado la función [BUSCARV()](https://support.microsoft.com/es-es/office/funci%C3%B3n-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1) de Excel quenos permitira localizar determinados elementos en un rango de celdas de una tabla. 
 
@@ -83,16 +83,24 @@ A partir de este punto, Datawrapper  ha generado un mapa en el que se muestran l
 
 [![Matriculaciones en cada Universidad española](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones_universidades_mapa.png)](https://datawrapper.dwcdn.net/zsX4s/1/)
 
-## Ranking de matriculaciones por titulación
+### Ranking de matriculaciones por titulación
 
 Para esta representación gráfica utilizamos el objeto visual de Datawrapper tabla (Table) que muestra el número de matriculaciones que presenta cada una de las titulaciones impartidas durante el curso 2020-2021. Dado que el número de titulaciones es muy extenso, la herramienta nos ofrece la posibilidad de incluir un buscador que permite filtrar los resultados.
 
 [![Ranking de titulaciones](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Ranking-titulaciones.png)](https://datawrapper.dwcdn.net/ZDC2x/1/)
 
-## Distribución de matriculaciones por rama de enseñanza
+### Distribución de matriculaciones por rama de enseñanza
 
 Para esta representación visual, hemos seleccionado gráficos de sectores (Pie Chart), donde hemos representado el % de matriculaciones según sexo en cada una de las ramas de enseñanza en las cuales se dividen las titulaciones impartidas por las universidades (Ciencias Sociales y Jurídicas, Ciencias de la Salud, Artes y Humanidades, Ingeniería y Arquitectura y Ciencias). Al igual que en el resto de gráficos, podemos modificar el color del gráfico, en este caso en función de la rama de enseñanza. 
 
 [![Matriculados por rama de enseñanza](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-de-grado-por-rama.png)](https://www.datawrapper.de/_/0SXGq/)
+
+### Matriculaciones de Grado por edad y nacionalidad
+
+Para la realización de estas dos representaciones de datos visuales utilizamos diagramas de barras (Bar Chart), donde mostramos la distribución de matriculaciones en el primero, desagregada por sexo y edad y en el segundo, desagregada por sexo y nacionalidad. Al igual que los visuales anteriores, la herramienta facilita de forma sencilla la modificación de las características que presentan los gráficos. 
+
+[![Matriculados por sexo y edad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-de-grado-por-rama.png)](https://datawrapper.dwcdn.net/vUmiK/2/)
+
+[![Matriculados por sexo y nacionalidad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-de-grado-por-rama.png)](https://datawrapper.dwcdn.net/CzpEo/2/)
 
 
