@@ -83,4 +83,16 @@ A partir de este punto, Datawrapper  ha generado un mapa en el que se muestran l
 
 [![Matriculaciones en cada Universidad española](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones_universidades_mapa.png)](https://datawrapper.dwcdn.net/zsX4s/1/)
 
+## Ranking de matriculaciones por titulación
+
+Para esta representación gráfica utilizamos el objeto visual de Datawrapper tabla (Table) que muestra el número de matriculaciones que presenta cada una de las titulaciones impartidas durante el curso 2020-2021. Dado que el número de titulaciones es muy extenso, la herramienta nos ofrece la posibilidad de incluir un buscador que permite filtrar los resultados.
+
+[![Ranking de titulaciones]()](https://datawrapper.dwcdn.net/ZDC2x/1/)
+
+## Distribución de matriculaciones por rama de enseñanza
+
+Para esta representación visual, hemos seleccionado gráficos de sectores (Pie Chart), donde hemos representado el % de matriculaciones según sexo en cada una de las ramas de enseñanza en las cuales se dividen las titulaciones impartidas por las universidades (Ciencias Sociales y Jurídicas, Ciencias de la Salud, Artes y Humanidades, Ingeniería y Arquitectura y Ciencias). Al igual que en el resto de gráficos, podemos modificar el color del gráfico, en este caso en función de la rama de enseñanza. 
+
+[! [Matriculados por rama de enseñanza]()](https://www.datawrapper.de/_/0SXGq/)
+
 
