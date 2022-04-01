@@ -87,7 +87,7 @@ A partir de este punto, Datawrapper  ha generado un mapa en el que se muestran l
 
 Para esta representación gráfica utilizamos el objeto visual de Datawrapper tabla (Table) que muestra el número de matriculaciones que presenta cada una de las titulaciones impartidas durante el curso 2020-2021. Dado que el número de titulaciones es muy extenso, la herramienta nos ofrece la posibilidad de incluir un buscador que permite filtrar los resultados.
 
-[![Ranking de titulaciones]()](https://datawrapper.dwcdn.net/ZDC2x/1/)
+[![Ranking de titulaciones](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Ranking-titulaciones.png)](https://datawrapper.dwcdn.net/ZDC2x/1/)
 
 ## Distribución de matriculaciones por rama de enseñanza
 
