@@ -32,26 +32,46 @@ Como primer paso del proceso es necesario realizar un análisis exploratorio de 
 
 Los pasos que se siguen en esta fase de preprocesamiento son los siguientes:
 
-1.   Instalación y carga de librerías
-2.   Carga de datos
-3.   Cambio de nombre a las variables
-4.   Creación de tablas de trabajo
-5.   Conversión de varias variables en na única con diferentes factores 
-6.   Transformación de variables 
-7.   Detección y tratamiento de datos perdidos 
-8.   Creación de nuevas variables 
-9.   Resumen de la tabla
-10.  Guardar las tablas de trabajo 
+1. Instalación y carga de librerías
+2. Carga de archivos de datos de origen
+3. Creación de tablas de trabajo
+4. Ajuste del nombre de algunas variables
+5. Agrupación de varias variables en una única con diferentes factores
+6. Tansformación de variables
+7. Detección y tratamiento de datos ausentes (NAs)
+8. Creación de nuevas variables calculadas
+9. Resumen de las tablas transformadas
+10. Preparación de datos para su representación visual
+11. Almacenamiento de archivos con las tablas de datos preprocesados
 
-Podrás reproducir este análisis, ya que el código fuente está disponible en nuestra cuenta de GitHub. La forma de proporcionar el código es a través de un documento realizado sobre un Jupyter Notebook que una vez cargado en el entorno de desarrollo podrás ejecutar o modificar de manera sencilla. Debido al carácter divulgativo de este post y con el fin de favorecer el aprendizaje de lectores no especializados, el código no pretende ser el más eficiente, sino facilitar su comprensión por lo que posiblemente se te ocurrirán muchas formas de optimizar el código propuesto para lograr fines similares. ¡Te animamos a que lo hagas!
+Podrás reproducir este análisis, ya que el código fuente está disponible en este repositorio de GitHub. La forma de proporcionar el código es a través de un documento realizado sobre un Jupyter Notebook que una vez cargado en el entorno de desarrollo podrás ejecutar o modificar de manera sencilla. Debido al carácter divulgativo de este post y con el fin de favorecer el aprendizaje de lectores no especializados, el código no pretende ser el más eficiente, sino facilitar su comprensión por lo que posiblemente se te ocurrirán muchas formas de optimizar el código propuesto para lograr fines similares. ¡Te animamos a que lo hagas!
 
 Puedes seguir los pasos y ejecutar el código fuente sobre este [notebook en Google Colab](https://colab.research.google.com/github/Admindatosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/C%C3%B3digo/C%C3%B3difo_fuente.IPY)
 
 ## Visualizaciones de datos
 
-* Serie temporal de las matriculaciones en las universidades españolas desde el curso 2015-2016 hasta 2020-2021, desagregado por sexo y nivel académico. 
+Una vez realizado el preprocesamiento de los datos, vamos con la visualización. Para la realización de esta visualización interactiva usamos la herramienta Datawrapper en su versión gratuita. Se trata de una herramienta muy sencilla con especial aplicación en el periodismo de datos que te animamos a utilizar. Al ser una herramienta online, no es necesario tener instalado un software para interactuar o generar cualquier visualización, pero sí es necesario que la tabla de datos que le proporcionemos este estructurada adecuadamente. 
 
+Para abordar el proceso de diseño del conjunto de represetaciones visuales de los datos, el primer paso es plantearnos las preguntas que queremos resolver. Proponemos la siguientes:
+
+* ¿Cómo se está distribuyendo el número de hombres y mujeres entre los alumnos matriculados de Grado, Máster y Doctorado a lo largo de los últimos cursos?
+
+Si nos centramos en el último curso 2020-2021:
+
+*	¿Cuáles son las ramas de enseñanza más demandadas en las universidades españolas? ¿Y las titulaciones? 
+*	¿Cuáles son las universidades con mayor número de matriculaciones y donde se ubican? 
+*	¿En qué rangos de edad se encuentra el alumnado universitario de Grado? 
+*	¿Cuál es la nacionalidad de los estudiantes de Grado de las universidades españolas?
+
+¡Vamos a buscar las respuestas viendo los datos!
+
+* Distribución de las matriculaciones en las universidades españolas desde el curso 2015-2016 hasta 2020-2021, desagregado por sexo y nivel académico. 
+
+Esta representación visual la hemos realizado teniendo en cuenta las matriculaciones de Grado, Master y Doctorado. Una vez que hemos subido la tabla de datos a Datawrapper, hemos seleccionado el tipo de gráfico a realizar, en este caso un diagrama de barras apiladas (stacked bars) para poder reflejar por cada curso y sexo, las personas matriculadas en cada nivel académico. De esta forma podemos ver, además, el global de estudiantes matriculados por curso. A continuación, hemos seleccionado el tipo de variable a representar (Matriculaciones) y las variables de desagregación (Sexo y Curso). Una vez obtenido el gráfico, podemos modificar de forma muy sencilla la apariencia, modificando los colores, la descripción y la información que muestra cada eje, entre otras características. 
+
+<p align="center">
 [![Serie matriculaciones sexo y nivel académico](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Serie-matriculaciones-por-sexo-y-curso-en-las-universidades.png)](https://datawrapper.dwcdn.net/tBkIx/6/)
+</p>
 
 * Mapa de las universidades españolas georreferenciadas, donde se muestra el número de matriculados que presentan cada una de ellas. 
 * 
