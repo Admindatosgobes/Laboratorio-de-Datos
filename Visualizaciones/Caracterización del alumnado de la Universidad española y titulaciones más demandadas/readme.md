@@ -81,6 +81,6 @@ Antes de subir el conjunto de datos a Datawrapper, debemos seleccionar la capa q
 
 A partir de este punto, Datawrapper  ha generado un mapa en el que se muestran las ubicaciones de cada una de las universidades. Ahora podemos modificar el mapa según nuestras preferencias y ajustes. En este caso, haremos que el tamaño de los puntos y el color dependa del número de matriculaciones que presente cada universidad. Además, para que estos datos se muestren, en la pestaña “Annotate”, en la sección “Tooltips”, debemos indicarle las variables o el texto que deseemos que aparezca. 
 
-[![Matriculaciones en cada Universidad española](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones_universidades_mapa.png)](https://datawrapper.dwcdn.net/zsX4s/1/)
+[![Matriculaciones en cada Universidad española](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones_universidades_mapa.png)](https://datawrapper.dwcdn.net/zsX4s/1/)
 
 
