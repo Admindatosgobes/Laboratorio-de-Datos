@@ -93,6 +93,6 @@ Para esta representación gráfica utilizamos el objeto visual de Datawrapper ta
 
 Para esta representación visual, hemos seleccionado gráficos de sectores (Pie Chart), donde hemos representado el % de matriculaciones según sexo en cada una de las ramas de enseñanza en las cuales se dividen las titulaciones impartidas por las universidades (Ciencias Sociales y Jurídicas, Ciencias de la Salud, Artes y Humanidades, Ingeniería y Arquitectura y Ciencias). Al igual que en el resto de gráficos, podemos modificar el color del gráfico, en este caso en función de la rama de enseñanza. 
 
-[![Matriculados por rama de enseñanza](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-de-grado-por-rama-de-ense-anza.png)](https://www.datawrapper.de/_/0SXGq/)
+[![Matriculados por rama de enseñanza](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-de-grado-por-rama.png)](https://www.datawrapper.de/_/0SXGq/)
 
 
