@@ -101,6 +101,6 @@ Para la realización de estas dos representaciones de datos visuales utilizamos 
 
 [![Matriculados por sexo y edad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-grado-sexo-edad.png)](https://datawrapper.dwcdn.net/vUmiK/2/)
 
-[![Matriculados por sexo y nacionalidad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-de-grado-por-rama.png)](https://datawrapper.dwcdn.net/CzpEo/2/)
+[![Matriculados por sexo y nacionalidad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-grado-sexo-nacionalidad.png)](https://datawrapper.dwcdn.net/CzpEo/2/)
 
 
