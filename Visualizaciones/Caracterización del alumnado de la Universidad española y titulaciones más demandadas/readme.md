@@ -99,7 +99,7 @@ Para esta representación visual, hemos seleccionado gráficos de sectores (Pie 
 
 Para la realización de estas dos representaciones de datos visuales utilizamos diagramas de barras (Bar Chart), donde mostramos la distribución de matriculaciones en el primero, desagregada por sexo y edad y en el segundo, desagregada por sexo y nacionalidad. Al igual que los visuales anteriores, la herramienta facilita de forma sencilla la modificación de las características que presentan los gráficos. 
 
-[![Matriculados por sexo y edad](x-github-client://openRepo/https://github.com/Admindatosgobes/Laboratorio-de-Datos?branch=main&filepath=Visualizaciones%2FCaracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas%2FImagenes%2FMatriculaciones-grado-sexo-edad.png)](https://datawrapper.dwcdn.net/vUmiK/2/)
+[![Matriculados por sexo y edad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-grado-sexo-edad.png)](https://datawrapper.dwcdn.net/vUmiK/2/)
 
 [![Matriculados por sexo y nacionalidad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-de-grado-por-rama.png)](https://datawrapper.dwcdn.net/CzpEo/2/)
 
