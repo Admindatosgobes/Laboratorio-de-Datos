@@ -102,9 +102,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "c4c541d1-9c52-4c3f-d34f-600c3721c426"
+        "outputId": "9390386a-28b4-4be6-bee7-6380859e66ed"
       },
-      "execution_count": null,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
@@ -572,7 +572,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "Seleccionamos las variables que nos interesa conservar en cada una de las tablas con la función [select()](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8/topics/select). En este caso, conservaremos todas, excepto la variable “Nivel académico” de las tablas de “Matriculaciones_grado_edad” y “Matriculaciones_grado_nacionalidad."
+        "Seleccionamos las variables que nos interesa conservar en cada una de las tablas con la función [select()](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8/topics/select). En este caso, conservaremos todas, excepto la variable “Nivel académico” de las tablas de “Matriculaciones_grado_edad” y “Matriculaciones_grado_nacionalidad.  Esta varaible solo esta presente en esos conjuntos de datos y no aporta información relevante porque todos sus valores son \"Total\". Además, para realizar la unión entre las tablas de trabajo, es necesario que todos los conjuntos de datos tengan las mismas variables. "
       ],
       "metadata": {
         "id": "ZOlvaNOTHq1Z"
@@ -911,6 +911,29 @@
           "metadata": {}
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "En la tabla de Titulaciones, tambien hemos detectado un error en los datos de la variable \"Titulación\". Algunos de los datos están clasificados para esa variable con el valor \"#VALORMÚLTIP\". Para no inducir a errores, renombraremos a estos datos con el valor \"Sin determinar\" con la función [mutate()](https://dplyr.tidyverse.org/reference/mutate.html). "
+      ],
+      "metadata": {
+        "id": "Z2yuMP_4yaM6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Titulaciones <- Titulaciones %>% \n",
+        "    mutate(Titulacion = ifelse(Titulacion == \"#VALORMÚLTIP\", \"Sin determinar\", Titulacion))\n",
+        "\n",
+        "filter(Titulaciones, Titulacion == \"Sin determinar\")"
+      ],
+      "metadata": {
+        "id": "XbfNyG_5yZZS"
+      },
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
@@ -1727,10 +1750,10 @@
         "\n",
         "Las **principales características** que presentan estas tablas son:\n",
         "\n",
-        "- La tabla de “Titulaciones” con 24528 celdas:\n",
+        "- La tabla de “Titulaciones”:\n",
         "\t- está compuesta por 10 variables: 5 categóricas y 5 numéricas,\n",
         "\t- los datos que se recogen son desde el curso 2015-2016 hasta 2020-2021.\n",
-        "- Las tablas de “Matriculaciones_edad” con 69.120 celdas y “Matriculaciones_nacionalidad\" con 51.820 celdas:\n",
+        "- Las tablas de “Matriculaciones_edad” y “Matriculaciones_nacionalidad\":\n",
         "\t- están compuestas por 10 variables cada una: 9 categóricas y 1 numérica,\n",
         "\t- los datos que se recogen son desde el curso 2015-2016 hasta 2020-2021.\n"
       ],
