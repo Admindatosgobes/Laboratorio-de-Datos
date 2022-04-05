@@ -52,7 +52,7 @@ Puedes seguir los pasos y ejecutar el código fuente sobre este [notebook en Goo
 
 Una vez realizado el preprocesamiento de los datos, vamos con la visualización. Para la realización de esta visualización interactiva usamos la herramienta Datawrapper en su versión gratuita. Se trata de una herramienta muy sencilla con especial aplicación en el periodismo de datos que te animamos a utilizar. Al ser una herramienta online, no es necesario tener instalado un software para interactuar o generar cualquier visualización, pero sí es necesario que la tabla de datos que le proporcionemos este estructurada adecuadamente. 
 
-Para abordar el proceso de diseño del conjunto de represetaciones visuales de los datos, el primer paso es plantearnos las preguntas que queremos resolver. Proponemos la siguientes:
+Para abordar el proceso de diseño del conjunto de representaciones visuales de los datos, el primer paso es plantearnos las preguntas que queremos resolver. Proponemos las siguientes:
 
 * ¿Cómo se está distribuyendo el número de hombres y mujeres entre los alumnos matriculados de Grado, Máster y Doctorado a lo largo de los últimos cursos?
 
