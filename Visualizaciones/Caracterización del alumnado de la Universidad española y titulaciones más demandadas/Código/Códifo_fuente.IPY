@@ -5,7 +5,8 @@
     "colab": {
       "name": "Caracterizacion_alumnado_universidades_españolas_y_titulaciones.ipynb",
       "provenance": [],
-      "collapsed_sections": []
+      "collapsed_sections": [],
+      "toc_visible": true
     },
     "kernelspec": {
       "name": "ir",
@@ -104,7 +105,7 @@
         },
         "outputId": "9390386a-28b4-4be6-bee7-6380859e66ed"
       },
-      "execution_count": 1,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -915,7 +916,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "En la tabla de Titulaciones, tambien hemos detectado un error en los datos de la variable \"Titulación\". Algunos de los datos están clasificados para esa variable con el valor \"#VALORMÚLTIP\". Para no inducir a errores, renombraremos a estos datos con el valor \"Sin determinar\" con la función [mutate()](https://dplyr.tidyverse.org/reference/mutate.html). "
+        "En la tabla de Titulaciones, tambien hemos detectado un error en los datos de la variable \"Titulación\". Algunos de los datos están clasificados para esa variable con el valor \"#VALORMÚLTIP\". Se trata de una **mala codificación en los datos de origen**, algo que puede ser habitual en muchas fuentes de datos. En estos casos, como buena práctica en la reutilización de datos, recomendamos comunicar esta indicencia al organismo publicador para su corrección. En nuestro caso, así lo hemos hecho. En este ejercicio, y para no inducir a errores, renombraremos a estos datos con el valor \"Sin determinar\" con la función [mutate()](https://dplyr.tidyverse.org/reference/mutate.html). "
       ],
       "metadata": {
         "id": "Z2yuMP_4yaM6"
@@ -1970,7 +1971,9 @@
       "source": [
         "Una vez generados los archivos, en el menú desplegable de la izquierda de esta pantalla, en la sección \"Archivos\" (el icono de la carpeta), encontraremos los archivos que acabamos de guardar dentro de la carpeta \"sample_data\". Usando el menú contextual, los ficheros pueden ser descargados. \n",
         "\n",
-        "No obstante, dispones de estos conjuntos de datos preprocesados en la [página de esta visualización que tienes en el GitHub de datos.gob.es](https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Datos%20preprocesados).\n"
+        "No obstante, dispones de estos conjuntos de datos preprocesados en [esta carpeta del Laboratorio de datos del GitHub de datos.gob.es](https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Datos%20preprocesados).\n",
+        "\n",
+        "A contintuación, puedes seguir los siguientes pasos para **visualizar los datos que acabamos de proprocesar utilizando la herramienta Datawrapper** en el post [Caracterización del alumnado de la Universidad española y titulaciones más demandadas](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas#visualizaciones-de-datos)"
       ],
       "metadata": {
         "id": "r4cSoKSdEOas"
