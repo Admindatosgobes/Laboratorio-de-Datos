@@ -101,4 +101,17 @@ Para la realización de estas dos representaciones de datos visuales utilizamos 
 
 [![Matriculados por sexo y nacionalidad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-grado-sexo-nacionalidad.png)](https://www.datawrapper.de/_/CzpEo/)[![Matriculados por sexo y edad](https://github.com/Admindatosgobes/Laboratorio-de-Datos/raw/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas/Imagenes/Matriculaciones-grado-sexo-edad.png)](https://www.datawrapper.de/_/vUmiK/)
 
+## Conclusiones
 
+La visualización de datos es uno de los mecanismos más potentes para **explotar y analizar el significado implícito de los datos, independientemente del tipo de dato y el grado de conocimiento tecnológico del usuario.** Las visualizaciones nos permiten construir significado sobre los datos y la creación de narrativas basadas en la representación gráfica. En el conjunto de representaciones gráficas de datos que acabamos de implamentar se puede observar lo siguiente:
+
+* El número de matriculaciones aumenta a lo largo de los cursos académicos independientemente del nivel académico (Grado, Máster o Doctorado).
+* El número de mujeres matriculadas es mayor que el de hombres en Grado y Máster, sin embargo es menor en el caso de las matriculaciones de doctorado, excepto en el curso 2019-2020.
+* La mayor concentración de universidades la encontramos en la Comunidad de Madrid, seguido de la Comunidad Autónoma de Cataluña. 
+* La universidad que concentra mayor número de matriculaciones durante el curso 2020-2021 es la UNED (Universidad Nacional de Educación a Distancia) con 146.208 matriculaciones, seguida de la Universidad Complutense de Madrid con 57.308 matriculaciones y la Universidad de Sevilla con 52.156. 
+* La titulación más demandada el curso 2020-2021 es el Grado en Derecho con 82.552 alumnos a nivel nacional, seguido del Grado de Psicología con 75.738 alumnos y sin apenas diferencia, el Grado en Administración y Dirección de Empresas con 74.284 alumnos. 
+* La rama de enseñanza con mayor concentración de alumnos es Ciencias Sociales y Jurídicas, mientras que la menos demandada es la rama de Ciencias. 
+* Las nacionalidades que más representación tienen en la universidad española son de la región de la unión europea, seguido de los países de América Latina y Caribe, a expensas de la española.
+* El rango de edad entre los 18 y 21 años es el más representado en el alumnado de las universidades españolas. 
+
+Esperemos que esta visualización paso a paso te haya resultado útil para el aprendizaje de algunas técnicas muy habituales en el tratamiento y representación de datos abiertos. Volveremos para mostraros nuevas reutilizaciones. ¡Hasta pronto!
