@@ -1,0 +1,387 @@
+cuenca_hidrografica,embalse_nombre,porcentaje_medio_10
+Cantábrico Occidental,Alfilorios,78.23
+Cantábrico Occidental,Alsa - Mediajo,75.42
+Cantábrico Occidental,Arbón,90.86
+Cantábrico Occidental,"Barca, La",71.72
+Cantábrico Occidental,"Cohilla, La",41.83
+Cantábrico Occidental,Doiras,84.82
+Cantábrico Occidental,Rioseco,76.01
+Cantábrico Occidental,Salime,71.13
+Cantábrico Occidental,Somiedo (Lagos),37.17
+Cantábrico Occidental,Tanes,78.7
+Cantábrico Oriental,Añarbe,76.81
+Cantábrico Oriental,Ibiur,82.54
+Cantábrico Oriental,Ordunte,82.0
+Cantábrico Oriental,San Antón,93.91
+Cuenca Mediterránea Andaluza,Benínar,13.05
+Cuenca Mediterránea Andaluza,Béznar,74.56
+Cuenca Mediterránea Andaluza,Casasola,52.69
+Cuenca Mediterránea Andaluza,Charco Redondo,54.99
+Cuenca Mediterránea Andaluza,Concepción,71.47
+Cuenca Mediterránea Andaluza,Conde Guadalhorce,64.39
+Cuenca Mediterránea Andaluza,Cuevas de Almanzora,12.12
+Cuenca Mediterránea Andaluza,Guadalhorce-Guadalteba,71.66
+Cuenca Mediterránea Andaluza,Guadarranque,64.15
+Cuenca Mediterránea Andaluza,Limonero,46.86
+Cuenca Mediterránea Andaluza,Rules,74.94
+Cuenca Mediterránea Andaluza,"Viñuela, La",52.25
+Cuencas Internas de Cataluña,Boadella,65.34
+Cuencas Internas de Cataluña,Catllar,3.54
+Cuencas Internas de Cataluña,La Baells,82.37
+Cuencas Internas de Cataluña,La Llosa del Cavall,81.67
+Cuencas Internas de Cataluña,Riudecanyes,50.84
+Cuencas Internas de Cataluña,Sant Pons,93.52
+Cuencas Internas de Cataluña,Sau,71.53
+Cuencas Internas de Cataluña,Susqueda,79.86
+Cuencas Internas del País Vasco,Ibai-Eder,81.37
+Cuencas Internas del País Vasco,Urkulu,84.12
+Duero,"Agavanzal, Nª Sª de",83.34
+Duero,Aguilar,55.4
+Duero,Aldeadávila,94.05
+Duero,Almendra,65.52
+Duero,Arlanzón,79.37
+Duero,Barrios de Luna,56.66
+Duero,Burgomillodo,72.24
+Duero,Camporredondo,52.75
+Duero,Casares de Arbas,62.33
+Duero,Castro,90.43
+Duero,Castro de las Cogotas,55.6
+Duero,Cernadilla,48.2
+Duero,Cervera,61.89
+Duero,Compuerto,57.51
+Duero,Cuerda del Pozo,66.48
+Duero,Linares del Arroyo,61.86
+Duero,"Pontón Alto, El",88.12
+Duero,Porma-(Juan Benet),59.0
+Duero,Puente Porto,27.37
+Duero,Requejada,47.06
+Duero,Riaño,62.88
+Duero,Ricobayo,56.1
+Duero,Rábanos,100.0
+Duero,San José,100.0
+Duero,Santa Teresa,68.06
+Duero,Saucelle,97.18
+Duero,Serones,63.25
+Duero,Valparaíso,89.97
+Duero,"Vencías, Las",93.79
+Duero,Villagonzalo,100.0
+Duero,Villalcampo,93.29
+Duero,Villameca,54.4
+Duero,Águeda,60.76
+Duero,Úzquiza,64.77
+Ebro,Albiña,71.76
+Ebro,Alcañiz (Estanca),72.22
+Ebro,Alloz,62.83
+Ebro,Barasona,69.23
+Ebro,Baserca,59.01
+Ebro,Búbal,50.36
+Ebro,Calanda,57.28
+Ebro,Camarasa,71.04
+Ebro,Canelles,65.98
+Ebro,Caspe,52.5
+Ebro,Cavallers,61.69
+Ebro,Certescáns,75.53
+Ebro,Ciurana,66.95
+Ebro,Cueva Foradada,63.07
+Ebro,Ebro,68.15
+Ebro,Enciso,45.79
+Ebro,Escales,72.93
+Ebro,Eúgui,76.04
+Ebro,González Lacasa,58.65
+Ebro,"Grado, El",86.06
+Ebro,Guiamets,54.14
+Ebro,Ip,54.02
+Ebro,Irabia,62.44
+Ebro,Itoiz,59.69
+Ebro,Lanuza,55.68
+Ebro,Las Fitas,78.33
+Ebro,Laverné,69.82
+Ebro,Lechago,54.19
+Ebro,Llauset,65.81
+Ebro,Loteta (La),33.2
+Ebro,Maidevera,60.94
+Ebro,Mansilla,62.31
+Ebro,Mediano,59.81
+Ebro,Mequinenza,77.8
+Ebro,Moneva,29.21
+Ebro,Monteagudo,44.67
+Ebro,Montearagón,22.78
+Ebro,Nagore,92.0
+Ebro,Oliana,69.07
+Ebro,Pajares,55.25
+Ebro,Parras (Las),80.0
+Ebro,Pena,68.17
+Ebro,"Peña, La",77.02
+Ebro,Puente de Santolea,81.08
+Ebro,Rialb,71.42
+Ebro,Ribarroja,95.89
+Ebro,Sallente,33.49
+Ebro,San Bartolomé,29.57
+Ebro,San Lorenzo,90.0
+Ebro,San Salvador,87.12
+Ebro,Santa Ana,63.03
+Ebro,Santa María de Belsué,13.76
+Ebro,Santolea,48.77
+Ebro,Sistema Aguas Limpias,48.1
+Ebro,Sistema Alto Caldarés,41.59
+Ebro,Sistema Capdella,60.0
+Ebro,Sistema Escarra,59.85
+Ebro,Sistema Lagos Espot,89.21
+Ebro,Sistema Valle de Arán,53.04
+Ebro,Sobrón,88.41
+Ebro,Sotonera,71.28
+Ebro,Terradets,94.74
+Ebro,Terroba,12.5
+Ebro,"Torcas, Las",57.61
+Ebro,"Tranquera, La",59.4
+Ebro,Tremp ó Talárn,68.82
+Ebro,Ullivarri,78.03
+Ebro,Urdalur,74.53
+Ebro,Urdiceto,39.85
+Ebro,Urrunaga,70.96
+Ebro,Vadiello,69.34
+Ebro,"Val, El",74.08
+Ebro,Valdepatao,15.64
+Ebro,Yesa,62.54
+Galicia Costa,Barrie de la Maza,50.04
+Galicia Costa,Cecebre,68.89
+Galicia Costa,Eiras,87.37
+Galicia Costa,Eume,83.57
+Galicia Costa,Fervenza,61.88
+Galicia Costa,"Forcadas, As",78.63
+Galicia Costa,Portodemouros,72.97
+Galicia Costa,"Ribeira, A",78.12
+Galicia Costa,Riocobo,68.84
+Galicia Costa,Sta Uxia,77.02
+Galicia Costa,Villagudín,80.99
+Guadalete-Barbate,Almodóvar,58.78
+Guadalete-Barbate,Arcos de la Frontera,94.69
+Guadalete-Barbate,Barbate,57.17
+Guadalete-Barbate,Bornos,51.33
+Guadalete-Barbate,Celemín,57.19
+Guadalete-Barbate,Guadalcacín II,62.11
+Guadalete-Barbate,"Hurones, Los",66.73
+Guadalete-Barbate,Zahara-El Gastor,74.18
+Guadalquivir,Agrio (Aznalcollar),68.44
+Guadalquivir,Aguascebas,77.27
+Guadalquivir,Alcalá del Río,85.0
+Guadalquivir,Aracena,73.54
+Guadalquivir,Arenoso,50.94
+Guadalquivir,Bembézar,62.44
+Guadalquivir,Bermejales,61.23
+Guadalquivir,"Bolera, La",49.84
+Guadalquivir,"Breña II, La",52.88
+Guadalquivir,Cala,48.86
+Guadalquivir,Canales,65.67
+Guadalquivir,Cantillana,100.0
+Guadalquivir,"Carpio, El",96.15
+Guadalquivir,Colomera,59.36
+Guadalquivir,Cordobilla,100.0
+Guadalquivir,Cubillas,69.34
+Guadalquivir,Derivación Retortillo,99.04
+Guadalquivir,Doña Aldonza,100.0
+Guadalquivir,El Portillo,83.59
+Guadalquivir,Encinarejo,81.54
+Guadalquivir,"Fernandina, La",56.33
+Guadalquivir,Francisco Abellán,52.83
+Guadalquivir,Fresneda,68.91
+Guadalquivir,Gergal,81.24
+Guadalquivir,Giribaile,47.55
+Guadalquivir,Guadalmellato,64.7
+Guadalquivir,Guadalmena,62.3
+Guadalquivir,Guadalén,53.19
+Guadalquivir,Hornachuelos,96.15
+Guadalquivir,Huesna,71.9
+Guadalquivir,Iznájar,57.48
+Guadalquivir,José Torán,58.54
+Guadalquivir,Jándula,53.48
+Guadalquivir,Malpasillo ( Jauja ),100.0
+Guadalquivir,Marmolejo,91.54
+Guadalquivir,Martín Gonzalo,70.33
+Guadalquivir,"Melonares, Los",85.25
+Guadalquivir,"Minilla, La",76.76
+Guadalquivir,Montoro,76.54
+Guadalquivir,Negratín,54.41
+Guadalquivir,Pedro Marín,96.76
+Guadalquivir,"Pintado, El",68.49
+Guadalquivir,Puebla de Cazalla,40.58
+Guadalquivir,Puente Nuevo,55.42
+Guadalquivir,Quiebrajano,57.26
+Guadalquivir,Quéntar,70.92
+Guadalquivir,Retortillo,65.96
+Guadalquivir,Rumblar,57.42
+Guadalquivir,San Clemente,18.66
+Guadalquivir,San Rafael de Navallana,54.12
+Guadalquivir,Sierra Boyera,66.26
+Guadalquivir,Siles,72.25
+Guadalquivir,Torre del Águila,36.94
+Guadalquivir,Tranco de Beas,61.58
+Guadalquivir,Vadomojón,55.73
+Guadalquivir,Víboras,48.75
+Guadalquivir,Yeguas,54.83
+Guadalquivir,Zocueca,20.0
+Guadalquivir,Zufre,77.59
+Guadiana,"Aguijón, El",89.27
+Guadiana,Alange,50.94
+Guadiana,Alcollarín,25.0
+Guadiana,Andévalo,74.66
+Guadiana,Boquerón,75.32
+Guadiana,Brovales,77.12
+Guadiana,Búrdalo,18.99
+Guadiana,Canchales,69.45
+Guadiana,Cancho del Fresno,73.28
+Guadiana,Castilseras,88.52
+Guadiana,Chanza,58.62
+Guadiana,Cijara,54.13
+Guadiana,Cornalbo,10.64
+Guadiana,Cubilar,37.91
+Guadiana,El Vicario,48.47
+Guadiana,García de Sola,56.48
+Guadiana,Gargáligas,68.87
+Guadiana,Gasset,42.98
+Guadiana,Horno Tejero,86.61
+Guadiana,La Cabezuela,56.3
+Guadiana,La Serena,56.61
+Guadiana,Llerena,80.55
+Guadiana,Los Molinos,86.09
+Guadiana,Montijo,89.15
+Guadiana,Nogales,83.03
+Guadiana,Orellana,72.45
+Guadiana,Peñarroya,78.21
+Guadiana,Piedra Aguda,66.74
+Guadiana,Proserpina,83.66
+Guadiana,Pto. Vallehermoso,76.6
+Guadiana,Ruecas,68.33
+Guadiana,Sierra Brava,65.34
+Guadiana,Tentudia,68.47
+Guadiana,Torre de Abrahán,41.65
+Guadiana,Valuengo,74.31
+Guadiana,Vega del Jabalón,49.76
+Guadiana,Villalba de los Barros,72.13
+Guadiana,Villar del Rey,68.67
+Guadiana,Zújar,81.3
+Júcar,Alarcón,50.18
+Júcar,Algar,3.23
+Júcar,Amadorio,42.41
+Júcar,Arenós,42.22
+Júcar,Arquillo de San Blas,71.06
+Júcar,Bellús,17.73
+Júcar,Benagéber,51.12
+Júcar,Beniarrés,53.0
+Júcar,Buseo,40.28
+Júcar,Contreras,36.5
+Júcar,Cortes II,91.3
+Júcar,El Naranjero,71.84
+Júcar,Escalona,4.94
+Júcar,Forata,25.42
+Júcar,Guadalest,54.66
+Júcar,La Muela,56.75
+Júcar,La Toba,52.72
+Júcar,Loriguilla,29.6
+Júcar,María Cristina,29.66
+Júcar,Regajo,63.38
+Júcar,Sichar,68.26
+Júcar,Tous - La Ribera,28.55
+Júcar,Ulldecona,50.77
+Miño - Sil,Albarellos,42.6
+Miño - Sil,Bao,72.58
+Miño - Sil,Belesar,58.79
+Miño - Sil,Bárcena,59.36
+Miño - Sil,"Campañana, La",64.11
+Miño - Sil,Castrelo,86.72
+Miño - Sil,Cenza,60.08
+Miño - Sil,Chandrexa,58.33
+Miño - Sil,"Conchas, Las",57.19
+Miño - Sil,Edrada-Mao,53.19
+Miño - Sil,Frieira,88.8
+Miño - Sil,Guístolas,65.06
+Miño - Sil,Matalavilla,53.66
+Miño - Sil,Montefurado,92.3
+Miño - Sil,"Peares, Os",96.11
+Miño - Sil,Peñarrubia,85.62
+Miño - Sil,"Portas, Las",69.13
+Miño - Sil,Prada,72.29
+Miño - Sil,Pías (San Agustín),62.95
+Miño - Sil,"Rozas, Las",51.35
+Miño - Sil,Salas,44.4
+Miño - Sil,San Martiño,89.46
+Miño - Sil,San Pedro,76.12
+Miño - Sil,San Sebastián,54.58
+Miño - Sil,San. Estevo,84.79
+Miño - Sil,Santa Eulalia,77.78
+Miño - Sil,Sequeiros,90.96
+Miño - Sil,Velle,79.14
+Miño - Sil,Vilasouto,57.36
+Segura,Alfonso XIII,24.63
+Segura,Algeciras,36.8
+Segura,Anchuricas,88.09
+Segura,Argos,68.85
+Segura,Camarillas,46.56
+Segura,Cenajo,48.58
+Segura,"Cierva, La",53.45
+Segura,Crevillente,41.42
+Segura,Fuensanta,37.22
+Segura,La Pedrera,41.32
+Segura,Puentes,33.3
+Segura,Santomera,10.47
+Segura,Taibilla,51.92
+Segura,Talave,48.19
+Segura,Valdeinfierno,5.82
+Tajo,Aceña,63.4
+Tajo,Alcorlo,44.82
+Tajo,Alcántara,66.84
+Tajo,Almoguera,84.64
+Tajo,"Atance, El",37.76
+Tajo,"Atazar, El",77.95
+Tajo,Azután,68.17
+Tajo,Baños,68.49
+Tajo,Beleña,64.87
+Tajo,Bolarque,84.17
+Tajo,Borbollon,58.31
+Tajo,Buendía,20.86
+Tajo,Burguillo - Puente Nuevo,59.99
+Tajo,Castrejón,93.36
+Tajo,"Castro, El",26.25
+Tajo,Cazalegas,98.03
+Tajo,Cedillo,93.29
+Tajo,Cáceres - Guadiloba,57.89
+Tajo,Entrepeñas,31.55
+Tajo,Finisterre,17.27
+Tajo,Gabriel y Galán,52.31
+Tajo,Guajaraz,71.85
+Tajo,Guijo de Granadilla,87.71
+Tajo,"Jarosa, La",65.19
+Tajo,Jerte - Plasencia,67.95
+Tajo,Molino de Chincha,92.62
+Tajo,Navacerrada,60.4
+Tajo,Navalcán,72.71
+Tajo,Navamuño,64.29
+Tajo,"Pardo, El",32.38
+Tajo,Picadas,96.12
+Tajo,Pinilla,71.38
+Tajo,Portaje,60.39
+Tajo,"Portiña, La",37.39
+Tajo,Puentes Viejas,78.33
+Tajo,Pálmaces,52.74
+Tajo,Riosequillo,77.14
+Tajo,Rivera de Gata,65.48
+Tajo,Rosarito,61.77
+Tajo,Salor,47.62
+Tajo,San Juan,60.95
+Tajo,Santillana,73.67
+Tajo,"Tajera, La",36.64
+Tajo,Torcón,42.69
+Tajo,Torrejón (Tajo - Tietar),87.45
+Tajo,"Vado, El",48.38
+Tajo,Valdecañas,54.92
+Tajo,Valdeobispo,92.62
+Tajo,Valmayor,67.61
+Tajo,"Vellón,El-(Pedrezuela)",69.4
+Tajo,"Villar, El",86.61
+"Tinto, Odiel y Piedras",Corumbel Bajo,61.16
+"Tinto, Odiel y Piedras",Jarrama,83.65
+"Tinto, Odiel y Piedras",Los Machos,67.07
+"Tinto, Odiel y Piedras",Odiel,87.6
+"Tinto, Odiel y Piedras",Olivargas,98.45
+"Tinto, Odiel y Piedras",Piedras,65.55
+"Tinto, Odiel y Piedras",Sancho,82.76
