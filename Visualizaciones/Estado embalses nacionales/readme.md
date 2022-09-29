@@ -55,12 +55,12 @@ Una vez instalada la herramienta en nuestro ordenador, al ejecutarse se abrirá 
 Pasos a seguir: 
 
 ### Paso 1: Carga del CSV en el sistema (Figura 1). 
-Figura 1 - Carga de un archivo CSV en OpenRefine 
+[Figura 1 - Carga de un archivo CSV en OpenRefine](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Estado%20embalses%20nacionales/Im%C3%A1genes/Figura%201.jpg) 
 
 ### Paso 2: Creación del proyecto a partir del CSV cargado (Figura 2).
 OpenRefine se gestiona mediante proyectos (cada CSV subido será un proyecto), que se guardan en el ordenador dónde se esté ejecutando OpenRefine para un posible uso posterior. En este paso debemos dar un nombre al proyecto y algunos otros datos, como el separador de columnas, aunque lo más habitual es que estos últimos ajustes se rellenen automáticamente. 
  
-Figura 2 - Creación de un proyecto en OpenRefine 
+[Figura 2 - Creación de un proyecto en OpenRefine](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Estado%20embalses%20nacionales/Im%C3%A1genes/Figura%202.jpeg) 
 
 ### Paso 3: Enlazado (o reconciliación, usando la nomenclatura de OpenRefine) con fuentes externas.
 OpenRefine nos permite enlazar recursos que tengamos en nuestro CSV con fuentes externas como Wikidata. Para ello se deben realizar las siguientes acciones (pasos 3.1 a 3.3):
@@ -69,13 +69,13 @@ Paso 3.1: Identificación de las columnas a enlazar. Habitualmente este paso sue
 
 Paso 3.2: Comienzo de la reconciliación. Comenzamos la reconciliación como se indica en la figura 3 y seleccionamos la única fuente que estará disponible: Wikidata(en). Después de hacer clic en Start Reconciling, automáticamente comenzará a buscar la clase del vocabulario de Wikidata que más se adecue basado en los valores de nuestra columna. 
  
-Figura 3 – Inicio del proceso de reconciliación de la columna NOMBRE en OpenRefine 
+[Figura 3 – Inicio del proceso de reconciliación de la columna NOMBRE en OpenRefine](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Estado%20embalses%20nacionales/Im%C3%A1genes/Figura%203.jpeg) 
 
 Paso 3.3: Selección de la clase de Wikidata. En este paso obtendremos los valores de la reconciliación. En este caso como valor más probable, seleccionamos el valor de la propiedad  “reservoir” cuya descripción se puede ver en https://www.wikidata.org/wiki/Q131681, que corresponde a la descripción de un “lago artificial para acumular agua”. Únicamente habrá que pulsar otra vez en Start Reconciling. 
 
 OpenRefine nos ofrece la posibilidad de mejorar el proceso de reconciliación agregando algunas características que permitan orientar el enriquecimiento de la información con mayor precisión. Para ello ajustamos la propiedad P4568 cuya descripción se corresponde con el identificador de un embalse en España, en el SNCZI-Inventario de Presas y Embalses, como se observa en la figura 4. 
 
-Figura 4 - Selección de la clase de Wikidata que mejor representa los valores de la columna NOMBRE 
+[Figura 4 - Selección de la clase de Wikidata que mejor representa los valores de la columna NOMBRE](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Estado%20embalses%20nacionales/Im%C3%A1genes/Figura%204.jpeg)
 
 ### Paso 4: Generar una nueva columna con los valores reconciliados o enlazados.
 Para ello debemos pulsar en la columna NOMBRE e ir a “Edit Column → Add column based in this column”, dónde se mostrará un texto en la que tendremos que indicar el nombre de la nueva columna (en este ejemplo podría ser WIKIDATA_EMBALSE).
@@ -85,12 +85,12 @@ Mediante la operación anterior, se generará una nueva columna con dichos valor
 
 El proceso lo repetimos para añadir otro tipo de información enriquecida como la referencia en Google u OpenStreetMap. 
 
-Figura 5 - Generación de las entidades de Wikidata gracias a la reconciliación a partir de una nueva columna 
+[Figura 5 - Generación de las entidades de Wikidata gracias a la reconciliación a partir de una nueva columna](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Estado%20embalses%20nacionales/Im%C3%A1genes/Figura%205.jpeg)
 
 ### Paso 5: Descargar el CSV enriquecido.
 Utilizamos la función Export → Custom tabular exporter situada en la parte superior derecha de la pantalla y seleccionamos las características como se indica en la Figura 6.  
 
-Figura 6 - Opciones de descarga del fichero CSV a través de OpenRefine 
+[Figura 6 - Opciones de descarga del fichero CSV a través de OpenRefine](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Visualizaciones/Estado%20embalses%20nacionales/Im%C3%A1genes/Figura%206.jpg) 
 
 ## Preprocesamiento de datos
 Durante el preprocesamiento es necesario realizar un análisis exploratorio de los datos (EDA) con el fin de interpretar adecuadamente los datos de partida, detectar anomalías, datos ausentes o errores que pudieran afectar a la calidad de los procesos posteriores y resultados, además de realizar las tareas de transformación y preparación de las variables necesarias. Un tratamiento previo de los datos es esencial para garantizar que los análisis o visualizaciones creadas posteriormente a partir de ellos son confiables y consistentes. Si quieres conocer más sobre este proceso puedes recurrir a la Guía Práctica de Introducción al Análisis Exploratorio de Datos.
