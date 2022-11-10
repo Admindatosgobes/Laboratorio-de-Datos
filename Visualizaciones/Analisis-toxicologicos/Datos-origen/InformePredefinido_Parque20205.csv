@@ -1,0 +1,2139 @@
+Parque distribuido por tipo de vehículo, carburante y provincia.
+Comunidad Autónoma/Provincia residencia: Andalucía/Almería, Andalucía/Cádiz, Andalucía/Córdoba, Andalucía/Granada, Andalucía/Huelva, Andalucía/Jaén, Andalucía/Málaga, Andalucía/Sevilla, Aragón/Huesca, Aragón/Teruel, Aragón/Zaragoza, Asturias (Principado de)/Asturias, Balears (Illes)/Balears (Illes), Canarias/Palmas (Las), Canarias/Santa Cruz de Tenerife, Cantabria/Cantabria, Castilla y León/Ávila, Castilla y León/Burgos, Castilla y León/León, Castilla y León/Palencia, Castilla y León/Salamanca, Castilla y León/Segovia, Castilla y León/Soria, Castilla y León/Valladolid, Castilla y León/Zamora, Castilla-La Mancha/Albacete, Castilla-La Mancha/Ciudad Real, Castilla-La Mancha/Cuenca, Castilla-La Mancha/Guadalajara, Castilla-La Mancha/Toledo, Cataluña/Barcelona, Cataluña/Girona, Cataluña/Lleida, Cataluña/Tarragona, Ceuta/Ceuta, Comunitat Valenciana/Alicante/Alacant, Comunitat Valenciana/Castellón/Castelló, Comunitat Valenciana/Valencia/València, Desconocida/Desconocido, Extranjero/Extranjero, Extremadura/Badajoz, Extremadura/Cáceres, Galicia/Coruña (A), Galicia/Lugo, Galicia/Ourense, Galicia/Pontevedra, Madrid (Comunidad de)/Madrid, Melilla/Melilla, Murcia (Región de)/Murcia, Navarra (Comunidad Foral de)/Navarra, País Vasco/Araba/Álava, País Vasco/Gipuzkoa, País Vasco/Bizkaia, Rioja (La)/Rioja (La)
+Tipo de Vehículo: CAMIONES HASTA 3500kg, CAMIONES MÁS DE 3500kg, CICLOMOTORES, FURGONETAS, MOTOCICLETAS, TURISMOS
+Carburante: 
+
+Comunidad Autónoma/Provincia residencia;Tipo de Vehículo;Carburante;Total
+TOTAL;TOTAL;TOTAL;35223617
+TOTAL;CAMIONES HASTA 3500kg;TOTAL;2198839
+TOTAL;CAMIONES MÁS DE 3500kg;TOTAL;346265
+TOTAL;CICLOMOTORES;TOTAL;1903712
+TOTAL;FURGONETAS;TOTAL;2484568
+TOTAL;MOTOCICLETAS;TOTAL;3646389
+TOTAL;TURISMOS;TOTAL;24643844
+Andalucía/Almería;CAMIONES HASTA 3500kg;TOTAL;47952
+Andalucía/Almería;CAMIONES HASTA 3500kg;Diesel;47316
+Andalucía/Almería;CAMIONES HASTA 3500kg;Eléctrico;9
+Andalucía/Almería;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;5
+Andalucía/Almería;CAMIONES HASTA 3500kg;Gasolina;622
+Andalucía/Almería;CAMIONES MÁS DE 3500kg;TOTAL;8802
+Andalucía/Almería;CAMIONES MÁS DE 3500kg;Diesel;8732
+Andalucía/Almería;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;2
+Andalucía/Almería;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;1
+Andalucía/Almería;CAMIONES MÁS DE 3500kg;Gasolina;67
+Andalucía/Almería;CICLOMOTORES;TOTAL;41747
+Andalucía/Almería;CICLOMOTORES;Diesel;1186
+Andalucía/Almería;CICLOMOTORES;Eléctrico;136
+Andalucía/Almería;CICLOMOTORES;Gasolina;40423
+Andalucía/Almería;CICLOMOTORES;Sin especificar;2
+Andalucía/Almería;FURGONETAS;TOTAL;40917
+Andalucía/Almería;FURGONETAS;Diesel;35199
+Andalucía/Almería;FURGONETAS;Eléctrico;27
+Andalucía/Almería;FURGONETAS;Gas Licuado de Petroleo;34
+Andalucía/Almería;FURGONETAS;Gasolina;5654
+Andalucía/Almería;FURGONETAS;Otros;1
+Andalucía/Almería;FURGONETAS;Sin especificar;2
+Andalucía/Almería;MOTOCICLETAS;TOTAL;46829
+Andalucía/Almería;MOTOCICLETAS;Diesel;91
+Andalucía/Almería;MOTOCICLETAS;Eléctrico;60
+Andalucía/Almería;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Andalucía/Almería;MOTOCICLETAS;Gasolina;46673
+Andalucía/Almería;MOTOCICLETAS;Sin especificar;4
+Andalucía/Almería;TURISMOS;TOTAL;376455
+Andalucía/Almería;TURISMOS;Butano;2
+Andalucía/Almería;TURISMOS;Diesel;254858
+Andalucía/Almería;TURISMOS;Eléctrico;184
+Andalucía/Almería;TURISMOS;Etanol;1
+Andalucía/Almería;TURISMOS;Gas Licuado de Petroleo;389
+Andalucía/Almería;TURISMOS;Gas Natural Comprimido;1
+Andalucía/Almería;TURISMOS;Gas Natural Licuado;1
+Andalucía/Almería;TURISMOS;Gasolina;121004
+Andalucía/Almería;TURISMOS;Otros;14
+Andalucía/Almería;TURISMOS;Sin especificar;1
+Andalucía/Cádiz;CAMIONES HASTA 3500kg;TOTAL;48637
+Andalucía/Cádiz;CAMIONES HASTA 3500kg;Diesel;47638
+Andalucía/Cádiz;CAMIONES HASTA 3500kg;Eléctrico;14
+Andalucía/Cádiz;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;10
+Andalucía/Cádiz;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Andalucía/Cádiz;CAMIONES HASTA 3500kg;Gasolina;972
+Andalucía/Cádiz;CAMIONES HASTA 3500kg;Sin especificar;2
+Andalucía/Cádiz;CAMIONES MÁS DE 3500kg;TOTAL;5625
+Andalucía/Cádiz;CAMIONES MÁS DE 3500kg;Diesel;5584
+Andalucía/Cádiz;CAMIONES MÁS DE 3500kg;Eléctrico;1
+Andalucía/Cádiz;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;2
+Andalucía/Cádiz;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;1
+Andalucía/Cádiz;CAMIONES MÁS DE 3500kg;Gasolina;36
+Andalucía/Cádiz;CAMIONES MÁS DE 3500kg;Otros;1
+Andalucía/Cádiz;CICLOMOTORES;TOTAL;104338
+Andalucía/Cádiz;CICLOMOTORES;Diesel;2489
+Andalucía/Cádiz;CICLOMOTORES;Eléctrico;370
+Andalucía/Cádiz;CICLOMOTORES;Gasolina;101477
+Andalucía/Cádiz;CICLOMOTORES;Sin especificar;2
+Andalucía/Cádiz;FURGONETAS;TOTAL;38450
+Andalucía/Cádiz;FURGONETAS;Biodiesel;1
+Andalucía/Cádiz;FURGONETAS;Diesel;32338
+Andalucía/Cádiz;FURGONETAS;Eléctrico;32
+Andalucía/Cádiz;FURGONETAS;Gas Licuado de Petroleo;31
+Andalucía/Cádiz;FURGONETAS;Gas Natural Comprimido;3
+Andalucía/Cádiz;FURGONETAS;Gasolina;6045
+Andalucía/Cádiz;MOTOCICLETAS;TOTAL;109598
+Andalucía/Cádiz;MOTOCICLETAS;Diesel;102
+Andalucía/Cádiz;MOTOCICLETAS;Eléctrico;2277
+Andalucía/Cádiz;MOTOCICLETAS;Gas Licuado de Petroleo;7
+Andalucía/Cádiz;MOTOCICLETAS;Gasolina;107202
+Andalucía/Cádiz;MOTOCICLETAS;Otros;2
+Andalucía/Cádiz;MOTOCICLETAS;Sin especificar;8
+Andalucía/Cádiz;TURISMOS;TOTAL;586441
+Andalucía/Cádiz;TURISMOS;Biodiesel;2
+Andalucía/Cádiz;TURISMOS;Biometano;1
+Andalucía/Cádiz;TURISMOS;Butano;2
+Andalucía/Cádiz;TURISMOS;Diesel;353481
+Andalucía/Cádiz;TURISMOS;Eléctrico;239
+Andalucía/Cádiz;TURISMOS;Etanol;1
+Andalucía/Cádiz;TURISMOS;Gas Licuado de Petroleo;452
+Andalucía/Cádiz;TURISMOS;Gas Natural Comprimido;46
+Andalucía/Cádiz;TURISMOS;Gasolina;232202
+Andalucía/Cádiz;TURISMOS;Hidrógeno;3
+Andalucía/Cádiz;TURISMOS;Otros;7
+Andalucía/Cádiz;TURISMOS;Sin especificar;5
+Andalucía/Córdoba;CAMIONES HASTA 3500kg;TOTAL;34718
+Andalucía/Córdoba;CAMIONES HASTA 3500kg;Diesel;34155
+Andalucía/Córdoba;CAMIONES HASTA 3500kg;Eléctrico;37
+Andalucía/Córdoba;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;9
+Andalucía/Córdoba;CAMIONES HASTA 3500kg;Gasolina;517
+Andalucía/Córdoba;CAMIONES MÁS DE 3500kg;TOTAL;6477
+Andalucía/Córdoba;CAMIONES MÁS DE 3500kg;Diesel;6420
+Andalucía/Córdoba;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;4
+Andalucía/Córdoba;CAMIONES MÁS DE 3500kg;Gasolina;53
+Andalucía/Córdoba;CICLOMOTORES;TOTAL;51943
+Andalucía/Córdoba;CICLOMOTORES;Diesel;1550
+Andalucía/Córdoba;CICLOMOTORES;Eléctrico;86
+Andalucía/Córdoba;CICLOMOTORES;Gasolina;50306
+Andalucía/Córdoba;CICLOMOTORES;Sin especificar;1
+Andalucía/Córdoba;FURGONETAS;TOTAL;50999
+Andalucía/Córdoba;FURGONETAS;Diesel;44767
+Andalucía/Córdoba;FURGONETAS;Eléctrico;22
+Andalucía/Córdoba;FURGONETAS;Gas Licuado de Petroleo;28
+Andalucía/Córdoba;FURGONETAS;Gasolina;6181
+Andalucía/Córdoba;FURGONETAS;Otros;1
+Andalucía/Córdoba;MOTOCICLETAS;TOTAL;56345
+Andalucía/Córdoba;MOTOCICLETAS;Diesel;78
+Andalucía/Córdoba;MOTOCICLETAS;Eléctrico;47
+Andalucía/Córdoba;MOTOCICLETAS;Gas Licuado de Petroleo;3
+Andalucía/Córdoba;MOTOCICLETAS;Gasolina;56213
+Andalucía/Córdoba;MOTOCICLETAS;Sin especificar;4
+Andalucía/Córdoba;TURISMOS;TOTAL;386298
+Andalucía/Córdoba;TURISMOS;Biodiesel;1
+Andalucía/Córdoba;TURISMOS;Butano;2
+Andalucía/Córdoba;TURISMOS;Diesel;253224
+Andalucía/Córdoba;TURISMOS;Eléctrico;176
+Andalucía/Córdoba;TURISMOS;Gas Licuado de Petroleo;399
+Andalucía/Córdoba;TURISMOS;Gas Natural Comprimido;19
+Andalucía/Córdoba;TURISMOS;Gasolina;132459
+Andalucía/Córdoba;TURISMOS;Otros;13
+Andalucía/Córdoba;TURISMOS;Sin especificar;5
+Andalucía/Granada;CAMIONES HASTA 3500kg;TOTAL;46993
+Andalucía/Granada;CAMIONES HASTA 3500kg;Biometano;1
+Andalucía/Granada;CAMIONES HASTA 3500kg;Diesel;46063
+Andalucía/Granada;CAMIONES HASTA 3500kg;Eléctrico;7
+Andalucía/Granada;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;11
+Andalucía/Granada;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Andalucía/Granada;CAMIONES HASTA 3500kg;Gasolina;910
+Andalucía/Granada;CAMIONES MÁS DE 3500kg;TOTAL;6741
+Andalucía/Granada;CAMIONES MÁS DE 3500kg;Diesel;6670
+Andalucía/Granada;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;2
+Andalucía/Granada;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;3
+Andalucía/Granada;CAMIONES MÁS DE 3500kg;Gasolina;66
+Andalucía/Granada;CICLOMOTORES;TOTAL;69706
+Andalucía/Granada;CICLOMOTORES;Diesel;1124
+Andalucía/Granada;CICLOMOTORES;Eléctrico;121
+Andalucía/Granada;CICLOMOTORES;Gasolina;68461
+Andalucía/Granada;FURGONETAS;TOTAL;58641
+Andalucía/Granada;FURGONETAS;Diesel;50015
+Andalucía/Granada;FURGONETAS;Eléctrico;24
+Andalucía/Granada;FURGONETAS;Gas Licuado de Petroleo;48
+Andalucía/Granada;FURGONETAS;Gas Natural Comprimido;4
+Andalucía/Granada;FURGONETAS;Gasolina;8546
+Andalucía/Granada;FURGONETAS;Otros;4
+Andalucía/Granada;MOTOCICLETAS;TOTAL;98781
+Andalucía/Granada;MOTOCICLETAS;Diesel;93
+Andalucía/Granada;MOTOCICLETAS;Eléctrico;149
+Andalucía/Granada;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Andalucía/Granada;MOTOCICLETAS;Gasolina;98536
+Andalucía/Granada;MOTOCICLETAS;Otros;1
+Andalucía/Granada;MOTOCICLETAS;Sin especificar;1
+Andalucía/Granada;TURISMOS;TOTAL;476712
+Andalucía/Granada;TURISMOS;Biodiesel;6
+Andalucía/Granada;TURISMOS;Butano;4
+Andalucía/Granada;TURISMOS;Diesel;294632
+Andalucía/Granada;TURISMOS;Eléctrico;232
+Andalucía/Granada;TURISMOS;Gas Licuado de Petroleo;436
+Andalucía/Granada;TURISMOS;Gas Natural Comprimido;42
+Andalucía/Granada;TURISMOS;Gas Natural Licuado;1
+Andalucía/Granada;TURISMOS;Gasolina;181339
+Andalucía/Granada;TURISMOS;Otros;19
+Andalucía/Granada;TURISMOS;Sin especificar;1
+Andalucía/Huelva;CAMIONES HASTA 3500kg;TOTAL;28057
+Andalucía/Huelva;CAMIONES HASTA 3500kg;Diesel;27421
+Andalucía/Huelva;CAMIONES HASTA 3500kg;Eléctrico;3
+Andalucía/Huelva;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;3
+Andalucía/Huelva;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Andalucía/Huelva;CAMIONES HASTA 3500kg;Gasolina;628
+Andalucía/Huelva;CAMIONES HASTA 3500kg;Otros;1
+Andalucía/Huelva;CAMIONES MÁS DE 3500kg;TOTAL;3596
+Andalucía/Huelva;CAMIONES MÁS DE 3500kg;Biometano;1
+Andalucía/Huelva;CAMIONES MÁS DE 3500kg;Diesel;3573
+Andalucía/Huelva;CAMIONES MÁS DE 3500kg;Gasolina;22
+Andalucía/Huelva;CICLOMOTORES;TOTAL;30627
+Andalucía/Huelva;CICLOMOTORES;Diesel;767
+Andalucía/Huelva;CICLOMOTORES;Eléctrico;99
+Andalucía/Huelva;CICLOMOTORES;Gasolina;29761
+Andalucía/Huelva;FURGONETAS;TOTAL;20477
+Andalucía/Huelva;FURGONETAS;Butano;1
+Andalucía/Huelva;FURGONETAS;Diesel;17048
+Andalucía/Huelva;FURGONETAS;Eléctrico;9
+Andalucía/Huelva;FURGONETAS;Gas Licuado de Petroleo;7
+Andalucía/Huelva;FURGONETAS;Gas Natural Comprimido;2
+Andalucía/Huelva;FURGONETAS;Gasolina;3409
+Andalucía/Huelva;FURGONETAS;Otros;1
+Andalucía/Huelva;MOTOCICLETAS;TOTAL;29141
+Andalucía/Huelva;MOTOCICLETAS;Diesel;52
+Andalucía/Huelva;MOTOCICLETAS;Eléctrico;49
+Andalucía/Huelva;MOTOCICLETAS;Gas Licuado de Petroleo;3
+Andalucía/Huelva;MOTOCICLETAS;Gasolina;29035
+Andalucía/Huelva;MOTOCICLETAS;Sin especificar;2
+Andalucía/Huelva;TURISMOS;TOTAL;259053
+Andalucía/Huelva;TURISMOS;Butano;3
+Andalucía/Huelva;TURISMOS;Diesel;165270
+Andalucía/Huelva;TURISMOS;Eléctrico;83
+Andalucía/Huelva;TURISMOS;Etanol;1
+Andalucía/Huelva;TURISMOS;Gas Licuado de Petroleo;194
+Andalucía/Huelva;TURISMOS;Gas Natural Comprimido;11
+Andalucía/Huelva;TURISMOS;Gasolina;93482
+Andalucía/Huelva;TURISMOS;Otros;7
+Andalucía/Huelva;TURISMOS;Sin especificar;2
+Andalucía/Jaén;CAMIONES HASTA 3500kg;TOTAL;38722
+Andalucía/Jaén;CAMIONES HASTA 3500kg;Diesel;38039
+Andalucía/Jaén;CAMIONES HASTA 3500kg;Eléctrico;29
+Andalucía/Jaén;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;15
+Andalucía/Jaén;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Andalucía/Jaén;CAMIONES HASTA 3500kg;Gasolina;637
+Andalucía/Jaén;CAMIONES HASTA 3500kg;Sin especificar;1
+Andalucía/Jaén;CAMIONES MÁS DE 3500kg;TOTAL;5249
+Andalucía/Jaén;CAMIONES MÁS DE 3500kg;Diesel;5209
+Andalucía/Jaén;CAMIONES MÁS DE 3500kg;Eléctrico;1
+Andalucía/Jaén;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Andalucía/Jaén;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;1
+Andalucía/Jaén;CAMIONES MÁS DE 3500kg;Gasolina;36
+Andalucía/Jaén;CAMIONES MÁS DE 3500kg;Sin especificar;1
+Andalucía/Jaén;CICLOMOTORES;TOTAL;41920
+Andalucía/Jaén;CICLOMOTORES;Diesel;1751
+Andalucía/Jaén;CICLOMOTORES;Eléctrico;77
+Andalucía/Jaén;CICLOMOTORES;Gasolina;40089
+Andalucía/Jaén;CICLOMOTORES;Sin especificar;3
+Andalucía/Jaén;FURGONETAS;TOTAL;63968
+Andalucía/Jaén;FURGONETAS;Diesel;57040
+Andalucía/Jaén;FURGONETAS;Eléctrico;21
+Andalucía/Jaén;FURGONETAS;Gas Licuado de Petroleo;74
+Andalucía/Jaén;FURGONETAS;Gas Natural Comprimido;3
+Andalucía/Jaén;FURGONETAS;Gasolina;6830
+Andalucía/Jaén;MOTOCICLETAS;TOTAL;40148
+Andalucía/Jaén;MOTOCICLETAS;Diesel;81
+Andalucía/Jaén;MOTOCICLETAS;Eléctrico;217
+Andalucía/Jaén;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Andalucía/Jaén;MOTOCICLETAS;Gasolina;39846
+Andalucía/Jaén;MOTOCICLETAS;Otros;1
+Andalucía/Jaén;MOTOCICLETAS;Sin especificar;2
+Andalucía/Jaén;TURISMOS;TOTAL;301517
+Andalucía/Jaén;TURISMOS;Biodiesel;2
+Andalucía/Jaén;TURISMOS;Biometano;1
+Andalucía/Jaén;TURISMOS;Butano;1
+Andalucía/Jaén;TURISMOS;Diesel;205115
+Andalucía/Jaén;TURISMOS;Eléctrico;100
+Andalucía/Jaén;TURISMOS;Etanol;1
+Andalucía/Jaén;TURISMOS;Gas Licuado de Petroleo;292
+Andalucía/Jaén;TURISMOS;Gas Natural Comprimido;12
+Andalucía/Jaén;TURISMOS;Gasolina;95985
+Andalucía/Jaén;TURISMOS;Otros;7
+Andalucía/Jaén;TURISMOS;Sin especificar;1
+Andalucía/Málaga;CAMIONES HASTA 3500kg;TOTAL;74673
+Andalucía/Málaga;CAMIONES HASTA 3500kg;Diesel;72697
+Andalucía/Málaga;CAMIONES HASTA 3500kg;Eléctrico;34
+Andalucía/Málaga;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;22
+Andalucía/Málaga;CAMIONES HASTA 3500kg;Gas Natural Comprimido;17
+Andalucía/Málaga;CAMIONES HASTA 3500kg;Gasolina;1903
+Andalucía/Málaga;CAMIONES MÁS DE 3500kg;TOTAL;10131
+Andalucía/Málaga;CAMIONES MÁS DE 3500kg;Diesel;9972
+Andalucía/Málaga;CAMIONES MÁS DE 3500kg;Eléctrico;5
+Andalucía/Málaga;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;2
+Andalucía/Málaga;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;13
+Andalucía/Málaga;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;1
+Andalucía/Málaga;CAMIONES MÁS DE 3500kg;Gasolina;138
+Andalucía/Málaga;CICLOMOTORES;TOTAL;106722
+Andalucía/Málaga;CICLOMOTORES;Diesel;2803
+Andalucía/Málaga;CICLOMOTORES;Eléctrico;442
+Andalucía/Málaga;CICLOMOTORES;Gasolina;103469
+Andalucía/Málaga;CICLOMOTORES;Sin especificar;8
+Andalucía/Málaga;FURGONETAS;TOTAL;91086
+Andalucía/Málaga;FURGONETAS;Diesel;76002
+Andalucía/Málaga;FURGONETAS;Eléctrico;61
+Andalucía/Málaga;FURGONETAS;Gas Licuado de Petroleo;92
+Andalucía/Málaga;FURGONETAS;Gas Natural Comprimido;3
+Andalucía/Málaga;FURGONETAS;Gasolina;14926
+Andalucía/Málaga;FURGONETAS;Otros;1
+Andalucía/Málaga;FURGONETAS;Sin especificar;1
+Andalucía/Málaga;MOTOCICLETAS;TOTAL;169406
+Andalucía/Málaga;MOTOCICLETAS;Butano;1
+Andalucía/Málaga;MOTOCICLETAS;Diesel;124
+Andalucía/Málaga;MOTOCICLETAS;Eléctrico;459
+Andalucía/Málaga;MOTOCICLETAS;Gas Licuado de Petroleo;4
+Andalucía/Málaga;MOTOCICLETAS;Gasolina;168808
+Andalucía/Málaga;MOTOCICLETAS;Otros;6
+Andalucía/Málaga;MOTOCICLETAS;Sin especificar;4
+Andalucía/Málaga;TURISMOS;TOTAL;854185
+Andalucía/Málaga;TURISMOS;Biodiesel;4
+Andalucía/Málaga;TURISMOS;Biometano;1
+Andalucía/Málaga;TURISMOS;Butano;25
+Andalucía/Málaga;TURISMOS;Diesel;478507
+Andalucía/Málaga;TURISMOS;Eléctrico;842
+Andalucía/Málaga;TURISMOS;Etanol;1
+Andalucía/Málaga;TURISMOS;Gas Licuado de Petroleo;1512
+Andalucía/Málaga;TURISMOS;Gas Natural Comprimido;28
+Andalucía/Málaga;TURISMOS;Gas Natural Licuado;1
+Andalucía/Málaga;TURISMOS;Gasolina;373238
+Andalucía/Málaga;TURISMOS;Hidrógeno;4
+Andalucía/Málaga;TURISMOS;Otros;19
+Andalucía/Málaga;TURISMOS;Sin especificar;3
+Andalucía/Sevilla;CAMIONES HASTA 3500kg;TOTAL;80670
+Andalucía/Sevilla;CAMIONES HASTA 3500kg;Diesel;79215
+Andalucía/Sevilla;CAMIONES HASTA 3500kg;Eléctrico;63
+Andalucía/Sevilla;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;8
+Andalucía/Sevilla;CAMIONES HASTA 3500kg;Gas Natural Comprimido;11
+Andalucía/Sevilla;CAMIONES HASTA 3500kg;Gasolina;1372
+Andalucía/Sevilla;CAMIONES HASTA 3500kg;Otros;1
+Andalucía/Sevilla;CAMIONES MÁS DE 3500kg;TOTAL;11916
+Andalucía/Sevilla;CAMIONES MÁS DE 3500kg;Diesel;11809
+Andalucía/Sevilla;CAMIONES MÁS DE 3500kg;Eléctrico;2
+Andalucía/Sevilla;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;7
+Andalucía/Sevilla;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;8
+Andalucía/Sevilla;CAMIONES MÁS DE 3500kg;Gasolina;90
+Andalucía/Sevilla;CICLOMOTORES;TOTAL;123682
+Andalucía/Sevilla;CICLOMOTORES;Diesel;2878
+Andalucía/Sevilla;CICLOMOTORES;Eléctrico;322
+Andalucía/Sevilla;CICLOMOTORES;Gasolina;120478
+Andalucía/Sevilla;CICLOMOTORES;Sin especificar;4
+Andalucía/Sevilla;FURGONETAS;TOTAL;59763
+Andalucía/Sevilla;FURGONETAS;Biometano;1
+Andalucía/Sevilla;FURGONETAS;Diesel;49869
+Andalucía/Sevilla;FURGONETAS;Eléctrico;76
+Andalucía/Sevilla;FURGONETAS;Gas Licuado de Petroleo;142
+Andalucía/Sevilla;FURGONETAS;Gas Natural Comprimido;22
+Andalucía/Sevilla;FURGONETAS;Gasolina;9651
+Andalucía/Sevilla;FURGONETAS;Otros;2
+Andalucía/Sevilla;MOTOCICLETAS;TOTAL;143060
+Andalucía/Sevilla;MOTOCICLETAS;Butano;1
+Andalucía/Sevilla;MOTOCICLETAS;Diesel;140
+Andalucía/Sevilla;MOTOCICLETAS;Eléctrico;320
+Andalucía/Sevilla;MOTOCICLETAS;Gas Licuado de Petroleo;9
+Andalucía/Sevilla;MOTOCICLETAS;Gasolina;142585
+Andalucía/Sevilla;MOTOCICLETAS;Otros;3
+Andalucía/Sevilla;MOTOCICLETAS;Sin especificar;2
+Andalucía/Sevilla;TURISMOS;TOTAL;954999
+Andalucía/Sevilla;TURISMOS;Biodiesel;2
+Andalucía/Sevilla;TURISMOS;Butano;4
+Andalucía/Sevilla;TURISMOS;Diesel;599201
+Andalucía/Sevilla;TURISMOS;Eléctrico;612
+Andalucía/Sevilla;TURISMOS;Etanol;2
+Andalucía/Sevilla;TURISMOS;Gas Licuado de Petroleo;1269
+Andalucía/Sevilla;TURISMOS;Gas Natural Comprimido;150
+Andalucía/Sevilla;TURISMOS;Gas Natural Licuado;2
+Andalucía/Sevilla;TURISMOS;Gasolina;353728
+Andalucía/Sevilla;TURISMOS;Hidrógeno;1
+Andalucía/Sevilla;TURISMOS;Otros;23
+Andalucía/Sevilla;TURISMOS;Sin especificar;5
+Aragón/Huesca;CAMIONES HASTA 3500kg;TOTAL;17392
+Aragón/Huesca;CAMIONES HASTA 3500kg;Diesel;16860
+Aragón/Huesca;CAMIONES HASTA 3500kg;Eléctrico;3
+Aragón/Huesca;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;1
+Aragón/Huesca;CAMIONES HASTA 3500kg;Gasolina;528
+Aragón/Huesca;CAMIONES MÁS DE 3500kg;TOTAL;2393
+Aragón/Huesca;CAMIONES MÁS DE 3500kg;Diesel;2370
+Aragón/Huesca;CAMIONES MÁS DE 3500kg;Eléctrico;1
+Aragón/Huesca;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Aragón/Huesca;CAMIONES MÁS DE 3500kg;Gasolina;21
+Aragón/Huesca;CICLOMOTORES;TOTAL;9471
+Aragón/Huesca;CICLOMOTORES;Diesel;199
+Aragón/Huesca;CICLOMOTORES;Eléctrico;19
+Aragón/Huesca;CICLOMOTORES;Gasolina;9253
+Aragón/Huesca;FURGONETAS;TOTAL;17910
+Aragón/Huesca;FURGONETAS;Butano;1
+Aragón/Huesca;FURGONETAS;Diesel;14824
+Aragón/Huesca;FURGONETAS;Eléctrico;14
+Aragón/Huesca;FURGONETAS;Gas Licuado de Petroleo;7
+Aragón/Huesca;FURGONETAS;Gasolina;3064
+Aragón/Huesca;MOTOCICLETAS;TOTAL;14705
+Aragón/Huesca;MOTOCICLETAS;Diesel;35
+Aragón/Huesca;MOTOCICLETAS;Eléctrico;15
+Aragón/Huesca;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Aragón/Huesca;MOTOCICLETAS;Gasolina;14650
+Aragón/Huesca;MOTOCICLETAS;Sin especificar;4
+Aragón/Huesca;TURISMOS;TOTAL;119743
+Aragón/Huesca;TURISMOS;Biodiesel;5
+Aragón/Huesca;TURISMOS;Butano;1
+Aragón/Huesca;TURISMOS;Diesel;72504
+Aragón/Huesca;TURISMOS;Eléctrico;103
+Aragón/Huesca;TURISMOS;Etanol;2
+Aragón/Huesca;TURISMOS;Gas Licuado de Petroleo;101
+Aragón/Huesca;TURISMOS;Gas Natural Comprimido;11
+Aragón/Huesca;TURISMOS;Gasolina;47011
+Aragón/Huesca;TURISMOS;Hidrógeno;1
+Aragón/Huesca;TURISMOS;Otros;4
+Aragón/Teruel;CAMIONES HASTA 3500kg;TOTAL;10683
+Aragón/Teruel;CAMIONES HASTA 3500kg;Diesel;10410
+Aragón/Teruel;CAMIONES HASTA 3500kg;Eléctrico;2
+Aragón/Teruel;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;4
+Aragón/Teruel;CAMIONES HASTA 3500kg;Gas Natural Comprimido;7
+Aragón/Teruel;CAMIONES HASTA 3500kg;Gasolina;260
+Aragón/Teruel;CAMIONES MÁS DE 3500kg;TOTAL;1641
+Aragón/Teruel;CAMIONES MÁS DE 3500kg;Diesel;1634
+Aragón/Teruel;CAMIONES MÁS DE 3500kg;Gasolina;7
+Aragón/Teruel;CICLOMOTORES;TOTAL;7235
+Aragón/Teruel;CICLOMOTORES;Diesel;228
+Aragón/Teruel;CICLOMOTORES;Eléctrico;5
+Aragón/Teruel;CICLOMOTORES;Gasolina;7002
+Aragón/Teruel;FURGONETAS;TOTAL;12526
+Aragón/Teruel;FURGONETAS;Butano;1
+Aragón/Teruel;FURGONETAS;Diesel;10608
+Aragón/Teruel;FURGONETAS;Eléctrico;3
+Aragón/Teruel;FURGONETAS;Gas Licuado de Petroleo;17
+Aragón/Teruel;FURGONETAS;Gas Natural Comprimido;2
+Aragón/Teruel;FURGONETAS;Gasolina;1894
+Aragón/Teruel;FURGONETAS;Otros;1
+Aragón/Teruel;MOTOCICLETAS;TOTAL;8744
+Aragón/Teruel;MOTOCICLETAS;Diesel;29
+Aragón/Teruel;MOTOCICLETAS;Eléctrico;4
+Aragón/Teruel;MOTOCICLETAS;Gas Natural Comprimido;1
+Aragón/Teruel;MOTOCICLETAS;Gasolina;8709
+Aragón/Teruel;MOTOCICLETAS;Otros;1
+Aragón/Teruel;TURISMOS;TOTAL;75229
+Aragón/Teruel;TURISMOS;Biodiesel;3
+Aragón/Teruel;TURISMOS;Diesel;48554
+Aragón/Teruel;TURISMOS;Eléctrico;35
+Aragón/Teruel;TURISMOS;Gas Licuado de Petroleo;43
+Aragón/Teruel;TURISMOS;Gas Natural Comprimido;5
+Aragón/Teruel;TURISMOS;Gasolina;26587
+Aragón/Teruel;TURISMOS;Otros;2
+Aragón/Zaragoza;CAMIONES HASTA 3500kg;TOTAL;33914
+Aragón/Zaragoza;CAMIONES HASTA 3500kg;Diesel;33052
+Aragón/Zaragoza;CAMIONES HASTA 3500kg;Eléctrico;41
+Aragón/Zaragoza;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;21
+Aragón/Zaragoza;CAMIONES HASTA 3500kg;Gas Natural Comprimido;3
+Aragón/Zaragoza;CAMIONES HASTA 3500kg;Gasolina;797
+Aragón/Zaragoza;CAMIONES MÁS DE 3500kg;TOTAL;6229
+Aragón/Zaragoza;CAMIONES MÁS DE 3500kg;Diesel;6194
+Aragón/Zaragoza;CAMIONES MÁS DE 3500kg;Eléctrico;2
+Aragón/Zaragoza;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Aragón/Zaragoza;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;3
+Aragón/Zaragoza;CAMIONES MÁS DE 3500kg;Gasolina;29
+Aragón/Zaragoza;CICLOMOTORES;TOTAL;30094
+Aragón/Zaragoza;CICLOMOTORES;Diesel;785
+Aragón/Zaragoza;CICLOMOTORES;Eléctrico;140
+Aragón/Zaragoza;CICLOMOTORES;Gasolina;29168
+Aragón/Zaragoza;CICLOMOTORES;Sin especificar;1
+Aragón/Zaragoza;FURGONETAS;TOTAL;41895
+Aragón/Zaragoza;FURGONETAS;Butano;1
+Aragón/Zaragoza;FURGONETAS;Diesel;35363
+Aragón/Zaragoza;FURGONETAS;Eléctrico;51
+Aragón/Zaragoza;FURGONETAS;Gas Licuado de Petroleo;69
+Aragón/Zaragoza;FURGONETAS;Gas Natural Comprimido;8
+Aragón/Zaragoza;FURGONETAS;Gasolina;6401
+Aragón/Zaragoza;FURGONETAS;Otros;2
+Aragón/Zaragoza;MOTOCICLETAS;TOTAL;56696
+Aragón/Zaragoza;MOTOCICLETAS;Diesel;141
+Aragón/Zaragoza;MOTOCICLETAS;Eléctrico;141
+Aragón/Zaragoza;MOTOCICLETAS;Gasolina;56414
+Aragón/Zaragoza;TURISMOS;TOTAL;424305
+Aragón/Zaragoza;TURISMOS;Biodiesel;4
+Aragón/Zaragoza;TURISMOS;Butano;6
+Aragón/Zaragoza;TURISMOS;Diesel;232593
+Aragón/Zaragoza;TURISMOS;Eléctrico;415
+Aragón/Zaragoza;TURISMOS;Etanol;1
+Aragón/Zaragoza;TURISMOS;Gas Licuado de Petroleo;975
+Aragón/Zaragoza;TURISMOS;Gas Natural Comprimido;89
+Aragón/Zaragoza;TURISMOS;Gasolina;190186
+Aragón/Zaragoza;TURISMOS;Hidrógeno;1
+Aragón/Zaragoza;TURISMOS;Otros;33
+Aragón/Zaragoza;TURISMOS;Sin especificar;2
+Asturias (Principado de)/Asturias;CAMIONES HASTA 3500kg;TOTAL;31999
+Asturias (Principado de)/Asturias;CAMIONES HASTA 3500kg;Diesel;31246
+Asturias (Principado de)/Asturias;CAMIONES HASTA 3500kg;Eléctrico;32
+Asturias (Principado de)/Asturias;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;11
+Asturias (Principado de)/Asturias;CAMIONES HASTA 3500kg;Gas Natural Comprimido;26
+Asturias (Principado de)/Asturias;CAMIONES HASTA 3500kg;Gasolina;683
+Asturias (Principado de)/Asturias;CAMIONES HASTA 3500kg;Otros;1
+Asturias (Principado de)/Asturias;CAMIONES MÁS DE 3500kg;TOTAL;7648
+Asturias (Principado de)/Asturias;CAMIONES MÁS DE 3500kg;Diesel;7447
+Asturias (Principado de)/Asturias;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Asturias (Principado de)/Asturias;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;47
+Asturias (Principado de)/Asturias;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;79
+Asturias (Principado de)/Asturias;CAMIONES MÁS DE 3500kg;Gasolina;74
+Asturias (Principado de)/Asturias;CICLOMOTORES;TOTAL;24177
+Asturias (Principado de)/Asturias;CICLOMOTORES;Diesel;1192
+Asturias (Principado de)/Asturias;CICLOMOTORES;Eléctrico;118
+Asturias (Principado de)/Asturias;CICLOMOTORES;Gasolina;22865
+Asturias (Principado de)/Asturias;CICLOMOTORES;Sin especificar;2
+Asturias (Principado de)/Asturias;FURGONETAS;TOTAL;48258
+Asturias (Principado de)/Asturias;FURGONETAS;Diesel;39750
+Asturias (Principado de)/Asturias;FURGONETAS;Eléctrico;35
+Asturias (Principado de)/Asturias;FURGONETAS;Gas Licuado de Petroleo;77
+Asturias (Principado de)/Asturias;FURGONETAS;Gas Natural Comprimido;20
+Asturias (Principado de)/Asturias;FURGONETAS;Gasolina;8372
+Asturias (Principado de)/Asturias;FURGONETAS;Otros;4
+Asturias (Principado de)/Asturias;MOTOCICLETAS;TOTAL;59698
+Asturias (Principado de)/Asturias;MOTOCICLETAS;Butano;1
+Asturias (Principado de)/Asturias;MOTOCICLETAS;Diesel;191
+Asturias (Principado de)/Asturias;MOTOCICLETAS;Eléctrico;95
+Asturias (Principado de)/Asturias;MOTOCICLETAS;Gasolina;59411
+Asturias (Principado de)/Asturias;TURISMOS;TOTAL;523249
+Asturias (Principado de)/Asturias;TURISMOS;Butano;2
+Asturias (Principado de)/Asturias;TURISMOS;Diesel;312661
+Asturias (Principado de)/Asturias;TURISMOS;Eléctrico;463
+Asturias (Principado de)/Asturias;TURISMOS;Etanol;4
+Asturias (Principado de)/Asturias;TURISMOS;Gas Licuado de Petroleo;651
+Asturias (Principado de)/Asturias;TURISMOS;Gas Natural Comprimido;143
+Asturias (Principado de)/Asturias;TURISMOS;Gas Natural Licuado;2
+Asturias (Principado de)/Asturias;TURISMOS;Gasolina;209293
+Asturias (Principado de)/Asturias;TURISMOS;Otros;28
+Asturias (Principado de)/Asturias;TURISMOS;Sin especificar;2
+Balears (Illes)/Balears (Illes);CAMIONES HASTA 3500kg;TOTAL;77990
+Balears (Illes)/Balears (Illes);CAMIONES HASTA 3500kg;Butano;2
+Balears (Illes)/Balears (Illes);CAMIONES HASTA 3500kg;Diesel;71728
+Balears (Illes)/Balears (Illes);CAMIONES HASTA 3500kg;Eléctrico;72
+Balears (Illes)/Balears (Illes);CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;62
+Balears (Illes)/Balears (Illes);CAMIONES HASTA 3500kg;Gas Natural Comprimido;30
+Balears (Illes)/Balears (Illes);CAMIONES HASTA 3500kg;Gas Natural Licuado;2
+Balears (Illes)/Balears (Illes);CAMIONES HASTA 3500kg;Gasolina;6094
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;TOTAL;8695
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;Butano;1
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;Diesel;8388
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;Eléctrico;1
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;62
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;Gasolina;240
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;Otros;1
+Balears (Illes)/Balears (Illes);CAMIONES MÁS DE 3500kg;Sin especificar;1
+Balears (Illes)/Balears (Illes);CICLOMOTORES;TOTAL;80221
+Balears (Illes)/Balears (Illes);CICLOMOTORES;Diesel;2607
+Balears (Illes)/Balears (Illes);CICLOMOTORES;Eléctrico;651
+Balears (Illes)/Balears (Illes);CICLOMOTORES;Gasolina;76957
+Balears (Illes)/Balears (Illes);CICLOMOTORES;Sin especificar;6
+Balears (Illes)/Balears (Illes);FURGONETAS;TOTAL;59998
+Balears (Illes)/Balears (Illes);FURGONETAS;Biometano;1
+Balears (Illes)/Balears (Illes);FURGONETAS;Diesel;42706
+Balears (Illes)/Balears (Illes);FURGONETAS;Eléctrico;183
+Balears (Illes)/Balears (Illes);FURGONETAS;Gas Licuado de Petroleo;220
+Balears (Illes)/Balears (Illes);FURGONETAS;Gas Natural Comprimido;22
+Balears (Illes)/Balears (Illes);FURGONETAS;Gasolina;16864
+Balears (Illes)/Balears (Illes);FURGONETAS;Otros;1
+Balears (Illes)/Balears (Illes);FURGONETAS;Sin especificar;1
+Balears (Illes)/Balears (Illes);MOTOCICLETAS;TOTAL;150607
+Balears (Illes)/Balears (Illes);MOTOCICLETAS;Diesel;45
+Balears (Illes)/Balears (Illes);MOTOCICLETAS;Eléctrico;623
+Balears (Illes)/Balears (Illes);MOTOCICLETAS;Gas Licuado de Petroleo;4
+Balears (Illes)/Balears (Illes);MOTOCICLETAS;Gasolina;149914
+Balears (Illes)/Balears (Illes);MOTOCICLETAS;Otros;10
+Balears (Illes)/Balears (Illes);MOTOCICLETAS;Sin especificar;10
+Balears (Illes)/Balears (Illes);MOTOCICLETAS;Solar;1
+Balears (Illes)/Balears (Illes);TURISMOS;TOTAL;734911
+Balears (Illes)/Balears (Illes);TURISMOS;Biodiesel;4
+Balears (Illes)/Balears (Illes);TURISMOS;Biometano;1
+Balears (Illes)/Balears (Illes);TURISMOS;Butano;1
+Balears (Illes)/Balears (Illes);TURISMOS;Diesel;255412
+Balears (Illes)/Balears (Illes);TURISMOS;Eléctrico;1374
+Balears (Illes)/Balears (Illes);TURISMOS;Gas Licuado de Petroleo;692
+Balears (Illes)/Balears (Illes);TURISMOS;Gas Natural Comprimido;70
+Balears (Illes)/Balears (Illes);TURISMOS;Gas Natural Licuado;1
+Balears (Illes)/Balears (Illes);TURISMOS;Gasolina;477307
+Balears (Illes)/Balears (Illes);TURISMOS;Hidrógeno;1
+Balears (Illes)/Balears (Illes);TURISMOS;Otros;28
+Balears (Illes)/Balears (Illes);TURISMOS;Sin especificar;20
+Canarias/Palmas (Las);CAMIONES HASTA 3500kg;TOTAL;107773
+Canarias/Palmas (Las);CAMIONES HASTA 3500kg;Diesel;94957
+Canarias/Palmas (Las);CAMIONES HASTA 3500kg;Eléctrico;70
+Canarias/Palmas (Las);CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;3
+Canarias/Palmas (Las);CAMIONES HASTA 3500kg;Gasolina;12743
+Canarias/Palmas (Las);CAMIONES MÁS DE 3500kg;TOTAL;9761
+Canarias/Palmas (Las);CAMIONES MÁS DE 3500kg;Diesel;9653
+Canarias/Palmas (Las);CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;3
+Canarias/Palmas (Las);CAMIONES MÁS DE 3500kg;Gasolina;105
+Canarias/Palmas (Las);CICLOMOTORES;TOTAL;29444
+Canarias/Palmas (Las);CICLOMOTORES;Diesel;1789
+Canarias/Palmas (Las);CICLOMOTORES;Eléctrico;154
+Canarias/Palmas (Las);CICLOMOTORES;Gasolina;27501
+Canarias/Palmas (Las);FURGONETAS;TOTAL;69828
+Canarias/Palmas (Las);FURGONETAS;Diesel;54268
+Canarias/Palmas (Las);FURGONETAS;Eléctrico;84
+Canarias/Palmas (Las);FURGONETAS;Gas Licuado de Petroleo;110
+Canarias/Palmas (Las);FURGONETAS;Gas Natural Comprimido;1
+Canarias/Palmas (Las);FURGONETAS;Gasolina;15365
+Canarias/Palmas (Las);MOTOCICLETAS;TOTAL;71368
+Canarias/Palmas (Las);MOTOCICLETAS;Diesel;83
+Canarias/Palmas (Las);MOTOCICLETAS;Eléctrico;446
+Canarias/Palmas (Las);MOTOCICLETAS;Gas Licuado de Petroleo;1
+Canarias/Palmas (Las);MOTOCICLETAS;Gasolina;70837
+Canarias/Palmas (Las);MOTOCICLETAS;Sin especificar;1
+Canarias/Palmas (Las);TURISMOS;TOTAL;600337
+Canarias/Palmas (Las);TURISMOS;Biodiesel;2
+Canarias/Palmas (Las);TURISMOS;Butano;2
+Canarias/Palmas (Las);TURISMOS;Diesel;124093
+Canarias/Palmas (Las);TURISMOS;Eléctrico;973
+Canarias/Palmas (Las);TURISMOS;Gas Licuado de Petroleo;1301
+Canarias/Palmas (Las);TURISMOS;Gas Natural Comprimido;5
+Canarias/Palmas (Las);TURISMOS;Gas Natural Licuado;3
+Canarias/Palmas (Las);TURISMOS;Gasolina;473941
+Canarias/Palmas (Las);TURISMOS;Hidrógeno;3
+Canarias/Palmas (Las);TURISMOS;Otros;11
+Canarias/Palmas (Las);TURISMOS;Sin especificar;3
+Canarias/Santa Cruz de Tenerife;CAMIONES HASTA 3500kg;TOTAL;103605
+Canarias/Santa Cruz de Tenerife;CAMIONES HASTA 3500kg;Diesel;90853
+Canarias/Santa Cruz de Tenerife;CAMIONES HASTA 3500kg;Eléctrico;14
+Canarias/Santa Cruz de Tenerife;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;31
+Canarias/Santa Cruz de Tenerife;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Canarias/Santa Cruz de Tenerife;CAMIONES HASTA 3500kg;Gas Natural Licuado;1
+Canarias/Santa Cruz de Tenerife;CAMIONES HASTA 3500kg;Gasolina;12704
+Canarias/Santa Cruz de Tenerife;CAMIONES HASTA 3500kg;Otros;1
+Canarias/Santa Cruz de Tenerife;CAMIONES MÁS DE 3500kg;TOTAL;8672
+Canarias/Santa Cruz de Tenerife;CAMIONES MÁS DE 3500kg;Diesel;8565
+Canarias/Santa Cruz de Tenerife;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;7
+Canarias/Santa Cruz de Tenerife;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;1
+Canarias/Santa Cruz de Tenerife;CAMIONES MÁS DE 3500kg;Gasolina;98
+Canarias/Santa Cruz de Tenerife;CAMIONES MÁS DE 3500kg;Sin especificar;1
+Canarias/Santa Cruz de Tenerife;CICLOMOTORES;TOTAL;25699
+Canarias/Santa Cruz de Tenerife;CICLOMOTORES;Diesel;966
+Canarias/Santa Cruz de Tenerife;CICLOMOTORES;Eléctrico;107
+Canarias/Santa Cruz de Tenerife;CICLOMOTORES;Gasolina;24624
+Canarias/Santa Cruz de Tenerife;CICLOMOTORES;Sin especificar;2
+Canarias/Santa Cruz de Tenerife;FURGONETAS;TOTAL;74196
+Canarias/Santa Cruz de Tenerife;FURGONETAS;Butano;1
+Canarias/Santa Cruz de Tenerife;FURGONETAS;Diesel;55564
+Canarias/Santa Cruz de Tenerife;FURGONETAS;Eléctrico;77
+Canarias/Santa Cruz de Tenerife;FURGONETAS;Gas Licuado de Petroleo;64
+Canarias/Santa Cruz de Tenerife;FURGONETAS;Gasolina;18490
+Canarias/Santa Cruz de Tenerife;MOTOCICLETAS;TOTAL;69792
+Canarias/Santa Cruz de Tenerife;MOTOCICLETAS;Diesel;41
+Canarias/Santa Cruz de Tenerife;MOTOCICLETAS;Eléctrico;196
+Canarias/Santa Cruz de Tenerife;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Canarias/Santa Cruz de Tenerife;MOTOCICLETAS;Gasolina;69552
+Canarias/Santa Cruz de Tenerife;MOTOCICLETAS;Otros;1
+Canarias/Santa Cruz de Tenerife;MOTOCICLETAS;Sin especificar;1
+Canarias/Santa Cruz de Tenerife;TURISMOS;TOTAL;577580
+Canarias/Santa Cruz de Tenerife;TURISMOS;Butano;1
+Canarias/Santa Cruz de Tenerife;TURISMOS;Diesel;108475
+Canarias/Santa Cruz de Tenerife;TURISMOS;Eléctrico;656
+Canarias/Santa Cruz de Tenerife;TURISMOS;Gas Licuado de Petroleo;654
+Canarias/Santa Cruz de Tenerife;TURISMOS;Gas Natural Comprimido;3
+Canarias/Santa Cruz de Tenerife;TURISMOS;Gas Natural Licuado;3
+Canarias/Santa Cruz de Tenerife;TURISMOS;Gasolina;467760
+Canarias/Santa Cruz de Tenerife;TURISMOS;Hidrógeno;3
+Canarias/Santa Cruz de Tenerife;TURISMOS;Otros;10
+Canarias/Santa Cruz de Tenerife;TURISMOS;Sin especificar;15
+Cantabria/Cantabria;CAMIONES HASTA 3500kg;TOTAL;25974
+Cantabria/Cantabria;CAMIONES HASTA 3500kg;Diesel;25505
+Cantabria/Cantabria;CAMIONES HASTA 3500kg;Eléctrico;15
+Cantabria/Cantabria;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;24
+Cantabria/Cantabria;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Cantabria/Cantabria;CAMIONES HASTA 3500kg;Gasolina;429
+Cantabria/Cantabria;CAMIONES MÁS DE 3500kg;TOTAL;4474
+Cantabria/Cantabria;CAMIONES MÁS DE 3500kg;Diesel;4407
+Cantabria/Cantabria;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;3
+Cantabria/Cantabria;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;4
+Cantabria/Cantabria;CAMIONES MÁS DE 3500kg;Gasolina;60
+Cantabria/Cantabria;CICLOMOTORES;TOTAL;17305
+Cantabria/Cantabria;CICLOMOTORES;Diesel;835
+Cantabria/Cantabria;CICLOMOTORES;Eléctrico;62
+Cantabria/Cantabria;CICLOMOTORES;Gasolina;16408
+Cantabria/Cantabria;FURGONETAS;TOTAL;26216
+Cantabria/Cantabria;FURGONETAS;Biometano;1
+Cantabria/Cantabria;FURGONETAS;Diesel;22287
+Cantabria/Cantabria;FURGONETAS;Eléctrico;30
+Cantabria/Cantabria;FURGONETAS;Gas Licuado de Petroleo;81
+Cantabria/Cantabria;FURGONETAS;Gas Natural Comprimido;2
+Cantabria/Cantabria;FURGONETAS;Gasolina;3812
+Cantabria/Cantabria;FURGONETAS;Otros;3
+Cantabria/Cantabria;MOTOCICLETAS;TOTAL;41438
+Cantabria/Cantabria;MOTOCICLETAS;Diesel;107
+Cantabria/Cantabria;MOTOCICLETAS;Eléctrico;96
+Cantabria/Cantabria;MOTOCICLETAS;Gas Licuado de Petroleo;2
+Cantabria/Cantabria;MOTOCICLETAS;Gasolina;41230
+Cantabria/Cantabria;MOTOCICLETAS;Sin especificar;3
+Cantabria/Cantabria;TURISMOS;TOTAL;310906
+Cantabria/Cantabria;TURISMOS;Biodiesel;2
+Cantabria/Cantabria;TURISMOS;Butano;2
+Cantabria/Cantabria;TURISMOS;Diesel;186161
+Cantabria/Cantabria;TURISMOS;Eléctrico;259
+Cantabria/Cantabria;TURISMOS;Etanol;2
+Cantabria/Cantabria;TURISMOS;Gas Licuado de Petroleo;503
+Cantabria/Cantabria;TURISMOS;Gas Natural Comprimido;21
+Cantabria/Cantabria;TURISMOS;Gas Natural Licuado;1
+Cantabria/Cantabria;TURISMOS;Gasolina;123906
+Cantabria/Cantabria;TURISMOS;Otros;45
+Cantabria/Cantabria;TURISMOS;Sin especificar;4
+Castilla y León/Ávila;CAMIONES HASTA 3500kg;TOTAL;10502
+Castilla y León/Ávila;CAMIONES HASTA 3500kg;Diesel;10241
+Castilla y León/Ávila;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;9
+Castilla y León/Ávila;CAMIONES HASTA 3500kg;Gasolina;251
+Castilla y León/Ávila;CAMIONES HASTA 3500kg;Otros;1
+Castilla y León/Ávila;CAMIONES MÁS DE 3500kg;TOTAL;1965
+Castilla y León/Ávila;CAMIONES MÁS DE 3500kg;Diesel;1952
+Castilla y León/Ávila;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Castilla y León/Ávila;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;1
+Castilla y León/Ávila;CAMIONES MÁS DE 3500kg;Gasolina;11
+Castilla y León/Ávila;CICLOMOTORES;TOTAL;6367
+Castilla y León/Ávila;CICLOMOTORES;Diesel;201
+Castilla y León/Ávila;CICLOMOTORES;Eléctrico;10
+Castilla y León/Ávila;CICLOMOTORES;Gasolina;6156
+Castilla y León/Ávila;FURGONETAS;TOTAL;13265
+Castilla y León/Ávila;FURGONETAS;Diesel;11062
+Castilla y León/Ávila;FURGONETAS;Eléctrico;4
+Castilla y León/Ávila;FURGONETAS;Gas Licuado de Petroleo;15
+Castilla y León/Ávila;FURGONETAS;Gasolina;2183
+Castilla y León/Ávila;FURGONETAS;Otros;1
+Castilla y León/Ávila;MOTOCICLETAS;TOTAL;9477
+Castilla y León/Ávila;MOTOCICLETAS;Diesel;36
+Castilla y León/Ávila;MOTOCICLETAS;Eléctrico;13
+Castilla y León/Ávila;MOTOCICLETAS;Gasolina;9428
+Castilla y León/Ávila;TURISMOS;TOTAL;90481
+Castilla y León/Ávila;TURISMOS;Butano;2
+Castilla y León/Ávila;TURISMOS;Diesel;56421
+Castilla y León/Ávila;TURISMOS;Eléctrico;51
+Castilla y León/Ávila;TURISMOS;Gas Licuado de Petroleo;139
+Castilla y León/Ávila;TURISMOS;Gas Natural Comprimido;12
+Castilla y León/Ávila;TURISMOS;Gasolina;33851
+Castilla y León/Ávila;TURISMOS;Hidrógeno;1
+Castilla y León/Ávila;TURISMOS;Otros;4
+Castilla y León/Burgos;CAMIONES HASTA 3500kg;TOTAL;15373
+Castilla y León/Burgos;CAMIONES HASTA 3500kg;Diesel;15019
+Castilla y León/Burgos;CAMIONES HASTA 3500kg;Eléctrico;2
+Castilla y León/Burgos;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;4
+Castilla y León/Burgos;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Castilla y León/Burgos;CAMIONES HASTA 3500kg;Gasolina;346
+Castilla y León/Burgos;CAMIONES HASTA 3500kg;Otros;1
+Castilla y León/Burgos;CAMIONES MÁS DE 3500kg;TOTAL;3113
+Castilla y León/Burgos;CAMIONES MÁS DE 3500kg;Diesel;3088
+Castilla y León/Burgos;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;2
+Castilla y León/Burgos;CAMIONES MÁS DE 3500kg;Gasolina;23
+Castilla y León/Burgos;CICLOMOTORES;TOTAL;7490
+Castilla y León/Burgos;CICLOMOTORES;Diesel;335
+Castilla y León/Burgos;CICLOMOTORES;Eléctrico;19
+Castilla y León/Burgos;CICLOMOTORES;Gasolina;7136
+Castilla y León/Burgos;FURGONETAS;TOTAL;20067
+Castilla y León/Burgos;FURGONETAS;Diesel;17128
+Castilla y León/Burgos;FURGONETAS;Eléctrico;26
+Castilla y León/Burgos;FURGONETAS;Gas Licuado de Petroleo;40
+Castilla y León/Burgos;FURGONETAS;Gas Natural Comprimido;7
+Castilla y León/Burgos;FURGONETAS;Gasolina;2864
+Castilla y León/Burgos;FURGONETAS;Otros;1
+Castilla y León/Burgos;FURGONETAS;Sin especificar;1
+Castilla y León/Burgos;MOTOCICLETAS;TOTAL;18412
+Castilla y León/Burgos;MOTOCICLETAS;Diesel;56
+Castilla y León/Burgos;MOTOCICLETAS;Eléctrico;40
+Castilla y León/Burgos;MOTOCICLETAS;Gasolina;18313
+Castilla y León/Burgos;MOTOCICLETAS;Sin especificar;3
+Castilla y León/Burgos;TURISMOS;TOTAL;193615
+Castilla y León/Burgos;TURISMOS;Butano;1
+Castilla y León/Burgos;TURISMOS;Diesel;111881
+Castilla y León/Burgos;TURISMOS;Eléctrico;177
+Castilla y León/Burgos;TURISMOS;Etanol;1
+Castilla y León/Burgos;TURISMOS;Gas Licuado de Petroleo;228
+Castilla y León/Burgos;TURISMOS;Gas Natural Comprimido;37
+Castilla y León/Burgos;TURISMOS;Gasolina;81246
+Castilla y León/Burgos;TURISMOS;Hidrógeno;1
+Castilla y León/Burgos;TURISMOS;Otros;27
+Castilla y León/Burgos;TURISMOS;Sin especificar;16
+Castilla y León/León;CAMIONES HASTA 3500kg;TOTAL;22623
+Castilla y León/León;CAMIONES HASTA 3500kg;Diesel;22022
+Castilla y León/León;CAMIONES HASTA 3500kg;Eléctrico;1
+Castilla y León/León;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;5
+Castilla y León/León;CAMIONES HASTA 3500kg;Gas Natural Licuado;2
+Castilla y León/León;CAMIONES HASTA 3500kg;Gasolina;590
+Castilla y León/León;CAMIONES HASTA 3500kg;Sin especificar;3
+Castilla y León/León;CAMIONES MÁS DE 3500kg;TOTAL;4736
+Castilla y León/León;CAMIONES MÁS DE 3500kg;Diesel;4711
+Castilla y León/León;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Castilla y León/León;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;1
+Castilla y León/León;CAMIONES MÁS DE 3500kg;Gasolina;23
+Castilla y León/León;CICLOMOTORES;TOTAL;15800
+Castilla y León/León;CICLOMOTORES;Diesel;349
+Castilla y León/León;CICLOMOTORES;Eléctrico;51
+Castilla y León/León;CICLOMOTORES;Gasolina;15394
+Castilla y León/León;CICLOMOTORES;Sin especificar;6
+Castilla y León/León;FURGONETAS;TOTAL;31431
+Castilla y León/León;FURGONETAS;Diesel;25257
+Castilla y León/León;FURGONETAS;Eléctrico;10
+Castilla y León/León;FURGONETAS;Gas Licuado de Petroleo;30
+Castilla y León/León;FURGONETAS;Gas Natural Comprimido;1
+Castilla y León/León;FURGONETAS;Gasolina;6132
+Castilla y León/León;FURGONETAS;Otros;1
+Castilla y León/León;MOTOCICLETAS;TOTAL;27892
+Castilla y León/León;MOTOCICLETAS;Diesel;66
+Castilla y León/León;MOTOCICLETAS;Eléctrico;60
+Castilla y León/León;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Castilla y León/León;MOTOCICLETAS;Gasolina;27758
+Castilla y León/León;MOTOCICLETAS;Sin especificar;7
+Castilla y León/León;TURISMOS;TOTAL;262798
+Castilla y León/León;TURISMOS;Biodiesel;2
+Castilla y León/León;TURISMOS;Butano;3
+Castilla y León/León;TURISMOS;Diesel;147988
+Castilla y León/León;TURISMOS;Eléctrico;146
+Castilla y León/León;TURISMOS;Etanol;2
+Castilla y León/León;TURISMOS;Gas Licuado de Petroleo;252
+Castilla y León/León;TURISMOS;Gas Natural Comprimido;39
+Castilla y León/León;TURISMOS;Gas Natural Licuado;1
+Castilla y León/León;TURISMOS;Gasolina;114339
+Castilla y León/León;TURISMOS;Hidrógeno;1
+Castilla y León/León;TURISMOS;Otros;22
+Castilla y León/León;TURISMOS;Sin especificar;3
+Castilla y León/Palencia;CAMIONES HASTA 3500kg;TOTAL;6555
+Castilla y León/Palencia;CAMIONES HASTA 3500kg;Diesel;6422
+Castilla y León/Palencia;CAMIONES HASTA 3500kg;Eléctrico;9
+Castilla y León/Palencia;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;1
+Castilla y León/Palencia;CAMIONES HASTA 3500kg;Gas Natural Comprimido;6
+Castilla y León/Palencia;CAMIONES HASTA 3500kg;Gasolina;116
+Castilla y León/Palencia;CAMIONES HASTA 3500kg;Otros;1
+Castilla y León/Palencia;CAMIONES MÁS DE 3500kg;TOTAL;1628
+Castilla y León/Palencia;CAMIONES MÁS DE 3500kg;Diesel;1620
+Castilla y León/Palencia;CAMIONES MÁS DE 3500kg;Gasolina;8
+Castilla y León/Palencia;CICLOMOTORES;TOTAL;4003
+Castilla y León/Palencia;CICLOMOTORES;Diesel;111
+Castilla y León/Palencia;CICLOMOTORES;Eléctrico;8
+Castilla y León/Palencia;CICLOMOTORES;Gasolina;3884
+Castilla y León/Palencia;FURGONETAS;TOTAL;9604
+Castilla y León/Palencia;FURGONETAS;Diesel;8272
+Castilla y León/Palencia;FURGONETAS;Eléctrico;9
+Castilla y León/Palencia;FURGONETAS;Gas Licuado de Petroleo;15
+Castilla y León/Palencia;FURGONETAS;Gasolina;1308
+Castilla y León/Palencia;MOTOCICLETAS;TOTAL;9025
+Castilla y León/Palencia;MOTOCICLETAS;Diesel;23
+Castilla y León/Palencia;MOTOCICLETAS;Eléctrico;19
+Castilla y León/Palencia;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Castilla y León/Palencia;MOTOCICLETAS;Gasolina;8982
+Castilla y León/Palencia;TURISMOS;TOTAL;93867
+Castilla y León/Palencia;TURISMOS;Diesel;59883
+Castilla y León/Palencia;TURISMOS;Eléctrico;36
+Castilla y León/Palencia;TURISMOS;Gas Licuado de Petroleo;119
+Castilla y León/Palencia;TURISMOS;Gas Natural Comprimido;7
+Castilla y León/Palencia;TURISMOS;Gasolina;33811
+Castilla y León/Palencia;TURISMOS;Otros;9
+Castilla y León/Palencia;TURISMOS;Sin especificar;2
+Castilla y León/Salamanca;CAMIONES HASTA 3500kg;TOTAL;15077
+Castilla y León/Salamanca;CAMIONES HASTA 3500kg;Diesel;14731
+Castilla y León/Salamanca;CAMIONES HASTA 3500kg;Eléctrico;3
+Castilla y León/Salamanca;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;2
+Castilla y León/Salamanca;CAMIONES HASTA 3500kg;Gas Natural Comprimido;6
+Castilla y León/Salamanca;CAMIONES HASTA 3500kg;Gasolina;335
+Castilla y León/Salamanca;CAMIONES MÁS DE 3500kg;TOTAL;3405
+Castilla y León/Salamanca;CAMIONES MÁS DE 3500kg;Diesel;3346
+Castilla y León/Salamanca;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;3
+Castilla y León/Salamanca;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;34
+Castilla y León/Salamanca;CAMIONES MÁS DE 3500kg;Gasolina;20
+Castilla y León/Salamanca;CAMIONES MÁS DE 3500kg;Otros;2
+Castilla y León/Salamanca;CICLOMOTORES;TOTAL;8697
+Castilla y León/Salamanca;CICLOMOTORES;Diesel;259
+Castilla y León/Salamanca;CICLOMOTORES;Eléctrico;25
+Castilla y León/Salamanca;CICLOMOTORES;Gasolina;8413
+Castilla y León/Salamanca;FURGONETAS;TOTAL;16775
+Castilla y León/Salamanca;FURGONETAS;Diesel;14273
+Castilla y León/Salamanca;FURGONETAS;Eléctrico;9
+Castilla y León/Salamanca;FURGONETAS;Gas Licuado de Petroleo;19
+Castilla y León/Salamanca;FURGONETAS;Gas Natural Comprimido;5
+Castilla y León/Salamanca;FURGONETAS;Gasolina;2469
+Castilla y León/Salamanca;MOTOCICLETAS;TOTAL;17449
+Castilla y León/Salamanca;MOTOCICLETAS;Diesel;47
+Castilla y León/Salamanca;MOTOCICLETAS;Eléctrico;14
+Castilla y León/Salamanca;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Castilla y León/Salamanca;MOTOCICLETAS;Gasolina;17384
+Castilla y León/Salamanca;MOTOCICLETAS;Otros;2
+Castilla y León/Salamanca;MOTOCICLETAS;Sin especificar;1
+Castilla y León/Salamanca;TURISMOS;TOTAL;176958
+Castilla y León/Salamanca;TURISMOS;Biodiesel;2
+Castilla y León/Salamanca;TURISMOS;Butano;5
+Castilla y León/Salamanca;TURISMOS;Diesel;109936
+Castilla y León/Salamanca;TURISMOS;Eléctrico;85
+Castilla y León/Salamanca;TURISMOS;Etanol;1
+Castilla y León/Salamanca;TURISMOS;Gas Licuado de Petroleo;236
+Castilla y León/Salamanca;TURISMOS;Gas Natural Comprimido;29
+Castilla y León/Salamanca;TURISMOS;Gasolina;66653
+Castilla y León/Salamanca;TURISMOS;Hidrógeno;1
+Castilla y León/Salamanca;TURISMOS;Otros;7
+Castilla y León/Salamanca;TURISMOS;Sin especificar;3
+Castilla y León/Segovia;CAMIONES HASTA 3500kg;TOTAL;9644
+Castilla y León/Segovia;CAMIONES HASTA 3500kg;Diesel;9303
+Castilla y León/Segovia;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;2
+Castilla y León/Segovia;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Castilla y León/Segovia;CAMIONES HASTA 3500kg;Gasolina;335
+Castilla y León/Segovia;CAMIONES HASTA 3500kg;Otros;3
+Castilla y León/Segovia;CAMIONES MÁS DE 3500kg;TOTAL;2048
+Castilla y León/Segovia;CAMIONES MÁS DE 3500kg;Diesel;2016
+Castilla y León/Segovia;CAMIONES MÁS DE 3500kg;Gasolina;29
+Castilla y León/Segovia;CAMIONES MÁS DE 3500kg;Otros;3
+Castilla y León/Segovia;CICLOMOTORES;TOTAL;4055
+Castilla y León/Segovia;CICLOMOTORES;Diesel;97
+Castilla y León/Segovia;CICLOMOTORES;Eléctrico;15
+Castilla y León/Segovia;CICLOMOTORES;Gasolina;3943
+Castilla y León/Segovia;FURGONETAS;TOTAL;10735
+Castilla y León/Segovia;FURGONETAS;Diesel;8842
+Castilla y León/Segovia;FURGONETAS;Eléctrico;7
+Castilla y León/Segovia;FURGONETAS;Gas Licuado de Petroleo;23
+Castilla y León/Segovia;FURGONETAS;Gas Natural Comprimido;1
+Castilla y León/Segovia;FURGONETAS;Gasolina;1858
+Castilla y León/Segovia;FURGONETAS;Otros;4
+Castilla y León/Segovia;MOTOCICLETAS;TOTAL;9016
+Castilla y León/Segovia;MOTOCICLETAS;Diesel;36
+Castilla y León/Segovia;MOTOCICLETAS;Eléctrico;15
+Castilla y León/Segovia;MOTOCICLETAS;Gasolina;8963
+Castilla y León/Segovia;MOTOCICLETAS;Otros;2
+Castilla y León/Segovia;TURISMOS;TOTAL;90905
+Castilla y León/Segovia;TURISMOS;Butano;1
+Castilla y León/Segovia;TURISMOS;Diesel;56759
+Castilla y León/Segovia;TURISMOS;Eléctrico;59
+Castilla y León/Segovia;TURISMOS;Gas Licuado de Petroleo;142
+Castilla y León/Segovia;TURISMOS;Gas Natural Comprimido;8
+Castilla y León/Segovia;TURISMOS;Gasolina;33934
+Castilla y León/Segovia;TURISMOS;Otros;2
+Castilla y León/Soria;CAMIONES HASTA 3500kg;TOTAL;5479
+Castilla y León/Soria;CAMIONES HASTA 3500kg;Diesel;5344
+Castilla y León/Soria;CAMIONES HASTA 3500kg;Eléctrico;3
+Castilla y León/Soria;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;1
+Castilla y León/Soria;CAMIONES HASTA 3500kg;Gasolina;131
+Castilla y León/Soria;CAMIONES MÁS DE 3500kg;TOTAL;1061
+Castilla y León/Soria;CAMIONES MÁS DE 3500kg;Diesel;1056
+Castilla y León/Soria;CAMIONES MÁS DE 3500kg;Gasolina;5
+Castilla y León/Soria;CICLOMOTORES;TOTAL;2633
+Castilla y León/Soria;CICLOMOTORES;Diesel;69
+Castilla y León/Soria;CICLOMOTORES;Eléctrico;3
+Castilla y León/Soria;CICLOMOTORES;Gasolina;2561
+Castilla y León/Soria;FURGONETAS;TOTAL;7627
+Castilla y León/Soria;FURGONETAS;Diesel;6519
+Castilla y León/Soria;FURGONETAS;Eléctrico;4
+Castilla y León/Soria;FURGONETAS;Gas Licuado de Petroleo;6
+Castilla y León/Soria;FURGONETAS;Gasolina;1098
+Castilla y León/Soria;MOTOCICLETAS;TOTAL;5030
+Castilla y León/Soria;MOTOCICLETAS;Diesel;16
+Castilla y León/Soria;MOTOCICLETAS;Eléctrico;3
+Castilla y León/Soria;MOTOCICLETAS;Gasolina;5011
+Castilla y León/Soria;TURISMOS;TOTAL;50024
+Castilla y León/Soria;TURISMOS;Butano;1
+Castilla y León/Soria;TURISMOS;Diesel;30640
+Castilla y León/Soria;TURISMOS;Eléctrico;23
+Castilla y León/Soria;TURISMOS;Gas Licuado de Petroleo;41
+Castilla y León/Soria;TURISMOS;Gas Natural Comprimido;2
+Castilla y León/Soria;TURISMOS;Gasolina;19314
+Castilla y León/Soria;TURISMOS;Otros;3
+Castilla y León/Valladolid;CAMIONES HASTA 3500kg;TOTAL;18727
+Castilla y León/Valladolid;CAMIONES HASTA 3500kg;Biodiesel;1
+Castilla y León/Valladolid;CAMIONES HASTA 3500kg;Diesel;18273
+Castilla y León/Valladolid;CAMIONES HASTA 3500kg;Eléctrico;3
+Castilla y León/Valladolid;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;15
+Castilla y León/Valladolid;CAMIONES HASTA 3500kg;Gas Natural Comprimido;7
+Castilla y León/Valladolid;CAMIONES HASTA 3500kg;Gasolina;428
+Castilla y León/Valladolid;CAMIONES MÁS DE 3500kg;TOTAL;3747
+Castilla y León/Valladolid;CAMIONES MÁS DE 3500kg;Diesel;3717
+Castilla y León/Valladolid;CAMIONES MÁS DE 3500kg;Eléctrico;1
+Castilla y León/Valladolid;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;5
+Castilla y León/Valladolid;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;8
+Castilla y León/Valladolid;CAMIONES MÁS DE 3500kg;Gasolina;16
+Castilla y León/Valladolid;CICLOMOTORES;TOTAL;11341
+Castilla y León/Valladolid;CICLOMOTORES;Diesel;240
+Castilla y León/Valladolid;CICLOMOTORES;Eléctrico;46
+Castilla y León/Valladolid;CICLOMOTORES;Gasolina;11055
+Castilla y León/Valladolid;FURGONETAS;TOTAL;17977
+Castilla y León/Valladolid;FURGONETAS;Diesel;15014
+Castilla y León/Valladolid;FURGONETAS;Eléctrico;39
+Castilla y León/Valladolid;FURGONETAS;Gas Licuado de Petroleo;75
+Castilla y León/Valladolid;FURGONETAS;Gas Natural Comprimido;2
+Castilla y León/Valladolid;FURGONETAS;Gasolina;2847
+Castilla y León/Valladolid;MOTOCICLETAS;TOTAL;31635
+Castilla y León/Valladolid;MOTOCICLETAS;Diesel;67
+Castilla y León/Valladolid;MOTOCICLETAS;Eléctrico;84
+Castilla y León/Valladolid;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Castilla y León/Valladolid;MOTOCICLETAS;Gasolina;31483
+Castilla y León/Valladolid;TURISMOS;TOTAL;270021
+Castilla y León/Valladolid;TURISMOS;Diesel;158254
+Castilla y León/Valladolid;TURISMOS;Eléctrico;281
+Castilla y León/Valladolid;TURISMOS;Gas Licuado de Petroleo;606
+Castilla y León/Valladolid;TURISMOS;Gas Natural Comprimido;10
+Castilla y León/Valladolid;TURISMOS;Gas Natural Licuado;1
+Castilla y León/Valladolid;TURISMOS;Gasolina;110852
+Castilla y León/Valladolid;TURISMOS;Hidrógeno;2
+Castilla y León/Valladolid;TURISMOS;Otros;11
+Castilla y León/Valladolid;TURISMOS;Sin especificar;4
+Castilla y León/Zamora;CAMIONES HASTA 3500kg;TOTAL;9323
+Castilla y León/Zamora;CAMIONES HASTA 3500kg;Diesel;9081
+Castilla y León/Zamora;CAMIONES HASTA 3500kg;Eléctrico;2
+Castilla y León/Zamora;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;3
+Castilla y León/Zamora;CAMIONES HASTA 3500kg;Gasolina;237
+Castilla y León/Zamora;CAMIONES MÁS DE 3500kg;TOTAL;2179
+Castilla y León/Zamora;CAMIONES MÁS DE 3500kg;Diesel;2164
+Castilla y León/Zamora;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;1
+Castilla y León/Zamora;CAMIONES MÁS DE 3500kg;Gasolina;14
+Castilla y León/Zamora;CICLOMOTORES;TOTAL;7638
+Castilla y León/Zamora;CICLOMOTORES;Diesel;253
+Castilla y León/Zamora;CICLOMOTORES;Eléctrico;10
+Castilla y León/Zamora;CICLOMOTORES;Gasolina;7373
+Castilla y León/Zamora;CICLOMOTORES;Sin especificar;2
+Castilla y León/Zamora;FURGONETAS;TOTAL;12249
+Castilla y León/Zamora;FURGONETAS;Diesel;9983
+Castilla y León/Zamora;FURGONETAS;Eléctrico;4
+Castilla y León/Zamora;FURGONETAS;Gas Licuado de Petroleo;11
+Castilla y León/Zamora;FURGONETAS;Gas Natural Comprimido;1
+Castilla y León/Zamora;FURGONETAS;Gasolina;2249
+Castilla y León/Zamora;FURGONETAS;Otros;1
+Castilla y León/Zamora;MOTOCICLETAS;TOTAL;10133
+Castilla y León/Zamora;MOTOCICLETAS;Diesel;28
+Castilla y León/Zamora;MOTOCICLETAS;Eléctrico;15
+Castilla y León/Zamora;MOTOCICLETAS;Gasolina;10090
+Castilla y León/Zamora;TURISMOS;TOTAL;101999
+Castilla y León/Zamora;TURISMOS;Biodiesel;1
+Castilla y León/Zamora;TURISMOS;Diesel;64039
+Castilla y León/Zamora;TURISMOS;Eléctrico;53
+Castilla y León/Zamora;TURISMOS;Gas Licuado de Petroleo;84
+Castilla y León/Zamora;TURISMOS;Gas Natural Comprimido;6
+Castilla y León/Zamora;TURISMOS;Gas Natural Licuado;1
+Castilla y León/Zamora;TURISMOS;Gasolina;37803
+Castilla y León/Zamora;TURISMOS;Otros;12
+Castilla-La Mancha/Albacete;CAMIONES HASTA 3500kg;TOTAL;24266
+Castilla-La Mancha/Albacete;CAMIONES HASTA 3500kg;Diesel;23842
+Castilla-La Mancha/Albacete;CAMIONES HASTA 3500kg;Eléctrico;1
+Castilla-La Mancha/Albacete;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;7
+Castilla-La Mancha/Albacete;CAMIONES HASTA 3500kg;Gasolina;416
+Castilla-La Mancha/Albacete;CAMIONES MÁS DE 3500kg;TOTAL;4232
+Castilla-La Mancha/Albacete;CAMIONES MÁS DE 3500kg;Diesel;4202
+Castilla-La Mancha/Albacete;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;2
+Castilla-La Mancha/Albacete;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;5
+Castilla-La Mancha/Albacete;CAMIONES MÁS DE 3500kg;Gasolina;23
+Castilla-La Mancha/Albacete;CICLOMOTORES;TOTAL;25683
+Castilla-La Mancha/Albacete;CICLOMOTORES;Diesel;1058
+Castilla-La Mancha/Albacete;CICLOMOTORES;Eléctrico;36
+Castilla-La Mancha/Albacete;CICLOMOTORES;Gasolina;24589
+Castilla-La Mancha/Albacete;FURGONETAS;TOTAL;22452
+Castilla-La Mancha/Albacete;FURGONETAS;Butano;1
+Castilla-La Mancha/Albacete;FURGONETAS;Diesel;19039
+Castilla-La Mancha/Albacete;FURGONETAS;Eléctrico;12
+Castilla-La Mancha/Albacete;FURGONETAS;Gas Licuado de Petroleo;41
+Castilla-La Mancha/Albacete;FURGONETAS;Gas Natural Comprimido;6
+Castilla-La Mancha/Albacete;FURGONETAS;Gasolina;3353
+Castilla-La Mancha/Albacete;MOTOCICLETAS;TOTAL;27249
+Castilla-La Mancha/Albacete;MOTOCICLETAS;Diesel;50
+Castilla-La Mancha/Albacete;MOTOCICLETAS;Eléctrico;19
+Castilla-La Mancha/Albacete;MOTOCICLETAS;Gasolina;27175
+Castilla-La Mancha/Albacete;MOTOCICLETAS;Otros;2
+Castilla-La Mancha/Albacete;MOTOCICLETAS;Sin especificar;3
+Castilla-La Mancha/Albacete;TURISMOS;TOTAL;196867
+Castilla-La Mancha/Albacete;TURISMOS;Biodiesel;1
+Castilla-La Mancha/Albacete;TURISMOS;Biometano;1
+Castilla-La Mancha/Albacete;TURISMOS;Butano;2
+Castilla-La Mancha/Albacete;TURISMOS;Diesel;128142
+Castilla-La Mancha/Albacete;TURISMOS;Eléctrico;78
+Castilla-La Mancha/Albacete;TURISMOS;Gas Licuado de Petroleo;217
+Castilla-La Mancha/Albacete;TURISMOS;Gas Natural Comprimido;28
+Castilla-La Mancha/Albacete;TURISMOS;Gas Natural Licuado;1
+Castilla-La Mancha/Albacete;TURISMOS;Gasolina;68392
+Castilla-La Mancha/Albacete;TURISMOS;Otros;3
+Castilla-La Mancha/Albacete;TURISMOS;Sin especificar;2
+Castilla-La Mancha/Ciudad Real;CAMIONES HASTA 3500kg;TOTAL;32130
+Castilla-La Mancha/Ciudad Real;CAMIONES HASTA 3500kg;Diesel;31595
+Castilla-La Mancha/Ciudad Real;CAMIONES HASTA 3500kg;Eléctrico;1
+Castilla-La Mancha/Ciudad Real;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;7
+Castilla-La Mancha/Ciudad Real;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Castilla-La Mancha/Ciudad Real;CAMIONES HASTA 3500kg;Gasolina;525
+Castilla-La Mancha/Ciudad Real;CAMIONES HASTA 3500kg;Otros;1
+Castilla-La Mancha/Ciudad Real;CAMIONES MÁS DE 3500kg;TOTAL;4554
+Castilla-La Mancha/Ciudad Real;CAMIONES MÁS DE 3500kg;Diesel;4520
+Castilla-La Mancha/Ciudad Real;CAMIONES MÁS DE 3500kg;Gasolina;33
+Castilla-La Mancha/Ciudad Real;CAMIONES MÁS DE 3500kg;Sin especificar;1
+Castilla-La Mancha/Ciudad Real;CICLOMOTORES;TOTAL;33709
+Castilla-La Mancha/Ciudad Real;CICLOMOTORES;Diesel;1317
+Castilla-La Mancha/Ciudad Real;CICLOMOTORES;Eléctrico;30
+Castilla-La Mancha/Ciudad Real;CICLOMOTORES;Gasolina;32359
+Castilla-La Mancha/Ciudad Real;CICLOMOTORES;Otros;1
+Castilla-La Mancha/Ciudad Real;CICLOMOTORES;Sin especificar;2
+Castilla-La Mancha/Ciudad Real;FURGONETAS;TOTAL;32623
+Castilla-La Mancha/Ciudad Real;FURGONETAS;Diesel;27930
+Castilla-La Mancha/Ciudad Real;FURGONETAS;Eléctrico;13
+Castilla-La Mancha/Ciudad Real;FURGONETAS;Gas Licuado de Petroleo;39
+Castilla-La Mancha/Ciudad Real;FURGONETAS;Gas Natural Comprimido;2
+Castilla-La Mancha/Ciudad Real;FURGONETAS;Gasolina;4637
+Castilla-La Mancha/Ciudad Real;FURGONETAS;Otros;2
+Castilla-La Mancha/Ciudad Real;MOTOCICLETAS;TOTAL;26033
+Castilla-La Mancha/Ciudad Real;MOTOCICLETAS;Diesel;60
+Castilla-La Mancha/Ciudad Real;MOTOCICLETAS;Eléctrico;16
+Castilla-La Mancha/Ciudad Real;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Castilla-La Mancha/Ciudad Real;MOTOCICLETAS;Gasolina;25955
+Castilla-La Mancha/Ciudad Real;MOTOCICLETAS;Sin especificar;1
+Castilla-La Mancha/Ciudad Real;TURISMOS;TOTAL;254400
+Castilla-La Mancha/Ciudad Real;TURISMOS;Biodiesel;1
+Castilla-La Mancha/Ciudad Real;TURISMOS;Butano;2
+Castilla-La Mancha/Ciudad Real;TURISMOS;Diesel;165991
+Castilla-La Mancha/Ciudad Real;TURISMOS;Eléctrico;115
+Castilla-La Mancha/Ciudad Real;TURISMOS;Gas Licuado de Petroleo;252
+Castilla-La Mancha/Ciudad Real;TURISMOS;Gas Natural Comprimido;34
+Castilla-La Mancha/Ciudad Real;TURISMOS;Gas Natural Licuado;1
+Castilla-La Mancha/Ciudad Real;TURISMOS;Gasolina;87994
+Castilla-La Mancha/Ciudad Real;TURISMOS;Hidrógeno;1
+Castilla-La Mancha/Ciudad Real;TURISMOS;Otros;3
+Castilla-La Mancha/Ciudad Real;TURISMOS;Sin especificar;6
+Castilla-La Mancha/Cuenca;CAMIONES HASTA 3500kg;TOTAL;17323
+Castilla-La Mancha/Cuenca;CAMIONES HASTA 3500kg;Diesel;17024
+Castilla-La Mancha/Cuenca;CAMIONES HASTA 3500kg;Eléctrico;1
+Castilla-La Mancha/Cuenca;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;6
+Castilla-La Mancha/Cuenca;CAMIONES HASTA 3500kg;Gasolina;292
+Castilla-La Mancha/Cuenca;CAMIONES MÁS DE 3500kg;TOTAL;2756
+Castilla-La Mancha/Cuenca;CAMIONES MÁS DE 3500kg;Diesel;2734
+Castilla-La Mancha/Cuenca;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;2
+Castilla-La Mancha/Cuenca;CAMIONES MÁS DE 3500kg;Gasolina;20
+Castilla-La Mancha/Cuenca;CICLOMOTORES;TOTAL;12317
+Castilla-La Mancha/Cuenca;CICLOMOTORES;Diesel;444
+Castilla-La Mancha/Cuenca;CICLOMOTORES;Eléctrico;17
+Castilla-La Mancha/Cuenca;CICLOMOTORES;Gasolina;11856
+Castilla-La Mancha/Cuenca;FURGONETAS;TOTAL;16676
+Castilla-La Mancha/Cuenca;FURGONETAS;Diesel;13735
+Castilla-La Mancha/Cuenca;FURGONETAS;Eléctrico;4
+Castilla-La Mancha/Cuenca;FURGONETAS;Gas Licuado de Petroleo;14
+Castilla-La Mancha/Cuenca;FURGONETAS;Gas Natural Comprimido;2
+Castilla-La Mancha/Cuenca;FURGONETAS;Gasolina;2921
+Castilla-La Mancha/Cuenca;MOTOCICLETAS;TOTAL;12324
+Castilla-La Mancha/Cuenca;MOTOCICLETAS;Diesel;27
+Castilla-La Mancha/Cuenca;MOTOCICLETAS;Eléctrico;11
+Castilla-La Mancha/Cuenca;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Castilla-La Mancha/Cuenca;MOTOCICLETAS;Gasolina;12284
+Castilla-La Mancha/Cuenca;MOTOCICLETAS;Otros;1
+Castilla-La Mancha/Cuenca;TURISMOS;TOTAL;114641
+Castilla-La Mancha/Cuenca;TURISMOS;Biodiesel;2
+Castilla-La Mancha/Cuenca;TURISMOS;Butano;1
+Castilla-La Mancha/Cuenca;TURISMOS;Diesel;80131
+Castilla-La Mancha/Cuenca;TURISMOS;Eléctrico;37
+Castilla-La Mancha/Cuenca;TURISMOS;Gas Licuado de Petroleo;97
+Castilla-La Mancha/Cuenca;TURISMOS;Gas Natural Comprimido;14
+Castilla-La Mancha/Cuenca;TURISMOS;Gasolina;34350
+Castilla-La Mancha/Cuenca;TURISMOS;Otros;7
+Castilla-La Mancha/Cuenca;TURISMOS;Sin especificar;2
+Castilla-La Mancha/Guadalajara;CAMIONES HASTA 3500kg;TOTAL;10765
+Castilla-La Mancha/Guadalajara;CAMIONES HASTA 3500kg;Diesel;10495
+Castilla-La Mancha/Guadalajara;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;14
+Castilla-La Mancha/Guadalajara;CAMIONES HASTA 3500kg;Gas Natural Comprimido;7
+Castilla-La Mancha/Guadalajara;CAMIONES HASTA 3500kg;Gasolina;249
+Castilla-La Mancha/Guadalajara;CAMIONES MÁS DE 3500kg;TOTAL;2002
+Castilla-La Mancha/Guadalajara;CAMIONES MÁS DE 3500kg;Diesel;1984
+Castilla-La Mancha/Guadalajara;CAMIONES MÁS DE 3500kg;Gasolina;18
+Castilla-La Mancha/Guadalajara;CICLOMOTORES;TOTAL;6525
+Castilla-La Mancha/Guadalajara;CICLOMOTORES;Diesel;303
+Castilla-La Mancha/Guadalajara;CICLOMOTORES;Eléctrico;21
+Castilla-La Mancha/Guadalajara;CICLOMOTORES;Gasolina;6201
+Castilla-La Mancha/Guadalajara;FURGONETAS;TOTAL;17575
+Castilla-La Mancha/Guadalajara;FURGONETAS;Diesel;14743
+Castilla-La Mancha/Guadalajara;FURGONETAS;Eléctrico;11
+Castilla-La Mancha/Guadalajara;FURGONETAS;Gas Licuado de Petroleo;31
+Castilla-La Mancha/Guadalajara;FURGONETAS;Gas Natural Comprimido;7
+Castilla-La Mancha/Guadalajara;FURGONETAS;Gas Natural Licuado;1
+Castilla-La Mancha/Guadalajara;FURGONETAS;Gasolina;2781
+Castilla-La Mancha/Guadalajara;FURGONETAS;Otros;1
+Castilla-La Mancha/Guadalajara;MOTOCICLETAS;TOTAL;16797
+Castilla-La Mancha/Guadalajara;MOTOCICLETAS;Diesel;37
+Castilla-La Mancha/Guadalajara;MOTOCICLETAS;Eléctrico;14
+Castilla-La Mancha/Guadalajara;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Castilla-La Mancha/Guadalajara;MOTOCICLETAS;Gasolina;16745
+Castilla-La Mancha/Guadalajara;TURISMOS;TOTAL;143581
+Castilla-La Mancha/Guadalajara;TURISMOS;Butano;3
+Castilla-La Mancha/Guadalajara;TURISMOS;Diesel;92985
+Castilla-La Mancha/Guadalajara;TURISMOS;Eléctrico;131
+Castilla-La Mancha/Guadalajara;TURISMOS;Gas Licuado de Petroleo;455
+Castilla-La Mancha/Guadalajara;TURISMOS;Gas Natural Comprimido;175
+Castilla-La Mancha/Guadalajara;TURISMOS;Gasolina;49829
+Castilla-La Mancha/Guadalajara;TURISMOS;Otros;3
+Castilla-La Mancha/Toledo;CAMIONES HASTA 3500kg;TOTAL;44890
+Castilla-La Mancha/Toledo;CAMIONES HASTA 3500kg;Diesel;44177
+Castilla-La Mancha/Toledo;CAMIONES HASTA 3500kg;Eléctrico;14
+Castilla-La Mancha/Toledo;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;39
+Castilla-La Mancha/Toledo;CAMIONES HASTA 3500kg;Gas Natural Comprimido;12
+Castilla-La Mancha/Toledo;CAMIONES HASTA 3500kg;Gasolina;648
+Castilla-La Mancha/Toledo;CAMIONES MÁS DE 3500kg;TOTAL;7004
+Castilla-La Mancha/Toledo;CAMIONES MÁS DE 3500kg;Diesel;6947
+Castilla-La Mancha/Toledo;CAMIONES MÁS DE 3500kg;Eléctrico;1
+Castilla-La Mancha/Toledo;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;5
+Castilla-La Mancha/Toledo;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;3
+Castilla-La Mancha/Toledo;CAMIONES MÁS DE 3500kg;Gasolina;47
+Castilla-La Mancha/Toledo;CAMIONES MÁS DE 3500kg;Sin especificar;1
+Castilla-La Mancha/Toledo;CICLOMOTORES;TOTAL;28554
+Castilla-La Mancha/Toledo;CICLOMOTORES;Diesel;926
+Castilla-La Mancha/Toledo;CICLOMOTORES;Eléctrico;53
+Castilla-La Mancha/Toledo;CICLOMOTORES;Gasolina;27569
+Castilla-La Mancha/Toledo;CICLOMOTORES;Sin especificar;6
+Castilla-La Mancha/Toledo;FURGONETAS;TOTAL;43796
+Castilla-La Mancha/Toledo;FURGONETAS;Diesel;37766
+Castilla-La Mancha/Toledo;FURGONETAS;Eléctrico;67
+Castilla-La Mancha/Toledo;FURGONETAS;Gas Licuado de Petroleo;106
+Castilla-La Mancha/Toledo;FURGONETAS;Gas Natural Comprimido;16
+Castilla-La Mancha/Toledo;FURGONETAS;Gas Natural Licuado;1
+Castilla-La Mancha/Toledo;FURGONETAS;Gasolina;5836
+Castilla-La Mancha/Toledo;FURGONETAS;Otros;3
+Castilla-La Mancha/Toledo;FURGONETAS;Sin especificar;1
+Castilla-La Mancha/Toledo;MOTOCICLETAS;TOTAL;36043
+Castilla-La Mancha/Toledo;MOTOCICLETAS;Butano;1
+Castilla-La Mancha/Toledo;MOTOCICLETAS;Diesel;128
+Castilla-La Mancha/Toledo;MOTOCICLETAS;Eléctrico;41
+Castilla-La Mancha/Toledo;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Castilla-La Mancha/Toledo;MOTOCICLETAS;Gasolina;35870
+Castilla-La Mancha/Toledo;MOTOCICLETAS;Otros;2
+Castilla-La Mancha/Toledo;TURISMOS;TOTAL;399777
+Castilla-La Mancha/Toledo;TURISMOS;Biodiesel;2
+Castilla-La Mancha/Toledo;TURISMOS;Butano;12
+Castilla-La Mancha/Toledo;TURISMOS;Diesel;274962
+Castilla-La Mancha/Toledo;TURISMOS;Eléctrico;820
+Castilla-La Mancha/Toledo;TURISMOS;Gas Licuado de Petroleo;1149
+Castilla-La Mancha/Toledo;TURISMOS;Gas Natural Comprimido;269
+Castilla-La Mancha/Toledo;TURISMOS;Gasolina;122547
+Castilla-La Mancha/Toledo;TURISMOS;Hidrógeno;7
+Castilla-La Mancha/Toledo;TURISMOS;Otros;5
+Castilla-La Mancha/Toledo;TURISMOS;Sin especificar;4
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;TOTAL;191660
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;Biometano;1
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;Diesel;183229
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;Eléctrico;631
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;268
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;Gas Natural Comprimido;199
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;Gasolina;7317
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;Otros;12
+Cataluña/Barcelona;CAMIONES HASTA 3500kg;Sin especificar;3
+Cataluña/Barcelona;CAMIONES MÁS DE 3500kg;TOTAL;36892
+Cataluña/Barcelona;CAMIONES MÁS DE 3500kg;Diesel;35615
+Cataluña/Barcelona;CAMIONES MÁS DE 3500kg;Eléctrico;61
+Cataluña/Barcelona;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;22
+Cataluña/Barcelona;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;748
+Cataluña/Barcelona;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;10
+Cataluña/Barcelona;CAMIONES MÁS DE 3500kg;Gasolina;413
+Cataluña/Barcelona;CAMIONES MÁS DE 3500kg;Otros;23
+Cataluña/Barcelona;CICLOMOTORES;TOTAL;169354
+Cataluña/Barcelona;CICLOMOTORES;Diesel;5133
+Cataluña/Barcelona;CICLOMOTORES;Eléctrico;8521
+Cataluña/Barcelona;CICLOMOTORES;Gasolina;155689
+Cataluña/Barcelona;CICLOMOTORES;Sin especificar;11
+Cataluña/Barcelona;FURGONETAS;TOTAL;247749
+Cataluña/Barcelona;FURGONETAS;Butano;1
+Cataluña/Barcelona;FURGONETAS;Diesel;194353
+Cataluña/Barcelona;FURGONETAS;Eléctrico;803
+Cataluña/Barcelona;FURGONETAS;Gas Licuado de Petroleo;620
+Cataluña/Barcelona;FURGONETAS;Gas Natural Comprimido;424
+Cataluña/Barcelona;FURGONETAS;Gasolina;51543
+Cataluña/Barcelona;FURGONETAS;Otros;4
+Cataluña/Barcelona;FURGONETAS;Sin especificar;1
+Cataluña/Barcelona;MOTOCICLETAS;TOTAL;661598
+Cataluña/Barcelona;MOTOCICLETAS;Biodiesel;5
+Cataluña/Barcelona;MOTOCICLETAS;Biometano;2
+Cataluña/Barcelona;MOTOCICLETAS;Diesel;340
+Cataluña/Barcelona;MOTOCICLETAS;Eléctrico;3263
+Cataluña/Barcelona;MOTOCICLETAS;Gas Licuado de Petroleo;9
+Cataluña/Barcelona;MOTOCICLETAS;Gas Natural Comprimido;1
+Cataluña/Barcelona;MOTOCICLETAS;Gasolina;657940
+Cataluña/Barcelona;MOTOCICLETAS;Otros;15
+Cataluña/Barcelona;MOTOCICLETAS;Sin especificar;23
+Cataluña/Barcelona;TURISMOS;TOTAL;2485782
+Cataluña/Barcelona;TURISMOS;Biodiesel;14
+Cataluña/Barcelona;TURISMOS;Biometano;3
+Cataluña/Barcelona;TURISMOS;Butano;64
+Cataluña/Barcelona;TURISMOS;Diesel;1133129
+Cataluña/Barcelona;TURISMOS;Eléctrico;6583
+Cataluña/Barcelona;TURISMOS;Etanol;4
+Cataluña/Barcelona;TURISMOS;Gas Licuado de Petroleo;6743
+Cataluña/Barcelona;TURISMOS;Gas Natural Comprimido;3263
+Cataluña/Barcelona;TURISMOS;Gas Natural Licuado;3
+Cataluña/Barcelona;TURISMOS;Gasolina;1335798
+Cataluña/Barcelona;TURISMOS;Hidrógeno;7
+Cataluña/Barcelona;TURISMOS;Otros;143
+Cataluña/Barcelona;TURISMOS;Sin especificar;28
+Cataluña/Girona;CAMIONES HASTA 3500kg;TOTAL;43797
+Cataluña/Girona;CAMIONES HASTA 3500kg;Diesel;42000
+Cataluña/Girona;CAMIONES HASTA 3500kg;Eléctrico;50
+Cataluña/Girona;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;15
+Cataluña/Girona;CAMIONES HASTA 3500kg;Gas Natural Comprimido;12
+Cataluña/Girona;CAMIONES HASTA 3500kg;Gasolina;1719
+Cataluña/Girona;CAMIONES HASTA 3500kg;Otros;1
+Cataluña/Girona;CAMIONES MÁS DE 3500kg;TOTAL;6436
+Cataluña/Girona;CAMIONES MÁS DE 3500kg;Butano;1
+Cataluña/Girona;CAMIONES MÁS DE 3500kg;Diesel;6329
+Cataluña/Girona;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Cataluña/Girona;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;3
+Cataluña/Girona;CAMIONES MÁS DE 3500kg;Gasolina;102
+Cataluña/Girona;CICLOMOTORES;TOTAL;42145
+Cataluña/Girona;CICLOMOTORES;Diesel;883
+Cataluña/Girona;CICLOMOTORES;Eléctrico;196
+Cataluña/Girona;CICLOMOTORES;Gasolina;41066
+Cataluña/Girona;FURGONETAS;TOTAL;63080
+Cataluña/Girona;FURGONETAS;Diesel;49441
+Cataluña/Girona;FURGONETAS;Eléctrico;88
+Cataluña/Girona;FURGONETAS;Gas Licuado de Petroleo;64
+Cataluña/Girona;FURGONETAS;Gas Natural Comprimido;6
+Cataluña/Girona;FURGONETAS;Gasolina;13479
+Cataluña/Girona;FURGONETAS;Otros;1
+Cataluña/Girona;FURGONETAS;Sin especificar;1
+Cataluña/Girona;MOTOCICLETAS;TOTAL;97251
+Cataluña/Girona;MOTOCICLETAS;Biodiesel;7
+Cataluña/Girona;MOTOCICLETAS;Diesel;55
+Cataluña/Girona;MOTOCICLETAS;Eléctrico;205
+Cataluña/Girona;MOTOCICLETAS;Gas Licuado de Petroleo;3
+Cataluña/Girona;MOTOCICLETAS;Gas Natural Comprimido;1
+Cataluña/Girona;MOTOCICLETAS;Gasolina;96968
+Cataluña/Girona;MOTOCICLETAS;Otros;2
+Cataluña/Girona;MOTOCICLETAS;Sin especificar;10
+Cataluña/Girona;TURISMOS;TOTAL;420671
+Cataluña/Girona;TURISMOS;Biodiesel;3
+Cataluña/Girona;TURISMOS;Biometano;2
+Cataluña/Girona;TURISMOS;Butano;2
+Cataluña/Girona;TURISMOS;Diesel;196882
+Cataluña/Girona;TURISMOS;Eléctrico;600
+Cataluña/Girona;TURISMOS;Etanol;1
+Cataluña/Girona;TURISMOS;Gas Licuado de Petroleo;656
+Cataluña/Girona;TURISMOS;Gas Natural Comprimido;102
+Cataluña/Girona;TURISMOS;Gasolina;222378
+Cataluña/Girona;TURISMOS;Otros;38
+Cataluña/Girona;TURISMOS;Sin especificar;7
+Cataluña/Lleida;CAMIONES HASTA 3500kg;TOTAL;30815
+Cataluña/Lleida;CAMIONES HASTA 3500kg;Diesel;29862
+Cataluña/Lleida;CAMIONES HASTA 3500kg;Eléctrico;6
+Cataluña/Lleida;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;5
+Cataluña/Lleida;CAMIONES HASTA 3500kg;Gas Natural Comprimido;6
+Cataluña/Lleida;CAMIONES HASTA 3500kg;Gasolina;936
+Cataluña/Lleida;CAMIONES MÁS DE 3500kg;TOTAL;4734
+Cataluña/Lleida;CAMIONES MÁS DE 3500kg;Diesel;4689
+Cataluña/Lleida;CAMIONES MÁS DE 3500kg;Eléctrico;1
+Cataluña/Lleida;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Cataluña/Lleida;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;7
+Cataluña/Lleida;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;9
+Cataluña/Lleida;CAMIONES MÁS DE 3500kg;Gasolina;27
+Cataluña/Lleida;CICLOMOTORES;TOTAL;17411
+Cataluña/Lleida;CICLOMOTORES;Diesel;634
+Cataluña/Lleida;CICLOMOTORES;Eléctrico;50
+Cataluña/Lleida;CICLOMOTORES;Gasolina;16726
+Cataluña/Lleida;CICLOMOTORES;Sin especificar;1
+Cataluña/Lleida;FURGONETAS;TOTAL;29840
+Cataluña/Lleida;FURGONETAS;Butano;1
+Cataluña/Lleida;FURGONETAS;Diesel;24560
+Cataluña/Lleida;FURGONETAS;Eléctrico;22
+Cataluña/Lleida;FURGONETAS;Gas Licuado de Petroleo;26
+Cataluña/Lleida;FURGONETAS;Gas Natural Comprimido;28
+Cataluña/Lleida;FURGONETAS;Gasolina;5201
+Cataluña/Lleida;FURGONETAS;Otros;2
+Cataluña/Lleida;MOTOCICLETAS;TOTAL;32703
+Cataluña/Lleida;MOTOCICLETAS;Diesel;57
+Cataluña/Lleida;MOTOCICLETAS;Eléctrico;31
+Cataluña/Lleida;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Cataluña/Lleida;MOTOCICLETAS;Gasolina;32613
+Cataluña/Lleida;MOTOCICLETAS;Otros;1
+Cataluña/Lleida;TURISMOS;TOTAL;234140
+Cataluña/Lleida;TURISMOS;Diesel;140707
+Cataluña/Lleida;TURISMOS;Eléctrico;263
+Cataluña/Lleida;TURISMOS;Etanol;1
+Cataluña/Lleida;TURISMOS;Gas Licuado de Petroleo;192
+Cataluña/Lleida;TURISMOS;Gas Natural Comprimido;67
+Cataluña/Lleida;TURISMOS;Gasolina;92898
+Cataluña/Lleida;TURISMOS;Otros;11
+Cataluña/Lleida;TURISMOS;Sin especificar;1
+Cataluña/Tarragona;CAMIONES HASTA 3500kg;TOTAL;45786
+Cataluña/Tarragona;CAMIONES HASTA 3500kg;Diesel;43825
+Cataluña/Tarragona;CAMIONES HASTA 3500kg;Eléctrico;47
+Cataluña/Tarragona;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;34
+Cataluña/Tarragona;CAMIONES HASTA 3500kg;Gas Natural Comprimido;11
+Cataluña/Tarragona;CAMIONES HASTA 3500kg;Gas Natural Licuado;1
+Cataluña/Tarragona;CAMIONES HASTA 3500kg;Gasolina;1867
+Cataluña/Tarragona;CAMIONES HASTA 3500kg;Otros;1
+Cataluña/Tarragona;CAMIONES MÁS DE 3500kg;TOTAL;5154
+Cataluña/Tarragona;CAMIONES MÁS DE 3500kg;Diesel;5067
+Cataluña/Tarragona;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Cataluña/Tarragona;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;15
+Cataluña/Tarragona;CAMIONES MÁS DE 3500kg;Gasolina;69
+Cataluña/Tarragona;CAMIONES MÁS DE 3500kg;Otros;2
+Cataluña/Tarragona;CICLOMOTORES;TOTAL;36847
+Cataluña/Tarragona;CICLOMOTORES;Diesel;1895
+Cataluña/Tarragona;CICLOMOTORES;Eléctrico;131
+Cataluña/Tarragona;CICLOMOTORES;Gasolina;34817
+Cataluña/Tarragona;CICLOMOTORES;Otros;1
+Cataluña/Tarragona;CICLOMOTORES;Sin especificar;3
+Cataluña/Tarragona;FURGONETAS;TOTAL;49457
+Cataluña/Tarragona;FURGONETAS;Butano;1
+Cataluña/Tarragona;FURGONETAS;Diesel;40340
+Cataluña/Tarragona;FURGONETAS;Eléctrico;54
+Cataluña/Tarragona;FURGONETAS;Gas Licuado de Petroleo;63
+Cataluña/Tarragona;FURGONETAS;Gas Natural Comprimido;12
+Cataluña/Tarragona;FURGONETAS;Gasolina;8985
+Cataluña/Tarragona;FURGONETAS;Sin especificar;2
+Cataluña/Tarragona;MOTOCICLETAS;TOTAL;76593
+Cataluña/Tarragona;MOTOCICLETAS;Biodiesel;1
+Cataluña/Tarragona;MOTOCICLETAS;Diesel;74
+Cataluña/Tarragona;MOTOCICLETAS;Eléctrico;219
+Cataluña/Tarragona;MOTOCICLETAS;Gasolina;76289
+Cataluña/Tarragona;MOTOCICLETAS;Otros;8
+Cataluña/Tarragona;MOTOCICLETAS;Sin especificar;2
+Cataluña/Tarragona;TURISMOS;TOTAL;421454
+Cataluña/Tarragona;TURISMOS;Biodiesel;1
+Cataluña/Tarragona;TURISMOS;Biometano;1
+Cataluña/Tarragona;TURISMOS;Butano;2
+Cataluña/Tarragona;TURISMOS;Diesel;217431
+Cataluña/Tarragona;TURISMOS;Eléctrico;581
+Cataluña/Tarragona;TURISMOS;Etanol;1
+Cataluña/Tarragona;TURISMOS;Gas Licuado de Petroleo;541
+Cataluña/Tarragona;TURISMOS;Gas Natural Comprimido;135
+Cataluña/Tarragona;TURISMOS;Gas Natural Licuado;3
+Cataluña/Tarragona;TURISMOS;Gasolina;202723
+Cataluña/Tarragona;TURISMOS;Hidrógeno;1
+Cataluña/Tarragona;TURISMOS;Otros;32
+Cataluña/Tarragona;TURISMOS;Sin especificar;2
+Ceuta/Ceuta;CAMIONES HASTA 3500kg;TOTAL;2122
+Ceuta/Ceuta;CAMIONES HASTA 3500kg;Diesel;1675
+Ceuta/Ceuta;CAMIONES HASTA 3500kg;Eléctrico;1
+Ceuta/Ceuta;CAMIONES HASTA 3500kg;Gasolina;445
+Ceuta/Ceuta;CAMIONES HASTA 3500kg;Sin especificar;1
+Ceuta/Ceuta;CAMIONES MÁS DE 3500kg;TOTAL;280
+Ceuta/Ceuta;CAMIONES MÁS DE 3500kg;Diesel;274
+Ceuta/Ceuta;CAMIONES MÁS DE 3500kg;Gasolina;6
+Ceuta/Ceuta;CICLOMOTORES;TOTAL;3428
+Ceuta/Ceuta;CICLOMOTORES;Diesel;20
+Ceuta/Ceuta;CICLOMOTORES;Eléctrico;7
+Ceuta/Ceuta;CICLOMOTORES;Gasolina;3401
+Ceuta/Ceuta;FURGONETAS;TOTAL;5132
+Ceuta/Ceuta;FURGONETAS;Diesel;4048
+Ceuta/Ceuta;FURGONETAS;Eléctrico;3
+Ceuta/Ceuta;FURGONETAS;Gasolina;1080
+Ceuta/Ceuta;FURGONETAS;Sin especificar;1
+Ceuta/Ceuta;MOTOCICLETAS;TOTAL;13200
+Ceuta/Ceuta;MOTOCICLETAS;Diesel;7
+Ceuta/Ceuta;MOTOCICLETAS;Eléctrico;6
+Ceuta/Ceuta;MOTOCICLETAS;Gasolina;13182
+Ceuta/Ceuta;MOTOCICLETAS;Sin especificar;5
+Ceuta/Ceuta;TURISMOS;TOTAL;41878
+Ceuta/Ceuta;TURISMOS;Diesel;20530
+Ceuta/Ceuta;TURISMOS;Eléctrico;23
+Ceuta/Ceuta;TURISMOS;Gas Licuado de Petroleo;8
+Ceuta/Ceuta;TURISMOS;Gasolina;21289
+Ceuta/Ceuta;TURISMOS;Otros;3
+Ceuta/Ceuta;TURISMOS;Sin especificar;25
+Comunitat Valenciana/Alicante/Alacant;CAMIONES HASTA 3500kg;TOTAL;87866
+Comunitat Valenciana/Alicante/Alacant;CAMIONES HASTA 3500kg;Diesel;84968
+Comunitat Valenciana/Alicante/Alacant;CAMIONES HASTA 3500kg;Eléctrico;42
+Comunitat Valenciana/Alicante/Alacant;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;24
+Comunitat Valenciana/Alicante/Alacant;CAMIONES HASTA 3500kg;Gas Natural Comprimido;4
+Comunitat Valenciana/Alicante/Alacant;CAMIONES HASTA 3500kg;Gasolina;2826
+Comunitat Valenciana/Alicante/Alacant;CAMIONES HASTA 3500kg;Otros;2
+Comunitat Valenciana/Alicante/Alacant;CAMIONES MÁS DE 3500kg;TOTAL;10286
+Comunitat Valenciana/Alicante/Alacant;CAMIONES MÁS DE 3500kg;Diesel;10208
+Comunitat Valenciana/Alicante/Alacant;CAMIONES MÁS DE 3500kg;Eléctrico;2
+Comunitat Valenciana/Alicante/Alacant;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Comunitat Valenciana/Alicante/Alacant;CAMIONES MÁS DE 3500kg;Gasolina;75
+Comunitat Valenciana/Alicante/Alacant;CICLOMOTORES;TOTAL;96226
+Comunitat Valenciana/Alicante/Alacant;CICLOMOTORES;Diesel;2680
+Comunitat Valenciana/Alicante/Alacant;CICLOMOTORES;Eléctrico;462
+Comunitat Valenciana/Alicante/Alacant;CICLOMOTORES;Gasolina;93079
+Comunitat Valenciana/Alicante/Alacant;CICLOMOTORES;Otros;3
+Comunitat Valenciana/Alicante/Alacant;CICLOMOTORES;Sin especificar;2
+Comunitat Valenciana/Alicante/Alacant;FURGONETAS;TOTAL;80376
+Comunitat Valenciana/Alicante/Alacant;FURGONETAS;Diesel;64356
+Comunitat Valenciana/Alicante/Alacant;FURGONETAS;Eléctrico;113
+Comunitat Valenciana/Alicante/Alacant;FURGONETAS;Gas Licuado de Petroleo;98
+Comunitat Valenciana/Alicante/Alacant;FURGONETAS;Gas Natural Comprimido;2
+Comunitat Valenciana/Alicante/Alacant;FURGONETAS;Gasolina;15793
+Comunitat Valenciana/Alicante/Alacant;FURGONETAS;Otros;9
+Comunitat Valenciana/Alicante/Alacant;FURGONETAS;Sin especificar;5
+Comunitat Valenciana/Alicante/Alacant;MOTOCICLETAS;TOTAL;160142
+Comunitat Valenciana/Alicante/Alacant;MOTOCICLETAS;Butano;2
+Comunitat Valenciana/Alicante/Alacant;MOTOCICLETAS;Diesel;219
+Comunitat Valenciana/Alicante/Alacant;MOTOCICLETAS;Eléctrico;319
+Comunitat Valenciana/Alicante/Alacant;MOTOCICLETAS;Gas Licuado de Petroleo;7
+Comunitat Valenciana/Alicante/Alacant;MOTOCICLETAS;Gasolina;159563
+Comunitat Valenciana/Alicante/Alacant;MOTOCICLETAS;Otros;29
+Comunitat Valenciana/Alicante/Alacant;MOTOCICLETAS;Sin especificar;3
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;TOTAL;1029311
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Biodiesel;1
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Butano;8
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Diesel;497340
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Eléctrico;820
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Etanol;6
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Gas Licuado de Petroleo;1602
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Gas Natural Comprimido;85
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Gasolina;529400
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Hidrógeno;3
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Otros;33
+Comunitat Valenciana/Alicante/Alacant;TURISMOS;Sin especificar;13
+Comunitat Valenciana/Castellón/Castelló;CAMIONES HASTA 3500kg;TOTAL;34231
+Comunitat Valenciana/Castellón/Castelló;CAMIONES HASTA 3500kg;Diesel;32981
+Comunitat Valenciana/Castellón/Castelló;CAMIONES HASTA 3500kg;Eléctrico;17
+Comunitat Valenciana/Castellón/Castelló;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;9
+Comunitat Valenciana/Castellón/Castelló;CAMIONES HASTA 3500kg;Gas Natural Comprimido;28
+Comunitat Valenciana/Castellón/Castelló;CAMIONES HASTA 3500kg;Gasolina;1194
+Comunitat Valenciana/Castellón/Castelló;CAMIONES HASTA 3500kg;Otros;2
+Comunitat Valenciana/Castellón/Castelló;CAMIONES MÁS DE 3500kg;TOTAL;4397
+Comunitat Valenciana/Castellón/Castelló;CAMIONES MÁS DE 3500kg;Diesel;4332
+Comunitat Valenciana/Castellón/Castelló;CAMIONES MÁS DE 3500kg;Eléctrico;1
+Comunitat Valenciana/Castellón/Castelló;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Comunitat Valenciana/Castellón/Castelló;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;35
+Comunitat Valenciana/Castellón/Castelló;CAMIONES MÁS DE 3500kg;Gasolina;27
+Comunitat Valenciana/Castellón/Castelló;CAMIONES MÁS DE 3500kg;Otros;1
+Comunitat Valenciana/Castellón/Castelló;CICLOMOTORES;TOTAL;28112
+Comunitat Valenciana/Castellón/Castelló;CICLOMOTORES;Diesel;815
+Comunitat Valenciana/Castellón/Castelló;CICLOMOTORES;Eléctrico;98
+Comunitat Valenciana/Castellón/Castelló;CICLOMOTORES;Gasolina;27199
+Comunitat Valenciana/Castellón/Castelló;FURGONETAS;TOTAL;33082
+Comunitat Valenciana/Castellón/Castelló;FURGONETAS;Diesel;28041
+Comunitat Valenciana/Castellón/Castelló;FURGONETAS;Eléctrico;45
+Comunitat Valenciana/Castellón/Castelló;FURGONETAS;Gas Licuado de Petroleo;68
+Comunitat Valenciana/Castellón/Castelló;FURGONETAS;Gas Natural Comprimido;16
+Comunitat Valenciana/Castellón/Castelló;FURGONETAS;Gas Natural Licuado;1
+Comunitat Valenciana/Castellón/Castelló;FURGONETAS;Gasolina;4910
+Comunitat Valenciana/Castellón/Castelló;FURGONETAS;Otros;1
+Comunitat Valenciana/Castellón/Castelló;MOTOCICLETAS;TOTAL;41899
+Comunitat Valenciana/Castellón/Castelló;MOTOCICLETAS;Diesel;27
+Comunitat Valenciana/Castellón/Castelló;MOTOCICLETAS;Eléctrico;66
+Comunitat Valenciana/Castellón/Castelló;MOTOCICLETAS;Gas Natural Comprimido;1
+Comunitat Valenciana/Castellón/Castelló;MOTOCICLETAS;Gasolina;41784
+Comunitat Valenciana/Castellón/Castelló;MOTOCICLETAS;Otros;9
+Comunitat Valenciana/Castellón/Castelló;MOTOCICLETAS;Sin especificar;12
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;TOTAL;317350
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;Butano;2
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;Diesel;174503
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;Eléctrico;226
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;Gas Licuado de Petroleo;316
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;Gas Natural Comprimido;85
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;Gasolina;142193
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;Otros;23
+Comunitat Valenciana/Castellón/Castelló;TURISMOS;Sin especificar;2
+Comunitat Valenciana/Valencia/València;CAMIONES HASTA 3500kg;TOTAL;116964
+Comunitat Valenciana/Valencia/València;CAMIONES HASTA 3500kg;Diesel;113302
+Comunitat Valenciana/Valencia/València;CAMIONES HASTA 3500kg;Eléctrico;77
+Comunitat Valenciana/Valencia/València;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;147
+Comunitat Valenciana/Valencia/València;CAMIONES HASTA 3500kg;Gas Natural Comprimido;44
+Comunitat Valenciana/Valencia/València;CAMIONES HASTA 3500kg;Gasolina;3387
+Comunitat Valenciana/Valencia/València;CAMIONES HASTA 3500kg;Otros;5
+Comunitat Valenciana/Valencia/València;CAMIONES HASTA 3500kg;Sin especificar;2
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;TOTAL;17484
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Butano;9
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Diesel;17186
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Eléctrico;7
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;14
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;97
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;10
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Gasolina;159
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Otros;1
+Comunitat Valenciana/Valencia/València;CAMIONES MÁS DE 3500kg;Sin especificar;1
+Comunitat Valenciana/Valencia/València;CICLOMOTORES;TOTAL;116034
+Comunitat Valenciana/Valencia/València;CICLOMOTORES;Diesel;2790
+Comunitat Valenciana/Valencia/València;CICLOMOTORES;Eléctrico;481
+Comunitat Valenciana/Valencia/València;CICLOMOTORES;Gasolina;112753
+Comunitat Valenciana/Valencia/València;CICLOMOTORES;Sin especificar;10
+Comunitat Valenciana/Valencia/València;FURGONETAS;TOTAL;91239
+Comunitat Valenciana/Valencia/València;FURGONETAS;Diesel;74313
+Comunitat Valenciana/Valencia/València;FURGONETAS;Eléctrico;143
+Comunitat Valenciana/Valencia/València;FURGONETAS;Gas Licuado de Petroleo;252
+Comunitat Valenciana/Valencia/València;FURGONETAS;Gas Natural Comprimido;52
+Comunitat Valenciana/Valencia/València;FURGONETAS;Gas Natural Licuado;1
+Comunitat Valenciana/Valencia/València;FURGONETAS;Gasolina;16475
+Comunitat Valenciana/Valencia/València;FURGONETAS;Otros;3
+Comunitat Valenciana/Valencia/València;MOTOCICLETAS;TOTAL;203187
+Comunitat Valenciana/Valencia/València;MOTOCICLETAS;Butano;1
+Comunitat Valenciana/Valencia/València;MOTOCICLETAS;Diesel;165
+Comunitat Valenciana/Valencia/València;MOTOCICLETAS;Eléctrico;676
+Comunitat Valenciana/Valencia/València;MOTOCICLETAS;Gas Licuado de Petroleo;2
+Comunitat Valenciana/Valencia/València;MOTOCICLETAS;Gasolina;202163
+Comunitat Valenciana/Valencia/València;MOTOCICLETAS;Otros;172
+Comunitat Valenciana/Valencia/València;MOTOCICLETAS;Sin especificar;8
+Comunitat Valenciana/Valencia/València;TURISMOS;TOTAL;1283042
+Comunitat Valenciana/Valencia/València;TURISMOS;Biometano;3
+Comunitat Valenciana/Valencia/València;TURISMOS;Butano;14
+Comunitat Valenciana/Valencia/València;TURISMOS;Diesel;703871
+Comunitat Valenciana/Valencia/València;TURISMOS;Eléctrico;1241
+Comunitat Valenciana/Valencia/València;TURISMOS;Etanol;2
+Comunitat Valenciana/Valencia/València;TURISMOS;Gas Licuado de Petroleo;1645
+Comunitat Valenciana/Valencia/València;TURISMOS;Gas Natural Comprimido;280
+Comunitat Valenciana/Valencia/València;TURISMOS;Gas Natural Licuado;4
+Comunitat Valenciana/Valencia/València;TURISMOS;Gasolina;575899
+Comunitat Valenciana/Valencia/València;TURISMOS;Hidrógeno;7
+Comunitat Valenciana/Valencia/València;TURISMOS;Otros;66
+Comunitat Valenciana/Valencia/València;TURISMOS;Sin especificar;10
+Extremadura/Badajoz;CAMIONES HASTA 3500kg;TOTAL;29243
+Extremadura/Badajoz;CAMIONES HASTA 3500kg;Diesel;28758
+Extremadura/Badajoz;CAMIONES HASTA 3500kg;Eléctrico;38
+Extremadura/Badajoz;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;5
+Extremadura/Badajoz;CAMIONES HASTA 3500kg;Gasolina;441
+Extremadura/Badajoz;CAMIONES HASTA 3500kg;Otros;1
+Extremadura/Badajoz;CAMIONES MÁS DE 3500kg;TOTAL;6299
+Extremadura/Badajoz;CAMIONES MÁS DE 3500kg;Diesel;6228
+Extremadura/Badajoz;CAMIONES MÁS DE 3500kg;Eléctrico;2
+Extremadura/Badajoz;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Extremadura/Badajoz;CAMIONES MÁS DE 3500kg;Gasolina;68
+Extremadura/Badajoz;CICLOMOTORES;TOTAL;45803
+Extremadura/Badajoz;CICLOMOTORES;Diesel;998
+Extremadura/Badajoz;CICLOMOTORES;Eléctrico;113
+Extremadura/Badajoz;CICLOMOTORES;Gasolina;44692
+Extremadura/Badajoz;FURGONETAS;TOTAL;42682
+Extremadura/Badajoz;FURGONETAS;Diesel;37677
+Extremadura/Badajoz;FURGONETAS;Eléctrico;123
+Extremadura/Badajoz;FURGONETAS;Gas Licuado de Petroleo;22
+Extremadura/Badajoz;FURGONETAS;Gas Natural Comprimido;3
+Extremadura/Badajoz;FURGONETAS;Gasolina;4856
+Extremadura/Badajoz;FURGONETAS;Otros;1
+Extremadura/Badajoz;MOTOCICLETAS;TOTAL;35832
+Extremadura/Badajoz;MOTOCICLETAS;Diesel;67
+Extremadura/Badajoz;MOTOCICLETAS;Eléctrico;71
+Extremadura/Badajoz;MOTOCICLETAS;Gasolina;35693
+Extremadura/Badajoz;MOTOCICLETAS;Otros;1
+Extremadura/Badajoz;TURISMOS;TOTAL;382307
+Extremadura/Badajoz;TURISMOS;Biodiesel;2
+Extremadura/Badajoz;TURISMOS;Diesel;258934
+Extremadura/Badajoz;TURISMOS;Eléctrico;205
+Extremadura/Badajoz;TURISMOS;Etanol;1
+Extremadura/Badajoz;TURISMOS;Gas Licuado de Petroleo;209
+Extremadura/Badajoz;TURISMOS;Gas Natural Comprimido;66
+Extremadura/Badajoz;TURISMOS;Gasolina;122877
+Extremadura/Badajoz;TURISMOS;Hidrógeno;1
+Extremadura/Badajoz;TURISMOS;Otros;12
+Extremadura/Cáceres;CAMIONES HASTA 3500kg;TOTAL;29147
+Extremadura/Cáceres;CAMIONES HASTA 3500kg;Diesel;28417
+Extremadura/Cáceres;CAMIONES HASTA 3500kg;Eléctrico;7
+Extremadura/Cáceres;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;1
+Extremadura/Cáceres;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Extremadura/Cáceres;CAMIONES HASTA 3500kg;Gasolina;721
+Extremadura/Cáceres;CAMIONES MÁS DE 3500kg;TOTAL;3497
+Extremadura/Cáceres;CAMIONES MÁS DE 3500kg;Diesel;3467
+Extremadura/Cáceres;CAMIONES MÁS DE 3500kg;Eléctrico;1
+Extremadura/Cáceres;CAMIONES MÁS DE 3500kg;Gasolina;28
+Extremadura/Cáceres;CAMIONES MÁS DE 3500kg;Solar;1
+Extremadura/Cáceres;CICLOMOTORES;TOTAL;20816
+Extremadura/Cáceres;CICLOMOTORES;Diesel;585
+Extremadura/Cáceres;CICLOMOTORES;Eléctrico;25
+Extremadura/Cáceres;CICLOMOTORES;Gasolina;20205
+Extremadura/Cáceres;CICLOMOTORES;Sin especificar;1
+Extremadura/Cáceres;FURGONETAS;TOTAL;28954
+Extremadura/Cáceres;FURGONETAS;Diesel;24076
+Extremadura/Cáceres;FURGONETAS;Eléctrico;14
+Extremadura/Cáceres;FURGONETAS;Gas Licuado de Petroleo;19
+Extremadura/Cáceres;FURGONETAS;Gasolina;4845
+Extremadura/Cáceres;MOTOCICLETAS;TOTAL;22527
+Extremadura/Cáceres;MOTOCICLETAS;Diesel;66
+Extremadura/Cáceres;MOTOCICLETAS;Eléctrico;24
+Extremadura/Cáceres;MOTOCICLETAS;Gasolina;22436
+Extremadura/Cáceres;MOTOCICLETAS;Otros;1
+Extremadura/Cáceres;TURISMOS;TOTAL;223305
+Extremadura/Cáceres;TURISMOS;Biodiesel;1
+Extremadura/Cáceres;TURISMOS;Butano;2
+Extremadura/Cáceres;TURISMOS;Diesel;145796
+Extremadura/Cáceres;TURISMOS;Eléctrico;85
+Extremadura/Cáceres;TURISMOS;Etanol;1
+Extremadura/Cáceres;TURISMOS;Gas Licuado de Petroleo;138
+Extremadura/Cáceres;TURISMOS;Gas Natural Comprimido;8
+Extremadura/Cáceres;TURISMOS;Gas Natural Licuado;1
+Extremadura/Cáceres;TURISMOS;Gasolina;77263
+Extremadura/Cáceres;TURISMOS;Otros;9
+Extremadura/Cáceres;TURISMOS;Sin especificar;1
+Galicia/Coruña (A);CAMIONES HASTA 3500kg;TOTAL;38614
+Galicia/Coruña (A);CAMIONES HASTA 3500kg;Diesel;37978
+Galicia/Coruña (A);CAMIONES HASTA 3500kg;Eléctrico;7
+Galicia/Coruña (A);CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;6
+Galicia/Coruña (A);CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Galicia/Coruña (A);CAMIONES HASTA 3500kg;Gasolina;620
+Galicia/Coruña (A);CAMIONES HASTA 3500kg;Otros;2
+Galicia/Coruña (A);CAMIONES MÁS DE 3500kg;TOTAL;8938
+Galicia/Coruña (A);CAMIONES MÁS DE 3500kg;Diesel;8863
+Galicia/Coruña (A);CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;12
+Galicia/Coruña (A);CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;1
+Galicia/Coruña (A);CAMIONES MÁS DE 3500kg;Gasolina;62
+Galicia/Coruña (A);CICLOMOTORES;TOTAL;31639
+Galicia/Coruña (A);CICLOMOTORES;Diesel;2772
+Galicia/Coruña (A);CICLOMOTORES;Eléctrico;90
+Galicia/Coruña (A);CICLOMOTORES;Gasolina;28775
+Galicia/Coruña (A);CICLOMOTORES;Sin especificar;2
+Galicia/Coruña (A);FURGONETAS;TOTAL;39967
+Galicia/Coruña (A);FURGONETAS;Diesel;35148
+Galicia/Coruña (A);FURGONETAS;Eléctrico;26
+Galicia/Coruña (A);FURGONETAS;Gas Licuado de Petroleo;109
+Galicia/Coruña (A);FURGONETAS;Gas Natural Comprimido;3
+Galicia/Coruña (A);FURGONETAS;Gas Natural Licuado;2
+Galicia/Coruña (A);FURGONETAS;Gasolina;4677
+Galicia/Coruña (A);FURGONETAS;Otros;1
+Galicia/Coruña (A);FURGONETAS;Sin especificar;1
+Galicia/Coruña (A);MOTOCICLETAS;TOTAL;55390
+Galicia/Coruña (A);MOTOCICLETAS;Diesel;159
+Galicia/Coruña (A);MOTOCICLETAS;Eléctrico;78
+Galicia/Coruña (A);MOTOCICLETAS;Gas Licuado de Petroleo;2
+Galicia/Coruña (A);MOTOCICLETAS;Gasolina;55144
+Galicia/Coruña (A);MOTOCICLETAS;Sin especificar;7
+Galicia/Coruña (A);TURISMOS;TOTAL;629881
+Galicia/Coruña (A);TURISMOS;Biodiesel;1
+Galicia/Coruña (A);TURISMOS;Diesel;407006
+Galicia/Coruña (A);TURISMOS;Eléctrico;372
+Galicia/Coruña (A);TURISMOS;Etanol;4
+Galicia/Coruña (A);TURISMOS;Gas Licuado de Petroleo;780
+Galicia/Coruña (A);TURISMOS;Gas Natural Comprimido;38
+Galicia/Coruña (A);TURISMOS;Gas Natural Licuado;1
+Galicia/Coruña (A);TURISMOS;Gasolina;221654
+Galicia/Coruña (A);TURISMOS;Hidrógeno;1
+Galicia/Coruña (A);TURISMOS;Otros;20
+Galicia/Coruña (A);TURISMOS;Sin especificar;4
+Galicia/Lugo;CAMIONES HASTA 3500kg;TOTAL;15142
+Galicia/Lugo;CAMIONES HASTA 3500kg;Diesel;14883
+Galicia/Lugo;CAMIONES HASTA 3500kg;Eléctrico;8
+Galicia/Lugo;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;7
+Galicia/Lugo;CAMIONES HASTA 3500kg;Gas Natural Comprimido;2
+Galicia/Lugo;CAMIONES HASTA 3500kg;Gasolina;242
+Galicia/Lugo;CAMIONES MÁS DE 3500kg;TOTAL;4340
+Galicia/Lugo;CAMIONES MÁS DE 3500kg;Diesel;4307
+Galicia/Lugo;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;1
+Galicia/Lugo;CAMIONES MÁS DE 3500kg;Gasolina;31
+Galicia/Lugo;CAMIONES MÁS DE 3500kg;Otros;1
+Galicia/Lugo;CICLOMOTORES;TOTAL;12314
+Galicia/Lugo;CICLOMOTORES;Diesel;1235
+Galicia/Lugo;CICLOMOTORES;Eléctrico;16
+Galicia/Lugo;CICLOMOTORES;Gasolina;11061
+Galicia/Lugo;CICLOMOTORES;Sin especificar;2
+Galicia/Lugo;FURGONETAS;TOTAL;24522
+Galicia/Lugo;FURGONETAS;Diesel;20673
+Galicia/Lugo;FURGONETAS;Eléctrico;14
+Galicia/Lugo;FURGONETAS;Gas Licuado de Petroleo;24
+Galicia/Lugo;FURGONETAS;Gasolina;3811
+Galicia/Lugo;MOTOCICLETAS;TOTAL;17967
+Galicia/Lugo;MOTOCICLETAS;Diesel;57
+Galicia/Lugo;MOTOCICLETAS;Eléctrico;8
+Galicia/Lugo;MOTOCICLETAS;Gas Licuado de Petroleo;1
+Galicia/Lugo;MOTOCICLETAS;Gasolina;17901
+Galicia/Lugo;TURISMOS;TOTAL;204414
+Galicia/Lugo;TURISMOS;Biodiesel;1
+Galicia/Lugo;TURISMOS;Diesel;143640
+Galicia/Lugo;TURISMOS;Eléctrico;123
+Galicia/Lugo;TURISMOS;Gas Licuado de Petroleo;257
+Galicia/Lugo;TURISMOS;Gas Natural Comprimido;10
+Galicia/Lugo;TURISMOS;Gasolina;60362
+Galicia/Lugo;TURISMOS;Hidrógeno;1
+Galicia/Lugo;TURISMOS;Otros;17
+Galicia/Lugo;TURISMOS;Sin especificar;3
+Galicia/Ourense;CAMIONES HASTA 3500kg;TOTAL;16338
+Galicia/Ourense;CAMIONES HASTA 3500kg;Diesel;16058
+Galicia/Ourense;CAMIONES HASTA 3500kg;Eléctrico;5
+Galicia/Ourense;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;5
+Galicia/Ourense;CAMIONES HASTA 3500kg;Gasolina;270
+Galicia/Ourense;CAMIONES MÁS DE 3500kg;TOTAL;3504
+Galicia/Ourense;CAMIONES MÁS DE 3500kg;Diesel;3480
+Galicia/Ourense;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;3
+Galicia/Ourense;CAMIONES MÁS DE 3500kg;Gasolina;20
+Galicia/Ourense;CAMIONES MÁS DE 3500kg;Otros;1
+Galicia/Ourense;CICLOMOTORES;TOTAL;12604
+Galicia/Ourense;CICLOMOTORES;Diesel;1147
+Galicia/Ourense;CICLOMOTORES;Eléctrico;14
+Galicia/Ourense;CICLOMOTORES;Gasolina;11441
+Galicia/Ourense;CICLOMOTORES;Sin especificar;2
+Galicia/Ourense;FURGONETAS;TOTAL;19359
+Galicia/Ourense;FURGONETAS;Diesel;15939
+Galicia/Ourense;FURGONETAS;Eléctrico;9
+Galicia/Ourense;FURGONETAS;Gas Licuado de Petroleo;14
+Galicia/Ourense;FURGONETAS;Gas Natural Comprimido;4
+Galicia/Ourense;FURGONETAS;Gasolina;3391
+Galicia/Ourense;FURGONETAS;Otros;1
+Galicia/Ourense;FURGONETAS;Sin especificar;1
+Galicia/Ourense;MOTOCICLETAS;TOTAL;17706
+Galicia/Ourense;MOTOCICLETAS;Diesel;22
+Galicia/Ourense;MOTOCICLETAS;Eléctrico;14
+Galicia/Ourense;MOTOCICLETAS;Gasolina;17666
+Galicia/Ourense;MOTOCICLETAS;Sin especificar;4
+Galicia/Ourense;TURISMOS;TOTAL;189402
+Galicia/Ourense;TURISMOS;Biometano;1
+Galicia/Ourense;TURISMOS;Butano;2
+Galicia/Ourense;TURISMOS;Diesel;119076
+Galicia/Ourense;TURISMOS;Eléctrico;88
+Galicia/Ourense;TURISMOS;Etanol;3
+Galicia/Ourense;TURISMOS;Gas Licuado de Petroleo;108
+Galicia/Ourense;TURISMOS;Gas Natural Comprimido;56
+Galicia/Ourense;TURISMOS;Gasolina;70054
+Galicia/Ourense;TURISMOS;Hidrógeno;1
+Galicia/Ourense;TURISMOS;Otros;11
+Galicia/Ourense;TURISMOS;Sin especificar;2
+Galicia/Pontevedra;CAMIONES HASTA 3500kg;TOTAL;39633
+Galicia/Pontevedra;CAMIONES HASTA 3500kg;Diesel;38990
+Galicia/Pontevedra;CAMIONES HASTA 3500kg;Eléctrico;7
+Galicia/Pontevedra;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;15
+Galicia/Pontevedra;CAMIONES HASTA 3500kg;Gas Natural Comprimido;1
+Galicia/Pontevedra;CAMIONES HASTA 3500kg;Gasolina;620
+Galicia/Pontevedra;CAMIONES MÁS DE 3500kg;TOTAL;6867
+Galicia/Pontevedra;CAMIONES MÁS DE 3500kg;Diesel;6772
+Galicia/Pontevedra;CAMIONES MÁS DE 3500kg;Eléctrico;3
+Galicia/Pontevedra;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;5
+Galicia/Pontevedra;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;24
+Galicia/Pontevedra;CAMIONES MÁS DE 3500kg;Gasolina;62
+Galicia/Pontevedra;CAMIONES MÁS DE 3500kg;Otros;1
+Galicia/Pontevedra;CICLOMOTORES;TOTAL;41877
+Galicia/Pontevedra;CICLOMOTORES;Diesel;2097
+Galicia/Pontevedra;CICLOMOTORES;Eléctrico;43
+Galicia/Pontevedra;CICLOMOTORES;Gasolina;39737
+Galicia/Pontevedra;FURGONETAS;TOTAL;37862
+Galicia/Pontevedra;FURGONETAS;Diesel;32190
+Galicia/Pontevedra;FURGONETAS;Eléctrico;48
+Galicia/Pontevedra;FURGONETAS;Gas Licuado de Petroleo;51
+Galicia/Pontevedra;FURGONETAS;Gas Natural Comprimido;1
+Galicia/Pontevedra;FURGONETAS;Gasolina;5572
+Galicia/Pontevedra;MOTOCICLETAS;TOTAL;76866
+Galicia/Pontevedra;MOTOCICLETAS;Diesel;127
+Galicia/Pontevedra;MOTOCICLETAS;Eléctrico;104
+Galicia/Pontevedra;MOTOCICLETAS;Gas Licuado de Petroleo;2
+Galicia/Pontevedra;MOTOCICLETAS;Gasolina;76624
+Galicia/Pontevedra;MOTOCICLETAS;Otros;1
+Galicia/Pontevedra;MOTOCICLETAS;Sin especificar;8
+Galicia/Pontevedra;TURISMOS;TOTAL;545941
+Galicia/Pontevedra;TURISMOS;Butano;7
+Galicia/Pontevedra;TURISMOS;Diesel;357006
+Galicia/Pontevedra;TURISMOS;Eléctrico;402
+Galicia/Pontevedra;TURISMOS;Etanol;2
+Galicia/Pontevedra;TURISMOS;Gas Licuado de Petroleo;734
+Galicia/Pontevedra;TURISMOS;Gas Natural Comprimido;19
+Galicia/Pontevedra;TURISMOS;Gas Natural Licuado;1
+Galicia/Pontevedra;TURISMOS;Gasolina;187735
+Galicia/Pontevedra;TURISMOS;Hidrógeno;1
+Galicia/Pontevedra;TURISMOS;Otros;26
+Galicia/Pontevedra;TURISMOS;Sin especificar;8
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;TOTAL;220983
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Butano;4
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Diesel;213992
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Eléctrico;618
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;970
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Gas Natural Comprimido;483
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Gas Natural Licuado;1
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Gasolina;4908
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Otros;4
+Madrid (Comunidad de)/Madrid;CAMIONES HASTA 3500kg;Sin especificar;3
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;TOTAL;40635
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;Butano;1
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;Diesel;39235
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;Eléctrico;22
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;54
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;866
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;44
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;Gasolina;412
+Madrid (Comunidad de)/Madrid;CAMIONES MÁS DE 3500kg;Otros;1
+Madrid (Comunidad de)/Madrid;CICLOMOTORES;TOTAL;94896
+Madrid (Comunidad de)/Madrid;CICLOMOTORES;Diesel;3080
+Madrid (Comunidad de)/Madrid;CICLOMOTORES;Eléctrico;2559
+Madrid (Comunidad de)/Madrid;CICLOMOTORES;Gas Licuado de Petroleo;2
+Madrid (Comunidad de)/Madrid;CICLOMOTORES;Gasolina;89255
+Madrid (Comunidad de)/Madrid;FURGONETAS;TOTAL;421963
+Madrid (Comunidad de)/Madrid;FURGONETAS;Biometano;1
+Madrid (Comunidad de)/Madrid;FURGONETAS;Butano;11
+Madrid (Comunidad de)/Madrid;FURGONETAS;Diesel;360203
+Madrid (Comunidad de)/Madrid;FURGONETAS;Eléctrico;2642
+Madrid (Comunidad de)/Madrid;FURGONETAS;Gas Licuado de Petroleo;4228
+Madrid (Comunidad de)/Madrid;FURGONETAS;Gas Natural Comprimido;2010
+Madrid (Comunidad de)/Madrid;FURGONETAS;Gas Natural Licuado;1
+Madrid (Comunidad de)/Madrid;FURGONETAS;Gasolina;52853
+Madrid (Comunidad de)/Madrid;FURGONETAS;Otros;10
+Madrid (Comunidad de)/Madrid;FURGONETAS;Sin especificar;4
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;TOTAL;393727
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;Butano;5
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;Diesel;645
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;Eléctrico;10853
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;Gas Licuado de Petroleo;27
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;Gas Natural Comprimido;2
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;Gasolina;382175
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;Otros;7
+Madrid (Comunidad de)/Madrid;MOTOCICLETAS;Sin especificar;13
+Madrid (Comunidad de)/Madrid;TURISMOS;TOTAL;3900722
+Madrid (Comunidad de)/Madrid;TURISMOS;Biodiesel;9
+Madrid (Comunidad de)/Madrid;TURISMOS;Biometano;1
+Madrid (Comunidad de)/Madrid;TURISMOS;Butano;189
+Madrid (Comunidad de)/Madrid;TURISMOS;Diesel;2110221
+Madrid (Comunidad de)/Madrid;TURISMOS;Eléctrico;20565
+Madrid (Comunidad de)/Madrid;TURISMOS;Etanol;14
+Madrid (Comunidad de)/Madrid;TURISMOS;Gas Licuado de Petroleo;25739
+Madrid (Comunidad de)/Madrid;TURISMOS;Gas Natural Comprimido;7728
+Madrid (Comunidad de)/Madrid;TURISMOS;Gas Natural Licuado;10
+Madrid (Comunidad de)/Madrid;TURISMOS;Gasolina;1736031
+Madrid (Comunidad de)/Madrid;TURISMOS;Hidrógeno;30
+Madrid (Comunidad de)/Madrid;TURISMOS;Otros;141
+Madrid (Comunidad de)/Madrid;TURISMOS;Sin especificar;44
+Melilla/Melilla;CAMIONES HASTA 3500kg;TOTAL;3647
+Melilla/Melilla;CAMIONES HASTA 3500kg;Diesel;3502
+Melilla/Melilla;CAMIONES HASTA 3500kg;Eléctrico;11
+Melilla/Melilla;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;1
+Melilla/Melilla;CAMIONES HASTA 3500kg;Gasolina;133
+Melilla/Melilla;CAMIONES MÁS DE 3500kg;TOTAL;385
+Melilla/Melilla;CAMIONES MÁS DE 3500kg;Diesel;373
+Melilla/Melilla;CAMIONES MÁS DE 3500kg;Gasolina;12
+Melilla/Melilla;CICLOMOTORES;TOTAL;3113
+Melilla/Melilla;CICLOMOTORES;Diesel;79
+Melilla/Melilla;CICLOMOTORES;Eléctrico;20
+Melilla/Melilla;CICLOMOTORES;Gasolina;3014
+Melilla/Melilla;FURGONETAS;TOTAL;9052
+Melilla/Melilla;FURGONETAS;Diesel;8132
+Melilla/Melilla;FURGONETAS;Eléctrico;6
+Melilla/Melilla;FURGONETAS;Gas Licuado de Petroleo;2
+Melilla/Melilla;FURGONETAS;Gasolina;911
+Melilla/Melilla;FURGONETAS;Sin especificar;1
+Melilla/Melilla;MOTOCICLETAS;TOTAL;7389
+Melilla/Melilla;MOTOCICLETAS;Diesel;4
+Melilla/Melilla;MOTOCICLETAS;Eléctrico;6
+Melilla/Melilla;MOTOCICLETAS;Gas Licuado de Petroleo;2
+Melilla/Melilla;MOTOCICLETAS;Gasolina;7376
+Melilla/Melilla;MOTOCICLETAS;Sin especificar;1
+Melilla/Melilla;TURISMOS;TOTAL;46646
+Melilla/Melilla;TURISMOS;Diesel;23093
+Melilla/Melilla;TURISMOS;Eléctrico;26
+Melilla/Melilla;TURISMOS;Gas Licuado de Petroleo;8
+Melilla/Melilla;TURISMOS;Gas Natural Comprimido;2
+Melilla/Melilla;TURISMOS;Gasolina;23503
+Melilla/Melilla;TURISMOS;Otros;2
+Melilla/Melilla;TURISMOS;Sin especificar;12
+Murcia (Región de)/Murcia;CAMIONES HASTA 3500kg;TOTAL;72946
+Murcia (Región de)/Murcia;CAMIONES HASTA 3500kg;Butano;1
+Murcia (Región de)/Murcia;CAMIONES HASTA 3500kg;Diesel;71785
+Murcia (Región de)/Murcia;CAMIONES HASTA 3500kg;Eléctrico;51
+Murcia (Región de)/Murcia;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;29
+Murcia (Región de)/Murcia;CAMIONES HASTA 3500kg;Gas Natural Comprimido;25
+Murcia (Región de)/Murcia;CAMIONES HASTA 3500kg;Gasolina;1054
+Murcia (Región de)/Murcia;CAMIONES HASTA 3500kg;Otros;1
+Murcia (Región de)/Murcia;CAMIONES MÁS DE 3500kg;TOTAL;13684
+Murcia (Región de)/Murcia;CAMIONES MÁS DE 3500kg;Diesel;13543
+Murcia (Región de)/Murcia;CAMIONES MÁS DE 3500kg;Eléctrico;2
+Murcia (Región de)/Murcia;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;11
+Murcia (Región de)/Murcia;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;18
+Murcia (Región de)/Murcia;CAMIONES MÁS DE 3500kg;Gasolina;109
+Murcia (Región de)/Murcia;CAMIONES MÁS DE 3500kg;Otros;1
+Murcia (Región de)/Murcia;CICLOMOTORES;TOTAL;94189
+Murcia (Región de)/Murcia;CICLOMOTORES;Diesel;2447
+Murcia (Región de)/Murcia;CICLOMOTORES;Eléctrico;240
+Murcia (Región de)/Murcia;CICLOMOTORES;Gasolina;91502
+Murcia (Región de)/Murcia;FURGONETAS;TOTAL;68922
+Murcia (Región de)/Murcia;FURGONETAS;Diesel;59899
+Murcia (Región de)/Murcia;FURGONETAS;Eléctrico;50
+Murcia (Región de)/Murcia;FURGONETAS;Gas Licuado de Petroleo;58
+Murcia (Región de)/Murcia;FURGONETAS;Gas Natural Comprimido;94
+Murcia (Región de)/Murcia;FURGONETAS;Gasolina;8819
+Murcia (Región de)/Murcia;FURGONETAS;Sin especificar;2
+Murcia (Región de)/Murcia;MOTOCICLETAS;TOTAL;116985
+Murcia (Región de)/Murcia;MOTOCICLETAS;Diesel;289
+Murcia (Región de)/Murcia;MOTOCICLETAS;Eléctrico;454
+Murcia (Región de)/Murcia;MOTOCICLETAS;Gas Licuado de Petroleo;11
+Murcia (Región de)/Murcia;MOTOCICLETAS;Gas Natural Comprimido;1
+Murcia (Región de)/Murcia;MOTOCICLETAS;Gasolina;116225
+Murcia (Región de)/Murcia;MOTOCICLETAS;Otros;3
+Murcia (Región de)/Murcia;MOTOCICLETAS;Sin especificar;2
+Murcia (Región de)/Murcia;TURISMOS;TOTAL;788009
+Murcia (Región de)/Murcia;TURISMOS;Biodiesel;1
+Murcia (Región de)/Murcia;TURISMOS;Butano;4
+Murcia (Región de)/Murcia;TURISMOS;Diesel;509838
+Murcia (Región de)/Murcia;TURISMOS;Eléctrico;560
+Murcia (Región de)/Murcia;TURISMOS;Etanol;1
+Murcia (Región de)/Murcia;TURISMOS;Gas Licuado de Petroleo;957
+Murcia (Región de)/Murcia;TURISMOS;Gas Natural Comprimido;134
+Murcia (Región de)/Murcia;TURISMOS;Gas Natural Licuado;4
+Murcia (Región de)/Murcia;TURISMOS;Gasolina;276469
+Murcia (Región de)/Murcia;TURISMOS;Otros;36
+Murcia (Región de)/Murcia;TURISMOS;Sin especificar;5
+Navarra (Comunidad Foral de)/Navarra;CAMIONES HASTA 3500kg;TOTAL;32136
+Navarra (Comunidad Foral de)/Navarra;CAMIONES HASTA 3500kg;Diesel;31212
+Navarra (Comunidad Foral de)/Navarra;CAMIONES HASTA 3500kg;Eléctrico;25
+Navarra (Comunidad Foral de)/Navarra;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;5
+Navarra (Comunidad Foral de)/Navarra;CAMIONES HASTA 3500kg;Gas Natural Comprimido;3
+Navarra (Comunidad Foral de)/Navarra;CAMIONES HASTA 3500kg;Gasolina;891
+Navarra (Comunidad Foral de)/Navarra;CAMIONES MÁS DE 3500kg;TOTAL;4776
+Navarra (Comunidad Foral de)/Navarra;CAMIONES MÁS DE 3500kg;Diesel;4741
+Navarra (Comunidad Foral de)/Navarra;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;2
+Navarra (Comunidad Foral de)/Navarra;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;6
+Navarra (Comunidad Foral de)/Navarra;CAMIONES MÁS DE 3500kg;Gasolina;27
+Navarra (Comunidad Foral de)/Navarra;CICLOMOTORES;TOTAL;18673
+Navarra (Comunidad Foral de)/Navarra;CICLOMOTORES;Diesel;304
+Navarra (Comunidad Foral de)/Navarra;CICLOMOTORES;Eléctrico;174
+Navarra (Comunidad Foral de)/Navarra;CICLOMOTORES;Gasolina;18193
+Navarra (Comunidad Foral de)/Navarra;CICLOMOTORES;Sin especificar;2
+Navarra (Comunidad Foral de)/Navarra;FURGONETAS;TOTAL;39608
+Navarra (Comunidad Foral de)/Navarra;FURGONETAS;Butano;1
+Navarra (Comunidad Foral de)/Navarra;FURGONETAS;Diesel;33645
+Navarra (Comunidad Foral de)/Navarra;FURGONETAS;Eléctrico;46
+Navarra (Comunidad Foral de)/Navarra;FURGONETAS;Gas Licuado de Petroleo;19
+Navarra (Comunidad Foral de)/Navarra;FURGONETAS;Gas Natural Comprimido;15
+Navarra (Comunidad Foral de)/Navarra;FURGONETAS;Gasolina;5880
+Navarra (Comunidad Foral de)/Navarra;FURGONETAS;Otros;2
+Navarra (Comunidad Foral de)/Navarra;MOTOCICLETAS;TOTAL;37031
+Navarra (Comunidad Foral de)/Navarra;MOTOCICLETAS;Diesel;60
+Navarra (Comunidad Foral de)/Navarra;MOTOCICLETAS;Eléctrico;59
+Navarra (Comunidad Foral de)/Navarra;MOTOCICLETAS;Gas Licuado de Petroleo;2
+Navarra (Comunidad Foral de)/Navarra;MOTOCICLETAS;Gasolina;36910
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;TOTAL;333391
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Biodiesel;3
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Butano;3
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Diesel;203289
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Eléctrico;350
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Etanol;3
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Gas Licuado de Petroleo;365
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Gas Natural Comprimido;52
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Gasolina;129309
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Otros;15
+Navarra (Comunidad Foral de)/Navarra;TURISMOS;Sin especificar;2
+País Vasco/Araba/Álava;CAMIONES HASTA 3500kg;TOTAL;11981
+País Vasco/Araba/Álava;CAMIONES HASTA 3500kg;Diesel;11609
+País Vasco/Araba/Álava;CAMIONES HASTA 3500kg;Eléctrico;17
+País Vasco/Araba/Álava;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;7
+País Vasco/Araba/Álava;CAMIONES HASTA 3500kg;Gas Natural Comprimido;41
+País Vasco/Araba/Álava;CAMIONES HASTA 3500kg;Gasolina;275
+País Vasco/Araba/Álava;CAMIONES HASTA 3500kg;Otros;30
+País Vasco/Araba/Álava;CAMIONES HASTA 3500kg;Sin especificar;2
+País Vasco/Araba/Álava;CAMIONES MÁS DE 3500kg;TOTAL;1909
+País Vasco/Araba/Álava;CAMIONES MÁS DE 3500kg;Diesel;1826
+País Vasco/Araba/Álava;CAMIONES MÁS DE 3500kg;Eléctrico;1
+País Vasco/Araba/Álava;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;64
+País Vasco/Araba/Álava;CAMIONES MÁS DE 3500kg;Gasolina;18
+País Vasco/Araba/Álava;CICLOMOTORES;TOTAL;5457
+País Vasco/Araba/Álava;CICLOMOTORES;Diesel;163
+País Vasco/Araba/Álava;CICLOMOTORES;Eléctrico;26
+País Vasco/Araba/Álava;CICLOMOTORES;Gasolina;5264
+País Vasco/Araba/Álava;CICLOMOTORES;Sin especificar;4
+País Vasco/Araba/Álava;FURGONETAS;TOTAL;14989
+País Vasco/Araba/Álava;FURGONETAS;Diesel;12846
+País Vasco/Araba/Álava;FURGONETAS;Eléctrico;29
+País Vasco/Araba/Álava;FURGONETAS;Gas Licuado de Petroleo;29
+País Vasco/Araba/Álava;FURGONETAS;Gas Natural Comprimido;8
+País Vasco/Araba/Álava;FURGONETAS;Gasolina;2071
+País Vasco/Araba/Álava;FURGONETAS;Otros;4
+País Vasco/Araba/Álava;FURGONETAS;Sin especificar;2
+País Vasco/Araba/Álava;MOTOCICLETAS;TOTAL;16584
+País Vasco/Araba/Álava;MOTOCICLETAS;Diesel;47
+País Vasco/Araba/Álava;MOTOCICLETAS;Eléctrico;27
+País Vasco/Araba/Álava;MOTOCICLETAS;Gasolina;16506
+País Vasco/Araba/Álava;MOTOCICLETAS;Otros;1
+País Vasco/Araba/Álava;MOTOCICLETAS;Sin especificar;3
+País Vasco/Araba/Álava;TURISMOS;TOTAL;159243
+País Vasco/Araba/Álava;TURISMOS;Biodiesel;2
+País Vasco/Araba/Álava;TURISMOS;Butano;1
+País Vasco/Araba/Álava;TURISMOS;Diesel;86540
+País Vasco/Araba/Álava;TURISMOS;Eléctrico;172
+País Vasco/Araba/Álava;TURISMOS;Gas Licuado de Petroleo;259
+País Vasco/Araba/Álava;TURISMOS;Gas Natural Comprimido;50
+País Vasco/Araba/Álava;TURISMOS;Gasolina;72187
+País Vasco/Araba/Álava;TURISMOS;Otros;26
+País Vasco/Araba/Álava;TURISMOS;Sin especificar;6
+País Vasco/Gipuzkoa;CAMIONES HASTA 3500kg;TOTAL;26758
+País Vasco/Gipuzkoa;CAMIONES HASTA 3500kg;Diesel;25925
+País Vasco/Gipuzkoa;CAMIONES HASTA 3500kg;Eléctrico;31
+País Vasco/Gipuzkoa;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;14
+País Vasco/Gipuzkoa;CAMIONES HASTA 3500kg;Gas Natural Comprimido;8
+País Vasco/Gipuzkoa;CAMIONES HASTA 3500kg;Gas Natural Licuado;1
+País Vasco/Gipuzkoa;CAMIONES HASTA 3500kg;Gasolina;779
+País Vasco/Gipuzkoa;CAMIONES MÁS DE 3500kg;TOTAL;4380
+País Vasco/Gipuzkoa;CAMIONES MÁS DE 3500kg;Diesel;4346
+País Vasco/Gipuzkoa;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;2
+País Vasco/Gipuzkoa;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;1
+País Vasco/Gipuzkoa;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;1
+País Vasco/Gipuzkoa;CAMIONES MÁS DE 3500kg;Gasolina;30
+País Vasco/Gipuzkoa;CICLOMOTORES;TOTAL;16992
+País Vasco/Gipuzkoa;CICLOMOTORES;Diesel;446
+País Vasco/Gipuzkoa;CICLOMOTORES;Eléctrico;56
+País Vasco/Gipuzkoa;CICLOMOTORES;Gasolina;16490
+País Vasco/Gipuzkoa;FURGONETAS;TOTAL;30608
+País Vasco/Gipuzkoa;FURGONETAS;Diesel;25849
+País Vasco/Gipuzkoa;FURGONETAS;Eléctrico;27
+País Vasco/Gipuzkoa;FURGONETAS;Gas Licuado de Petroleo;20
+País Vasco/Gipuzkoa;FURGONETAS;Gas Natural Comprimido;6
+País Vasco/Gipuzkoa;FURGONETAS;Gasolina;4704
+País Vasco/Gipuzkoa;FURGONETAS;Otros;2
+País Vasco/Gipuzkoa;MOTOCICLETAS;TOTAL;63211
+País Vasco/Gipuzkoa;MOTOCICLETAS;Diesel;81
+País Vasco/Gipuzkoa;MOTOCICLETAS;Eléctrico;119
+País Vasco/Gipuzkoa;MOTOCICLETAS;Gas Licuado de Petroleo;2
+País Vasco/Gipuzkoa;MOTOCICLETAS;Gasolina;63004
+País Vasco/Gipuzkoa;MOTOCICLETAS;Otros;2
+País Vasco/Gipuzkoa;MOTOCICLETAS;Sin especificar;3
+País Vasco/Gipuzkoa;TURISMOS;TOTAL;330509
+País Vasco/Gipuzkoa;TURISMOS;Biodiesel;1
+País Vasco/Gipuzkoa;TURISMOS;Biometano;1
+País Vasco/Gipuzkoa;TURISMOS;Butano;3
+País Vasco/Gipuzkoa;TURISMOS;Diesel;189559
+País Vasco/Gipuzkoa;TURISMOS;Eléctrico;327
+País Vasco/Gipuzkoa;TURISMOS;Etanol;3
+País Vasco/Gipuzkoa;TURISMOS;Gas Licuado de Petroleo;408
+País Vasco/Gipuzkoa;TURISMOS;Gas Natural Comprimido;77
+País Vasco/Gipuzkoa;TURISMOS;Gasolina;140091
+País Vasco/Gipuzkoa;TURISMOS;Otros;38
+País Vasco/Gipuzkoa;TURISMOS;Sin especificar;1
+País Vasco/Bizkaia;CAMIONES HASTA 3500kg;TOTAL;38947
+País Vasco/Bizkaia;CAMIONES HASTA 3500kg;Butano;1
+País Vasco/Bizkaia;CAMIONES HASTA 3500kg;Diesel;37801
+País Vasco/Bizkaia;CAMIONES HASTA 3500kg;Eléctrico;82
+País Vasco/Bizkaia;CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;29
+País Vasco/Bizkaia;CAMIONES HASTA 3500kg;Gas Natural Comprimido;20
+País Vasco/Bizkaia;CAMIONES HASTA 3500kg;Gasolina;1013
+País Vasco/Bizkaia;CAMIONES HASTA 3500kg;Sin especificar;1
+País Vasco/Bizkaia;CAMIONES MÁS DE 3500kg;TOTAL;6277
+País Vasco/Bizkaia;CAMIONES MÁS DE 3500kg;Diesel;6198
+País Vasco/Bizkaia;CAMIONES MÁS DE 3500kg;Eléctrico;4
+País Vasco/Bizkaia;CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;5
+País Vasco/Bizkaia;CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;19
+País Vasco/Bizkaia;CAMIONES MÁS DE 3500kg;Gas Natural Licuado;1
+País Vasco/Bizkaia;CAMIONES MÁS DE 3500kg;Gasolina;50
+País Vasco/Bizkaia;CICLOMOTORES;TOTAL;17446
+País Vasco/Bizkaia;CICLOMOTORES;Diesel;492
+País Vasco/Bizkaia;CICLOMOTORES;Eléctrico;155
+País Vasco/Bizkaia;CICLOMOTORES;Gasolina;16799
+País Vasco/Bizkaia;FURGONETAS;TOTAL;40155
+País Vasco/Bizkaia;FURGONETAS;Diesel;33178
+País Vasco/Bizkaia;FURGONETAS;Eléctrico;103
+País Vasco/Bizkaia;FURGONETAS;Gas Licuado de Petroleo;74
+País Vasco/Bizkaia;FURGONETAS;Gas Natural Comprimido;28
+País Vasco/Bizkaia;FURGONETAS;Gasolina;6751
+País Vasco/Bizkaia;FURGONETAS;Otros;21
+País Vasco/Bizkaia;MOTOCICLETAS;TOTAL;58193
+País Vasco/Bizkaia;MOTOCICLETAS;Diesel;146
+País Vasco/Bizkaia;MOTOCICLETAS;Eléctrico;171
+País Vasco/Bizkaia;MOTOCICLETAS;Gas Licuado de Petroleo;3
+País Vasco/Bizkaia;MOTOCICLETAS;Gasolina;57866
+País Vasco/Bizkaia;MOTOCICLETAS;Sin especificar;7
+País Vasco/Bizkaia;TURISMOS;TOTAL;523878
+País Vasco/Bizkaia;TURISMOS;Butano;2
+País Vasco/Bizkaia;TURISMOS;Diesel;299963
+País Vasco/Bizkaia;TURISMOS;Eléctrico;630
+País Vasco/Bizkaia;TURISMOS;Etanol;5
+País Vasco/Bizkaia;TURISMOS;Gas Licuado de Petroleo;699
+País Vasco/Bizkaia;TURISMOS;Gas Natural Comprimido;109
+País Vasco/Bizkaia;TURISMOS;Gas Natural Licuado;1
+País Vasco/Bizkaia;TURISMOS;Gasolina;221928
+País Vasco/Bizkaia;TURISMOS;Hidrógeno;1
+País Vasco/Bizkaia;TURISMOS;Otros;538
+País Vasco/Bizkaia;TURISMOS;Sin especificar;2
+Rioja (La)/Rioja (La);CAMIONES HASTA 3500kg;TOTAL;17654
+Rioja (La)/Rioja (La);CAMIONES HASTA 3500kg;Diesel;17192
+Rioja (La)/Rioja (La);CAMIONES HASTA 3500kg;Eléctrico;4
+Rioja (La)/Rioja (La);CAMIONES HASTA 3500kg;Gas Licuado de Petroleo;6
+Rioja (La)/Rioja (La);CAMIONES HASTA 3500kg;Gasolina;452
+Rioja (La)/Rioja (La);CAMIONES MÁS DE 3500kg;TOTAL;2631
+Rioja (La)/Rioja (La);CAMIONES MÁS DE 3500kg;Diesel;2602
+Rioja (La)/Rioja (La);CAMIONES MÁS DE 3500kg;Gas Licuado de Petroleo;4
+Rioja (La)/Rioja (La);CAMIONES MÁS DE 3500kg;Gas Natural Comprimido;7
+Rioja (La)/Rioja (La);CAMIONES MÁS DE 3500kg;Gasolina;17
+Rioja (La)/Rioja (La);CAMIONES MÁS DE 3500kg;Otros;1
+Rioja (La)/Rioja (La);CICLOMOTORES;TOTAL;9193
+Rioja (La)/Rioja (La);CICLOMOTORES;Diesel;216
+Rioja (La)/Rioja (La);CICLOMOTORES;Eléctrico;87
+Rioja (La)/Rioja (La);CICLOMOTORES;Gasolina;8889
+Rioja (La)/Rioja (La);CICLOMOTORES;Sin especificar;1
+Rioja (La)/Rioja (La);FURGONETAS;TOTAL;17990
+Rioja (La)/Rioja (La);FURGONETAS;Diesel;15298
+Rioja (La)/Rioja (La);FURGONETAS;Eléctrico;15
+Rioja (La)/Rioja (La);FURGONETAS;Gas Licuado de Petroleo;28
+Rioja (La)/Rioja (La);FURGONETAS;Gas Natural Comprimido;1
+Rioja (La)/Rioja (La);FURGONETAS;Gasolina;2647
+Rioja (La)/Rioja (La);FURGONETAS;Otros;1
+Rioja (La)/Rioja (La);MOTOCICLETAS;TOTAL;17537
+Rioja (La)/Rioja (La);MOTOCICLETAS;Diesel;43
+Rioja (La)/Rioja (La);MOTOCICLETAS;Eléctrico;25
+Rioja (La)/Rioja (La);MOTOCICLETAS;Gas Licuado de Petroleo;2
+Rioja (La)/Rioja (La);MOTOCICLETAS;Gasolina;17465
+Rioja (La)/Rioja (La);MOTOCICLETAS;Sin especificar;2
+Rioja (La)/Rioja (La);TURISMOS;TOTAL;150714
+Rioja (La)/Rioja (La);TURISMOS;Biodiesel;3
+Rioja (La)/Rioja (La);TURISMOS;Butano;1
+Rioja (La)/Rioja (La);TURISMOS;Diesel;88879
+Rioja (La)/Rioja (La);TURISMOS;Eléctrico;119
+Rioja (La)/Rioja (La);TURISMOS;Etanol;2
+Rioja (La)/Rioja (La);TURISMOS;Gas Licuado de Petroleo;151
+Rioja (La)/Rioja (La);TURISMOS;Gas Natural Comprimido;5
+Rioja (La)/Rioja (La);TURISMOS;Gasolina;61537
+Rioja (La)/Rioja (La);TURISMOS;Otros;10
+Rioja (La)/Rioja (La);TURISMOS;Sin especificar;7
