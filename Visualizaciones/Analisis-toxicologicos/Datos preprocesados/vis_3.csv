@@ -1,0 +1,248 @@
+CCAA,Droga,Parque,Resultado positivo,Ratio
+La Rioja,Etanol,217685.0,6,2.7562762707582057e-05
+País Vasco,Etanol,1375688.0,16,1.1630544135007357e-05
+Comunidad Foral de Navarra,Etanol,469899.0,9,1.915305203884239e-05
+Región de Murcia,Etanol,1166017.0,22,1.886764944250384e-05
+Melilla,Etanol,70780.0,0,0.0
+Comunidad de Madrid,Etanol,5118257.0,40,7.815160512651084e-06
+Galicia,Etanol,2111164.0,45,2.1315255470441898e-05
+Extremadura,Etanol,879372.0,15,1.705762748870785e-05
+Comunidad Valenciana,Etanol,3770745.0,54,1.432077745909628e-05
+Ciudad Autónoma de Ceuta,Etanol,66400.0,0,0.0
+Cataluña,Etanol,5450236.0,93,1.706348128778277e-05
+Castilla-La Mancha,Etanol,1632254.0,36,2.2055390888918023e-05
+Castilla y León,Etanol,1829318.0,33,1.8039509806386862e-05
+Cantabria,Etanol,431107.0,8,1.855687799084682e-05
+Canarias,Etanol,1753830.0,26,1.4824697946779334e-05
+Islas Baleares,Etanol,1116413.0,17,1.5227339703138534e-05
+Principado de Asturias,Etanol,700043.0,12,1.7141804146316725e-05
+Aragón,Etanol,898301.0,17,1.892461435532188e-05
+Andalucía,Etanol,6398915.0,140,2.187870912490633e-05
+La Rioja,Drogas,217685.0,5,2.296896892298505e-05
+País Vasco,Drogas,1375688.0,9,6.542181075941638e-06
+Comunidad Foral de Navarra,Drogas,469899.0,5,1.064058446602355e-05
+Región de Murcia,Drogas,1166017.0,18,1.543716772568496e-05
+Melilla,Drogas,70780.0,0,0.0
+Comunidad de Madrid,Drogas,5118257.0,29,5.665991371672036e-06
+Galicia,Drogas,2111164.0,18,8.52610218817676e-06
+Extremadura,Drogas,879372.0,12,1.364610199096628e-05
+Comunidad Valenciana,Drogas,3770745.0,21,5.569191234092998e-06
+Ciudad Autónoma de Ceuta,Drogas,66400.0,1,1.5060240963855421e-05
+Cataluña,Drogas,5450236.0,57,1.0458262724770083e-05
+Castilla-La Mancha,Drogas,1632254.0,23,1.409094417903096e-05
+Castilla y León,Drogas,1829318.0,32,1.749285799407211e-05
+Cantabria,Drogas,431107.0,2,4.639219497711705e-06
+Canarias,Drogas,1753830.0,18,1.0263252424693386e-05
+Islas Baleares,Drogas,1116413.0,9,8.061532784014517e-06
+Principado de Asturias,Drogas,700043.0,5,7.142418394298636e-06
+Aragón,Drogas,898301.0,10,1.1132126091365811e-05
+Andalucía,Drogas,6398915.0,82,1.2814672487445138e-05
+La Rioja,Cocaína,217685.0,0,0.0
+País Vasco,Cocaína,1375688.0,5,3.6345450421897987e-06
+Comunidad Foral de Navarra,Cocaína,469899.0,3,6.38435067961413e-06
+Región de Murcia,Cocaína,1166017.0,14,1.200668600886608e-05
+Melilla,Cocaína,70780.0,0,0.0
+Comunidad de Madrid,Cocaína,5118257.0,13,2.5399271666116024e-06
+Galicia,Cocaína,2111164.0,13,6.157740469238771e-06
+Extremadura,Cocaína,879372.0,9,1.023457649322471e-05
+Comunidad Valenciana,Cocaína,3770745.0,18,4.7735924863654265e-06
+Ciudad Autónoma de Ceuta,Cocaína,66400.0,0,0.0
+Cataluña,Cocaína,5450236.0,36,6.605218563012684e-06
+Castilla-La Mancha,Cocaína,1632254.0,17,1.0415045697544623e-05
+Castilla y León,Cocaína,1829318.0,21,1.1479688058609821e-05
+Cantabria,Cocaína,431107.0,2,4.639219497711705e-06
+Canarias,Cocaína,1753830.0,8,4.561445522085949e-06
+Islas Baleares,Cocaína,1116413.0,4,3.582903459562008e-06
+Principado de Asturias,Cocaína,700043.0,1,1.4284836788597273e-06
+Aragón,Cocaína,898301.0,5,5.5660630456829055e-06
+Andalucía,Cocaína,6398915.0,47,7.3449952062185546e-06
+La Rioja,Cannabis,217685.0,4,1.8375175138388038e-05
+País Vasco,Cannabis,1375688.0,3,2.1807270253138793e-06
+Comunidad Foral de Navarra,Cannabis,469899.0,2,4.25623378640942e-06
+Región de Murcia,Cannabis,1166017.0,8,6.86096343363776e-06
+Melilla,Cannabis,70780.0,0,0.0
+Comunidad de Madrid,Cannabis,5118257.0,20,3.907580256325542e-06
+Galicia,Cannabis,2111164.0,10,4.736723437875977e-06
+Extremadura,Cannabis,879372.0,3,3.41152549774157e-06
+Comunidad Valenciana,Cannabis,3770745.0,4,1.0607983303034281e-06
+Ciudad Autónoma de Ceuta,Cannabis,66400.0,1,1.5060240963855421e-05
+Cataluña,Cannabis,5450236.0,24,4.403479042008456e-06
+Castilla-La Mancha,Cannabis,1632254.0,12,7.3517969629726745e-06
+Castilla y León,Cannabis,1829318.0,17,9.293080809350807e-06
+Cantabria,Cannabis,431107.0,0,0.0
+Canarias,Cannabis,1753830.0,14,7.98252966365041e-06
+Islas Baleares,Cannabis,1116413.0,2,1.791451729781004e-06
+Principado de Asturias,Cannabis,700043.0,4,5.713934715438909e-06
+Aragón,Cannabis,898301.0,4,4.452850436546325e-06
+Andalucía,Cannabis,6398915.0,49,7.657548193717216e-06
+La Rioja,Opiáceos,217685.0,0,0.0
+País Vasco,Opiáceos,1375688.0,0,0.0
+Comunidad Foral de Navarra,Opiáceos,469899.0,0,0.0
+Región de Murcia,Opiáceos,1166017.0,0,0.0
+Melilla,Opiáceos,70780.0,0,0.0
+Comunidad de Madrid,Opiáceos,5118257.0,1,1.953790128162771e-07
+Galicia,Opiáceos,2111164.0,1,4.7367234378759777e-07
+Extremadura,Opiáceos,879372.0,0,0.0
+Comunidad Valenciana,Opiáceos,3770745.0,0,0.0
+Ciudad Autónoma de Ceuta,Opiáceos,66400.0,0,0.0
+Cataluña,Opiáceos,5450236.0,0,0.0
+Castilla-La Mancha,Opiáceos,1632254.0,0,0.0
+Castilla y León,Opiáceos,1829318.0,1,5.466518123147534e-07
+Cantabria,Opiáceos,431107.0,0,0.0
+Canarias,Opiáceos,1753830.0,1,5.701806902607436e-07
+Islas Baleares,Opiáceos,1116413.0,0,0.0
+Principado de Asturias,Opiáceos,700043.0,0,0.0
+Aragón,Opiáceos,898301.0,0,0.0
+Andalucía,Opiáceos,6398915.0,4,6.251059749973237e-07
+La Rioja,Anfetamina y relacionados,217685.0,1,4.5937937845970094e-06
+País Vasco,Anfetamina y relacionados,1375688.0,6,4.361454050627759e-06
+Comunidad Foral de Navarra,Anfetamina y relacionados,469899.0,0,0.0
+Región de Murcia,Anfetamina y relacionados,1166017.0,0,0.0
+Melilla,Anfetamina y relacionados,70780.0,0,0.0
+Comunidad de Madrid,Anfetamina y relacionados,5118257.0,3,5.861370384488313e-07
+Galicia,Anfetamina y relacionados,2111164.0,0,0.0
+Extremadura,Anfetamina y relacionados,879372.0,0,0.0
+Comunidad Valenciana,Anfetamina y relacionados,3770745.0,0,0.0
+Ciudad Autónoma de Ceuta,Anfetamina y relacionados,66400.0,0,0.0
+Cataluña,Anfetamina y relacionados,5450236.0,2,3.6695658683403803e-07
+Castilla-La Mancha,Anfetamina y relacionados,1632254.0,1,6.126497469143895e-07
+Castilla y León,Anfetamina y relacionados,1829318.0,6,3.2799108738885203e-06
+Cantabria,Anfetamina y relacionados,431107.0,0,0.0
+Canarias,Anfetamina y relacionados,1753830.0,1,5.701806902607436e-07
+Islas Baleares,Anfetamina y relacionados,1116413.0,3,2.687177594671506e-06
+Principado de Asturias,Anfetamina y relacionados,700043.0,0,0.0
+Aragón,Anfetamina y relacionados,898301.0,4,4.452850436546325e-06
+Andalucía,Anfetamina y relacionados,6398915.0,4,6.251059749973237e-07
+La Rioja,Ketamina,217685.0,0,0.0
+País Vasco,Ketamina,1375688.0,0,0.0
+Comunidad Foral de Navarra,Ketamina,469899.0,0,0.0
+Región de Murcia,Ketamina,1166017.0,0,0.0
+Melilla,Ketamina,70780.0,0,0.0
+Comunidad de Madrid,Ketamina,5118257.0,0,0.0
+Galicia,Ketamina,2111164.0,0,0.0
+Extremadura,Ketamina,879372.0,0,0.0
+Comunidad Valenciana,Ketamina,3770745.0,0,0.0
+Ciudad Autónoma de Ceuta,Ketamina,66400.0,0,0.0
+Cataluña,Ketamina,5450236.0,0,0.0
+Castilla-La Mancha,Ketamina,1632254.0,0,0.0
+Castilla y León,Ketamina,1829318.0,0,0.0
+Cantabria,Ketamina,431107.0,0,0.0
+Canarias,Ketamina,1753830.0,0,0.0
+Islas Baleares,Ketamina,1116413.0,0,0.0
+Principado de Asturias,Ketamina,700043.0,0,0.0
+Aragón,Ketamina,898301.0,0,0.0
+Andalucía,Ketamina,6398915.0,0,0.0
+La Rioja,Psicofármacos,217685.0,4,1.8375175138388038e-05
+País Vasco,Psicofármacos,1375688.0,9,6.542181075941638e-06
+Comunidad Foral de Navarra,Psicofármacos,469899.0,2,4.25623378640942e-06
+Región de Murcia,Psicofármacos,1166017.0,4,3.43048171681888e-06
+Melilla,Psicofármacos,70780.0,0,0.0
+Comunidad de Madrid,Psicofármacos,5118257.0,24,4.6890963075906504e-06
+Galicia,Psicofármacos,2111164.0,21,9.947119219539553e-06
+Extremadura,Psicofármacos,879372.0,3,3.41152549774157e-06
+Comunidad Valenciana,Psicofármacos,3770745.0,23,6.099590399244712e-06
+Ciudad Autónoma de Ceuta,Psicofármacos,66400.0,0,0.0
+Cataluña,Psicofármacos,5450236.0,39,7.155653443263741e-06
+Castilla-La Mancha,Psicofármacos,1632254.0,13,7.964446709887065e-06
+Castilla y León,Psicofármacos,1829318.0,26,1.4212947120183588e-05
+Cantabria,Psicofármacos,431107.0,2,4.639219497711705e-06
+Canarias,Psicofármacos,1753830.0,13,7.412348973389667e-06
+Islas Baleares,Psicofármacos,1116413.0,1,8.95725864890502e-07
+Principado de Asturias,Psicofármacos,700043.0,6,8.570902073158363e-06
+Aragón,Psicofármacos,898301.0,4,4.452850436546325e-06
+Andalucía,Psicofármacos,6398915.0,56,8.751483649962532e-06
+La Rioja,Benzodiacepinas,217685.0,3,1.3781381353791028e-05
+País Vasco,Benzodiacepinas,1375688.0,8,5.8152720675036784e-06
+Comunidad Foral de Navarra,Benzodiacepinas,469899.0,2,4.25623378640942e-06
+Región de Murcia,Benzodiacepinas,1166017.0,3,2.57286128761416e-06
+Melilla,Benzodiacepinas,70780.0,0,0.0
+Comunidad de Madrid,Benzodiacepinas,5118257.0,16,3.1260642050604338e-06
+Galicia,Benzodiacepinas,2111164.0,14,6.6314128130263685e-06
+Extremadura,Benzodiacepinas,879372.0,1,1.1371751659138568e-06
+Comunidad Valenciana,Benzodiacepinas,3770745.0,18,4.7735924863654265e-06
+Ciudad Autónoma de Ceuta,Benzodiacepinas,66400.0,0,0.0
+Cataluña,Benzodiacepinas,5450236.0,17,3.119130988089323e-06
+Castilla-La Mancha,Benzodiacepinas,1632254.0,10,6.126497469143895e-06
+Castilla y León,Benzodiacepinas,1829318.0,18,9.83973262166556e-06
+Cantabria,Benzodiacepinas,431107.0,2,4.639219497711705e-06
+Canarias,Benzodiacepinas,1753830.0,10,5.701806902607436e-06
+Islas Baleares,Benzodiacepinas,1116413.0,1,8.95725864890502e-07
+Principado de Asturias,Benzodiacepinas,700043.0,4,5.713934715438909e-06
+Aragón,Benzodiacepinas,898301.0,1,1.1132126091365812e-06
+Andalucía,Benzodiacepinas,6398915.0,34,5.313400787477252e-06
+La Rioja,Antipsicóticos,217685.0,0,0.0
+País Vasco,Antipsicóticos,1375688.0,0,0.0
+Comunidad Foral de Navarra,Antipsicóticos,469899.0,0,0.0
+Región de Murcia,Antipsicóticos,1166017.0,0,0.0
+Melilla,Antipsicóticos,70780.0,0,0.0
+Comunidad de Madrid,Antipsicóticos,5118257.0,1,1.953790128162771e-07
+Galicia,Antipsicóticos,2111164.0,0,0.0
+Extremadura,Antipsicóticos,879372.0,0,0.0
+Comunidad Valenciana,Antipsicóticos,3770745.0,2,5.303991651517141e-07
+Ciudad Autónoma de Ceuta,Antipsicóticos,66400.0,0,0.0
+Cataluña,Antipsicóticos,5450236.0,1,1.8347829341701902e-07
+Castilla-La Mancha,Antipsicóticos,1632254.0,1,6.126497469143895e-07
+Castilla y León,Antipsicóticos,1829318.0,1,5.466518123147534e-07
+Cantabria,Antipsicóticos,431107.0,0,0.0
+Canarias,Antipsicóticos,1753830.0,0,0.0
+Islas Baleares,Antipsicóticos,1116413.0,0,0.0
+Principado de Asturias,Antipsicóticos,700043.0,0,0.0
+Aragón,Antipsicóticos,898301.0,0,0.0
+Andalucía,Antipsicóticos,6398915.0,1,1.5627649374933093e-07
+La Rioja,Antidepresivos,217685.0,2,9.187587569194019e-06
+País Vasco,Antidepresivos,1375688.0,5,3.6345450421897987e-06
+Comunidad Foral de Navarra,Antidepresivos,469899.0,0,0.0
+Región de Murcia,Antidepresivos,1166017.0,0,0.0
+Melilla,Antidepresivos,70780.0,0,0.0
+Comunidad de Madrid,Antidepresivos,5118257.0,12,2.3445481537953252e-06
+Galicia,Antidepresivos,2111164.0,9,4.26305109408838e-06
+Extremadura,Antidepresivos,879372.0,2,2.2743503318277135e-06
+Comunidad Valenciana,Antidepresivos,3770745.0,6,1.5911974954551422e-06
+Ciudad Autónoma de Ceuta,Antidepresivos,66400.0,0,0.0
+Cataluña,Antidepresivos,5450236.0,15,2.752174401255285e-06
+Castilla-La Mancha,Antidepresivos,1632254.0,7,4.288548228400727e-06
+Castilla y León,Antidepresivos,1829318.0,12,6.5598217477770406e-06
+Cantabria,Antidepresivos,431107.0,1,2.3196097488558527e-06
+Canarias,Antidepresivos,1753830.0,3,1.7105420707822308e-06
+Islas Baleares,Antidepresivos,1116413.0,0,0.0
+Principado de Asturias,Antidepresivos,700043.0,2,2.8569673577194545e-06
+Aragón,Antidepresivos,898301.0,3,3.3396378274097436e-06
+Andalucía,Antidepresivos,6398915.0,18,2.8129768874879567e-06
+La Rioja,Antiepilépticos,217685.0,0,0.0
+País Vasco,Antiepilépticos,1375688.0,2,1.4538180168759196e-06
+Comunidad Foral de Navarra,Antiepilépticos,469899.0,0,0.0
+Región de Murcia,Antiepilépticos,1166017.0,2,1.71524085840944e-06
+Melilla,Antiepilépticos,70780.0,0,0.0
+Comunidad de Madrid,Antiepilépticos,5118257.0,4,7.815160512651084e-07
+Galicia,Antiepilépticos,2111164.0,6,2.8420340627255864e-06
+Extremadura,Antiepilépticos,879372.0,0,0.0
+Comunidad Valenciana,Antiepilépticos,3770745.0,1,2.6519958257585703e-07
+Ciudad Autónoma de Ceuta,Antiepilépticos,66400.0,0,0.0
+Cataluña,Antiepilépticos,5450236.0,5,9.17391467085095e-07
+Castilla-La Mancha,Antiepilépticos,1632254.0,2,1.225299493828779e-06
+Castilla y León,Antiepilépticos,1829318.0,4,2.1866072492590137e-06
+Cantabria,Antiepilépticos,431107.0,0,0.0
+Canarias,Antiepilépticos,1753830.0,1,5.701806902607436e-07
+Islas Baleares,Antiepilépticos,1116413.0,0,0.0
+Principado de Asturias,Antiepilépticos,700043.0,2,2.8569673577194545e-06
+Aragón,Antiepilépticos,898301.0,0,0.0
+Andalucía,Antiepilépticos,6398915.0,5,7.813824687466548e-07
+La Rioja,Opioides,217685.0,0,0.0
+País Vasco,Opioides,1375688.0,0,0.0
+Comunidad Foral de Navarra,Opioides,469899.0,0,0.0
+Región de Murcia,Opioides,1166017.0,0,0.0
+Melilla,Opioides,70780.0,0,0.0
+Comunidad de Madrid,Opioides,5118257.0,4,7.815160512651084e-07
+Galicia,Opioides,2111164.0,8,3.789378750300782e-06
+Extremadura,Opioides,879372.0,1,1.1371751659138568e-06
+Comunidad Valenciana,Opioides,3770745.0,1,2.6519958257585703e-07
+Ciudad Autónoma de Ceuta,Opioides,66400.0,0,0.0
+Cataluña,Opioides,5450236.0,6,1.100869760502114e-06
+Castilla-La Mancha,Opioides,1632254.0,5,3.0632487345719477e-06
+Castilla y León,Opioides,1829318.0,7,3.826562686203274e-06
+Cantabria,Opioides,431107.0,1,2.3196097488558527e-06
+Canarias,Opioides,1753830.0,1,5.701806902607436e-07
+Islas Baleares,Opioides,1116413.0,0,0.0
+Principado de Asturias,Opioides,700043.0,0,0.0
+Aragón,Opioides,898301.0,0,0.0
+Andalucía,Opioides,6398915.0,12,1.8753179249919714e-06
