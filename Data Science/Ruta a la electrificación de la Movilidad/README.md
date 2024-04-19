@@ -35,4 +35,4 @@ Datos de matriculaciones de vehículos en España publicados por la Dirección G
 
 # MANOS A LA OBRA
 
-¡Pasamos a la acción! Para desarrollar este ejercicio paso a paso accede al Notebook [aquí](https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/main/Data%20Science/Ruta%20a%20la%20electrificaci%C3%B3n%20de%20la%20Movilidad/Codigo/Notebook.ipynb).
+¡Pasamos a la acción! Para desarrollar este ejercicio paso a paso accede al Notebook [aquí](https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/main/Data%20Science/Ruta%20a%20la%20electrificaci%C3%B3n%20de%20la%20Movilidad/Codigo/Notebook.ipynb). También tienes a tu disposición la versión en colab [aquí]([https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/main/Data%20Science/Ruta%20a%20la%20electrificaci%C3%B3n%20de%20la%20Movilidad/Codigo/Notebook.ipynb](https://colab.research.google.com/github/Admindatosgobes/Laboratorio-de-Datos/blob/main/Data%20Science/Ruta%20a%20la%20electrificaci%C3%B3n%20de%20la%20Movilidad/Codigo/Notebook.ipynb)).
