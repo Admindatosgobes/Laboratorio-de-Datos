@@ -1,0 +1,20 @@
+# Prompt 1.1: Escenario 1 - Cuestionario Grafito
+-	¿Cuáles son los principales países productores de grafito y cómo afecta esto a la cadena de suministro global?
+-	¿Qué papel juega el grafito en la producción de baterías de vehículos eléctricos y qué avances tecnológicos están mejorando su eficiencia?
+-	¿Cómo está impactando la transición energética en la demanda de grafito y otros minerales críticos?
+-	¿Cuáles son las principales aplicaciones industriales del grafito fuera del sector de baterías?
+-	¿Qué riesgos y desafíos enfrenta la cadena de suministro de grafito a nivel mundial?
+-	¿Qué estrategias están adoptando las empresas para asegurar un suministro sostenible de grafito?
+-	¿Cómo contribuye el reciclaje de grafito a la sostenibilidad y qué tecnologías se están desarrollando en este campo?
+-	¿Qué impacto tiene la concentración geográfica de la producción de grafito en la seguridad de suministro?
+-	¿Cómo están las políticas gubernamentales influenciando la explotación y uso del grafito en diversas regiones del mundo?
+-	¿Qué avances se han realizado en la sustitución del grafito por otros materiales en aplicaciones críticas?
+
+# Prompt 1.2: Escenario 1 - Cuestión reservas Extremadura
+¿Existen reservas de Litio en Extremadura?
+
+# Prompt 2: Escenario 2 - Generación gráfico cuantitativo
+¿Podrías generar una representación cuantitativa en un gráfico de barras fucsias donde muestras en toneladas la producción de grafito de los 5 primeros países productores?
+
+# Prompt 3: Escenario 3 - Generación mapa mental
+¿Podrías ayudarme a generar un mapa mental en formato Markmap (Markdown Mindmap) que me permita entender mejor los riesgos en la cadena de suministro de los materiales críticos?
