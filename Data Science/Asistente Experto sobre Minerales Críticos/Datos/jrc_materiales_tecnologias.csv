@@ -1,0 +1,88 @@
+Riesgo Suministro;Nombre Material;Tipo Material;Baterias Li-ion;Pilas de Combustible;Electrolizadores;Aerogeneradores;Motores de Traccion;Solar Fotovoltaica;Bombas de Calor;Hidrogeno DRI;Redes de Transmision de Datos;Almacenamiento de Datos y Servidores;Telefonos Inteligentes, Tabletas y Computadoras Portatiles;Fabricacion Aditiva;Robotica;Drones;Lanzadores Espaciales y Satelites
+5,6;Dysprosium;Estrategico;0;0;0;1;1;0;1;0;0;1;1;0;1;1;1
+4,9;Terbium;Estrategico;0;0;0;1;0;0;0;0;0;1;0;0;1;1;1
+4,8;Gallium;Estrategico;0;0;0;0;0;1;0;0;1;1;1;0;1;1;1
+4,1;Magnesium;Estrategico;0;0;1;0;0;0;0;0;0;1;1;1;1;1;1
+4,0;Cerium;Estrategico;0;1;1;0;0;0;0;0;0;0;1;0;1;1;1
+3,9;Iridium;Estrategico;0;1;1;0;0;0;0;0;0;0;0;0;0;0;1
+3,8;Boron;Estrategico;0;1;1;1;1;1;1;0;1;1;1;0;1;1;1
+3,8;Ruthenium;Estrategico;0;1;1;0;0;0;0;0;1;1;1;0;1;1;0
+3,6;Neodymium;Estrategico;0;0;0;1;1;0;1;0;1;1;1;0;1;1;1
+3,5;Samarium;Estrategico;0;0;0;0;0;0;0;0;1;0;0;0;1;1;1
+3,3;Gadolinium;Estrategico;0;1;1;0;0;0;0;0;1;0;1;0;1;1;1
+3,2;Praseodymium;Estrategico;0;0;0;1;1;0;1;0;1;1;1;0;1;1;0
+2,4;Rhodium;Estrategico;0;0;1;0;0;0;0;0;1;0;0;0;0;0;1
+2,1;Platinum;Estrategico;0;1;1;0;0;0;0;0;1;1;1;0;1;1;1
+1,9;Lithium;Estrategico;1;0;0;0;0;0;0;0;1;0;1;0;1;1;1
+1,9;Bismuth;Estrategico;0;0;0;0;0;0;0;0;1;1;1;0;0;0;1
+1,8;Germanium;Estrategico;0;0;0;0;0;1;0;0;1;1;1;0;0;0;1
+1,8;Natural graphite;Estrategico;1;1;1;0;0;0;0;1;1;0;1;0;1;1;0
+1,7;Cobalt;Estrategico;1;1;1;0;0;0;0;0;1;0;1;1;1;1;1
+1,6;Titanium metal;Estrategico;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1
+1,5;Palladium;Estrategico;0;1;1;0;0;0;0;0;1;1;1;0;1;1;1
+1,4;Silicon metal;Estrategico;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1
+1,2;Manganese;Estrategico;1;1;1;1;0;0;1;1;1;1;1;1;1;1;1
+1,2;Tungsten;Estrategico;0;0;1;0;0;0;0;0;0;0;1;1;0;1;1
+0,5;Nickel;Estrategico;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1
+0,1;Copper;Estrategico;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1
+5,6;Erbium;Critico;0;0;0;0;0;0;0;0;1;0;0;0;1;1;0
+5,6;Europium;Critico;0;0;0;0;0;0;0;0;0;0;1;0;1;1;0
+5,6;Holmium;Critico;0;0;0;0;0;0;0;0;1;0;0;0;1;1;0
+5,6;Lutetium;Critico;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0
+5,6;Thulium;Critico;0;0;0;0;0;0;0;0;1;0;0;0;1;1;0
+5,6;Ytterbium;Critico;0;0;0;0;0;0;0;0;1;0;0;0;1;1;0
+4,4;Niobium;Critico;0;0;1;1;0;0;0;0;1;0;0;1;0;1;1
+3,5;Lanthanum;Critico;0;1;1;0;0;0;0;0;1;0;1;0;1;1;1
+3,5;Yttrium;Critico;0;1;1;0;0;0;0;0;1;0;1;0;0;0;1
+3,3;Phosphorus;Critico;1;0;0;0;0;1;0;1;0;1;1;0;0;0;1
+2,6;Strontium;Critico;0;1;1;0;0;0;0;0;1;0;1;0;0;0;0
+2,4;Scandium;Critico;0;0;1;0;0;0;0;0;0;1;0;1;0;0;1
+2,3;Vanadium;Critico;0;1;1;0;0;0;0;1;1;0;0;1;1;1;1
+1,8;Antimony;Critico;0;0;0;0;0;1;0;0;1;1;1;0;1;1;1
+1,8;Beryllium;Critico;0;0;0;0;0;0;0;0;0;1;1;0;0;0;1
+1,6;Arsenic;Critico;0;0;0;0;0;1;0;0;1;1;1;0;0;0;1
+1,5;Feldspar;Critico;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0
+1,5;Hafnium;Critico;0;0;0;0;0;0;0;0;0;1;0;1;0;1;1
+1,3;Baryte;Critico;0;1;1;0;0;0;0;0;1;1;1;0;0;0;1
+1,3;Tantalum;Critico;0;0;1;0;0;0;0;0;1;0;1;0;0;1;1
+1,2;Helium;Critico;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1
+1,2;Aluminium;Critico;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
+1,1;Fluorspar;Critico;1;0;0;0;0;1;1;0;1;0;1;0;1;1;1
+1,0;Coking coal;Critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+1,0;Phosphate rock;Critico;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0
+1,7;Natural Teak wood;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+1,3;Sapele wood;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+0,9;Natural cork;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+0,9;Natural rubber;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+0,9;Tin;No critico;0;0;1;0;0;1;0;0;1;1;1;0;1;1;0
+0,8;Kaolin clay;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+0,8;Molybdenum;No critico;0;0;1;1;1;1;1;0;1;0;1;1;1;1;1
+0,8;Perlite;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+0,8;Silver;No critico;0;0;1;0;0;1;1;0;1;1;1;0;1;1;1
+0,8;Xenon;No critico;0;0;0;0;0;0;0;0;0;1;1;0;0;0;1
+0,8;Zirconium;No critico;0;1;1;0;0;0;0;1;1;0;0;1;0;0;1
+0,7;Chromium;No critico;0;1;1;1;1;0;1;1;0;1;1;1;1;1;1
+0,7;Krypton;No critico;0;0;0;0;0;0;0;0;0;1;1;0;0;0;1
+0,7;Neon;No critico;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0
+0,7;Potash;No critico;0;0;1;0;0;0;0;0;0;0;0;0;1;1;0
+0,6;Gypsum;No critico;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0
+0,6;Indium;No critico;0;0;0;0;0;1;0;0;1;1;1;0;1;1;1
+0,6;Magnesite;No critico;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0
+0,5;Hydrogen;No critico;0;0;0;0;0;0;0;1;0;0;1;0;0;0;1
+0,5;Iron ore;No critico;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
+0,5;Rhenium;No critico;0;0;0;0;0;0;0;0;1;0;0;0;1;1;0
+0,5;Titanium;No critico;0;1;1;0;0;0;0;0;0;1;0;0;0;0;0
+0,4;Gold;No critico;0;0;1;0;0;0;1;0;1;1;1;0;1;1;1
+0,4;Bentonite;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+0,3;Tellurium;No critico;0;0;0;0;0;1;0;0;1;0;0;0;1;1;0
+0,3;Diatomite;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+0,3;Limestone;No critico;0;0;1;0;0;0;0;1;0;0;0;0;1;1;0
+0,3;Selenium;No critico;0;0;0;0;0;1;0;0;1;0;0;0;0;0;1
+0,3;Silica;No critico;0;0;0;1;0;1;0;1;0;0;1;0;0;0;1
+0,3;Sulphur;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+0,2;Cadmium;No critico;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0
+0,2;Talc;No critico;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0
+0,2;Zinc;No critico;0;0;1;1;0;1;1;0;1;1;1;0;1;1;1
+0,2;Aggregates;No critico;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0
+0,1;Lead;No critico;0;0;0;1;0;1;0;0;1;0;1;0;1;1;1
+0,1;Roundwood;No critico;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
