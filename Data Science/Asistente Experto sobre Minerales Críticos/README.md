@@ -28,9 +28,10 @@ De forma complementaria, utilizaremos otro conjunto de herramientas que nos perm
 ## 💾 Fuentes de información
 - **[Raw Materials Information System (RMIS)](https://rmis.jrc.ec.europa.eu/):** Sistema de información sobre materias primas mantenido por el Joint Research Center de la Unión Europea. Proporciona datos detallados y actualizados sobre la disponibilidad, producción y consumo de materias primas en Europa.
 - **[Catálogo de informes y datos de la Agencia Internacional de la Energía (IEA)](https://www.iea.org/data-and-statistics):** Ofrece un amplio catálogo de informes y datos relacionados con la energía, incluyendo estadísticas sobre producción, consumo y reservas de materialesminerales energéticos y críticos.
-- **[Base de datos de minerales del Instituto Geológico y Minero Español (BDMIN)](https://info.igme.es/catalogo/resource.aspx?portal=1&catalog=3&ctt=1&lang=spa&dlang=eng&llt=dropdown&master=infoigme&shdt=false&shfo=false&resource=23):**: Contiene información detallada sobre los minerales y depósitos minerales en España, útil para obtener datos específicos sobre la producción y reservas de materialesminerales críticos en el país.
+- **[Base de datos de minerales del Instituto Geológico y Minero Español (BDMIN)](https://info.igme.es/catalogo/resource.aspx?portal=1&catalog=3&ctt=1&lang=spa&dlang=eng&llt=dropdown&master=infoigme&shdt=false&shfo=false&resource=23):** Contiene información detallada sobre los minerales y depósitos minerales en España, útil para obtener datos específicos sobre la producción y reservas de materialesminerales críticos en el país.
 
 Con estos recursos, estarás bien equipado para desarrollar un asistente GPT especializado que pueda proporcionar respuestas precisas y relevantes sobre materialesminerales críticos, facilitando la toma de decisiones informadas en este campo
 
-<sub>*Los datos utilizados en este ejercicio fueron descargados el 04 de marzo de 2024. La licencia aplicable a este conjunto de datos puede encontrarse en [https://datos.gob.es/avisolegal](https://datos.gob.es/avisolegal)*</sub>
+# MANOS A LA OBRA
 
+¡Pasamos a la acción! Para desarrollar este ejercicio paso a paso accede al post donde te explicamos como desarrollar este GPT [aquí](https://datos.gob.es/). 
