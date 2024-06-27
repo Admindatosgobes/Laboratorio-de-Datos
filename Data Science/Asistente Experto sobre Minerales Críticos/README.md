@@ -34,4 +34,7 @@ Con estos recursos, estarás bien equipado para desarrollar un asistente GPT esp
 
 # MANOS A LA OBRA
 
-¡Pasamos a la acción! Para desarrollar este ejercicio paso a paso accede al post donde te explicamos como desarrollar este GPT [aquí](https://datos.gob.es/). 
+¡Pasamos a la acción! Para desarrollar este ejercicio a continuación te dejamos:
+* El [post](https://datos.gob.es/](https://datos.gob.es/es/documentacion/como-crear-un-chatbot-con-datos-abiertos-construccion-de-asistente-experto-para) donde te explicamos como desarrollar este GPT paso a paso.
+* El [enlace](https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/main/Data%20Science/Asistente%20Experto%20sobre%20Minerales%20Cr%C3%ADticos/C%C3%B3digo) a la carpeta de GitHub donde puedes encontrar todo el código y promts necesarios.
+* El [enlace](https://colab.research.google.com/github/Admindatosgobes/Laboratorio-de-Datos/blob/main/Data%20Science/Asistente%20Experto%20sobre%20Minerales%20Cr%C3%ADticos/C%C3%B3digo/pdf_a_csv.ipynb) al Colab Noteboook que puedes utilizar para facilitar el tratamiento de datos.
