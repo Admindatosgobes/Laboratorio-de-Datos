@@ -1,4 +1,4 @@
-# Etiquetado Optimizado para Conjuntos de Datos en datos.gob.es
+# Word Embeddings - Ejercicio práctico con etiquetas de Datos.gob
 
 ## Descripción del Proyecto
 
