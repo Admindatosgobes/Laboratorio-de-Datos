@@ -14,9 +14,9 @@ El portal datos.gob.es ofrece una valiosa colección de conjuntos de datos públ
 
 ## Características Principales
 
-- **Recolección de Datos**: Utiliza la API pública de datos.gob.es para obtener información sobre los conjuntos de datos.
-- **Análisis de Similitud Semántica**: Emplea embeddings para comparar títulos y descripciones de los datasets.
-- **Recomendación de Etiquetas**: Sugiere etiquetas basadas en datasets similares identificados.
-- **Integración con Eurovoc**: Incorpora términos estandarizados del tesauro Eurovoc para mejorar la consistencia del etiquetado.
-- **Visualización**: Utiliza Graphviz para representar gráficamente el proceso de recomendación.
+- **Recolección de datos**: utiliza la API pública de datos.gob.es para obtener información sobre los conjuntos de datos.
+- **Análisis de similitud semántica**: emplea embeddings para comparar títulos y descripciones de los datasets.
+- **Recomendación de etiquetas**: sugiere etiquetas basadas en datasets similares identificados.
+- **Integración con eurovoc**: incorpora términos estandarizados del tesauro Eurovoc para mejorar la consistencia del etiquetado.
+- **Visualización**: utiliza Graphviz para representar gráficamente el proceso de recomendación.
 
