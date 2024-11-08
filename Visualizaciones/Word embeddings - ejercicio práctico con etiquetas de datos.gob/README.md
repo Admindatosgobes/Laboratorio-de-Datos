@@ -6,10 +6,10 @@ Este ejercicio práctico explora el uso de *embeddings* para la optimización y 
 ## Marco Teórico
 
 ### Word Embeddings
-Los *word embeddings* son representaciones vectoriales de palabras en un espacio multidimensional. A diferencia de las representaciones tradicionales (como one-hot encoding), los *embeddings* capturan relaciones semánticas entre palabras, permitiendo operaciones matemáticas que reflejan relaciones lingüísticas.
+Los *word embeddings* son representaciones vectoriales de palabras en un espacio multidimensional. A diferencia de las representaciones tradicionales, los *embeddings* capturan relaciones semánticas entre palabras, permitiendo operaciones matemáticas que reflejan relaciones lingüísticas.
 
 #### Características principales
-- **Dimensionalidad reducida:** Cada palabra se representa mediante un vector denso de números reales (típicamente entre 100-600 dimensiones).
+- **Dimensionalidad:** Cada palabra se representa mediante un vector numérico (típicamente entre 100-600 dimensiones).
 - **Semántica distribuida:** El significado de una palabra se distribuye en todas las componentes del vector.
 - **Relaciones vectoriales:** Capturan relaciones semánticas mediante operaciones vectoriales (ej: Rey - Hombre + Mujer ≈ Reina).
 
@@ -39,8 +39,6 @@ Los portales de datos abiertos juegan un papel fundamental en el acceso y reutil
   - Diferentes niveles de especificidad.
 
 - **Desafíos de estandarización:**
-  - Falta de vocabularios controlados.
-  - Ausencia de jerarquías temáticas.
   - Dificultad en la normalización de términos.
   - Barreras en la interoperabilidad semántica.
 
@@ -70,6 +68,9 @@ El ejercicio presenta una Prueba de Concepto (PoC) que implementa un sistema de 
 - `eurovoc_export_es_unzip.csv`: Conjunto de datos de Eurovoc.
 
 ## Requisitos técnicos
+
+El proyecto se encuentra completamente implementado en un notebook de Google Colab, el cual incluye todos los componentes necesarios: la instalación automática de dependencias, la obtención de datos y la ejecución del sistema de recomendación.
+
 ### Software
 - Python 3.x
 - Jupyter Notebook
@@ -121,7 +122,7 @@ El ejercicio demuestra el potencial de los *embeddings* como herramienta para la
    - Navegación más intuitiva
    - Recuperación más precisa
 
-### Limitaciones y trabajo futuro
+### Limitaciones y oportunidades de mejora
 - La precisión depende de la calidad de títulos y descripciones.
 - La cobertura temática del tesauro Eurovoc puede no ser completa.
 - Posibilidad de explorar modelos más avanzados, aunque computacionalmente más costosos:
@@ -133,6 +134,8 @@ El ejercicio demuestra el potencial de los *embeddings* como herramienta para la
   - Implementación de validación humana.
   - Desarrollo de interfaces de usuario.
   - Integración con sistemas existentes.
+
+Animamos a los entusiastas del sector a abordar algunas de estas cuestiones. 
 
 ## Licencia
 Este proyecto ha sido elaborado en el marco de la Iniciativa Aporta (datos.gob.es), desarrollada por el Ministerio para la Transformación Digital y de la Función Pública a través de la Entidad Pública Empresarial Red.es, y en colaboración con la Dirección General del Dato.
