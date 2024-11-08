@@ -32,8 +32,8 @@ Donde:
 ## Contexto
 Los portales de datos abiertos juegan un papel fundamental en el acceso y reutilización de la información pública. Un aspecto clave en estos sistemas es el etiquetado de los conjuntos de datos, que facilita su organización y recuperación. En sistemas distribuidos donde múltiples publicadores aportan contenidos desde diversos portales de origen, es natural encontrar variaciones en la forma de etiquetar.
 
-### Problemática actual
-- **Inconsistencia en etiquetas:** 
+### Observaciones sobre el etiquetado
+- **Nivel de consistencia en las etiquetas:** 
   - Variaciones ortográficas (mayúsculas/minúsculas).
   - Sinónimos y variantes léxicas.
   - Diferentes niveles de especificidad.
