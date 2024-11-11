@@ -9,9 +9,9 @@ Este ejercicio práctico explora el uso de *embeddings* para la optimización y 
 Los *word embeddings* son representaciones vectoriales de palabras en un espacio multidimensional. A diferencia de las representaciones tradicionales, los *embeddings* capturan relaciones semánticas entre palabras, permitiendo operaciones matemáticas que reflejan relaciones lingüísticas.
 
 #### Características principales
-- **Dimensionalidad:** Cada palabra se representa mediante un vector numérico (típicamente entre 100-600 dimensiones).
-- **Semántica distribuida:** El significado de una palabra se distribuye en todas las componentes del vector.
-- **Relaciones vectoriales:** Capturan relaciones semánticas mediante operaciones vectoriales (ej: Rey - Hombre + Mujer ≈ Reina).
+- **Dimensionalidad:** cada palabra se representa mediante un vector numérico (típicamente entre 100-600 dimensiones).
+- **Semántica distribuida:** el significado de una palabra se distribuye en todas las componentes del vector.
+- **Relaciones vectoriales:** capturan relaciones semánticas mediante operaciones vectoriales (ej: Rey - Hombre + Mujer ≈ Reina).
 
 ### Modelo GloVe
 En este ejercicio se utiliza el modelo GloVe (*Global Vectors for Word Representation*), que:
@@ -62,10 +62,10 @@ El ejercicio presenta una Prueba de Concepto (PoC) que implementa un sistema de 
 
 
 ## Estructura del proyecto
-- `notebook.ipynb`: Notebook principal con la implementación.
-- `README.md`: Este archivo con la documentación.
-- `requirements.txt`: Dependencias necesarias.
-- `eurovoc_export_es_unzip.csv`: Conjunto de datos de Eurovoc.
+- `notebook.ipynb`: notebook principal con la implementación.
+- `README.md`: este archivo con la documentación.
+- `requirements.txt`: dependencias necesarias.
+- `eurovoc_export_es_unzip.csv`: conjunto de datos de Eurovoc.
 
 ## Requisitos técnicos
 
