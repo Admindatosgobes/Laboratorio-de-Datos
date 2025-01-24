@@ -11,10 +11,10 @@ Los modelos de lenguaje grandes son sistemas de IA entrenados para comprender y 
 ### Framework y Modelo
 La solución se implementa **sin un framework específico** y construye la funcionalidad desde cero con llamadas directas a la API del LLM. Existen alternativas populares como:
 
-- **LangChain**: Framework popular para desarrollo de aplicaciones con LLMs.
-- **LlamaIndex**: Especializado en estructurar y procesar datos para LLMs.
-- **Semantic Kernel**: Framework de Microsoft para integración de LLMs.
-- **Haystack**: Framework para crear pipelines de procesamiento de lenguaje natural.
+- **LangChain**: framework popular para desarrollo de aplicaciones con LLMs.
+- **LlamaIndex**: especializado en estructurar y procesar datos para LLMs.
+- **Semantic Kernel**: framework de Microsoft para integración de LLMs.
+- **Haystack**: framework para crear pipelines de procesamiento de lenguaje natural.
 
 #### Razones para construir desde cero
 - Control completo sobre cada componente del sistema.
