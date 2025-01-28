@@ -70,7 +70,7 @@ La aplicación implementa un flujo de trabajo en tres fases:
 - Generación de gráficos y tablas.
 - Presentación interactiva de resultados.
 
-## Estructura del proyecto
+## Estructura del proyecto (algunos de los archivos se crean directamente desde el notebook)
 - `app.py`: aplicación principal Streamlit
 - `funciones.py`: funciones auxiliares y utilitarias
 - `constantes.py`: configuración y claves API
