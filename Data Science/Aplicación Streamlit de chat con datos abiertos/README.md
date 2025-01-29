@@ -52,23 +52,38 @@ Tradicionalmente, el análisis de datos requiere conocimientos de programación 
 - Necesidad de conocimientos técnicos.
 - Complejidad en la visualización de datos.
 
+Basándome en la estructura del notebook, modificaré el apartado "Solución propuesta" para que refleje la misma organización. Aquí está la versión actualizada:
+
 ## Solución propuesta
-La aplicación implementa un flujo de trabajo en tres fases:
+La aplicación implementa el siguiente flujo de trabajo desarrollado a lo largo del notebook:
 
-### 1. Procesamiento de Consultas
-- Generación de contexto del dataset.
-- Combinación con la pregunta del usuario.
-- Envío al modelo de lenguaje.
+### 1. Framework y Gemini API: El motor de procesamiento de lenguaje natural
+- Generación del contexto del dataset.
+- Combinación del contexto y la consulta del usuario .
+- Generación de respuesta.
+- Ejecución del código generado en la respuesta.
 
-### 2. Generación de Código
-- Traducción de lenguaje natural a código Python.
-- Validación y optimización del código.
-- Manejo de errores y reintentos.
+### 2. Obtención de datos del catálogo datos.gob.es
+- Descarga y procesamiento de metadatos del catálogo.
+- Descarga de los archivos seleccionados por el usuario.
 
-### 3. Visualización
-- Ejecución segura del código.
-- Generación de gráficos y tablas.
-- Presentación interactiva de resultados.
+### 3. Arquitectura y funciones auxiliares
+- Gestión de sesión y estado.
+- Verificación de conexión.
+- Carga de los metadatos del catálogo.
+
+### 4. Implementación de la aplicación con Streamlit
+- Estructura y flujo de datos.
+- Componentes Streamlit utilizados.
+  - Componentes de Layout.
+  - Componentes de Entrada.
+  - Componentes de Estado y Progreso.
+  - Componentes de Visualización.
+  - Componentes de Feedback.
+
+### 5. Despliegue de la aplicación
+- Estructura de archivos del proyecto.
+- Despliegue con ngrok para acceso público.
 
 ## Estructura del proyecto (algunos de los archivos se crean directamente desde el notebook)
 - `app.py`: aplicación principal Streamlit
