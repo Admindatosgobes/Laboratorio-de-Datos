@@ -123,6 +123,3 @@ La instalación del JDK es bastante sencilla y habitual, y disponemos de mucha d
 Tanto si dudas de si ya dispones del JDK instalado en tu PC como si acabas de terminar la instalación del mismo, puedes ejecutar el siguiente comando para validar si Java está ya disponible en tu PC:
 %%sh
 java --version
-
-![fichero-csv](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Data%20Science/Ruta%20a%20la%20electrificaci%C3%B3n%20de%20la%20Movilidad/Imagenes/fichero-csv.PNG?raw=true)
-
