@@ -1,0 +1,10 @@
+{
+    "bus_id": 3,
+    "lat": 39.8677,
+    "lon": -4.0269,
+    "velocidad_kmh": 15,
+    "numero_pasajeros": 2,
+    "nivel_combustible": 22.8,
+    "proxima_parada": 10,
+    "timestamp": "2025-02-27 10:14:20"
+  }  
