@@ -113,11 +113,11 @@ pip install ipykernel
 python3 -m ipykernel install --user --name uc-kernel-venv --display-name "UC Catalog (uc-kernel-venv)"
 ```
 
-Esto creará un entorno virtual de python donde instalaremos todas las librerías Python necesarias para desarrollar el proyecto. También instalará e instanciará un kernel python,  UC Catalog (uc-kernel-venv), que nos permitirá seguir con el resto de pasos de este proyecto sobre este mismo Notebook desde nuestro PC. 
+Esto creará un entorno virtual de python donde instalaremos todas las librerías Python necesarias para desarrollar el proyecto. También instalará e instanciará un kernel python,  UC Catalog (uc-kernel-venv), que nos permitirá seguir con el resto de pasos de este proyecto sobre este mismo Notebook desde nuestro PC.
 
-Abrimos para ello el archivo UC-Notebook.ipynb en VS Code desde nuestra carpeta de trabajo, y en la esquina superior derecha seleccionamos *Python Kernel > Jypter Kernel... > UC Catalog (uc-kernel-venv)*.
+Abrimos para ello el archivo Notebook.ipynb en VS Code desde nuestra carpeta de trabajo, y en la esquina superior derecha seleccionamos *Python Kernel > Jypter Kernel... > UC Catalog (uc-kernel-venv)*.
 
-![VS Code - Kernel](./Imagenes/vscode_kernel.png?raw=true)
+![VS Code - Kernel](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Data%20Science/Unity%20Catalog%3A%20Potenciando%20la%20colaboraci%C3%B3n%20en%20el%20ecosistema%20Data%20e%20IA%20mediante%20c%C3%B3digo%20abierto/Imagenes/vscode_kernel.png?raw=true)
 
 ## Java Development Kit (JDK)
 La instalación del JDK es bastante sencilla y habitual, y disponemos de mucha documentación online para poder realizarla. Dependerá del sistema operativo de nuestro PC (Windows, Linux, MacOS) pero la [guía oficial](https://docs.oracle.com/en/java/javase/23/install/overview-jdk-installation.html) nos guía paso a paso según cuál sea nuestra plataforma.
