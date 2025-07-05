@@ -1,0 +1,44 @@
+name: unitycatalog
+
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile-MySQL
+    ports:
+      - "8080:8080"
+    volumes:
+      - type: bind
+        source: ./etc/conf
+        target: /home/unitycatalog/etc/conf
+      - type: volume
+        source: unitycatalog_data
+        target: /home/unitycatalog/etc/data
+    depends_on:
+      - db
+    restart: always  
+  ui:
+    build:
+      context: ui/
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+  db:
+    image: mysql:8.4.1
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ucdb
+      MYSQL_USER: uc_default_user
+      MYSQL_PASSWORD: uc_default_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - '3306:3306'  
+      
+volumes:
+  # Persist docker volume across container restarts
+  unitycatalog_data:
+  mysql_data:
