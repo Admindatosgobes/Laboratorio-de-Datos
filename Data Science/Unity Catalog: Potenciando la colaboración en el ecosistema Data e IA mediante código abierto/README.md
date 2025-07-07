@@ -120,4 +120,6 @@ Tanto si dudas de si ya dispones del JDK instalado en tu PC como si acabas de te
 java --version
 
 # Desarrollo del Ejercicio
-¡Pasamos a la acción! Una vez completados los pasos previos, procedemos a desarrollar el ejercicio. Como indicamos en la sección anterior, esta parte del ejercicio la realizaremos sobre este **Notebook ya abierto en nuestro PC en Visual Studio Code**. Puedes descargar el Notebook [aquí](https://enlace.com) 
+¡Pasamos a la acción! Una vez completados los pasos previos, procedemos a desarrollar el ejercicio. Como indicamos en la sección anterior, esta parte del ejercicio la realizaremos sobre este **Notebook ya abierto en nuestro PC en Visual Studio Code** el cual encontrarás en la carpeta de trabajo anteriormente descargada con el nombre *Notebook.ipynb*. 
+
+Si deseas tan solo revisar el Notebook en Colab sin proceder a su ejecución puedes encontrarlo [aquí](https://colab.research.google.com/github/Admindatosgobes/Laboratorio-de-Datos/blob/main/Data%20Science/Unity%20Catalog%3A%20Potenciando%20la%20colaboraci%C3%B3n%20en%20el%20ecosistema%20Data%20e%20IA%20mediante%20c%C3%B3digo%20abierto/Codigo/Notebook.ipynb).
