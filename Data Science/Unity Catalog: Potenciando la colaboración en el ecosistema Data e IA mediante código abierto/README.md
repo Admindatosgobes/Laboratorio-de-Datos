@@ -68,16 +68,10 @@ Si has seguido los pasos de forma correcta, dispondrás del icono de Docker Desk
 
 ![Docker - Apliación](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Data%20Science/Unity%20Catalog%3A%20Potenciando%20la%20colaboraci%C3%B3n%20en%20el%20ecosistema%20Data%20e%20IA%20mediante%20c%C3%B3digo%20abierto/Imagenes/docker_application.png?raw=true)
 
-## Clonar Repositorio Código Laboratorio (TODO)
-Debemos ahora clonar el repositorio de GitHub donde hemos habilitado el código y herramientas necesarias para poder desarrollar este proyecto. Para ello, debemos disponer de [Git](https://git-scm.com/) instalado en nuestro PC. 
+## Descarga de carpeta con Codigo necesario
+Debemos ahora descargar la carpeta de GitHub donde hemos habilitado el código y herramientas necesarias para poder desarrollar este proyecto. Para ello, nos apoyaremos en la utilidad [DownGit](https://downgit.github.io/#/home) y, utilizando [este enlace](https://downgit.github.io/#/home?url=https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/51128afd15572009619f03f38e1b07c2b1637520/Data Science/Unity Catalog: Potenciando la colaboración en el ecosistema Data e IA mediante código abierto/Codigo) podremos obtener un archivo comprimido con los archivos necesarios descargados desde este mismo repositorio GitHub.
 
-Una vez instalado, abrimos un terminal en la carpeta donde deseemos desarrollar nuestro proyecto, por ejemplo, Documentos, y ejecutamos el siguiente comando:
-
-```git clone (pte crear GitHub)```
-
-(IMAGEN git clone terminal)
-
-Esto descargará nuestra carpeta de trabajo con todos los archivos necesarios para desarrollar el proyecto.
+Una vez realizada la descarga, deberemos descomprimir el archivo *.zip* obtenido en la ubicación deseada en nuestro PC. Veremos que aparece una nueva carpeta denominada *Codigo* que de ahora en adelante será nuestra carpeta de trabajo.
 
 ## Visual Studio Code
 Nuestro entorno de trabajo será un Jupyter Notebook python que ejecutaremos y manipularemos a través del editor de código [Visual Studio Code](https://code.visualstudio.com/). Para disponer de esta herramienta en nuestro PC, podemos seguir el enlace de descarga e instrucciones provistas en su [página oficial](https://code.visualstudio.com/download).
