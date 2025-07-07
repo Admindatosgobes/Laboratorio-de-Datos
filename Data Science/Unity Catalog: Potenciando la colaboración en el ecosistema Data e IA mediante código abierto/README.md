@@ -5,6 +5,8 @@ En un momento donde la compartición de datos se ha vuelto esencial para el avan
 
 Este ejercicio te permitirá entender cómo funciona la herramienta, cómo se estructura su arquitectura, y cómo facilita la construcción de catálogos de datos gobernados, tanto en contextos empresariales como públicos o colaborativos.
 
+En este README encontrarás las instrucciones paso a paso para realizar el laboratorio práctico con Unity Catalog. El repositorio incluye dos carpetas principales: una con las imágenes utilizadas para facilitar el seguimiento del ejercicio, y otra, denominada Código, que contiene los recursos técnicos como el notebook y otros ficheros relevantes.
+
 # Caso de uso
 Para ello, vamos a tratar de representar un caso de uso real en el que un organismo desea habilitar varios catálogos de datos y recursos de datos relativos a servicios públicos ofrecidos por diferentes ciudades españolas. Entre estos servicios, podremos encontrar recursos relativos a alumbrado, transporte público o gestión de residuos. 
 Este organismo dispone de estos datos en un entorno de nube pública, en particular Amazon Web Services (AWS) y utilizará Unity Catalog como herramienta para catalogar dichos datos y habilitar el acceso a los mismos a diferentes tipos de usuario, como un ciudadano que desea consultar datos públicos de los servicios de su ciudad o un ingeniero de datos que debe tener además permisos de modificación del catálogo de datos concretos sobre el que está desarrollando su trabajo.
