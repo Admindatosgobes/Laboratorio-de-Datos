@@ -8,6 +8,7 @@ Este ejercicio te permitirá entender cómo funciona la herramienta, cómo se es
 # Caso de uso
 Para ello, vamos a tratar de representar un caso de uso real en el que un organismo desea habilitar varios catálogos de datos y recursos de datos relativos a servicios públicos ofrecidos por diferentes ciudades españolas. Entre estos servicios, podremos encontrar recursos relativos a alumbrado, transporte público o gestión de residuos. 
 Este organismo dispone de estos datos en un entorno de nube pública, en particular Amazon Web Services (AWS) y utilizará Unity Catalog como herramienta para catalogar dichos datos y habilitar el acceso a los mismos a diferentes tipos de usuario, como un ciudadano que desea consultar datos públicos de los servicios de su ciudad o un ingeniero de datos que debe tener además permisos de modificación del catálogo de datos concretos sobre el que está desarrollando su trabajo.
+
 Adicionalmente, este organismo desarrolla modelos de *machine learning* como parte de su trabajo del día a día: predicción de tiempo de llegada de autobuses, predicción de llenado de contenedores de residuos urbanos, etc. El ciclo de vida de estos modelos se gestiona desde *MLflow*.
 ![Unity Catalog - Caso de uso](https://github.com/Admindatosgobes/Laboratorio-de-Datos/blob/main/Data%20Science/Unity%20Catalog%3A%20Potenciando%20la%20colaboraci%C3%B3n%20en%20el%20ecosistema%20Data%20e%20IA%20mediante%20c%C3%B3digo%20abierto/Imagenes/uc_use-case.png?raw=true)
 
