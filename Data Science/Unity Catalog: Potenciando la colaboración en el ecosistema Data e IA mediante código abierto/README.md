@@ -26,7 +26,7 @@ En este apartado profundizaremos en el diagrama anterior para explicar la arquit
 
 - **Aplicación de Unity Catalog**:
 
-    El código abierto de Unity Catalog se encuentra disponible en su [repositorio oficial de GitHub](https://github.com/unitycatalog/unitycatalog). La aplicación se compone de tres elementos principales:
+    El código abierto de Unity Catalog se encuentra disponible en su [repositorio oficial de GitHub](https://github.com/unitycatalog/unitycatalog). La aplicación se compone de los siguientes elementos principales:
 
     - *Backend* (núcleo de la aplicación): Contiene toda la lógica y funcionalidad de Unity Catalog. A veces nos referiremos a este componente como el servidor de Unity Catalog.
     
