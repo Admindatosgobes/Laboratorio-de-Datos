@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este ejercicio práctico aborda el modelado predictivo de la calidad del aire mediante regresión lineal múltiple, utilizando datos históricos reales de la comunidad autónoma de Castilla y León. A diferencia de los enfoques que analizan contaminantes de forma aislada, nuestra metodología aprovecha las interrelaciones entre múltiples variables para comprender las dinámicas de contaminación, desarrollar un modelo predictivo robusto y evaluar su fiabilidad mediante técnicas de diagnóstico avanzadas.
+Este ejercicio práctico aborda el modelado predictivo de la calidad del aire mediante regresión lineal múltiple, utilizando [datos históricos reales de la comunidad autónoma de Castilla y León](https://datos.gob.es/es/catalogo/a07002862-calidad-del-aire-por-dias1). A diferencia de los enfoques que analizan contaminantes de forma aislada, la metodología que propone este ejercicio aprovecha las interrelaciones entre múltiples variables para comprender las dinámicas de contaminación, desarrollar un modelo predictivo robusto y evaluar su fiabilidad mediante técnicas de diagnóstico avanzadas.
 
 El objetivo es generar *insights* sobre los determinantes de la calidad del aire que puedan facilitar la toma de decisiones informadas en políticas ambientales y de salud pública.
 
