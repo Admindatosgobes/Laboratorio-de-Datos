@@ -116,8 +116,10 @@ Abrimos para ello el archivo Notebook.ipynb en VS Code desde nuestra carpeta de 
 ## Java Development Kit (JDK)
 La instalación del JDK es bastante sencilla y habitual, y disponemos de mucha documentación online para poder realizarla. Dependerá del sistema operativo de nuestro PC (Windows, Linux, MacOS) pero la [guía oficial](https://docs.oracle.com/en/java/javase/23/install/overview-jdk-installation.html) nos guía paso a paso según cuál sea nuestra plataforma.
 Tanto si dudas de si ya dispones del JDK instalado en tu PC como si acabas de terminar la instalación del mismo, puedes ejecutar el siguiente comando para validar si Java está ya disponible en tu PC:
+```
 %%sh
 java --version
+```
 
 # Desarrollo del Ejercicio
 ¡Pasamos a la acción! Una vez completados los pasos previos, procedemos a desarrollar el ejercicio. Como indicamos en la sección anterior, esta parte del ejercicio la realizaremos sobre este **Notebook ya abierto en nuestro PC en Visual Studio Code** el cual encontrarás en la carpeta de trabajo anteriormente descargada con el nombre *Notebook.ipynb*. 
