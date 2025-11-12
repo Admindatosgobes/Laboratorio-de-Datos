@@ -33,7 +33,7 @@ Datos de **convocatorias de subvenciones y ayudas públicas en España** publica
 Disponibles vía:  
 - [Portal de Subvenciones](https://www.infosubvenciones.es/) del Ministerio de Hacienda y Función Pública.  
 
-<sub>*Los datos utilizados en este ejercicio fueron descargados el 28 de agosto de 20245. La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a las condiciones legales recogidas en [https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal](https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal).* </sub>
+<sub>*Los datos utilizados en este ejercicio fueron descargados el 28 de agosto de 2025. La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a las condiciones legales recogidas en [https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal](https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal).* </sub>
 
 # Desarrollo del Ejercicio
 ¡Pasamos a la acción! Una vez completados los pasos previos, procedemos a desarrollar el ejercicio. Como indicamos en la sección anterior, esta parte del ejercicio la realizaremos sobre un Notebook de Python el cual encontrarás en la carpeta *Código* con el nombre *Notebook.ipynb*. 
