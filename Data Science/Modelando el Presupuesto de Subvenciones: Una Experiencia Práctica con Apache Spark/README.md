@@ -36,6 +36,6 @@ Disponibles vía:
 <sub>*Los datos utilizados en este ejercicio fueron descargados el 28 de agosto de 2025. La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a las condiciones legales recogidas en [https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal](https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal).* </sub>
 
 # Desarrollo del Ejercicio
-¡Pasamos a la acción! Una vez completados los pasos previos, procedemos a desarrollar el ejercicio. Como indicamos en la sección anterior, esta parte del ejercicio la realizaremos sobre un Notebook de Python el cual encontrarás en la carpeta *Código* con el nombre *Notebook.ipynb*. 
+¡Pasamos a la acción! Una vez explicado el objetivo y los recursos necesarios, procedemos a desarrollar el ejercicio. Como indicamos en la sección anterior, esta parte del ejercicio la realizaremos sobre un Notebook de Python el cual encontrarás en la carpeta *Código* con el nombre *Notebook.ipynb*. 
 
 Si deseas tan solo revisar el Notebook en Colab sin proceder a su ejecución puedes encontrarlo [aquí](https://colab.research.google.com/github/Admindatosgobes/Laboratorio-de-Datos/blob/main/Data%20Science/Modelando%20el%20Presupuesto%20de%20Subvenciones%3A%20Una%20Experiencia%20Práctica%20con%20Apache%20Spark/Codigo/Notebook.ipynb).
