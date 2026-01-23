@@ -100,6 +100,43 @@ El agente puede encadenar múltiples herramientas automáticamente para consulta
 - Docker Compose 2.0 o superior
 - Python 3.9+ (si se ejecuta sin Docker)
 
+### Ejecución en GitHub Codespaces
+
+Este proyecto está optimizado para funcionar tanto en entornos locales como en [GitHub Codespaces](https://github.com/features/codespaces). 
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Admindatosgobes/Laboratorio-de-Datos)
+
+Cuando ejecutes el proyecto en Codespaces, sigue estos pasos:
+
+1. **Inicia los contenedores:**
+   ```bash
+   cd "Data Science/Agente Conversacional con MCP server"
+   docker compose up -d --build
+   ```
+
+2. **Accede a la interfaz web:**
+   - GitHub Codespaces expondrá automáticamente los puertos 8080 (agente) y 8000 (MCP server)
+   - Ve a la pestaña "PORTS" en VS Code
+   - Busca el puerto 8080 y haz clic en el icono de globo o copia la URL
+   - La URL tendrá el formato: `https://[codespace-name]-8080.app.github.dev`
+
+3. **Verifica el estado de los servicios:**
+   ```bash
+   # Ver logs del agente
+   docker logs datos-gob-agent
+   
+   # Ver logs del servidor MCP
+   docker logs datos-gob-mcp-server
+   
+   # Verificar que ambos contenedores están corriendo
+   docker ps
+   ```
+
+4. **Configuración CORS:**
+   El proyecto ya está configurado para permitir conexiones desde URLs de Codespaces mediante el patrón `https://*.app.github.dev` en la lista de orígenes permitidos.
+
+**Nota importante:** En Codespaces, los contenedores se comunican entre sí usando nombres de servicio (ej: `mcp-server:8000`), mientras que el navegador se conecta al agente usando la URL pública de Codespaces. Esta configuración dual está ya implementada en el código.
+
 ### Bibliotecas Principales
 
 **Servidor MCP:**
