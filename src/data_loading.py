@@ -64,8 +64,8 @@ def _utm_to_wgs84(utm_x, utm_y):
 def load_road_network(filepath=None):
     """Load Ministry of Transport road network GeoJSON."""
     if filepath is None:
-        filepath = DATA_RAW / 'ministry_roads' / 'hermes_roads.geojson'
-    gdf = gpd.read_file(filepath)
+        filepath = DATA_RAW / 'ministry_roads' / 'hermes_roads.parquet'
+    gdf = gpd.read_parquet(filepath)
     if gdf.crs is None:
         gdf = gdf.set_crs(epsg=4326)
     return gdf
@@ -77,7 +77,11 @@ def load_nap_charging_points(filepath=None):
     Returns a DataFrame with one row per charging site.
     """
     if filepath is None:
-        filepath = DATA_RAW / 'nap_charging_points' / 'nap_ev_charging_points.xml'
+        filepath = DATA_RAW / 'nap_charging_points' / 'nap_ev_charging_points.parquet'
+
+    # If parquet version exists, load directly
+    if str(filepath).endswith('.parquet'):
+        return pd.read_parquet(filepath)
 
     from lxml import etree
 

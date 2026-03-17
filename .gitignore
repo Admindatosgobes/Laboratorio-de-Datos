@@ -38,7 +38,10 @@ desktop.ini
 
 # Large data files
 *.parquet
-+ !data/raw/datos_gob_ev_forecast/*.parquet
+!data/raw/datos_gob_ev_forecast/*.parquet
+!data/raw/ministry_roads/*.parquet
+!data/raw/nap_charging_points/*.parquet
+!data/processed/roads_clean.parquet
 data/raw/**/*.xlsx
 data/raw/**/*.xls
 data/raw/**/*.pdf
