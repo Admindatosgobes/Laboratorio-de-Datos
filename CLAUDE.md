@@ -3,25 +3,29 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Identity
+
 You are working on Team Greenlabs' solution for the IE Sustainability
 Datathon March 2026 (Iberdrola challenge). The goal is to design an
 optimal interurban EV charging network for Spain targeting 2027.
 
 ## Critical: Agent Protocol
+
 Before starting ANY work:
+
 1. Read @memory/project_state.md for current status
 2. Read @memory/task_board.md for your assigned tasks
 3. Read @memory/decisions_log.md for context on past decisions
 4. Read @memory/blockers.md for known issues
 
 After completing ANY significant work:
+
 1. Update memory/task_board.md (move task status)
 2. Update memory/project_state.md (what changed)
 3. Log decisions in memory/decisions_log.md
 4. Document issues in memory/blockers.md
 5. Add learnings to memory/lessons_learned.md
 
-## Project Structure
+## Proje/t Structure
 @memory/project_structure.md
 
 ## Project Overview
