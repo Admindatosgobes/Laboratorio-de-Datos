@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-04-05
+
+### Decision: Run Deterministic + ABM Demand Models in Parallel
+**Context:** Choice between single deterministic demand model (original plan) vs adding an agent-based model as a second track.
+**Decision:** Build both — deterministic as critical-path guaranteed submission, ABM as differentiator + digital-twin validation. Reconcile in NB 06d, feed blended output to NB 07, re-run ABM against proposed network in NB 07b.
+**Rationale:**
+- Deterministic model guarantees a complete submission even if ABM fails late.
+- ABM captures queueing, driver heterogeneity, temporal peaks — things deterministic can't. Matches mentor's "pitch the idea / digital twin" guidance.
+- Triangulation ("both methods converge within X%") is strong T1/T3 scoring material.
+- ABM produces the visual centrepiece (driver-flow animation) for the 5-min pitch.
+**Impact:** Splits Phase 2 into parallel Track A (deterministic, Person A) and Track B (ABM, Person B). New notebooks: NB 06a, 06b, 06c, 06d, 07b. Original NB 06 stub replaced.
+
+### Decision: Phase 0 Foundation Refresh (constants + memory)
+**Context:** `src/constants.py` had drifted from approved values in `references/assumptions.md`; memory files (`project_state.md`, `task_board.md`, `blockers.md`) described March setup phase but reality was further along.
+**Decision:** Full refresh of constants.py to match assumptions.md (all 25+ values, with assumption IDs cited inline). Full rewrite of the three memory files to reflect actual repo state. Remove `notebooks/test.ipynb` for submission hygiene.
+**Rationale:**
+- CLAUDE.md protocol depends on memory files being accurate — stale files produce wrong agent advice.
+- Every downstream notebook imports from `constants.py`. Fixing drift once propagates everywhere.
+- Backwards-compat aliases kept (`MAX_STATION_SPACING_KM`, `AFIR_SPACING_KM`) so existing notebook imports don't break.
+**Impact:** Unblocks Phase 1 (src stubs) and Phase 2 (modelling).
+
+---
+
 ## 2026-03-17
 
 ### Decision: Hybrid LP + Scoring Optimization Approach
