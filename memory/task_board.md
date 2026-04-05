@@ -1,7 +1,7 @@
 # Task Board
 
 **Last updated:** 2026-04-05
-**Updated by:** Claude agent (Phase 0 foundation refresh)
+**Updated by:** Claude agent (Phase 1 notebook scaffolds)
 
 ---
 
@@ -27,32 +27,34 @@
 
 ---
 
-## 📋 To Do — Blocked (waiting on Phase 1)
+## 📋 To Do — Phase 2 onward
 
 ### Phase 2 — Demand modelling (parallel tracks)
 
+Scaffolds exist under `notebooks/` — these tasks are now "fill in the TODOs".
+
 | Task | Priority | Est. Hours | Blocked By | Notes |
 |---|---|---|---|---|
-| NB 06a — deterministic demand (Track A) | **High** | 6h | Phase 1 done | IMD × BEV share × charging prob → demand per segment |
-| NB 06b — ABM calibration (Track B) | Medium | 8h | Phase 1 done | Tune trip gen to IMD; Mesa or numpy |
-| NB 06c — ABM demand simulation (Track B) | Medium | 10h | 06b | ~5–10k agents, 15-min ticks, 1 day |
-| NB 06d — deterministic/ABM reconciliation | Medium | 4h | 06a + 06c | Report-centrepiece notebook |
+| NB 06a — fill in deterministic demand (Track A) | **High** | 6h | *unblocked — can start now* | Pure pandas/numpy, no src stubs needed |
+| NB 06b — fill in ABM calibration (Track B) | Medium | 8h | *unblocked — can start now* | Decide Mesa vs numpy first |
+| NB 06c — fill in ABM demand simulation (Track B) | Medium | 10h | 06b | ~5–10k agents, 15-min ticks, 1 day |
+| NB 06d — fill in reconciliation | Medium | 4h | 06a + 06c | Report-centrepiece notebook |
 
 ### Phase 3 — Optimisation & validation
 
 | Task | Priority | Est. Hours | Blocked By | Notes |
 |---|---|---|---|---|
-| NB 07 — MILP Set Cover (PuLP) | **High** | 10h | 06d | Tiered AFIR 60/100/120 km spacing |
-| NB 07 — greedy benchmark comparison | Medium | 2h | 07 | "MILP found X, greedy Y, gap Z%" for report |
-| NB 07b — ABM validation re-run | Medium | 6h | 07 + 06c | Utilisation + queue KPIs, pitch visual |
+| NB 07 — fill in MILP Set Cover (PuLP) | **High** | 10h | 06d + src stubs | Tiered AFIR 60/100/120 km spacing |
+| NB 07 — greedy benchmark comparison | Medium | 2h | NB 07 body | "MILP found X, greedy Y, gap Z%" for report |
+| NB 07b — fill in ABM validation re-run | Medium | 6h | 07 + 06c | Utilisation + queue KPIs, pitch visual |
 
 ### Phase 4 — Grid integration & deliverables
 
 | Task | Priority | Est. Hours | Blocked By | Notes |
 |---|---|---|---|---|
-| NB 08 — grid viability & friction points | **High** | 6h | 07 | Spatial join stations↔substations |
-| NB 09 — File_1/2/3.csv generation + schema validation | **High** | 4h | 08 | Schema compliance = DQ critical |
-| NB 10 — Folium self-contained map | **High** | 6h | 09 | Single .html, green/yellow/red |
+| NB 08 — fill in grid viability & friction points | **High** | 6h | 07 + geo_utils stub | Spatial join stations↔substations |
+| NB 09 — fill in File_1/2/3.csv generation | **High** | 4h | 08 | Schema compliance = DQ critical |
+| NB 10 — fill in Folium self-contained map | **High** | 6h | 09 | Single .html, green/yellow/red |
 | Analytical report (3–5 pp) | **High** | 10h | 09 | 50% of grade |
 | Pitch deck (≤5 min) | **High** | 8h | Report | Lead with 87% grid saturation insight |
 
@@ -62,6 +64,7 @@
 
 | Task | Completed | Notes |
 |---|---|---|
+| Phase 1 — create 9 notebook scaffolds (06a → 10) | 2026-04-05 | Header + setup + numbered TODO sections; generator at `scripts/generate_notebook_scaffolds.py` |
 | Phase 0 — sync `src/constants.py` with `references/assumptions.md` | 2026-04-05 | All values now reflect approved research |
 | Phase 0 — refresh memory files to match reality | 2026-04-05 | state, task_board, blockers all current |
 | Phase 0 — remove `notebooks/test.ipynb` | 2026-04-05 | Submission hygiene |

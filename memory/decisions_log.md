@@ -6,6 +6,17 @@
 
 ## 2026-04-05
 
+### Decision: Notebook Scaffolds via Generator Script
+**Context:** Needed consistent starting points for 9 notebooks (06a → 10) to unblock parallel work by multiple teammates.
+**Decision:** Generate all 9 scaffolds from a single Python script (`scripts/generate_notebook_scaffolds.py`) with identical structure: header (title/purpose/inputs/outputs/depends-on) → setup cell (sys.path + imports + sanity prints) → numbered TODO sections with markdown+code pairs.
+**Rationale:**
+- Uniform structure makes teammate onboarding fast — once you understand one scaffold, you understand all of them.
+- Single source of truth (the generator) beats hand-editing 9 files if the team wants to tweak the pattern later.
+- Every scaffold prints key constants on setup — immediate visual confirmation that the Phase 0 constants refresh is loaded correctly.
+- Scaffolds remain empty of implementation code — no hallucinated logic for teammates to untangle.
+**Impact:** Unblocks parallel work. Tracks A (deterministic) and B (ABM) can start NB 06a and 06b immediately. Old `06_demand_modeling.ipynb` deleted (replaced by 06a–d). Old 07/08/09/10 stubs replaced with richer scaffolds. `07b_abm_validation.ipynb` is new.
+**Caveat:** Generator is one-shot. Do NOT re-run after teammates start filling in TODOs — would overwrite their work.
+
 ### Decision: Run Deterministic + ABM Demand Models in Parallel
 **Context:** Choice between single deterministic demand model (original plan) vs adding an agent-based model as a second track.
 **Decision:** Build both — deterministic as critical-path guaranteed submission, ABM as differentiator + digital-twin validation. Reconcile in NB 06d, feed blended output to NB 07, re-run ABM against proposed network in NB 07b.

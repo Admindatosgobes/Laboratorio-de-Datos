@@ -1,7 +1,7 @@
 # Project State Dashboard
 
 **Last updated:** 2026-04-05
-**Updated by:** Claude agent (Phase 0 foundation refresh)
+**Updated by:** Claude agent (Phase 1 notebook scaffolds)
 
 ## Current Status: Data acquired, pipeline in build-out (M1 → M2)
 
@@ -29,6 +29,13 @@
 - `src/constants.py` **synced with `references/assumptions.md`** — all approved values now reflected (range 340 km, effective 255 km, tiered spacing 60/100/120 km, charging probability 12%, operating hours 20, AFIR min-chargers 4, CAPEX bands, etc.). Backwards-compat aliases kept for `MAX_STATION_SPACING_KM` and `AFIR_SPACING_KM`.
 - Memory files refreshed to match reality.
 - `notebooks/test.ipynb` removed.
+
+### Notebook Scaffolds (Phase 1 — 2026-04-05)
+- 9 scaffold notebooks created under `notebooks/` with consistent structure (header → setup → numbered section TODOs): `06a_demand_deterministic`, `06b_abm_calibration`, `06c_abm_demand_simulation`, `06d_demand_reconciliation`, `07_network_optimization`, `07b_abm_validation`, `08_grid_viability_friction`, `09_output_generation`, `10_visualization_export`.
+- Old stubs replaced: `06_demand_modeling.ipynb` split into 06a/b/c/d; 07/08/09/10 rewritten with richer section plans.
+- Generator preserved as `scripts/generate_notebook_scaffolds.py` (one-shot tool — do NOT re-run after teammates start filling in TODOs).
+- All 9 pass strict `nbformat` validation.
+- Tracks A (deterministic, critical path) and B (ABM, differentiator) can now start in parallel on 06a and 06b respectively.
 
 ---
 
@@ -75,7 +82,7 @@
 | NB 01 ingestion | ✅ Executed | `notebooks/01_*.ipynb` | |
 | NB 02 EV projection | ✅ Executed (partial) | `notebooks/02_*.ipynb` | Output: 2,498,159 |
 | NB 03–05 | ⚠️ Code written, execution counts null | `notebooks/03_*.ipynb`, `04_*.ipynb`, `05_*.ipynb` | Re-run needed |
-| NB 06–10 | ❌ Stubs only | `notebooks/06_*.ipynb` … `10_*.ipynb` | Empty |
+| NB 06a–10 | 📋 Scaffolds only | `notebooks/06a_*.ipynb` … `10_*.ipynb` | Structured TODOs; teammates fill in |
 | `src/constants.py` | ✅ Synced with assumptions | `src/constants.py` | Refreshed 2026-04-05 |
 | `src/geo_utils.py` | ❌ NotImplementedError stubs | `src/geo_utils.py` | Blocks NB 07, 08 |
 | `src/optimization.py` | ❌ NotImplementedError stubs | `src/optimization.py` | Blocks NB 07 |
@@ -87,10 +94,11 @@
 
 ## Next Priority Actions
 
-1. Re-execute NB 03, 04, 05 with visible outputs committed.
-2. Implement `src/geo_utils.py` and `src/optimization.py` stubs (greedy first).
-3. Split team into deterministic (Track A) and ABM (Track B) pairs for NB 06.
-4. Build MILP formulation for NB 07.
+1. Implement `src/geo_utils.py` and `src/optimization.py` stubs (greedy first) — unblocks NB 07 + NB 08.
+2. Re-execute NB 03, 04, 05 with visible outputs committed (brief §5.1 DQ criterion).
+3. Track A (Person 1): start NB 06a — deterministic demand. Unblocked now.
+4. Track B (Person 2): decide Mesa vs numpy for ABM, start NB 06b. Unblocked now.
+5. Team sync: assign owners to Tracks A/B/C/D per the task board.
 
 ---
 
