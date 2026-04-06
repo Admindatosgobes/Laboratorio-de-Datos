@@ -2,7 +2,11 @@
 
 ## Active Blockers
 
-_(none — pipeline is fully implemented)_
+- `notebooks/03_road_network_analysis.ipynb` is malformed JSON and cannot be opened reliably in notebook tooling.
+- Several `src/` modules and notebooks still reference pre-refactor constant names that no longer exist in `src/constants.py` (for example `EV_FLEET_2027`, `BEV_FRACTION`, `MIN_CHARGERS_STANDARD`, `MIN_EXISTING_CHARGER_POWER_KW`, `SUBSTATION_DIST_OPTIMAL_KM`).
+- The repo contains placeholder submission outputs (`output/File_1.csv`–`File_3.csv`) but no populated NB06–NB10 outputs yet.
+- `visualization/bi_map.html` is referenced by docs, but has not been generated.
+- `notebooks/test.ipynb` is still present as an exploratory notebook and may not belong in the final submission set.
 
 ---
 

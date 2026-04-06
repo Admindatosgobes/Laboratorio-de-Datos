@@ -2,18 +2,22 @@
 
 ```
 iberdrola-ev-network/
-├── notebooks/                  # Main pipeline — execute 00 → 10 sequentially
-│   ├── 00_environment_setup.ipynb
-│   ├── 01_data_ingestion.ipynb       ✅ fully implemented
-│   ├── 02_ev_projection.ipynb        ✅ fully implemented (SARIMA → 2,498,159)
-│   ├── 03_road_network_analysis.ipynb ✅ fully implemented
-│   ├── 04_existing_chargers_baseline.ipynb ✅ fully implemented
-│   ├── 05_grid_capacity.ipynb        ✅ fully implemented
-│   ├── 06_demand_modeling.ipynb      ✅ ABM demand (IMD × penetration × BEV)
-│   ├── 07_network_optimization.ipynb ✅ Sequential greedy placement
-│   ├── 08_grid_viability_friction.ipynb ✅ BallTree substation matching
-│   ├── 09_output_generation.ipynb    ✅ File_1/2/3 + compliance checks
-│   └── 10_visualization_export.ipynb ✅ Folium map → visualization/bi_map.html
+├── notebooks/                  # Main pipeline notebooks + auxiliary split-track notebooks
+│   ├── 01_data_ingestion_and_cleaning.ipynb   ✅ executed
+│   ├── 03_road_network_analysis.ipynb         ❌ malformed JSON
+│   ├── 04_existing_chargers_baseline.ipynb    ⚠️ present, not executed
+│   ├── 05_grid_capacity_consolidation.ipynb   ⚠️ present, not executed
+│   ├── 06_demand_modeling.ipynb               ⚠️ drafted, not executed
+│   ├── 06a_demand_deterministic.ipynb         ⚠️ auxiliary scaffold
+│   ├── 06b_abm_calibration.ipynb              ⚠️ auxiliary scaffold
+│   ├── 06c_abm_demand_simulation.ipynb        ⚠️ auxiliary scaffold
+│   ├── 06d_demand_reconciliation.ipynb        ⚠️ auxiliary scaffold
+│   ├── 07_network_optimization.ipynb          ⚠️ drafted, not executed
+│   ├── 07b_abm_validation.ipynb               ⚠️ auxiliary scaffold
+│   ├── 08_grid_viability_friction.ipynb       ⚠️ drafted, not executed
+│   ├── 09_output_generation.ipynb             ⚠️ drafted, not executed
+│   ├── 10_visualization_export.ipynb          ⚠️ drafted, not executed
+│   └── test.ipynb                             ⚠️ exploratory notebook, decision pending
 │
 ├── src/                        # Shared Python modules
 │   ├── constants.py            ✅ Single source of truth (all params corrected)
@@ -25,23 +29,24 @@ iberdrola-ev-network/
 │
 ├── data/
 │   ├── raw/                    # Original downloads (never modify)
-│   └── processed/              # Pipeline outputs
+│   └── processed/              # Available processed datasets
 │       ├── interurban_roads.parquet
 │       ├── interurban_chargers_baseline.csv
 │       ├── grid_capacity_unified.csv
 │       ├── ev_projection_2027.csv
-│       ├── demand_per_segment.csv        ← NB06 output
-│       ├── proposed_stations.csv         ← NB07 output
-│       ├── stations_with_grid_status.csv ← NB08 output
-│       └── friction_points.csv           ← NB08 output
+│       ├── roads_clean.parquet
+│       ├── imd_traffic_clean.geojson
+│       ├── service_areas_clean.geojson
+│       ├── population_municipal.csv
+│       └── tourism_seasonal.csv
 │
 ├── output/                     # Submission deliverables
-│   ├── File_1.csv              ← NB09 output (1 row: global KPIs)
-│   ├── File_2.csv              ← NB09 output (all proposed stations)
-│   └── File_3.csv              ← NB09 output (friction points only)
+│   ├── File_1.csv              ← currently header-only placeholder
+│   ├── File_2.csv              ← currently header-only placeholder
+│   └── File_3.csv              ← currently header-only placeholder
 │
 ├── visualization/
-│   └── bi_map.html             ← NB10 output (interactive Folium map)
+│   └── (empty)                 # `bi_map.html` not yet generated
 │
 ├── references/
 │   ├── assumptions.md          # 25+ assumptions — source of truth
@@ -64,15 +69,15 @@ iberdrola-ev-network/
 ## Data Flow
 
 ```
-NB01-05 (data prep)
+NB01 / 03 / 04 / 05 (data prep)
     ↓
-NB06: demand_per_segment.csv  (IMD → BEV flow → charger count)
+NB06: demand_per_segment.csv  (planned: IMD → BEV flow → charger count)
     ↓
-NB07: proposed_stations.csv   (AFIR gap detection → greedy placement)
+NB07: proposed_stations.csv   (planned: AFIR gap detection → greedy placement)
     ↓
-NB08: stations_with_grid_status.csv + friction_points.csv
+NB08: stations_with_grid_status.csv + friction_points.csv  (planned)
     ↓
-NB09: File_1.csv + File_2.csv + File_3.csv
+NB09: File_1.csv + File_2.csv + File_3.csv  (planned)
     ↓
-NB10: visualization/bi_map.html
+NB10: visualization/bi_map.html  (planned)
 ```
