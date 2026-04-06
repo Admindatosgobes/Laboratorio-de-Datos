@@ -1,0 +1,625 @@
+province_code,province_name,month_name,month_number,occupancy_rate_pct,annual_occupancy_rate_pct,seasonal_multiplier
+02,Albacete,Enero,1,20.64,36.45,0.5663
+02,Albacete,Febrero,2,32.83,36.45,0.9007
+02,Albacete,Marzo,3,30.56,36.45,0.8384
+02,Albacete,Abril,4,36.17,36.45,0.9923
+02,Albacete,Mayo,5,37.55,36.45,1.0302
+02,Albacete,Junio,6,38.18,36.45,1.0475
+02,Albacete,Julio,7,46.12,36.45,1.2653
+02,Albacete,Agosto,8,39.56,36.45,1.0853
+02,Albacete,Septiembre,9,40.87,36.45,1.1213
+02,Albacete,Octubre,10,52.71,36.45,1.4461
+02,Albacete,Noviembre,11,33.52,36.45,0.9196
+02,Albacete,Diciembre,12,24.11,36.45,0.6615
+03,Alicante/Alacant,Enero,1,44.79,63.71,0.703
+03,Alicante/Alacant,Febrero,2,54.6,63.71,0.857
+03,Alicante/Alacant,Marzo,3,59.59,63.71,0.9353
+03,Alicante/Alacant,Abril,4,62.98,63.71,0.9885
+03,Alicante/Alacant,Mayo,5,68.66,63.71,1.0777
+03,Alicante/Alacant,Junio,6,71.95,63.71,1.1293
+03,Alicante/Alacant,Julio,7,74.89,63.71,1.1755
+03,Alicante/Alacant,Agosto,8,79.35,63.71,1.2455
+03,Alicante/Alacant,Septiembre,9,70.88,63.71,1.1125
+03,Alicante/Alacant,Octubre,10,65.27,63.71,1.0245
+03,Alicante/Alacant,Noviembre,11,54.65,63.71,0.8578
+03,Alicante/Alacant,Diciembre,12,46.6,63.71,0.7314
+04,Almería,Enero,1,23.44,47.52,0.4933
+04,Almería,Febrero,2,33.93,47.52,0.714
+04,Almería,Marzo,3,38.72,47.52,0.8148
+04,Almería,Abril,4,38.92,47.52,0.819
+04,Almería,Mayo,5,42.14,47.52,0.8868
+04,Almería,Junio,6,49.5,47.52,1.0417
+04,Almería,Julio,7,62.14,47.52,1.3077
+04,Almería,Agosto,8,70.89,47.52,1.4918
+04,Almería,Septiembre,9,52.23,47.52,1.0991
+04,Almería,Octubre,10,39.15,47.52,0.8239
+04,Almería,Noviembre,11,30.39,47.52,0.6395
+04,Almería,Diciembre,12,27.12,47.52,0.5707
+01,Araba/Álava,Enero,1,39.99,54.91,0.7283
+01,Araba/Álava,Febrero,2,44.66,54.91,0.8133
+01,Araba/Álava,Marzo,3,53.54,54.91,0.9751
+01,Araba/Álava,Abril,4,50.71,54.91,0.9235
+01,Araba/Álava,Mayo,5,56.36,54.91,1.0264
+01,Araba/Álava,Junio,6,57.17,54.91,1.0412
+01,Araba/Álava,Julio,7,66.58,54.91,1.2125
+01,Araba/Álava,Agosto,8,73.98,54.91,1.3473
+01,Araba/Álava,Septiembre,9,62.08,54.91,1.1306
+01,Araba/Álava,Octubre,10,54.8,54.91,0.998
+01,Araba/Álava,Noviembre,11,49.68,54.91,0.9048
+01,Araba/Álava,Diciembre,12,48.03,54.91,0.8747
+33,Asturias,Enero,1,27.88,45.59,0.6115
+33,Asturias,Febrero,2,29.42,45.59,0.6453
+33,Asturias,Marzo,3,39.47,45.59,0.8658
+33,Asturias,Abril,4,34.96,45.59,0.7668
+33,Asturias,Mayo,5,41.07,45.59,0.9009
+33,Asturias,Junio,6,47.92,45.59,1.0511
+33,Asturias,Julio,7,60.76,45.59,1.3327
+33,Asturias,Agosto,8,74.44,45.59,1.6328
+33,Asturias,Septiembre,9,56.37,45.59,1.2365
+33,Asturias,Octubre,10,43.72,45.59,0.959
+33,Asturias,Noviembre,11,35.95,45.59,0.7886
+33,Asturias,Diciembre,12,31.85,45.59,0.6986
+05,Ávila,Enero,1,24.54,36.65,0.6696
+05,Ávila,Febrero,2,32.09,36.65,0.8756
+05,Ávila,Marzo,3,34.72,36.65,0.9473
+05,Ávila,Abril,4,34.32,36.65,0.9364
+05,Ávila,Mayo,5,40.68,36.65,1.11
+05,Ávila,Junio,6,38.63,36.65,1.054
+05,Ávila,Julio,7,37.35,36.65,1.0191
+05,Ávila,Agosto,8,47.94,36.65,1.308
+05,Ávila,Septiembre,9,42.61,36.65,1.1626
+05,Ávila,Octubre,10,40.46,36.65,1.104
+05,Ávila,Noviembre,11,33.56,36.65,0.9157
+05,Ávila,Diciembre,12,30.04,36.65,0.8196
+06,Badajoz,Enero,1,28.11,41.04,0.6849
+06,Badajoz,Febrero,2,35.53,41.04,0.8657
+06,Badajoz,Marzo,3,40.35,41.04,0.9832
+06,Badajoz,Abril,4,43.21,41.04,1.0529
+06,Badajoz,Mayo,5,43.29,41.04,1.0548
+06,Badajoz,Junio,6,42.41,41.04,1.0334
+06,Badajoz,Julio,7,42.42,41.04,1.0336
+06,Badajoz,Agosto,8,50.81,41.04,1.2381
+06,Badajoz,Septiembre,9,47.52,41.04,1.1579
+06,Badajoz,Octubre,10,43.8,41.04,1.0673
+06,Badajoz,Noviembre,11,37.86,41.04,0.9225
+06,Badajoz,Diciembre,12,34.55,41.04,0.8419
+07,"Balears, Illes",Enero,1,38.9,76.59,0.5079
+07,"Balears, Illes",Febrero,2,53.26,76.59,0.6954
+07,"Balears, Illes",Marzo,3,51.88,76.59,0.6774
+07,"Balears, Illes",Abril,4,66.84,76.59,0.8727
+07,"Balears, Illes",Mayo,5,70.9,76.59,0.9257
+07,"Balears, Illes",Junio,6,80.69,76.59,1.0535
+07,"Balears, Illes",Julio,7,87.06,76.59,1.1367
+07,"Balears, Illes",Agosto,8,89.65,76.59,1.1705
+07,"Balears, Illes",Septiembre,9,80.39,76.59,1.0496
+07,"Balears, Illes",Octubre,10,68.96,76.59,0.9004
+07,"Balears, Illes",Noviembre,11,47.69,76.59,0.6227
+07,"Balears, Illes",Diciembre,12,43.93,76.59,0.5736
+08,Barcelona,Enero,1,47.89,64.92,0.7377
+08,Barcelona,Febrero,2,57.62,64.92,0.8876
+08,Barcelona,Marzo,3,60.76,64.92,0.9359
+08,Barcelona,Abril,4,65.69,64.92,1.0119
+08,Barcelona,Mayo,5,69.83,64.92,1.0756
+08,Barcelona,Junio,6,70.92,64.92,1.0924
+08,Barcelona,Julio,7,74.46,64.92,1.147
+08,Barcelona,Agosto,8,78.65,64.92,1.2115
+08,Barcelona,Septiembre,9,68.58,64.92,1.0564
+08,Barcelona,Octubre,10,65.99,64.92,1.0165
+08,Barcelona,Noviembre,11,56.78,64.92,0.8746
+08,Barcelona,Diciembre,12,49.85,64.92,0.7679
+48,Bizkaia,Enero,1,37.25,56.71,0.6569
+48,Bizkaia,Febrero,2,44.23,56.71,0.7799
+48,Bizkaia,Marzo,3,52.14,56.71,0.9194
+48,Bizkaia,Abril,4,56.45,56.71,0.9954
+48,Bizkaia,Mayo,5,59.73,56.71,1.0533
+48,Bizkaia,Junio,6,60.47,56.71,1.0663
+48,Bizkaia,Julio,7,68.5,56.71,1.2079
+48,Bizkaia,Agosto,8,79.25,56.71,1.3975
+48,Bizkaia,Septiembre,9,66.29,56.71,1.1689
+48,Bizkaia,Octubre,10,59.69,56.71,1.0525
+48,Bizkaia,Noviembre,11,49.12,56.71,0.8662
+48,Bizkaia,Diciembre,12,42.59,56.71,0.751
+09,Burgos,Enero,1,29.05,47.13,0.6164
+09,Burgos,Febrero,2,33.93,47.13,0.7199
+09,Burgos,Marzo,3,42.6,47.13,0.9039
+09,Burgos,Abril,4,44.26,47.13,0.9391
+09,Burgos,Mayo,5,51.3,47.13,1.0885
+09,Burgos,Junio,6,47.26,47.13,1.0028
+09,Burgos,Julio,7,56.14,47.13,1.1912
+09,Burgos,Agosto,8,63.7,47.13,1.3516
+09,Burgos,Septiembre,9,56.17,47.13,1.1918
+09,Burgos,Octubre,10,51.24,47.13,1.0872
+09,Burgos,Noviembre,11,45.32,47.13,0.9616
+09,Burgos,Diciembre,12,39.3,47.13,0.8339
+10,Cáceres,Enero,1,24.63,38.88,0.6335
+10,Cáceres,Febrero,2,31.24,38.88,0.8035
+10,Cáceres,Marzo,3,39.96,38.88,1.0278
+10,Cáceres,Abril,4,42.91,38.88,1.1037
+10,Cáceres,Mayo,5,43.47,38.88,1.1181
+10,Cáceres,Junio,6,39.84,38.88,1.0247
+10,Cáceres,Julio,7,39.86,38.88,1.0252
+10,Cáceres,Agosto,8,47.86,38.88,1.231
+10,Cáceres,Septiembre,9,44.07,38.88,1.1335
+10,Cáceres,Octubre,10,41.34,38.88,1.0633
+10,Cáceres,Noviembre,11,37.71,38.88,0.9699
+10,Cáceres,Diciembre,12,30.22,38.88,0.7773
+11,Cádiz,Enero,1,29.86,54.72,0.5457
+11,Cádiz,Febrero,2,41.3,54.72,0.7548
+11,Cádiz,Marzo,3,41.44,54.72,0.7573
+11,Cádiz,Abril,4,43.95,54.72,0.8032
+11,Cádiz,Mayo,5,55.07,54.72,1.0064
+11,Cádiz,Junio,6,62.18,54.72,1.1363
+11,Cádiz,Julio,7,72.11,54.72,1.3178
+11,Cádiz,Agosto,8,78.74,54.72,1.439
+11,Cádiz,Septiembre,9,63.56,54.72,1.1615
+11,Cádiz,Octubre,10,50.63,54.72,0.9253
+11,Cádiz,Noviembre,11,41.04,54.72,0.75
+11,Cádiz,Diciembre,12,31.27,54.72,0.5715
+39,Cantabria,Enero,1,28.42,47.79,0.5947
+39,Cantabria,Febrero,2,31.77,47.79,0.6648
+39,Cantabria,Marzo,3,39.12,47.79,0.8186
+39,Cantabria,Abril,4,38.52,47.79,0.806
+39,Cantabria,Mayo,5,44.36,47.79,0.9282
+39,Cantabria,Junio,6,48.26,47.79,1.0098
+39,Cantabria,Julio,7,63.11,47.79,1.3206
+39,Cantabria,Agosto,8,76.14,47.79,1.5932
+39,Cantabria,Septiembre,9,50.85,47.79,1.064
+39,Cantabria,Octubre,10,45.76,47.79,0.9575
+39,Cantabria,Noviembre,11,36.08,47.79,0.755
+39,Cantabria,Diciembre,12,29.77,47.79,0.6229
+12,Castellón/Castelló,Enero,1,25.98,51.44,0.5051
+12,Castellón/Castelló,Febrero,2,37.65,51.44,0.7319
+12,Castellón/Castelló,Marzo,3,43.32,51.44,0.8421
+12,Castellón/Castelló,Abril,4,39.7,51.44,0.7718
+12,Castellón/Castelló,Mayo,5,46.64,51.44,0.9067
+12,Castellón/Castelló,Junio,6,53.86,51.44,1.047
+12,Castellón/Castelló,Julio,7,65.96,51.44,1.2823
+12,Castellón/Castelló,Agosto,8,75.78,51.44,1.4732
+12,Castellón/Castelló,Septiembre,9,60.82,51.44,1.1823
+12,Castellón/Castelló,Octubre,10,44.18,51.44,0.8589
+12,Castellón/Castelló,Noviembre,11,37.68,51.44,0.7325
+12,Castellón/Castelló,Diciembre,12,31.5,51.44,0.6124
+13,Ciudad Real,Enero,1,19.67,29.87,0.6585
+13,Ciudad Real,Febrero,2,24.41,29.87,0.8172
+13,Ciudad Real,Marzo,3,33.02,29.87,1.1055
+13,Ciudad Real,Abril,4,33.92,29.87,1.1356
+13,Ciudad Real,Mayo,5,31.51,29.87,1.0549
+13,Ciudad Real,Junio,6,31.03,29.87,1.0388
+13,Ciudad Real,Julio,7,31.08,29.87,1.0405
+13,Ciudad Real,Agosto,8,32.49,29.87,1.0877
+13,Ciudad Real,Septiembre,9,31.95,29.87,1.0696
+13,Ciudad Real,Octubre,10,32.77,29.87,1.0971
+13,Ciudad Real,Noviembre,11,30.19,29.87,1.0107
+13,Ciudad Real,Diciembre,12,24.32,29.87,0.8142
+14,Córdoba,Enero,1,35.18,47.45,0.7414
+14,Córdoba,Febrero,2,44.53,47.45,0.9385
+14,Córdoba,Marzo,3,52.08,47.45,1.0976
+14,Córdoba,Abril,4,54.07,47.45,1.1395
+14,Córdoba,Mayo,5,57.27,47.45,1.207
+14,Córdoba,Junio,6,46.08,47.45,0.9711
+14,Córdoba,Julio,7,39.01,47.45,0.8221
+14,Córdoba,Agosto,8,43.2,47.45,0.9104
+14,Córdoba,Septiembre,9,51.57,47.45,1.0868
+14,Córdoba,Octubre,10,56.08,47.45,1.1819
+14,Córdoba,Noviembre,11,47.6,47.45,1.0032
+14,Córdoba,Diciembre,12,41.0,47.45,0.8641
+15,"Coruña, A",Enero,1,26.42,45.3,0.5832
+15,"Coruña, A",Febrero,2,29.55,45.3,0.6523
+15,"Coruña, A",Marzo,3,34.31,45.3,0.7574
+15,"Coruña, A",Abril,4,40.85,45.3,0.9018
+15,"Coruña, A",Mayo,5,50.26,45.3,1.1095
+15,"Coruña, A",Junio,6,50.07,45.3,1.1053
+15,"Coruña, A",Julio,7,56.33,45.3,1.2435
+15,"Coruña, A",Agosto,8,69.66,45.3,1.5377
+15,"Coruña, A",Septiembre,9,57.99,45.3,1.2801
+15,"Coruña, A",Octubre,10,48.21,45.3,1.0642
+15,"Coruña, A",Noviembre,11,34.61,45.3,0.764
+15,"Coruña, A",Diciembre,12,29.42,45.3,0.6494
+16,Cuenca,Enero,1,21.5,29.72,0.7234
+16,Cuenca,Febrero,2,24.63,29.72,0.8287
+16,Cuenca,Marzo,3,28.55,29.72,0.9606
+16,Cuenca,Abril,4,29.08,29.72,0.9785
+16,Cuenca,Mayo,5,38.99,29.72,1.3119
+16,Cuenca,Junio,6,31.55,29.72,1.0616
+16,Cuenca,Julio,7,28.11,29.72,0.9458
+16,Cuenca,Agosto,8,37.14,29.72,1.2497
+16,Cuenca,Septiembre,9,33.46,29.72,1.1258
+16,Cuenca,Octubre,10,30.89,29.72,1.0394
+16,Cuenca,Noviembre,11,26.8,29.72,0.9017
+16,Cuenca,Diciembre,12,23.82,29.72,0.8015
+20,Gipuzkoa,Enero,1,42.06,60.82,0.6915
+20,Gipuzkoa,Febrero,2,44.65,60.82,0.7341
+20,Gipuzkoa,Marzo,3,55.7,60.82,0.9158
+20,Gipuzkoa,Abril,4,57.95,60.82,0.9528
+20,Gipuzkoa,Mayo,5,66.65,60.82,1.0959
+20,Gipuzkoa,Junio,6,67.66,60.82,1.1125
+20,Gipuzkoa,Julio,7,77.63,60.82,1.2764
+20,Gipuzkoa,Agosto,8,83.88,60.82,1.3792
+20,Gipuzkoa,Septiembre,9,72.11,60.82,1.1856
+20,Gipuzkoa,Octubre,10,64.44,60.82,1.0595
+20,Gipuzkoa,Noviembre,11,47.93,60.82,0.7881
+20,Gipuzkoa,Diciembre,12,44.24,60.82,0.7274
+17,Girona,Enero,1,31.99,57.92,0.5523
+17,Girona,Febrero,2,39.73,57.92,0.6859
+17,Girona,Marzo,3,41.49,57.92,0.7163
+17,Girona,Abril,4,45.03,57.92,0.7775
+17,Girona,Mayo,5,53.95,57.92,0.9315
+17,Girona,Junio,6,59.98,57.92,1.0356
+17,Girona,Julio,7,74.71,57.92,1.2899
+17,Girona,Agosto,8,82.93,57.92,1.4318
+17,Girona,Septiembre,9,63.08,57.92,1.0891
+17,Girona,Octubre,10,52.85,57.92,0.9125
+17,Girona,Noviembre,11,35.71,57.92,0.6165
+17,Girona,Diciembre,12,33.57,57.92,0.5796
+18,Granada,Enero,1,42.15,51.92,0.8118
+18,Granada,Febrero,2,50.43,51.92,0.9713
+18,Granada,Marzo,3,51.15,51.92,0.9852
+18,Granada,Abril,4,52.01,51.92,1.0017
+18,Granada,Mayo,5,54.71,51.92,1.0537
+18,Granada,Junio,6,52.27,51.92,1.0067
+18,Granada,Julio,7,52.3,51.92,1.0073
+18,Granada,Agosto,8,58.97,51.92,1.1358
+18,Granada,Septiembre,9,57.12,51.92,1.1002
+18,Granada,Octubre,10,56.51,51.92,1.0884
+18,Granada,Noviembre,11,48.88,51.92,0.9414
+18,Granada,Diciembre,12,43.91,51.92,0.8457
+19,Guadalajara,Enero,1,22.6,31.89,0.7087
+19,Guadalajara,Febrero,2,27.26,31.89,0.8548
+19,Guadalajara,Marzo,3,27.87,31.89,0.8739
+19,Guadalajara,Abril,4,29.84,31.89,0.9357
+19,Guadalajara,Mayo,5,32.83,31.89,1.0295
+19,Guadalajara,Junio,6,34.92,31.89,1.095
+19,Guadalajara,Julio,7,34.62,31.89,1.0856
+19,Guadalajara,Agosto,8,34.57,31.89,1.084
+19,Guadalajara,Septiembre,9,36.06,31.89,1.1308
+19,Guadalajara,Octubre,10,37.59,31.89,1.1787
+19,Guadalajara,Noviembre,11,34.66,31.89,1.0869
+19,Guadalajara,Diciembre,12,28.67,31.89,0.899
+21,Huelva,Enero,1,30.01,54.45,0.5511
+21,Huelva,Febrero,2,36.94,54.45,0.6784
+21,Huelva,Marzo,3,41.86,54.45,0.7688
+21,Huelva,Abril,4,45.58,54.45,0.8371
+21,Huelva,Mayo,5,47.71,54.45,0.8762
+21,Huelva,Junio,6,58.56,54.45,1.0755
+21,Huelva,Julio,7,70.03,54.45,1.2861
+21,Huelva,Agosto,8,76.1,54.45,1.3976
+21,Huelva,Septiembre,9,60.93,54.45,1.119
+21,Huelva,Octubre,10,46.27,54.45,0.8498
+21,Huelva,Noviembre,11,38.4,54.45,0.7052
+21,Huelva,Diciembre,12,30.19,54.45,0.5545
+22,Huesca,Enero,1,40.44,41.42,0.9763
+22,Huesca,Febrero,2,42.96,41.42,1.0372
+22,Huesca,Marzo,3,45.3,41.42,1.0937
+22,Huesca,Abril,4,28.13,41.42,0.6791
+22,Huesca,Mayo,5,34.1,41.42,0.8233
+22,Huesca,Junio,6,39.93,41.42,0.964
+22,Huesca,Julio,7,49.69,41.42,1.1997
+22,Huesca,Agosto,8,65.2,41.42,1.5741
+22,Huesca,Septiembre,9,42.38,41.42,1.0232
+22,Huesca,Octubre,10,34.91,41.42,0.8428
+22,Huesca,Noviembre,11,27.77,41.42,0.6704
+22,Huesca,Diciembre,12,31.64,41.42,0.7639
+23,Jaén,Enero,1,23.56,34.93,0.6745
+23,Jaén,Febrero,2,30.23,34.93,0.8654
+23,Jaén,Marzo,3,36.31,34.93,1.0395
+23,Jaén,Abril,4,38.66,34.93,1.1068
+23,Jaén,Mayo,5,37.56,34.93,1.0753
+23,Jaén,Junio,6,34.47,34.93,0.9868
+23,Jaén,Julio,7,32.12,34.93,0.9196
+23,Jaén,Agosto,8,41.43,34.93,1.1861
+23,Jaén,Septiembre,9,38.29,34.93,1.0962
+23,Jaén,Octubre,10,39.18,34.93,1.1217
+23,Jaén,Noviembre,11,34.85,34.93,0.9977
+23,Jaén,Diciembre,12,30.09,34.93,0.8614
+24,León,Enero,1,24.17,39.76,0.6079
+24,León,Febrero,2,28.34,39.76,0.7128
+24,León,Marzo,3,34.31,39.76,0.8629
+24,León,Abril,4,34.65,39.76,0.8715
+24,León,Mayo,5,43.47,39.76,1.0933
+24,León,Junio,6,42.69,39.76,1.0737
+24,León,Julio,7,45.65,39.76,1.1481
+24,León,Agosto,8,56.67,39.76,1.4253
+24,León,Septiembre,9,46.87,39.76,1.1788
+24,León,Octubre,10,43.06,39.76,1.083
+24,León,Noviembre,11,35.48,39.76,0.8924
+24,León,Diciembre,12,32.82,39.76,0.8255
+25,Lleida,Enero,1,43.56,39.03,1.1161
+25,Lleida,Febrero,2,47.09,39.03,1.2065
+25,Lleida,Marzo,3,42.58,39.03,1.091
+25,Lleida,Abril,4,25.62,39.03,0.6564
+25,Lleida,Mayo,5,30.36,39.03,0.7779
+25,Lleida,Junio,6,36.48,39.03,0.9347
+25,Lleida,Julio,7,43.99,39.03,1.1271
+25,Lleida,Agosto,8,55.64,39.03,1.4256
+25,Lleida,Septiembre,9,34.63,39.03,0.8873
+25,Lleida,Octubre,10,31.41,39.03,0.8048
+25,Lleida,Noviembre,11,27.57,39.03,0.7064
+25,Lleida,Diciembre,12,34.7,39.03,0.8891
+27,Lugo,Enero,1,16.45,37.61,0.4374
+27,Lugo,Febrero,2,20.8,37.61,0.553
+27,Lugo,Marzo,3,27.63,37.61,0.7346
+27,Lugo,Abril,4,32.46,37.61,0.8631
+27,Lugo,Mayo,5,41.72,37.61,1.1093
+27,Lugo,Junio,6,42.77,37.61,1.1372
+27,Lugo,Julio,7,47.6,37.61,1.2656
+27,Lugo,Agosto,8,62.8,37.61,1.6698
+27,Lugo,Septiembre,9,49.44,37.61,1.3145
+27,Lugo,Octubre,10,39.19,37.61,1.042
+27,Lugo,Noviembre,11,27.37,37.61,0.7277
+27,Lugo,Diciembre,12,21.4,37.61,0.569
+28,Madrid,Enero,1,47.65,58.78,0.8106
+28,Madrid,Febrero,2,53.68,58.78,0.9132
+28,Madrid,Marzo,3,58.92,58.78,1.0024
+28,Madrid,Abril,4,61.4,58.78,1.0446
+28,Madrid,Mayo,5,63.89,58.78,1.0869
+28,Madrid,Junio,6,62.44,58.78,1.0623
+28,Madrid,Julio,7,59.87,58.78,1.0185
+28,Madrid,Agosto,8,53.84,58.78,0.916
+28,Madrid,Septiembre,9,61.53,58.78,1.0468
+28,Madrid,Octubre,10,64.74,58.78,1.1014
+28,Madrid,Noviembre,11,60.83,58.78,1.0349
+28,Madrid,Diciembre,12,56.16,58.78,0.9554
+29,Málaga,Enero,1,45.62,63.75,0.7156
+29,Málaga,Febrero,2,53.31,63.75,0.8362
+29,Málaga,Marzo,3,57.33,63.75,0.8993
+29,Málaga,Abril,4,63.82,63.75,1.0011
+29,Málaga,Mayo,5,68.79,63.75,1.0791
+29,Málaga,Junio,6,69.49,63.75,1.09
+29,Málaga,Julio,7,72.81,63.75,1.1421
+29,Málaga,Agosto,8,79.81,63.75,1.2519
+29,Málaga,Septiembre,9,71.7,63.75,1.1247
+29,Málaga,Octubre,10,67.45,63.75,1.058
+29,Málaga,Noviembre,11,49.81,63.75,0.7813
+29,Málaga,Diciembre,12,43.11,63.75,0.6762
+30,Murcia,Enero,1,33.72,48.81,0.6908
+30,Murcia,Febrero,2,44.17,48.81,0.9049
+30,Murcia,Marzo,3,47.85,48.81,0.9803
+30,Murcia,Abril,4,45.52,48.81,0.9326
+30,Murcia,Mayo,5,49.7,48.81,1.0182
+30,Murcia,Junio,6,51.47,48.81,1.0545
+30,Murcia,Julio,7,56.08,48.81,1.1489
+30,Murcia,Agosto,8,63.5,48.81,1.301
+30,Murcia,Septiembre,9,53.78,48.81,1.1018
+30,Murcia,Octubre,10,47.65,48.81,0.9762
+30,Murcia,Noviembre,11,41.2,48.81,0.8441
+30,Murcia,Diciembre,12,38.78,48.81,0.7945
+31,Navarra,Enero,1,26.2,45.46,0.5763
+31,Navarra,Febrero,2,30.57,45.46,0.6725
+31,Navarra,Marzo,3,39.32,45.46,0.8649
+31,Navarra,Abril,4,43.35,45.46,0.9536
+31,Navarra,Mayo,5,50.01,45.46,1.1001
+31,Navarra,Junio,6,46.98,45.46,1.0334
+31,Navarra,Julio,7,52.6,45.46,1.1571
+31,Navarra,Agosto,8,67.65,45.46,1.4881
+31,Navarra,Septiembre,9,52.96,45.46,1.165
+31,Navarra,Octubre,10,49.43,45.46,1.0873
+31,Navarra,Noviembre,11,43.71,45.46,0.9615
+31,Navarra,Diciembre,12,34.96,45.46,0.769
+32,Ourense,Enero,1,20.5,33.08,0.6197
+32,Ourense,Febrero,2,25.06,33.08,0.7576
+32,Ourense,Marzo,3,28.95,33.08,0.8752
+32,Ourense,Abril,4,28.43,33.08,0.8594
+32,Ourense,Mayo,5,34.83,33.08,1.0529
+32,Ourense,Junio,6,35.01,33.08,1.0583
+32,Ourense,Julio,7,36.43,33.08,1.1013
+32,Ourense,Agosto,8,48.89,33.08,1.4779
+32,Ourense,Septiembre,9,40.04,33.08,1.2104
+32,Ourense,Octubre,10,36.33,33.08,1.0982
+32,Ourense,Noviembre,11,30.33,33.08,0.9169
+32,Ourense,Diciembre,12,26.82,33.08,0.8108
+34,Palencia,Enero,1,32.48,40.44,0.8032
+34,Palencia,Febrero,2,32.34,40.44,0.7997
+34,Palencia,Marzo,3,30.44,40.44,0.7527
+34,Palencia,Abril,4,36.74,40.44,0.9085
+34,Palencia,Mayo,5,41.51,40.44,1.0265
+34,Palencia,Junio,6,42.34,40.44,1.047
+34,Palencia,Julio,7,45.64,40.44,1.1286
+34,Palencia,Agosto,8,54.17,40.44,1.3395
+34,Palencia,Septiembre,9,48.32,40.44,1.1949
+34,Palencia,Octubre,10,44.45,40.44,1.0992
+34,Palencia,Noviembre,11,33.33,40.44,0.8242
+34,Palencia,Diciembre,12,33.52,40.44,0.8289
+35,"Palmas, Las",Enero,1,72.97,74.03,0.9857
+35,"Palmas, Las",Febrero,2,76.2,74.03,1.0293
+35,"Palmas, Las",Marzo,3,76.72,74.03,1.0363
+35,"Palmas, Las",Abril,4,68.86,74.03,0.9302
+35,"Palmas, Las",Mayo,5,65.91,74.03,0.8903
+35,"Palmas, Las",Junio,6,71.41,74.03,0.9646
+35,"Palmas, Las",Julio,7,75.85,74.03,1.0246
+35,"Palmas, Las",Agosto,8,81.16,74.03,1.0963
+35,"Palmas, Las",Septiembre,9,74.74,74.03,1.0096
+35,"Palmas, Las",Octubre,10,77.59,74.03,1.0481
+35,"Palmas, Las",Noviembre,11,76.16,74.03,1.0288
+35,"Palmas, Las",Diciembre,12,70.68,74.03,0.9547
+36,Pontevedra,Enero,1,24.72,45.89,0.5387
+36,Pontevedra,Febrero,2,25.51,45.89,0.5559
+36,Pontevedra,Marzo,3,31.49,45.89,0.6862
+36,Pontevedra,Abril,4,33.7,45.89,0.7344
+36,Pontevedra,Mayo,5,40.5,45.89,0.8825
+36,Pontevedra,Junio,6,44.92,45.89,0.9789
+36,Pontevedra,Julio,7,59.17,45.89,1.2894
+36,Pontevedra,Agosto,8,75.1,45.89,1.6365
+36,Pontevedra,Septiembre,9,52.13,45.89,1.136
+36,Pontevedra,Octubre,10,43.42,45.89,0.9462
+36,Pontevedra,Noviembre,11,36.76,45.89,0.801
+36,Pontevedra,Diciembre,12,41.97,45.89,0.9146
+26,"Rioja, La",Enero,1,24.53,41.8,0.5868
+26,"Rioja, La",Febrero,2,31.85,41.8,0.762
+26,"Rioja, La",Marzo,3,37.75,41.8,0.9031
+26,"Rioja, La",Abril,4,41.7,41.8,0.9976
+26,"Rioja, La",Mayo,5,46.08,41.8,1.1024
+26,"Rioja, La",Junio,6,44.36,41.8,1.0612
+26,"Rioja, La",Julio,7,43.13,41.8,1.0318
+26,"Rioja, La",Agosto,8,57.8,41.8,1.3828
+26,"Rioja, La",Septiembre,9,50.79,41.8,1.2151
+26,"Rioja, La",Octubre,10,47.64,41.8,1.1397
+26,"Rioja, La",Noviembre,11,40.02,41.8,0.9574
+26,"Rioja, La",Diciembre,12,31.14,41.8,0.745
+37,Salamanca,Enero,1,31.84,46.56,0.6838
+37,Salamanca,Febrero,2,39.83,46.56,0.8555
+37,Salamanca,Marzo,3,46.13,46.56,0.9908
+37,Salamanca,Abril,4,46.51,46.56,0.9989
+37,Salamanca,Mayo,5,48.52,46.56,1.0421
+37,Salamanca,Junio,6,46.81,46.56,1.0054
+37,Salamanca,Julio,7,47.53,46.56,1.0208
+37,Salamanca,Agosto,8,60.02,46.56,1.2891
+37,Salamanca,Septiembre,9,53.46,46.56,1.1482
+37,Salamanca,Octubre,10,51.08,46.56,1.0971
+37,Salamanca,Noviembre,11,43.69,46.56,0.9384
+37,Salamanca,Diciembre,12,38.78,46.56,0.8329
+38,Santa Cruz de Tenerife,Enero,1,75.59,74.01,1.0213
+38,Santa Cruz de Tenerife,Febrero,2,76.81,74.01,1.0378
+38,Santa Cruz de Tenerife,Marzo,3,76.77,74.01,1.0373
+38,Santa Cruz de Tenerife,Abril,4,71.27,74.01,0.963
+38,Santa Cruz de Tenerife,Mayo,5,67.61,74.01,0.9135
+38,Santa Cruz de Tenerife,Junio,6,72.46,74.01,0.9791
+38,Santa Cruz de Tenerife,Julio,7,75.23,74.01,1.0165
+38,Santa Cruz de Tenerife,Agosto,8,78.94,74.01,1.0666
+38,Santa Cruz de Tenerife,Septiembre,9,73.23,74.01,0.9895
+38,Santa Cruz de Tenerife,Octubre,10,75.03,74.01,1.0138
+38,Santa Cruz de Tenerife,Noviembre,11,74.47,74.01,1.0062
+38,Santa Cruz de Tenerife,Diciembre,12,70.58,74.01,0.9537
+40,Segovia,Enero,1,29.15,44.67,0.6526
+40,Segovia,Febrero,2,35.31,44.67,0.7905
+40,Segovia,Marzo,3,41.52,44.67,0.9295
+40,Segovia,Abril,4,41.39,44.67,0.9266
+40,Segovia,Mayo,5,45.55,44.67,1.0197
+40,Segovia,Junio,6,52.63,44.67,1.1782
+40,Segovia,Julio,7,51.16,44.67,1.1453
+40,Segovia,Agosto,8,54.18,44.67,1.2129
+40,Segovia,Septiembre,9,50.98,44.67,1.1413
+40,Segovia,Octubre,10,46.61,44.67,1.0434
+40,Segovia,Noviembre,11,43.05,44.67,0.9637
+40,Segovia,Diciembre,12,39.41,44.67,0.8822
+41,Sevilla,Enero,1,50.01,61.15,0.8178
+41,Sevilla,Febrero,2,58.03,61.15,0.949
+41,Sevilla,Marzo,3,64.77,61.15,1.0592
+41,Sevilla,Abril,4,70.57,61.15,1.154
+41,Sevilla,Mayo,5,69.54,61.15,1.1372
+41,Sevilla,Junio,6,61.4,61.15,1.0041
+41,Sevilla,Julio,7,53.58,61.15,0.8762
+41,Sevilla,Agosto,8,59.92,61.15,0.9799
+41,Sevilla,Septiembre,9,64.03,61.15,1.0471
+41,Sevilla,Octubre,10,68.51,61.15,1.1204
+41,Sevilla,Noviembre,11,60.08,61.15,0.9825
+41,Sevilla,Diciembre,12,52.38,61.15,0.8566
+42,Soria,Enero,1,26.51,36.2,0.7323
+42,Soria,Febrero,2,28.15,36.2,0.7776
+42,Soria,Marzo,3,34.13,36.2,0.9428
+42,Soria,Abril,4,33.49,36.2,0.9251
+42,Soria,Mayo,5,38.33,36.2,1.0588
+42,Soria,Junio,6,38.2,36.2,1.0552
+42,Soria,Julio,7,39.84,36.2,1.1006
+42,Soria,Agosto,8,49.0,36.2,1.3536
+42,Soria,Septiembre,9,40.74,36.2,1.1254
+42,Soria,Octubre,10,39.82,36.2,1.1
+42,Soria,Noviembre,11,33.55,36.2,0.9268
+42,Soria,Diciembre,12,28.27,36.2,0.7809
+43,Tarragona,Enero,1,23.46,61.35,0.3824
+43,Tarragona,Febrero,2,29.22,61.35,0.4763
+43,Tarragona,Marzo,3,34.86,61.35,0.5682
+43,Tarragona,Abril,4,45.89,61.35,0.748
+43,Tarragona,Mayo,5,61.79,61.35,1.0072
+43,Tarragona,Junio,6,69.72,61.35,1.1364
+43,Tarragona,Julio,7,74.35,61.35,1.2119
+43,Tarragona,Agosto,8,82.86,61.35,1.3506
+43,Tarragona,Septiembre,9,66.82,61.35,1.0892
+43,Tarragona,Octubre,10,55.58,61.35,0.9059
+43,Tarragona,Noviembre,11,30.09,61.35,0.4905
+43,Tarragona,Diciembre,12,35.52,61.35,0.579
+44,Teruel,Enero,1,21.97,34.12,0.6439
+44,Teruel,Febrero,2,28.43,34.12,0.8332
+44,Teruel,Marzo,3,35.76,34.12,1.0481
+44,Teruel,Abril,4,31.16,34.12,0.9132
+44,Teruel,Mayo,5,36.66,34.12,1.0744
+44,Teruel,Junio,6,33.94,34.12,0.9947
+44,Teruel,Julio,7,33.13,34.12,0.971
+44,Teruel,Agosto,8,46.41,34.12,1.3602
+44,Teruel,Septiembre,9,41.32,34.12,1.211
+44,Teruel,Octubre,10,39.11,34.12,1.1462
+44,Teruel,Noviembre,11,28.4,34.12,0.8324
+44,Teruel,Diciembre,12,30.07,34.12,0.8813
+45,Toledo,Enero,1,30.65,42.11,0.7279
+45,Toledo,Febrero,2,33.16,42.11,0.7875
+45,Toledo,Marzo,3,39.91,42.11,0.9478
+45,Toledo,Abril,4,46.15,42.11,1.0959
+45,Toledo,Mayo,5,50.14,42.11,1.1907
+45,Toledo,Junio,6,45.35,42.11,1.0769
+45,Toledo,Julio,7,38.11,42.11,0.905
+45,Toledo,Agosto,8,43.69,42.11,1.0375
+45,Toledo,Septiembre,9,50.17,42.11,1.1914
+45,Toledo,Octubre,10,51.66,42.11,1.2268
+45,Toledo,Noviembre,11,39.08,42.11,0.928
+45,Toledo,Diciembre,12,35.37,42.11,0.8399
+46,Valencia/València,Enero,1,45.33,61.31,0.7394
+46,Valencia/València,Febrero,2,53.4,61.31,0.871
+46,Valencia/València,Marzo,3,60.95,61.31,0.9941
+46,Valencia/València,Abril,4,62.17,61.31,1.014
+46,Valencia/València,Mayo,5,65.15,61.31,1.0626
+46,Valencia/València,Junio,6,66.39,61.31,1.0829
+46,Valencia/València,Julio,7,71.42,61.31,1.1649
+46,Valencia/València,Agosto,8,76.19,61.31,1.2427
+46,Valencia/València,Septiembre,9,69.07,61.31,1.1266
+46,Valencia/València,Octubre,10,60.78,61.31,0.9914
+46,Valencia/València,Noviembre,11,50.63,61.31,0.8258
+46,Valencia/València,Diciembre,12,43.29,61.31,0.7061
+47,Valladolid,Enero,1,32.42,44.1,0.7351
+47,Valladolid,Febrero,2,35.91,44.1,0.8143
+47,Valladolid,Marzo,3,43.39,44.1,0.9839
+47,Valladolid,Abril,4,40.81,44.1,0.9254
+47,Valladolid,Mayo,5,47.02,44.1,1.0662
+47,Valladolid,Junio,6,48.19,44.1,1.0927
+47,Valladolid,Julio,7,45.87,44.1,1.0401
+47,Valladolid,Agosto,8,51.45,44.1,1.1667
+47,Valladolid,Septiembre,9,50.75,44.1,1.1508
+47,Valladolid,Octubre,10,47.17,44.1,1.0696
+47,Valladolid,Noviembre,11,46.36,44.1,1.0512
+47,Valladolid,Diciembre,12,39.31,44.1,0.8914
+49,Zamora,Enero,1,24.3,35.61,0.6824
+49,Zamora,Febrero,2,28.56,35.61,0.802
+49,Zamora,Marzo,3,32.37,35.61,0.909
+49,Zamora,Abril,4,30.26,35.61,0.8498
+49,Zamora,Mayo,5,36.14,35.61,1.0149
+49,Zamora,Junio,6,37.68,35.61,1.0581
+49,Zamora,Julio,7,41.16,35.61,1.1559
+49,Zamora,Agosto,8,51.27,35.61,1.4398
+49,Zamora,Septiembre,9,41.95,35.61,1.178
+49,Zamora,Octubre,10,38.01,35.61,1.0674
+49,Zamora,Noviembre,11,30.79,35.61,0.8646
+49,Zamora,Diciembre,12,27.68,35.61,0.7773
+50,Zaragoza,Enero,1,34.72,48.73,0.7125
+50,Zaragoza,Febrero,2,43.62,48.73,0.8951
+50,Zaragoza,Marzo,3,47.68,48.73,0.9785
+50,Zaragoza,Abril,4,48.2,48.73,0.9891
+50,Zaragoza,Mayo,5,52.88,48.73,1.0852
+50,Zaragoza,Junio,6,50.75,48.73,1.0415
+50,Zaragoza,Julio,7,51.08,48.73,1.0482
+50,Zaragoza,Agosto,8,53.5,48.73,1.0979
+50,Zaragoza,Septiembre,9,52.07,48.73,1.0685
+50,Zaragoza,Octubre,10,54.52,48.73,1.1188
+50,Zaragoza,Noviembre,11,50.36,48.73,1.0334
+50,Zaragoza,Diciembre,12,43.12,48.73,0.8849
+51,Ceuta,Enero,1,34.58,47.69,0.7251
+51,Ceuta,Febrero,2,36.26,47.69,0.7603
+51,Ceuta,Marzo,3,47.56,47.69,0.9973
+51,Ceuta,Abril,4,64.17,47.69,1.3456
+51,Ceuta,Mayo,5,43.58,47.69,0.9138
+51,Ceuta,Junio,6,49.08,47.69,1.0291
+51,Ceuta,Julio,7,54.25,47.69,1.1376
+51,Ceuta,Agosto,8,74.03,47.69,1.5523
+51,Ceuta,Septiembre,9,43.37,47.69,0.9094
+51,Ceuta,Octubre,10,45.54,47.69,0.9549
+51,Ceuta,Noviembre,11,39.84,47.69,0.8354
+51,Ceuta,Diciembre,12,41.19,47.69,0.8637
+52,Melilla,Enero,1,30.34,44.33,0.6844
+52,Melilla,Febrero,2,38.42,44.33,0.8667
+52,Melilla,Marzo,3,36.12,44.33,0.8148
+52,Melilla,Abril,4,42.02,44.33,0.9479
+52,Melilla,Mayo,5,45.6,44.33,1.0286
+52,Melilla,Junio,6,52.14,44.33,1.1762
+52,Melilla,Julio,7,40.62,44.33,0.9163
+52,Melilla,Agosto,8,62.64,44.33,1.413
+52,Melilla,Septiembre,9,53.1,44.33,1.1978
+52,Melilla,Octubre,10,49.69,44.33,1.1209
+52,Melilla,Noviembre,11,43.08,44.33,0.9718
+52,Melilla,Diciembre,12,38.5,44.33,0.8685

@@ -1,0 +1,178 @@
+Gestor de red;Provincia;Municipio;Coordenada UTM X;Coordenada UTM Y;Subestación ;Nivel de tensión (kV);Capacidad firme disponible (MW);Capacidad comprometida por cuestiones regulatorias;Capacidad de acceso firme de demanda ocupada (MW);Capacidad de acceso firme admitida y no evaluada (MW);Posiciones ocupadas;Posiciones libres;Nudo 0*;Comentarios;Nombre subestación
+R1-005;Asturias;Valdés;215.356,7;4.825.840,4;101;20;8,97;0;16,03;0;0;0;0;;ALMUÑA
+R1-005;Asturias;Valdés;215.356,7;4.825.840,4;101;132;30;0;0;0;0;0;0;;ALMUÑA
+R1-005;Asturias;Coaña;198.270,1;4.820.751,9;158;30;1,91;0;23,09;0;0;0;0;;ARBON
+R1-005;Asturias;Coaña;198.270,1;4.820.751,9;158;132;30;0;79;0;0;0;0;;ARBON
+R1-005;Asturias;Cabrales;353.203,8;4.795.814,4;540;132;3;0;0;0;0;0;0;;ARENAS
+R1-005;Asturias;Mieres;270.537,7;4.795.210,5;212;12;0;0;1,95;0;0;0;1;;BAIÑA
+R1-005;Asturias;Mieres;270.537,7;4.795.210,5;212;30;1,39;0;0,6;0;0;0;0;;BAIÑA
+R1-005;Asturias;Cabrales;351.354,5;4.791.325,5;560;132;3;0;0;0;0;0;0;;CAMARMEÑA
+R1-005;Asturias;Lena;271.011,4;4.776.288,6;754;12;0,19;0;1,1;0;0;0;0;;CAMPOMANES
+R1-005;Asturias;Lena;271.011,4;4.776.288,6;754;30;0;0;0;0;0;0;1;;CAMPOMANES
+R1-005;Asturias;Cangas de Onís;327.246,1;4.801.252,1;574;132;3;0;7;7;0;0;0;;CANGAS
+R1-005;Asturias;Illano;190.402,5;4.811.139,7;59;30;7,5;0;0;0;0;0;0;;DOIRAS
+R1-005;Asturias;Illano;190.402,5;4.811.139,7;59;132;30;0;0;0;0;0;0;;DOIRAS
+R1-005;Asturias;Allande;201.593,3;4.797.451,4;82;132;0;0;0;0;0;0;1;;EL PALO
+R1-005;Asturias;Aller;290.504,1;4.779.522,7;192;12;1,56;0;2,52;0;0;0;0;;ENTREPEÑAS
+R1-005;Asturias;Aller;290.504,1;4.779.522,7;192;30;1,56;0;0;0;0;0;0;;ENTREPEÑAS
+R1-005;Asturias;Navia;195.730,4;4.827.514,0;93;20;6,35;0;12,12;0;0;0;0;;JARRIO
+R1-005;Asturias;Navia;195.730,4;4.827.514,0;93;132;9;0;0;0;0;0;0;;JARRIO
+R1-005;Asturias;Mieres;274.856,5;4.772.981,8;462;12;1,56;0;7,54;0;0;0;0;;LA_OLLA
+R1-005;Asturias;Mieres;274.856,5;4.772.981,8;462;30;1,56;0;0;0;0;0;0;;LA_OLLA
+R1-005;Asturias;Aller;277.563,5;4.782.929,0;685;12;1,56;0;3,34;0;0;0;0;;MOREDA
+R1-005;Asturias;Aller;277.563,5;4.782.929,0;685;30;1,56;0;0;0;0;0;0;;MOREDA
+R1-005;Asturias;Tineo;224.988,7;4.809.666,4;1040;132;35;0;0;0;0;0;0;;PICO GALLO
+R1-005;Asturias;Lena;270.297,6;4.780.804,2;838;12;1,56;0;4,24;0;0;0;0;;POLA_LENA
+R1-005;Asturias;Lena;270.297,6;4.780.804,2;838;30;1,56;0;0;0;0;0;0;;POLA_LENA
+R1-005;Asturias;Mieres;274.384,5;4.790.787,8;430;12;0,31;0;8,67;0;0;0;0;;POLIGONO
+R1-005;Asturias;Mieres;274.384,5;4.790.787,8;430;30;1,56;0;0;0;0;0;0;;POLIGONO
+R1-005;Asturias;Mieres;270.785,8;4.795.193,9;1757;30;1,99;0;24,3;0;0;0;0;;POLIGONO DE BAIÑA
+R1-005;Asturias;Mieres;270.785,8;4.795.193,9;1757;132;1,99;0;0;0;0;0;0;;POLIGONO DE BAIÑA
+R1-005;Asturias;Vegadeo;174.633,8;4.819.986,5;978;20;8,95;0;12,13;0;0;0;0;;PORZUN
+R1-005;Asturias;Vegadeo;174.633,8;4.819.986,5;978;132;11;0;0;0;0;0;0;;PORZUN
+R1-005;Asturias;Illano;190.691,5;4.814.907,5;236;30;7,5;0;0;0;0;0;0;;SAN_LUIS
+R1-005;Asturias;Mieres;273.961,3;4.786.535,6;328;12;0,38;0;5,92;0;0;0;0;;SANTA_CRUZ
+R1-005;Asturias;Mieres;273.961,3;4.786.535,6;328;30;1,56;0;47,65;0;0;0;0;;SANTA_CRUZ
+R1-005;Asturias;Mieres;273.961,3;4.786.535,6;328;132;1,56;0;45;0;0;0;0;;SANTA_CRUZ
+R1-005;Asturias;Grandas de Salime;187.038,4;4.794.994,5;1015;12;0;0;1,87;0;0;0;1;;SANZO
+R1-005;Asturias;Grandas de Salime;187.038,4;4.794.994,5;1015;132;100;0;0;0;0;0;0;Capacidad limitada según art. 3.2 Especificaciones de Detalle Capacidad Firme;SANZO
+R1-005;Asturias;Siero;276.661,5;4.806.633,8;668;132;0;0;0;0;0;0;0;;SIERO
+R1-005;Asturias;Tapia de Casariego;181.847,9;4.830.683,9;513;20;9,43;0;4,95;0;0;0;0;;TAPIA
+R1-005;Asturias;Lena;268.732,5;4.767.708,4;28;30;0;0;30,96;0;0;0;1;;TELLEDO
+R1-005;Burgos;Arija;421.441,3;4.759.963,5;161;12;0;0;2,2;0;0;0;0;;ARIJA
+R1-005;Burgos;Arija;421.441,3;4.759.963,5;161;30;0;0;0;0;0;0;1;;ARIJA
+R1-005;Burgos;Melgar de Fernamental;398.752,7;4.695.241,0;594;12;0;0;4,62;1;0;0;0;;MELGAR
+R1-005;Burgos;Melgar de Fernamental;398.752,7;4.695.241,0;594;30;0;0;0;0;0;0;1;;MELGAR
+R1-005;Burgos;Villadiego;415.898,4;4.706.924,3;429;12;0;0;1,53;0;0;0;0;;VILLADIEGO
+R1-005;Burgos;Villadiego;415.898,4;4.706.924,3;429;30;0;0;0;0;0;0;1;;VILLADIEGO
+R1-005;Palencia;Aguilar de Campoo;397.426,4;4.737.554,9;1;12;1,46;0;4,54;0;0;0;0;;AGUILAR_P
+R1-005;Palencia;Aguilar de Campoo;397.426,4;4.737.554,9;1;30;2;0;0;0;0;0;0;;AGUILAR_P
+R1-005;Cantabria;Bárcena de Cicero;456.844,5;4.807.952,4;159;12;0,87;0;5,73;0;0;0;0;;AMBROSERO
+R1-005;Cantabria;Bárcena de Cicero;456.844,5;4.807.952,4;159;55;0;0;0;0;0;0;0;;AMBROSERO
+R1-005;Cantabria;Arenas de Iguña;414.150,0;4.780.695,0;1021;12;1,13;0;6,43;2;0;0;0;;ARENAS_IGUNA
+R1-005;Cantabria;Arenas de Iguña;414.150,0;4.780.695,0;1021;55;0;0;2,78;0;0;0;0;;ARENAS_IGUNA
+R1-005;Cantabria;Escalante;459.837,4;4.810.826,1;623;12;0,88;0;16,30;0;0;0;0;;ARGOÑOS
+R1-005;Cantabria;Escalante;459.837,4;4.810.826,1;623;55;0;0;0;0;0;0;0;;ARGOÑOS
+R1-005;Cantabria;Astillero (El);433.043,6;4.805.133,3;151;12;1,74;0;38,26;0,56;0;0;0;;ASTILLERO
+R1-005;Cantabria;Astillero (El);433.043,6;4.805.133,3;151;55;0;0;79,63;0;0;0;0;;ASTILLERO
+R1-005;Cantabria;Hermandad de Campoo de Suso;389.462,3;4.765.616,3;327;12;0,00;0;2,84;0;0;0;0;;BRAÑAVIEJA
+R1-005;Cantabria;Hermandad de Campoo de Suso;389.462,3;4.765.616,3;327;30;0;0;0;0;0;0;1;;BRAÑAVIEJA
+R1-005;Cantabria;Cabezón de la Sal;399.097,9;4.796.232,5;56;12;0,18;0;13,32;0;0;0;0;;CABEZON
+R1-005;Cantabria;Cabezón de la Sal;399.097,9;4.796.232,5;56;55;0;0;0;0;0;0;0;;CABEZON
+R1-005;Cantabria;Camargo;429.751,4;4.809.588,5;533;12;0,00;0;56,44;7,37;0;0;0; Inviabilidad de ampliación con nuevas posiciones;CACICEDO
+R1-005;Cantabria;Camargo;429.751,4;4.809.588,5;533;55;0;0;101,00;0;0;0;0;;CACICEDO
+R1-005;Cantabria;Santander;432.557,1;4.811.224,0;95;12;0,00;0;38,90;4,71;0;0;0;;CANDINA
+R1-005;Cantabria;Santander;432.557,1;4.811.224,0;95;55;0;0;0,00;0;0;0;0;;CANDINA
+R1-005;Cantabria;Villacarriedo;432.068,1;4.788.071,2;788;12;1,17;0;4,38;0;0;0;0;;CARRIEDO
+R1-005;Cantabria;Villacarriedo;432.068,1;4.788.071,2;788;55;0;0;0;0;0;0;0;;CARRIEDO
+R1-005;Cantabria;Rionansa;383.227,0;4.792.957,6;1072;12;0,37;0;1,13;0;0;0;0;;CELIS
+R1-005;Cantabria;Rionansa;383.227,0;4.792.957,6;1072;55;0;0;0;0;0;0;0;;CELIS
+R1-005;Cantabria;Solórzano;457.554,2;4.804.562,7;133;55;0;0;0;0;0;0;0;;CICERO
+R1-005;Cantabria;Comillas;396.192,0;4.802.597,4;153;12;3,01;0;4,17;0;0;0;0;;COMILLAS
+R1-005;Cantabria;Comillas;396.192,0;4.802.597,4;153;55;0;0;0;0;0;0;0;;COMILLAS
+R1-005;Cantabria;Santa Cruz de Bezana;428.988,1;4.812.607,9;877;12;0,00;0;15,55;4,45;0;0;0;;CORBAN
+R1-005;Cantabria;Santa Cruz de Bezana;428.988,1;4.812.607,9;877;55;0;0;3;0;0;0;0;;CORBAN
+R1-005;Cantabria;Corrales de Buelna (Los);413.205,8;4.789.364,7;264;12;0,49;0;11,01;0;0;0;0;;CORRALES
+R1-005;Cantabria;Corrales de Buelna (Los);413.205,8;4.789.364,7;264;55;0;0;6;0;0;0;0;;CORRALES
+R1-005;Cantabria;Entrambasaguas;441.765,4;4.804.495,1;33;12;0,72;0;14,37;0;0;0;0;;EL_BOSQUE
+R1-005;Cantabria;Entrambasaguas;441.765,4;4.804.495,1;33;55;0;0;0;0;0;0;0;;EL_BOSQUE
+R1-005;Cantabria;Camargo;427.018,2;4.806.221,0;890;12;0,00;0;6,42;14,89;0;0;0; Inviabilidad de ampliación con nuevas posiciones;ESCOBEDO
+R1-005;Cantabria;Camargo;427.018,2;4.806.221,0;890;55;0;0;0;0;0;0;0;;ESCOBEDO
+R1-005;Cantabria;Herrerías;377.851,1;4.798.524,8;8500;12;1,37;0;0,13;0;0;0;0;;HERRERIAS
+R1-005;Cantabria;Herrerías;377.851,1;4.798.524,8;8500;55;0;0;0;0;0;0;0;;HERRERIAS
+R1-005;Cantabria;Valdáliga;387.868,2;4.797.664,7;32;12;0;0;2,68;0;0;0;0;;LABARCES
+R1-005;Cantabria;Valdáliga;387.868,2;4.797.664,7;32;55;0;0;0;0;0;0;0;;LABARCES
+R1-005;Cantabria;Valdáliga;387.868,2;4.797.664,7;32;132;0;0;0;0;0;0;0;;LABARCES
+R1-005;Cantabria;Peñarrubia;369.393,4;4.790.089,5;126;12;0,51;0;0,49;0;0;0;0;;LA_HERMIDA
+R1-005;Cantabria;Peñarrubia;369.393,4;4.790.089,5;126;30;0;0;5,31;0;0;0;0;;LA_HERMIDA
+R1-005;Cantabria;Peñarrubia;369.393,4;4.790.089,5;126;132;3;0;0;0;0;0;0;;LA_HERMIDA
+R1-005;Cantabria;Santander;435.248,8;4.813.885,7;303;12;4,69;0;22,58;0;0;0;0;;LAS_LLAMAS
+R1-005;Cantabria;Santander;435.248,8;4.813.885,7;303;55;0;0;0;0;0;0;0;;LAS_LLAMAS
+R1-005;Cantabria;Arnuero;452.643,3;4.813.327,8;188;12;1,05;0;15,77;0;0;0;0;;LA_VENERA
+R1-005;Cantabria;Arnuero;452.643,3;4.813.327,8;188;55;0;0;0;0;0;0;0;;LA_VENERA
+R1-005;Cantabria;Astillero (El);431.891,4;4.807.170,8;707;12;0;0;23,48;0;0;0;0;;MALIAÑO
+R1-005;Cantabria;Astillero (El);431.891,4;4.807.170,8;707;55;0;0;5;0;0;0;0;;MALIAÑO
+R1-005;Cantabria;Valdeolea;405.287,5;4.748.069,4;370;30;2;0;17,47;0;0;0;0;;MATAPORQUERA
+R1-005;Cantabria;Valdeolea;405.287,5;4.748.069,4;370;132;0;0;66;50;0;0;0;;MATAPORQUERA
+R1-005;Cantabria;Entrambasaguas;439.861,3;4.805.281,8;373;12;0,53;0;9,38;0;0;0;0;;M_CUDEYO
+R1-005;Cantabria;Entrambasaguas;439.861,3;4.805.281,8;373;55;0;0;42,95;0;0;0;0;;M_CUDEYO
+R1-005;Cantabria;Corrales de Buelna (Los);414.042,1;4.789.819,0;1013;55;0;0;19,8;0;0;0;0;;MECOBUSA
+R1-005;Cantabria;Meruelo;450.821,4;4.808.860,6;1782;12;0,67;0;4,70;0;0;0;0;;MERUELO
+R1-005;Cantabria;Meruelo;450.821,4;4.808.860,6;1782;55;0;0;0;0;0;0;0;;MERUELO
+R1-005;Cantabria;Camargo;431.818,1;4.809.732,5;1000;12;1,22;0;11,85;0;0;0;0;;N_MONTAÑA
+R1-005;Cantabria;Camargo;431.818,1;4.809.732,5;1000;55;0;0;4;0;0;0;0;;N_MONTAÑA
+R1-005;Cantabria;Cillorigo de Liébana;369.208,8;4.780.375,5;704;12;0,06;0;4,65;0;0;0;0;;OJEDO
+R1-005;Cantabria;Cillorigo de Liébana;369.208,8;4.780.375,5;704;30;0;0;0;0;0;0;0;;OJEDO
+R1-005;Cantabria;Penagos;433.166,0;4.799.697,5;329;12;0;0;8,51;1;0;0;0;;PENAGOS
+R1-005;Cantabria;Penagos;433.166,0;4.799.697,5;329;55;0;0;0;0;0;0;0;;PENAGOS
+R1-005;Cantabria;Tudanca;387.945,2;4.778.316,5;26;12;0,91;0;0,59;0;0;0;0;;PEÑA BEJO
+R1-005;Cantabria;Tudanca;387.945,2;4.778.316,5;26;55;0;0;0;0;0;0;0;;PEÑA BEJO
+R1-005;Cantabria;Valderredible;422.461,6;4.739.548,3;903;12;0,31;0;5,51;0;0;0;0;;POLIENTES
+R1-005;Cantabria;Valderredible;422.461,6;4.739.548,3;903;30;0;0;0;0;0;0;1;;POLIENTES
+R1-005;Cantabria;Santander;428.907,2;4.811.172,5;8;12;2,17;0;17,83;0;0;0;0;;PT_SANTANDER
+R1-005;Cantabria;Santander;428.907,2;4.811.172,5;8;55;0;0;0;0;0;0;0;;PT_SANTANDER
+R1-005;Cantabria;Santander;432.594,1;4.810.079,2;13;12;2,2;0;3,45;0;0;0;0;;PUERTO
+R1-005;Cantabria;Santander;432.594,1;4.810.079,2;13;55;0;0;32,15;0;0;0;0;;PUERTO
+R1-005;Cantabria;Ramales de la Victoria;461.950,8;4.789.972,8;87;12;0,85;0;4,57;0;0;0;0;;RAMALES
+R1-005;Cantabria;Ramales de la Victoria;461.950,8;4.789.972,8;87;55;0;0;0;0;0;0;0;;RAMALES
+R1-005;Cantabria;Reinosa;406.855,6;4.760.129,9;302;12;0;0;9,85;3,19;0;0;0;;REINOSA
+R1-005;Cantabria;Reinosa;406.855,6;4.760.129,9;302;30;0;0;21,65;2,39;0;0;0;;REINOSA
+R1-005;Cantabria;Reinosa;406.855,6;4.760.129,9;302;132;0;0;0;0;0;0;0;;REINOSA
+R1-005;Cantabria;Piélagos;422.496,8;4.801.167,8;756;12;0,53;0;15,7;0,9;0;0;0;;RENEDO
+R1-005;Cantabria;Piélagos;422.496,8;4.801.167,8;756;55;0;0;0;0;0;0;0;;RENEDO
+R1-005;Cantabria;Reocín;410.888,0;4.798.668,4;99;12;3,37;0;13,29;0;0;0;0;;REOCIN
+R1-005;Cantabria;Reocín;410.888,0;4.798.668,4;99;55;0;0;4,36;0;0;0;0;;REOCIN
+R1-005;Cantabria;Santillana del Mar;414.701,5;4.802.234,0;1759;12;0,53;0;19,97;3,8;0;0;0;;RIAÑO
+R1-005;Cantabria;Santillana del Mar;414.701,5;4.802.234,0;1759;55;0;0;0;0;0;0;0;;RIAÑO
+R1-005;Cantabria;Rionansa;387.417,2;4.786.475,2;1071;55;0;0;0;0;0;0;0;;ROZADIO
+R1-005;Cantabria;Torrelavega;412.682,9;4.801.069,2;957;12;0;0;26,16;0;0;0;1;;SAN_MIGUEL
+R1-005;Cantabria;Torrelavega;412.682,9;4.801.069,2;957;55;0;0;45,09;0;0;0;0;;SAN_MIGUEL
+R1-005;Cantabria;Torrelavega;412.682,9;4.801.069,2;957;132;0;0;0;0;0;0;0;;SAN_MIGUEL
+R1-005;Cantabria;Torrelavega;415.233,9;4.803.069,0;23;55;0;0;57,2;0;0;0;0;;SOLVAY_N
+R1-005;Cantabria;San Vicente de la Barquera;387.436,7;4.801.607,0;996;12;0;0;18,42;0;0;0;1;;S_VICENTE
+R1-005;Cantabria;San Vicente de la Barquera;387.436,7;4.801.607,0;996;55;0;0;0;0;0;0;0;;S_VICENTE
+R1-005;Cantabria;Torrelavega;415.152,4;4.797.765,9;1010;12;0,64;0;20,49;3,54;0;0;0;;TANOS
+R1-005;Cantabria;Torrelavega;415.152,4;4.797.765,9;1010;55;0;0;0;17,3;0;0;0;;TANOS
+R1-005;Cantabria;Santander;434.774,1;4.812.718,1;125;12;4,25;0;23,75;0;0;0;0;;TANTIN
+R1-005;Cantabria;Santander;434.774,1;4.812.718,1;125;55;0;0;0;0;0;0;0;;TANTIN
+R1-005;Cantabria;Vega de Liébana;423.233,6;4.784.885,0;518;12;0,99;0;4,78;0;0;0;0;;TORANZO
+R1-005;Cantabria;Vega de Liébana;423.233,6;4.784.885,0;518;55;0;0;0;0;0;0;0;;TORANZO
+R1-005;Cantabria;Molledo;414.840,3;4.774.617,7;363;12;0,83;0;7,62;10;0;0;0;;TORINA
+R1-005;Cantabria;Molledo;414.840,3;4.774.617,7;363;55;0;0;8,35;0;0;0;0;;TORINA
+R1-005;Cantabria;Bárcena de Cicero;461.484,1;4.804.916,5;54;12;0,65;0;17,20;0;0;0;0;;TRETO
+R1-005;Cantabria;Bárcena de Cicero;461.484,1;4.804.916,5;54;55;0;0;5,15;0;0;0;0;;TRETO
+R1-005;Cantabria;Ampuero;462.599,0;4.796.835,7;1756;12;0,73;0;9,15;0;0;0;0;;UDALLA
+R1-005;Cantabria;Ampuero;462.599,0;4.796.835,7;1756;55;0;0;0;0;0;0;0;;UDALLA
+R1-005;Cantabria;Peñarrubia;367.384,4;4.791.692,3;604;30;0,00;0;4,16;0;0;0;0;;URDON
+R1-005;Cantabria;Peñarrubia;367.384,4;4.791.692,3;604;132;3,00;0;0;0;0;0;0;;URDON
+R1-005;Cantabria;Santander;432.991,5;4.811.624,0;22;12;0,00;0;7,01;0;0;0;0;;VALDECILLA
+R1-005;Cantabria;Santander;432.991,5;4.811.624,0;22;55;0;0;5;0;0;0;0;;VALDECILLA
+R1-005;Cantabria;Valdeolea;404.842,0;4.747.593,8;389;12;0,66;0;0,84;0;0;0;0;;VALDEOLEA
+R1-005;Cantabria;Valdeolea;404.842,0;4.747.593,8;389;30;0;0;0;0;0;0;0;;VALDEOLEA
+R1-005;Lugo;Viveiro;132.447,0;4.836.310,7;1067;132;100;0;0;0;0;0;0;Capacidad disponible sujeta a la actualización del valor de referencia en el nudo de Boimente 400. Capacidad limitada según art. 3.2 Especificaciones de Detalle Capacidad Firme;BOIMENTE
+R1-005;Lugo;Vilalba;122.821,1;4.818.556,3;1039;132;70;0;0;0;0;0;0;Capacidad disponible sujeta a la actualización del valor de referencia en el nudo de Boimente 400;CARBA
+R1-005;Lugo;Mondoñedo;142.917,8;4.817.884,0;313;132;100;0;0;0;0;0;0;Capacidad disponible sujeta a la actualización del valor de referencia en el nudo de Boimente 400. Capacidad limitada según art. 3.2 Especificaciones de Detalle Capacidad Firme;ESTELO
+R1-005;Lugo;Fonsagrada (A);163.587,0;4.778.438,6;1755;132;80;0;0;0;0;0;0;Capacidad disponible sujeta a la actualización del valor de referencia en el nudo de Boimente 400;FONSAGRADA
+R1-005;Lugo;Castro de Rei;140.726,1;4.784.560,7;37;132;100;0;0;0;0;0;0;Capacidad disponible sujeta a la actualización del valor de referencia en el nudo de Boimente 400. Capacidad limitada según art. 3.2 Especificaciones de Detalle Capacidad Firme;LUDRIO
+R1-005;Lugo;Mondoñedo;146.550,7;4.818.040,1;73;132;68;0;0;0;0;0;0;Capacidad disponible sujeta a la actualización del valor de referencia en el nudo de Boimente 400;MONDONEDO
+R1-005;Lugo;Vilalba;121.786,5;4.806.250,8;1081;132;60;0;0;0;0;0;0;Capacidad disponible sujeta a la actualización del valor de referencia en el nudo de Boimente 400;SETE_PONTES
+R1-005;Lugo;Lugo;131.875,3;4.772.615,1;77;132;16,5;0;0;100;0;0;0;Capacidad disponible sujeta a la actualización del valor de referencia en el nudo de Boimente 400. Capacidad limitada según art. 3.2 Especificaciones de Detalle Capacidad Firme;SAN_CIBRAO
+R1-005;Lugo;Ribadeo;170.870,2;4.828.331,6;16;132;19;0;0;0;0;0;0;;RIBADEO
+R1-005;Palencia;Barruelo de Santullán;395.187,1;4.750.925,8;260;12;0;0;1,6;0;0;0;0;;BARRUELO
+R1-005;Palencia;Barruelo de Santullán;395.187,1;4.750.925,8;260;30;2;0;0;0;0;0;1;;BARRUELO
+R1-005;Palencia;Aguilar de Campoo;394.775,4;4.738.831,8;878;30;2;0;2,16;0;0;0;0;;C_AGUILAR
+R1-005;Palencia;Aguilar de Campoo;394.775,4;4.738.831,8;878;132;0;0;0;0;0;0;0;;C_AGUILAR
+R1-005;Palencia;Carrión de los Condes;367.656,4;4.689.393,6;182;12;0,12;0;5,75;0;0;0;0;;CARRION_N
+R1-005;Palencia;Carrión de los Condes;367.656,4;4.689.393,6;182;30;0;0;0;0;0;0;1;;CARRION_N
+R1-005;Palencia;Dehesa de Montejo;378.318,6;4.745.779,4;5;12;0;0;2,3;0;0;0;0;;CERVERA
+R1-005;Palencia;Dehesa de Montejo;378.318,6;4.745.779,4;5;30;0;0;0;0;0;0;1;;CERVERA
+R1-005;Palencia;Herrera de Pisuerga;390.161,9;4.717.197,5;255;12;1,45;0;3,35;0;0;0;0;;HERRERA
+R1-005;Palencia;Herrera de Pisuerga;390.161,9;4.717.197,5;255;30;2;0;0;0;0;0;0;;HERRERA
+R1-005;Palencia;Aguilar de Campoo;395.161,6;4.737.833,6;76;30;2;0;29,57;0;0;0;0;;MAZUELAS
+R1-005;Palencia;Aguilar de Campoo;395.161,6;4.737.833,6;76;132;0;0;0;0;0;0;0;;MAZUELAS
+R1-005;Palencia;Osorno la Mayor;387.481,8;4.696.192,1;587;12;0,12;0;3,97;0;0;0;0;;OSORNO
+R1-005;Palencia;Osorno la Mayor;387.481,8;4.696.192,1;587;30;0;0;18,55;0;0;0;1;;OSORNO
+R1-005;Palencia;Osorno la Mayor;387.481,8;4.696.192,1;587;132;0;0;0;0;0;0;0;;OSORNO
+R1-005;Palencia;Collazos de Boedo;389.753,6;4.720.050,1;222;30;0;0;5,62;0;0;0;1;;VILLABERMUDO
+R1-005;Palencia;Collazos de Boedo;389.753,6;4.720.050,1;222;132;0;0;0;0;0;0;0;;VILLABERMUDO
+R1-005;Tarragona;La Canonja;851.966,5;4.559.276,6;10;25;46,2;0;143,8;0;0;0;0; Inviabilidad de ampliación con nuevas posiciones;LA CANONJA

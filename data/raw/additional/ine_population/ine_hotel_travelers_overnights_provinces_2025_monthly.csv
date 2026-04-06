@@ -1,0 +1,3601 @@
+province_code,province_name,metric,year,month_number,period,value
+04,Almería,Viajero,2025,12,2025M12,50357
+04,Almería,Viajero,2025,11,2025M11,55620
+04,Almería,Viajero,2025,10,2025M10,115073
+04,Almería,Viajero,2025,9,2025M09,188306
+04,Almería,Viajero,2025,8,2025M08,276757
+04,Almería,Viajero,2025,7,2025M07,238971
+04,Almería,Viajero,2025,6,2025M06,211544
+04,Almería,Viajero,2025,5,2025M05,147501
+04,Almería,Viajero,2025,4,2025M04,112552
+04,Almería,Viajero,2025,3,2025M03,69431
+04,Almería,Viajero,2025,2,2025M02,64254
+04,Almería,Viajero,2025,1,2025M01,36785
+04,Almería,Viajero,2025,12,2025M12,38528
+04,Almería,Viajero,2025,11,2025M11,42064
+04,Almería,Viajero,2025,10,2025M10,81044
+04,Almería,Viajero,2025,9,2025M09,146143
+04,Almería,Viajero,2025,8,2025M08,230759
+04,Almería,Viajero,2025,7,2025M07,194704
+04,Almería,Viajero,2025,6,2025M06,175501
+04,Almería,Viajero,2025,5,2025M05,115078
+04,Almería,Viajero,2025,4,2025M04,85455
+04,Almería,Viajero,2025,3,2025M03,52946
+04,Almería,Viajero,2025,2,2025M02,51449
+04,Almería,Viajero,2025,1,2025M01,26043
+04,Almería,Viajero,2025,12,2025M12,11829
+04,Almería,Viajero,2025,11,2025M11,13556
+04,Almería,Viajero,2025,10,2025M10,34028
+04,Almería,Viajero,2025,9,2025M09,42163
+04,Almería,Viajero,2025,8,2025M08,45998
+04,Almería,Viajero,2025,7,2025M07,44268
+04,Almería,Viajero,2025,6,2025M06,36043
+04,Almería,Viajero,2025,5,2025M05,32422
+04,Almería,Viajero,2025,4,2025M04,27097
+04,Almería,Viajero,2025,3,2025M03,16484
+04,Almería,Viajero,2025,2,2025M02,12805
+04,Almería,Viajero,2025,1,2025M01,10742
+04,Almería,Pernoctaciones,2025,12,2025M12,113005
+04,Almería,Pernoctaciones,2025,11,2025M11,137136
+04,Almería,Pernoctaciones,2025,10,2025M10,319058
+04,Almería,Pernoctaciones,2025,9,2025M09,688993
+04,Almería,Pernoctaciones,2025,8,2025M08,1025660
+04,Almería,Pernoctaciones,2025,7,2025M07,934056
+04,Almería,Pernoctaciones,2025,6,2025M06,696228
+04,Almería,Pernoctaciones,2025,5,2025M05,477718
+04,Almería,Pernoctaciones,2025,4,2025M04,382981
+04,Almería,Pernoctaciones,2025,3,2025M03,245142
+04,Almería,Pernoctaciones,2025,2,2025M02,187060
+04,Almería,Pernoctaciones,2025,1,2025M01,90711
+04,Almería,Pernoctaciones,2025,12,2025M12,80823
+04,Almería,Pernoctaciones,2025,11,2025M11,84812
+04,Almería,Pernoctaciones,2025,10,2025M10,184681
+04,Almería,Pernoctaciones,2025,9,2025M09,497553
+04,Almería,Pernoctaciones,2025,8,2025M08,808303
+04,Almería,Pernoctaciones,2025,7,2025M07,741323
+04,Almería,Pernoctaciones,2025,6,2025M06,521661
+04,Almería,Pernoctaciones,2025,5,2025M05,351956
+04,Almería,Pernoctaciones,2025,4,2025M04,273876
+04,Almería,Pernoctaciones,2025,3,2025M03,183413
+04,Almería,Pernoctaciones,2025,2,2025M02,143553
+04,Almería,Pernoctaciones,2025,1,2025M01,57276
+04,Almería,Pernoctaciones,2025,12,2025M12,32182
+04,Almería,Pernoctaciones,2025,11,2025M11,52324
+04,Almería,Pernoctaciones,2025,10,2025M10,134377
+04,Almería,Pernoctaciones,2025,9,2025M09,191440
+04,Almería,Pernoctaciones,2025,8,2025M08,217357
+04,Almería,Pernoctaciones,2025,7,2025M07,192732
+04,Almería,Pernoctaciones,2025,6,2025M06,174567
+04,Almería,Pernoctaciones,2025,5,2025M05,125763
+04,Almería,Pernoctaciones,2025,4,2025M04,109105
+04,Almería,Pernoctaciones,2025,3,2025M03,61729
+04,Almería,Pernoctaciones,2025,2,2025M02,43507
+04,Almería,Pernoctaciones,2025,1,2025M01,33435
+11,Cádiz,Viajero,2025,12,2025M12,136573
+11,Cádiz,Viajero,2025,11,2025M11,155202
+11,Cádiz,Viajero,2025,10,2025M10,278880
+11,Cádiz,Viajero,2025,9,2025M09,311452
+11,Cádiz,Viajero,2025,8,2025M08,381409
+11,Cádiz,Viajero,2025,7,2025M07,371412
+11,Cádiz,Viajero,2025,6,2025M06,346407
+11,Cádiz,Viajero,2025,5,2025M05,308771
+11,Cádiz,Viajero,2025,4,2025M04,259883
+11,Cádiz,Viajero,2025,3,2025M03,147453
+11,Cádiz,Viajero,2025,2,2025M02,127353
+11,Cádiz,Viajero,2025,1,2025M01,106835
+11,Cádiz,Viajero,2025,12,2025M12,96936
+11,Cádiz,Viajero,2025,11,2025M11,101636
+11,Cádiz,Viajero,2025,10,2025M10,160796
+11,Cádiz,Viajero,2025,9,2025M09,203871
+11,Cádiz,Viajero,2025,8,2025M08,294193
+11,Cádiz,Viajero,2025,7,2025M07,279008
+11,Cádiz,Viajero,2025,6,2025M06,243945
+11,Cádiz,Viajero,2025,5,2025M05,202150
+11,Cádiz,Viajero,2025,4,2025M04,165206
+11,Cádiz,Viajero,2025,3,2025M03,91488
+11,Cádiz,Viajero,2025,2,2025M02,86588
+11,Cádiz,Viajero,2025,1,2025M01,70464
+11,Cádiz,Viajero,2025,12,2025M12,39636
+11,Cádiz,Viajero,2025,11,2025M11,53566
+11,Cádiz,Viajero,2025,10,2025M10,118085
+11,Cádiz,Viajero,2025,9,2025M09,107580
+11,Cádiz,Viajero,2025,8,2025M08,87216
+11,Cádiz,Viajero,2025,7,2025M07,92404
+11,Cádiz,Viajero,2025,6,2025M06,102462
+11,Cádiz,Viajero,2025,5,2025M05,106621
+11,Cádiz,Viajero,2025,4,2025M04,94677
+11,Cádiz,Viajero,2025,3,2025M03,55965
+11,Cádiz,Viajero,2025,2,2025M02,40765
+11,Cádiz,Viajero,2025,1,2025M01,36371
+11,Cádiz,Pernoctaciones,2025,12,2025M12,286419
+11,Cádiz,Pernoctaciones,2025,11,2025M11,372704
+11,Cádiz,Pernoctaciones,2025,10,2025M10,823552
+11,Cádiz,Pernoctaciones,2025,9,2025M09,1046929
+11,Cádiz,Pernoctaciones,2025,8,2025M08,1395922
+11,Cádiz,Pernoctaciones,2025,7,2025M07,1285232
+11,Cádiz,Pernoctaciones,2025,6,2025M06,1032410
+11,Cádiz,Pernoctaciones,2025,5,2025M05,884462
+11,Cádiz,Pernoctaciones,2025,4,2025M04,686011
+11,Cádiz,Pernoctaciones,2025,3,2025M03,374464
+11,Cádiz,Pernoctaciones,2025,2,2025M02,292027
+11,Cádiz,Pernoctaciones,2025,1,2025M01,245841
+11,Cádiz,Pernoctaciones,2025,12,2025M12,191686
+11,Cádiz,Pernoctaciones,2025,11,2025M11,211342
+11,Cádiz,Pernoctaciones,2025,10,2025M10,366178
+11,Cádiz,Pernoctaciones,2025,9,2025M09,611358
+11,Cádiz,Pernoctaciones,2025,8,2025M08,1078753
+11,Cádiz,Pernoctaciones,2025,7,2025M07,949021
+11,Cádiz,Pernoctaciones,2025,6,2025M06,641944
+11,Cádiz,Pernoctaciones,2025,5,2025M05,491618
+11,Cádiz,Pernoctaciones,2025,4,2025M04,388410
+11,Cádiz,Pernoctaciones,2025,3,2025M03,193600
+11,Cádiz,Pernoctaciones,2025,2,2025M02,164966
+11,Cádiz,Pernoctaciones,2025,1,2025M01,146569
+11,Cádiz,Pernoctaciones,2025,12,2025M12,94733
+11,Cádiz,Pernoctaciones,2025,11,2025M11,161362
+11,Cádiz,Pernoctaciones,2025,10,2025M10,457373
+11,Cádiz,Pernoctaciones,2025,9,2025M09,435571
+11,Cádiz,Pernoctaciones,2025,8,2025M08,317169
+11,Cádiz,Pernoctaciones,2025,7,2025M07,336211
+11,Cádiz,Pernoctaciones,2025,6,2025M06,390466
+11,Cádiz,Pernoctaciones,2025,5,2025M05,392844
+11,Cádiz,Pernoctaciones,2025,4,2025M04,297601
+11,Cádiz,Pernoctaciones,2025,3,2025M03,180863
+11,Cádiz,Pernoctaciones,2025,2,2025M02,127062
+11,Cádiz,Pernoctaciones,2025,1,2025M01,99272
+14,Córdoba,Viajero,2025,12,2025M12,91730
+14,Córdoba,Viajero,2025,11,2025M11,98095
+14,Córdoba,Viajero,2025,10,2025M10,116774
+14,Córdoba,Viajero,2025,9,2025M09,95418
+14,Córdoba,Viajero,2025,8,2025M08,86686
+14,Córdoba,Viajero,2025,7,2025M07,80770
+14,Córdoba,Viajero,2025,6,2025M06,97055
+14,Córdoba,Viajero,2025,5,2025M05,118799
+14,Córdoba,Viajero,2025,4,2025M04,121701
+14,Córdoba,Viajero,2025,3,2025M03,98204
+14,Córdoba,Viajero,2025,2,2025M02,81664
+14,Córdoba,Viajero,2025,1,2025M01,78080
+14,Córdoba,Viajero,2025,12,2025M12,61547
+14,Córdoba,Viajero,2025,11,2025M11,60803
+14,Córdoba,Viajero,2025,10,2025M10,59423
+14,Córdoba,Viajero,2025,9,2025M09,50856
+14,Córdoba,Viajero,2025,8,2025M08,52016
+14,Córdoba,Viajero,2025,7,2025M07,48246
+14,Córdoba,Viajero,2025,6,2025M06,55263
+14,Córdoba,Viajero,2025,5,2025M05,62399
+14,Córdoba,Viajero,2025,4,2025M04,59171
+14,Córdoba,Viajero,2025,3,2025M03,57394
+14,Córdoba,Viajero,2025,2,2025M02,54584
+14,Córdoba,Viajero,2025,1,2025M01,52793
+14,Córdoba,Viajero,2025,12,2025M12,30183
+14,Córdoba,Viajero,2025,11,2025M11,37292
+14,Córdoba,Viajero,2025,10,2025M10,57351
+14,Córdoba,Viajero,2025,9,2025M09,44562
+14,Córdoba,Viajero,2025,8,2025M08,34670
+14,Córdoba,Viajero,2025,7,2025M07,32524
+14,Córdoba,Viajero,2025,6,2025M06,41791
+14,Córdoba,Viajero,2025,5,2025M05,56400
+14,Córdoba,Viajero,2025,4,2025M04,62531
+14,Córdoba,Viajero,2025,3,2025M03,40810
+14,Córdoba,Viajero,2025,2,2025M02,27080
+14,Córdoba,Viajero,2025,1,2025M01,25287
+14,Córdoba,Pernoctaciones,2025,12,2025M12,155107
+14,Córdoba,Pernoctaciones,2025,11,2025M11,164454
+14,Córdoba,Pernoctaciones,2025,10,2025M10,193047
+14,Córdoba,Pernoctaciones,2025,9,2025M09,164230
+14,Córdoba,Pernoctaciones,2025,8,2025M08,156436
+14,Córdoba,Pernoctaciones,2025,7,2025M07,133177
+14,Córdoba,Pernoctaciones,2025,6,2025M06,161811
+14,Córdoba,Pernoctaciones,2025,5,2025M05,212766
+14,Córdoba,Pernoctaciones,2025,4,2025M04,205700
+14,Córdoba,Pernoctaciones,2025,3,2025M03,173303
+14,Córdoba,Pernoctaciones,2025,2,2025M02,137782
+14,Córdoba,Pernoctaciones,2025,1,2025M01,132076
+14,Córdoba,Pernoctaciones,2025,12,2025M12,106324
+14,Córdoba,Pernoctaciones,2025,11,2025M11,104570
+14,Córdoba,Pernoctaciones,2025,10,2025M10,100091
+14,Córdoba,Pernoctaciones,2025,9,2025M09,87555
+14,Córdoba,Pernoctaciones,2025,8,2025M08,96040
+14,Córdoba,Pernoctaciones,2025,7,2025M07,79200
+14,Córdoba,Pernoctaciones,2025,6,2025M06,93208
+14,Córdoba,Pernoctaciones,2025,5,2025M05,119481
+14,Córdoba,Pernoctaciones,2025,4,2025M04,107355
+14,Córdoba,Pernoctaciones,2025,3,2025M03,104793
+14,Córdoba,Pernoctaciones,2025,2,2025M02,91963
+14,Córdoba,Pernoctaciones,2025,1,2025M01,90046
+14,Córdoba,Pernoctaciones,2025,12,2025M12,48783
+14,Córdoba,Pernoctaciones,2025,11,2025M11,59884
+14,Córdoba,Pernoctaciones,2025,10,2025M10,92956
+14,Córdoba,Pernoctaciones,2025,9,2025M09,76675
+14,Córdoba,Pernoctaciones,2025,8,2025M08,60395
+14,Córdoba,Pernoctaciones,2025,7,2025M07,53977
+14,Córdoba,Pernoctaciones,2025,6,2025M06,68603
+14,Córdoba,Pernoctaciones,2025,5,2025M05,93285
+14,Córdoba,Pernoctaciones,2025,4,2025M04,98345
+14,Córdoba,Pernoctaciones,2025,3,2025M03,68510
+14,Córdoba,Pernoctaciones,2025,2,2025M02,45819
+14,Córdoba,Pernoctaciones,2025,1,2025M01,42031
+18,Granada,Viajero,2025,12,2025M12,219278
+18,Granada,Viajero,2025,11,2025M11,205815
+18,Granada,Viajero,2025,10,2025M10,269229
+18,Granada,Viajero,2025,9,2025M09,261673
+18,Granada,Viajero,2025,8,2025M08,265970
+18,Granada,Viajero,2025,7,2025M07,240435
+18,Granada,Viajero,2025,6,2025M06,243803
+18,Granada,Viajero,2025,5,2025M05,257371
+18,Granada,Viajero,2025,4,2025M04,260939
+18,Granada,Viajero,2025,3,2025M03,229683
+18,Granada,Viajero,2025,2,2025M02,220647
+18,Granada,Viajero,2025,1,2025M01,193901
+18,Granada,Viajero,2025,12,2025M12,132221
+18,Granada,Viajero,2025,11,2025M11,114387
+18,Granada,Viajero,2025,10,2025M10,130914
+18,Granada,Viajero,2025,9,2025M09,129012
+18,Granada,Viajero,2025,8,2025M08,160100
+18,Granada,Viajero,2025,7,2025M07,129953
+18,Granada,Viajero,2025,6,2025M06,129378
+18,Granada,Viajero,2025,5,2025M05,120041
+18,Granada,Viajero,2025,4,2025M04,129467
+18,Granada,Viajero,2025,3,2025M03,125370
+18,Granada,Viajero,2025,2,2025M02,140887
+18,Granada,Viajero,2025,1,2025M01,114419
+18,Granada,Viajero,2025,12,2025M12,87057
+18,Granada,Viajero,2025,11,2025M11,91429
+18,Granada,Viajero,2025,10,2025M10,138315
+18,Granada,Viajero,2025,9,2025M09,132661
+18,Granada,Viajero,2025,8,2025M08,105870
+18,Granada,Viajero,2025,7,2025M07,110482
+18,Granada,Viajero,2025,6,2025M06,114425
+18,Granada,Viajero,2025,5,2025M05,137330
+18,Granada,Viajero,2025,4,2025M04,131472
+18,Granada,Viajero,2025,3,2025M03,104312
+18,Granada,Viajero,2025,2,2025M02,79760
+18,Granada,Viajero,2025,1,2025M01,79482
+18,Granada,Pernoctaciones,2025,12,2025M12,433327
+18,Granada,Pernoctaciones,2025,11,2025M11,412016
+18,Granada,Pernoctaciones,2025,10,2025M10,558102
+18,Granada,Pernoctaciones,2025,9,2025M09,583945
+18,Granada,Pernoctaciones,2025,8,2025M08,638415
+18,Granada,Pernoctaciones,2025,7,2025M07,543231
+18,Granada,Pernoctaciones,2025,6,2025M06,527901
+18,Granada,Pernoctaciones,2025,5,2025M05,549063
+18,Granada,Pernoctaciones,2025,4,2025M04,562550
+18,Granada,Pernoctaciones,2025,3,2025M03,495434
+18,Granada,Pernoctaciones,2025,2,2025M02,432044
+18,Granada,Pernoctaciones,2025,1,2025M01,376791
+18,Granada,Pernoctaciones,2025,12,2025M12,261087
+18,Granada,Pernoctaciones,2025,11,2025M11,218580
+18,Granada,Pernoctaciones,2025,10,2025M10,252672
+18,Granada,Pernoctaciones,2025,9,2025M09,282367
+18,Granada,Pernoctaciones,2025,8,2025M08,400546
+18,Granada,Pernoctaciones,2025,7,2025M07,307804
+18,Granada,Pernoctaciones,2025,6,2025M06,278026
+18,Granada,Pernoctaciones,2025,5,2025M05,248014
+18,Granada,Pernoctaciones,2025,4,2025M04,279147
+18,Granada,Pernoctaciones,2025,3,2025M03,257973
+18,Granada,Pernoctaciones,2025,2,2025M02,257814
+18,Granada,Pernoctaciones,2025,1,2025M01,211034
+18,Granada,Pernoctaciones,2025,12,2025M12,172240
+18,Granada,Pernoctaciones,2025,11,2025M11,193436
+18,Granada,Pernoctaciones,2025,10,2025M10,305431
+18,Granada,Pernoctaciones,2025,9,2025M09,301577
+18,Granada,Pernoctaciones,2025,8,2025M08,237869
+18,Granada,Pernoctaciones,2025,7,2025M07,235427
+18,Granada,Pernoctaciones,2025,6,2025M06,249876
+18,Granada,Pernoctaciones,2025,5,2025M05,301049
+18,Granada,Pernoctaciones,2025,4,2025M04,283403
+18,Granada,Pernoctaciones,2025,3,2025M03,237461
+18,Granada,Pernoctaciones,2025,2,2025M02,174231
+18,Granada,Pernoctaciones,2025,1,2025M01,165757
+21,Huelva,Viajero,2025,12,2025M12,27887
+21,Huelva,Viajero,2025,11,2025M11,31547
+21,Huelva,Viajero,2025,10,2025M10,78195
+21,Huelva,Viajero,2025,9,2025M09,153033
+21,Huelva,Viajero,2025,8,2025M08,181444
+21,Huelva,Viajero,2025,7,2025M07,172504
+21,Huelva,Viajero,2025,6,2025M06,156786
+21,Huelva,Viajero,2025,5,2025M05,129725
+21,Huelva,Viajero,2025,4,2025M04,97701
+21,Huelva,Viajero,2025,3,2025M03,51106
+21,Huelva,Viajero,2025,2,2025M02,37989
+21,Huelva,Viajero,2025,1,2025M01,23195
+21,Huelva,Viajero,2025,12,2025M12,23538
+21,Huelva,Viajero,2025,11,2025M11,25447
+21,Huelva,Viajero,2025,10,2025M10,56029
+21,Huelva,Viajero,2025,9,2025M09,110252
+21,Huelva,Viajero,2025,8,2025M08,130463
+21,Huelva,Viajero,2025,7,2025M07,133751
+21,Huelva,Viajero,2025,6,2025M06,110289
+21,Huelva,Viajero,2025,5,2025M05,96706
+21,Huelva,Viajero,2025,4,2025M04,64308
+21,Huelva,Viajero,2025,3,2025M03,39055
+21,Huelva,Viajero,2025,2,2025M02,30959
+21,Huelva,Viajero,2025,1,2025M01,18654
+21,Huelva,Viajero,2025,12,2025M12,4350
+21,Huelva,Viajero,2025,11,2025M11,6100
+21,Huelva,Viajero,2025,10,2025M10,22166
+21,Huelva,Viajero,2025,9,2025M09,42781
+21,Huelva,Viajero,2025,8,2025M08,50981
+21,Huelva,Viajero,2025,7,2025M07,38753
+21,Huelva,Viajero,2025,6,2025M06,46496
+21,Huelva,Viajero,2025,5,2025M05,33019
+21,Huelva,Viajero,2025,4,2025M04,33392
+21,Huelva,Viajero,2025,3,2025M03,12051
+21,Huelva,Viajero,2025,2,2025M02,7030
+21,Huelva,Viajero,2025,1,2025M01,4541
+21,Huelva,Pernoctaciones,2025,12,2025M12,55284
+21,Huelva,Pernoctaciones,2025,11,2025M11,74234
+21,Huelva,Pernoctaciones,2025,10,2025M10,234221
+21,Huelva,Pernoctaciones,2025,9,2025M09,557615
+21,Huelva,Pernoctaciones,2025,8,2025M08,746129
+21,Huelva,Pernoctaciones,2025,7,2025M07,697257
+21,Huelva,Pernoctaciones,2025,6,2025M06,544851
+21,Huelva,Pernoctaciones,2025,5,2025M05,410861
+21,Huelva,Pernoctaciones,2025,4,2025M04,323776
+21,Huelva,Pernoctaciones,2025,3,2025M03,144951
+21,Huelva,Pernoctaciones,2025,2,2025M02,103528
+21,Huelva,Pernoctaciones,2025,1,2025M01,54499
+21,Huelva,Pernoctaciones,2025,12,2025M12,41931
+21,Huelva,Pernoctaciones,2025,11,2025M11,49365
+21,Huelva,Pernoctaciones,2025,10,2025M10,127430
+21,Huelva,Pernoctaciones,2025,9,2025M09,336370
+21,Huelva,Pernoctaciones,2025,8,2025M08,487857
+21,Huelva,Pernoctaciones,2025,7,2025M07,487846
+21,Huelva,Pernoctaciones,2025,6,2025M06,319714
+21,Huelva,Pernoctaciones,2025,5,2025M05,271509
+21,Huelva,Pernoctaciones,2025,4,2025M04,181765
+21,Huelva,Pernoctaciones,2025,3,2025M03,97642
+21,Huelva,Pernoctaciones,2025,2,2025M02,69786
+21,Huelva,Pernoctaciones,2025,1,2025M01,35960
+21,Huelva,Pernoctaciones,2025,12,2025M12,13354
+21,Huelva,Pernoctaciones,2025,11,2025M11,24869
+21,Huelva,Pernoctaciones,2025,10,2025M10,106792
+21,Huelva,Pernoctaciones,2025,9,2025M09,221245
+21,Huelva,Pernoctaciones,2025,8,2025M08,258273
+21,Huelva,Pernoctaciones,2025,7,2025M07,209411
+21,Huelva,Pernoctaciones,2025,6,2025M06,225138
+21,Huelva,Pernoctaciones,2025,5,2025M05,139351
+21,Huelva,Pernoctaciones,2025,4,2025M04,142011
+21,Huelva,Pernoctaciones,2025,3,2025M03,47309
+21,Huelva,Pernoctaciones,2025,2,2025M02,33742
+21,Huelva,Pernoctaciones,2025,1,2025M01,18539
+23,Jaén,Viajero,2025,12,2025M12,43604
+23,Jaén,Viajero,2025,11,2025M11,47778
+23,Jaén,Viajero,2025,10,2025M10,60169
+23,Jaén,Viajero,2025,9,2025M09,52177
+23,Jaén,Viajero,2025,8,2025M08,57597
+23,Jaén,Viajero,2025,7,2025M07,45927
+23,Jaén,Viajero,2025,6,2025M06,52512
+23,Jaén,Viajero,2025,5,2025M05,60330
+23,Jaén,Viajero,2025,4,2025M04,58742
+23,Jaén,Viajero,2025,3,2025M03,42570
+23,Jaén,Viajero,2025,2,2025M02,39187
+23,Jaén,Viajero,2025,1,2025M01,32724
+23,Jaén,Viajero,2025,12,2025M12,39887
+23,Jaén,Viajero,2025,11,2025M11,42854
+23,Jaén,Viajero,2025,10,2025M10,52018
+23,Jaén,Viajero,2025,9,2025M09,44426
+23,Jaén,Viajero,2025,8,2025M08,50380
+23,Jaén,Viajero,2025,7,2025M07,39614
+23,Jaén,Viajero,2025,6,2025M06,46755
+23,Jaén,Viajero,2025,5,2025M05,50581
+23,Jaén,Viajero,2025,4,2025M04,51266
+23,Jaén,Viajero,2025,3,2025M03,38026
+23,Jaén,Viajero,2025,2,2025M02,35579
+23,Jaén,Viajero,2025,1,2025M01,30010
+23,Jaén,Viajero,2025,12,2025M12,3717
+23,Jaén,Viajero,2025,11,2025M11,4923
+23,Jaén,Viajero,2025,10,2025M10,8151
+23,Jaén,Viajero,2025,9,2025M09,7751
+23,Jaén,Viajero,2025,8,2025M08,7217
+23,Jaén,Viajero,2025,7,2025M07,6313
+23,Jaén,Viajero,2025,6,2025M06,5757
+23,Jaén,Viajero,2025,5,2025M05,9749
+23,Jaén,Viajero,2025,4,2025M04,7476
+23,Jaén,Viajero,2025,3,2025M03,4544
+23,Jaén,Viajero,2025,2,2025M02,3608
+23,Jaén,Viajero,2025,1,2025M01,2715
+23,Jaén,Pernoctaciones,2025,12,2025M12,75179
+23,Jaén,Pernoctaciones,2025,11,2025M11,86673
+23,Jaén,Pernoctaciones,2025,10,2025M10,105039
+23,Jaén,Pernoctaciones,2025,9,2025M09,90564
+23,Jaén,Pernoctaciones,2025,8,2025M08,112551
+23,Jaén,Pernoctaciones,2025,7,2025M07,82383
+23,Jaén,Pernoctaciones,2025,6,2025M06,92175
+23,Jaén,Pernoctaciones,2025,5,2025M05,106729
+23,Jaén,Pernoctaciones,2025,4,2025M04,110880
+23,Jaén,Pernoctaciones,2025,3,2025M03,79077
+23,Jaén,Pernoctaciones,2025,2,2025M02,67200
+23,Jaén,Pernoctaciones,2025,1,2025M01,57336
+23,Jaén,Pernoctaciones,2025,12,2025M12,68965
+23,Jaén,Pernoctaciones,2025,11,2025M11,78143
+23,Jaén,Pernoctaciones,2025,10,2025M10,92194
+23,Jaén,Pernoctaciones,2025,9,2025M09,77987
+23,Jaén,Pernoctaciones,2025,8,2025M08,101886
+23,Jaén,Pernoctaciones,2025,7,2025M07,72256
+23,Jaén,Pernoctaciones,2025,6,2025M06,82901
+23,Jaén,Pernoctaciones,2025,5,2025M05,90751
+23,Jaén,Pernoctaciones,2025,4,2025M04,97646
+23,Jaén,Pernoctaciones,2025,3,2025M03,70759
+23,Jaén,Pernoctaciones,2025,2,2025M02,61679
+23,Jaén,Pernoctaciones,2025,1,2025M01,53177
+23,Jaén,Pernoctaciones,2025,12,2025M12,6214
+23,Jaén,Pernoctaciones,2025,11,2025M11,8530
+23,Jaén,Pernoctaciones,2025,10,2025M10,12844
+23,Jaén,Pernoctaciones,2025,9,2025M09,12577
+23,Jaén,Pernoctaciones,2025,8,2025M08,10665
+23,Jaén,Pernoctaciones,2025,7,2025M07,10127
+23,Jaén,Pernoctaciones,2025,6,2025M06,9273
+23,Jaén,Pernoctaciones,2025,5,2025M05,15978
+23,Jaén,Pernoctaciones,2025,4,2025M04,13234
+23,Jaén,Pernoctaciones,2025,3,2025M03,8319
+23,Jaén,Pernoctaciones,2025,2,2025M02,5521
+23,Jaén,Pernoctaciones,2025,1,2025M01,4159
+29,Málaga,Viajero,2025,12,2025M12,329153
+29,Málaga,Viajero,2025,11,2025M11,394575
+29,Málaga,Viajero,2025,10,2025M10,618584
+29,Málaga,Viajero,2025,9,2025M09,641763
+29,Málaga,Viajero,2025,8,2025M08,722501
+29,Málaga,Viajero,2025,7,2025M07,671077
+29,Málaga,Viajero,2025,6,2025M06,612924
+29,Málaga,Viajero,2025,5,2025M05,637204
+29,Málaga,Viajero,2025,4,2025M04,587800
+29,Málaga,Viajero,2025,3,2025M03,423051
+29,Málaga,Viajero,2025,2,2025M02,368010
+29,Málaga,Viajero,2025,1,2025M01,270005
+29,Málaga,Viajero,2025,12,2025M12,140369
+29,Málaga,Viajero,2025,11,2025M11,148879
+29,Málaga,Viajero,2025,10,2025M10,163815
+29,Málaga,Viajero,2025,9,2025M09,194673
+29,Málaga,Viajero,2025,8,2025M08,291484
+29,Málaga,Viajero,2025,7,2025M07,266023
+29,Málaga,Viajero,2025,6,2025M06,195165
+29,Málaga,Viajero,2025,5,2025M05,169534
+29,Málaga,Viajero,2025,4,2025M04,171551
+29,Málaga,Viajero,2025,3,2025M03,132671
+29,Málaga,Viajero,2025,2,2025M02,153408
+29,Málaga,Viajero,2025,1,2025M01,98341
+29,Málaga,Viajero,2025,12,2025M12,188784
+29,Málaga,Viajero,2025,11,2025M11,245696
+29,Málaga,Viajero,2025,10,2025M10,454770
+29,Málaga,Viajero,2025,9,2025M09,447090
+29,Málaga,Viajero,2025,8,2025M08,431017
+29,Málaga,Viajero,2025,7,2025M07,405053
+29,Málaga,Viajero,2025,6,2025M06,417759
+29,Málaga,Viajero,2025,5,2025M05,467670
+29,Málaga,Viajero,2025,4,2025M04,416249
+29,Málaga,Viajero,2025,3,2025M03,290380
+29,Málaga,Viajero,2025,2,2025M02,214602
+29,Málaga,Viajero,2025,1,2025M01,171664
+29,Málaga,Pernoctaciones,2025,12,2025M12,962561
+29,Málaga,Pernoctaciones,2025,11,2025M11,1239031
+29,Málaga,Pernoctaciones,2025,10,2025M10,2261407
+29,Málaga,Pernoctaciones,2025,9,2025M09,2344703
+29,Málaga,Pernoctaciones,2025,8,2025M08,2865636
+29,Málaga,Pernoctaciones,2025,7,2025M07,2588361
+29,Málaga,Pernoctaciones,2025,6,2025M06,2290250
+29,Málaga,Pernoctaciones,2025,5,2025M05,2174815
+29,Málaga,Pernoctaciones,2025,4,2025M04,1995196
+29,Málaga,Pernoctaciones,2025,3,2025M03,1457296
+29,Málaga,Pernoctaciones,2025,2,2025M02,1160539
+29,Málaga,Pernoctaciones,2025,1,2025M01,846283
+29,Málaga,Pernoctaciones,2025,12,2025M12,282864
+29,Málaga,Pernoctaciones,2025,11,2025M11,294421
+29,Málaga,Pernoctaciones,2025,10,2025M10,339091
+29,Málaga,Pernoctaciones,2025,9,2025M09,490033
+29,Málaga,Pernoctaciones,2025,8,2025M08,935256
+29,Málaga,Pernoctaciones,2025,7,2025M07,770668
+29,Málaga,Pernoctaciones,2025,6,2025M06,463100
+29,Málaga,Pernoctaciones,2025,5,2025M05,389748
+29,Málaga,Pernoctaciones,2025,4,2025M04,438421
+29,Málaga,Pernoctaciones,2025,3,2025M03,281012
+29,Málaga,Pernoctaciones,2025,2,2025M02,302301
+29,Málaga,Pernoctaciones,2025,1,2025M01,188480
+29,Málaga,Pernoctaciones,2025,12,2025M12,679696
+29,Málaga,Pernoctaciones,2025,11,2025M11,944610
+29,Málaga,Pernoctaciones,2025,10,2025M10,1922316
+29,Málaga,Pernoctaciones,2025,9,2025M09,1854670
+29,Málaga,Pernoctaciones,2025,8,2025M08,1930380
+29,Málaga,Pernoctaciones,2025,7,2025M07,1817692
+29,Málaga,Pernoctaciones,2025,6,2025M06,1827151
+29,Málaga,Pernoctaciones,2025,5,2025M05,1785067
+29,Málaga,Pernoctaciones,2025,4,2025M04,1556775
+29,Málaga,Pernoctaciones,2025,3,2025M03,1176285
+29,Málaga,Pernoctaciones,2025,2,2025M02,858238
+29,Málaga,Pernoctaciones,2025,1,2025M01,657803
+41,Sevilla,Viajero,2025,12,2025M12,298309
+41,Sevilla,Viajero,2025,11,2025M11,317715
+41,Sevilla,Viajero,2025,10,2025M10,366742
+41,Sevilla,Viajero,2025,9,2025M09,351790
+41,Sevilla,Viajero,2025,8,2025M08,314675
+41,Sevilla,Viajero,2025,7,2025M07,297892
+41,Sevilla,Viajero,2025,6,2025M06,331000
+41,Sevilla,Viajero,2025,5,2025M05,366777
+41,Sevilla,Viajero,2025,4,2025M04,347906
+41,Sevilla,Viajero,2025,3,2025M03,309457
+41,Sevilla,Viajero,2025,2,2025M02,270998
+41,Sevilla,Viajero,2025,1,2025M01,253879
+41,Sevilla,Viajero,2025,12,2025M12,152082
+41,Sevilla,Viajero,2025,11,2025M11,149822
+41,Sevilla,Viajero,2025,10,2025M10,139814
+41,Sevilla,Viajero,2025,9,2025M09,142390
+41,Sevilla,Viajero,2025,8,2025M08,124477
+41,Sevilla,Viajero,2025,7,2025M07,130677
+41,Sevilla,Viajero,2025,6,2025M06,143147
+41,Sevilla,Viajero,2025,5,2025M05,139366
+41,Sevilla,Viajero,2025,4,2025M04,130753
+41,Sevilla,Viajero,2025,3,2025M03,138186
+41,Sevilla,Viajero,2025,2,2025M02,130467
+41,Sevilla,Viajero,2025,1,2025M01,126493
+41,Sevilla,Viajero,2025,12,2025M12,146227
+41,Sevilla,Viajero,2025,11,2025M11,167893
+41,Sevilla,Viajero,2025,10,2025M10,226927
+41,Sevilla,Viajero,2025,9,2025M09,209400
+41,Sevilla,Viajero,2025,8,2025M08,190198
+41,Sevilla,Viajero,2025,7,2025M07,167215
+41,Sevilla,Viajero,2025,6,2025M06,187853
+41,Sevilla,Viajero,2025,5,2025M05,227411
+41,Sevilla,Viajero,2025,4,2025M04,217153
+41,Sevilla,Viajero,2025,3,2025M03,171271
+41,Sevilla,Viajero,2025,2,2025M02,140532
+41,Sevilla,Viajero,2025,1,2025M01,127385
+41,Sevilla,Pernoctaciones,2025,12,2025M12,612164
+41,Sevilla,Pernoctaciones,2025,11,2025M11,659455
+41,Sevilla,Pernoctaciones,2025,10,2025M10,756432
+41,Sevilla,Pernoctaciones,2025,9,2025M09,699294
+41,Sevilla,Pernoctaciones,2025,8,2025M08,645475
+41,Sevilla,Pernoctaciones,2025,7,2025M07,594291
+41,Sevilla,Pernoctaciones,2025,6,2025M06,663710
+41,Sevilla,Pernoctaciones,2025,5,2025M05,766568
+41,Sevilla,Pernoctaciones,2025,4,2025M04,736963
+41,Sevilla,Pernoctaciones,2025,3,2025M03,657960
+41,Sevilla,Pernoctaciones,2025,2,2025M02,554132
+41,Sevilla,Pernoctaciones,2025,1,2025M01,494915
+41,Sevilla,Pernoctaciones,2025,12,2025M12,275677
+41,Sevilla,Pernoctaciones,2025,11,2025M11,270256
+41,Sevilla,Pernoctaciones,2025,10,2025M10,240993
+41,Sevilla,Pernoctaciones,2025,9,2025M09,241395
+41,Sevilla,Pernoctaciones,2025,8,2025M08,217272
+41,Sevilla,Pernoctaciones,2025,7,2025M07,228080
+41,Sevilla,Pernoctaciones,2025,6,2025M06,245185
+41,Sevilla,Pernoctaciones,2025,5,2025M05,247312
+41,Sevilla,Pernoctaciones,2025,4,2025M04,237156
+41,Sevilla,Pernoctaciones,2025,3,2025M03,240496
+41,Sevilla,Pernoctaciones,2025,2,2025M02,222029
+41,Sevilla,Pernoctaciones,2025,1,2025M01,215601
+41,Sevilla,Pernoctaciones,2025,12,2025M12,336486
+41,Sevilla,Pernoctaciones,2025,11,2025M11,389198
+41,Sevilla,Pernoctaciones,2025,10,2025M10,515439
+41,Sevilla,Pernoctaciones,2025,9,2025M09,457899
+41,Sevilla,Pernoctaciones,2025,8,2025M08,428203
+41,Sevilla,Pernoctaciones,2025,7,2025M07,366210
+41,Sevilla,Pernoctaciones,2025,6,2025M06,418525
+41,Sevilla,Pernoctaciones,2025,5,2025M05,519256
+41,Sevilla,Pernoctaciones,2025,4,2025M04,499807
+41,Sevilla,Pernoctaciones,2025,3,2025M03,417464
+41,Sevilla,Pernoctaciones,2025,2,2025M02,332103
+41,Sevilla,Pernoctaciones,2025,1,2025M01,279314
+22,Huesca,Viajero,2025,12,2025M12,68500
+22,Huesca,Viajero,2025,11,2025M11,41861
+22,Huesca,Viajero,2025,10,2025M10,72162
+22,Huesca,Viajero,2025,9,2025M09,93724
+22,Huesca,Viajero,2025,8,2025M08,144467
+22,Huesca,Viajero,2025,7,2025M07,119758
+22,Huesca,Viajero,2025,6,2025M06,92737
+22,Huesca,Viajero,2025,5,2025M05,69214
+22,Huesca,Viajero,2025,4,2025M04,63601
+22,Huesca,Viajero,2025,3,2025M03,68184
+22,Huesca,Viajero,2025,2,2025M02,85457
+22,Huesca,Viajero,2025,1,2025M01,67834
+22,Huesca,Viajero,2025,12,2025M12,62046
+22,Huesca,Viajero,2025,11,2025M11,36730
+22,Huesca,Viajero,2025,10,2025M10,60020
+22,Huesca,Viajero,2025,9,2025M09,70189
+22,Huesca,Viajero,2025,8,2025M08,118847
+22,Huesca,Viajero,2025,7,2025M07,95587
+22,Huesca,Viajero,2025,6,2025M06,70842
+22,Huesca,Viajero,2025,5,2025M05,50161
+22,Huesca,Viajero,2025,4,2025M04,53228
+22,Huesca,Viajero,2025,3,2025M03,61314
+22,Huesca,Viajero,2025,2,2025M02,78493
+22,Huesca,Viajero,2025,1,2025M01,62721
+22,Huesca,Viajero,2025,12,2025M12,6454
+22,Huesca,Viajero,2025,11,2025M11,5131
+22,Huesca,Viajero,2025,10,2025M10,12142
+22,Huesca,Viajero,2025,9,2025M09,23535
+22,Huesca,Viajero,2025,8,2025M08,25620
+22,Huesca,Viajero,2025,7,2025M07,24171
+22,Huesca,Viajero,2025,6,2025M06,21895
+22,Huesca,Viajero,2025,5,2025M05,19052
+22,Huesca,Viajero,2025,4,2025M04,10372
+22,Huesca,Viajero,2025,3,2025M03,6870
+22,Huesca,Viajero,2025,2,2025M02,6964
+22,Huesca,Viajero,2025,1,2025M01,5113
+22,Huesca,Pernoctaciones,2025,12,2025M12,149237
+22,Huesca,Pernoctaciones,2025,11,2025M11,84339
+22,Huesca,Pernoctaciones,2025,10,2025M10,151978
+22,Huesca,Pernoctaciones,2025,9,2025M09,196246
+22,Huesca,Pernoctaciones,2025,8,2025M08,346801
+22,Huesca,Pernoctaciones,2025,7,2025M07,268472
+22,Huesca,Pernoctaciones,2025,6,2025M06,173336
+22,Huesca,Pernoctaciones,2025,5,2025M05,136621
+22,Huesca,Pernoctaciones,2025,4,2025M04,129316
+22,Huesca,Pernoctaciones,2025,3,2025M03,161024
+22,Huesca,Pernoctaciones,2025,2,2025M02,208360
+22,Huesca,Pernoctaciones,2025,1,2025M01,166858
+22,Huesca,Pernoctaciones,2025,12,2025M12,133346
+22,Huesca,Pernoctaciones,2025,11,2025M11,72369
+22,Huesca,Pernoctaciones,2025,10,2025M10,125476
+22,Huesca,Pernoctaciones,2025,9,2025M09,148839
+22,Huesca,Pernoctaciones,2025,8,2025M08,296264
+22,Huesca,Pernoctaciones,2025,7,2025M07,222399
+22,Huesca,Pernoctaciones,2025,6,2025M06,135738
+22,Huesca,Pernoctaciones,2025,5,2025M05,97443
+22,Huesca,Pernoctaciones,2025,4,2025M04,108268
+22,Huesca,Pernoctaciones,2025,3,2025M03,144331
+22,Huesca,Pernoctaciones,2025,2,2025M02,190685
+22,Huesca,Pernoctaciones,2025,1,2025M01,152632
+22,Huesca,Pernoctaciones,2025,12,2025M12,15890
+22,Huesca,Pernoctaciones,2025,11,2025M11,11970
+22,Huesca,Pernoctaciones,2025,10,2025M10,26502
+22,Huesca,Pernoctaciones,2025,9,2025M09,47406
+22,Huesca,Pernoctaciones,2025,8,2025M08,50537
+22,Huesca,Pernoctaciones,2025,7,2025M07,46073
+22,Huesca,Pernoctaciones,2025,6,2025M06,37597
+22,Huesca,Pernoctaciones,2025,5,2025M05,39177
+22,Huesca,Pernoctaciones,2025,4,2025M04,21048
+22,Huesca,Pernoctaciones,2025,3,2025M03,16693
+22,Huesca,Pernoctaciones,2025,2,2025M02,17675
+22,Huesca,Pernoctaciones,2025,1,2025M01,14226
+44,Teruel,Viajero,2025,12,2025M12,29849
+44,Teruel,Viajero,2025,11,2025M11,33898
+44,Teruel,Viajero,2025,10,2025M10,47206
+44,Teruel,Viajero,2025,9,2025M09,47231
+44,Teruel,Viajero,2025,8,2025M08,57857
+44,Teruel,Viajero,2025,7,2025M07,39576
+44,Teruel,Viajero,2025,6,2025M06,38777
+44,Teruel,Viajero,2025,5,2025M05,41108
+44,Teruel,Viajero,2025,4,2025M04,43500
+44,Teruel,Viajero,2025,3,2025M03,32079
+44,Teruel,Viajero,2025,2,2025M02,28122
+44,Teruel,Viajero,2025,1,2025M01,22408
+44,Teruel,Viajero,2025,12,2025M12,27132
+44,Teruel,Viajero,2025,11,2025M11,30149
+44,Teruel,Viajero,2025,10,2025M10,40647
+44,Teruel,Viajero,2025,9,2025M09,39616
+44,Teruel,Viajero,2025,8,2025M08,52496
+44,Teruel,Viajero,2025,7,2025M07,34163
+44,Teruel,Viajero,2025,6,2025M06,32452
+44,Teruel,Viajero,2025,5,2025M05,33957
+44,Teruel,Viajero,2025,4,2025M04,38285
+44,Teruel,Viajero,2025,3,2025M03,27927
+44,Teruel,Viajero,2025,2,2025M02,25267
+44,Teruel,Viajero,2025,1,2025M01,19789
+44,Teruel,Viajero,2025,12,2025M12,2717
+44,Teruel,Viajero,2025,11,2025M11,3749
+44,Teruel,Viajero,2025,10,2025M10,6559
+44,Teruel,Viajero,2025,9,2025M09,7615
+44,Teruel,Viajero,2025,8,2025M08,5361
+44,Teruel,Viajero,2025,7,2025M07,5413
+44,Teruel,Viajero,2025,6,2025M06,6325
+44,Teruel,Viajero,2025,5,2025M05,7151
+44,Teruel,Viajero,2025,4,2025M04,5215
+44,Teruel,Viajero,2025,3,2025M03,4152
+44,Teruel,Viajero,2025,2,2025M02,2855
+44,Teruel,Viajero,2025,1,2025M01,2619
+44,Teruel,Pernoctaciones,2025,12,2025M12,60012
+44,Teruel,Pernoctaciones,2025,11,2025M11,67345
+44,Teruel,Pernoctaciones,2025,10,2025M10,95283
+44,Teruel,Pernoctaciones,2025,9,2025M09,93444
+44,Teruel,Pernoctaciones,2025,8,2025M08,114595
+44,Teruel,Pernoctaciones,2025,7,2025M07,83510
+44,Teruel,Pernoctaciones,2025,6,2025M06,84455
+44,Teruel,Pernoctaciones,2025,5,2025M05,88882
+44,Teruel,Pernoctaciones,2025,4,2025M04,88753
+44,Teruel,Pernoctaciones,2025,3,2025M03,66384
+44,Teruel,Pernoctaciones,2025,2,2025M02,57598
+44,Teruel,Pernoctaciones,2025,1,2025M01,45608
+44,Teruel,Pernoctaciones,2025,12,2025M12,50074
+44,Teruel,Pernoctaciones,2025,11,2025M11,58762
+44,Teruel,Pernoctaciones,2025,10,2025M10,82587
+44,Teruel,Pernoctaciones,2025,9,2025M09,78626
+44,Teruel,Pernoctaciones,2025,8,2025M08,105228
+44,Teruel,Pernoctaciones,2025,7,2025M07,69203
+44,Teruel,Pernoctaciones,2025,6,2025M06,67973
+44,Teruel,Pernoctaciones,2025,5,2025M05,71330
+44,Teruel,Pernoctaciones,2025,4,2025M04,75176
+44,Teruel,Pernoctaciones,2025,3,2025M03,52876
+44,Teruel,Pernoctaciones,2025,2,2025M02,48660
+44,Teruel,Pernoctaciones,2025,1,2025M01,36185
+44,Teruel,Pernoctaciones,2025,12,2025M12,9938
+44,Teruel,Pernoctaciones,2025,11,2025M11,8583
+44,Teruel,Pernoctaciones,2025,10,2025M10,12696
+44,Teruel,Pernoctaciones,2025,9,2025M09,14818
+44,Teruel,Pernoctaciones,2025,8,2025M08,9367
+44,Teruel,Pernoctaciones,2025,7,2025M07,14307
+44,Teruel,Pernoctaciones,2025,6,2025M06,16483
+44,Teruel,Pernoctaciones,2025,5,2025M05,17552
+44,Teruel,Pernoctaciones,2025,4,2025M04,13578
+44,Teruel,Pernoctaciones,2025,3,2025M03,13508
+44,Teruel,Pernoctaciones,2025,2,2025M02,8938
+44,Teruel,Pernoctaciones,2025,1,2025M01,9423
+50,Zaragoza,Viajero,2025,12,2025M12,118924
+50,Zaragoza,Viajero,2025,11,2025M11,125033
+50,Zaragoza,Viajero,2025,10,2025M10,150345
+50,Zaragoza,Viajero,2025,9,2025M09,149217
+50,Zaragoza,Viajero,2025,8,2025M08,165683
+50,Zaragoza,Viajero,2025,7,2025M07,140545
+50,Zaragoza,Viajero,2025,6,2025M06,134893
+50,Zaragoza,Viajero,2025,5,2025M05,153210
+50,Zaragoza,Viajero,2025,4,2025M04,143630
+50,Zaragoza,Viajero,2025,3,2025M03,123418
+50,Zaragoza,Viajero,2025,2,2025M02,103499
+50,Zaragoza,Viajero,2025,1,2025M01,91042
+50,Zaragoza,Viajero,2025,12,2025M12,95521
+50,Zaragoza,Viajero,2025,11,2025M11,100129
+50,Zaragoza,Viajero,2025,10,2025M10,113784
+50,Zaragoza,Viajero,2025,9,2025M09,108772
+50,Zaragoza,Viajero,2025,8,2025M08,114157
+50,Zaragoza,Viajero,2025,7,2025M07,99363
+50,Zaragoza,Viajero,2025,6,2025M06,99161
+50,Zaragoza,Viajero,2025,5,2025M05,112130
+50,Zaragoza,Viajero,2025,4,2025M04,109485
+50,Zaragoza,Viajero,2025,3,2025M03,95203
+50,Zaragoza,Viajero,2025,2,2025M02,80346
+50,Zaragoza,Viajero,2025,1,2025M01,67641
+50,Zaragoza,Viajero,2025,12,2025M12,23403
+50,Zaragoza,Viajero,2025,11,2025M11,24904
+50,Zaragoza,Viajero,2025,10,2025M10,36560
+50,Zaragoza,Viajero,2025,9,2025M09,40445
+50,Zaragoza,Viajero,2025,8,2025M08,51527
+50,Zaragoza,Viajero,2025,7,2025M07,41182
+50,Zaragoza,Viajero,2025,6,2025M06,35732
+50,Zaragoza,Viajero,2025,5,2025M05,41080
+50,Zaragoza,Viajero,2025,4,2025M04,34145
+50,Zaragoza,Viajero,2025,3,2025M03,28215
+50,Zaragoza,Viajero,2025,2,2025M02,23153
+50,Zaragoza,Viajero,2025,1,2025M01,23401
+50,Zaragoza,Pernoctaciones,2025,12,2025M12,197676
+50,Zaragoza,Pernoctaciones,2025,11,2025M11,230011
+50,Zaragoza,Pernoctaciones,2025,10,2025M10,266920
+50,Zaragoza,Pernoctaciones,2025,9,2025M09,266395
+50,Zaragoza,Pernoctaciones,2025,8,2025M08,272555
+50,Zaragoza,Pernoctaciones,2025,7,2025M07,246417
+50,Zaragoza,Pernoctaciones,2025,6,2025M06,243313
+50,Zaragoza,Pernoctaciones,2025,5,2025M05,276977
+50,Zaragoza,Pernoctaciones,2025,4,2025M04,257360
+50,Zaragoza,Pernoctaciones,2025,3,2025M03,224887
+50,Zaragoza,Pernoctaciones,2025,2,2025M02,175809
+50,Zaragoza,Pernoctaciones,2025,1,2025M01,151824
+50,Zaragoza,Pernoctaciones,2025,12,2025M12,158681
+50,Zaragoza,Pernoctaciones,2025,11,2025M11,184255
+50,Zaragoza,Pernoctaciones,2025,10,2025M10,203971
+50,Zaragoza,Pernoctaciones,2025,9,2025M09,193566
+50,Zaragoza,Pernoctaciones,2025,8,2025M08,190528
+50,Zaragoza,Pernoctaciones,2025,7,2025M07,175759
+50,Zaragoza,Pernoctaciones,2025,6,2025M06,176856
+50,Zaragoza,Pernoctaciones,2025,5,2025M05,204221
+50,Zaragoza,Pernoctaciones,2025,4,2025M04,197476
+50,Zaragoza,Pernoctaciones,2025,3,2025M03,171261
+50,Zaragoza,Pernoctaciones,2025,2,2025M02,135760
+50,Zaragoza,Pernoctaciones,2025,1,2025M01,113837
+50,Zaragoza,Pernoctaciones,2025,12,2025M12,38995
+50,Zaragoza,Pernoctaciones,2025,11,2025M11,45756
+50,Zaragoza,Pernoctaciones,2025,10,2025M10,62949
+50,Zaragoza,Pernoctaciones,2025,9,2025M09,72829
+50,Zaragoza,Pernoctaciones,2025,8,2025M08,82027
+50,Zaragoza,Pernoctaciones,2025,7,2025M07,70658
+50,Zaragoza,Pernoctaciones,2025,6,2025M06,66457
+50,Zaragoza,Pernoctaciones,2025,5,2025M05,72756
+50,Zaragoza,Pernoctaciones,2025,4,2025M04,59884
+50,Zaragoza,Pernoctaciones,2025,3,2025M03,53625
+50,Zaragoza,Pernoctaciones,2025,2,2025M02,40049
+50,Zaragoza,Pernoctaciones,2025,1,2025M01,37987
+33,Asturias,Viajero,2025,12,2025M12,102224
+33,Asturias,Viajero,2025,11,2025M11,117149
+33,Asturias,Viajero,2025,10,2025M10,169551
+33,Asturias,Viajero,2025,9,2025M09,217906
+33,Asturias,Viajero,2025,8,2025M08,286710
+33,Asturias,Viajero,2025,7,2025M07,255898
+33,Asturias,Viajero,2025,6,2025M06,204806
+33,Asturias,Viajero,2025,5,2025M05,178540
+33,Asturias,Viajero,2025,4,2025M04,159008
+33,Asturias,Viajero,2025,3,2025M03,111479
+33,Asturias,Viajero,2025,2,2025M02,87532
+33,Asturias,Viajero,2025,1,2025M01,77978
+33,Asturias,Viajero,2025,12,2025M12,90971
+33,Asturias,Viajero,2025,11,2025M11,101253
+33,Asturias,Viajero,2025,10,2025M10,133063
+33,Asturias,Viajero,2025,9,2025M09,159150
+33,Asturias,Viajero,2025,8,2025M08,228497
+33,Asturias,Viajero,2025,7,2025M07,204229
+33,Asturias,Viajero,2025,6,2025M06,148281
+33,Asturias,Viajero,2025,5,2025M05,126557
+33,Asturias,Viajero,2025,4,2025M04,125104
+33,Asturias,Viajero,2025,3,2025M03,96422
+33,Asturias,Viajero,2025,2,2025M02,76843
+33,Asturias,Viajero,2025,1,2025M01,68520
+33,Asturias,Viajero,2025,12,2025M12,11253
+33,Asturias,Viajero,2025,11,2025M11,15895
+33,Asturias,Viajero,2025,10,2025M10,36488
+33,Asturias,Viajero,2025,9,2025M09,58756
+33,Asturias,Viajero,2025,8,2025M08,58213
+33,Asturias,Viajero,2025,7,2025M07,51669
+33,Asturias,Viajero,2025,6,2025M06,56525
+33,Asturias,Viajero,2025,5,2025M05,51983
+33,Asturias,Viajero,2025,4,2025M04,33904
+33,Asturias,Viajero,2025,3,2025M03,15057
+33,Asturias,Viajero,2025,2,2025M02,10688
+33,Asturias,Viajero,2025,1,2025M01,9458
+33,Asturias,Pernoctaciones,2025,12,2025M12,191009
+33,Asturias,Pernoctaciones,2025,11,2025M11,215072
+33,Asturias,Pernoctaciones,2025,10,2025M10,311576
+33,Asturias,Pernoctaciones,2025,9,2025M09,429566
+33,Asturias,Pernoctaciones,2025,8,2025M08,661285
+33,Asturias,Pernoctaciones,2025,7,2025M07,553349
+33,Asturias,Pernoctaciones,2025,6,2025M06,369514
+33,Asturias,Pernoctaciones,2025,5,2025M05,317350
+33,Asturias,Pernoctaciones,2025,4,2025M04,293187
+33,Asturias,Pernoctaciones,2025,3,2025M03,208166
+33,Asturias,Pernoctaciones,2025,2,2025M02,155448
+33,Asturias,Pernoctaciones,2025,1,2025M01,142442
+33,Asturias,Pernoctaciones,2025,12,2025M12,165789
+33,Asturias,Pernoctaciones,2025,11,2025M11,182523
+33,Asturias,Pernoctaciones,2025,10,2025M10,246424
+33,Asturias,Pernoctaciones,2025,9,2025M09,323425
+33,Asturias,Pernoctaciones,2025,8,2025M08,550833
+33,Asturias,Pernoctaciones,2025,7,2025M07,451217
+33,Asturias,Pernoctaciones,2025,6,2025M06,275648
+33,Asturias,Pernoctaciones,2025,5,2025M05,231713
+33,Asturias,Pernoctaciones,2025,4,2025M04,234664
+33,Asturias,Pernoctaciones,2025,3,2025M03,178084
+33,Asturias,Pernoctaciones,2025,2,2025M02,133007
+33,Asturias,Pernoctaciones,2025,1,2025M01,120618
+33,Asturias,Pernoctaciones,2025,12,2025M12,25220
+33,Asturias,Pernoctaciones,2025,11,2025M11,32549
+33,Asturias,Pernoctaciones,2025,10,2025M10,65153
+33,Asturias,Pernoctaciones,2025,9,2025M09,106141
+33,Asturias,Pernoctaciones,2025,8,2025M08,110452
+33,Asturias,Pernoctaciones,2025,7,2025M07,102132
+33,Asturias,Pernoctaciones,2025,6,2025M06,93866
+33,Asturias,Pernoctaciones,2025,5,2025M05,85637
+33,Asturias,Pernoctaciones,2025,4,2025M04,58523
+33,Asturias,Pernoctaciones,2025,3,2025M03,30082
+33,Asturias,Pernoctaciones,2025,2,2025M02,22441
+33,Asturias,Pernoctaciones,2025,1,2025M01,21824
+07,"Balears, Illes",Viajero,2025,12,2025M12,104589
+07,"Balears, Illes",Viajero,2025,11,2025M11,139514
+07,"Balears, Illes",Viajero,2025,10,2025M10,1298471
+07,"Balears, Illes",Viajero,2025,9,2025M09,1831184
+07,"Balears, Illes",Viajero,2025,8,2025M08,2058841
+07,"Balears, Illes",Viajero,2025,7,2025M07,2036446
+07,"Balears, Illes",Viajero,2025,6,2025M06,1887685
+07,"Balears, Illes",Viajero,2025,5,2025M05,1705037
+07,"Balears, Illes",Viajero,2025,4,2025M04,803616
+07,"Balears, Illes",Viajero,2025,3,2025M03,333877
+07,"Balears, Illes",Viajero,2025,2,2025M02,167349
+07,"Balears, Illes",Viajero,2025,1,2025M01,72305
+07,"Balears, Illes",Viajero,2025,12,2025M12,38624
+07,"Balears, Illes",Viajero,2025,11,2025M11,51612
+07,"Balears, Illes",Viajero,2025,10,2025M10,143232
+07,"Balears, Illes",Viajero,2025,9,2025M09,176651
+07,"Balears, Illes",Viajero,2025,8,2025M08,203250
+07,"Balears, Illes",Viajero,2025,7,2025M07,193208
+07,"Balears, Illes",Viajero,2025,6,2025M06,188749
+07,"Balears, Illes",Viajero,2025,5,2025M05,191853
+07,"Balears, Illes",Viajero,2025,4,2025M04,98030
+07,"Balears, Illes",Viajero,2025,3,2025M03,106917
+07,"Balears, Illes",Viajero,2025,2,2025M02,55690
+07,"Balears, Illes",Viajero,2025,1,2025M01,31385
+07,"Balears, Illes",Viajero,2025,12,2025M12,65965
+07,"Balears, Illes",Viajero,2025,11,2025M11,87902
+07,"Balears, Illes",Viajero,2025,10,2025M10,1155239
+07,"Balears, Illes",Viajero,2025,9,2025M09,1654533
+07,"Balears, Illes",Viajero,2025,8,2025M08,1855591
+07,"Balears, Illes",Viajero,2025,7,2025M07,1843238
+07,"Balears, Illes",Viajero,2025,6,2025M06,1698936
+07,"Balears, Illes",Viajero,2025,5,2025M05,1513184
+07,"Balears, Illes",Viajero,2025,4,2025M04,705586
+07,"Balears, Illes",Viajero,2025,3,2025M03,226959
+07,"Balears, Illes",Viajero,2025,2,2025M02,111658
+07,"Balears, Illes",Viajero,2025,1,2025M01,40920
+07,"Balears, Illes",Pernoctaciones,2025,12,2025M12,323934
+07,"Balears, Illes",Pernoctaciones,2025,11,2025M11,435053
+07,"Balears, Illes",Pernoctaciones,2025,10,2025M10,6967344
+07,"Balears, Illes",Pernoctaciones,2025,9,2025M09,9615358
+07,"Balears, Illes",Pernoctaciones,2025,8,2025M08,11388816
+07,"Balears, Illes",Pernoctaciones,2025,7,2025M07,10987630
+07,"Balears, Illes",Pernoctaciones,2025,6,2025M06,9726358
+07,"Balears, Illes",Pernoctaciones,2025,5,2025M05,8134372
+07,"Balears, Illes",Pernoctaciones,2025,4,2025M04,3736772
+07,"Balears, Illes",Pernoctaciones,2025,3,2025M03,1429104
+07,"Balears, Illes",Pernoctaciones,2025,2,2025M02,622366
+07,"Balears, Illes",Pernoctaciones,2025,1,2025M01,238985
+07,"Balears, Illes",Pernoctaciones,2025,12,2025M12,75792
+07,"Balears, Illes",Pernoctaciones,2025,11,2025M11,94443
+07,"Balears, Illes",Pernoctaciones,2025,10,2025M10,419992
+07,"Balears, Illes",Pernoctaciones,2025,9,2025M09,675963
+07,"Balears, Illes",Pernoctaciones,2025,8,2025M08,856252
+07,"Balears, Illes",Pernoctaciones,2025,7,2025M07,740149
+07,"Balears, Illes",Pernoctaciones,2025,6,2025M06,689765
+07,"Balears, Illes",Pernoctaciones,2025,5,2025M05,640277
+07,"Balears, Illes",Pernoctaciones,2025,4,2025M04,411608
+07,"Balears, Illes",Pernoctaciones,2025,3,2025M03,388334
+07,"Balears, Illes",Pernoctaciones,2025,2,2025M02,152788
+07,"Balears, Illes",Pernoctaciones,2025,1,2025M01,70002
+07,"Balears, Illes",Pernoctaciones,2025,12,2025M12,248142
+07,"Balears, Illes",Pernoctaciones,2025,11,2025M11,340609
+07,"Balears, Illes",Pernoctaciones,2025,10,2025M10,6547352
+07,"Balears, Illes",Pernoctaciones,2025,9,2025M09,8939395
+07,"Balears, Illes",Pernoctaciones,2025,8,2025M08,10532565
+07,"Balears, Illes",Pernoctaciones,2025,7,2025M07,10247481
+07,"Balears, Illes",Pernoctaciones,2025,6,2025M06,9036593
+07,"Balears, Illes",Pernoctaciones,2025,5,2025M05,7494096
+07,"Balears, Illes",Pernoctaciones,2025,4,2025M04,3325164
+07,"Balears, Illes",Pernoctaciones,2025,3,2025M03,1040770
+07,"Balears, Illes",Pernoctaciones,2025,2,2025M02,469578
+07,"Balears, Illes",Pernoctaciones,2025,1,2025M01,168983
+35,"Palmas, Las",Viajero,2025,12,2025M12,528181
+35,"Palmas, Las",Viajero,2025,11,2025M11,538482
+35,"Palmas, Las",Viajero,2025,10,2025M10,586387
+35,"Palmas, Las",Viajero,2025,9,2025M09,526666
+35,"Palmas, Las",Viajero,2025,8,2025M08,628696
+35,"Palmas, Las",Viajero,2025,7,2025M07,587211
+35,"Palmas, Las",Viajero,2025,6,2025M06,527790
+35,"Palmas, Las",Viajero,2025,5,2025M05,510814
+35,"Palmas, Las",Viajero,2025,4,2025M04,551052
+35,"Palmas, Las",Viajero,2025,3,2025M03,575087
+35,"Palmas, Las",Viajero,2025,2,2025M02,542537
+35,"Palmas, Las",Viajero,2025,1,2025M01,528395
+35,"Palmas, Las",Viajero,2025,12,2025M12,74423
+35,"Palmas, Las",Viajero,2025,11,2025M11,77772
+35,"Palmas, Las",Viajero,2025,10,2025M10,96526
+35,"Palmas, Las",Viajero,2025,9,2025M09,131082
+35,"Palmas, Las",Viajero,2025,8,2025M08,185167
+35,"Palmas, Las",Viajero,2025,7,2025M07,151286
+35,"Palmas, Las",Viajero,2025,6,2025M06,132983
+35,"Palmas, Las",Viajero,2025,5,2025M05,126243
+35,"Palmas, Las",Viajero,2025,4,2025M04,99984
+35,"Palmas, Las",Viajero,2025,3,2025M03,80506
+35,"Palmas, Las",Viajero,2025,2,2025M02,67328
+35,"Palmas, Las",Viajero,2025,1,2025M01,67403
+35,"Palmas, Las",Viajero,2025,12,2025M12,453758
+35,"Palmas, Las",Viajero,2025,11,2025M11,460710
+35,"Palmas, Las",Viajero,2025,10,2025M10,489862
+35,"Palmas, Las",Viajero,2025,9,2025M09,395584
+35,"Palmas, Las",Viajero,2025,8,2025M08,443529
+35,"Palmas, Las",Viajero,2025,7,2025M07,435925
+35,"Palmas, Las",Viajero,2025,6,2025M06,394807
+35,"Palmas, Las",Viajero,2025,5,2025M05,384571
+35,"Palmas, Las",Viajero,2025,4,2025M04,451068
+35,"Palmas, Las",Viajero,2025,3,2025M03,494581
+35,"Palmas, Las",Viajero,2025,2,2025M02,475209
+35,"Palmas, Las",Viajero,2025,1,2025M01,460992
+35,"Palmas, Las",Pernoctaciones,2025,12,2025M12,3632349
+35,"Palmas, Las",Pernoctaciones,2025,11,2025M11,3679860
+35,"Palmas, Las",Pernoctaciones,2025,10,2025M10,3985227
+35,"Palmas, Las",Pernoctaciones,2025,9,2025M09,3658889
+35,"Palmas, Las",Pernoctaciones,2025,8,2025M08,4447099
+35,"Palmas, Las",Pernoctaciones,2025,7,2025M07,4075039
+35,"Palmas, Las",Pernoctaciones,2025,6,2025M06,3500630
+35,"Palmas, Las",Pernoctaciones,2025,5,2025M05,3282338
+35,"Palmas, Las",Pernoctaciones,2025,4,2025M04,3558506
+35,"Palmas, Las",Pernoctaciones,2025,3,2025M03,3835917
+35,"Palmas, Las",Pernoctaciones,2025,2,2025M02,3670235
+35,"Palmas, Las",Pernoctaciones,2025,1,2025M01,3826329
+35,"Palmas, Las",Pernoctaciones,2025,12,2025M12,272896
+35,"Palmas, Las",Pernoctaciones,2025,11,2025M11,305892
+35,"Palmas, Las",Pernoctaciones,2025,10,2025M10,375884
+35,"Palmas, Las",Pernoctaciones,2025,9,2025M09,533175
+35,"Palmas, Las",Pernoctaciones,2025,8,2025M08,881516
+35,"Palmas, Las",Pernoctaciones,2025,7,2025M07,662424
+35,"Palmas, Las",Pernoctaciones,2025,6,2025M06,504869
+35,"Palmas, Las",Pernoctaciones,2025,5,2025M05,469964
+35,"Palmas, Las",Pernoctaciones,2025,4,2025M04,353167
+35,"Palmas, Las",Pernoctaciones,2025,3,2025M03,290288
+35,"Palmas, Las",Pernoctaciones,2025,2,2025M02,223698
+35,"Palmas, Las",Pernoctaciones,2025,1,2025M01,258584
+35,"Palmas, Las",Pernoctaciones,2025,12,2025M12,3359453
+35,"Palmas, Las",Pernoctaciones,2025,11,2025M11,3373967
+35,"Palmas, Las",Pernoctaciones,2025,10,2025M10,3609343
+35,"Palmas, Las",Pernoctaciones,2025,9,2025M09,3125715
+35,"Palmas, Las",Pernoctaciones,2025,8,2025M08,3565583
+35,"Palmas, Las",Pernoctaciones,2025,7,2025M07,3412615
+35,"Palmas, Las",Pernoctaciones,2025,6,2025M06,2995761
+35,"Palmas, Las",Pernoctaciones,2025,5,2025M05,2812373
+35,"Palmas, Las",Pernoctaciones,2025,4,2025M04,3205338
+35,"Palmas, Las",Pernoctaciones,2025,3,2025M03,3545628
+35,"Palmas, Las",Pernoctaciones,2025,2,2025M02,3446537
+35,"Palmas, Las",Pernoctaciones,2025,1,2025M01,3567745
+38,Santa Cruz de Tenerife,Viajero,2025,12,2025M12,372733
+38,Santa Cruz de Tenerife,Viajero,2025,11,2025M11,391022
+38,Santa Cruz de Tenerife,Viajero,2025,10,2025M10,401938
+38,Santa Cruz de Tenerife,Viajero,2025,9,2025M09,361491
+38,Santa Cruz de Tenerife,Viajero,2025,8,2025M08,427801
+38,Santa Cruz de Tenerife,Viajero,2025,7,2025M07,412358
+38,Santa Cruz de Tenerife,Viajero,2025,6,2025M06,378459
+38,Santa Cruz de Tenerife,Viajero,2025,5,2025M05,379173
+38,Santa Cruz de Tenerife,Viajero,2025,4,2025M04,384117
+38,Santa Cruz de Tenerife,Viajero,2025,3,2025M03,387552
+38,Santa Cruz de Tenerife,Viajero,2025,2,2025M02,381673
+38,Santa Cruz de Tenerife,Viajero,2025,1,2025M01,378256
+38,Santa Cruz de Tenerife,Viajero,2025,12,2025M12,72069
+38,Santa Cruz de Tenerife,Viajero,2025,11,2025M11,70171
+38,Santa Cruz de Tenerife,Viajero,2025,10,2025M10,87890
+38,Santa Cruz de Tenerife,Viajero,2025,9,2025M09,104150
+38,Santa Cruz de Tenerife,Viajero,2025,8,2025M08,142170
+38,Santa Cruz de Tenerife,Viajero,2025,7,2025M07,132370
+38,Santa Cruz de Tenerife,Viajero,2025,6,2025M06,112886
+38,Santa Cruz de Tenerife,Viajero,2025,5,2025M05,111093
+38,Santa Cruz de Tenerife,Viajero,2025,4,2025M04,92159
+38,Santa Cruz de Tenerife,Viajero,2025,3,2025M03,70909
+38,Santa Cruz de Tenerife,Viajero,2025,2,2025M02,65856
+38,Santa Cruz de Tenerife,Viajero,2025,1,2025M01,62267
+38,Santa Cruz de Tenerife,Viajero,2025,12,2025M12,300664
+38,Santa Cruz de Tenerife,Viajero,2025,11,2025M11,320851
+38,Santa Cruz de Tenerife,Viajero,2025,10,2025M10,314048
+38,Santa Cruz de Tenerife,Viajero,2025,9,2025M09,257341
+38,Santa Cruz de Tenerife,Viajero,2025,8,2025M08,285632
+38,Santa Cruz de Tenerife,Viajero,2025,7,2025M07,279988
+38,Santa Cruz de Tenerife,Viajero,2025,6,2025M06,265574
+38,Santa Cruz de Tenerife,Viajero,2025,5,2025M05,268080
+38,Santa Cruz de Tenerife,Viajero,2025,4,2025M04,291958
+38,Santa Cruz de Tenerife,Viajero,2025,3,2025M03,316643
+38,Santa Cruz de Tenerife,Viajero,2025,2,2025M02,315817
+38,Santa Cruz de Tenerife,Viajero,2025,1,2025M01,315989
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,12,2025M12,2240355
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,11,2025M11,2298350
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,10,2025M10,2410701
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,9,2025M09,2169638
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,8,2025M08,2629820
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,7,2025M07,2477587
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,6,2025M06,2172704
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,5,2025M05,2062066
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,4,2025M04,2168609
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,3,2025M03,2303478
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,2,2025M02,2304576
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,1,2025M01,2422582
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,12,2025M12,257085
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,11,2025M11,233329
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,10,2025M10,315016
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,9,2025M09,386290
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,8,2025M08,600201
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,7,2025M07,509984
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,6,2025M06,389180
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,5,2025M05,373583
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,4,2025M04,321344
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,3,2025M03,248103
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,2,2025M02,212348
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,1,2025M01,241331
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,12,2025M12,1983270
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,11,2025M11,2065020
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,10,2025M10,2095685
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,9,2025M09,1783348
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,8,2025M08,2029618
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,7,2025M07,1967603
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,6,2025M06,1783524
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,5,2025M05,1688483
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,4,2025M04,1847265
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,3,2025M03,2055375
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,2,2025M02,2092228
+38,Santa Cruz de Tenerife,Pernoctaciones,2025,1,2025M01,2181251
+39,Cantabria,Viajero,2025,12,2025M12,66481
+39,Cantabria,Viajero,2025,11,2025M11,72776
+39,Cantabria,Viajero,2025,10,2025M10,110168
+39,Cantabria,Viajero,2025,9,2025M09,148285
+39,Cantabria,Viajero,2025,8,2025M08,208069
+39,Cantabria,Viajero,2025,7,2025M07,194903
+39,Cantabria,Viajero,2025,6,2025M06,153262
+39,Cantabria,Viajero,2025,5,2025M05,138283
+39,Cantabria,Viajero,2025,4,2025M04,114466
+39,Cantabria,Viajero,2025,3,2025M03,70391
+39,Cantabria,Viajero,2025,2,2025M02,53062
+39,Cantabria,Viajero,2025,1,2025M01,44098
+39,Cantabria,Viajero,2025,12,2025M12,57916
+39,Cantabria,Viajero,2025,11,2025M11,60759
+39,Cantabria,Viajero,2025,10,2025M10,78107
+39,Cantabria,Viajero,2025,9,2025M09,102964
+39,Cantabria,Viajero,2025,8,2025M08,166738
+39,Cantabria,Viajero,2025,7,2025M07,151189
+39,Cantabria,Viajero,2025,6,2025M06,110391
+39,Cantabria,Viajero,2025,5,2025M05,88829
+39,Cantabria,Viajero,2025,4,2025M04,85583
+39,Cantabria,Viajero,2025,3,2025M03,58835
+39,Cantabria,Viajero,2025,2,2025M02,45669
+39,Cantabria,Viajero,2025,1,2025M01,37042
+39,Cantabria,Viajero,2025,12,2025M12,8565
+39,Cantabria,Viajero,2025,11,2025M11,12017
+39,Cantabria,Viajero,2025,10,2025M10,32060
+39,Cantabria,Viajero,2025,9,2025M09,45320
+39,Cantabria,Viajero,2025,8,2025M08,41331
+39,Cantabria,Viajero,2025,7,2025M07,43714
+39,Cantabria,Viajero,2025,6,2025M06,42871
+39,Cantabria,Viajero,2025,5,2025M05,49454
+39,Cantabria,Viajero,2025,4,2025M04,28883
+39,Cantabria,Viajero,2025,3,2025M03,11556
+39,Cantabria,Viajero,2025,2,2025M02,7393
+39,Cantabria,Viajero,2025,1,2025M01,7057
+39,Cantabria,Pernoctaciones,2025,12,2025M12,118811
+39,Cantabria,Pernoctaciones,2025,11,2025M11,144637
+39,Cantabria,Pernoctaciones,2025,10,2025M10,221783
+39,Cantabria,Pernoctaciones,2025,9,2025M09,316426
+39,Cantabria,Pernoctaciones,2025,8,2025M08,551108
+39,Cantabria,Pernoctaciones,2025,7,2025M07,479549
+39,Cantabria,Pernoctaciones,2025,6,2025M06,324170
+39,Cantabria,Pernoctaciones,2025,5,2025M05,266242
+39,Cantabria,Pernoctaciones,2025,4,2025M04,228221
+39,Cantabria,Pernoctaciones,2025,3,2025M03,137686
+39,Cantabria,Pernoctaciones,2025,2,2025M02,91873
+39,Cantabria,Pernoctaciones,2025,1,2025M01,78953
+39,Cantabria,Pernoctaciones,2025,12,2025M12,103079
+39,Cantabria,Pernoctaciones,2025,11,2025M11,119702
+39,Cantabria,Pernoctaciones,2025,10,2025M10,161092
+39,Cantabria,Pernoctaciones,2025,9,2025M09,229852
+39,Cantabria,Pernoctaciones,2025,8,2025M08,461796
+39,Cantabria,Pernoctaciones,2025,7,2025M07,384484
+39,Cantabria,Pernoctaciones,2025,6,2025M06,241382
+39,Cantabria,Pernoctaciones,2025,5,2025M05,180350
+39,Cantabria,Pernoctaciones,2025,4,2025M04,177820
+39,Cantabria,Pernoctaciones,2025,3,2025M03,114332
+39,Cantabria,Pernoctaciones,2025,2,2025M02,77543
+39,Cantabria,Pernoctaciones,2025,1,2025M01,65570
+39,Cantabria,Pernoctaciones,2025,12,2025M12,15732
+39,Cantabria,Pernoctaciones,2025,11,2025M11,24936
+39,Cantabria,Pernoctaciones,2025,10,2025M10,60692
+39,Cantabria,Pernoctaciones,2025,9,2025M09,86574
+39,Cantabria,Pernoctaciones,2025,8,2025M08,89311
+39,Cantabria,Pernoctaciones,2025,7,2025M07,95064
+39,Cantabria,Pernoctaciones,2025,6,2025M06,82789
+39,Cantabria,Pernoctaciones,2025,5,2025M05,85892
+39,Cantabria,Pernoctaciones,2025,4,2025M04,50401
+39,Cantabria,Pernoctaciones,2025,3,2025M03,23354
+39,Cantabria,Pernoctaciones,2025,2,2025M02,14331
+39,Cantabria,Pernoctaciones,2025,1,2025M01,13383
+05,Ávila,Viajero,2025,12,2025M12,27439
+05,Ávila,Viajero,2025,11,2025M11,29121
+05,Ávila,Viajero,2025,10,2025M10,38093
+05,Ávila,Viajero,2025,9,2025M09,39364
+05,Ávila,Viajero,2025,8,2025M08,43538
+05,Ávila,Viajero,2025,7,2025M07,36010
+05,Ávila,Viajero,2025,6,2025M06,37020
+05,Ávila,Viajero,2025,5,2025M05,40270
+05,Ávila,Viajero,2025,4,2025M04,33965
+05,Ávila,Viajero,2025,3,2025M03,24379
+05,Ávila,Viajero,2025,2,2025M02,24877
+05,Ávila,Viajero,2025,1,2025M01,18378
+05,Ávila,Viajero,2025,12,2025M12,24665
+05,Ávila,Viajero,2025,11,2025M11,25282
+05,Ávila,Viajero,2025,10,2025M10,29046
+05,Ávila,Viajero,2025,9,2025M09,30816
+05,Ávila,Viajero,2025,8,2025M08,38608
+05,Ávila,Viajero,2025,7,2025M07,31646
+05,Ávila,Viajero,2025,6,2025M06,31098
+05,Ávila,Viajero,2025,5,2025M05,30831
+05,Ávila,Viajero,2025,4,2025M04,26086
+05,Ávila,Viajero,2025,3,2025M03,21026
+05,Ávila,Viajero,2025,2,2025M02,22695
+05,Ávila,Viajero,2025,1,2025M01,16137
+05,Ávila,Viajero,2025,12,2025M12,2773
+05,Ávila,Viajero,2025,11,2025M11,3839
+05,Ávila,Viajero,2025,10,2025M10,9048
+05,Ávila,Viajero,2025,9,2025M09,8548
+05,Ávila,Viajero,2025,8,2025M08,4930
+05,Ávila,Viajero,2025,7,2025M07,4363
+05,Ávila,Viajero,2025,6,2025M06,5922
+05,Ávila,Viajero,2025,5,2025M05,9439
+05,Ávila,Viajero,2025,4,2025M04,7878
+05,Ávila,Viajero,2025,3,2025M03,3353
+05,Ávila,Viajero,2025,2,2025M02,2183
+05,Ávila,Viajero,2025,1,2025M01,2241
+05,Ávila,Pernoctaciones,2025,12,2025M12,42842
+05,Ávila,Pernoctaciones,2025,11,2025M11,45566
+05,Ávila,Pernoctaciones,2025,10,2025M10,58789
+05,Ávila,Pernoctaciones,2025,9,2025M09,60720
+05,Ávila,Pernoctaciones,2025,8,2025M08,73991
+05,Ávila,Pernoctaciones,2025,7,2025M07,61573
+05,Ávila,Pernoctaciones,2025,6,2025M06,58230
+05,Ávila,Pernoctaciones,2025,5,2025M05,63672
+05,Ávila,Pernoctaciones,2025,4,2025M04,55209
+05,Ávila,Pernoctaciones,2025,3,2025M03,38392
+05,Ávila,Pernoctaciones,2025,2,2025M02,37025
+05,Ávila,Pernoctaciones,2025,1,2025M01,28830
+05,Ávila,Pernoctaciones,2025,12,2025M12,39066
+05,Ávila,Pernoctaciones,2025,11,2025M11,39843
+05,Ávila,Pernoctaciones,2025,10,2025M10,46295
+05,Ávila,Pernoctaciones,2025,9,2025M09,48376
+05,Ávila,Pernoctaciones,2025,8,2025M08,66951
+05,Ávila,Pernoctaciones,2025,7,2025M07,53587
+05,Ávila,Pernoctaciones,2025,6,2025M06,47062
+05,Ávila,Pernoctaciones,2025,5,2025M05,48908
+05,Ávila,Pernoctaciones,2025,4,2025M04,43553
+05,Ávila,Pernoctaciones,2025,3,2025M03,33080
+05,Ávila,Pernoctaciones,2025,2,2025M02,32110
+05,Ávila,Pernoctaciones,2025,1,2025M01,25177
+05,Ávila,Pernoctaciones,2025,12,2025M12,3776
+05,Ávila,Pernoctaciones,2025,11,2025M11,5723
+05,Ávila,Pernoctaciones,2025,10,2025M10,12494
+05,Ávila,Pernoctaciones,2025,9,2025M09,12344
+05,Ávila,Pernoctaciones,2025,8,2025M08,7040
+05,Ávila,Pernoctaciones,2025,7,2025M07,7987
+05,Ávila,Pernoctaciones,2025,6,2025M06,11168
+05,Ávila,Pernoctaciones,2025,5,2025M05,14764
+05,Ávila,Pernoctaciones,2025,4,2025M04,11656
+05,Ávila,Pernoctaciones,2025,3,2025M03,5313
+05,Ávila,Pernoctaciones,2025,2,2025M02,4915
+05,Ávila,Pernoctaciones,2025,1,2025M01,3653
+09,Burgos,Viajero,2025,12,2025M12,63015
+09,Burgos,Viajero,2025,11,2025M11,67266
+09,Burgos,Viajero,2025,10,2025M10,95943
+09,Burgos,Viajero,2025,9,2025M09,100513
+09,Burgos,Viajero,2025,8,2025M08,130430
+09,Burgos,Viajero,2025,7,2025M07,101445
+09,Burgos,Viajero,2025,6,2025M06,90615
+09,Burgos,Viajero,2025,5,2025M05,99047
+09,Burgos,Viajero,2025,4,2025M04,85626
+09,Burgos,Viajero,2025,3,2025M03,65329
+09,Burgos,Viajero,2025,2,2025M02,51062
+09,Burgos,Viajero,2025,1,2025M01,48410
+09,Burgos,Viajero,2025,12,2025M12,48534
+09,Burgos,Viajero,2025,11,2025M11,48729
+09,Burgos,Viajero,2025,10,2025M10,59889
+09,Burgos,Viajero,2025,9,2025M09,54778
+09,Burgos,Viajero,2025,8,2025M08,75040
+09,Burgos,Viajero,2025,7,2025M07,50921
+09,Burgos,Viajero,2025,6,2025M06,55413
+09,Burgos,Viajero,2025,5,2025M05,54340
+09,Burgos,Viajero,2025,4,2025M04,53112
+09,Burgos,Viajero,2025,3,2025M03,48278
+09,Burgos,Viajero,2025,2,2025M02,38286
+09,Burgos,Viajero,2025,1,2025M01,33311
+09,Burgos,Viajero,2025,12,2025M12,14482
+09,Burgos,Viajero,2025,11,2025M11,18538
+09,Burgos,Viajero,2025,10,2025M10,36054
+09,Burgos,Viajero,2025,9,2025M09,45735
+09,Burgos,Viajero,2025,8,2025M08,55390
+09,Burgos,Viajero,2025,7,2025M07,50524
+09,Burgos,Viajero,2025,6,2025M06,35202
+09,Burgos,Viajero,2025,5,2025M05,44707
+09,Burgos,Viajero,2025,4,2025M04,32514
+09,Burgos,Viajero,2025,3,2025M03,17051
+09,Burgos,Viajero,2025,2,2025M02,12776
+09,Burgos,Viajero,2025,1,2025M01,15099
+09,Burgos,Pernoctaciones,2025,12,2025M12,96380
+09,Burgos,Pernoctaciones,2025,11,2025M11,111967
+09,Burgos,Pernoctaciones,2025,10,2025M10,144670
+09,Burgos,Pernoctaciones,2025,9,2025M09,144436
+09,Burgos,Pernoctaciones,2025,8,2025M08,178620
+09,Burgos,Pernoctaciones,2025,7,2025M07,163413
+09,Burgos,Pernoctaciones,2025,6,2025M06,132038
+09,Burgos,Pernoctaciones,2025,5,2025M05,145725
+09,Burgos,Pernoctaciones,2025,4,2025M04,128725
+09,Burgos,Pernoctaciones,2025,3,2025M03,99988
+09,Burgos,Pernoctaciones,2025,2,2025M02,75788
+09,Burgos,Pernoctaciones,2025,1,2025M01,72605
+09,Burgos,Pernoctaciones,2025,12,2025M12,76286
+09,Burgos,Pernoctaciones,2025,11,2025M11,86587
+09,Burgos,Pernoctaciones,2025,10,2025M10,99240
+09,Burgos,Pernoctaciones,2025,9,2025M09,86895
+09,Burgos,Pernoctaciones,2025,8,2025M08,114772
+09,Burgos,Pernoctaciones,2025,7,2025M07,78382
+09,Burgos,Pernoctaciones,2025,6,2025M06,85758
+09,Burgos,Pernoctaciones,2025,5,2025M05,89241
+09,Burgos,Pernoctaciones,2025,4,2025M04,86873
+09,Burgos,Pernoctaciones,2025,3,2025M03,76678
+09,Burgos,Pernoctaciones,2025,2,2025M02,59393
+09,Burgos,Pernoctaciones,2025,1,2025M01,52064
+09,Burgos,Pernoctaciones,2025,12,2025M12,20094
+09,Burgos,Pernoctaciones,2025,11,2025M11,25380
+09,Burgos,Pernoctaciones,2025,10,2025M10,45430
+09,Burgos,Pernoctaciones,2025,9,2025M09,57541
+09,Burgos,Pernoctaciones,2025,8,2025M08,63848
+09,Burgos,Pernoctaciones,2025,7,2025M07,85031
+09,Burgos,Pernoctaciones,2025,6,2025M06,46280
+09,Burgos,Pernoctaciones,2025,5,2025M05,56484
+09,Burgos,Pernoctaciones,2025,4,2025M04,41852
+09,Burgos,Pernoctaciones,2025,3,2025M03,23310
+09,Burgos,Pernoctaciones,2025,2,2025M02,16395
+09,Burgos,Pernoctaciones,2025,1,2025M01,20542
+24,León,Viajero,2025,12,2025M12,44683
+24,León,Viajero,2025,11,2025M11,55911
+24,León,Viajero,2025,10,2025M10,88599
+24,León,Viajero,2025,9,2025M09,95530
+24,León,Viajero,2025,8,2025M08,112191
+24,León,Viajero,2025,7,2025M07,95255
+24,León,Viajero,2025,6,2025M06,97972
+24,León,Viajero,2025,5,2025M05,96811
+24,León,Viajero,2025,4,2025M04,78736
+24,León,Viajero,2025,3,2025M03,56983
+24,León,Viajero,2025,2,2025M02,44919
+24,León,Viajero,2025,1,2025M01,36853
+24,León,Viajero,2025,12,2025M12,39923
+24,León,Viajero,2025,11,2025M11,48387
+24,León,Viajero,2025,10,2025M10,67206
+24,León,Viajero,2025,9,2025M09,64577
+24,León,Viajero,2025,8,2025M08,90812
+24,León,Viajero,2025,7,2025M07,74925
+24,León,Viajero,2025,6,2025M06,68196
+24,León,Viajero,2025,5,2025M05,59420
+24,León,Viajero,2025,4,2025M04,60280
+24,León,Viajero,2025,3,2025M03,49532
+24,León,Viajero,2025,2,2025M02,40391
+24,León,Viajero,2025,1,2025M01,32519
+24,León,Viajero,2025,12,2025M12,4760
+24,León,Viajero,2025,11,2025M11,7524
+24,León,Viajero,2025,10,2025M10,21392
+24,León,Viajero,2025,9,2025M09,30953
+24,León,Viajero,2025,8,2025M08,21379
+24,León,Viajero,2025,7,2025M07,20330
+24,León,Viajero,2025,6,2025M06,29776
+24,León,Viajero,2025,5,2025M05,37391
+24,León,Viajero,2025,4,2025M04,18456
+24,León,Viajero,2025,3,2025M03,7451
+24,León,Viajero,2025,2,2025M02,4528
+24,León,Viajero,2025,1,2025M01,4334
+24,León,Pernoctaciones,2025,12,2025M12,78329
+24,León,Pernoctaciones,2025,11,2025M11,99074
+24,León,Pernoctaciones,2025,10,2025M10,150617
+24,León,Pernoctaciones,2025,9,2025M09,148859
+24,León,Pernoctaciones,2025,8,2025M08,186926
+24,León,Pernoctaciones,2025,7,2025M07,149710
+24,León,Pernoctaciones,2025,6,2025M06,141209
+24,León,Pernoctaciones,2025,5,2025M05,147201
+24,León,Pernoctaciones,2025,4,2025M04,123621
+24,León,Pernoctaciones,2025,3,2025M03,90505
+24,León,Pernoctaciones,2025,2,2025M02,72191
+24,León,Pernoctaciones,2025,1,2025M01,61711
+24,León,Pernoctaciones,2025,12,2025M12,70532
+24,León,Pernoctaciones,2025,11,2025M11,86074
+24,León,Pernoctaciones,2025,10,2025M10,119474
+24,León,Pernoctaciones,2025,9,2025M09,106118
+24,León,Pernoctaciones,2025,8,2025M08,155323
+24,León,Pernoctaciones,2025,7,2025M07,121282
+24,León,Pernoctaciones,2025,6,2025M06,101178
+24,León,Pernoctaciones,2025,5,2025M05,99161
+24,León,Pernoctaciones,2025,4,2025M04,98520
+24,León,Pernoctaciones,2025,3,2025M03,77903
+24,León,Pernoctaciones,2025,2,2025M02,63941
+24,León,Pernoctaciones,2025,1,2025M01,54341
+24,León,Pernoctaciones,2025,12,2025M12,7797
+24,León,Pernoctaciones,2025,11,2025M11,13000
+24,León,Pernoctaciones,2025,10,2025M10,31143
+24,León,Pernoctaciones,2025,9,2025M09,42741
+24,León,Pernoctaciones,2025,8,2025M08,31603
+24,León,Pernoctaciones,2025,7,2025M07,28427
+24,León,Pernoctaciones,2025,6,2025M06,40030
+24,León,Pernoctaciones,2025,5,2025M05,48040
+24,León,Pernoctaciones,2025,4,2025M04,25101
+24,León,Pernoctaciones,2025,3,2025M03,12602
+24,León,Pernoctaciones,2025,2,2025M02,8250
+24,León,Pernoctaciones,2025,1,2025M01,7370
+34,Palencia,Viajero,2025,12,2025M12,11044
+34,Palencia,Viajero,2025,11,2025M11,13606
+34,Palencia,Viajero,2025,10,2025M10,18673
+34,Palencia,Viajero,2025,9,2025M09,23666
+34,Palencia,Viajero,2025,8,2025M08,27329
+34,Palencia,Viajero,2025,7,2025M07,24548
+34,Palencia,Viajero,2025,6,2025M06,24725
+34,Palencia,Viajero,2025,5,2025M05,24670
+34,Palencia,Viajero,2025,4,2025M04,17817
+34,Palencia,Viajero,2025,3,2025M03,13200
+34,Palencia,Viajero,2025,2,2025M02,10544
+34,Palencia,Viajero,2025,1,2025M01,10477
+34,Palencia,Viajero,2025,12,2025M12,9334
+34,Palencia,Viajero,2025,11,2025M11,11644
+34,Palencia,Viajero,2025,10,2025M10,14665
+34,Palencia,Viajero,2025,9,2025M09,15900
+34,Palencia,Viajero,2025,8,2025M08,20558
+34,Palencia,Viajero,2025,7,2025M07,18657
+34,Palencia,Viajero,2025,6,2025M06,17942
+34,Palencia,Viajero,2025,5,2025M05,17539
+34,Palencia,Viajero,2025,4,2025M04,15435
+34,Palencia,Viajero,2025,3,2025M03,11105
+34,Palencia,Viajero,2025,2,2025M02,9000
+34,Palencia,Viajero,2025,1,2025M01,8997
+34,Palencia,Viajero,2025,12,2025M12,1710
+34,Palencia,Viajero,2025,11,2025M11,1962
+34,Palencia,Viajero,2025,10,2025M10,4008
+34,Palencia,Viajero,2025,9,2025M09,7766
+34,Palencia,Viajero,2025,8,2025M08,6770
+34,Palencia,Viajero,2025,7,2025M07,5891
+34,Palencia,Viajero,2025,6,2025M06,6782
+34,Palencia,Viajero,2025,5,2025M05,7132
+34,Palencia,Viajero,2025,4,2025M04,2381
+34,Palencia,Viajero,2025,3,2025M03,2095
+34,Palencia,Viajero,2025,2,2025M02,1544
+34,Palencia,Viajero,2025,1,2025M01,1480
+34,Palencia,Pernoctaciones,2025,12,2025M12,22025
+34,Palencia,Pernoctaciones,2025,11,2025M11,29637
+34,Palencia,Pernoctaciones,2025,10,2025M10,37168
+34,Palencia,Pernoctaciones,2025,9,2025M09,44186
+34,Palencia,Pernoctaciones,2025,8,2025M08,55672
+34,Palencia,Pernoctaciones,2025,7,2025M07,46609
+34,Palencia,Pernoctaciones,2025,6,2025M06,41665
+34,Palencia,Pernoctaciones,2025,5,2025M05,44941
+34,Palencia,Pernoctaciones,2025,4,2025M04,39198
+34,Palencia,Pernoctaciones,2025,3,2025M03,27777
+34,Palencia,Pernoctaciones,2025,2,2025M02,24200
+34,Palencia,Pernoctaciones,2025,1,2025M01,19394
+34,Palencia,Pernoctaciones,2025,12,2025M12,19241
+34,Palencia,Pernoctaciones,2025,11,2025M11,25381
+34,Palencia,Pernoctaciones,2025,10,2025M10,29438
+34,Palencia,Pernoctaciones,2025,9,2025M09,32655
+34,Palencia,Pernoctaciones,2025,8,2025M08,43633
+34,Palencia,Pernoctaciones,2025,7,2025M07,37510
+34,Palencia,Pernoctaciones,2025,6,2025M06,32207
+34,Palencia,Pernoctaciones,2025,5,2025M05,35734
+34,Palencia,Pernoctaciones,2025,4,2025M04,35519
+34,Palencia,Pernoctaciones,2025,3,2025M03,24358
+34,Palencia,Pernoctaciones,2025,2,2025M02,20580
+34,Palencia,Pernoctaciones,2025,1,2025M01,16858
+34,Palencia,Pernoctaciones,2025,12,2025M12,2784
+34,Palencia,Pernoctaciones,2025,11,2025M11,4257
+34,Palencia,Pernoctaciones,2025,10,2025M10,7730
+34,Palencia,Pernoctaciones,2025,9,2025M09,11531
+34,Palencia,Pernoctaciones,2025,8,2025M08,12039
+34,Palencia,Pernoctaciones,2025,7,2025M07,9099
+34,Palencia,Pernoctaciones,2025,6,2025M06,9459
+34,Palencia,Pernoctaciones,2025,5,2025M05,9207
+34,Palencia,Pernoctaciones,2025,4,2025M04,3679
+34,Palencia,Pernoctaciones,2025,3,2025M03,3419
+34,Palencia,Pernoctaciones,2025,2,2025M02,3620
+34,Palencia,Pernoctaciones,2025,1,2025M01,2536
+37,Salamanca,Viajero,2025,12,2025M12,77547
+37,Salamanca,Viajero,2025,11,2025M11,74624
+37,Salamanca,Viajero,2025,10,2025M10,101395
+37,Salamanca,Viajero,2025,9,2025M09,106443
+37,Salamanca,Viajero,2025,8,2025M08,132183
+37,Salamanca,Viajero,2025,7,2025M07,110063
+37,Salamanca,Viajero,2025,6,2025M06,90794
+37,Salamanca,Viajero,2025,5,2025M05,98152
+37,Salamanca,Viajero,2025,4,2025M04,93790
+37,Salamanca,Viajero,2025,3,2025M03,69715
+37,Salamanca,Viajero,2025,2,2025M02,58394
+37,Salamanca,Viajero,2025,1,2025M01,52643
+37,Salamanca,Viajero,2025,12,2025M12,52903
+37,Salamanca,Viajero,2025,11,2025M11,51993
+37,Salamanca,Viajero,2025,10,2025M10,60859
+37,Salamanca,Viajero,2025,9,2025M09,67248
+37,Salamanca,Viajero,2025,8,2025M08,81712
+37,Salamanca,Viajero,2025,7,2025M07,67499
+37,Salamanca,Viajero,2025,6,2025M06,56722
+37,Salamanca,Viajero,2025,5,2025M05,58649
+37,Salamanca,Viajero,2025,4,2025M04,58513
+37,Salamanca,Viajero,2025,3,2025M03,47151
+37,Salamanca,Viajero,2025,2,2025M02,42101
+37,Salamanca,Viajero,2025,1,2025M01,35710
+37,Salamanca,Viajero,2025,12,2025M12,24644
+37,Salamanca,Viajero,2025,11,2025M11,22632
+37,Salamanca,Viajero,2025,10,2025M10,40536
+37,Salamanca,Viajero,2025,9,2025M09,39195
+37,Salamanca,Viajero,2025,8,2025M08,50471
+37,Salamanca,Viajero,2025,7,2025M07,42564
+37,Salamanca,Viajero,2025,6,2025M06,34072
+37,Salamanca,Viajero,2025,5,2025M05,39503
+37,Salamanca,Viajero,2025,4,2025M04,35277
+37,Salamanca,Viajero,2025,3,2025M03,22564
+37,Salamanca,Viajero,2025,2,2025M02,16292
+37,Salamanca,Viajero,2025,1,2025M01,16933
+37,Salamanca,Pernoctaciones,2025,12,2025M12,124792
+37,Salamanca,Pernoctaciones,2025,11,2025M11,135233
+37,Salamanca,Pernoctaciones,2025,10,2025M10,176797
+37,Salamanca,Pernoctaciones,2025,9,2025M09,181919
+37,Salamanca,Pernoctaciones,2025,8,2025M08,203433
+37,Salamanca,Pernoctaciones,2025,7,2025M07,173321
+37,Salamanca,Pernoctaciones,2025,6,2025M06,158928
+37,Salamanca,Pernoctaciones,2025,5,2025M05,167267
+37,Salamanca,Pernoctaciones,2025,4,2025M04,164608
+37,Salamanca,Pernoctaciones,2025,3,2025M03,127230
+37,Salamanca,Pernoctaciones,2025,2,2025M02,97690
+37,Salamanca,Pernoctaciones,2025,1,2025M01,89718
+37,Salamanca,Pernoctaciones,2025,12,2025M12,90121
+37,Salamanca,Pernoctaciones,2025,11,2025M11,101388
+37,Salamanca,Pernoctaciones,2025,10,2025M10,119218
+37,Salamanca,Pernoctaciones,2025,9,2025M09,124126
+37,Salamanca,Pernoctaciones,2025,8,2025M08,137142
+37,Salamanca,Pernoctaciones,2025,7,2025M07,115087
+37,Salamanca,Pernoctaciones,2025,6,2025M06,106510
+37,Salamanca,Pernoctaciones,2025,5,2025M05,110834
+37,Salamanca,Pernoctaciones,2025,4,2025M04,113744
+37,Salamanca,Pernoctaciones,2025,3,2025M03,91561
+37,Salamanca,Pernoctaciones,2025,2,2025M02,72383
+37,Salamanca,Pernoctaciones,2025,1,2025M01,64568
+37,Salamanca,Pernoctaciones,2025,12,2025M12,34671
+37,Salamanca,Pernoctaciones,2025,11,2025M11,33845
+37,Salamanca,Pernoctaciones,2025,10,2025M10,57579
+37,Salamanca,Pernoctaciones,2025,9,2025M09,57793
+37,Salamanca,Pernoctaciones,2025,8,2025M08,66290
+37,Salamanca,Pernoctaciones,2025,7,2025M07,58234
+37,Salamanca,Pernoctaciones,2025,6,2025M06,52418
+37,Salamanca,Pernoctaciones,2025,5,2025M05,56432
+37,Salamanca,Pernoctaciones,2025,4,2025M04,50864
+37,Salamanca,Pernoctaciones,2025,3,2025M03,35669
+37,Salamanca,Pernoctaciones,2025,2,2025M02,25307
+37,Salamanca,Pernoctaciones,2025,1,2025M01,25150
+40,Segovia,Viajero,2025,12,2025M12,39845
+40,Segovia,Viajero,2025,11,2025M11,42687
+40,Segovia,Viajero,2025,10,2025M10,52183
+40,Segovia,Viajero,2025,9,2025M09,56444
+40,Segovia,Viajero,2025,8,2025M08,70335
+40,Segovia,Viajero,2025,7,2025M07,57512
+40,Segovia,Viajero,2025,6,2025M06,50981
+40,Segovia,Viajero,2025,5,2025M05,50931
+40,Segovia,Viajero,2025,4,2025M04,52063
+40,Segovia,Viajero,2025,3,2025M03,38383
+40,Segovia,Viajero,2025,2,2025M02,33632
+40,Segovia,Viajero,2025,1,2025M01,29578
+40,Segovia,Viajero,2025,12,2025M12,32660
+40,Segovia,Viajero,2025,11,2025M11,34461
+40,Segovia,Viajero,2025,10,2025M10,38521
+40,Segovia,Viajero,2025,9,2025M09,40907
+40,Segovia,Viajero,2025,8,2025M08,56812
+40,Segovia,Viajero,2025,7,2025M07,45202
+40,Segovia,Viajero,2025,6,2025M06,38594
+40,Segovia,Viajero,2025,5,2025M05,37310
+40,Segovia,Viajero,2025,4,2025M04,39560
+40,Segovia,Viajero,2025,3,2025M03,30664
+40,Segovia,Viajero,2025,2,2025M02,28497
+40,Segovia,Viajero,2025,1,2025M01,23309
+40,Segovia,Viajero,2025,12,2025M12,7185
+40,Segovia,Viajero,2025,11,2025M11,8225
+40,Segovia,Viajero,2025,10,2025M10,13662
+40,Segovia,Viajero,2025,9,2025M09,15537
+40,Segovia,Viajero,2025,8,2025M08,13523
+40,Segovia,Viajero,2025,7,2025M07,12310
+40,Segovia,Viajero,2025,6,2025M06,12387
+40,Segovia,Viajero,2025,5,2025M05,13621
+40,Segovia,Viajero,2025,4,2025M04,12503
+40,Segovia,Viajero,2025,3,2025M03,7719
+40,Segovia,Viajero,2025,2,2025M02,5134
+40,Segovia,Viajero,2025,1,2025M01,6268
+40,Segovia,Pernoctaciones,2025,12,2025M12,70353
+40,Segovia,Pernoctaciones,2025,11,2025M11,77204
+40,Segovia,Pernoctaciones,2025,10,2025M10,96284
+40,Segovia,Pernoctaciones,2025,9,2025M09,101242
+40,Segovia,Pernoctaciones,2025,8,2025M08,122791
+40,Segovia,Pernoctaciones,2025,7,2025M07,97844
+40,Segovia,Pernoctaciones,2025,6,2025M06,85796
+40,Segovia,Pernoctaciones,2025,5,2025M05,90448
+40,Segovia,Pernoctaciones,2025,4,2025M04,94626
+40,Segovia,Pernoctaciones,2025,3,2025M03,72544
+40,Segovia,Pernoctaciones,2025,2,2025M02,58598
+40,Segovia,Pernoctaciones,2025,1,2025M01,53608
+40,Segovia,Pernoctaciones,2025,12,2025M12,53241
+40,Segovia,Pernoctaciones,2025,11,2025M11,58545
+40,Segovia,Pernoctaciones,2025,10,2025M10,66075
+40,Segovia,Pernoctaciones,2025,9,2025M09,70205
+40,Segovia,Pernoctaciones,2025,8,2025M08,98533
+40,Segovia,Pernoctaciones,2025,7,2025M07,76060
+40,Segovia,Pernoctaciones,2025,6,2025M06,65210
+40,Segovia,Pernoctaciones,2025,5,2025M05,63717
+40,Segovia,Pernoctaciones,2025,4,2025M04,71938
+40,Segovia,Pernoctaciones,2025,3,2025M03,54488
+40,Segovia,Pernoctaciones,2025,2,2025M02,45379
+40,Segovia,Pernoctaciones,2025,1,2025M01,38988
+40,Segovia,Pernoctaciones,2025,12,2025M12,17112
+40,Segovia,Pernoctaciones,2025,11,2025M11,18659
+40,Segovia,Pernoctaciones,2025,10,2025M10,30209
+40,Segovia,Pernoctaciones,2025,9,2025M09,31037
+40,Segovia,Pernoctaciones,2025,8,2025M08,24258
+40,Segovia,Pernoctaciones,2025,7,2025M07,21783
+40,Segovia,Pernoctaciones,2025,6,2025M06,20586
+40,Segovia,Pernoctaciones,2025,5,2025M05,26731
+40,Segovia,Pernoctaciones,2025,4,2025M04,22688
+40,Segovia,Pernoctaciones,2025,3,2025M03,18056
+40,Segovia,Pernoctaciones,2025,2,2025M02,13218
+40,Segovia,Pernoctaciones,2025,1,2025M01,14620
+42,Soria,Viajero,2025,12,2025M12,14531
+42,Soria,Viajero,2025,11,2025M11,19724
+42,Soria,Viajero,2025,10,2025M10,25925
+42,Soria,Viajero,2025,9,2025M09,25514
+42,Soria,Viajero,2025,8,2025M08,32403
+42,Soria,Viajero,2025,7,2025M07,25965
+42,Soria,Viajero,2025,6,2025M06,24472
+42,Soria,Viajero,2025,5,2025M05,24419
+42,Soria,Viajero,2025,4,2025M04,23014
+42,Soria,Viajero,2025,3,2025M03,17676
+42,Soria,Viajero,2025,2,2025M02,14939
+42,Soria,Viajero,2025,1,2025M01,11098
+42,Soria,Viajero,2025,12,2025M12,13686
+42,Soria,Viajero,2025,11,2025M11,18383
+42,Soria,Viajero,2025,10,2025M10,23403
+42,Soria,Viajero,2025,9,2025M09,22675
+42,Soria,Viajero,2025,8,2025M08,30138
+42,Soria,Viajero,2025,7,2025M07,23594
+42,Soria,Viajero,2025,6,2025M06,22085
+42,Soria,Viajero,2025,5,2025M05,21500
+42,Soria,Viajero,2025,4,2025M04,21416
+42,Soria,Viajero,2025,3,2025M03,16464
+42,Soria,Viajero,2025,2,2025M02,13987
+42,Soria,Viajero,2025,1,2025M01,10262
+42,Soria,Viajero,2025,12,2025M12,846
+42,Soria,Viajero,2025,11,2025M11,1342
+42,Soria,Viajero,2025,10,2025M10,2522
+42,Soria,Viajero,2025,9,2025M09,2839
+42,Soria,Viajero,2025,8,2025M08,2265
+42,Soria,Viajero,2025,7,2025M07,2371
+42,Soria,Viajero,2025,6,2025M06,2387
+42,Soria,Viajero,2025,5,2025M05,2919
+42,Soria,Viajero,2025,4,2025M04,1598
+42,Soria,Viajero,2025,3,2025M03,1212
+42,Soria,Viajero,2025,2,2025M02,951
+42,Soria,Viajero,2025,1,2025M01,835
+42,Soria,Pernoctaciones,2025,12,2025M12,26544
+42,Soria,Pernoctaciones,2025,11,2025M11,36639
+42,Soria,Pernoctaciones,2025,10,2025M10,46186
+42,Soria,Pernoctaciones,2025,9,2025M09,46357
+42,Soria,Pernoctaciones,2025,8,2025M08,62557
+42,Soria,Pernoctaciones,2025,7,2025M07,48163
+42,Soria,Pernoctaciones,2025,6,2025M06,44460
+42,Soria,Pernoctaciones,2025,5,2025M05,44845
+42,Soria,Pernoctaciones,2025,4,2025M04,43059
+42,Soria,Pernoctaciones,2025,3,2025M03,32009
+42,Soria,Pernoctaciones,2025,2,2025M02,26774
+42,Soria,Pernoctaciones,2025,1,2025M01,21216
+42,Soria,Pernoctaciones,2025,12,2025M12,24648
+42,Soria,Pernoctaciones,2025,11,2025M11,33465
+42,Soria,Pernoctaciones,2025,10,2025M10,41520
+42,Soria,Pernoctaciones,2025,9,2025M09,40810
+42,Soria,Pernoctaciones,2025,8,2025M08,58448
+42,Soria,Pernoctaciones,2025,7,2025M07,44500
+42,Soria,Pernoctaciones,2025,6,2025M06,40737
+42,Soria,Pernoctaciones,2025,5,2025M05,40411
+42,Soria,Pernoctaciones,2025,4,2025M04,40378
+42,Soria,Pernoctaciones,2025,3,2025M03,29817
+42,Soria,Pernoctaciones,2025,2,2025M02,25142
+42,Soria,Pernoctaciones,2025,1,2025M01,19388
+42,Soria,Pernoctaciones,2025,12,2025M12,1896
+42,Soria,Pernoctaciones,2025,11,2025M11,3174
+42,Soria,Pernoctaciones,2025,10,2025M10,4666
+42,Soria,Pernoctaciones,2025,9,2025M09,5547
+42,Soria,Pernoctaciones,2025,8,2025M08,4109
+42,Soria,Pernoctaciones,2025,7,2025M07,3662
+42,Soria,Pernoctaciones,2025,6,2025M06,3723
+42,Soria,Pernoctaciones,2025,5,2025M05,4435
+42,Soria,Pernoctaciones,2025,4,2025M04,2682
+42,Soria,Pernoctaciones,2025,3,2025M03,2192
+42,Soria,Pernoctaciones,2025,2,2025M02,1632
+42,Soria,Pernoctaciones,2025,1,2025M01,1828
+47,Valladolid,Viajero,2025,12,2025M12,51293
+47,Valladolid,Viajero,2025,11,2025M11,55280
+47,Valladolid,Viajero,2025,10,2025M10,63090
+47,Valladolid,Viajero,2025,9,2025M09,67132
+47,Valladolid,Viajero,2025,8,2025M08,73871
+47,Valladolid,Viajero,2025,7,2025M07,65011
+47,Valladolid,Viajero,2025,6,2025M06,59293
+47,Valladolid,Viajero,2025,5,2025M05,65617
+47,Valladolid,Viajero,2025,4,2025M04,59668
+47,Valladolid,Viajero,2025,3,2025M03,52425
+47,Valladolid,Viajero,2025,2,2025M02,47192
+47,Valladolid,Viajero,2025,1,2025M01,41361
+47,Valladolid,Viajero,2025,12,2025M12,44478
+47,Valladolid,Viajero,2025,11,2025M11,47829
+47,Valladolid,Viajero,2025,10,2025M10,50350
+47,Valladolid,Viajero,2025,9,2025M09,51628
+47,Valladolid,Viajero,2025,8,2025M08,50308
+47,Valladolid,Viajero,2025,7,2025M07,45046
+47,Valladolid,Viajero,2025,6,2025M06,47179
+47,Valladolid,Viajero,2025,5,2025M05,52675
+47,Valladolid,Viajero,2025,4,2025M04,48064
+47,Valladolid,Viajero,2025,3,2025M03,43635
+47,Valladolid,Viajero,2025,2,2025M02,41291
+47,Valladolid,Viajero,2025,1,2025M01,34875
+47,Valladolid,Viajero,2025,12,2025M12,6815
+47,Valladolid,Viajero,2025,11,2025M11,7451
+47,Valladolid,Viajero,2025,10,2025M10,12741
+47,Valladolid,Viajero,2025,9,2025M09,15505
+47,Valladolid,Viajero,2025,8,2025M08,23564
+47,Valladolid,Viajero,2025,7,2025M07,19965
+47,Valladolid,Viajero,2025,6,2025M06,12114
+47,Valladolid,Viajero,2025,5,2025M05,12942
+47,Valladolid,Viajero,2025,4,2025M04,11604
+47,Valladolid,Viajero,2025,3,2025M03,8789
+47,Valladolid,Viajero,2025,2,2025M02,5901
+47,Valladolid,Viajero,2025,1,2025M01,6486
+47,Valladolid,Pernoctaciones,2025,12,2025M12,90775
+47,Valladolid,Pernoctaciones,2025,11,2025M11,99104
+47,Valladolid,Pernoctaciones,2025,10,2025M10,115543
+47,Valladolid,Pernoctaciones,2025,9,2025M09,117528
+47,Valladolid,Pernoctaciones,2025,8,2025M08,120913
+47,Valladolid,Pernoctaciones,2025,7,2025M07,113313
+47,Valladolid,Pernoctaciones,2025,6,2025M06,106483
+47,Valladolid,Pernoctaciones,2025,5,2025M05,115880
+47,Valladolid,Pernoctaciones,2025,4,2025M04,108895
+47,Valladolid,Pernoctaciones,2025,3,2025M03,96202
+47,Valladolid,Pernoctaciones,2025,2,2025M02,82867
+47,Valladolid,Pernoctaciones,2025,1,2025M01,73996
+47,Valladolid,Pernoctaciones,2025,12,2025M12,79303
+47,Valladolid,Pernoctaciones,2025,11,2025M11,83586
+47,Valladolid,Pernoctaciones,2025,10,2025M10,90186
+47,Valladolid,Pernoctaciones,2025,9,2025M09,86722
+47,Valladolid,Pernoctaciones,2025,8,2025M08,88010
+47,Valladolid,Pernoctaciones,2025,7,2025M07,78886
+47,Valladolid,Pernoctaciones,2025,6,2025M06,83239
+47,Valladolid,Pernoctaciones,2025,5,2025M05,93849
+47,Valladolid,Pernoctaciones,2025,4,2025M04,88444
+47,Valladolid,Pernoctaciones,2025,3,2025M03,79435
+47,Valladolid,Pernoctaciones,2025,2,2025M02,71444
+47,Valladolid,Pernoctaciones,2025,1,2025M01,61846
+47,Valladolid,Pernoctaciones,2025,12,2025M12,11472
+47,Valladolid,Pernoctaciones,2025,11,2025M11,15517
+47,Valladolid,Pernoctaciones,2025,10,2025M10,25357
+47,Valladolid,Pernoctaciones,2025,9,2025M09,30805
+47,Valladolid,Pernoctaciones,2025,8,2025M08,32903
+47,Valladolid,Pernoctaciones,2025,7,2025M07,34427
+47,Valladolid,Pernoctaciones,2025,6,2025M06,23245
+47,Valladolid,Pernoctaciones,2025,5,2025M05,22031
+47,Valladolid,Pernoctaciones,2025,4,2025M04,20451
+47,Valladolid,Pernoctaciones,2025,3,2025M03,16767
+47,Valladolid,Pernoctaciones,2025,2,2025M02,11423
+47,Valladolid,Pernoctaciones,2025,1,2025M01,12149
+49,Zamora,Viajero,2025,12,2025M12,13111
+49,Zamora,Viajero,2025,11,2025M11,15573
+49,Zamora,Viajero,2025,10,2025M10,20377
+49,Zamora,Viajero,2025,9,2025M09,20381
+49,Zamora,Viajero,2025,8,2025M08,29550
+49,Zamora,Viajero,2025,7,2025M07,23769
+49,Zamora,Viajero,2025,6,2025M06,19841
+49,Zamora,Viajero,2025,5,2025M05,19900
+49,Zamora,Viajero,2025,4,2025M04,18782
+49,Zamora,Viajero,2025,3,2025M03,13788
+49,Zamora,Viajero,2025,2,2025M02,10736
+49,Zamora,Viajero,2025,1,2025M01,9239
+49,Zamora,Viajero,2025,12,2025M12,12056
+49,Zamora,Viajero,2025,11,2025M11,14151
+49,Zamora,Viajero,2025,10,2025M10,17723
+49,Zamora,Viajero,2025,9,2025M09,17096
+49,Zamora,Viajero,2025,8,2025M08,26333
+49,Zamora,Viajero,2025,7,2025M07,21250
+49,Zamora,Viajero,2025,6,2025M06,16928
+49,Zamora,Viajero,2025,5,2025M05,16203
+49,Zamora,Viajero,2025,4,2025M04,15756
+49,Zamora,Viajero,2025,3,2025M03,11963
+49,Zamora,Viajero,2025,2,2025M02,9814
+49,Zamora,Viajero,2025,1,2025M01,8576
+49,Zamora,Viajero,2025,12,2025M12,1055
+49,Zamora,Viajero,2025,11,2025M11,1422
+49,Zamora,Viajero,2025,10,2025M10,2654
+49,Zamora,Viajero,2025,9,2025M09,3285
+49,Zamora,Viajero,2025,8,2025M08,3217
+49,Zamora,Viajero,2025,7,2025M07,2519
+49,Zamora,Viajero,2025,6,2025M06,2913
+49,Zamora,Viajero,2025,5,2025M05,3697
+49,Zamora,Viajero,2025,4,2025M04,3026
+49,Zamora,Viajero,2025,3,2025M03,1826
+49,Zamora,Viajero,2025,2,2025M02,921
+49,Zamora,Viajero,2025,1,2025M01,663
+49,Zamora,Pernoctaciones,2025,12,2025M12,20996
+49,Zamora,Pernoctaciones,2025,11,2025M11,26930
+49,Zamora,Pernoctaciones,2025,10,2025M10,33274
+49,Zamora,Pernoctaciones,2025,9,2025M09,34251
+49,Zamora,Pernoctaciones,2025,8,2025M08,46988
+49,Zamora,Pernoctaciones,2025,7,2025M07,39685
+49,Zamora,Pernoctaciones,2025,6,2025M06,33415
+49,Zamora,Pernoctaciones,2025,5,2025M05,33691
+49,Zamora,Pernoctaciones,2025,4,2025M04,30883
+49,Zamora,Pernoctaciones,2025,3,2025M03,23106
+49,Zamora,Pernoctaciones,2025,2,2025M02,17979
+49,Zamora,Pernoctaciones,2025,1,2025M01,15118
+49,Zamora,Pernoctaciones,2025,12,2025M12,19474
+49,Zamora,Pernoctaciones,2025,11,2025M11,24313
+49,Zamora,Pernoctaciones,2025,10,2025M10,29428
+49,Zamora,Pernoctaciones,2025,9,2025M09,29387
+49,Zamora,Pernoctaciones,2025,8,2025M08,42048
+49,Zamora,Pernoctaciones,2025,7,2025M07,36172
+49,Zamora,Pernoctaciones,2025,6,2025M06,29211
+49,Zamora,Pernoctaciones,2025,5,2025M05,28543
+49,Zamora,Pernoctaciones,2025,4,2025M04,26787
+49,Zamora,Pernoctaciones,2025,3,2025M03,20469
+49,Zamora,Pernoctaciones,2025,2,2025M02,16466
+49,Zamora,Pernoctaciones,2025,1,2025M01,14077
+49,Zamora,Pernoctaciones,2025,12,2025M12,1522
+49,Zamora,Pernoctaciones,2025,11,2025M11,2617
+49,Zamora,Pernoctaciones,2025,10,2025M10,3846
+49,Zamora,Pernoctaciones,2025,9,2025M09,4864
+49,Zamora,Pernoctaciones,2025,8,2025M08,4939
+49,Zamora,Pernoctaciones,2025,7,2025M07,3513
+49,Zamora,Pernoctaciones,2025,6,2025M06,4204
+49,Zamora,Pernoctaciones,2025,5,2025M05,5148
+49,Zamora,Pernoctaciones,2025,4,2025M04,4096
+49,Zamora,Pernoctaciones,2025,3,2025M03,2637
+49,Zamora,Pernoctaciones,2025,2,2025M02,1513
+49,Zamora,Pernoctaciones,2025,1,2025M01,1041
+02,Albacete,Viajero,2025,12,2025M12,30417
+02,Albacete,Viajero,2025,11,2025M11,32348
+02,Albacete,Viajero,2025,10,2025M10,38586
+02,Albacete,Viajero,2025,9,2025M09,46179
+02,Albacete,Viajero,2025,8,2025M08,39429
+02,Albacete,Viajero,2025,7,2025M07,35363
+02,Albacete,Viajero,2025,6,2025M06,42465
+02,Albacete,Viajero,2025,5,2025M05,41135
+02,Albacete,Viajero,2025,4,2025M04,38931
+02,Albacete,Viajero,2025,3,2025M03,34521
+02,Albacete,Viajero,2025,2,2025M02,28158
+02,Albacete,Viajero,2025,1,2025M01,21824
+02,Albacete,Viajero,2025,12,2025M12,26639
+02,Albacete,Viajero,2025,11,2025M11,28353
+02,Albacete,Viajero,2025,10,2025M10,33904
+02,Albacete,Viajero,2025,9,2025M09,41039
+02,Albacete,Viajero,2025,8,2025M08,34811
+02,Albacete,Viajero,2025,7,2025M07,30613
+02,Albacete,Viajero,2025,6,2025M06,38327
+02,Albacete,Viajero,2025,5,2025M05,35795
+02,Albacete,Viajero,2025,4,2025M04,33977
+02,Albacete,Viajero,2025,3,2025M03,30393
+02,Albacete,Viajero,2025,2,2025M02,24268
+02,Albacete,Viajero,2025,1,2025M01,18273
+02,Albacete,Viajero,2025,12,2025M12,3777
+02,Albacete,Viajero,2025,11,2025M11,3995
+02,Albacete,Viajero,2025,10,2025M10,4682
+02,Albacete,Viajero,2025,9,2025M09,5140
+02,Albacete,Viajero,2025,8,2025M08,4618
+02,Albacete,Viajero,2025,7,2025M07,4750
+02,Albacete,Viajero,2025,6,2025M06,4138
+02,Albacete,Viajero,2025,5,2025M05,5340
+02,Albacete,Viajero,2025,4,2025M04,4954
+02,Albacete,Viajero,2025,3,2025M03,4128
+02,Albacete,Viajero,2025,2,2025M02,3890
+02,Albacete,Viajero,2025,1,2025M01,3551
+02,Albacete,Pernoctaciones,2025,12,2025M12,48001
+02,Albacete,Pernoctaciones,2025,11,2025M11,68332
+02,Albacete,Pernoctaciones,2025,10,2025M10,84326
+02,Albacete,Pernoctaciones,2025,9,2025M09,118034
+02,Albacete,Pernoctaciones,2025,8,2025M08,82469
+02,Albacete,Pernoctaciones,2025,7,2025M07,68859
+02,Albacete,Pernoctaciones,2025,6,2025M06,109233
+02,Albacete,Pernoctaciones,2025,5,2025M05,84620
+02,Albacete,Pernoctaciones,2025,4,2025M04,72926
+02,Albacete,Pernoctaciones,2025,3,2025M03,56198
+02,Albacete,Pernoctaciones,2025,2,2025M02,43797
+02,Albacete,Pernoctaciones,2025,1,2025M01,33459
+02,Albacete,Pernoctaciones,2025,12,2025M12,42055
+02,Albacete,Pernoctaciones,2025,11,2025M11,59254
+02,Albacete,Pernoctaciones,2025,10,2025M10,76186
+02,Albacete,Pernoctaciones,2025,9,2025M09,107706
+02,Albacete,Pernoctaciones,2025,8,2025M08,76215
+02,Albacete,Pernoctaciones,2025,7,2025M07,58869
+02,Albacete,Pernoctaciones,2025,6,2025M06,102340
+02,Albacete,Pernoctaciones,2025,5,2025M05,76170
+02,Albacete,Pernoctaciones,2025,4,2025M04,65558
+02,Albacete,Pernoctaciones,2025,3,2025M03,49977
+02,Albacete,Pernoctaciones,2025,2,2025M02,36124
+02,Albacete,Pernoctaciones,2025,1,2025M01,27908
+02,Albacete,Pernoctaciones,2025,12,2025M12,5945
+02,Albacete,Pernoctaciones,2025,11,2025M11,9078
+02,Albacete,Pernoctaciones,2025,10,2025M10,8140
+02,Albacete,Pernoctaciones,2025,9,2025M09,10328
+02,Albacete,Pernoctaciones,2025,8,2025M08,6254
+02,Albacete,Pernoctaciones,2025,7,2025M07,9990
+02,Albacete,Pernoctaciones,2025,6,2025M06,6893
+02,Albacete,Pernoctaciones,2025,5,2025M05,8450
+02,Albacete,Pernoctaciones,2025,4,2025M04,7368
+02,Albacete,Pernoctaciones,2025,3,2025M03,6221
+02,Albacete,Pernoctaciones,2025,2,2025M02,7672
+02,Albacete,Pernoctaciones,2025,1,2025M01,5551
+13,Ciudad Real,Viajero,2025,12,2025M12,31265
+13,Ciudad Real,Viajero,2025,11,2025M11,34779
+13,Ciudad Real,Viajero,2025,10,2025M10,42085
+13,Ciudad Real,Viajero,2025,9,2025M09,41261
+13,Ciudad Real,Viajero,2025,8,2025M08,46875
+13,Ciudad Real,Viajero,2025,7,2025M07,42988
+13,Ciudad Real,Viajero,2025,6,2025M06,40934
+13,Ciudad Real,Viajero,2025,5,2025M05,45309
+13,Ciudad Real,Viajero,2025,4,2025M04,39860
+13,Ciudad Real,Viajero,2025,3,2025M03,31632
+13,Ciudad Real,Viajero,2025,2,2025M02,29526
+13,Ciudad Real,Viajero,2025,1,2025M01,23876
+13,Ciudad Real,Viajero,2025,12,2025M12,27270
+13,Ciudad Real,Viajero,2025,11,2025M11,30537
+13,Ciudad Real,Viajero,2025,10,2025M10,36155
+13,Ciudad Real,Viajero,2025,9,2025M09,35444
+13,Ciudad Real,Viajero,2025,8,2025M08,39990
+13,Ciudad Real,Viajero,2025,7,2025M07,37099
+13,Ciudad Real,Viajero,2025,6,2025M06,35716
+13,Ciudad Real,Viajero,2025,5,2025M05,39667
+13,Ciudad Real,Viajero,2025,4,2025M04,35043
+13,Ciudad Real,Viajero,2025,3,2025M03,26456
+13,Ciudad Real,Viajero,2025,2,2025M02,26505
+13,Ciudad Real,Viajero,2025,1,2025M01,20532
+13,Ciudad Real,Viajero,2025,12,2025M12,3995
+13,Ciudad Real,Viajero,2025,11,2025M11,4242
+13,Ciudad Real,Viajero,2025,10,2025M10,5930
+13,Ciudad Real,Viajero,2025,9,2025M09,5816
+13,Ciudad Real,Viajero,2025,8,2025M08,6886
+13,Ciudad Real,Viajero,2025,7,2025M07,5889
+13,Ciudad Real,Viajero,2025,6,2025M06,5218
+13,Ciudad Real,Viajero,2025,5,2025M05,5642
+13,Ciudad Real,Viajero,2025,4,2025M04,4818
+13,Ciudad Real,Viajero,2025,3,2025M03,5176
+13,Ciudad Real,Viajero,2025,2,2025M02,3021
+13,Ciudad Real,Viajero,2025,1,2025M01,3344
+13,Ciudad Real,Pernoctaciones,2025,12,2025M12,51711
+13,Ciudad Real,Pernoctaciones,2025,11,2025M11,64696
+13,Ciudad Real,Pernoctaciones,2025,10,2025M10,74483
+13,Ciudad Real,Pernoctaciones,2025,9,2025M09,72491
+13,Ciudad Real,Pernoctaciones,2025,8,2025M08,77326
+13,Ciudad Real,Pernoctaciones,2025,7,2025M07,72836
+13,Ciudad Real,Pernoctaciones,2025,6,2025M06,69165
+13,Ciudad Real,Pernoctaciones,2025,5,2025M05,79726
+13,Ciudad Real,Pernoctaciones,2025,4,2025M04,68686
+13,Ciudad Real,Pernoctaciones,2025,3,2025M03,56343
+13,Ciudad Real,Pernoctaciones,2025,2,2025M02,46240
+13,Ciudad Real,Pernoctaciones,2025,1,2025M01,37017
+13,Ciudad Real,Pernoctaciones,2025,12,2025M12,45257
+13,Ciudad Real,Pernoctaciones,2025,11,2025M11,56766
+13,Ciudad Real,Pernoctaciones,2025,10,2025M10,63992
+13,Ciudad Real,Pernoctaciones,2025,9,2025M09,62636
+13,Ciudad Real,Pernoctaciones,2025,8,2025M08,67005
+13,Ciudad Real,Pernoctaciones,2025,7,2025M07,63416
+13,Ciudad Real,Pernoctaciones,2025,6,2025M06,60586
+13,Ciudad Real,Pernoctaciones,2025,5,2025M05,70005
+13,Ciudad Real,Pernoctaciones,2025,4,2025M04,60839
+13,Ciudad Real,Pernoctaciones,2025,3,2025M03,44807
+13,Ciudad Real,Pernoctaciones,2025,2,2025M02,40678
+13,Ciudad Real,Pernoctaciones,2025,1,2025M01,31091
+13,Ciudad Real,Pernoctaciones,2025,12,2025M12,6455
+13,Ciudad Real,Pernoctaciones,2025,11,2025M11,7930
+13,Ciudad Real,Pernoctaciones,2025,10,2025M10,10492
+13,Ciudad Real,Pernoctaciones,2025,9,2025M09,9855
+13,Ciudad Real,Pernoctaciones,2025,8,2025M08,10321
+13,Ciudad Real,Pernoctaciones,2025,7,2025M07,9421
+13,Ciudad Real,Pernoctaciones,2025,6,2025M06,8579
+13,Ciudad Real,Pernoctaciones,2025,5,2025M05,9721
+13,Ciudad Real,Pernoctaciones,2025,4,2025M04,7847
+13,Ciudad Real,Pernoctaciones,2025,3,2025M03,11536
+13,Ciudad Real,Pernoctaciones,2025,2,2025M02,5562
+13,Ciudad Real,Pernoctaciones,2025,1,2025M01,5925
+16,Cuenca,Viajero,2025,12,2025M12,20254
+16,Cuenca,Viajero,2025,11,2025M11,24418
+16,Cuenca,Viajero,2025,10,2025M10,31353
+16,Cuenca,Viajero,2025,9,2025M09,29433
+16,Cuenca,Viajero,2025,8,2025M08,34659
+16,Cuenca,Viajero,2025,7,2025M07,25140
+16,Cuenca,Viajero,2025,6,2025M06,26331
+16,Cuenca,Viajero,2025,5,2025M05,27591
+16,Cuenca,Viajero,2025,4,2025M04,26620
+16,Cuenca,Viajero,2025,3,2025M03,20255
+16,Cuenca,Viajero,2025,2,2025M02,24157
+16,Cuenca,Viajero,2025,1,2025M01,14964
+16,Cuenca,Viajero,2025,12,2025M12,18203
+16,Cuenca,Viajero,2025,11,2025M11,22108
+16,Cuenca,Viajero,2025,10,2025M10,27005
+16,Cuenca,Viajero,2025,9,2025M09,24679
+16,Cuenca,Viajero,2025,8,2025M08,31416
+16,Cuenca,Viajero,2025,7,2025M07,22129
+16,Cuenca,Viajero,2025,6,2025M06,22565
+16,Cuenca,Viajero,2025,5,2025M05,23416
+16,Cuenca,Viajero,2025,4,2025M04,23335
+16,Cuenca,Viajero,2025,3,2025M03,17837
+16,Cuenca,Viajero,2025,2,2025M02,22199
+16,Cuenca,Viajero,2025,1,2025M01,13310
+16,Cuenca,Viajero,2025,12,2025M12,2051
+16,Cuenca,Viajero,2025,11,2025M11,2310
+16,Cuenca,Viajero,2025,10,2025M10,4348
+16,Cuenca,Viajero,2025,9,2025M09,4754
+16,Cuenca,Viajero,2025,8,2025M08,3243
+16,Cuenca,Viajero,2025,7,2025M07,3011
+16,Cuenca,Viajero,2025,6,2025M06,3766
+16,Cuenca,Viajero,2025,5,2025M05,4175
+16,Cuenca,Viajero,2025,4,2025M04,3285
+16,Cuenca,Viajero,2025,3,2025M03,2418
+16,Cuenca,Viajero,2025,2,2025M02,1958
+16,Cuenca,Viajero,2025,1,2025M01,1654
+16,Cuenca,Pernoctaciones,2025,12,2025M12,35517
+16,Cuenca,Pernoctaciones,2025,11,2025M11,43205
+16,Cuenca,Pernoctaciones,2025,10,2025M10,53612
+16,Cuenca,Pernoctaciones,2025,9,2025M09,52140
+16,Cuenca,Pernoctaciones,2025,8,2025M08,61292
+16,Cuenca,Pernoctaciones,2025,7,2025M07,42902
+16,Cuenca,Pernoctaciones,2025,6,2025M06,44432
+16,Cuenca,Pernoctaciones,2025,5,2025M05,48914
+16,Cuenca,Pernoctaciones,2025,4,2025M04,48625
+16,Cuenca,Pernoctaciones,2025,3,2025M03,35213
+16,Cuenca,Pernoctaciones,2025,2,2025M02,45179
+16,Cuenca,Pernoctaciones,2025,1,2025M01,26175
+16,Cuenca,Pernoctaciones,2025,12,2025M12,31541
+16,Cuenca,Pernoctaciones,2025,11,2025M11,38648
+16,Cuenca,Pernoctaciones,2025,10,2025M10,45898
+16,Cuenca,Pernoctaciones,2025,9,2025M09,43765
+16,Cuenca,Pernoctaciones,2025,8,2025M08,55614
+16,Cuenca,Pernoctaciones,2025,7,2025M07,37412
+16,Cuenca,Pernoctaciones,2025,6,2025M06,37811
+16,Cuenca,Pernoctaciones,2025,5,2025M05,42481
+16,Cuenca,Pernoctaciones,2025,4,2025M04,42901
+16,Cuenca,Pernoctaciones,2025,3,2025M03,30662
+16,Cuenca,Pernoctaciones,2025,2,2025M02,41331
+16,Cuenca,Pernoctaciones,2025,1,2025M01,22404
+16,Cuenca,Pernoctaciones,2025,12,2025M12,3976
+16,Cuenca,Pernoctaciones,2025,11,2025M11,4556
+16,Cuenca,Pernoctaciones,2025,10,2025M10,7714
+16,Cuenca,Pernoctaciones,2025,9,2025M09,8375
+16,Cuenca,Pernoctaciones,2025,8,2025M08,5678
+16,Cuenca,Pernoctaciones,2025,7,2025M07,5490
+16,Cuenca,Pernoctaciones,2025,6,2025M06,6621
+16,Cuenca,Pernoctaciones,2025,5,2025M05,6433
+16,Cuenca,Pernoctaciones,2025,4,2025M04,5724
+16,Cuenca,Pernoctaciones,2025,3,2025M03,4551
+16,Cuenca,Pernoctaciones,2025,2,2025M02,3848
+16,Cuenca,Pernoctaciones,2025,1,2025M01,3771
+19,Guadalajara,Viajero,2025,12,2025M12,21335
+19,Guadalajara,Viajero,2025,11,2025M11,26245
+19,Guadalajara,Viajero,2025,10,2025M10,30713
+19,Guadalajara,Viajero,2025,9,2025M09,29347
+19,Guadalajara,Viajero,2025,8,2025M08,26501
+19,Guadalajara,Viajero,2025,7,2025M07,28593
+19,Guadalajara,Viajero,2025,6,2025M06,29998
+19,Guadalajara,Viajero,2025,5,2025M05,30092
+19,Guadalajara,Viajero,2025,4,2025M04,27993
+19,Guadalajara,Viajero,2025,3,2025M03,16355
+19,Guadalajara,Viajero,2025,2,2025M02,17811
+19,Guadalajara,Viajero,2025,1,2025M01,15745
+19,Guadalajara,Viajero,2025,12,2025M12,18438
+19,Guadalajara,Viajero,2025,11,2025M11,23225
+19,Guadalajara,Viajero,2025,10,2025M10,25119
+19,Guadalajara,Viajero,2025,9,2025M09,24849
+19,Guadalajara,Viajero,2025,8,2025M08,23682
+19,Guadalajara,Viajero,2025,7,2025M07,24771
+19,Guadalajara,Viajero,2025,6,2025M06,26046
+19,Guadalajara,Viajero,2025,5,2025M05,25697
+19,Guadalajara,Viajero,2025,4,2025M04,24478
+19,Guadalajara,Viajero,2025,3,2025M03,13900
+19,Guadalajara,Viajero,2025,2,2025M02,15727
+19,Guadalajara,Viajero,2025,1,2025M01,13652
+19,Guadalajara,Viajero,2025,12,2025M12,2897
+19,Guadalajara,Viajero,2025,11,2025M11,3020
+19,Guadalajara,Viajero,2025,10,2025M10,5594
+19,Guadalajara,Viajero,2025,9,2025M09,4498
+19,Guadalajara,Viajero,2025,8,2025M08,2820
+19,Guadalajara,Viajero,2025,7,2025M07,3822
+19,Guadalajara,Viajero,2025,6,2025M06,3952
+19,Guadalajara,Viajero,2025,5,2025M05,4395
+19,Guadalajara,Viajero,2025,4,2025M04,3515
+19,Guadalajara,Viajero,2025,3,2025M03,2455
+19,Guadalajara,Viajero,2025,2,2025M02,2084
+19,Guadalajara,Viajero,2025,1,2025M01,2094
+19,Guadalajara,Pernoctaciones,2025,12,2025M12,38582
+19,Guadalajara,Pernoctaciones,2025,11,2025M11,47209
+19,Guadalajara,Pernoctaciones,2025,10,2025M10,53361
+19,Guadalajara,Pernoctaciones,2025,9,2025M09,52230
+19,Guadalajara,Pernoctaciones,2025,8,2025M08,51241
+19,Guadalajara,Pernoctaciones,2025,7,2025M07,52607
+19,Guadalajara,Pernoctaciones,2025,6,2025M06,54268
+19,Guadalajara,Pernoctaciones,2025,5,2025M05,53238
+19,Guadalajara,Pernoctaciones,2025,4,2025M04,53668
+19,Guadalajara,Pernoctaciones,2025,3,2025M03,31472
+19,Guadalajara,Pernoctaciones,2025,2,2025M02,31062
+19,Guadalajara,Pernoctaciones,2025,1,2025M01,30245
+19,Guadalajara,Pernoctaciones,2025,12,2025M12,33087
+19,Guadalajara,Pernoctaciones,2025,11,2025M11,40546
+19,Guadalajara,Pernoctaciones,2025,10,2025M10,44507
+19,Guadalajara,Pernoctaciones,2025,9,2025M09,43879
+19,Guadalajara,Pernoctaciones,2025,8,2025M08,45494
+19,Guadalajara,Pernoctaciones,2025,7,2025M07,44902
+19,Guadalajara,Pernoctaciones,2025,6,2025M06,46343
+19,Guadalajara,Pernoctaciones,2025,5,2025M05,44513
+19,Guadalajara,Pernoctaciones,2025,4,2025M04,44711
+19,Guadalajara,Pernoctaciones,2025,3,2025M03,25921
+19,Guadalajara,Pernoctaciones,2025,2,2025M02,26420
+19,Guadalajara,Pernoctaciones,2025,1,2025M01,24557
+19,Guadalajara,Pernoctaciones,2025,12,2025M12,5495
+19,Guadalajara,Pernoctaciones,2025,11,2025M11,6664
+19,Guadalajara,Pernoctaciones,2025,10,2025M10,8855
+19,Guadalajara,Pernoctaciones,2025,9,2025M09,8351
+19,Guadalajara,Pernoctaciones,2025,8,2025M08,5747
+19,Guadalajara,Pernoctaciones,2025,7,2025M07,7705
+19,Guadalajara,Pernoctaciones,2025,6,2025M06,7925
+19,Guadalajara,Pernoctaciones,2025,5,2025M05,8725
+19,Guadalajara,Pernoctaciones,2025,4,2025M04,8958
+19,Guadalajara,Pernoctaciones,2025,3,2025M03,5551
+19,Guadalajara,Pernoctaciones,2025,2,2025M02,4642
+19,Guadalajara,Pernoctaciones,2025,1,2025M01,5689
+45,Toledo,Viajero,2025,12,2025M12,70136
+45,Toledo,Viajero,2025,11,2025M11,68325
+45,Toledo,Viajero,2025,10,2025M10,103718
+45,Toledo,Viajero,2025,9,2025M09,96443
+45,Toledo,Viajero,2025,8,2025M08,82953
+45,Toledo,Viajero,2025,7,2025M07,75323
+45,Toledo,Viajero,2025,6,2025M06,88531
+45,Toledo,Viajero,2025,5,2025M05,96176
+45,Toledo,Viajero,2025,4,2025M04,95490
+45,Toledo,Viajero,2025,3,2025M03,63912
+45,Toledo,Viajero,2025,2,2025M02,51000
+45,Toledo,Viajero,2025,1,2025M01,47490
+45,Toledo,Viajero,2025,12,2025M12,57098
+45,Toledo,Viajero,2025,11,2025M11,53141
+45,Toledo,Viajero,2025,10,2025M10,80872
+45,Toledo,Viajero,2025,9,2025M09,75653
+45,Toledo,Viajero,2025,8,2025M08,62711
+45,Toledo,Viajero,2025,7,2025M07,54948
+45,Toledo,Viajero,2025,6,2025M06,68867
+45,Toledo,Viajero,2025,5,2025M05,74108
+45,Toledo,Viajero,2025,4,2025M04,73829
+45,Toledo,Viajero,2025,3,2025M03,49163
+45,Toledo,Viajero,2025,2,2025M02,39029
+45,Toledo,Viajero,2025,1,2025M01,35483
+45,Toledo,Viajero,2025,12,2025M12,13037
+45,Toledo,Viajero,2025,11,2025M11,15184
+45,Toledo,Viajero,2025,10,2025M10,22847
+45,Toledo,Viajero,2025,9,2025M09,20791
+45,Toledo,Viajero,2025,8,2025M08,20242
+45,Toledo,Viajero,2025,7,2025M07,20375
+45,Toledo,Viajero,2025,6,2025M06,19664
+45,Toledo,Viajero,2025,5,2025M05,22068
+45,Toledo,Viajero,2025,4,2025M04,21661
+45,Toledo,Viajero,2025,3,2025M03,14749
+45,Toledo,Viajero,2025,2,2025M02,11971
+45,Toledo,Viajero,2025,1,2025M01,12007
+45,Toledo,Pernoctaciones,2025,12,2025M12,118310
+45,Toledo,Pernoctaciones,2025,11,2025M11,115246
+45,Toledo,Pernoctaciones,2025,10,2025M10,172519
+45,Toledo,Pernoctaciones,2025,9,2025M09,164720
+45,Toledo,Pernoctaciones,2025,8,2025M08,140751
+45,Toledo,Pernoctaciones,2025,7,2025M07,124556
+45,Toledo,Pernoctaciones,2025,6,2025M06,146723
+45,Toledo,Pernoctaciones,2025,5,2025M05,161747
+45,Toledo,Pernoctaciones,2025,4,2025M04,159150
+45,Toledo,Pernoctaciones,2025,3,2025M03,103822
+45,Toledo,Pernoctaciones,2025,2,2025M02,81101
+45,Toledo,Pernoctaciones,2025,1,2025M01,76908
+45,Toledo,Pernoctaciones,2025,12,2025M12,93277
+45,Toledo,Pernoctaciones,2025,11,2025M11,86336
+45,Toledo,Pernoctaciones,2025,10,2025M10,130373
+45,Toledo,Pernoctaciones,2025,9,2025M09,124900
+45,Toledo,Pernoctaciones,2025,8,2025M08,104753
+45,Toledo,Pernoctaciones,2025,7,2025M07,87986
+45,Toledo,Pernoctaciones,2025,6,2025M06,110036
+45,Toledo,Pernoctaciones,2025,5,2025M05,120474
+45,Toledo,Pernoctaciones,2025,4,2025M04,119537
+45,Toledo,Pernoctaciones,2025,3,2025M03,78801
+45,Toledo,Pernoctaciones,2025,2,2025M02,61733
+45,Toledo,Pernoctaciones,2025,1,2025M01,57172
+45,Toledo,Pernoctaciones,2025,12,2025M12,25033
+45,Toledo,Pernoctaciones,2025,11,2025M11,28910
+45,Toledo,Pernoctaciones,2025,10,2025M10,42146
+45,Toledo,Pernoctaciones,2025,9,2025M09,39821
+45,Toledo,Pernoctaciones,2025,8,2025M08,35998
+45,Toledo,Pernoctaciones,2025,7,2025M07,36570
+45,Toledo,Pernoctaciones,2025,6,2025M06,36687
+45,Toledo,Pernoctaciones,2025,5,2025M05,41273
+45,Toledo,Pernoctaciones,2025,4,2025M04,39613
+45,Toledo,Pernoctaciones,2025,3,2025M03,25020
+45,Toledo,Pernoctaciones,2025,2,2025M02,19368
+45,Toledo,Pernoctaciones,2025,1,2025M01,19736
+08,Barcelona,Viajero,2025,12,2025M12,917329
+08,Barcelona,Viajero,2025,11,2025M11,995175
+08,Barcelona,Viajero,2025,10,2025M10,1358820
+08,Barcelona,Viajero,2025,9,2025M09,1263546
+08,Barcelona,Viajero,2025,8,2025M08,1422358
+08,Barcelona,Viajero,2025,7,2025M07,1416260
+08,Barcelona,Viajero,2025,6,2025M06,1348735
+08,Barcelona,Viajero,2025,5,2025M05,1324501
+08,Barcelona,Viajero,2025,4,2025M04,1169127
+08,Barcelona,Viajero,2025,3,2025M03,1009693
+08,Barcelona,Viajero,2025,2,2025M02,853957
+08,Barcelona,Viajero,2025,1,2025M01,795102
+08,Barcelona,Viajero,2025,12,2025M12,290040
+08,Barcelona,Viajero,2025,11,2025M11,288876
+08,Barcelona,Viajero,2025,10,2025M10,350112
+08,Barcelona,Viajero,2025,9,2025M09,282967
+08,Barcelona,Viajero,2025,8,2025M08,290501
+08,Barcelona,Viajero,2025,7,2025M07,329110
+08,Barcelona,Viajero,2025,6,2025M06,321279
+08,Barcelona,Viajero,2025,5,2025M05,304377
+08,Barcelona,Viajero,2025,4,2025M04,265417
+08,Barcelona,Viajero,2025,3,2025M03,283856
+08,Barcelona,Viajero,2025,2,2025M02,256257
+08,Barcelona,Viajero,2025,1,2025M01,236909
+08,Barcelona,Viajero,2025,12,2025M12,627290
+08,Barcelona,Viajero,2025,11,2025M11,706299
+08,Barcelona,Viajero,2025,10,2025M10,1008709
+08,Barcelona,Viajero,2025,9,2025M09,980579
+08,Barcelona,Viajero,2025,8,2025M08,1131857
+08,Barcelona,Viajero,2025,7,2025M07,1087151
+08,Barcelona,Viajero,2025,6,2025M06,1027456
+08,Barcelona,Viajero,2025,5,2025M05,1020124
+08,Barcelona,Viajero,2025,4,2025M04,903710
+08,Barcelona,Viajero,2025,3,2025M03,725837
+08,Barcelona,Viajero,2025,2,2025M02,597700
+08,Barcelona,Viajero,2025,1,2025M01,558193
+08,Barcelona,Pernoctaciones,2025,12,2025M12,2020125
+08,Barcelona,Pernoctaciones,2025,11,2025M11,2213803
+08,Barcelona,Pernoctaciones,2025,10,2025M10,3273944
+08,Barcelona,Pernoctaciones,2025,9,2025M09,3344864
+08,Barcelona,Pernoctaciones,2025,8,2025M08,4072782
+08,Barcelona,Pernoctaciones,2025,7,2025M07,3902624
+08,Barcelona,Pernoctaciones,2025,6,2025M06,3482787
+08,Barcelona,Pernoctaciones,2025,5,2025M05,3318696
+08,Barcelona,Pernoctaciones,2025,4,2025M04,2893184
+08,Barcelona,Pernoctaciones,2025,3,2025M03,2374380
+08,Barcelona,Pernoctaciones,2025,2,2025M02,1948795
+08,Barcelona,Pernoctaciones,2025,1,2025M01,1835482
+08,Barcelona,Pernoctaciones,2025,12,2025M12,496206
+08,Barcelona,Pernoctaciones,2025,11,2025M11,495002
+08,Barcelona,Pernoctaciones,2025,10,2025M10,595244
+08,Barcelona,Pernoctaciones,2025,9,2025M09,521436
+08,Barcelona,Pernoctaciones,2025,8,2025M08,623449
+08,Barcelona,Pernoctaciones,2025,7,2025M07,645421
+08,Barcelona,Pernoctaciones,2025,6,2025M06,597453
+08,Barcelona,Pernoctaciones,2025,5,2025M05,614952
+08,Barcelona,Pernoctaciones,2025,4,2025M04,529917
+08,Barcelona,Pernoctaciones,2025,3,2025M03,525225
+08,Barcelona,Pernoctaciones,2025,2,2025M02,429593
+08,Barcelona,Pernoctaciones,2025,1,2025M01,426465
+08,Barcelona,Pernoctaciones,2025,12,2025M12,1523919
+08,Barcelona,Pernoctaciones,2025,11,2025M11,1718801
+08,Barcelona,Pernoctaciones,2025,10,2025M10,2678700
+08,Barcelona,Pernoctaciones,2025,9,2025M09,2823429
+08,Barcelona,Pernoctaciones,2025,8,2025M08,3449333
+08,Barcelona,Pernoctaciones,2025,7,2025M07,3257203
+08,Barcelona,Pernoctaciones,2025,6,2025M06,2885333
+08,Barcelona,Pernoctaciones,2025,5,2025M05,2703744
+08,Barcelona,Pernoctaciones,2025,4,2025M04,2363267
+08,Barcelona,Pernoctaciones,2025,3,2025M03,1849155
+08,Barcelona,Pernoctaciones,2025,2,2025M02,1519202
+08,Barcelona,Pernoctaciones,2025,1,2025M01,1409017
+17,Girona,Viajero,2025,12,2025M12,159681
+17,Girona,Viajero,2025,11,2025M11,162854
+17,Girona,Viajero,2025,10,2025M10,386164
+17,Girona,Viajero,2025,9,2025M09,518825
+17,Girona,Viajero,2025,8,2025M08,672163
+17,Girona,Viajero,2025,7,2025M07,616349
+17,Girona,Viajero,2025,6,2025M06,557845
+17,Girona,Viajero,2025,5,2025M05,476262
+17,Girona,Viajero,2025,4,2025M04,409765
+17,Girona,Viajero,2025,3,2025M03,224683
+17,Girona,Viajero,2025,2,2025M02,162469
+17,Girona,Viajero,2025,1,2025M01,133988
+17,Girona,Viajero,2025,12,2025M12,96521
+17,Girona,Viajero,2025,11,2025M11,86673
+17,Girona,Viajero,2025,10,2025M10,136929
+17,Girona,Viajero,2025,9,2025M09,185813
+17,Girona,Viajero,2025,8,2025M08,265488
+17,Girona,Viajero,2025,7,2025M07,227998
+17,Girona,Viajero,2025,6,2025M06,237743
+17,Girona,Viajero,2025,5,2025M05,180981
+17,Girona,Viajero,2025,4,2025M04,174631
+17,Girona,Viajero,2025,3,2025M03,123850
+17,Girona,Viajero,2025,2,2025M02,89278
+17,Girona,Viajero,2025,1,2025M01,77340
+17,Girona,Viajero,2025,12,2025M12,63160
+17,Girona,Viajero,2025,11,2025M11,76181
+17,Girona,Viajero,2025,10,2025M10,249235
+17,Girona,Viajero,2025,9,2025M09,333013
+17,Girona,Viajero,2025,8,2025M08,406676
+17,Girona,Viajero,2025,7,2025M07,388351
+17,Girona,Viajero,2025,6,2025M06,320102
+17,Girona,Viajero,2025,5,2025M05,295281
+17,Girona,Viajero,2025,4,2025M04,235134
+17,Girona,Viajero,2025,3,2025M03,100833
+17,Girona,Viajero,2025,2,2025M02,73192
+17,Girona,Viajero,2025,1,2025M01,56648
+17,Girona,Pernoctaciones,2025,12,2025M12,277151
+17,Girona,Pernoctaciones,2025,11,2025M11,299502
+17,Girona,Pernoctaciones,2025,10,2025M10,1100001
+17,Girona,Pernoctaciones,2025,9,2025M09,1686512
+17,Girona,Pernoctaciones,2025,8,2025M08,2387336
+17,Girona,Pernoctaciones,2025,7,2025M07,2172368
+17,Girona,Pernoctaciones,2025,6,2025M06,1644708
+17,Girona,Pernoctaciones,2025,5,2025M05,1322893
+17,Girona,Pernoctaciones,2025,4,2025M04,1079229
+17,Girona,Pernoctaciones,2025,3,2025M03,487964
+17,Girona,Pernoctaciones,2025,2,2025M02,303624
+17,Girona,Pernoctaciones,2025,1,2025M01,243277
+17,Girona,Pernoctaciones,2025,12,2025M12,169324
+17,Girona,Pernoctaciones,2025,11,2025M11,146040
+17,Girona,Pernoctaciones,2025,10,2025M10,257773
+17,Girona,Pernoctaciones,2025,9,2025M09,404604
+17,Girona,Pernoctaciones,2025,8,2025M08,746360
+17,Girona,Pernoctaciones,2025,7,2025M07,556032
+17,Girona,Pernoctaciones,2025,6,2025M06,499974
+17,Girona,Pernoctaciones,2025,5,2025M05,385893
+17,Girona,Pernoctaciones,2025,4,2025M04,364319
+17,Girona,Pernoctaciones,2025,3,2025M03,238161
+17,Girona,Pernoctaciones,2025,2,2025M02,153957
+17,Girona,Pernoctaciones,2025,1,2025M01,135864
+17,Girona,Pernoctaciones,2025,12,2025M12,107827
+17,Girona,Pernoctaciones,2025,11,2025M11,153462
+17,Girona,Pernoctaciones,2025,10,2025M10,842228
+17,Girona,Pernoctaciones,2025,9,2025M09,1281908
+17,Girona,Pernoctaciones,2025,8,2025M08,1640976
+17,Girona,Pernoctaciones,2025,7,2025M07,1616336
+17,Girona,Pernoctaciones,2025,6,2025M06,1144734
+17,Girona,Pernoctaciones,2025,5,2025M05,937000
+17,Girona,Pernoctaciones,2025,4,2025M04,714909
+17,Girona,Pernoctaciones,2025,3,2025M03,249803
+17,Girona,Pernoctaciones,2025,2,2025M02,149667
+17,Girona,Pernoctaciones,2025,1,2025M01,107414
+25,Lleida,Viajero,2025,12,2025M12,87586
+25,Lleida,Viajero,2025,11,2025M11,45365
+25,Lleida,Viajero,2025,10,2025M10,69750
+25,Lleida,Viajero,2025,9,2025M09,74862
+25,Lleida,Viajero,2025,8,2025M08,125749
+25,Lleida,Viajero,2025,7,2025M07,99028
+25,Lleida,Viajero,2025,6,2025M06,81752
+25,Lleida,Viajero,2025,5,2025M05,65485
+25,Lleida,Viajero,2025,4,2025M04,68469
+25,Lleida,Viajero,2025,3,2025M03,87102
+25,Lleida,Viajero,2025,2,2025M02,100705
+25,Lleida,Viajero,2025,1,2025M01,89232
+25,Lleida,Viajero,2025,12,2025M12,72883
+25,Lleida,Viajero,2025,11,2025M11,36089
+25,Lleida,Viajero,2025,10,2025M10,55349
+25,Lleida,Viajero,2025,9,2025M09,55282
+25,Lleida,Viajero,2025,8,2025M08,102347
+25,Lleida,Viajero,2025,7,2025M07,77614
+25,Lleida,Viajero,2025,6,2025M06,63607
+25,Lleida,Viajero,2025,5,2025M05,49675
+25,Lleida,Viajero,2025,4,2025M04,54841
+25,Lleida,Viajero,2025,3,2025M03,67946
+25,Lleida,Viajero,2025,2,2025M02,81134
+25,Lleida,Viajero,2025,1,2025M01,72501
+25,Lleida,Viajero,2025,12,2025M12,14702
+25,Lleida,Viajero,2025,11,2025M11,9276
+25,Lleida,Viajero,2025,10,2025M10,14400
+25,Lleida,Viajero,2025,9,2025M09,19580
+25,Lleida,Viajero,2025,8,2025M08,23402
+25,Lleida,Viajero,2025,7,2025M07,21413
+25,Lleida,Viajero,2025,6,2025M06,18145
+25,Lleida,Viajero,2025,5,2025M05,15810
+25,Lleida,Viajero,2025,4,2025M04,13628
+25,Lleida,Viajero,2025,3,2025M03,19156
+25,Lleida,Viajero,2025,2,2025M02,19571
+25,Lleida,Viajero,2025,1,2025M01,16731
+25,Lleida,Pernoctaciones,2025,12,2025M12,196553
+25,Lleida,Pernoctaciones,2025,11,2025M11,87519
+25,Lleida,Pernoctaciones,2025,10,2025M10,138369
+25,Lleida,Pernoctaciones,2025,9,2025M09,149964
+25,Lleida,Pernoctaciones,2025,8,2025M08,298491
+25,Lleida,Pernoctaciones,2025,7,2025M07,221668
+25,Lleida,Pernoctaciones,2025,6,2025M06,160300
+25,Lleida,Pernoctaciones,2025,5,2025M05,125648
+25,Lleida,Pernoctaciones,2025,4,2025M04,142602
+25,Lleida,Pernoctaciones,2025,3,2025M03,209233
+25,Lleida,Pernoctaciones,2025,2,2025M02,243312
+25,Lleida,Pernoctaciones,2025,1,2025M01,219266
+25,Lleida,Pernoctaciones,2025,12,2025M12,165729
+25,Lleida,Pernoctaciones,2025,11,2025M11,67837
+25,Lleida,Pernoctaciones,2025,10,2025M10,108899
+25,Lleida,Pernoctaciones,2025,9,2025M09,111462
+25,Lleida,Pernoctaciones,2025,8,2025M08,252668
+25,Lleida,Pernoctaciones,2025,7,2025M07,177015
+25,Lleida,Pernoctaciones,2025,6,2025M06,124937
+25,Lleida,Pernoctaciones,2025,5,2025M05,97506
+25,Lleida,Pernoctaciones,2025,4,2025M04,114882
+25,Lleida,Pernoctaciones,2025,3,2025M03,160421
+25,Lleida,Pernoctaciones,2025,2,2025M02,189736
+25,Lleida,Pernoctaciones,2025,1,2025M01,178160
+25,Lleida,Pernoctaciones,2025,12,2025M12,30824
+25,Lleida,Pernoctaciones,2025,11,2025M11,19682
+25,Lleida,Pernoctaciones,2025,10,2025M10,29470
+25,Lleida,Pernoctaciones,2025,9,2025M09,38502
+25,Lleida,Pernoctaciones,2025,8,2025M08,45823
+25,Lleida,Pernoctaciones,2025,7,2025M07,44652
+25,Lleida,Pernoctaciones,2025,6,2025M06,35363
+25,Lleida,Pernoctaciones,2025,5,2025M05,28142
+25,Lleida,Pernoctaciones,2025,4,2025M04,27720
+25,Lleida,Pernoctaciones,2025,3,2025M03,48812
+25,Lleida,Pernoctaciones,2025,2,2025M02,53577
+25,Lleida,Pernoctaciones,2025,1,2025M01,41105
+43,Tarragona,Viajero,2025,12,2025M12,105228
+43,Tarragona,Viajero,2025,11,2025M11,110596
+43,Tarragona,Viajero,2025,10,2025M10,279742
+43,Tarragona,Viajero,2025,9,2025M09,375208
+43,Tarragona,Viajero,2025,8,2025M08,503378
+43,Tarragona,Viajero,2025,7,2025M07,483884
+43,Tarragona,Viajero,2025,6,2025M06,467360
+43,Tarragona,Viajero,2025,5,2025M05,406789
+43,Tarragona,Viajero,2025,4,2025M04,322412
+43,Tarragona,Viajero,2025,3,2025M03,79586
+43,Tarragona,Viajero,2025,2,2025M02,52771
+43,Tarragona,Viajero,2025,1,2025M01,48275
+43,Tarragona,Viajero,2025,12,2025M12,82765
+43,Tarragona,Viajero,2025,11,2025M11,85181
+43,Tarragona,Viajero,2025,10,2025M10,132600
+43,Tarragona,Viajero,2025,9,2025M09,188922
+43,Tarragona,Viajero,2025,8,2025M08,262922
+43,Tarragona,Viajero,2025,7,2025M07,249608
+43,Tarragona,Viajero,2025,6,2025M06,271823
+43,Tarragona,Viajero,2025,5,2025M05,212041
+43,Tarragona,Viajero,2025,4,2025M04,192801
+43,Tarragona,Viajero,2025,3,2025M03,61393
+43,Tarragona,Viajero,2025,2,2025M02,41447
+43,Tarragona,Viajero,2025,1,2025M01,38624
+43,Tarragona,Viajero,2025,12,2025M12,22463
+43,Tarragona,Viajero,2025,11,2025M11,25415
+43,Tarragona,Viajero,2025,10,2025M10,147142
+43,Tarragona,Viajero,2025,9,2025M09,186286
+43,Tarragona,Viajero,2025,8,2025M08,240455
+43,Tarragona,Viajero,2025,7,2025M07,234276
+43,Tarragona,Viajero,2025,6,2025M06,195537
+43,Tarragona,Viajero,2025,5,2025M05,194748
+43,Tarragona,Viajero,2025,4,2025M04,129611
+43,Tarragona,Viajero,2025,3,2025M03,18193
+43,Tarragona,Viajero,2025,2,2025M02,11324
+43,Tarragona,Viajero,2025,1,2025M01,9652
+43,Tarragona,Pernoctaciones,2025,12,2025M12,166612
+43,Tarragona,Pernoctaciones,2025,11,2025M11,191927
+43,Tarragona,Pernoctaciones,2025,10,2025M10,904701
+43,Tarragona,Pernoctaciones,2025,9,2025M09,1452523
+43,Tarragona,Pernoctaciones,2025,8,2025M08,2055976
+43,Tarragona,Pernoctaciones,2025,7,2025M07,1920809
+43,Tarragona,Pernoctaciones,2025,6,2025M06,1602629
+43,Tarragona,Pernoctaciones,2025,5,2025M05,1289057
+43,Tarragona,Pernoctaciones,2025,4,2025M04,875100
+43,Tarragona,Pernoctaciones,2025,3,2025M03,169562
+43,Tarragona,Pernoctaciones,2025,2,2025M02,89106
+43,Tarragona,Pernoctaciones,2025,1,2025M01,78709
+43,Tarragona,Pernoctaciones,2025,12,2025M12,126249
+43,Tarragona,Pernoctaciones,2025,11,2025M11,139085
+43,Tarragona,Pernoctaciones,2025,10,2025M10,248668
+43,Tarragona,Pernoctaciones,2025,9,2025M09,472981
+43,Tarragona,Pernoctaciones,2025,8,2025M08,826492
+43,Tarragona,Pernoctaciones,2025,7,2025M07,774490
+43,Tarragona,Pernoctaciones,2025,6,2025M06,646948
+43,Tarragona,Pernoctaciones,2025,5,2025M05,484036
+43,Tarragona,Pernoctaciones,2025,4,2025M04,458361
+43,Tarragona,Pernoctaciones,2025,3,2025M03,133391
+43,Tarragona,Pernoctaciones,2025,2,2025M02,66519
+43,Tarragona,Pernoctaciones,2025,1,2025M01,60560
+43,Tarragona,Pernoctaciones,2025,12,2025M12,40363
+43,Tarragona,Pernoctaciones,2025,11,2025M11,52841
+43,Tarragona,Pernoctaciones,2025,10,2025M10,656033
+43,Tarragona,Pernoctaciones,2025,9,2025M09,979542
+43,Tarragona,Pernoctaciones,2025,8,2025M08,1229484
+43,Tarragona,Pernoctaciones,2025,7,2025M07,1146319
+43,Tarragona,Pernoctaciones,2025,6,2025M06,955680
+43,Tarragona,Pernoctaciones,2025,5,2025M05,805021
+43,Tarragona,Pernoctaciones,2025,4,2025M04,416739
+43,Tarragona,Pernoctaciones,2025,3,2025M03,36170
+43,Tarragona,Pernoctaciones,2025,2,2025M02,22587
+43,Tarragona,Pernoctaciones,2025,1,2025M01,18149
+03,Alicante/Alacant,Viajero,2025,12,2025M12,297688
+03,Alicante/Alacant,Viajero,2025,11,2025M11,357820
+03,Alicante/Alacant,Viajero,2025,10,2025M10,438002
+03,Alicante/Alacant,Viajero,2025,9,2025M09,468102
+03,Alicante/Alacant,Viajero,2025,8,2025M08,611235
+03,Alicante/Alacant,Viajero,2025,7,2025M07,561614
+03,Alicante/Alacant,Viajero,2025,6,2025M06,508872
+03,Alicante/Alacant,Viajero,2025,5,2025M05,471420
+03,Alicante/Alacant,Viajero,2025,4,2025M04,448167
+03,Alicante/Alacant,Viajero,2025,3,2025M03,360750
+03,Alicante/Alacant,Viajero,2025,2,2025M02,289857
+03,Alicante/Alacant,Viajero,2025,1,2025M01,240722
+03,Alicante/Alacant,Viajero,2025,12,2025M12,163325
+03,Alicante/Alacant,Viajero,2025,11,2025M11,171433
+03,Alicante/Alacant,Viajero,2025,10,2025M10,181627
+03,Alicante/Alacant,Viajero,2025,9,2025M09,203167
+03,Alicante/Alacant,Viajero,2025,8,2025M08,321696
+03,Alicante/Alacant,Viajero,2025,7,2025M07,283296
+03,Alicante/Alacant,Viajero,2025,6,2025M06,249684
+03,Alicante/Alacant,Viajero,2025,5,2025M05,200255
+03,Alicante/Alacant,Viajero,2025,4,2025M04,219505
+03,Alicante/Alacant,Viajero,2025,3,2025M03,150882
+03,Alicante/Alacant,Viajero,2025,2,2025M02,148407
+03,Alicante/Alacant,Viajero,2025,1,2025M01,124345
+03,Alicante/Alacant,Viajero,2025,12,2025M12,134363
+03,Alicante/Alacant,Viajero,2025,11,2025M11,186386
+03,Alicante/Alacant,Viajero,2025,10,2025M10,256375
+03,Alicante/Alacant,Viajero,2025,9,2025M09,264935
+03,Alicante/Alacant,Viajero,2025,8,2025M08,289539
+03,Alicante/Alacant,Viajero,2025,7,2025M07,278318
+03,Alicante/Alacant,Viajero,2025,6,2025M06,259188
+03,Alicante/Alacant,Viajero,2025,5,2025M05,271165
+03,Alicante/Alacant,Viajero,2025,4,2025M04,228662
+03,Alicante/Alacant,Viajero,2025,3,2025M03,209868
+03,Alicante/Alacant,Viajero,2025,2,2025M02,141450
+03,Alicante/Alacant,Viajero,2025,1,2025M01,116377
+03,Alicante/Alacant,Pernoctaciones,2025,12,2025M12,1009920
+03,Alicante/Alacant,Pernoctaciones,2025,11,2025M11,1279670
+03,Alicante/Alacant,Pernoctaciones,2025,10,2025M10,1729773
+03,Alicante/Alacant,Pernoctaciones,2025,9,2025M09,1898447
+03,Alicante/Alacant,Pernoctaciones,2025,8,2025M08,2377673
+03,Alicante/Alacant,Pernoctaciones,2025,7,2025M07,2199483
+03,Alicante/Alacant,Pernoctaciones,2025,6,2025M06,1888545
+03,Alicante/Alacant,Pernoctaciones,2025,5,2025M05,1745510
+03,Alicante/Alacant,Pernoctaciones,2025,4,2025M04,1585209
+03,Alicante/Alacant,Pernoctaciones,2025,3,2025M03,1359172
+03,Alicante/Alacant,Pernoctaciones,2025,2,2025M02,989601
+03,Alicante/Alacant,Pernoctaciones,2025,1,2025M01,878318
+03,Alicante/Alacant,Pernoctaciones,2025,12,2025M12,451617
+03,Alicante/Alacant,Pernoctaciones,2025,11,2025M11,497162
+03,Alicante/Alacant,Pernoctaciones,2025,10,2025M10,584268
+03,Alicante/Alacant,Pernoctaciones,2025,9,2025M09,684636
+03,Alicante/Alacant,Pernoctaciones,2025,8,2025M08,1071925
+03,Alicante/Alacant,Pernoctaciones,2025,7,2025M07,934378
+03,Alicante/Alacant,Pernoctaciones,2025,6,2025M06,744249
+03,Alicante/Alacant,Pernoctaciones,2025,5,2025M05,616695
+03,Alicante/Alacant,Pernoctaciones,2025,4,2025M04,650595
+03,Alicante/Alacant,Pernoctaciones,2025,3,2025M03,471229
+03,Alicante/Alacant,Pernoctaciones,2025,2,2025M02,375101
+03,Alicante/Alacant,Pernoctaciones,2025,1,2025M01,361408
+03,Alicante/Alacant,Pernoctaciones,2025,12,2025M12,558304
+03,Alicante/Alacant,Pernoctaciones,2025,11,2025M11,782508
+03,Alicante/Alacant,Pernoctaciones,2025,10,2025M10,1145504
+03,Alicante/Alacant,Pernoctaciones,2025,9,2025M09,1213811
+03,Alicante/Alacant,Pernoctaciones,2025,8,2025M08,1305748
+03,Alicante/Alacant,Pernoctaciones,2025,7,2025M07,1265106
+03,Alicante/Alacant,Pernoctaciones,2025,6,2025M06,1144296
+03,Alicante/Alacant,Pernoctaciones,2025,5,2025M05,1128815
+03,Alicante/Alacant,Pernoctaciones,2025,4,2025M04,934614
+03,Alicante/Alacant,Pernoctaciones,2025,3,2025M03,887943
+03,Alicante/Alacant,Pernoctaciones,2025,2,2025M02,614500
+03,Alicante/Alacant,Pernoctaciones,2025,1,2025M01,516910
+12,Castellón/Castelló,Viajero,2025,12,2025M12,52645
+12,Castellón/Castelló,Viajero,2025,11,2025M11,68081
+12,Castellón/Castelló,Viajero,2025,10,2025M10,120551
+12,Castellón/Castelló,Viajero,2025,9,2025M09,146827
+12,Castellón/Castelló,Viajero,2025,8,2025M08,189504
+12,Castellón/Castelló,Viajero,2025,7,2025M07,157677
+12,Castellón/Castelló,Viajero,2025,6,2025M06,151305
+12,Castellón/Castelló,Viajero,2025,5,2025M05,119383
+12,Castellón/Castelló,Viajero,2025,4,2025M04,120171
+12,Castellón/Castelló,Viajero,2025,3,2025M03,79594
+12,Castellón/Castelló,Viajero,2025,2,2025M02,57727
+12,Castellón/Castelló,Viajero,2025,1,2025M01,33245
+12,Castellón/Castelló,Viajero,2025,12,2025M12,41319
+12,Castellón/Castelló,Viajero,2025,11,2025M11,54474
+12,Castellón/Castelló,Viajero,2025,10,2025M10,89672
+12,Castellón/Castelló,Viajero,2025,9,2025M09,114745
+12,Castellón/Castelló,Viajero,2025,8,2025M08,158652
+12,Castellón/Castelló,Viajero,2025,7,2025M07,133834
+12,Castellón/Castelló,Viajero,2025,6,2025M06,128885
+12,Castellón/Castelló,Viajero,2025,5,2025M05,91044
+12,Castellón/Castelló,Viajero,2025,4,2025M04,97368
+12,Castellón/Castelló,Viajero,2025,3,2025M03,63172
+12,Castellón/Castelló,Viajero,2025,2,2025M02,45961
+12,Castellón/Castelló,Viajero,2025,1,2025M01,24379
+12,Castellón/Castelló,Viajero,2025,12,2025M12,11326
+12,Castellón/Castelló,Viajero,2025,11,2025M11,13607
+12,Castellón/Castelló,Viajero,2025,10,2025M10,30879
+12,Castellón/Castelló,Viajero,2025,9,2025M09,32082
+12,Castellón/Castelló,Viajero,2025,8,2025M08,30852
+12,Castellón/Castelló,Viajero,2025,7,2025M07,23843
+12,Castellón/Castelló,Viajero,2025,6,2025M06,22420
+12,Castellón/Castelló,Viajero,2025,5,2025M05,28339
+12,Castellón/Castelló,Viajero,2025,4,2025M04,22803
+12,Castellón/Castelló,Viajero,2025,3,2025M03,16422
+12,Castellón/Castelló,Viajero,2025,2,2025M02,11767
+12,Castellón/Castelló,Viajero,2025,1,2025M01,8866
+12,Castellón/Castelló,Pernoctaciones,2025,12,2025M12,100350
+12,Castellón/Castelló,Pernoctaciones,2025,11,2025M11,158215
+12,Castellón/Castelló,Pernoctaciones,2025,10,2025M10,320652
+12,Castellón/Castelló,Pernoctaciones,2025,9,2025M09,490571
+12,Castellón/Castelló,Pernoctaciones,2025,8,2025M08,661168
+12,Castellón/Castelló,Pernoctaciones,2025,7,2025M07,574905
+12,Castellón/Castelló,Pernoctaciones,2025,6,2025M06,456108
+12,Castellón/Castelló,Pernoctaciones,2025,5,2025M05,339120
+12,Castellón/Castelló,Pernoctaciones,2025,4,2025M04,327483
+12,Castellón/Castelló,Pernoctaciones,2025,3,2025M03,252828
+12,Castellón/Castelló,Pernoctaciones,2025,2,2025M02,152174
+12,Castellón/Castelló,Pernoctaciones,2025,1,2025M01,58041
+12,Castellón/Castelló,Pernoctaciones,2025,12,2025M12,77081
+12,Castellón/Castelló,Pernoctaciones,2025,11,2025M11,128772
+12,Castellón/Castelló,Pernoctaciones,2025,10,2025M10,223814
+12,Castellón/Castelló,Pernoctaciones,2025,9,2025M09,390050
+12,Castellón/Castelló,Pernoctaciones,2025,8,2025M08,572521
+12,Castellón/Castelló,Pernoctaciones,2025,7,2025M07,509451
+12,Castellón/Castelló,Pernoctaciones,2025,6,2025M06,391464
+12,Castellón/Castelló,Pernoctaciones,2025,5,2025M05,261104
+12,Castellón/Castelló,Pernoctaciones,2025,4,2025M04,267327
+12,Castellón/Castelló,Pernoctaciones,2025,3,2025M03,210125
+12,Castellón/Castelló,Pernoctaciones,2025,2,2025M02,123895
+12,Castellón/Castelló,Pernoctaciones,2025,1,2025M01,39206
+12,Castellón/Castelló,Pernoctaciones,2025,12,2025M12,23269
+12,Castellón/Castelló,Pernoctaciones,2025,11,2025M11,29443
+12,Castellón/Castelló,Pernoctaciones,2025,10,2025M10,96837
+12,Castellón/Castelló,Pernoctaciones,2025,9,2025M09,100521
+12,Castellón/Castelló,Pernoctaciones,2025,8,2025M08,88648
+12,Castellón/Castelló,Pernoctaciones,2025,7,2025M07,65455
+12,Castellón/Castelló,Pernoctaciones,2025,6,2025M06,64644
+12,Castellón/Castelló,Pernoctaciones,2025,5,2025M05,78016
+12,Castellón/Castelló,Pernoctaciones,2025,4,2025M04,60155
+12,Castellón/Castelló,Pernoctaciones,2025,3,2025M03,42703
+12,Castellón/Castelló,Pernoctaciones,2025,2,2025M02,28279
+12,Castellón/Castelló,Pernoctaciones,2025,1,2025M01,18836
+46,Valencia/València,Viajero,2025,12,2025M12,241219
+46,Valencia/València,Viajero,2025,11,2025M11,277288
+46,Valencia/València,Viajero,2025,10,2025M10,325005
+46,Valencia/València,Viajero,2025,9,2025M09,327689
+46,Valencia/València,Viajero,2025,8,2025M08,378153
+46,Valencia/València,Viajero,2025,7,2025M07,359588
+46,Valencia/València,Viajero,2025,6,2025M06,353693
+46,Valencia/València,Viajero,2025,5,2025M05,344749
+46,Valencia/València,Viajero,2025,4,2025M04,325497
+46,Valencia/València,Viajero,2025,3,2025M03,288872
+46,Valencia/València,Viajero,2025,2,2025M02,249829
+46,Valencia/València,Viajero,2025,1,2025M01,217454
+46,Valencia/València,Viajero,2025,12,2025M12,128407
+46,Valencia/València,Viajero,2025,11,2025M11,157903
+46,Valencia/València,Viajero,2025,10,2025M10,160639
+46,Valencia/València,Viajero,2025,9,2025M09,165329
+46,Valencia/València,Viajero,2025,8,2025M08,194369
+46,Valencia/València,Viajero,2025,7,2025M07,193522
+46,Valencia/València,Viajero,2025,6,2025M06,202396
+46,Valencia/València,Viajero,2025,5,2025M05,188820
+46,Valencia/València,Viajero,2025,4,2025M04,171264
+46,Valencia/València,Viajero,2025,3,2025M03,163119
+46,Valencia/València,Viajero,2025,2,2025M02,144188
+46,Valencia/València,Viajero,2025,1,2025M01,125993
+46,Valencia/València,Viajero,2025,12,2025M12,112812
+46,Valencia/València,Viajero,2025,11,2025M11,119385
+46,Valencia/València,Viajero,2025,10,2025M10,164366
+46,Valencia/València,Viajero,2025,9,2025M09,162360
+46,Valencia/València,Viajero,2025,8,2025M08,183784
+46,Valencia/València,Viajero,2025,7,2025M07,166066
+46,Valencia/València,Viajero,2025,6,2025M06,151296
+46,Valencia/València,Viajero,2025,5,2025M05,155929
+46,Valencia/València,Viajero,2025,4,2025M04,154233
+46,Valencia/València,Viajero,2025,3,2025M03,125753
+46,Valencia/València,Viajero,2025,2,2025M02,105641
+46,Valencia/València,Viajero,2025,1,2025M01,91461
+46,Valencia/València,Pernoctaciones,2025,12,2025M12,503111
+46,Valencia/València,Pernoctaciones,2025,11,2025M11,612976
+46,Valencia/València,Pernoctaciones,2025,10,2025M10,748670
+46,Valencia/València,Pernoctaciones,2025,9,2025M09,856423
+46,Valencia/València,Pernoctaciones,2025,8,2025M08,1039964
+46,Valencia/València,Pernoctaciones,2025,7,2025M07,936184
+46,Valencia/València,Pernoctaciones,2025,6,2025M06,851129
+46,Valencia/València,Pernoctaciones,2025,5,2025M05,813078
+46,Valencia/València,Pernoctaciones,2025,4,2025M04,763965
+46,Valencia/València,Pernoctaciones,2025,3,2025M03,662047
+46,Valencia/València,Pernoctaciones,2025,2,2025M02,508280
+46,Valencia/València,Pernoctaciones,2025,1,2025M01,449912
+46,Valencia/València,Pernoctaciones,2025,12,2025M12,222871
+46,Valencia/València,Pernoctaciones,2025,11,2025M11,309407
+46,Valencia/València,Pernoctaciones,2025,10,2025M10,321848
+46,Valencia/València,Pernoctaciones,2025,9,2025M09,403535
+46,Valencia/València,Pernoctaciones,2025,8,2025M08,522521
+46,Valencia/València,Pernoctaciones,2025,7,2025M07,490248
+46,Valencia/València,Pernoctaciones,2025,6,2025M06,458946
+46,Valencia/València,Pernoctaciones,2025,5,2025M05,407180
+46,Valencia/València,Pernoctaciones,2025,4,2025M04,366941
+46,Valencia/València,Pernoctaciones,2025,3,2025M03,338487
+46,Valencia/València,Pernoctaciones,2025,2,2025M02,251882
+46,Valencia/València,Pernoctaciones,2025,1,2025M01,228623
+46,Valencia/València,Pernoctaciones,2025,12,2025M12,280241
+46,Valencia/València,Pernoctaciones,2025,11,2025M11,303569
+46,Valencia/València,Pernoctaciones,2025,10,2025M10,426822
+46,Valencia/València,Pernoctaciones,2025,9,2025M09,452888
+46,Valencia/València,Pernoctaciones,2025,8,2025M08,517443
+46,Valencia/València,Pernoctaciones,2025,7,2025M07,445936
+46,Valencia/València,Pernoctaciones,2025,6,2025M06,392183
+46,Valencia/València,Pernoctaciones,2025,5,2025M05,405898
+46,Valencia/València,Pernoctaciones,2025,4,2025M04,397024
+46,Valencia/València,Pernoctaciones,2025,3,2025M03,323560
+46,Valencia/València,Pernoctaciones,2025,2,2025M02,256398
+46,Valencia/València,Pernoctaciones,2025,1,2025M01,221290
+06,Badajoz,Viajero,2025,12,2025M12,49124
+06,Badajoz,Viajero,2025,11,2025M11,55912
+06,Badajoz,Viajero,2025,10,2025M10,71735
+06,Badajoz,Viajero,2025,9,2025M09,69507
+06,Badajoz,Viajero,2025,8,2025M08,86325
+06,Badajoz,Viajero,2025,7,2025M07,75350
+06,Badajoz,Viajero,2025,6,2025M06,66519
+06,Badajoz,Viajero,2025,5,2025M05,73153
+06,Badajoz,Viajero,2025,4,2025M04,71044
+06,Badajoz,Viajero,2025,3,2025M03,55925
+06,Badajoz,Viajero,2025,2,2025M02,47001
+06,Badajoz,Viajero,2025,1,2025M01,34629
+06,Badajoz,Viajero,2025,12,2025M12,38343
+06,Badajoz,Viajero,2025,11,2025M11,43092
+06,Badajoz,Viajero,2025,10,2025M10,57086
+06,Badajoz,Viajero,2025,9,2025M09,52114
+06,Badajoz,Viajero,2025,8,2025M08,62077
+06,Badajoz,Viajero,2025,7,2025M07,59103
+06,Badajoz,Viajero,2025,6,2025M06,50199
+06,Badajoz,Viajero,2025,5,2025M05,58003
+06,Badajoz,Viajero,2025,4,2025M04,54351
+06,Badajoz,Viajero,2025,3,2025M03,46308
+06,Badajoz,Viajero,2025,2,2025M02,39051
+06,Badajoz,Viajero,2025,1,2025M01,27049
+06,Badajoz,Viajero,2025,12,2025M12,10781
+06,Badajoz,Viajero,2025,11,2025M11,12820
+06,Badajoz,Viajero,2025,10,2025M10,14649
+06,Badajoz,Viajero,2025,9,2025M09,17393
+06,Badajoz,Viajero,2025,8,2025M08,24249
+06,Badajoz,Viajero,2025,7,2025M07,16247
+06,Badajoz,Viajero,2025,6,2025M06,16320
+06,Badajoz,Viajero,2025,5,2025M05,15150
+06,Badajoz,Viajero,2025,4,2025M04,16692
+06,Badajoz,Viajero,2025,3,2025M03,9616
+06,Badajoz,Viajero,2025,2,2025M02,7950
+06,Badajoz,Viajero,2025,1,2025M01,7580
+06,Badajoz,Pernoctaciones,2025,12,2025M12,82698
+06,Badajoz,Pernoctaciones,2025,11,2025M11,98522
+06,Badajoz,Pernoctaciones,2025,10,2025M10,124659
+06,Badajoz,Pernoctaciones,2025,9,2025M09,119650
+06,Badajoz,Pernoctaciones,2025,8,2025M08,136809
+06,Badajoz,Pernoctaciones,2025,7,2025M07,122307
+06,Badajoz,Pernoctaciones,2025,6,2025M06,109879
+06,Badajoz,Pernoctaciones,2025,5,2025M05,131471
+06,Badajoz,Pernoctaciones,2025,4,2025M04,121353
+06,Badajoz,Pernoctaciones,2025,3,2025M03,101741
+06,Badajoz,Pernoctaciones,2025,2,2025M02,75053
+06,Badajoz,Pernoctaciones,2025,1,2025M01,60157
+06,Badajoz,Pernoctaciones,2025,12,2025M12,67292
+06,Badajoz,Pernoctaciones,2025,11,2025M11,80299
+06,Badajoz,Pernoctaciones,2025,10,2025M10,104272
+06,Badajoz,Pernoctaciones,2025,9,2025M09,94453
+06,Badajoz,Pernoctaciones,2025,8,2025M08,103294
+06,Badajoz,Pernoctaciones,2025,7,2025M07,100554
+06,Badajoz,Pernoctaciones,2025,6,2025M06,84494
+06,Badajoz,Pernoctaciones,2025,5,2025M05,110257
+06,Badajoz,Pernoctaciones,2025,4,2025M04,98338
+06,Badajoz,Pernoctaciones,2025,3,2025M03,87269
+06,Badajoz,Pernoctaciones,2025,2,2025M02,63610
+06,Badajoz,Pernoctaciones,2025,1,2025M01,48141
+06,Badajoz,Pernoctaciones,2025,12,2025M12,15406
+06,Badajoz,Pernoctaciones,2025,11,2025M11,18223
+06,Badajoz,Pernoctaciones,2025,10,2025M10,20387
+06,Badajoz,Pernoctaciones,2025,9,2025M09,25197
+06,Badajoz,Pernoctaciones,2025,8,2025M08,33515
+06,Badajoz,Pernoctaciones,2025,7,2025M07,21753
+06,Badajoz,Pernoctaciones,2025,6,2025M06,25384
+06,Badajoz,Pernoctaciones,2025,5,2025M05,21214
+06,Badajoz,Pernoctaciones,2025,4,2025M04,23015
+06,Badajoz,Pernoctaciones,2025,3,2025M03,14473
+06,Badajoz,Pernoctaciones,2025,2,2025M02,11443
+06,Badajoz,Pernoctaciones,2025,1,2025M01,12016
+10,Cáceres,Viajero,2025,12,2025M12,44140
+10,Cáceres,Viajero,2025,11,2025M11,50236
+10,Cáceres,Viajero,2025,10,2025M10,60929
+10,Cáceres,Viajero,2025,9,2025M09,60879
+10,Cáceres,Viajero,2025,8,2025M08,71663
+10,Cáceres,Viajero,2025,7,2025M07,62516
+10,Cáceres,Viajero,2025,6,2025M06,58364
+10,Cáceres,Viajero,2025,5,2025M05,63298
+10,Cáceres,Viajero,2025,4,2025M04,67091
+10,Cáceres,Viajero,2025,3,2025M03,48321
+10,Cáceres,Viajero,2025,2,2025M02,42413
+10,Cáceres,Viajero,2025,1,2025M01,34186
+10,Cáceres,Viajero,2025,12,2025M12,38437
+10,Cáceres,Viajero,2025,11,2025M11,43366
+10,Cáceres,Viajero,2025,10,2025M10,49726
+10,Cáceres,Viajero,2025,9,2025M09,50106
+10,Cáceres,Viajero,2025,8,2025M08,60168
+10,Cáceres,Viajero,2025,7,2025M07,52394
+10,Cáceres,Viajero,2025,6,2025M06,48438
+10,Cáceres,Viajero,2025,5,2025M05,49622
+10,Cáceres,Viajero,2025,4,2025M04,54322
+10,Cáceres,Viajero,2025,3,2025M03,40943
+10,Cáceres,Viajero,2025,2,2025M02,37382
+10,Cáceres,Viajero,2025,1,2025M01,28874
+10,Cáceres,Viajero,2025,12,2025M12,5703
+10,Cáceres,Viajero,2025,11,2025M11,6871
+10,Cáceres,Viajero,2025,10,2025M10,11203
+10,Cáceres,Viajero,2025,9,2025M09,10773
+10,Cáceres,Viajero,2025,8,2025M08,11495
+10,Cáceres,Viajero,2025,7,2025M07,10122
+10,Cáceres,Viajero,2025,6,2025M06,9925
+10,Cáceres,Viajero,2025,5,2025M05,13676
+10,Cáceres,Viajero,2025,4,2025M04,12769
+10,Cáceres,Viajero,2025,3,2025M03,7378
+10,Cáceres,Viajero,2025,2,2025M02,5032
+10,Cáceres,Viajero,2025,1,2025M01,5311
+10,Cáceres,Pernoctaciones,2025,12,2025M12,78008
+10,Cáceres,Pernoctaciones,2025,11,2025M11,94371
+10,Cáceres,Pernoctaciones,2025,10,2025M10,120153
+10,Cáceres,Pernoctaciones,2025,9,2025M09,112021
+10,Cáceres,Pernoctaciones,2025,8,2025M08,122361
+10,Cáceres,Pernoctaciones,2025,7,2025M07,112836
+10,Cáceres,Pernoctaciones,2025,6,2025M06,106931
+10,Cáceres,Pernoctaciones,2025,5,2025M05,119003
+10,Cáceres,Pernoctaciones,2025,4,2025M04,123839
+10,Cáceres,Pernoctaciones,2025,3,2025M03,92024
+10,Cáceres,Pernoctaciones,2025,2,2025M02,72947
+10,Cáceres,Pernoctaciones,2025,1,2025M01,57658
+10,Cáceres,Pernoctaciones,2025,12,2025M12,68791
+10,Cáceres,Pernoctaciones,2025,11,2025M11,81809
+10,Cáceres,Pernoctaciones,2025,10,2025M10,101509
+10,Cáceres,Pernoctaciones,2025,9,2025M09,94853
+10,Cáceres,Pernoctaciones,2025,8,2025M08,105196
+10,Cáceres,Pernoctaciones,2025,7,2025M07,94172
+10,Cáceres,Pernoctaciones,2025,6,2025M06,91000
+10,Cáceres,Pernoctaciones,2025,5,2025M05,94336
+10,Cáceres,Pernoctaciones,2025,4,2025M04,102384
+10,Cáceres,Pernoctaciones,2025,3,2025M03,79243
+10,Cáceres,Pernoctaciones,2025,2,2025M02,65110
+10,Cáceres,Pernoctaciones,2025,1,2025M01,47712
+10,Cáceres,Pernoctaciones,2025,12,2025M12,9217
+10,Cáceres,Pernoctaciones,2025,11,2025M11,12562
+10,Cáceres,Pernoctaciones,2025,10,2025M10,18645
+10,Cáceres,Pernoctaciones,2025,9,2025M09,17168
+10,Cáceres,Pernoctaciones,2025,8,2025M08,17164
+10,Cáceres,Pernoctaciones,2025,7,2025M07,18664
+10,Cáceres,Pernoctaciones,2025,6,2025M06,15930
+10,Cáceres,Pernoctaciones,2025,5,2025M05,24667
+10,Cáceres,Pernoctaciones,2025,4,2025M04,21455
+10,Cáceres,Pernoctaciones,2025,3,2025M03,12780
+10,Cáceres,Pernoctaciones,2025,2,2025M02,7838
+10,Cáceres,Pernoctaciones,2025,1,2025M01,9946
+15,"Coruña, A",Viajero,2025,12,2025M12,117245
+15,"Coruña, A",Viajero,2025,11,2025M11,128783
+15,"Coruña, A",Viajero,2025,10,2025M10,229694
+15,"Coruña, A",Viajero,2025,9,2025M09,278186
+15,"Coruña, A",Viajero,2025,8,2025M08,317530
+15,"Coruña, A",Viajero,2025,7,2025M07,265317
+15,"Coruña, A",Viajero,2025,6,2025M06,251941
+15,"Coruña, A",Viajero,2025,5,2025M05,256664
+15,"Coruña, A",Viajero,2025,4,2025M04,189593
+15,"Coruña, A",Viajero,2025,3,2025M03,131661
+15,"Coruña, A",Viajero,2025,2,2025M02,105224
+15,"Coruña, A",Viajero,2025,1,2025M01,83463
+15,"Coruña, A",Viajero,2025,12,2025M12,94876
+15,"Coruña, A",Viajero,2025,11,2025M11,95502
+15,"Coruña, A",Viajero,2025,10,2025M10,125046
+15,"Coruña, A",Viajero,2025,9,2025M09,150229
+15,"Coruña, A",Viajero,2025,8,2025M08,228420
+15,"Coruña, A",Viajero,2025,7,2025M07,179036
+15,"Coruña, A",Viajero,2025,6,2025M06,137557
+15,"Coruña, A",Viajero,2025,5,2025M05,120885
+15,"Coruña, A",Viajero,2025,4,2025M04,107893
+15,"Coruña, A",Viajero,2025,3,2025M03,96435
+15,"Coruña, A",Viajero,2025,2,2025M02,84667
+15,"Coruña, A",Viajero,2025,1,2025M01,66564
+15,"Coruña, A",Viajero,2025,12,2025M12,22368
+15,"Coruña, A",Viajero,2025,11,2025M11,33282
+15,"Coruña, A",Viajero,2025,10,2025M10,104648
+15,"Coruña, A",Viajero,2025,9,2025M09,127957
+15,"Coruña, A",Viajero,2025,8,2025M08,89110
+15,"Coruña, A",Viajero,2025,7,2025M07,86281
+15,"Coruña, A",Viajero,2025,6,2025M06,114384
+15,"Coruña, A",Viajero,2025,5,2025M05,135778
+15,"Coruña, A",Viajero,2025,4,2025M04,81699
+15,"Coruña, A",Viajero,2025,3,2025M03,35226
+15,"Coruña, A",Viajero,2025,2,2025M02,20557
+15,"Coruña, A",Viajero,2025,1,2025M01,16899
+15,"Coruña, A",Pernoctaciones,2025,12,2025M12,209288
+15,"Coruña, A",Pernoctaciones,2025,11,2025M11,234535
+15,"Coruña, A",Pernoctaciones,2025,10,2025M10,386504
+15,"Coruña, A",Pernoctaciones,2025,9,2025M09,464927
+15,"Coruña, A",Pernoctaciones,2025,8,2025M08,610320
+15,"Coruña, A",Pernoctaciones,2025,7,2025M07,498128
+15,"Coruña, A",Pernoctaciones,2025,6,2025M06,419107
+15,"Coruña, A",Pernoctaciones,2025,5,2025M05,413149
+15,"Coruña, A",Pernoctaciones,2025,4,2025M04,321819
+15,"Coruña, A",Pernoctaciones,2025,3,2025M03,235434
+15,"Coruña, A",Pernoctaciones,2025,2,2025M02,189859
+15,"Coruña, A",Pernoctaciones,2025,1,2025M01,151694
+15,"Coruña, A",Pernoctaciones,2025,12,2025M12,166043
+15,"Coruña, A",Pernoctaciones,2025,11,2025M11,176296
+15,"Coruña, A",Pernoctaciones,2025,10,2025M10,217402
+15,"Coruña, A",Pernoctaciones,2025,9,2025M09,262116
+15,"Coruña, A",Pernoctaciones,2025,8,2025M08,460207
+15,"Coruña, A",Pernoctaciones,2025,7,2025M07,345195
+15,"Coruña, A",Pernoctaciones,2025,6,2025M06,239744
+15,"Coruña, A",Pernoctaciones,2025,5,2025M05,208104
+15,"Coruña, A",Pernoctaciones,2025,4,2025M04,194379
+15,"Coruña, A",Pernoctaciones,2025,3,2025M03,169723
+15,"Coruña, A",Pernoctaciones,2025,2,2025M02,151756
+15,"Coruña, A",Pernoctaciones,2025,1,2025M01,117419
+15,"Coruña, A",Pernoctaciones,2025,12,2025M12,43246
+15,"Coruña, A",Pernoctaciones,2025,11,2025M11,58239
+15,"Coruña, A",Pernoctaciones,2025,10,2025M10,169102
+15,"Coruña, A",Pernoctaciones,2025,9,2025M09,202811
+15,"Coruña, A",Pernoctaciones,2025,8,2025M08,150113
+15,"Coruña, A",Pernoctaciones,2025,7,2025M07,152933
+15,"Coruña, A",Pernoctaciones,2025,6,2025M06,179363
+15,"Coruña, A",Pernoctaciones,2025,5,2025M05,205045
+15,"Coruña, A",Pernoctaciones,2025,4,2025M04,127440
+15,"Coruña, A",Pernoctaciones,2025,3,2025M03,65710
+15,"Coruña, A",Pernoctaciones,2025,2,2025M02,38103
+15,"Coruña, A",Pernoctaciones,2025,1,2025M01,34275
+27,Lugo,Viajero,2025,12,2025M12,30168
+27,Lugo,Viajero,2025,11,2025M11,37260
+27,Lugo,Viajero,2025,10,2025M10,87094
+27,Lugo,Viajero,2025,9,2025M09,113725
+27,Lugo,Viajero,2025,8,2025M08,123632
+27,Lugo,Viajero,2025,7,2025M07,98667
+27,Lugo,Viajero,2025,6,2025M06,103667
+27,Lugo,Viajero,2025,5,2025M05,97546
+27,Lugo,Viajero,2025,4,2025M04,80213
+27,Lugo,Viajero,2025,3,2025M03,36685
+27,Lugo,Viajero,2025,2,2025M02,26960
+27,Lugo,Viajero,2025,1,2025M01,22791
+27,Lugo,Viajero,2025,12,2025M12,27009
+27,Lugo,Viajero,2025,11,2025M11,31827
+27,Lugo,Viajero,2025,10,2025M10,55247
+27,Lugo,Viajero,2025,9,2025M09,67376
+27,Lugo,Viajero,2025,8,2025M08,101518
+27,Lugo,Viajero,2025,7,2025M07,75674
+27,Lugo,Viajero,2025,6,2025M06,65047
+27,Lugo,Viajero,2025,5,2025M05,53022
+27,Lugo,Viajero,2025,4,2025M04,54125
+27,Lugo,Viajero,2025,3,2025M03,30344
+27,Lugo,Viajero,2025,2,2025M02,24575
+27,Lugo,Viajero,2025,1,2025M01,20707
+27,Lugo,Viajero,2025,12,2025M12,3159
+27,Lugo,Viajero,2025,11,2025M11,5433
+27,Lugo,Viajero,2025,10,2025M10,31847
+27,Lugo,Viajero,2025,9,2025M09,46349
+27,Lugo,Viajero,2025,8,2025M08,22114
+27,Lugo,Viajero,2025,7,2025M07,22993
+27,Lugo,Viajero,2025,6,2025M06,38620
+27,Lugo,Viajero,2025,5,2025M05,44524
+27,Lugo,Viajero,2025,4,2025M04,26088
+27,Lugo,Viajero,2025,3,2025M03,6340
+27,Lugo,Viajero,2025,2,2025M02,2385
+27,Lugo,Viajero,2025,1,2025M01,2084
+27,Lugo,Pernoctaciones,2025,12,2025M12,55145
+27,Lugo,Pernoctaciones,2025,11,2025M11,68428
+27,Lugo,Pernoctaciones,2025,10,2025M10,130947
+27,Lugo,Pernoctaciones,2025,9,2025M09,170124
+27,Lugo,Pernoctaciones,2025,8,2025M08,217837
+27,Lugo,Pernoctaciones,2025,7,2025M07,170714
+27,Lugo,Pernoctaciones,2025,6,2025M06,155290
+27,Lugo,Pernoctaciones,2025,5,2025M05,144890
+27,Lugo,Pernoctaciones,2025,4,2025M04,121728
+27,Lugo,Pernoctaciones,2025,3,2025M03,62372
+27,Lugo,Pernoctaciones,2025,2,2025M02,45247
+27,Lugo,Pernoctaciones,2025,1,2025M01,40582
+27,Lugo,Pernoctaciones,2025,12,2025M12,50675
+27,Lugo,Pernoctaciones,2025,11,2025M11,61214
+27,Lugo,Pernoctaciones,2025,10,2025M10,93048
+27,Lugo,Pernoctaciones,2025,9,2025M09,113568
+27,Lugo,Pernoctaciones,2025,8,2025M08,189231
+27,Lugo,Pernoctaciones,2025,7,2025M07,138224
+27,Lugo,Pernoctaciones,2025,6,2025M06,108395
+27,Lugo,Pernoctaciones,2025,5,2025M05,91828
+27,Lugo,Pernoctaciones,2025,4,2025M04,89529
+27,Lugo,Pernoctaciones,2025,3,2025M03,53186
+27,Lugo,Pernoctaciones,2025,2,2025M02,41800
+27,Lugo,Pernoctaciones,2025,1,2025M01,37261
+27,Lugo,Pernoctaciones,2025,12,2025M12,4470
+27,Lugo,Pernoctaciones,2025,11,2025M11,7214
+27,Lugo,Pernoctaciones,2025,10,2025M10,37899
+27,Lugo,Pernoctaciones,2025,9,2025M09,56556
+27,Lugo,Pernoctaciones,2025,8,2025M08,28607
+27,Lugo,Pernoctaciones,2025,7,2025M07,32490
+27,Lugo,Pernoctaciones,2025,6,2025M06,46895
+27,Lugo,Pernoctaciones,2025,5,2025M05,53062
+27,Lugo,Pernoctaciones,2025,4,2025M04,32199
+27,Lugo,Pernoctaciones,2025,3,2025M03,9187
+27,Lugo,Pernoctaciones,2025,2,2025M02,3447
+27,Lugo,Pernoctaciones,2025,1,2025M01,3320
+32,Ourense,Viajero,2025,12,2025M12,26344
+32,Ourense,Viajero,2025,11,2025M11,25727
+32,Ourense,Viajero,2025,10,2025M10,30987
+32,Ourense,Viajero,2025,9,2025M09,33235
+32,Ourense,Viajero,2025,8,2025M08,37475
+32,Ourense,Viajero,2025,7,2025M07,33522
+32,Ourense,Viajero,2025,6,2025M06,30476
+32,Ourense,Viajero,2025,5,2025M05,31987
+32,Ourense,Viajero,2025,4,2025M04,29338
+32,Ourense,Viajero,2025,3,2025M03,25192
+32,Ourense,Viajero,2025,2,2025M02,20073
+32,Ourense,Viajero,2025,1,2025M01,17245
+32,Ourense,Viajero,2025,12,2025M12,23148
+32,Ourense,Viajero,2025,11,2025M11,22031
+32,Ourense,Viajero,2025,10,2025M10,26300
+32,Ourense,Viajero,2025,9,2025M09,27178
+32,Ourense,Viajero,2025,8,2025M08,31164
+32,Ourense,Viajero,2025,7,2025M07,29403
+32,Ourense,Viajero,2025,6,2025M06,24624
+32,Ourense,Viajero,2025,5,2025M05,25670
+32,Ourense,Viajero,2025,4,2025M04,23634
+32,Ourense,Viajero,2025,3,2025M03,22057
+32,Ourense,Viajero,2025,2,2025M02,17676
+32,Ourense,Viajero,2025,1,2025M01,14614
+32,Ourense,Viajero,2025,12,2025M12,3196
+32,Ourense,Viajero,2025,11,2025M11,3696
+32,Ourense,Viajero,2025,10,2025M10,4687
+32,Ourense,Viajero,2025,9,2025M09,6057
+32,Ourense,Viajero,2025,8,2025M08,6311
+32,Ourense,Viajero,2025,7,2025M07,4120
+32,Ourense,Viajero,2025,6,2025M06,5852
+32,Ourense,Viajero,2025,5,2025M05,6318
+32,Ourense,Viajero,2025,4,2025M04,5704
+32,Ourense,Viajero,2025,3,2025M03,3135
+32,Ourense,Viajero,2025,2,2025M02,2397
+32,Ourense,Viajero,2025,1,2025M01,2631
+32,Ourense,Pernoctaciones,2025,12,2025M12,47340
+32,Ourense,Pernoctaciones,2025,11,2025M11,51477
+32,Ourense,Pernoctaciones,2025,10,2025M10,61760
+32,Ourense,Pernoctaciones,2025,9,2025M09,69074
+32,Ourense,Pernoctaciones,2025,8,2025M08,77434
+32,Ourense,Pernoctaciones,2025,7,2025M07,68114
+32,Ourense,Pernoctaciones,2025,6,2025M06,61162
+32,Ourense,Pernoctaciones,2025,5,2025M05,60730
+32,Ourense,Pernoctaciones,2025,4,2025M04,57398
+32,Ourense,Pernoctaciones,2025,3,2025M03,44669
+32,Ourense,Pernoctaciones,2025,2,2025M02,32416
+32,Ourense,Pernoctaciones,2025,1,2025M01,28208
+32,Ourense,Pernoctaciones,2025,12,2025M12,40858
+32,Ourense,Pernoctaciones,2025,11,2025M11,44800
+32,Ourense,Pernoctaciones,2025,10,2025M10,52212
+32,Ourense,Pernoctaciones,2025,9,2025M09,57501
+32,Ourense,Pernoctaciones,2025,8,2025M08,64940
+32,Ourense,Pernoctaciones,2025,7,2025M07,61206
+32,Ourense,Pernoctaciones,2025,6,2025M06,51849
+32,Ourense,Pernoctaciones,2025,5,2025M05,52022
+32,Ourense,Pernoctaciones,2025,4,2025M04,46698
+32,Ourense,Pernoctaciones,2025,3,2025M03,39082
+32,Ourense,Pernoctaciones,2025,2,2025M02,27654
+32,Ourense,Pernoctaciones,2025,1,2025M01,22894
+32,Ourense,Pernoctaciones,2025,12,2025M12,6481
+32,Ourense,Pernoctaciones,2025,11,2025M11,6677
+32,Ourense,Pernoctaciones,2025,10,2025M10,9548
+32,Ourense,Pernoctaciones,2025,9,2025M09,11573
+32,Ourense,Pernoctaciones,2025,8,2025M08,12494
+32,Ourense,Pernoctaciones,2025,7,2025M07,6908
+32,Ourense,Pernoctaciones,2025,6,2025M06,9313
+32,Ourense,Pernoctaciones,2025,5,2025M05,8707
+32,Ourense,Pernoctaciones,2025,4,2025M04,10700
+32,Ourense,Pernoctaciones,2025,3,2025M03,5587
+32,Ourense,Pernoctaciones,2025,2,2025M02,4762
+32,Ourense,Pernoctaciones,2025,1,2025M01,5314
+36,Pontevedra,Viajero,2025,12,2025M12,103679
+36,Pontevedra,Viajero,2025,11,2025M11,95063
+36,Pontevedra,Viajero,2025,10,2025M10,162911
+36,Pontevedra,Viajero,2025,9,2025M09,219931
+36,Pontevedra,Viajero,2025,8,2025M08,273468
+36,Pontevedra,Viajero,2025,7,2025M07,238052
+36,Pontevedra,Viajero,2025,6,2025M06,187765
+36,Pontevedra,Viajero,2025,5,2025M05,180901
+36,Pontevedra,Viajero,2025,4,2025M04,139480
+36,Pontevedra,Viajero,2025,3,2025M03,83377
+36,Pontevedra,Viajero,2025,2,2025M02,55701
+36,Pontevedra,Viajero,2025,1,2025M01,57897
+36,Pontevedra,Viajero,2025,12,2025M12,71029
+36,Pontevedra,Viajero,2025,11,2025M11,70984
+36,Pontevedra,Viajero,2025,10,2025M10,97873
+36,Pontevedra,Viajero,2025,9,2025M09,119554
+36,Pontevedra,Viajero,2025,8,2025M08,198750
+36,Pontevedra,Viajero,2025,7,2025M07,176731
+36,Pontevedra,Viajero,2025,6,2025M06,113560
+36,Pontevedra,Viajero,2025,5,2025M05,93763
+36,Pontevedra,Viajero,2025,4,2025M04,78094
+36,Pontevedra,Viajero,2025,3,2025M03,60936
+36,Pontevedra,Viajero,2025,2,2025M02,44858
+36,Pontevedra,Viajero,2025,1,2025M01,44484
+36,Pontevedra,Viajero,2025,12,2025M12,32650
+36,Pontevedra,Viajero,2025,11,2025M11,24079
+36,Pontevedra,Viajero,2025,10,2025M10,65038
+36,Pontevedra,Viajero,2025,9,2025M09,100378
+36,Pontevedra,Viajero,2025,8,2025M08,74718
+36,Pontevedra,Viajero,2025,7,2025M07,61321
+36,Pontevedra,Viajero,2025,6,2025M06,74206
+36,Pontevedra,Viajero,2025,5,2025M05,87138
+36,Pontevedra,Viajero,2025,4,2025M04,61386
+36,Pontevedra,Viajero,2025,3,2025M03,22442
+36,Pontevedra,Viajero,2025,2,2025M02,10843
+36,Pontevedra,Viajero,2025,1,2025M01,13412
+36,Pontevedra,Pernoctaciones,2025,12,2025M12,178981
+36,Pontevedra,Pernoctaciones,2025,11,2025M11,184907
+36,Pontevedra,Pernoctaciones,2025,10,2025M10,308685
+36,Pontevedra,Pernoctaciones,2025,9,2025M09,427404
+36,Pontevedra,Pernoctaciones,2025,8,2025M08,719507
+36,Pontevedra,Pernoctaciones,2025,7,2025M07,588593
+36,Pontevedra,Pernoctaciones,2025,6,2025M06,376054
+36,Pontevedra,Pernoctaciones,2025,5,2025M05,302026
+36,Pontevedra,Pernoctaciones,2025,4,2025M04,245495
+36,Pontevedra,Pernoctaciones,2025,3,2025M03,145522
+36,Pontevedra,Pernoctaciones,2025,2,2025M02,94153
+36,Pontevedra,Pernoctaciones,2025,1,2025M01,95150
+36,Pontevedra,Pernoctaciones,2025,12,2025M12,130546
+36,Pontevedra,Pernoctaciones,2025,11,2025M11,147497
+36,Pontevedra,Pernoctaciones,2025,10,2025M10,217509
+36,Pontevedra,Pernoctaciones,2025,9,2025M09,284206
+36,Pontevedra,Pernoctaciones,2025,8,2025M08,570282
+36,Pontevedra,Pernoctaciones,2025,7,2025M07,473518
+36,Pontevedra,Pernoctaciones,2025,6,2025M06,256496
+36,Pontevedra,Pernoctaciones,2025,5,2025M05,186837
+36,Pontevedra,Pernoctaciones,2025,4,2025M04,164851
+36,Pontevedra,Pernoctaciones,2025,3,2025M03,112299
+36,Pontevedra,Pernoctaciones,2025,2,2025M02,75093
+36,Pontevedra,Pernoctaciones,2025,1,2025M01,72940
+36,Pontevedra,Pernoctaciones,2025,12,2025M12,48435
+36,Pontevedra,Pernoctaciones,2025,11,2025M11,37409
+36,Pontevedra,Pernoctaciones,2025,10,2025M10,91176
+36,Pontevedra,Pernoctaciones,2025,9,2025M09,143198
+36,Pontevedra,Pernoctaciones,2025,8,2025M08,149225
+36,Pontevedra,Pernoctaciones,2025,7,2025M07,115075
+36,Pontevedra,Pernoctaciones,2025,6,2025M06,119558
+36,Pontevedra,Pernoctaciones,2025,5,2025M05,115189
+36,Pontevedra,Pernoctaciones,2025,4,2025M04,80644
+36,Pontevedra,Pernoctaciones,2025,3,2025M03,33223
+36,Pontevedra,Pernoctaciones,2025,2,2025M02,19060
+36,Pontevedra,Pernoctaciones,2025,1,2025M01,22210
+28,Madrid,Viajero,2025,12,2025M12,1129066
+28,Madrid,Viajero,2025,11,2025M11,1149382
+28,Madrid,Viajero,2025,10,2025M10,1244341
+28,Madrid,Viajero,2025,9,2025M09,1157280
+28,Madrid,Viajero,2025,8,2025M08,1025795
+28,Madrid,Viajero,2025,7,2025M07,1179239
+28,Madrid,Viajero,2025,6,2025M06,1202428
+28,Madrid,Viajero,2025,5,2025M05,1213258
+28,Madrid,Viajero,2025,4,2025M04,1136825
+28,Madrid,Viajero,2025,3,2025M03,1061743
+28,Madrid,Viajero,2025,2,2025M02,938401
+28,Madrid,Viajero,2025,1,2025M01,928395
+28,Madrid,Viajero,2025,12,2025M12,633169
+28,Madrid,Viajero,2025,11,2025M11,581152
+28,Madrid,Viajero,2025,10,2025M10,538773
+28,Madrid,Viajero,2025,9,2025M09,530008
+28,Madrid,Viajero,2025,8,2025M08,436770
+28,Madrid,Viajero,2025,7,2025M07,527894
+28,Madrid,Viajero,2025,6,2025M06,565728
+28,Madrid,Viajero,2025,5,2025M05,545311
+28,Madrid,Viajero,2025,4,2025M04,518771
+28,Madrid,Viajero,2025,3,2025M03,514827
+28,Madrid,Viajero,2025,2,2025M02,499366
+28,Madrid,Viajero,2025,1,2025M01,485186
+28,Madrid,Viajero,2025,12,2025M12,495898
+28,Madrid,Viajero,2025,11,2025M11,568230
+28,Madrid,Viajero,2025,10,2025M10,705568
+28,Madrid,Viajero,2025,9,2025M09,627272
+28,Madrid,Viajero,2025,8,2025M08,589025
+28,Madrid,Viajero,2025,7,2025M07,651345
+28,Madrid,Viajero,2025,6,2025M06,636700
+28,Madrid,Viajero,2025,5,2025M05,667947
+28,Madrid,Viajero,2025,4,2025M04,618054
+28,Madrid,Viajero,2025,3,2025M03,546916
+28,Madrid,Viajero,2025,2,2025M02,439035
+28,Madrid,Viajero,2025,1,2025M01,443209
+28,Madrid,Pernoctaciones,2025,12,2025M12,2290709
+28,Madrid,Pernoctaciones,2025,11,2025M11,2366517
+28,Madrid,Pernoctaciones,2025,10,2025M10,2598869
+28,Madrid,Pernoctaciones,2025,9,2025M09,2392520
+28,Madrid,Pernoctaciones,2025,8,2025M08,2115059
+28,Madrid,Pernoctaciones,2025,7,2025M07,2330843
+28,Madrid,Pernoctaciones,2025,6,2025M06,2412755
+28,Madrid,Pernoctaciones,2025,5,2025M05,2560824
+28,Madrid,Pernoctaciones,2025,4,2025M04,2461609
+28,Madrid,Pernoctaciones,2025,3,2025M03,2214326
+28,Madrid,Pernoctaciones,2025,2,2025M02,1904664
+28,Madrid,Pernoctaciones,2025,1,2025M01,1924204
+28,Madrid,Pernoctaciones,2025,12,2025M12,1140478
+28,Madrid,Pernoctaciones,2025,11,2025M11,1037398
+28,Madrid,Pernoctaciones,2025,10,2025M10,977831
+28,Madrid,Pernoctaciones,2025,9,2025M09,959468
+28,Madrid,Pernoctaciones,2025,8,2025M08,785462
+28,Madrid,Pernoctaciones,2025,7,2025M07,903133
+28,Madrid,Pernoctaciones,2025,6,2025M06,976673
+28,Madrid,Pernoctaciones,2025,5,2025M05,976824
+28,Madrid,Pernoctaciones,2025,4,2025M04,959652
+28,Madrid,Pernoctaciones,2025,3,2025M03,933188
+28,Madrid,Pernoctaciones,2025,2,2025M02,889050
+28,Madrid,Pernoctaciones,2025,1,2025M01,883332
+28,Madrid,Pernoctaciones,2025,12,2025M12,1150231
+28,Madrid,Pernoctaciones,2025,11,2025M11,1329119
+28,Madrid,Pernoctaciones,2025,10,2025M10,1621038
+28,Madrid,Pernoctaciones,2025,9,2025M09,1433052
+28,Madrid,Pernoctaciones,2025,8,2025M08,1329597
+28,Madrid,Pernoctaciones,2025,7,2025M07,1427710
+28,Madrid,Pernoctaciones,2025,6,2025M06,1436083
+28,Madrid,Pernoctaciones,2025,5,2025M05,1584001
+28,Madrid,Pernoctaciones,2025,4,2025M04,1501956
+28,Madrid,Pernoctaciones,2025,3,2025M03,1281138
+28,Madrid,Pernoctaciones,2025,2,2025M02,1015614
+28,Madrid,Pernoctaciones,2025,1,2025M01,1040872
+30,Murcia,Viajero,2025,12,2025M12,97240
+30,Murcia,Viajero,2025,11,2025M11,113391
+30,Murcia,Viajero,2025,10,2025M10,130900
+30,Murcia,Viajero,2025,9,2025M09,141549
+30,Murcia,Viajero,2025,8,2025M08,178479
+30,Murcia,Viajero,2025,7,2025M07,162708
+30,Murcia,Viajero,2025,6,2025M06,148579
+30,Murcia,Viajero,2025,5,2025M05,140207
+30,Murcia,Viajero,2025,4,2025M04,131322
+30,Murcia,Viajero,2025,3,2025M03,110868
+30,Murcia,Viajero,2025,2,2025M02,100792
+30,Murcia,Viajero,2025,1,2025M01,82756
+30,Murcia,Viajero,2025,12,2025M12,79385
+30,Murcia,Viajero,2025,11,2025M11,88994
+30,Murcia,Viajero,2025,10,2025M10,99001
+30,Murcia,Viajero,2025,9,2025M09,105645
+30,Murcia,Viajero,2025,8,2025M08,127651
+30,Murcia,Viajero,2025,7,2025M07,115570
+30,Murcia,Viajero,2025,6,2025M06,117531
+30,Murcia,Viajero,2025,5,2025M05,111547
+30,Murcia,Viajero,2025,4,2025M04,101982
+30,Murcia,Viajero,2025,3,2025M03,86268
+30,Murcia,Viajero,2025,2,2025M02,80075
+30,Murcia,Viajero,2025,1,2025M01,64475
+30,Murcia,Viajero,2025,12,2025M12,17855
+30,Murcia,Viajero,2025,11,2025M11,24396
+30,Murcia,Viajero,2025,10,2025M10,31898
+30,Murcia,Viajero,2025,9,2025M09,35904
+30,Murcia,Viajero,2025,8,2025M08,50828
+30,Murcia,Viajero,2025,7,2025M07,47139
+30,Murcia,Viajero,2025,6,2025M06,31048
+30,Murcia,Viajero,2025,5,2025M05,28660
+30,Murcia,Viajero,2025,4,2025M04,29339
+30,Murcia,Viajero,2025,3,2025M03,24601
+30,Murcia,Viajero,2025,2,2025M02,20717
+30,Murcia,Viajero,2025,1,2025M01,18281
+30,Murcia,Pernoctaciones,2025,12,2025M12,173429
+30,Murcia,Pernoctaciones,2025,11,2025M11,241404
+30,Murcia,Pernoctaciones,2025,10,2025M10,288953
+30,Murcia,Pernoctaciones,2025,9,2025M09,352093
+30,Murcia,Pernoctaciones,2025,8,2025M08,456105
+30,Murcia,Pernoctaciones,2025,7,2025M07,394572
+30,Murcia,Pernoctaciones,2025,6,2025M06,351505
+30,Murcia,Pernoctaciones,2025,5,2025M05,344241
+30,Murcia,Pernoctaciones,2025,4,2025M04,323485
+30,Murcia,Pernoctaciones,2025,3,2025M03,267662
+30,Murcia,Pernoctaciones,2025,2,2025M02,199636
+30,Murcia,Pernoctaciones,2025,1,2025M01,155352
+30,Murcia,Pernoctaciones,2025,12,2025M12,134833
+30,Murcia,Pernoctaciones,2025,11,2025M11,179949
+30,Murcia,Pernoctaciones,2025,10,2025M10,191976
+30,Murcia,Pernoctaciones,2025,9,2025M09,239938
+30,Murcia,Pernoctaciones,2025,8,2025M08,335730
+30,Murcia,Pernoctaciones,2025,7,2025M07,284106
+30,Murcia,Pernoctaciones,2025,6,2025M06,258718
+30,Murcia,Pernoctaciones,2025,5,2025M05,268820
+30,Murcia,Pernoctaciones,2025,4,2025M04,248011
+30,Murcia,Pernoctaciones,2025,3,2025M03,203829
+30,Murcia,Pernoctaciones,2025,2,2025M02,148711
+30,Murcia,Pernoctaciones,2025,1,2025M01,108764
+30,Murcia,Pernoctaciones,2025,12,2025M12,38595
+30,Murcia,Pernoctaciones,2025,11,2025M11,61455
+30,Murcia,Pernoctaciones,2025,10,2025M10,96977
+30,Murcia,Pernoctaciones,2025,9,2025M09,112155
+30,Murcia,Pernoctaciones,2025,8,2025M08,120375
+30,Murcia,Pernoctaciones,2025,7,2025M07,110467
+30,Murcia,Pernoctaciones,2025,6,2025M06,92787
+30,Murcia,Pernoctaciones,2025,5,2025M05,75421
+30,Murcia,Pernoctaciones,2025,4,2025M04,75474
+30,Murcia,Pernoctaciones,2025,3,2025M03,63833
+30,Murcia,Pernoctaciones,2025,2,2025M02,50925
+30,Murcia,Pernoctaciones,2025,1,2025M01,46588
+31,Navarra,Viajero,2025,12,2025M12,61333
+31,Navarra,Viajero,2025,11,2025M11,75974
+31,Navarra,Viajero,2025,10,2025M10,109186
+31,Navarra,Viajero,2025,9,2025M09,122347
+31,Navarra,Viajero,2025,8,2025M08,134811
+31,Navarra,Viajero,2025,7,2025M07,106982
+31,Navarra,Viajero,2025,6,2025M06,106583
+31,Navarra,Viajero,2025,5,2025M05,119088
+31,Navarra,Viajero,2025,4,2025M04,101696
+31,Navarra,Viajero,2025,3,2025M03,78176
+31,Navarra,Viajero,2025,2,2025M02,55332
+31,Navarra,Viajero,2025,1,2025M01,48856
+31,Navarra,Viajero,2025,12,2025M12,49344
+31,Navarra,Viajero,2025,11,2025M11,61524
+31,Navarra,Viajero,2025,10,2025M10,82022
+31,Navarra,Viajero,2025,9,2025M09,77192
+31,Navarra,Viajero,2025,8,2025M08,88829
+31,Navarra,Viajero,2025,7,2025M07,69566
+31,Navarra,Viajero,2025,6,2025M06,73632
+31,Navarra,Viajero,2025,5,2025M05,73798
+31,Navarra,Viajero,2025,4,2025M04,70366
+31,Navarra,Viajero,2025,3,2025M03,63089
+31,Navarra,Viajero,2025,2,2025M02,43959
+31,Navarra,Viajero,2025,1,2025M01,39873
+31,Navarra,Viajero,2025,12,2025M12,11990
+31,Navarra,Viajero,2025,11,2025M11,14450
+31,Navarra,Viajero,2025,10,2025M10,27163
+31,Navarra,Viajero,2025,9,2025M09,45155
+31,Navarra,Viajero,2025,8,2025M08,45982
+31,Navarra,Viajero,2025,7,2025M07,37415
+31,Navarra,Viajero,2025,6,2025M06,32951
+31,Navarra,Viajero,2025,5,2025M05,45290
+31,Navarra,Viajero,2025,4,2025M04,31330
+31,Navarra,Viajero,2025,3,2025M03,15087
+31,Navarra,Viajero,2025,2,2025M02,11372
+31,Navarra,Viajero,2025,1,2025M01,8983
+31,Navarra,Pernoctaciones,2025,12,2025M12,113657
+31,Navarra,Pernoctaciones,2025,11,2025M11,168560
+31,Navarra,Pernoctaciones,2025,10,2025M10,216556
+31,Navarra,Pernoctaciones,2025,9,2025M09,222962
+31,Navarra,Pernoctaciones,2025,8,2025M08,265670
+31,Navarra,Pernoctaciones,2025,7,2025M07,217912
+31,Navarra,Pernoctaciones,2025,6,2025M06,202739
+31,Navarra,Pernoctaciones,2025,5,2025M05,223386
+31,Navarra,Pernoctaciones,2025,4,2025M04,194310
+31,Navarra,Pernoctaciones,2025,3,2025M03,155684
+31,Navarra,Pernoctaciones,2025,2,2025M02,101172
+31,Navarra,Pernoctaciones,2025,1,2025M01,86931
+31,Navarra,Pernoctaciones,2025,12,2025M12,87850
+31,Navarra,Pernoctaciones,2025,11,2025M11,130616
+31,Navarra,Pernoctaciones,2025,10,2025M10,167854
+31,Navarra,Pernoctaciones,2025,9,2025M09,151807
+31,Navarra,Pernoctaciones,2025,8,2025M08,195557
+31,Navarra,Pernoctaciones,2025,7,2025M07,151855
+31,Navarra,Pernoctaciones,2025,6,2025M06,148154
+31,Navarra,Pernoctaciones,2025,5,2025M05,148921
+31,Navarra,Pernoctaciones,2025,4,2025M04,145909
+31,Navarra,Pernoctaciones,2025,3,2025M03,124243
+31,Navarra,Pernoctaciones,2025,2,2025M02,75777
+31,Navarra,Pernoctaciones,2025,1,2025M01,66610
+31,Navarra,Pernoctaciones,2025,12,2025M12,25807
+31,Navarra,Pernoctaciones,2025,11,2025M11,37945
+31,Navarra,Pernoctaciones,2025,10,2025M10,48702
+31,Navarra,Pernoctaciones,2025,9,2025M09,71155
+31,Navarra,Pernoctaciones,2025,8,2025M08,70113
+31,Navarra,Pernoctaciones,2025,7,2025M07,66056
+31,Navarra,Pernoctaciones,2025,6,2025M06,54584
+31,Navarra,Pernoctaciones,2025,5,2025M05,74465
+31,Navarra,Pernoctaciones,2025,4,2025M04,48401
+31,Navarra,Pernoctaciones,2025,3,2025M03,31442
+31,Navarra,Pernoctaciones,2025,2,2025M02,25395
+31,Navarra,Pernoctaciones,2025,1,2025M01,20321
+01,Araba/Álava,Viajero,2025,12,2025M12,37325
+01,Araba/Álava,Viajero,2025,11,2025M11,36923
+01,Araba/Álava,Viajero,2025,10,2025M10,47476
+01,Araba/Álava,Viajero,2025,9,2025M09,48024
+01,Araba/Álava,Viajero,2025,8,2025M08,58392
+01,Araba/Álava,Viajero,2025,7,2025M07,50919
+01,Araba/Álava,Viajero,2025,6,2025M06,46479
+01,Araba/Álava,Viajero,2025,5,2025M05,47964
+01,Araba/Álava,Viajero,2025,4,2025M04,43266
+01,Araba/Álava,Viajero,2025,3,2025M03,37161
+01,Araba/Álava,Viajero,2025,2,2025M02,28309
+01,Araba/Álava,Viajero,2025,1,2025M01,28500
+01,Araba/Álava,Viajero,2025,12,2025M12,29337
+01,Araba/Álava,Viajero,2025,11,2025M11,28398
+01,Araba/Álava,Viajero,2025,10,2025M10,32180
+01,Araba/Álava,Viajero,2025,9,2025M09,30812
+01,Araba/Álava,Viajero,2025,8,2025M08,35393
+01,Araba/Álava,Viajero,2025,7,2025M07,28852
+01,Araba/Álava,Viajero,2025,6,2025M06,31639
+01,Araba/Álava,Viajero,2025,5,2025M05,31836
+01,Araba/Álava,Viajero,2025,4,2025M04,30896
+01,Araba/Álava,Viajero,2025,3,2025M03,28587
+01,Araba/Álava,Viajero,2025,2,2025M02,22635
+01,Araba/Álava,Viajero,2025,1,2025M01,22259
+01,Araba/Álava,Viajero,2025,12,2025M12,7988
+01,Araba/Álava,Viajero,2025,11,2025M11,8525
+01,Araba/Álava,Viajero,2025,10,2025M10,15296
+01,Araba/Álava,Viajero,2025,9,2025M09,17212
+01,Araba/Álava,Viajero,2025,8,2025M08,22999
+01,Araba/Álava,Viajero,2025,7,2025M07,22066
+01,Araba/Álava,Viajero,2025,6,2025M06,14839
+01,Araba/Álava,Viajero,2025,5,2025M05,16128
+01,Araba/Álava,Viajero,2025,4,2025M04,12370
+01,Araba/Álava,Viajero,2025,3,2025M03,8574
+01,Araba/Álava,Viajero,2025,2,2025M02,5674
+01,Araba/Álava,Viajero,2025,1,2025M01,6241
+01,Araba/Álava,Pernoctaciones,2025,12,2025M12,78059
+01,Araba/Álava,Pernoctaciones,2025,11,2025M11,82196
+01,Araba/Álava,Pernoctaciones,2025,10,2025M10,102663
+01,Araba/Álava,Pernoctaciones,2025,9,2025M09,105735
+01,Araba/Álava,Pernoctaciones,2025,8,2025M08,122624
+01,Araba/Álava,Pernoctaciones,2025,7,2025M07,111447
+01,Araba/Álava,Pernoctaciones,2025,6,2025M06,99114
+01,Araba/Álava,Pernoctaciones,2025,5,2025M05,100448
+01,Araba/Álava,Pernoctaciones,2025,4,2025M04,90943
+01,Araba/Álava,Pernoctaciones,2025,3,2025M03,81202
+01,Araba/Álava,Pernoctaciones,2025,2,2025M02,59687
+01,Araba/Álava,Pernoctaciones,2025,1,2025M01,64033
+01,Araba/Álava,Pernoctaciones,2025,12,2025M12,56500
+01,Araba/Álava,Pernoctaciones,2025,11,2025M11,57198
+01,Araba/Álava,Pernoctaciones,2025,10,2025M10,65144
+01,Araba/Álava,Pernoctaciones,2025,9,2025M09,66065
+01,Araba/Álava,Pernoctaciones,2025,8,2025M08,82455
+01,Araba/Álava,Pernoctaciones,2025,7,2025M07,65755
+01,Araba/Álava,Pernoctaciones,2025,6,2025M06,66104
+01,Araba/Álava,Pernoctaciones,2025,5,2025M05,65494
+01,Araba/Álava,Pernoctaciones,2025,4,2025M04,65180
+01,Araba/Álava,Pernoctaciones,2025,3,2025M03,59566
+01,Araba/Álava,Pernoctaciones,2025,2,2025M02,45337
+01,Araba/Álava,Pernoctaciones,2025,1,2025M01,48833
+01,Araba/Álava,Pernoctaciones,2025,12,2025M12,21558
+01,Araba/Álava,Pernoctaciones,2025,11,2025M11,24999
+01,Araba/Álava,Pernoctaciones,2025,10,2025M10,37519
+01,Araba/Álava,Pernoctaciones,2025,9,2025M09,39671
+01,Araba/Álava,Pernoctaciones,2025,8,2025M08,40169
+01,Araba/Álava,Pernoctaciones,2025,7,2025M07,45691
+01,Araba/Álava,Pernoctaciones,2025,6,2025M06,33010
+01,Araba/Álava,Pernoctaciones,2025,5,2025M05,34953
+01,Araba/Álava,Pernoctaciones,2025,4,2025M04,25763
+01,Araba/Álava,Pernoctaciones,2025,3,2025M03,21636
+01,Araba/Álava,Pernoctaciones,2025,2,2025M02,14350
+01,Araba/Álava,Pernoctaciones,2025,1,2025M01,15199
+48,Bizkaia,Viajero,2025,12,2025M12,116902
+48,Bizkaia,Viajero,2025,11,2025M11,128413
+48,Bizkaia,Viajero,2025,10,2025M10,169284
+48,Bizkaia,Viajero,2025,9,2025M09,176484
+48,Bizkaia,Viajero,2025,8,2025M08,194614
+48,Bizkaia,Viajero,2025,7,2025M07,182168
+48,Bizkaia,Viajero,2025,6,2025M06,163820
+48,Bizkaia,Viajero,2025,5,2025M05,171543
+48,Bizkaia,Viajero,2025,4,2025M04,151514
+48,Bizkaia,Viajero,2025,3,2025M03,122381
+48,Bizkaia,Viajero,2025,2,2025M02,101349
+48,Bizkaia,Viajero,2025,1,2025M01,88017
+48,Bizkaia,Viajero,2025,12,2025M12,81758
+48,Bizkaia,Viajero,2025,11,2025M11,82955
+48,Bizkaia,Viajero,2025,10,2025M10,87891
+48,Bizkaia,Viajero,2025,9,2025M09,74476
+48,Bizkaia,Viajero,2025,8,2025M08,85121
+48,Bizkaia,Viajero,2025,7,2025M07,82448
+48,Bizkaia,Viajero,2025,6,2025M06,80795
+48,Bizkaia,Viajero,2025,5,2025M05,79429
+48,Bizkaia,Viajero,2025,4,2025M04,76183
+48,Bizkaia,Viajero,2025,3,2025M03,76017
+48,Bizkaia,Viajero,2025,2,2025M02,69113
+48,Bizkaia,Viajero,2025,1,2025M01,60694
+48,Bizkaia,Viajero,2025,12,2025M12,35144
+48,Bizkaia,Viajero,2025,11,2025M11,45458
+48,Bizkaia,Viajero,2025,10,2025M10,81393
+48,Bizkaia,Viajero,2025,9,2025M09,102008
+48,Bizkaia,Viajero,2025,8,2025M08,109494
+48,Bizkaia,Viajero,2025,7,2025M07,99720
+48,Bizkaia,Viajero,2025,6,2025M06,83026
+48,Bizkaia,Viajero,2025,5,2025M05,92114
+48,Bizkaia,Viajero,2025,4,2025M04,75331
+48,Bizkaia,Viajero,2025,3,2025M03,46363
+48,Bizkaia,Viajero,2025,2,2025M02,32236
+48,Bizkaia,Viajero,2025,1,2025M01,27323
+48,Bizkaia,Pernoctaciones,2025,12,2025M12,213882
+48,Bizkaia,Pernoctaciones,2025,11,2025M11,241240
+48,Bizkaia,Pernoctaciones,2025,10,2025M10,321021
+48,Bizkaia,Pernoctaciones,2025,9,2025M09,344334
+48,Bizkaia,Pernoctaciones,2025,8,2025M08,415888
+48,Bizkaia,Pernoctaciones,2025,7,2025M07,365818
+48,Bizkaia,Pernoctaciones,2025,6,2025M06,321798
+48,Bizkaia,Pernoctaciones,2025,5,2025M05,326882
+48,Bizkaia,Pernoctaciones,2025,4,2025M04,285825
+48,Bizkaia,Pernoctaciones,2025,3,2025M03,228811
+48,Bizkaia,Pernoctaciones,2025,2,2025M02,188405
+48,Bizkaia,Pernoctaciones,2025,1,2025M01,163445
+48,Bizkaia,Pernoctaciones,2025,12,2025M12,142210
+48,Bizkaia,Pernoctaciones,2025,11,2025M11,145518
+48,Bizkaia,Pernoctaciones,2025,10,2025M10,157841
+48,Bizkaia,Pernoctaciones,2025,9,2025M09,138275
+48,Bizkaia,Pernoctaciones,2025,8,2025M08,184574
+48,Bizkaia,Pernoctaciones,2025,7,2025M07,165863
+48,Bizkaia,Pernoctaciones,2025,6,2025M06,151563
+48,Bizkaia,Pernoctaciones,2025,5,2025M05,145513
+48,Bizkaia,Pernoctaciones,2025,4,2025M04,135035
+48,Bizkaia,Pernoctaciones,2025,3,2025M03,134182
+48,Bizkaia,Pernoctaciones,2025,2,2025M02,123741
+48,Bizkaia,Pernoctaciones,2025,1,2025M01,106538
+48,Bizkaia,Pernoctaciones,2025,12,2025M12,71672
+48,Bizkaia,Pernoctaciones,2025,11,2025M11,95723
+48,Bizkaia,Pernoctaciones,2025,10,2025M10,163180
+48,Bizkaia,Pernoctaciones,2025,9,2025M09,206059
+48,Bizkaia,Pernoctaciones,2025,8,2025M08,231314
+48,Bizkaia,Pernoctaciones,2025,7,2025M07,199954
+48,Bizkaia,Pernoctaciones,2025,6,2025M06,170236
+48,Bizkaia,Pernoctaciones,2025,5,2025M05,181368
+48,Bizkaia,Pernoctaciones,2025,4,2025M04,150790
+48,Bizkaia,Pernoctaciones,2025,3,2025M03,94628
+48,Bizkaia,Pernoctaciones,2025,2,2025M02,64665
+48,Bizkaia,Pernoctaciones,2025,1,2025M01,56907
+20,Gipuzkoa,Viajero,2025,12,2025M12,105530
+20,Gipuzkoa,Viajero,2025,11,2025M11,111965
+20,Gipuzkoa,Viajero,2025,10,2025M10,147949
+20,Gipuzkoa,Viajero,2025,9,2025M09,159455
+20,Gipuzkoa,Viajero,2025,8,2025M08,172310
+20,Gipuzkoa,Viajero,2025,7,2025M07,164930
+20,Gipuzkoa,Viajero,2025,6,2025M06,154379
+20,Gipuzkoa,Viajero,2025,5,2025M05,155535
+20,Gipuzkoa,Viajero,2025,4,2025M04,146459
+20,Gipuzkoa,Viajero,2025,3,2025M03,116750
+20,Gipuzkoa,Viajero,2025,2,2025M02,100707
+20,Gipuzkoa,Viajero,2025,1,2025M01,91045
+20,Gipuzkoa,Viajero,2025,12,2025M12,60473
+20,Gipuzkoa,Viajero,2025,11,2025M11,65049
+20,Gipuzkoa,Viajero,2025,10,2025M10,65706
+20,Gipuzkoa,Viajero,2025,9,2025M09,66086
+20,Gipuzkoa,Viajero,2025,8,2025M08,69916
+20,Gipuzkoa,Viajero,2025,7,2025M07,62064
+20,Gipuzkoa,Viajero,2025,6,2025M06,64936
+20,Gipuzkoa,Viajero,2025,5,2025M05,63539
+20,Gipuzkoa,Viajero,2025,4,2025M04,64874
+20,Gipuzkoa,Viajero,2025,3,2025M03,67331
+20,Gipuzkoa,Viajero,2025,2,2025M02,60004
+20,Gipuzkoa,Viajero,2025,1,2025M01,51340
+20,Gipuzkoa,Viajero,2025,12,2025M12,45057
+20,Gipuzkoa,Viajero,2025,11,2025M11,46916
+20,Gipuzkoa,Viajero,2025,10,2025M10,82243
+20,Gipuzkoa,Viajero,2025,9,2025M09,93368
+20,Gipuzkoa,Viajero,2025,8,2025M08,102394
+20,Gipuzkoa,Viajero,2025,7,2025M07,102865
+20,Gipuzkoa,Viajero,2025,6,2025M06,89443
+20,Gipuzkoa,Viajero,2025,5,2025M05,91996
+20,Gipuzkoa,Viajero,2025,4,2025M04,81584
+20,Gipuzkoa,Viajero,2025,3,2025M03,49419
+20,Gipuzkoa,Viajero,2025,2,2025M02,40703
+20,Gipuzkoa,Viajero,2025,1,2025M01,39705
+20,Gipuzkoa,Pernoctaciones,2025,12,2025M12,188472
+20,Gipuzkoa,Pernoctaciones,2025,11,2025M11,214773
+20,Gipuzkoa,Pernoctaciones,2025,10,2025M10,298990
+20,Gipuzkoa,Pernoctaciones,2025,9,2025M09,344139
+20,Gipuzkoa,Pernoctaciones,2025,8,2025M08,388726
+20,Gipuzkoa,Pernoctaciones,2025,7,2025M07,362629
+20,Gipuzkoa,Pernoctaciones,2025,6,2025M06,318078
+20,Gipuzkoa,Pernoctaciones,2025,5,2025M05,312348
+20,Gipuzkoa,Pernoctaciones,2025,4,2025M04,285046
+20,Gipuzkoa,Pernoctaciones,2025,3,2025M03,224102
+20,Gipuzkoa,Pernoctaciones,2025,2,2025M02,176246
+20,Gipuzkoa,Pernoctaciones,2025,1,2025M01,162298
+20,Gipuzkoa,Pernoctaciones,2025,12,2025M12,112847
+20,Gipuzkoa,Pernoctaciones,2025,11,2025M11,126314
+20,Gipuzkoa,Pernoctaciones,2025,10,2025M10,134814
+20,Gipuzkoa,Pernoctaciones,2025,9,2025M09,142458
+20,Gipuzkoa,Pernoctaciones,2025,8,2025M08,165775
+20,Gipuzkoa,Pernoctaciones,2025,7,2025M07,138316
+20,Gipuzkoa,Pernoctaciones,2025,6,2025M06,126660
+20,Gipuzkoa,Pernoctaciones,2025,5,2025M05,129450
+20,Gipuzkoa,Pernoctaciones,2025,4,2025M04,130658
+20,Gipuzkoa,Pernoctaciones,2025,3,2025M03,132571
+20,Gipuzkoa,Pernoctaciones,2025,2,2025M02,103529
+20,Gipuzkoa,Pernoctaciones,2025,1,2025M01,92555
+20,Gipuzkoa,Pernoctaciones,2025,12,2025M12,75625
+20,Gipuzkoa,Pernoctaciones,2025,11,2025M11,88459
+20,Gipuzkoa,Pernoctaciones,2025,10,2025M10,164176
+20,Gipuzkoa,Pernoctaciones,2025,9,2025M09,201682
+20,Gipuzkoa,Pernoctaciones,2025,8,2025M08,222951
+20,Gipuzkoa,Pernoctaciones,2025,7,2025M07,224313
+20,Gipuzkoa,Pernoctaciones,2025,6,2025M06,191418
+20,Gipuzkoa,Pernoctaciones,2025,5,2025M05,182898
+20,Gipuzkoa,Pernoctaciones,2025,4,2025M04,154388
+20,Gipuzkoa,Pernoctaciones,2025,3,2025M03,91531
+20,Gipuzkoa,Pernoctaciones,2025,2,2025M02,72717
+20,Gipuzkoa,Pernoctaciones,2025,1,2025M01,69743
+26,"Rioja, La",Viajero,2025,12,2025M12,44635
+26,"Rioja, La",Viajero,2025,11,2025M11,49725
+26,"Rioja, La",Viajero,2025,10,2025M10,66389
+26,"Rioja, La",Viajero,2025,9,2025M09,72643
+26,"Rioja, La",Viajero,2025,8,2025M08,89950
+26,"Rioja, La",Viajero,2025,7,2025M07,65018
+26,"Rioja, La",Viajero,2025,6,2025M06,59385
+26,"Rioja, La",Viajero,2025,5,2025M05,69250
+26,"Rioja, La",Viajero,2025,4,2025M04,52684
+26,"Rioja, La",Viajero,2025,3,2025M03,42151
+26,"Rioja, La",Viajero,2025,2,2025M02,34531
+26,"Rioja, La",Viajero,2025,1,2025M01,29430
+26,"Rioja, La",Viajero,2025,12,2025M12,39725
+26,"Rioja, La",Viajero,2025,11,2025M11,42836
+26,"Rioja, La",Viajero,2025,10,2025M10,48816
+26,"Rioja, La",Viajero,2025,9,2025M09,46609
+26,"Rioja, La",Viajero,2025,8,2025M08,71733
+26,"Rioja, La",Viajero,2025,7,2025M07,49276
+26,"Rioja, La",Viajero,2025,6,2025M06,41220
+26,"Rioja, La",Viajero,2025,5,2025M05,46945
+26,"Rioja, La",Viajero,2025,4,2025M04,39415
+26,"Rioja, La",Viajero,2025,3,2025M03,36481
+26,"Rioja, La",Viajero,2025,2,2025M02,30611
+26,"Rioja, La",Viajero,2025,1,2025M01,25678
+26,"Rioja, La",Viajero,2025,12,2025M12,4910
+26,"Rioja, La",Viajero,2025,11,2025M11,6889
+26,"Rioja, La",Viajero,2025,10,2025M10,17573
+26,"Rioja, La",Viajero,2025,9,2025M09,26034
+26,"Rioja, La",Viajero,2025,8,2025M08,18217
+26,"Rioja, La",Viajero,2025,7,2025M07,15742
+26,"Rioja, La",Viajero,2025,6,2025M06,18164
+26,"Rioja, La",Viajero,2025,5,2025M05,22305
+26,"Rioja, La",Viajero,2025,4,2025M04,13269
+26,"Rioja, La",Viajero,2025,3,2025M03,5669
+26,"Rioja, La",Viajero,2025,2,2025M02,3919
+26,"Rioja, La",Viajero,2025,1,2025M01,3752
+26,"Rioja, La",Pernoctaciones,2025,12,2025M12,73419
+26,"Rioja, La",Pernoctaciones,2025,11,2025M11,88124
+26,"Rioja, La",Pernoctaciones,2025,10,2025M10,120354
+26,"Rioja, La",Pernoctaciones,2025,9,2025M09,126289
+26,"Rioja, La",Pernoctaciones,2025,8,2025M08,144984
+26,"Rioja, La",Pernoctaciones,2025,7,2025M07,108197
+26,"Rioja, La",Pernoctaciones,2025,6,2025M06,106146
+26,"Rioja, La",Pernoctaciones,2025,5,2025M05,118051
+26,"Rioja, La",Pernoctaciones,2025,4,2025M04,91927
+26,"Rioja, La",Pernoctaciones,2025,3,2025M03,72279
+26,"Rioja, La",Pernoctaciones,2025,2,2025M02,58691
+26,"Rioja, La",Pernoctaciones,2025,1,2025M01,49293
+26,"Rioja, La",Pernoctaciones,2025,12,2025M12,64388
+26,"Rioja, La",Pernoctaciones,2025,11,2025M11,74755
+26,"Rioja, La",Pernoctaciones,2025,10,2025M10,88347
+26,"Rioja, La",Pernoctaciones,2025,9,2025M09,84090
+26,"Rioja, La",Pernoctaciones,2025,8,2025M08,117833
+26,"Rioja, La",Pernoctaciones,2025,7,2025M07,83214
+26,"Rioja, La",Pernoctaciones,2025,6,2025M06,72382
+26,"Rioja, La",Pernoctaciones,2025,5,2025M05,83390
+26,"Rioja, La",Pernoctaciones,2025,4,2025M04,69659
+26,"Rioja, La",Pernoctaciones,2025,3,2025M03,61850
+26,"Rioja, La",Pernoctaciones,2025,2,2025M02,51263
+26,"Rioja, La",Pernoctaciones,2025,1,2025M01,42483
+26,"Rioja, La",Pernoctaciones,2025,12,2025M12,9031
+26,"Rioja, La",Pernoctaciones,2025,11,2025M11,13368
+26,"Rioja, La",Pernoctaciones,2025,10,2025M10,32007
+26,"Rioja, La",Pernoctaciones,2025,9,2025M09,42199
+26,"Rioja, La",Pernoctaciones,2025,8,2025M08,27151
+26,"Rioja, La",Pernoctaciones,2025,7,2025M07,24983
+26,"Rioja, La",Pernoctaciones,2025,6,2025M06,33764
+26,"Rioja, La",Pernoctaciones,2025,5,2025M05,34661
+26,"Rioja, La",Pernoctaciones,2025,4,2025M04,22268
+26,"Rioja, La",Pernoctaciones,2025,3,2025M03,10429
+26,"Rioja, La",Pernoctaciones,2025,2,2025M02,7428
+26,"Rioja, La",Pernoctaciones,2025,1,2025M01,6809

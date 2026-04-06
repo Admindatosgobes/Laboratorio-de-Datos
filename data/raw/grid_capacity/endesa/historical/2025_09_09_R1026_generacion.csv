@@ -1,0 +1,6 @@
+Gestor de Red;Provincia;Municipio;Coordenada UTM X;Coordenada UTM Y;Subestación;Nivel de Tensión (kV);Capacidad disponible (MW);Capacidad comprometida por cuestiones regulatorias;Capacidad ocupada (MW);Capacidad admitida y no resuelta (MW);Posiciones ocupadas;Posiciones libres;Nudo Afección RdT;Nudo limitado por Scc ;Nudo 0*;Comentarios;Comunidad Autónoma;Nombre Subestación
+R1-026;Huesca;Panticosa;726456,3928;4738114,817;1500043;3;0;0;0;0;;;SABIÑANIGO 220;0;0;;02 - Aragón;BAÑOS
+R1-026;Huesca;Sahún;786538,1711;4721080,962;1500031;25;23;0;0,2;0;;;ERISTE 220;0;0;;02 - Aragón;ERISTE
+R1-026;Huesca;Panticosa;720582,4491;4734210,877;1500044;11;0;0;6,3;0;;;SABIÑANIGO 220;0;0;;02 - Aragón;PUEYO
+R1-026;Huesca;Sabiñánigo;717030,3362;4710543,315;1500056;11;0;0;25,3;0;;;SABIÑANIGO 220;0;0;;02 - Aragón;SABIÑANIGO
+R1-026;Huesca;Sallent de Gállego;718136,1906;4738788,967;1500049;20;0;0;2,8;0;;;SABIÑANIGO 220;0;0;;02 - Aragón;SALLENT

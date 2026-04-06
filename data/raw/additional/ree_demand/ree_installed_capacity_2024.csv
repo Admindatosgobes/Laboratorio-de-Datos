@@ -1,0 +1,18 @@
+technology,capacity_mw,percentage
+Hydro,17096.4,0.13
+Nuclear,7117.29,0.05
+Coal,2061.18,0.02
+Fuel + Gas,7.95,0.0
+Diesel engines,768.67,0.01
+Gas turbine,1148.65,0.01
+Steam turbine,482.64,0.0
+Combined cycle,26250.15,0.19
+Hydroeolian,11.32,0.0
+Wind,32128.57,0.24
+Solar photovoltaic,39472.96,0.29
+Thermal solar,2303.07,0.02
+Other renewables,1115.63,0.01
+Cogeneration,5586.23,0.04
+Non-renewable waste,425.77,0.0
+Renewable waste,170.12,0.0
+Total capacity,136146.58,1
