@@ -1,0 +1,433 @@
+05002 ADRADA (LA),     716
+05013 ARENAL (EL),          61
+05014 ARENAS DE SAN PEDRO,    1344
+05016 AREVALO,          1865
+05019 AVILA,          10169
+05021 BARCO DE AVILA (EL),              683
+05022 BARRACO (EL),               142
+05041 BURGOHONDO,               102
+05047 CANDELEDA,                  643
+05049 CARDEÑOSA,                     54
+05054 CASAVIEJA,                  105
+05057 CEBREROS,                  533
+05059 CILLAN,                  26
+05065 CRESPOS,                 37
+05074 FONTIVEROS,                126
+05076 FRESNO (EL),                  67
+05097 HORCAJADA (LA),                 32
+05102 HOYO DE PINARES (EL),              244
+05105 HOYOS DEL ESPINO,               60
+05110 LANZAHITA,                99
+05114 MADRIGAL DE LAS ALTAS TORRES,                103
+05117 MAMBLAS,                   51
+05127 MIJARES,                 74
+05128 MINGORRIA,                     32
+05135 MUÑANA,                  54
+05138 MUÑOGALINDO,                   45
+05152 NAVA DE AREVALO,                   58
+05158 NAVALMORAL,                    46
+05160 NAVALOSA,                   21
+05161 NAVALPERAL DE PINARES,               118
+05163 NAVALUENGA,                323
+05168 NAVAS DEL MARQUES (LAS),              1075
+05186 PIEDRAHITA,                 299
+05187 PIEDRALAVES,                  220
+05189 POYALES DEL HOYO,                  32
+05204 SANCHIDRIAN,                   75
+05207 SAN ESTEBAN DEL VALLE,                  70
+05220 SAN PEDRO DEL ARROYO,                   73
+05225 SANTA MARIA DEL BERROCAL,                   10
+05227 SANTA MARIA DEL TIETAR,                   116
+05232 SERRADA (LA),                0
+05238 SOLOSANCHO,                 36
+05240 SOTILLO DE LA ADRADA,              1025
+05241 TIEMBLO (EL),            1161
+05262 VILLAREJO DEL VALLE,                 39
+09009 ALBILLOS,                   22
+09018 ARANDA DE DUERO,             5565
+09023 ARCOS,                   22
+09048 BELORADO,                  257
+09056 BRIVIESCA,                1249
+09059 BURGOS,            21569
+09064 CALERUEGA,                  35
+09086 CASTRILLO DEL VAL,                   14
+09091 CASTROJERIZ,                   37
+09098 CEREZO DE RIO TIRON,                  6
+09109 CONDADO DE TREVIÑO,                   59
+09113 COVARRUBIAS,                    38
+09124 ESPINOSA DE LOS MONTEROS,                  228
+09134 FRIAS,                   14
+09141 FUENTESPINA,                  156
+09151 GUMIEL DE IZAN,                   39
+09174 HUERTA DE REY,                   63
+09177 IBEAS DE JUARROS,                 212
+09194 LERMA,                   532
+09209 MEDINA DE POMAR,                  1118
+09211 MELGAR DE FERNAMENTAL,                   163
+09218 MILAGROS,                   59
+09219 MIRANDA DE EBRO,               5469
+09238 OÑA,                     40
+09246 PALACIOS DE LA SIERRA,                  29
+09250 PAMPLIEGA,                   37
+09251 PANCORBO,                   32
+09261 PEÑARANDA DE DUERO,                   115
+09274 PRADOLUENGO,                   54
+09276 PUEBLA DE ARGANZON (LA),              0
+09289 QUINTANAR DE LA SIERRA,                  209
+09321 ROA,                  493
+09330 SALAS DE LOS INFANTES,                  443
+09350 SANTA MARIA DEL CAMPO,                    36
+09363 SASAMON,                   22
+09369 SOTILLO DE LA RIBERA,                  69
+09377 TARDAJOS,                   173
+09384 TORDOMAR,                  20
+09390 TORRESANDINO,                  37
+09394 TRESPADERNE,                   44
+09410 VALLE DE MENA,                  417
+09412 VALLE DE TOBALINA,                    32
+09413 VALLE DE VALDEBEZANA,                   47
+09425 VILVIESTRE DEL PINAR,                    60
+09427 VILLADIEGO,                225
+09434 VILLAGONZALO PEDERNALES,               365
+09439 VILLALBILLA DE BURGOS,                  148
+09902 VALLE DE SANTIBAÑEZ,                     15
+09903 VILLARCAYO DE MERINDAD DE CASTILLA LA VIEJA,                   694
+09905 VALLE DE SEDANO,                   13
+09907 ALFOZ DE QUINTANADUEÑAS,                  238
+09908 VALLE DE LOSA,                   27
+24003 ALIJA DEL INFANTADO,                   27
+24008 ASTORGA,               2203
+24010 BAÑEZA (LA),         1608
+24014 BEMBIBRE,             1387
+24015 BENAVIDES,          290
+24016 BENUZA,                 6
+24021 BOÑAR,               190
+24024 BURGO RANERO (EL),             81
+24029 CABRILLANES,                   28
+24030 CACABELOS,              922
+24034 CAMPONARAYA,             257
+24038 CARRACEDELO,               147
+24039 CARRIZO,                 393
+24041 CARUCEDO,               25
+24047 CASTROCONTRIGO,                  8
+24049 CASTROPODAME,                     75
+24056 CISTIERNA,                  444
+24057 CONGOSTO,                    99
+24059 CORULLON,                 23
+24061 CUADROS,                   324
+24064 CUBILLOS DEL SIL,                  107
+24066 DESTRIANA,                   24
+24067 ENCINEDO,                    50
+24070 FABERO,                 487
+24082 HOSPITAL DE ORBIGO,              86
+24083 IGÜEÑA,              9
+24088 LAGUNA DE NEGRILLOS,                 35
+24089 LEON,          20084
+24094 MANSILLA DE LAS MULAS,                 253
+24098 MATALLANA DE TORIO,                46
+24102 NOCEDA DEL BIERZO,               15
+24105 ONZONILLA,                   28
+24109 PALACIOS DEL SIL,                    21
+24110 PARAMO DEL SIL,                   39
+24113 POBLADURA DE PELAYO GARCIA,                  13
+24114 POLA DE GORDON (LA),              154
+24115 PONFERRADA,            9517
+24116 POSADA DE VALDEON,                18
+24121 PUEBLA DE LILLO,                   27
+24122 PUENTE DE DOMINGO FLOREZ,           123
+24130 RIAÑO,              54
+24132 RIELLO,                 10
+24134 ROBLA (LA),              683
+24137 SABERO,                  31
+24139 SAHAGUN,                648
+24142 SAN ANDRES DEL RABANEDO,                1912
+24148 SAN JUSTO DE LA VEGA,                 93
+24154 SANTA ELENA DE JAMUZ,                  44
+24157 SANTA MARIA DEL PARAMO,                554
+24159 SANTA MARINA DEL REY,                   48
+24162 SANTOVENIA DE LA VALDONCINA,                 254
+24166 SOTO DE LA VEGA,                    29
+24167 SOTO Y AMIO,                   49
+24168 TORAL DE LOS GUZMANES,                39
+24169 TORENO,               232
+24170 TORRE DEL BIERZO,              89
+24173 TURCIA,               31
+24174 URDIALES DEL PARAMO,            11
+24175 VALDEFRESNO,                  62
+24180 VALDEPOLO,                 24
+24181 VALDERAS,               292
+24183 VALDERRUEDA,                 62
+24187 VALDEVIMBRE,                16
+24188 VALENCIA DE DON JUAN,                 1293
+24189 VALVERDE DE LA VIRGEN,             1752
+24193 VECILLA (LA),                  23
+24196 VEGA DE ESPINAREDA,                   89
+24198 VEGA DE VALCARCE,                   27
+24202 VILLABLINO,               1330
+24205 VILLADANGOS DEL PARAMO,                  75
+24206 TORAL DE LOS VADOS,                123
+24209 VILLAFRANCA DEL BIERZO,              359
+24212 VILLAMAÑAN,                 88
+24221 VILLAQUEJIDA,                  57
+24222 VILLAQUILAMBRE,              1240
+24223 VILLAREJO DE ORBIGO,                  623
+24901 VILLAMANIN,                  44
+34004 AGUILAR DE CAMPOO,               1234
+34005 ALAR DEL REY,                  48
+34010 AMPUDIA,                   16
+34017 ASTUDILLO,                   38
+34022 BALTANAS,                  89
+34023 VENTA DE BAÑOS,          725
+34027 BARRUELO DE SANTULLAN,            43
+34029 BECERRIL DE CAMPOS,              219
+34037 BUENAVISTA DE VALDAVIA,                21
+34042 CALZADA DE LOS MOLINOS,                 19
+34047 CARRION DE LOS CONDES,              481
+34056 CERVERA DE PISUERGA,             236
+34069 DUEÑAS,            159
+34074 FROMISTA,                51
+34076 FUENTES DE NAVA,             32
+34080 GUARDO,              1249
+34083 HERRERA DE PISUERGA,            244
+34108 MONZON DE CAMPOS,               77
+34120 PALENCIA,             11327
+34123 PAREDES DE NAVA,              205
+34157 SALDAÑA,                  585
+34159 SAN CEBRIAN DE CAMPOS,                  0
+34169 SANTERVAS DE LA VEGA,                    3
+34171 SANTIBAÑEZ DE LA PEÑA,                  22
+34181 TARIEGO DE CERRATO,                    81
+34182 TORQUEMADA,                 112
+34199 VELILLA DEL RIO CARRION,                   77
+34206 VILLADA,                    67
+34217 VILLALOBON,                 224
+34225 VILLAMURIEL DE CERRATO,           1050
+34232 VILLARRAMIEL,                   35
+34238 VILLAVIUDAS,                    7
+34901 OSORNO LA MAYOR,                79
+37008 ALBA DE TORMES,               848
+37010 ALBERCA (LA),                 171
+37014 ALDEADAVILA DE LA RIBERA,       37
+37023 ALDEATEJADA,                    149
+37035 ARMENTEROS,                   0
+37038 BABILAFUENTE,                 287
+37040 BARBADILLO,                 25
+37044 BARRUECOPARDO,                 23
+37046 BEJAR,            2274
+37067 CABRERIZOS,              423
+37069 CALVARRASA DE ABAJO,                145
+37073 CALZADA DE VALDUNCIEL,                73
+37078 CANDELARIO,                   33
+37081 CANTALAPIEDRA,                 52
+37082 CANTALPINO,                   54
+37083 CANTARACILLO,               20
+37085 CARBAJOSA DE LA SAGRADA,              790
+37092 CASTELLANOS DE MORISCOS,                 292
+37103 CESPEDOSA DE TORMES,                30,
+37107 CIUDAD RODRIGO,         2133
+37113 CUBO DE DON SANCHO (EL),              51
+37117 DOÑINOS DE SALAMANCA,                247
+37135 FUENTE DE SAN ESTEBAN (LA),             243
+37136 FUENTEGUINALDO,                  45
+37138 FUENTERROBLE DE SALVATIERRA,            14
+37140 FUENTES DE OÑORO,                52
+37148 GARCIHERNANDEZ,                 15
+37152 GOMECELLO,                0
+37156 GUIJUELO,                  1112
+37160 HINOJOSA DE DUERO,                 55
+37170 LEDESMA,                 183
+37171 LEDRADA,                  68
+37172 LINARES DE RIOFRIO,              90
+37173 LUMBRALES,                170
+37174 MACOTERA,                77
+37177 MAILLO (EL),                 6
+37187 MATILLA DE LOS CAÑOS DEL RIO,                   61
+37193 MIRANDA DEL CASTAÑAR,              25
+37198 MONLERAS,                  12
+37200 MONTEJO,                41
+37202 MONTERRUBIO DE ARMUÑA,                 13
+37221 NAVASFRIAS,                  22
+37238 PEDROSILLO EL RALO,                  54
+37246 PEÑARANDA DE BRACAMONTE,       1202
+37263 PUERTO DE BEJAR,           46
+37269 ROBLEDA,                53
+37274 SALAMANCA,          21549
+37279 SANCTI-SPIRITUS,                 43
+37287 SAN MIGUEL DE VALERO,                  36
+37294 SANTA MARTA DE TORMES,              2680
+37297 SANTIBAÑEZ DE BEJAR,                  25
+37300 SANTOS (LOS),               35
+37305 SEQUEROS,                 17
+37313 SOTOSERRANO,                 24
+37316 TAMAMES,                   78
+37322 TERRADILLOS,                 259
+37330 VALDECARROS,               44
+37354 VILLAMAYOR,               1262
+37357 VILLAR DE CIERVO,                   20
+37362 VILLARES DE LA REINA,               503
+37364 VILLARINO DE LOS AIRES,                  27
+37369 VILLASECO DE LOS GAMITOS,               20
+37373 VILLAVIEJA DE YELTES,                    29
+37374 VILLORIA,                   83
+37375 VILLORUELA,                  41
+37376 VITIGUDINO,                 601
+40001 ABADES,                  23
+40004 AGUILAFUENTE,                 155
+40024 AYLLON,                   438
+40032 BOCEGUILLAS,                  306
+40040 CANTALEJO,                1163
+40041 CANTIMPALOS,                201
+40043 CARBONERO EL MAYOR,            1017
+40057 COCA,                  718
+40063 CUELLAR,               2130
+40065 CHAÑE,                 165
+40076 ESPINAR (EL),                2138
+40086 FUENTEPELAYO,                 19
+40088 FUENTERREBOLLO,                  95
+40112 LASTRILLA (LA),                 484
+40113 LOSA (LA),                285
+40138 NAVA DE LA ASUNCION,                  534
+40141 NAVALMANZANO,                  71
+40145 NAVAS DE ORO,                118
+40149 OLOMBRADA,               50
+40152 OTERO DE HERREROS,                 18
+40155 PALAZUELOS DE ERESMA,                 661
+40162 PRADENA,               151
+40170 RIAZA,                  231
+40179 SANCHONUÑO,                176
+40180 SANGARCIA,                 62
+40181 REAL SITIO DE SAN ILDEFONSO,              1325
+40185 SANTA MARIA LA REAL DE NIEVA,                  239
+40194 SEGOVIA,            12041
+40195 SEPULVEDA,             208
+40203 TORRECABALLEROS,              319
+40207 TRESCASAS,                 121
+40208 TUREGANO,                   70
+40216 VALVERDE DEL MAJANO,              433
+40225 VILLACASTIN,                  287
+40228 VILLAVERDE DE ISCAR,                    7
+40906 SAN CRISTOBAL DE SEGOVIA,                438
+42004 AGREDA,                479
+42019 ALMARZA,                    65
+42020 ALMAZAN,            1245
+42025 ARCOS DE JALON,               283
+42035 BERLANGA DE DUERO,                 58
+42043 BURGO DE OSMA-CIUDAD DE OSMA,                   841
+42055 CASAREJOS,                  18
+42069 COVALEDA,                 202
+42078 DURUELO DE LA SIERRA,          63
+42095 GOLMAYO,               629
+42096 GOMARA,                  23
+42103 LANGA DE DUERO,             39
+42129 NAVALENO,                   62
+42134 OLVEGA,                  655
+42144 QUINTANA REDONDA,                    39
+42162 SAN ESTEBAN DE GORMAZ,                 647
+42164 SAN LEONARDO DE YAGÜE,                 303
+42165 SAN PEDRO MANRIQUE,                   86
+42173 SORIA,               8924
+42215 VINUESA,                   388
+47004 ALAEJOS,                    57
+47007 ALDEAMAYOR DE SAN MARTIN,                 574
+47010 ARROYO DE LA ENCOMIENDA,               3087
+47011 ATAQUINES,                  34
+47015 BECILLA DE VALDERADUEY,                34
+47020 BOBADILLA DEL CAMPO,                 46
+47023 BOECILLO,                    640
+47027 CABEZON DE PISUERGA,                   373
+47030 CAMPASPERO,                 44
+47035 CARPIO,                    88
+47043 CASTROMONTE,                   125
+47045 CASTRONUÑO,                 83
+47050 CIGALES,                824
+47052 CISTERNIGA,                 967
+47053 COGECES DE ISCAR,                   9
+47054 COGECES DEL MONTE,                   20
+47061 ESGUEVILLAS DE ESGUEVA,                  48
+47065 FRESNO EL VIEJO,                    26
+47066 FUENSALDAÑA,                  150
+47075 ISCAR,                   1167
+47076 LAGUNA DE DUERO,              4199
+47082 MATAPOZUELOS,                   94
+47084 MAYORGA,                  100
+47085 MEDINA DEL CAMPO,            3337
+47086 MEDINA DE RIOSECO,              825
+47087 MEGECES,                14
+47090 MOJADOS,                  438
+47093 MONTEMAYOR DE PILILLA,             30
+47097 MOTA DEL MARQUES,                  29
+47101 NAVA DEL REY,                155
+47104 OLMEDO,                   998
+47111 PEDRAJA DE PORTILLO (LA),                   74
+47112 PEDRAJAS DE SAN ESTEBAN,                    405
+47114 PEÑAFIEL,               1120
+47122 PORTILLO,                  565
+47123 POZAL DE GALLINAS,                  34
+47124 POZALDEZ,                43
+47129 QUINTANILLA DE ONESIMO,                269
+47133 RENEDO DE ESGUEVA,               514
+47139 RUEDA,                 57,
+47145 SAN MIGUEL DEL ARROYO,                 30
+47155 SANTOVENIA DE PISUERGA,               373
+47158 SECA (LA),              62
+47159 SERRADA,                  78
+47161 SIMANCAS,                481
+47165 TORDESILLAS,               1776
+47171 TORRELOBATON,                  27
+47175 TUDELA DE DUERO,                1201
+47182 VALDESTILLAS,                 105
+47184 VALORIA LA BUENA,                 45
+47186 VALLADOLID,              35494
+47193 VIANA DE CEGA,              130
+47194 VILORIA,                   9
+47197 VILLABRAGIMA,                122
+47214 VILLALON DE CAMPOS,                  320
+47217 VILLANUBLA,                  395
+47218 VILLANUEVA DE DUERO,                  65
+47231 ZARATAN,                    640
+49003 ALCAÑICES,                  264
+49007 ALMARAZ DE DUERO,                  6
+49008 ALMEIDA DE SAYAGO,                 18
+49021 BENAVENTE,              2612
+49023 BERMILLO DE SAYAGO,                  277
+49024 BOVEDA DE TORO (LA),                    38
+49029 BURGANES DE VALVERDE,                     32
+49033 CAMARZANA DE TERA,                302
+49036 CARBAJALES DE ALBA,                   21
+49053 CORESES,                   142
+49054 CORRALES DEL VINO,                  72
+49058 CUBO DE TIERRA DEL VINO (EL),                  28
+49065 FERMOSELLE,                  34
+49066 FERRERAS DE ABAJO,                 49
+49071 FONFRIA,                  10
+49080 FUENTELAPEÑA,                     15
+49081 FUENTESAUCO,                   314
+49085 GALENDE,                    101
+49090 GEMA,                    60
+49093 GUARRATE,                   38
+49100 LUBIAN,                   6
+49104 MAHIDE,                   4
+49122 MONFARRACINOS,                 187
+49125 MORALEJA DEL VINO,                  163
+49126 MORALEJA DE SAYAGO,                  10
+49127 MORALES DEL VINO,                 224
+49128 MORALES DE REY,                 45
+49129 MORALES DE TORO,                  93
+49135 MUELAS DEL PAN,                     9
+49136 MUGA DE SAYAGO,                184
+49143 PALACIOS DE SANABRIA,                  56
+49166 PUEBLA DE SANABRIA,                440
+49176 RIOFRIO DE ALISTE,                   22
+49187 SAN CRISTOBAL DE ENTREVIÑAS,                   106
+49193 SAN PEDRO DE CEQUE,               18
+49200 SANTA CRISTINA DE LA POLVOROSA,            106
+49206 SANTIBAÑEZ DE VIDRIALES,                  86
+49209 SAN VITERO,                   12
+49214 TABARA,               80
+49219 TORO,               1377
+49242 VILLAFAFILA,                 35
+49250 VILLALPANDO,                288
+49260 VILLANUEVA DEL CAMPO,            56
+49261 VILLARALBO,                   154
+49268 VILLARRIN DE CAMPOS,              53
+49275 ZAMORA,            9842
