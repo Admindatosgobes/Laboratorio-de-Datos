@@ -42,6 +42,7 @@ desktop.ini
 !data/raw/ministry_roads/*.parquet
 !data/raw/nap_charging_points/*.parquet
 !data/processed/roads_clean.parquet
+!data/processed/interurban_roads.parquet
 data/raw/**/*.xlsx
 data/raw/**/*.xls
 data/raw/**/*.pdf

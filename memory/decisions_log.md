@@ -1,87 +1,57 @@
 # Decisions Log
 
-**Purpose:** Record all key technical and strategic decisions with rationale and date.
+## 2026-04-06 — Adopted Split-Track Notebook Scaffolds Selectively
+
+**Decision:** Keep the existing integrated `06`–`10` notebooks on `main`, but add the teammate's split-track scaffolds (`06a`–`06d`, `07b`) as auxiliary planning notebooks instead of replacing current files.
+
+**Rationale:** The teammate's `phase1-notebook-scaffolds` branch adds a useful work-division pattern for deterministic vs ABM development, but it assumes an earlier repo state where `src/geo_utils.py`, `src/optimization.py`, and most notebook logic were still stubs. Replacing current notebooks or memory files would regress a more advanced local state.
+
+**Impact:** Team can use the extra notebook split for parallel work without losing the more advanced implementations already present on `main`.
+
+## 2026-04-06 — ABM Methodology Adaptation
+
+**Decision:** Use parsimonious ABM (statistical behavioral model) rather than full individual-vehicle simulation.
+
+**Rationale:** Competitor teams (borrador_proyecto_abm.pdf, borrador_proyecto_secuencial.pdf) used ABM thinking, but we have real IMD traffic data. Full individual-vehicle simulation adds noise without improving accuracy when we already have empirical traffic counts. The key behavioral insight (range anxiety, SOC distribution) is captured by the 12% charging probability parameter (B1) derived from empirical data.
+
+**Formula:** `daily_bev_flow = IMD × 0.0571 × 0.60` where 0.0571 = EV penetration rate and 0.60 = BEV fraction (PHEVs use ICE on highways).
 
 ---
 
-## 2026-03-17
+## 2026-04-06 — Sequential Greedy over LP Set Cover
 
-### Decision: Hybrid LP + Scoring Optimization Approach
-**Context:** Choice between greedy interval covering, full facility location LP, or multi-criteria scoring  
-**Decision:** Hybrid approach — Set Cover LP for placement, demand-weighted sizing with MCDA scoring  
-**Rationale:** 
-- LP gives mathematical rigor for minimizing station count (directly addresses datathon objective)
-- MCDA scoring provides explainable sizing and strategic narrative
-- Hybrid balances optimization quality with implementation timeline
-**Impact:** Determines NB 07 architecture
+**Decision:** Replace the LP Set Cover approach (original plan) with sequential greedy placement.
 
-### Decision: Rutas por Carretera as Primary Demand Data
-**Context:** Choice between pyspainmobility OD matrix vs Ministry Rutas por Carretera  
-**Decision:** Use Rutas por Carretera `informacion_tramo` as primary input, pyspainmobility as optional enrichment  
-**Rationale:**
-- Rutas already provides segment-level flows (what we need)
-- No complex OD→road routing required
-- Official ministry data, more defensible
-- 3 reference dates available (summer/autumn/spring)
-**Impact:** Simplifies NB 06 demand model significantly
-
-### Decision: Three-Tier Spacing Constraints
-**Context:** AFIR regulation analysis revealed Core vs Comprehensive TEN-T distinction  
-**Decision:** 60 km (TEN-T Core), 100 km (TEN-T Comprehensive), 120 km (general roads)  
-**Rationale:** 
-- AFIR compliance requires tiered approach
-- 120 km general = 255 km effective range ÷ 2.1 safety factor
-- More conservative than original 150 km
-**Impact:** Increases minimum station count but improves coverage quality
-
-### Decision: BEV-Only Demand Modeling
-**Context:** Fleet composition analysis (assumption A4)  
-**Decision:** Apply highway charging demand only to BEV portion (~60% of fleet)  
-**Rationale:** PHEVs use ICE on long trips, don't need DC fast charging  
-**Impact:** Reduces effective demand base by ~40% vs naive total-fleet approach
-
-### Decision: Agent Memory System Architecture
-**Context:** Multi-agent coordination needs  
-**Decision:** Shared `memory/` directory with structured markdown files, CLAUDE.md auto-loaded  
-**Rationale:**
-- Single source of truth across all agents
-- Git-tracked for audit trail
-- Human-readable format
-- Works with both Claude and non-Claude agents
-**Impact:** Enables coordinated agent work across team
+**Rationale:** Sequential greedy naturally produces a "deployment sequence" narrative useful for the pitch. It also respects residual demand updates after each station placement. Scoring: `V_i = n_chargers_needed × gap_length_km`.
 
 ---
 
-## 2026-03-16
+## 2026-04-06 — AFIR Three-Tier Spacing
 
-### Decision: Revised Assumptions Based on Research
-**Context:** Initial assumptions needed validation against official sources  
-**Decision:** Updated 8 assumptions, added 5 new ones (see `references/assumptions.md`)  
-**Key changes:**
-- Charging probability: 7% → 12% (interurban-specific)
-- Max spacing: 150 km → 120 km (tighter safety factor)  
-- Min chargers TEN-T: 2 → 4 (AFIR compliance)
-- Grid reality: 87% of substations are Congested (authentic constraint)
-**Rationale:** IEA Global EV Outlook 2025, AFIR regulation text, actual grid data analysis  
-**Impact:** More realistic demand model, tighter optimization, grid-focused narrative
+**Decision:** Use legally binding AFIR tiered spacing: TEN-T Core 60 km, TEN-T Comprehensive 100 km, General interurban 120 km.
+
+**Rationale:** Single flat threshold was not AFIR-compliant. The brief requires AFIR compliance.
 
 ---
 
-## Key Pending Decisions
+## 2026-04-06 — Constants Correction
 
-*To be resolved at team meeting Mar 18:*
+**Decision:** Corrected 8 values in `src/constants.py` that diverged from `references/assumptions.md`.
 
-### Team Role Assignments
-**Context:** 6 team members need clear work allocation  
-**Options:** Functional (data/model/viz) vs end-to-end ownership  
-**Decision date:** Mar 18 team meeting
+| Parameter | Old | New | Source |
+|---|---|---|---|
+| CHARGING_PROBABILITY | 0.07 | 0.12 | B1 |
+| AVG_CHARGE_DURATION_HOURS | 0.4 | 0.37 | B2 |
+| EFFECTIVE_OPERATING_HOURS | 18 | 20 | B3 |
+| AVG_EV_RANGE_KM | 300 | 340 | A1 |
+| USABLE_RANGE_FACTOR | 0.80 | 0.75 | A2 |
+| EFFECTIVE_RANGE_KM | 240 | 255 | = 340×0.75 |
+| MAX_STATION_SPACING_KM | 150 | 120 | C1 |
 
-### Development Environment 
-**Context:** Local Jupyter vs Google Colab for submission  
-**Status:** Need team preference and compatibility check  
-**Decision date:** Mar 18 team meeting
+---
 
-### Report Language
-**Context:** Analytical report could be Spanish, English, or bilingual  
-**Status:** Need team/jury preference clarification  
-**Decision date:** Mar 18 team meeting
+## 2026-04-06 — Grid Saturation is Real
+
+**Decision:** Treat 86.2% substation saturation (0 MW available) as authentic data, not errors.
+
+**Rationale:** Consistent across all 3 DSOs (i-DE 92%, Endesa 81%, Viesgo 64%). This is Spain's actual grid constraint. All stations at 0 MW capacity substations are classified as Congested → friction points. This is the central strategic finding.

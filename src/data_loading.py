@@ -6,6 +6,7 @@ import pandas as pd
 import geopandas as gpd
 from pathlib import Path
 from pyproj import Transformer
+from shapely import wkb
 
 DATA_RAW = Path(__file__).parent.parent / 'data' / 'raw'
 DATA_PROCESSED = Path(__file__).parent.parent / 'data' / 'processed'
@@ -65,10 +66,34 @@ def load_road_network(filepath=None):
     """Load Ministry of Transport road network GeoJSON."""
     if filepath is None:
         filepath = DATA_RAW / 'ministry_roads' / 'hermes_roads.parquet'
-    gdf = gpd.read_parquet(filepath)
-    if gdf.crs is None:
-        gdf = gdf.set_crs(epsg=4326)
-    return gdf
+    return load_geo_parquet_compat(filepath)
+
+
+def load_geo_parquet_compat(filepath):
+    """
+    Load a GeoParquet file with a compatibility fallback for the project's road
+    datasets, which can fail under pyarrow/geopandas with
+    `Repetition level histogram size mismatch`.
+    """
+    path = Path(filepath)
+
+    try:
+        gdf = gpd.read_parquet(path)
+        if gdf.crs is None:
+            gdf = gdf.set_crs(epsg=4326)
+        return gdf
+    except OSError as err:
+        if 'Repetition level histogram size mismatch' not in str(err):
+            raise
+
+    df = pd.read_parquet(path, engine='fastparquet')
+    if 'geometry' not in df.columns:
+        raise ValueError(f"{path} does not contain a geometry column")
+
+    geometry = df['geometry'].apply(
+        lambda value: None if value is None or (isinstance(value, bytes) and value == b'') else wkb.loads(value)
+    )
+    return gpd.GeoDataFrame(df.drop(columns=['geometry']), geometry=geometry, crs='EPSG:4326')
 
 
 def load_nap_charging_points(filepath=None):
@@ -275,6 +300,14 @@ def load_ev_forecast(filepath=None):
     parquet_files = sorted(path_obj.glob('*.parquet'))
 
     if not parquet_files:
+        # Fallback: load from already-processed monthly registrations CSV
+        fallback = DATA_PROCESSED / 'ev_monthly_registrations.csv'
+        if fallback.exists():
+            print(f"Warning: No .parquet files in {path_obj.name}/. Loading from processed CSV fallback.")
+            df = pd.read_csv(fallback, parse_dates=['date'])
+            if 'year_month' not in df.columns:
+                df['year_month'] = df['date'].dt.strftime('%Y_%m')
+            return df[['year_month', 'ev_registrations', 'date']]
         print(f"Warning: No .parquet files found in {path_obj.absolute()}")
         return pd.DataFrame(columns=['year_month', 'ev_registrations', 'date'])
 

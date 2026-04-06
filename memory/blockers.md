@@ -1,97 +1,27 @@
-# Current Blockers
+# Blockers
 
-**Last updated:** 2026-03-17  
-**Updated by:** Claude agent  
+## Active Blockers
 
----
-
-## 🚨 High Priority Blockers
-
-### Blocker #1: Outdated Constants File
-**Issue:** `src/constants.py` contains placeholder values, not approved assumptions  
-**Impact:** NB 06-08 will fail or produce wrong results  
-**Blocked tasks:** All demand modeling, optimization, grid analysis  
-**Resolution:** Update constants.py with values from `references/assumptions.md`  
-**Owner:** TBD (team meeting)  
-**Est. fix time:** 1 hour  
-
-### Blocker #2: Missing Rutas por Carretera Data
-**Issue:** No segment-level traffic flow data downloaded  
-**Impact:** Cannot build demand model (NB 06)  
-**Blocked tasks:** All modeling work, optimization, outputs  
-**Resolution:** Create and run `scripts/download_rutas.py`  
-**Dependencies:** Need script framework (#4 in roadmap)  
-**Owner:** TBD (team meeting)  
-**Est. fix time:** 3-4 hours total  
-
-### Blocker #3: Team Role Assignments Pending
-**Issue:** No clear ownership of tasks, potential work conflicts  
-**Impact:** Cannot start parallel execution, unclear accountability  
-**Resolution:** Mar 18 team meeting to assign roles  
-**Deadline:** Mar 18  
+- `notebooks/03_road_network_analysis.ipynb` is malformed JSON and cannot be opened reliably in notebook tooling.
+- Several `src/` modules and notebooks still reference pre-refactor constant names that no longer exist in `src/constants.py` (for example `EV_FLEET_2027`, `BEV_FRACTION`, `MIN_CHARGERS_STANDARD`, `MIN_EXISTING_CHARGER_POWER_KW`, `SUBSTATION_DIST_OPTIMAL_KM`).
+- The repo contains placeholder submission outputs (`output/File_1.csv`–`File_3.csv`) but no populated NB06–NB10 outputs yet.
+- `visualization/bi_map.html` is referenced by docs, but has not been generated.
+- `notebooks/test.ipynb` is still present as an exploratory notebook and may not belong in the final submission set.
 
 ---
 
-## 🔶 Medium Priority Blockers
+## Resolved Blockers
 
-### Blocker #4: Incomplete Pipeline Execution
-**Issue:** NB 02-05 written but never executed  
-**Impact:** Missing processed datasets for modeling  
-**Blocked tasks:** Demand model needs processed road/IMD data  
-**Dependencies:** Constants file update (#1)  
-**Est. fix time:** 2-3 hours  
+### [RESOLVED] NotebookEdit insertion order
 
-### Blocker #5: Incomplete Source Code
-**Issue:** `src/geo_utils.py` and `src/optimization.py` have NotImplementedError stubs  
-**Impact:** Cannot run NB 07-08  
-**Resolution:** Implement missing functions (BallTree, Set Cover LP)  
-**Est. fix time:** 6-8 hours  
+**Issue:** When using `NotebookEdit` with `edit_mode=insert`, inserting multiple cells after the same cell_id causes them to appear in reverse order (each new cell is inserted immediately after the anchor, pushing previous inserts down).
+
+**Fix:** Always insert in sequential order: write cell N+1 → read to find its new ID → insert N+2 after that new ID. Or: write entire notebook as raw JSON using the `Write` tool for complex multi-cell implementations.
 
 ---
 
-## 🔵 Low Priority Blockers
+### [RESOLVED] constants.py drift from assumptions.md
 
-### Blocker #6: Additional Data Sources Not Acquired
-**Issue:** Missing elevation, weather, cross-border traffic data  
-**Impact:** Less rich analysis, but not critical for core deliverables  
-**Resolution:** Research and download during M1 phase  
-**Est. fix time:** 4 hours  
+**Issue:** 8 parameters in `src/constants.py` had incorrect values that diverged from `references/assumptions.md`. All downstream notebooks inherited wrong calculations.
 
-### Blocker #7: No Coding Standards Established
-**Issue:** No shared code style, potential inconsistency across team  
-**Impact:** Code review friction, integration issues  
-**Resolution:** Create `.claude/rules/` standards  
-**Est. fix time:** 1 hour  
-
----
-
-## 🟢 Resolved Blockers
-
-### ✅ Data Structure Understanding (Resolved 2026-03-17)
-**Issue:** Unclear how Rutas por Carretera files relate and join  
-**Resolution:** Explored Ministry API, confirmed file formats and relationships  
-**Result:** Clear data ingestion plan for NB 06  
-
-### ✅ Assumption Uncertainty (Resolved 2026-03-16)
-**Issue:** Many project parameters were placeholder values  
-**Resolution:** Comprehensive research against official sources  
-**Result:** 20 assumptions documented with sources in `references/assumptions.md`  
-
----
-
-## Escalation Path
-
-**For immediate blockers (#1-3):**
-1. Raise in team meeting Mar 18
-2. Assign owner with clear deadline
-3. Check resolution in next standup
-
-**For technical issues:**
-1. Document in this file with specifics
-2. Tag relevant team member
-3. Add to sprint retrospective if pattern
-
-**For external dependencies:**
-1. Identify alternative approach
-2. Document risk in `memory/project_state.md`
-3. Escalate to team lead if timeline impact
+**Fix:** Corrected all 8 values + added 15 new constants. Execute constants fix before any notebook work.

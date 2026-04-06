@@ -1,67 +1,32 @@
 # Task Board
 
-**Last updated:** 2026-03-17  
-**Updated by:** Claude agent  
+**Last updated:** 2026-04-06
 
----
+## Done
 
-## 🔄 In Progress
+- [x] Analyze competitor ABM/sequential papers and apply methodology to our scenario
+- [x] Fix `src/constants.py` — 8 corrections + 15 new constants aligned with `references/assumptions.md`
+- [x] Create `src/abm_demand.py` — parsimonious ABM behavioral demand module
+- [x] Update `src/optimization.py` — implement `compute_coverage_gaps()` + `place_stations_greedy()`
+- [x] Implement `src/geo_utils.py` stubs — `find_nearest_substation()` + `snap_point_to_road()`
+- [x] Draft NB06 — Demand Modeling (ABM notebook content present)
+- [x] Draft NB07 — Network Optimization notebook content present
+- [x] Draft NB08 — Grid Viability & Friction Points notebook content present
+- [x] Draft NB09 — Output Generation notebook content present
+- [x] Draft NB10 — Visualization Export notebook content present
+- [x] Add auxiliary split-track notebooks `06a`–`06d` and `07b`
+- [x] Create memory/ infrastructure
 
-| Task | Assignee | Started | Est. Complete | Notes |
-|------|----------|---------|---------------|-------|
-| Create memory system | Claude agent | 2026-03-17 | 2026-03-17 | CLAUDE.md + memory/ structure |
+## In Progress
 
----
+_(none)_
 
-## 📋 To Do (Ready)
+## Pending
 
-| Task | Priority | Estimated Hours | Blocks | Notes |
-|------|----------|----------------|--------|-------|
-| Create `.claude/rules/` coding standards | Medium | 1h | Code quality | Agent workflow standards |
-| Update `src/constants.py` with approved values | **High** | 1h | NB 06-08 | From assumptions.md |
-| Create `scripts/download_rutas.py` framework | **High** | 1h | All data work | Scaffold for Rutas download |
-| Team meeting — assign roles | **High** | 2h | Parallel execution | Mar 18 meeting |
-
----
-
-## ⏳ Blocked (Waiting for Dependencies)
-
-| Task | Blocked By | Est. Hours | Notes |
-|------|------------|------------|-------|
-| Download Rutas por Carretera data | `download_rutas.py` script | 3h | ~300 MB download |
-| Execute NB 02-05 pipeline | Updated `constants.py` | 8h | Run existing notebooks |
-| Build demand model (NB 06) | Rutas data + constants | 12h | Core modeling work |
-| Build optimization (NB 07) | Demand model output | 15h | Set Cover LP |
-| Grid viability analysis (NB 08) | Optimization output | 8h | Friction points |
-| Generate outputs (NB 09-10) | All modeling complete | 12h | Final deliverables |
-
----
-
-## ✅ Completed
-
-| Task | Completed | Duration | Notes |
-|------|-----------|----------|-------|
-| Research all assumptions | 2026-03-16 | 6h | 20 assumptions documented |
-| Understand Rutas data structure | 2026-03-17 | 2h | File formats confirmed |
-| Create GitHub roadmap | 2026-03-17 | 3h | 39 issues structured |
-| Create acronym glossary | 2026-03-17 | 1h | 49 terms defined |
-
----
-
-## 🚫 Cancelled
-
-*None*
-
----
-
-## Team Assignment Status
-
-**Not yet assigned** — awaiting Mar 18 team meeting.
-
-Proposed areas:
-- **Data engineering** — download scripts, pipeline execution
-- **Demand modeling** — NB 06, statistical analysis  
-- **Optimization** — NB 07, LP formulation
-- **Grid analysis** — NB 08, spatial analysis
-- **Visualization** — NB 10, Folium mapping
-- **Communication** — report writing, presentation
+- [ ] Fix notebook/module imports that still reference stale `src.constants.py` names after the constants refactor
+- [ ] Repair `notebooks/03_road_network_analysis.ipynb` — file is malformed JSON
+- [ ] Run NB04–NB10 and verify outputs are populated instead of header-only placeholders
+- [ ] Decide whether to keep or remove `notebooks/test.ipynb` exploratory notebook
+- [ ] Run NB06–NB10 end-to-end and verify all output files
+- [ ] Write `report/analytical_report.pdf` (3–5 page executive summary)
+- [ ] Create `presentation/pitch.pdf` (max 5-min pitch deck)
