@@ -6,6 +6,7 @@ import pandas as pd
 import geopandas as gpd
 from pathlib import Path
 from pyproj import Transformer
+from shapely import wkb
 
 DATA_RAW = Path(__file__).parent.parent / 'data' / 'raw'
 DATA_PROCESSED = Path(__file__).parent.parent / 'data' / 'processed'
@@ -65,10 +66,34 @@ def load_road_network(filepath=None):
     """Load Ministry of Transport road network GeoJSON."""
     if filepath is None:
         filepath = DATA_RAW / 'ministry_roads' / 'hermes_roads.parquet'
-    gdf = gpd.read_parquet(filepath)
-    if gdf.crs is None:
-        gdf = gdf.set_crs(epsg=4326)
-    return gdf
+    return load_geo_parquet_compat(filepath)
+
+
+def load_geo_parquet_compat(filepath):
+    """
+    Load a GeoParquet file with a compatibility fallback for the project's road
+    datasets, which can fail under pyarrow/geopandas with
+    `Repetition level histogram size mismatch`.
+    """
+    path = Path(filepath)
+
+    try:
+        gdf = gpd.read_parquet(path)
+        if gdf.crs is None:
+            gdf = gdf.set_crs(epsg=4326)
+        return gdf
+    except OSError as err:
+        if 'Repetition level histogram size mismatch' not in str(err):
+            raise
+
+    df = pd.read_parquet(path, engine='fastparquet')
+    if 'geometry' not in df.columns:
+        raise ValueError(f"{path} does not contain a geometry column")
+
+    geometry = df['geometry'].apply(
+        lambda value: None if value is None or (isinstance(value, bytes) and value == b'') else wkb.loads(value)
+    )
+    return gpd.GeoDataFrame(df.drop(columns=['geometry']), geometry=geometry, crs='EPSG:4326')
 
 
 def load_nap_charging_points(filepath=None):
