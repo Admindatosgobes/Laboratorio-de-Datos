@@ -1,5 +1,13 @@
 # Decisions Log
 
+## 2026-04-06 — Adopted Split-Track Notebook Scaffolds Selectively
+
+**Decision:** Keep the existing integrated `06`–`10` notebooks on `main`, but add the teammate's split-track scaffolds (`06a`–`06d`, `07b`) as auxiliary planning notebooks instead of replacing current files.
+
+**Rationale:** The teammate's `phase1-notebook-scaffolds` branch adds a useful work-division pattern for deterministic vs ABM development, but it assumes an earlier repo state where `src/geo_utils.py`, `src/optimization.py`, and most notebook logic were still stubs. Replacing current notebooks or memory files would regress a more advanced local state.
+
+**Impact:** Team can use the extra notebook split for parallel work without losing the more advanced implementations already present on `main`.
+
 ## 2026-04-06 — ABM Methodology Adaptation
 
 **Decision:** Use parsimonious ABM (statistical behavioral model) rather than full individual-vehicle simulation.
