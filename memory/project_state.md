@@ -1,7 +1,7 @@
 # Project State
 
 **Last updated:** 2026-04-07
-**Status:** Pipeline mid-execution. Setup phase complete; core data prep notebooks running. NB05–NB10 still pending.
+**Status:** NB05 and NB06 executed. Auxiliary demand series 06a–06d fully implemented on branch `feat/auxiliary-demand-notebooks`.
 
 ## What is done
 
@@ -24,8 +24,12 @@
 
 | Component | Status | Notes |
 |---|---|---|
-| `05_grid_capacity_consolidation.ipynb` | ⏳ Next | Pending execution |
-| `06_demand_modeling.ipynb` | ⏳ Pending | Depends on NB03 ✅ + NB02 ✅ |
+| `05_grid_capacity_consolidation.ipynb` | ✅ Executed | `grid_consolidated.csv` — 2,137 substations |
+| `06_demand_modeling.ipynb` | ✅ Executed | `demand_per_segment.csv` — 1,295 rows, chargers [2,12] |
+| `06a_demand_deterministic.ipynb` | ✅ Implemented | Lower-bound annual-avg model; outputs `demand_per_segment_deterministic.csv` |
+| `06b_abm_calibration.ipynb` | ✅ Implemented | B1 sensitivity, SOC heatmap, seasonal sweep; outputs `abm_calibration_summary.csv` |
+| `06c_abm_demand_simulation.ipynb` | ✅ Implemented | Monte Carlo 2,000 agents/segment; outputs `demand_per_segment_stochastic.csv` |
+| `06d_demand_reconciliation.ipynb` | ✅ Implemented | Three-way comparison, NB06 formally designated authoritative; outputs `demand_reconciliation_report.csv` |
 | `07_network_optimization.ipynb` | ⏳ Pending | Depends on NB04 ✅ + NB06 |
 | `08_grid_viability_friction.ipynb` | ⏳ Pending | Depends on NB05 + NB07 |
 | `09_output_generation.ipynb` | ⏳ Pending | Depends on NB08 |

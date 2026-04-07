@@ -1,6 +1,6 @@
 # Task Board
 
-**Last updated:** 2026-04-07
+**Last updated:** 2026-04-07 (rev 2)
 
 ## Done
 
@@ -19,6 +19,12 @@
 - [x] Draft NB09 — Output Generation notebook content present
 - [x] Draft NB10 — Visualization Export notebook content present
 - [x] Add auxiliary split-track notebooks `06a`–`06d` and `07b`
+- [x] Run NB05 — Grid Capacity Consolidation ✅
+- [x] Run NB06 — Demand Modeling ✅
+- [x] Implement 06a — Deterministic demand baseline (annual average, lower bound)
+- [x] Implement 06b — ABM calibration & sensitivity analysis (B1, SOC, seasonal)
+- [x] Implement 06c — Monte Carlo ABM simulation (2,000 agents/segment, stochastic cross-check)
+- [x] Implement 06d — Demand reconciliation (three-way comparison, NB06 designated authoritative)
 - [x] Create memory/ infrastructure
 
 ## In Progress
@@ -27,10 +33,8 @@ _(none)_
 
 ## Pending — critical path
 
-- [ ] Run NB05 — Grid Capacity Consolidation (independent, can run anytime)
-- [ ] Run NB06 — Demand Modeling (needs NB03 ✅)
-- [ ] Run NB07 — Network Optimization (needs NB04 ✅ + NB06)
-- [ ] Run NB08 — Grid Viability & Friction Points (needs NB05 + NB07)
+- [ ] Run NB07 — Network Optimization (needs NB04 ✅ + NB06 ✅)
+- [ ] Run NB08 — Grid Viability & Friction Points (needs NB05 ✅ + NB07)
 - [ ] Run NB09 — Output Generation (needs NB08)
 - [ ] Run NB10 — Visualization Export (needs NB09)
 

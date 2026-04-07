@@ -1,5 +1,26 @@
 # Decisions Log
 
+## 2026-04-07 — Auxiliary Demand Series 06a–06d Implemented
+
+**Decision:** Implemented four auxiliary demand notebooks (06a–06d) on branch `feat/auxiliary-demand-notebooks` to document, calibrate, and validate the ABM demand model used in NB06.
+
+**What each notebook does:**
+- **06a** — Deterministic closed-form baseline (annual average, seasonal multiplier = 1.0). Establishes lower bound for charger demand.
+- **06b** — Parameter calibration and sensitivity analysis: B1 sweep (6–18%), SOC parameter heatmap, seasonal multiplier sensitivity. Key finding: B1 = 12% is consistent with SOC distribution; seasonal multiplier is the dominant driver (not ABM parameters).
+- **06c** — Monte Carlo simulation with 2,000 agents per segment (2.59M total agents). Independently converges to ≈12% charging rate, confirming NB06. Stochastic total within ≤3% of NB06.
+- **06d** — Three-way reconciliation, divergence attribution, formal designation of NB06 as authoritative. Seasonal sizing accounts for virtually all 06a→NB06 divergence; MC noise is negligible.
+
+**Outputs generated:**
+- `demand_per_segment_deterministic.csv` — 06a lower bound
+- `abm_calibration_summary.csv` — 06b sensitivity sweep data
+- `demand_per_segment_stochastic.csv` — 06c Monte Carlo output
+- `demand_reconciliation_report.csv` — 06d full comparison table
+- 11 publication-quality figures (PNG)
+
+**Impact:** Triple validation of B1 = 12% (empirical + analytical + stochastic). Team can defend every parameter to judges. NB07 confirmed to use `demand_per_segment.csv` (NB06 output).
+
+---
+
 ## 2026-04-07 — NB06 TEN-T Tier Mapping Fix (Core vs Comprehensive)
 
 **Decision:** Replaced the lossy `roads['tent_tier'] = roads['is_tent'].map({True: 'core', False: 'none'})` in NB06 cell-8 with a reader of NB03's `TENT_red_basica` column that distinguishes `'Core'` (60 km AFIR) from `'Comprehensive'` (100 km AFIR).
