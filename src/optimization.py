@@ -15,14 +15,11 @@ AFIR gaps are closed.
 
 import numpy as np
 import pandas as pd
-import geopandas as gpd
-from shapely.geometry import Point
 
 from src.constants import (
     MAX_STATION_SPACING_KM,
     MAX_STATION_SPACING_TENT_CORE_KM,
     MAX_STATION_SPACING_TENT_COMP_KM,
-    AFIR_SPACING_KM,
     CHARGING_PROBABILITY,
     AVG_CHARGE_DURATION_HOURS,
     EFFECTIVE_OPERATING_HOURS,
@@ -330,13 +327,18 @@ def place_stations_greedy(
         })
         loc_counter += 1
 
-        # Mark all gap segments within spacing_thresh of this station as covered
+        # Mark all gap segments within spacing_thresh of this station as covered.
+        # Correct radius is spacing_thresh (not /2): a station at point A covers
+        # all segments within the AFIR threshold distance, so any gap segment
+        # whose midpoint is ≤ spacing_thresh km from A is now AFIR-compliant
+        # (it has a station within the legally mandated spacing).
+        # Using spacing_thresh/2 was too conservative and over-placed stations.
         station_coord = np.radians([[cand_lat, cand_lon]])
         dists_rad, _ = BallTree(gap_mid_coords, metric='haversine').query(
             station_coord, k=len(gaps)
         )
         dists_km = dists_rad[0] * 6371
-        close_positions = np.where(dists_km <= spacing_thresh / 2)[0]
+        close_positions = np.where(dists_km <= spacing_thresh)[0]
         covered_indices.update(gaps.index[close_positions].tolist())
         # Always mark the selected segment itself
         covered_indices.add(best_idx)

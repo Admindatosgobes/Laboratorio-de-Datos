@@ -1,5 +1,25 @@
 # Decisions Log
 
+## 2026-04-07 — Engineering Review: Bugs Fixed in NB06, NB06a, NB06c, optimization.py
+
+**Decision:** Applied four targeted fixes identified during senior engineering review.
+
+### Fix 1 — NB06c: MAX_TRIP_PROGRESS 0.80 → 0.44 (CRITICAL BUG)
+With `MAX_TRIP_PROGRESS = 0.80`, the simulation produced ~40% charging rate, not 12%. The validation assertion would have **failed on first execution**. Root cause: 0.80 meant drivers could arrive having consumed 204 km of SOC — impossible given AFIR's 60–120 km spacing (they'd have stopped earlier). Fixed to 0.44 (≈112 km), calibrated so P(charge) ≈ 11–13%. Full derivation in `references/abm_calibration_note.md`.
+
+### Fix 2 — optimization.py: coverage radius spacing_thresh/2 → spacing_thresh
+The greedy placer marked covered segments using half the AFIR threshold, causing it to propose more stations than legally required. Fixed to full `spacing_thresh` — consistent with how AFIR compliance is defined.
+
+### Fix 3 — NB06 output enrichment
+Added `imd_total`, `tent_tier`, `length_km` to `demand_per_segment.csv`. NB07's greedy scorer needs `length_km` for `V_i = n_chargers × gap_length_km` scoring and `imd_total` for high-traffic cap decisions.
+
+### Fix 4 — NB06a: hardcoded `assert len(out) == 1295` → `assert len(out) == len(roads)`
+Brittle hardcode replaced with dynamic check.
+
+**Created:** `references/abm_calibration_note.md` — teammate-readable explanation of B1=12% basis and MAX_TRIP_PROGRESS calibration.
+
+---
+
 ## 2026-04-07 — Auxiliary Demand Series 06a–06d Implemented
 
 **Decision:** Implemented four auxiliary demand notebooks (06a–06d) on branch `feat/auxiliary-demand-notebooks` to document, calibrate, and validate the ABM demand model used in NB06.
