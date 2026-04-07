@@ -13,3 +13,5 @@ xlrd>=2.0
 pyproj>=3.6
 rtree>=1.1
 branca>=0.7
+pyarrow>=14.0
+pmdarima>=2.0
