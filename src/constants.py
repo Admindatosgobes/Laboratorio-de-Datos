@@ -66,8 +66,14 @@ EXISTING_CHARGER_ROAD_BUFFER_KM = 2 # Distance from road to count as coverage
 # === SEASONAL MULTIPLIERS (for peak summer on coastal corridors) ===
 SEASONAL_MULTIPLIERS = {
     'default': 1.0,
-    'mediterranean_summer': 2.0,  # AP-7, A-7 Jul-Aug
-    'atlantic_summer': 1.5,       # A-8, AP-9 Jul-Aug
+    # Peak (Jul-Aug worst case) — used by abm_demand.get_seasonal_multiplier(scenario='peak')
+    'mediterranean_peak': 2.5,    # AP-7, A-7 Jul-Aug worst case
+    'atlantic_peak': 1.5,         # A-8, AP-9 Jul-Aug
+    # Shoulder (Jun/Sep)
+    'mediterranean_shoulder': 2.0,
+    # Legacy aliases retained for any older callers
+    'mediterranean_summer': 2.0,
+    'atlantic_summer': 1.5,
 }
 
 # === ROAD CLASSIFICATIONS FOR SEASONAL ADJUSTMENT ===
