@@ -98,92 +98,123 @@ def load_geo_parquet_compat(filepath):
 
 def load_nap_charging_points(filepath=None):
     """
-    Parse NAP EV charging station XML (DATEX II v3) using streaming.
+    Parse NAP EV charging station XML (DATEX II v3) or load parquet.
     Returns a DataFrame with one row per charging site.
+    Populates missing province information via spatial join if needed.
     """
     if filepath is None:
         filepath = DATA_RAW / 'nap_charging_points' / 'nap_ev_charging_points.parquet'
 
-    # If parquet version exists, load directly
+    # 1. Load Data
     if str(filepath).endswith('.parquet'):
-        return pd.read_parquet(filepath)
+        df = pd.read_parquet(filepath)
+    else:
+        # If not parquet, parse XML (logic kept below)
+        from lxml import etree
 
-    from lxml import etree
+        NS = {
+            'egi': 'http://datex2.eu/schema/3/energyInfrastructure',
+            'fac': 'http://datex2.eu/schema/3/facilities',
+            'loc': 'http://datex2.eu/schema/3/locationReferencing',
+            'locx': 'http://datex2.eu/schema/3/locationExtension',
+            'com': 'http://datex2.eu/schema/3/common',
+        }
 
-    NS = {
-        'egi': 'http://datex2.eu/schema/3/energyInfrastructure',
-        'fac': 'http://datex2.eu/schema/3/facilities',
-        'loc': 'http://datex2.eu/schema/3/locationReferencing',
-        'locx': 'http://datex2.eu/schema/3/locationExtension',
-        'com': 'http://datex2.eu/schema/3/common',
+        tag = f'{{{NS["egi"]}}}energyInfrastructureSite'
+        records = []
+
+        for event, elem in etree.iterparse(str(filepath), events=('end',), tag=tag):
+            site_id = elem.get('id', '')
+
+            # Name
+            name_el = elem.find('.//fac:name/com:values/com:value', NS)
+            name = name_el.text if name_el is not None else None
+
+            # Coordinates
+            lat_el = elem.find('.//loc:coordinatesForDisplay/loc:latitude', NS)
+            lon_el = elem.find('.//loc:coordinatesForDisplay/loc:longitude', NS)
+            lat = float(lat_el.text) if lat_el is not None and lat_el.text else None
+            lon = float(lon_el.text) if lon_el is not None and lon_el.text else None
+
+            # Address fields
+            postcode_el = elem.find('.//locx:postcode', NS)
+            postcode = postcode_el.text if postcode_el is not None else None
+
+            municipality = None
+            province = None
+            address = None
+            for addr_line in elem.findall('.//locx:addressLine', NS):
+                order = addr_line.get('order', '')
+                text_el = addr_line.find('.//com:value', NS)
+                if text_el is not None and text_el.text:
+                    txt = text_el.text
+                    if order == '1' and 'Dirección:' in txt:
+                        address = txt.replace('Dirección:', '').strip()
+                    elif order == '2' and 'Municipio:' in txt:
+                        municipality = txt.replace('Municipio:', '').strip()
+                    elif order == '3' and 'Provincia:' in txt:
+                        province = txt.replace('Provincia:', '').strip()
+
+            # Connectors: count and max power
+            connectors = elem.findall('.//egi:connector', NS)
+            n_connectors = len(connectors)
+            max_power_kw = 0.0
+            for conn in connectors:
+                power_el = conn.find('egi:maxPowerAtSocket', NS)
+                if power_el is not None and power_el.text:
+                    try:
+                        power_w = float(power_el.text)
+                        max_power_kw = max(max_power_kw, power_w / 1000.0)
+                    except ValueError:
+                        pass
+
+            records.append({
+                'site_id': site_id,
+                'name': name,
+                'latitude': lat,
+                'longitude': lon,
+                'address': address,
+                'municipality': municipality,
+                'province': province,
+                'postcode': postcode,
+                'n_connectors': n_connectors,
+                'max_power_kw': max_power_kw,
+            })
+
+            elem.clear()
+
+        df = pd.DataFrame(records)
+
+    # 2. Normalize and Clean
+    # Handle older parquet schema if present
+    rename_cols = {
+        'num_connectors': 'n_connectors',
+        'address_postcode': 'postcode',
+        'address_addressLine': 'address'
     }
+    df = df.rename(columns={k: v for k, v in rename_cols.items() if k in df.columns})
 
-    tag = f'{{{NS["egi"]}}}energyInfrastructureSite'
-    records = []
-
-    for event, elem in etree.iterparse(str(filepath), events=('end',), tag=tag):
-        site_id = elem.get('id', '')
-
-        # Name
-        name_el = elem.find('.//fac:name/com:values/com:value', NS)
-        name = name_el.text if name_el is not None else None
-
-        # Coordinates
-        lat_el = elem.find('.//loc:coordinatesForDisplay/loc:latitude', NS)
-        lon_el = elem.find('.//loc:coordinatesForDisplay/loc:longitude', NS)
-        lat = float(lat_el.text) if lat_el is not None and lat_el.text else None
-        lon = float(lon_el.text) if lon_el is not None and lon_el.text else None
-
-        # Address fields
-        postcode_el = elem.find('.//locx:postcode', NS)
-        postcode = postcode_el.text if postcode_el is not None else None
-
-        municipality = None
-        province = None
-        address = None
-        for addr_line in elem.findall('.//locx:addressLine', NS):
-            order = addr_line.get('order', '')
-            text_el = addr_line.find('.//com:value', NS)
-            if text_el is not None and text_el.text:
-                txt = text_el.text
-                if order == '1' and 'Dirección:' in txt:
-                    address = txt.replace('Dirección:', '').strip()
-                elif order == '2' and 'Municipio:' in txt:
-                    municipality = txt.replace('Municipio:', '').strip()
-                elif order == '3' and 'Provincia:' in txt:
-                    province = txt.replace('Provincia:', '').strip()
-
-        # Connectors: count and max power
-        connectors = elem.findall('.//egi:connector', NS)
-        n_connectors = len(connectors)
-        max_power_kw = 0.0
-        for conn in connectors:
-            power_el = conn.find('egi:maxPowerAtSocket', NS)
-            if power_el is not None and power_el.text:
-                try:
-                    power_w = float(power_el.text)
-                    max_power_kw = max(max_power_kw, power_w / 1000.0)
-                except ValueError:
-                    pass
-
-        records.append({
-            'site_id': site_id,
-            'name': name,
-            'latitude': lat,
-            'longitude': lon,
-            'address': address,
-            'municipality': municipality,
-            'province': province,
-            'postcode': postcode,
-            'n_connectors': n_connectors,
-            'max_power_kw': max_power_kw,
-        })
-
-        elem.clear()
-
-    df = pd.DataFrame(records)
     # Drop rows without coordinates
     df = df.dropna(subset=['latitude', 'longitude'])
+
+    # 3. Add Province Feature if missing/null (Spatial Join)
+    if 'province' not in df.columns or df['province'].isna().all():
+        try:
+            provinces_gdf = load_provinces()
+            # Convert chargers to GeoDataFrame
+            points_gdf = gpd.GeoDataFrame(
+                df,
+                geometry=gpd.points_from_xy(df.longitude, df.latitude),
+                crs="EPSG:4326"
+            )
+            # Spatial join to get 'name' from provinces
+            joined = gpd.sjoin(points_gdf, provinces_gdf[['name', 'geometry']], how='left', predicate='within')
+            df['province'] = joined['name_right']
+        except Exception as e:
+            print(f"Warning: Could not populate provinces via spatial join: {e}")
+            if 'province' not in df.columns:
+                df['province'] = None
+
     return df
 
 
