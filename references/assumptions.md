@@ -247,13 +247,15 @@ Previous placeholder values are superseded by the entries below.
 - **Justification:** Less than 1 MW cannot reliably power even a single 150 kW charger
   after accounting for load diversity factor and power factor correction. Full grid
   reinforcement is required before any station deployment at such locations.
-  Critical finding from repo data analysis: 86.2% of the 4,990 substation records in
-  `grid_capacity_unified.csv` show exactly 0.000 MW available capacity, and 87.2% are
-  Congested in total. This is not a data error — it reflects the authentic current
-  saturation of Spain's distribution network. This is the central strategic insight
-  of the project and the foundation of the friction point analysis.
-  By distributor: i-DE (Iberdrola's own DSO) = 92% Congested; Endesa = 81% Congested;
-  Viesgo = 64% Congested.
+  Critical finding from repo data analysis: 80.6% of the 2,137 unique physical
+  substations in `grid_consolidated.csv` show 0 MW available capacity, and 85.9% are
+  Congested or Moderate (friction points) in total. The raw `grid_capacity_unified.csv`
+  contains 4,990 records (one per voltage tap) which collapse to 2,137 substations after
+  deduplication by name + coordinates — always cite the 2,137 figure for physical
+  infrastructure claims. This is not a data error: it reflects the authentic current
+  saturation of Spain's distribution network and is the central strategic insight of
+  the project. By distributor: i-DE = 88% Congested; Endesa = 78% Congested;
+  Viesgo = 48% Congested (small sample, n=95).
 - **Impact on model:** grid_status = "Congested" in File_2 and File_3 (friction point).
   These are Phase 3 sites requiring major grid investment. They represent the majority
   of Spain's interurban highway network — Iberdrola's core business opportunity.
@@ -444,8 +446,9 @@ Previous placeholder values are superseded by the entries below.
 
 - **Value used:** 0.000 MW available capacity entries are treated as "fully subscribed —
   no headroom available at time of publication", not as data errors or missing values.
-- **Justification:** 86.2% of the 4,990 substation records in grid_capacity_unified.csv
-  show exactly 0.000 MW available capacity. This is consistent across all three DSOs
+- **Justification:** 80.6% of the 2,137 unique physical substations in
+  `grid_consolidated.csv` show exactly 0.000 MW available capacity (collapsed from
+  4,990 raw voltage-tap records in `grid_capacity_unified.csv`). This is consistent across all three DSOs
   (i-DE, Endesa, Viesgo) and reflects the authentic published state of Spain's
   distribution network as of early 2026. DSO capacity publications by regulation must
   accurately reflect available access capacity; a systematic error of this magnitude

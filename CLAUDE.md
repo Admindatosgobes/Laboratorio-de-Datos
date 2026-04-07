@@ -80,7 +80,9 @@ Notebooks 06–10 are stubs awaiting implementation. Notebooks 01–05 are fully
 
 ## Critical Domain Knowledge & Key Parameters
 
-**Grid saturation is real, not a data error:** 86.2% of 4,990 substations show 0 MW available capacity. By DSO: i-DE 92%, Endesa 81%, Viesgo 64%. This is the central strategic insight.
+**Grid saturation is real, not a data error:** ~80% of 2,137 unique substations are congested (1,835 friction points). By DSO: i-DE 88%, Endesa 78%, Viesgo 24%. This is the central strategic insight.
+
+> **Note on counts:** `grid_capacity_unified.csv` contains 4,990 raw records (one per voltage level — many substations have 2-8 voltage taps that share location and capacity). `grid_consolidated.csv` deduplicates these to 2,137 physical substations. Always cite the 2,137 figure in deliverables.
 
 **AFIR spacing rules (legally binding):**
 - TEN-T Core corridors → 60 km max spacing

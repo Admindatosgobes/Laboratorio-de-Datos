@@ -72,6 +72,24 @@
 
 ## 2026-04-06 — Grid Saturation is Real
 
-**Decision:** Treat 86.2% substation saturation (0 MW available) as authentic data, not errors.
+**Decision:** Treat substation saturation (0 MW available) as authentic data, not errors.
 
-**Rationale:** Consistent across all 3 DSOs (i-DE 92%, Endesa 81%, Viesgo 64%). This is Spain's actual grid constraint. All stations at 0 MW capacity substations are classified as Congested → friction points. This is the central strategic finding.
+**Rationale:** Consistent across all 3 DSOs. This is Spain's actual grid constraint. All stations at 0 MW capacity substations are classified as Congested → friction points. This is the central strategic finding.
+
+**Updated 2026-04-07 with corrected counts (see decision below):** ~80% of 2,137 unique substations are congested. By DSO: i-DE 88%, Endesa 78%, Viesgo 48% (n=95).
+
+---
+
+## 2026-04-07 — Substation Count Correction (4,990 records → 2,137 substations)
+
+**Decision:** Always cite **2,137 unique substations** (from `grid_consolidated.csv`) as the physical infrastructure count, not the 4,990 records in `grid_capacity_unified.csv`.
+
+**Rationale:** Investigation found that DSO source files report each voltage level (e.g., 66 kV → 25 kV → 15 kV transformer banks) as a separate row, but they share the same coordinates and the same `available_capacity_mw` (capacity is per substation, not per voltage tap). NB05 correctly deduplicates by `(DSO, substation_name, location)`, collapsing 4,990 records into 2,137 physical substations. Saying "86.2% of 4,990 substations" double-counts and would be caught by judges with grid engineering knowledge.
+
+**Corrected figures:**
+- 2,137 unique physical substations (was 4,990 records)
+- 80.6% have 0 MW available (was 86.2% of records)
+- 85.9% are friction points (Congested or Moderate)
+- Per DSO: i-DE 88% (was 92%), Endesa 78% (was 81%), Viesgo 48% (was 64%)
+
+**Impact:** Updated `CLAUDE.md`, `references/assumptions.md` (D3 + G1), and this log. All downstream notebooks and the report should use the 2,137 figure.
