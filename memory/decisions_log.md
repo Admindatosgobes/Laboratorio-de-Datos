@@ -1,5 +1,21 @@
 # Decisions Log
 
+## 2026-04-08 — Road-Following Distance Refactor in optimization.py + NB07
+
+**Decision:** Replaced all birds-eye (haversine) distance calculations in `src/optimization.py` with road-following linear-referencing, making it consistent with NB04's methodology throughout the pipeline.
+
+**What changed:**
+- `compute_coverage_gaps()` — complete rewrite. Now groups segments by `Carretera`, merges route geometries with `linemerge/unary_union` in UTM, projects fast chargers with `.project()`, walks consecutive positions, flags stretches > AFIR threshold. Returns GeoDataFrame of gap *records* (one per contiguous uncovered stretch) with `gap_start_km`, `gap_end_km`, `gap_length_km`, `gap_mid_lat/lon`, `tent_tier`, `gap_spacing_threshold_km`, `segment_id` (representative nearest segment).
+- `place_stations_greedy()` — coverage marking updated. Primary: along-route range check using `gap_start_km`/`gap_end_km` vs `station_pos_km ± spacing_thresh` for same-Carretera gaps. Secondary: 2 km haversine BallTree for cross-route coverage at intersections.
+- NB07 cell-6 diagnostic updated to print route-level gap stats (routes with gaps, gap stretches by tier, top-10 longest gaps).
+- `find_nearest_substation()` in `geo_utils.py` — haversine kept intentionally, added docstring note explaining why (grid cable routing ≠ road routing).
+
+**Rationale:** AFIR spacing rules are defined *along the route* ("max X km between chargers on this corridor"). Haversine from a segment centroid to the nearest charger asks the wrong question — a 15 km segment always passes because some charger is nearby, even if the route has a 150 km uncovered stretch. NB04 already used the correct approach; this change propagates it to the optimization layer.
+
+**Impact:** `compute_coverage_gaps()` output changes from segment-level rows (many) to gap-record rows (~39, matching NB04). NB07 placement will now propose stations only where AFIR compliance actually requires them, measured along the road. NB08 onwards unchanged (same `proposed_stations.csv` schema).
+
+---
+
 ## 2026-04-07 — Engineering Review: Bugs Fixed in NB06, NB06a, NB06c, optimization.py
 
 **Decision:** Applied four targeted fixes identified during senior engineering review.

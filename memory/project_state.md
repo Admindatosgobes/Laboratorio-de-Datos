@@ -1,7 +1,7 @@
 # Project State
 
-**Last updated:** 2026-04-07
-**Status:** NB05 and NB06 executed. Auxiliary demand series 06a–06d fully implemented on branch `feat/auxiliary-demand-notebooks`.
+**Last updated:** 2026-04-08
+**Status:** NB01–NB06 all executed. Auxiliary demand series 06a–06d fully implemented. `src/optimization.py` refactored to road-following distance. NB07 ready to run.
 
 ## What is done
 
@@ -13,7 +13,7 @@
 | `src/grid_analysis.py` | ✅ Done | — |
 | `src/geo_utils.py` | ✅ Done | `find_nearest_substation()` + `snap_point_to_road()` implemented |
 | `src/abm_demand.py` | ✅ Done | Parsimonious ABM behavioral demand module |
-| `src/optimization.py` | ✅ Done | `compute_coverage_gaps()` + `place_stations_greedy()` implemented |
+| `src/optimization.py` | ✅ Done | **Refactored 2026-04-08**: both functions now use road-following linear referencing (same as NB04), not haversine. `compute_coverage_gaps()` returns gap records with `gap_start_km`, `gap_end_km`, `gap_mid_lat/lon`. `place_stations_greedy()` marks coverage along-route first, haversine 2 km secondary for intersections. |
 | `00_environment_setup.ipynb` | ✅ Executed | — |
 | `01_data_ingestion_and_cleaning.ipynb` | ✅ Executed | All processed datasets generated |
 | `02_ev_projection_fork.ipynb` | ✅ Executed | SARIMA → 2,498,159 EVs by 2027 |
@@ -30,7 +30,7 @@
 | `06b_abm_calibration.ipynb` | ✅ Implemented | B1 sensitivity, SOC heatmap, seasonal sweep; outputs `abm_calibration_summary.csv` |
 | `06c_abm_demand_simulation.ipynb` | ✅ Implemented | Monte Carlo 2,000 agents/segment; outputs `demand_per_segment_stochastic.csv` |
 | `06d_demand_reconciliation.ipynb` | ✅ Implemented | Three-way comparison, NB06 formally designated authoritative; outputs `demand_reconciliation_report.csv` |
-| `07_network_optimization.ipynb` | ⏳ Pending | Depends on NB04 ✅ + NB06 |
+| `07_network_optimization.ipynb` | ▶️ Ready to run | All dependencies met (NB04 ✅ + NB06 ✅). Cell-6 diagnostic updated for road-following gap record format. |
 | `08_grid_viability_friction.ipynb` | ⏳ Pending | Depends on NB05 + NB07 |
 | `09_output_generation.ipynb` | ⏳ Pending | Depends on NB08 |
 | `10_visualization_export.ipynb` | ⏳ Pending | Depends on NB09 |

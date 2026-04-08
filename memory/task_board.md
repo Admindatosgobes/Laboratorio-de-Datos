@@ -1,6 +1,6 @@
 # Task Board
 
-**Last updated:** 2026-04-07 (rev 2)
+**Last updated:** 2026-04-08 (rev 3)
 
 ## Done
 
@@ -26,6 +26,7 @@
 - [x] Implement 06c — Monte Carlo ABM simulation (2,000 agents/segment, stochastic cross-check)
 - [x] Implement 06d — Demand reconciliation (three-way comparison, NB06 designated authoritative)
 - [x] Create memory/ infrastructure
+- [x] **Refactor `src/optimization.py` to road-following distance** — `compute_coverage_gaps()` now uses per-route linear referencing (matching NB04); `place_stations_greedy()` marks coverage along-route then 2 km haversine for intersections. NB07 cell-6 diagnostic updated. `find_nearest_substation()` documented as intentionally haversine (grid cables ≠ roads).
 
 ## In Progress
 
@@ -33,7 +34,7 @@ _(none)_
 
 ## Pending — critical path
 
-- [ ] Run NB07 — Network Optimization (needs NB04 ✅ + NB06 ✅)
+- [ ] **Run NB07** — Network Optimization (▶️ ready — all deps met, road-following logic in place)
 - [ ] Run NB08 — Grid Viability & Friction Points (needs NB05 ✅ + NB07)
 - [ ] Run NB09 — Output Generation (needs NB08)
 - [ ] Run NB10 — Visualization Export (needs NB09)

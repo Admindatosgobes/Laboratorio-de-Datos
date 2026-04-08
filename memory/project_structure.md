@@ -4,25 +4,25 @@
 iberdrola-ev-network/
 ├── notebooks/                  # Main pipeline notebooks + auxiliary split-track notebooks
 │   ├── 01_data_ingestion_and_cleaning.ipynb   ✅ executed
-│   ├── 03_road_network_analysis.ipynb         ❌ malformed JSON
-│   ├── 04_existing_chargers_baseline.ipynb    ⚠️ present, not executed
-│   ├── 05_grid_capacity_consolidation.ipynb   ⚠️ present, not executed
-│   ├── 06_demand_modeling.ipynb               ⚠️ drafted, not executed
-│   ├── 06a_demand_deterministic.ipynb         ⚠️ auxiliary scaffold
-│   ├── 06b_abm_calibration.ipynb              ⚠️ auxiliary scaffold
-│   ├── 06c_abm_demand_simulation.ipynb        ⚠️ auxiliary scaffold
-│   ├── 06d_demand_reconciliation.ipynb        ⚠️ auxiliary scaffold
-│   ├── 07_network_optimization.ipynb          ⚠️ drafted, not executed
-│   ├── 07b_abm_validation.ipynb               ⚠️ auxiliary scaffold
-│   ├── 08_grid_viability_friction.ipynb       ⚠️ drafted, not executed
-│   ├── 09_output_generation.ipynb             ⚠️ drafted, not executed
-│   ├── 10_visualization_export.ipynb          ⚠️ drafted, not executed
+│   ├── 03_road_network_analysis.ipynb         ✅ executed (NB03 is valid JSON — earlier claim was wrong)
+│   ├── 04_existing_chargers_baseline.ipynb    ✅ executed — gap detection uses linear referencing
+│   ├── 05_grid_capacity_consolidation.ipynb   ✅ executed — 2,137 substations
+│   ├── 06_demand_modeling.ipynb               ✅ executed — demand_per_segment.csv (1,295 rows)
+│   ├── 06a_demand_deterministic.ipynb         ✅ implemented & executed — lower-bound baseline
+│   ├── 06b_abm_calibration.ipynb              ✅ implemented & executed — B1 sensitivity / SOC
+│   ├── 06c_abm_demand_simulation.ipynb        ✅ implemented & executed — Monte Carlo 2,000 agents
+│   ├── 06d_demand_reconciliation.ipynb        ✅ implemented & executed — NB06 designated authoritative
+│   ├── 07_network_optimization.ipynb          ▶️ ready to run — road-following refactor complete
+│   ├── 07b_abm_validation.ipynb               ⚠️ auxiliary scaffold (not in critical path)
+│   ├── 08_grid_viability_friction.ipynb       ⏳ pending NB07
+│   ├── 09_output_generation.ipynb             ⏳ pending NB08
+│   ├── 10_visualization_export.ipynb          ⏳ pending NB09
 │   └── test.ipynb                             ⚠️ exploratory notebook, decision pending
 │
 ├── src/                        # Shared Python modules
 │   ├── constants.py            ✅ Single source of truth (all params corrected)
 │   ├── abm_demand.py           ✅ ABM behavioral demand model (NEW)
-│   ├── optimization.py         ✅ Coverage gaps + greedy placement (implemented)
+│   ├── optimization.py         ✅ Coverage gaps + greedy placement — road-following distance (2026-04-08)
 │   ├── geo_utils.py            ✅ Substation matching + road snapping (implemented)
 │   ├── grid_analysis.py        ✅ Grid status classification (pre-existing)
 │   └── data_loading.py         ✅ Spanish locale CSV loading (pre-existing)
