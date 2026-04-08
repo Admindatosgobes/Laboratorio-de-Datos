@@ -461,12 +461,16 @@ def place_stations_greedy(
 
         # Secondary: 2 km haversine proximity for cross-route coverage at
         # road intersections (a single interchange may serve two routes).
+        # NOTE: must use BallTree's returned index array (second return value),
+        # not the sorted-distance positions — those are positional in the sorted
+        # result, not indices into gaps.index.
         station_coord = np.radians([[cand_lat, cand_lon]])
-        dists_rad, _ = BallTree(gap_mid_coords, metric='haversine').query(
+        dists_rad, bt_idxs = BallTree(gap_mid_coords, metric='haversine').query(
             station_coord, k=len(gaps)
         )
         dists_km = dists_rad[0] * 6371
-        covered_indices.update(gaps.index[np.where(dists_km <= 2.0)[0]].tolist())
+        close_bt_positions = bt_idxs[0][np.where(dists_km <= 2.0)[0]]
+        covered_indices.update(gaps.index[close_bt_positions].tolist())
 
         # Always mark the selected gap itself
         covered_indices.add(best_idx)
