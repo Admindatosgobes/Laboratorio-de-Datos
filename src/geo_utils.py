@@ -38,6 +38,11 @@ def find_nearest_substation(
     Uses sklearn BallTree with haversine metric for O(log n) lookups,
     consistent with the G3 spatial matching assumption.
 
+    NOTE: haversine (straight-line) distance is intentional here. Grid cable
+    connections do not follow road paths — they run via overhead lines or
+    underground cables that can cross any terrain. Road-following distance
+    would be incorrect for grid infrastructure matching.
+
     Connection distance tiers (D4):
       'optimal'    : ≤5 km  — direct LV/MV connection
       'feasible'   : 5–15 km — MV line extension (~€100–300K CAPEX)
