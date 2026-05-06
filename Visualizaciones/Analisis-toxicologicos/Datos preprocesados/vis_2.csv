@@ -1,0 +1,66 @@
+Droga,Tipo vehículo,Resultado positivo,Parque,Ratio
+Anfetamina y relacionados,camiones,0,2523194.0,0.0
+Anfetamina y relacionados,ciclomotores,0,1890396.0,0.0
+Anfetamina y relacionados,furgonetas,0,2522839.0,0.0
+Anfetamina y relacionados,motocicletas,6,3739213.0,1.6046157306363665e-06
+Anfetamina y relacionados,turismos,21,24780782.0,8.474308841423971e-07
+Antidepresivos,camiones,0,2523194.0,0.0
+Antidepresivos,ciclomotores,1,1890396.0,5.289896931648183e-07
+Antidepresivos,furgonetas,0,2522839.0,0.0
+Antidepresivos,motocicletas,16,3739213.0,4.278975281696977e-06
+Antidepresivos,turismos,52,24780782.0,2.0984002845430784e-06
+Antiepilépticos,camiones,0,2523194.0,0.0
+Antiepilépticos,ciclomotores,1,1890396.0,5.289896931648183e-07
+Antiepilépticos,furgonetas,0,2522839.0,0.0
+Antiepilépticos,motocicletas,5,3739213.0,1.3371797755303054e-06
+Antiepilépticos,turismos,16,24780782.0,6.45661626013255e-07
+Antipsicóticos,camiones,0,2523194.0,0.0
+Antipsicóticos,ciclomotores,0,1890396.0,0.0
+Antipsicóticos,furgonetas,0,2522839.0,0.0
+Antipsicóticos,motocicletas,1,3739213.0,2.674359551060611e-07
+Antipsicóticos,turismos,5,24780782.0,2.0176925812914218e-07
+Benzodiacepinas,camiones,2,2523194.0,7.926461461148053e-07
+Benzodiacepinas,ciclomotores,4,1890396.0,2.1159587726592734e-06
+Benzodiacepinas,furgonetas,5,2522839.0,1.981894207279973e-06
+Benzodiacepinas,motocicletas,32,3739213.0,8.557950563393955e-06
+Benzodiacepinas,turismos,73,24780782.0,2.9458311686854756e-06
+Cannabis,camiones,1,2523194.0,3.9632307305740265e-07
+Cannabis,ciclomotores,8,1890396.0,4.231917545318547e-06
+Cannabis,furgonetas,3,2522839.0,1.1891365243679838e-06
+Cannabis,motocicletas,57,3739213.0,1.5243849441045482e-05
+Cannabis,turismos,88,24780782.0,3.551138943072902e-06
+Cocaína,camiones,3,2523194.0,1.188969219172208e-06
+Cocaína,ciclomotores,7,1890396.0,3.702927852153729e-06
+Cocaína,furgonetas,7,2522839.0,2.7746518901919623e-06
+Cocaína,motocicletas,57,3739213.0,1.5243849441045482e-05
+Cocaína,turismos,108,24780782.0,4.358215975589471e-06
+Drogas,camiones,4,2523194.0,1.5852922922296106e-06
+Drogas,ciclomotores,14,1890396.0,7.405855704307458e-06
+Drogas,furgonetas,10,2522839.0,3.963788414559946e-06
+Drogas,motocicletas,103,3739213.0,2.7545903375924293e-05
+Drogas,turismos,174,24780782.0,7.021570182894148e-06
+Etanol,camiones,5,2523194.0,1.9816153652870133e-06
+Etanol,ciclomotores,17,1890396.0,8.992824783801913e-06
+Etanol,furgonetas,17,2522839.0,6.738440304751909e-06
+Etanol,motocicletas,161,3739213.0,4.3057188772075836e-05
+Etanol,turismos,292,24780782.0,1.1783324674741902e-05
+Ketamina,camiones,0,2523194.0,0.0
+Ketamina,ciclomotores,0,1890396.0,0.0
+Ketamina,furgonetas,0,2522839.0,0.0
+Ketamina,motocicletas,0,3739213.0,0.0
+Ketamina,turismos,0,24780782.0,0.0
+Opioides,camiones,0,2523194.0,0.0
+Opioides,ciclomotores,1,1890396.0,5.289896931648183e-07
+Opioides,furgonetas,2,2522839.0,7.927576829119892e-07
+Opioides,motocicletas,6,3739213.0,1.6046157306363665e-06
+Opioides,turismos,24,24780782.0,9.684924390198825e-07
+Opiáceos,camiones,0,2523194.0,0.0
+Opiáceos,ciclomotores,0,1890396.0,0.0
+Opiáceos,furgonetas,0,2522839.0,0.0
+Opiáceos,motocicletas,0,3739213.0,0.0
+Opiáceos,turismos,4,24780782.0,1.6141540650331374e-07
+Psicofármacos,camiones,2,2523194.0,7.926461461148053e-07
+Psicofármacos,ciclomotores,6,1890396.0,3.17393815898891e-06
+Psicofármacos,furgonetas,6,2522839.0,2.3782730487359677e-06
+Psicofármacos,motocicletas,44,3739213.0,1.1767182024666688e-05
+Psicofármacos,turismos,121,24780782.0,4.882816046725241e-06
