@@ -8,6 +8,10 @@ Este repositorio contiene **ejercicios prácticos de visualización de datos abi
  2. [Docentes de los centros educativos públicos de Castilla y León](https://datos.gob.es/es/documentacion/docentes-de-los-centros-educativos-publicos-de-castilla-y-leon)
  3. [¿Cuantos accidentes de tráfico ocurren en la ciudad de Madrid?](https://datos.gob.es/es/documentacion/cuantos-accidentes-ocurren-en-la-ciudad-de-madrid)
  4. [Cómo crear nubes de palabras a partir de un texto utilizando técnicas de PLN](https://datos.gob.es/es/documentacion/como-crear-nubes-de-palabras-partir-de-un-texto-utilizando-tecnicas-de-pln)
- 5. [Caracterización del alumnado de la Universidad española y titulaciones más demandadas](https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones/Caracterizaci%C3%B3n%20del%20alumnado%20de%20la%20Universidad%20espa%C3%B1ola%20y%20titulaciones%20m%C3%A1s%20demandadas)
- 6. [Análisis del estado y evolución de los embalses de agua nacionales](https://github.com/Admindatosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones/Estado%20embalses%20nacionales)
-
+ 5. [Caracterización del alumnado de la Universidad española y titulaciones más demandadas](https://datos.gob.es/es/documentacion/caracterizacion-del-alumnado-de-la-universidad-espanola-y-titulaciones-mas-demandadas)
+ 6. [Análisis del estado y evolución de los embalses de agua nacionales](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones/Estudio%20estado%20de%20los%20embalses%20nacionales)
+ 7. [Análisis de los resultados toxicológicos en los accidentes de tráfico](https://github.com/datosgobes/Laboratorio-de-Datos/tree/main/Visualizaciones/Analisis-toxicologicos)
+ 8. [Generación de mapa turístico personalizado con "Google My Maps"](https://datos.gob.es/es/documentacion/generacion-de-mapa-turistico-personalizado-con-google-my-maps)
+ 9. [Análisis de datos meteorológicos utilizando la librería "ggplot2"](https://datos.gob.es/es/documentacion/analisis-de-datos-meteorologicos-utilizando-la-libreria-ggplot2)
+ 10. [Estudio sobre la alimentación en los hogares españoles](https://datos.gob.es/es/documentacion/estudio-sobre-la-alimentacion-en-los-hogares-espanoles)
+ 11. [Análisis de redes sobre los viajes en bicicletas de BICIMAD](https://datos.gob.es/es/documentacion/analisis-de-redes-sobre-viajes-en-bicimad)
