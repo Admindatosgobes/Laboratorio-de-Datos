@@ -25,6 +25,21 @@ Las operaciones en detalle se pueden consultar en el notebook adjunto, desplegad
 
 https://colab.research.google.com/drive/1uVdMhhzfMzMxQBLlx2wMpYtZIILgsJ5M?usp=sharing
 
+## Visualización en KeplerGL
+
+Bien con el dataset original o con el que hemos obtenido del procesado en Python, podemos visualizar la información georreferenciada en KeplerGL de forma fácil e intuitiva. A través de esta herramienta seremos capaces de representar la información de diferentes formas, con elementos gráficos tales como: 
+
+*  Puntos
+*  Mallas
+*  Hexágonos
+*  Mapas de calor
+*  Tridimensional
+*  Filtros temporales
+
+La descripción de todos los pasos se encuentra en el ejercicio de datos en esta dirección:
+
+https://datos.gob.es/es/conocimiento/crea-tu-mapa-de-magnitudes-geograficas-con-keplergl
+
 ## Conclusiones y próximos pasos
 
 El mundo de la cartografía siempre ha necesitado de conocimientos previos sobre proyecciones, sistemas de referencia, formatos de datos georreferenciados  y sobre todo la instalación de software específico para crear mapas. Gracias al desarrollo de productos web uno de estos proyectos nos permite crear mapas de forma muy sencilla y puede suponer una herramienta muy potente a la hora de crear mapas sin necesidad de muchos conocimientos previos y con un alto grado de customización.  
