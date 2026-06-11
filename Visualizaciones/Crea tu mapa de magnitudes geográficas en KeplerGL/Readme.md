@@ -50,7 +50,7 @@ A partir de este punto se pueden explorar herramientas más sofisticadas que req
 
 La creación de mapas sencillos tiene muchos campos de aplicación, ya que la cartografía en general resulta ser una de las formas de visualización más claras y populares gracias a su uso desde el origen de la civilización. Los ámbitos propuestos incluyen:
 
-Redacciones de periodismo: reaccionar a eventos concretos tales como catástrofes naturales o grandes bases de datos de eventos georreferenciados puede ser más fácil gracias a herramientas como KeplerGL.
+*  Redacciones de periodismo: reaccionar a eventos concretos tales como catástrofes naturales o grandes bases de datos de eventos georreferenciados puede ser más fácil gracias a herramientas como KeplerGL.
 
-Corporaciones y empresas: localización de volúmenes asociados a puntos concretos de la geografía se puede leer de forma intuitiva con la creación de mapas que pueden resumir grandes cantidades de datos.  
+*  Corporaciones y empresas: localización de volúmenes asociados a puntos concretos de la geografía se puede leer de forma intuitiva con la creación de mapas que pueden resumir grandes cantidades de datos.  
 Aplicaciones: Integrar mapas dentro de las aplicaciones suele ayudar tanto en las capas tanto de información como en la de interactividad para explorar el rendimiento y resultado de un producto a diferentes escalas.  
