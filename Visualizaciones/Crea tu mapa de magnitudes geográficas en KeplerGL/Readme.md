@@ -21,7 +21,9 @@ Python nos permite hacer un sencillo procesado de los datos de entrada para sele
 3. Selección de fechas
 4. Exportar en formato .CSV
 
-Las operaciones en detalle se pueden consultar en el notebook adjunto. 
+Las operaciones en detalle se pueden consultar en el notebook adjunto, desplegado en GoogleColab aquí: 
+
+https://colab.research.google.com/drive/1uVdMhhzfMzMxQBLlx2wMpYtZIILgsJ5M?usp=sharing
 
 ## Conclusiones y próximos pasos
 
