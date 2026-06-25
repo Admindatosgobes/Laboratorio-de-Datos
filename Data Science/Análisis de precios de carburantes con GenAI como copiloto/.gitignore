@@ -1,0 +1,28 @@
+# Directorios de configuración interna (no publicar en GitHub)
+specs/
+.specify/
+tests/
+_auxiliar/
+.deprecated/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Entorno virtual Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de logs
+*.log
