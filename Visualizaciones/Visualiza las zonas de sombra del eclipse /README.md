@@ -2,12 +2,12 @@
 
 ## Descripción
 
-En este ejercicio realizamos la lectura y el procesado de ficheros .TIFF y .GPKG para el estudio de las zonas de sombra por relieve y por efecto del propio eclipse sobre la península ibérica con ayuda de Python. Para ello contamos con los datos que ofrece el CNIG para los eclipses solares que se producirán en la península en los próximos tres años y que son accesibles a través del catálogo de datos abiertos del portal datos.gob.es. 
+En este ejercicio realizamos la **lectura y el procesado de ficheros .TIFF y .GPKG** para el estudio de las zonas de sombra por relieve y por efecto del propio eclipse sobre la península ibérica con ayuda de Python. Para ello contamos con los datos que ofrece el CNIG para los **eclipses solares que se producirán en la península en los próximos tres años** y que son accesibles a través del catálogo de datos abiertos del portal datos.gob.es. 
 
-El ejercicio se desarrolla en dos pasos desarrollando código en Python que encontramos en los notebooks correspondientes de Google Colab. Los dos pasos son los siguientes: 
+El ejercicio se desarrolla en dos pasos desarrollando **código en Python** que encontramos en los notebooks correspondientes de Google Colab. Los dos pasos son los siguientes: 
 
-- Zonas de sombra por relieve y orografía del terreno: donde obtendremos tanto las zonas de sombra en toda la península como en un pequeño municipio concreto para explorar todo el espectro de valores de visibilidad.
-- Zonas de sombra por efecto del eclipse: donde haremos un recorrido por toda la trayectoria de la sombra sobre la península, deteniéndonos en un instante concreto para ver la forma geométrica de la proyección de la sombra sobre la superficie quasiesférica que es la Tierra.
+- Zonas de sombra por **relieve y orografía del terreno**: donde obtendremos tanto las zonas de sombra en toda la península como en un pequeño municipio concreto para explorar todo el espectro de valores de visibilidad.
+- **Zonas de sombra por efecto del eclipse**: donde haremos un recorrido por toda la trayectoria de la sombra sobre la península, deteniéndonos en un instante concreto para ver la forma geométrica de la proyección de la sombra sobre la superficie quasiesférica que es la Tierra.
 
 Por último, obtendremos todos los resultados en formato .geojson para poder crear mapas en otras herramientas diferentes de Python. 
 
@@ -33,7 +33,7 @@ En el segundo:
 
 ## Estructura de carpetas
 
-En este repositorio se pueden encontrar los dos notebooks desarrollados en Google Colab para realizar los dos pasos: 
+En este repositorio se pueden encontrar los **dos notebooks desarrollados en Google Colab** para realizar los dos pasos: 
 
 - https://colab.research.google.com/drive/1Zi7RxFQ1xk50BbNY1cBGlpIFEnlTMkvt?usp=sharing
 - https://colab.research.google.com/drive/1MXBMYzS5VBkHgsgr4b1G37rLcMjMPyFt?usp=sharing 
@@ -62,14 +62,14 @@ Para poder realizar el ejercicio en Python es necesario tener instaladas previam
 
 ## Conclusiones y próximos pasos 
 
-Este ejercicio de datos nos permite pasar de un formato de datos de entornos profesionales de sistemas de información geográfica a otros formatos más manejables para poder crear nuestros propios mapas.
+Este ejercicio de datos nos permite pasar de un formato de datos de entornos profesionales de sistemas de información geográfica a otros formatos más manejables para poder **crear nuestros propios mapas**.
 
-Asimismo, hemos visto cómo con unas pocas líneas de código podemos manipular los datos de entrada para focalizar sobre regiones de interés, seleccionar intervalos temporales determinados o customizar mapas a nuestro gusto y elección.  
+Asimismo, hemos visto cómo con unas pocas líneas de código podemos manipular los datos de entrada para **focalizar sobre regiones de interés, seleccionar intervalos temporales determinados o customizar mapas** a nuestro gusto y elección.  
 
 Los pasos siguientes que se proponen abarcan:  
 
-- Explorar los formatos NetCDF o KML/KMZ, también georreferenciados, para tener un mayor control y dominio sobre los formatos de datos más populares en cartografía y análisis geoespacial.  
+- Explorar los formatos **NetCDF o KML/KMZ**, también georreferenciados, para tener un mayor control y dominio sobre los formatos de datos más populares en cartografía y análisis geoespacial.  
 
-- Comparar las características astronómicas del eclipse de 2026 con los de 2027 y 2028, también disponibles en la base de datos del CNIG disponible en el portal de datos abiertos.  
+- Comparar las características astronómicas del eclipse de 2026 con los de **2027 y 2028**, también disponibles en la base de datos del CNIG disponible en el portal de datos abiertos.  
 
-- Representar las variables que no se han mostrado en este ejercicio como las efemérides o la duración, elevación, azimut, etc... de los cuerpos celestes implicados en el eclipse.  
+- Representar las variables que no se han mostrado en este ejercicio como las **efemérides o la duración, elevación, azimut**, etc... de los cuerpos celestes implicados en el eclipse.  
