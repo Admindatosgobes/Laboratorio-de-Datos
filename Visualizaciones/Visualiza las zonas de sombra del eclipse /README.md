@@ -40,14 +40,6 @@ En este repositorio se pueden encontrar los **dos notebooks desarrollados en Goo
 
 Igualmente, en la carpeta Data se pueden encontrar los ficheros del CNIG para el eclipse de 2026 así como la información perimetral de los municipios del País Vasco. 
 
-## Datasets utilizados 
-
-Los datasets utilizados en este ejercicio son los siguientes: 
-
-- **terrain_shadows_2026_3857_COG_DEF_OVERSx6_8704x8192.tif**: fichero donde se describe la visibilidad por relieve en una malla de puntos que cubre la peninsulapenínsula ibérica y la parte occidental del norte de África.
-- **eclipse_levels_2026.gpkg**: fichero que contiene la duración, el oscurecimiento máximo y las curvas de penumbra proyectadas desde la Luna sobre la Tierra.  
-- **10bands_2026_3857_COG.tiff**: fichero que alberga las efemérides del eclipse, tales como elevación, azimut, salida y puesta de Sol así como inicio y final del eclipse.  
-
 ## Librerías
 
 Para poder realizar el ejercicio en Python es necesario tener instaladas previamente las siguientes librerías: 
@@ -59,6 +51,18 @@ Para poder realizar el ejercicio en Python es necesario tener instaladas previam
 - **shapely**
 - **rasterio**
 - **xarray**
+
+## Datasets utilizados 
+
+El acceso a los datos del CNIG se realiza a través del **portal de datos abiertos**:
+
+https://datos.gob.es/es/catalogo/e00125901-https-centrodedescargas-cnig-es-centrodescargas-eclipses 
+
+Los datasets utilizados en este ejercicio son los siguientes: 
+
+- **terrain_shadows_2026_3857_COG_DEF_OVERSx6_8704x8192.tif**: fichero donde se describe la visibilidad por relieve en una malla de puntos que cubre la peninsulapenínsula ibérica y la parte occidental del norte de África.
+- **eclipse_levels_2026.gpkg**: fichero que contiene la duración, el oscurecimiento máximo y las curvas de penumbra proyectadas desde la Luna sobre la Tierra.  
+- **10bands_2026_3857_COG.tiff**: fichero que alberga las efemérides del eclipse, tales como elevación, azimut, salida y puesta de Sol así como inicio y final del eclipse.  
 
 ## Conclusiones y próximos pasos 
 
