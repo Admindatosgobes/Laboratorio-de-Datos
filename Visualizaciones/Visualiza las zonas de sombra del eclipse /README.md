@@ -2,6 +2,10 @@
 
 ## Descripción
 
+Este repositorio ofrece toda la información necesaria para la realización del ejercicio de datos del portal datos.gob.es sobre el eclipse de 2026 sobre la península ibérica: 
+
+https://datos.gob.es/es/conocimiento/visualiza-las-zonas-de-sombra-del-eclipse-total-de-2026
+
 En este ejercicio realizamos la **lectura y el procesado de ficheros .TIFF y .GPKG** para el estudio de las zonas de sombra por relieve y por efecto del propio eclipse sobre la península ibérica con ayuda de Python. Para ello contamos con los datos que ofrece el CNIG para los **eclipses solares que se producirán en la península en los próximos tres años** y que son accesibles a través del catálogo de datos abiertos del portal datos.gob.es. 
 
 El ejercicio se desarrolla en dos pasos desarrollando **código en Python** que encontramos en los notebooks correspondientes de Google Colab. Los dos pasos son los siguientes: 
