@@ -12,7 +12,7 @@ Además de la lectura y análisis de los datos, se realiza igualmente una **conv
 
 Los **objetivos a cubrir** por este ejercicio de datos son los siguientes: 
 
--Lectura de ficheros .txt y .csv 
+- Lectura de ficheros .txt y .csv 
 - Estructuración de los datos en DataFrames de Pandas 
 - Filtrado de datos para  seleccionar periodos de tiempo, propiedades  o áreas concretas 
 - Conversión de formatos y generación de archivos de salida en formato .geojson 
