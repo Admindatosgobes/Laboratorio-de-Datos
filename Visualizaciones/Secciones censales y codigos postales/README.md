@@ -1,4 +1,4 @@
-# De las secciones censales a los códigos postales: análisis de instalaciones deportivas y nivel de renta en Sevilla 
+# De las secciones censales a los códigos postales: análisis de instalaciones deportivas
 
 ## Descripción
 
